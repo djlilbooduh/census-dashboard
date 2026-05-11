@@ -20,13 +20,13 @@ header .sub{color:var(--mu);font-size:.75rem}
 .tabs{display:flex;justify-content:center;gap:.25rem;max-width:1200px;margin:.75rem auto 0;padding:0 2rem}
 .tab{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.45rem 1.2rem;border-radius:6px 6px 0 0;font-size:.78rem;cursor:pointer;transition:all .15s;border-bottom:none}
 .tab:hover{color:var(--tx)}.tab.active{background:var(--ac);color:#000;border-color:var(--ac);font-weight:600}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:.75rem;max-width:1200px;margin:1rem auto;padding:0 1.5rem}
-.card{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1.25rem;transition:border-color .2s}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;max-width:1200px;margin:1rem auto;padding:0 1.5rem}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1.5rem;transition:border-color .2s}
 .card:hover{border-color:var(--ac);box-shadow:0 0 16px rgba(79,195,247,.05)}
 .card h2{font-size:.8rem;color:var(--ac);margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.5px}
 .big-num{font-size:2rem;font-weight:700;color:var(--ac);font-family:'SF Mono','Cascadia Code',monospace;margin-bottom:.2rem}
 .big-label{font-size:.68rem;color:var(--mu);text-transform:uppercase;letter-spacing:.5px}
-.stat-row{display:flex;justify-content:space-between;align-items:center;padding:.35rem 0;font-size:.78rem}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:.45rem 0;font-size:.78rem}
 .stat-label{color:var(--mu)}.stat-val{font-weight:600;font-family:'SF Mono',monospace}
 .stat-sub{font-size:.65rem;color:var(--mu)}
 .bar-bg{height:4px;background:rgba(255,255,255,.05);border-radius:2px;margin:.25rem 0 .5rem;overflow:hidden}
@@ -41,6 +41,16 @@ header .sub{color:var(--mu);font-size:.75rem}
 .vote-bar-gop{background:#ff5252;height:100%;border-radius:0 5px 5px 0}
 .race-pct{width:55px;font-size:.76rem;font-weight:600;font-family:'SF Mono',monospace;flex-shrink:0}
 .race-count{width:75px;font-size:.68rem;color:var(--mu);flex-shrink:0;text-align:right}
+.voting-section{max-width:960px;margin:0 auto 2.5rem;padding:0 1rem}
+.voting-section h2{font-size:.9rem;color:var(--ac);text-transform:uppercase;letter-spacing:.5px;margin-bottom:1rem}
+.voting-table{width:100%;border-collapse:collapse;font-size:.78rem}
+.voting-table th{color:var(--mu);text-transform:uppercase;font-size:.64rem;letter-spacing:.4px;padding:.6rem .8rem;text-align:center;border-bottom:1px solid var(--bd)}
+.voting-table td{padding:.55rem .8rem;text-align:center;border-bottom:1px solid rgba(255,255,255,.04);font-size:.76rem}
+.voting-table .col-left{text-align:left;font-weight:600;color:var(--tx)}
+.voting-table .dem{color:#4fc3f7}.voting-table .gop{color:#ff5252}.voting-table .other{color:var(--mu)}
+.voting-table .highlight-row{background:rgba(79,195,247,.04)}
+.voting-desc{font-size:.7rem;color:var(--mu);margin-bottom:1rem}
+.voting-source{font-size:.65rem;color:var(--mu);margin-top:1rem}
 .vote-table{max-width:1200px;margin:1rem auto;padding:0 1.5rem}
 .vote-table table{width:100%;border-collapse:collapse;font-size:.74rem}
 .vote-table th{color:var(--mu);text-transform:uppercase;font-size:.62rem;letter-spacing:.4px;padding:.5rem .6rem;text-align:center;border-bottom:1px solid var(--bd)}
@@ -48,8 +58,8 @@ header .sub{color:var(--mu);font-size:.75rem}
 .vote-table .race-col{text-align:left;color:var(--tx);font-weight:500}
 .vote-table .dem{color:#4fc3f7}.vote-table .gop{color:#ff5252}.vote-table .other{color:var(--mu)}
 .vote-table .highlight-row{background:rgba(79,195,247,.04)}
-.year-selector{display:flex;justify-content:center;gap:.4rem;margin-bottom:.75rem}
-.year-btn{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.3rem 1rem;border-radius:5px;font-size:.74rem;cursor:pointer;transition:all .15s}
+.year-selector{display:flex;justify-content:center;gap:.4rem;margin-bottom:2rem}
+.year-btn{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.35rem 1.2rem;border-radius:5px;font-size:.78rem;cursor:pointer;transition:all .15s}
 .year-btn:hover{color:var(--tx)}.year-btn.active{background:var(--ac);color:#000;border-color:var(--ac);font-weight:600}
 .city-search{position:relative;max-width:500px;margin:.75rem auto}
 .city-search input{width:100%;background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:.45rem .9rem;border-radius:6px;font-size:.78rem;outline:none}
@@ -75,7 +85,57 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
   <div class="sub">US Census ACS 2023 · FBI CDE Arrest Data 2022 · Presidential Elections 2016–2024</div>
   <div id="stateBar">
     <select id="stateSelect" onchange="selectState(this.value)">
-      <option value="AK">Alaska</option>      <option value="AL">Alabama</option>      <option value="AR">Arkansas</option>      <option value="AZ">Arizona</option>      <option value="CA">California</option>      <option value="CO">Colorado</option>      <option value="CT">Connecticut</option>      <option value="DE">Delaware</option>      <option value="FL">Florida</option>      <option value="GA">Georgia</option>      <option value="HI">Hawaii</option>      <option value="IA">Iowa</option>      <option value="ID">Idaho</option>      <option value="IL">Illinois</option>      <option value="IN">Indiana</option>      <option value="KS">Kansas</option>      <option value="KY">Kentucky</option>      <option value="LA">Louisiana</option>      <option value="MA">Massachusetts</option>      <option value="MD">Maryland</option>      <option value="ME">Maine</option>      <option value="MI">Michigan</option>      <option value="MN">Minnesota</option>      <option value="MO">Missouri</option>      <option value="MS">Mississippi</option>      <option value="MT">Montana</option>      <option value="NC">North Carolina</option>      <option value="ND">North Dakota</option>      <option value="NE">Nebraska</option>      <option value="NH">New Hampshire</option>      <option value="NJ">New Jersey</option>      <option value="NM">New Mexico</option>      <option value="NV">Nevada</option>      <option value="NY">New York</option>      <option value="OH">Ohio</option>      <option value="OK">Oklahoma</option>      <option value="OR">Oregon</option>      <option value="PA">Pennsylvania</option>      <option value="RI">Rhode Island</option>      <option value="SC">South Carolina</option>      <option value="SD">South Dakota</option>      <option value="TN">Tennessee</option>      <option value="TX">Texas</option>      <option value="UT">Utah</option>      <option value="VA">Virginia</option>      <option value="VT">Vermont</option>      <option value="WA">Washington</option>      <option value="WI">Wisconsin</option>      <option value="WV">West Virginia</option>      <option value="WY">Wyoming</option>
+      <option value="AK">Alaska</option>
+      <option value="AL">Alabama</option>
+      <option value="AR">Arkansas</option>
+      <option value="AZ">Arizona</option>
+      <option value="CA">California</option>
+      <option value="CO">Colorado</option>
+      <option value="CT">Connecticut</option>
+      <option value="DE">Delaware</option>
+      <option value="FL">Florida</option>
+      <option value="GA">Georgia</option>
+      <option value="HI">Hawaii</option>
+      <option value="IA">Iowa</option>
+      <option value="ID">Idaho</option>
+      <option value="IL">Illinois</option>
+      <option value="IN">Indiana</option>
+      <option value="KS">Kansas</option>
+      <option value="KY">Kentucky</option>
+      <option value="LA">Louisiana</option>
+      <option value="MA">Massachusetts</option>
+      <option value="MD">Maryland</option>
+      <option value="ME">Maine</option>
+      <option value="MI">Michigan</option>
+      <option value="MN">Minnesota</option>
+      <option value="MO">Missouri</option>
+      <option value="MS">Mississippi</option>
+      <option value="MT">Montana</option>
+      <option value="NC">North Carolina</option>
+      <option value="ND">North Dakota</option>
+      <option value="NE">Nebraska</option>
+      <option value="NH">New Hampshire</option>
+      <option value="NJ">New Jersey</option>
+      <option value="NM">New Mexico</option>
+      <option value="NV">Nevada</option>
+      <option value="NY">New York</option>
+      <option value="OH">Ohio</option>
+      <option value="OK">Oklahoma</option>
+      <option value="OR">Oregon</option>
+      <option value="PA">Pennsylvania</option>
+      <option value="RI">Rhode Island</option>
+      <option value="SC">South Carolina</option>
+      <option value="SD">South Dakota</option>
+      <option value="TN">Tennessee</option>
+      <option value="TX">Texas</option>
+      <option value="UT">Utah</option>
+      <option value="VA">Virginia</option>
+      <option value="VT">Vermont</option>
+      <option value="WA">Washington</option>
+      <option value="WI">Wisconsin</option>
+      <option value="WV">West Virginia</option>
+      <option value="WY">Wyoming</option>
+
     </select>
     <span id="stateInfo" class="st-info">Loading…</span>
     <a id="mapLink" class="st-link" href="#" target="_blank">🗺️ State Map</a>
@@ -113,7 +173,7 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 </footer>
 
 <script>
-// ════════ STATE MANAGEMENT ════════
+// ════════ STATE MANAGEMENT ═══════=
 const STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming"};
 let currentState = 'CA';
 let currentCity = 'Los Angeles city, California';
@@ -126,6 +186,9 @@ let cityCountyMap = {};
 let arrestData = {};
 let crimeLoaded = false;
 let currentTab = 'census';
+let currentNationalYear = '2024';
+let cityCountyReady = false;
+let activeIdx = -1;
 
 function getDataURL(st, type) {
   const prefix = st.toLowerCase();
@@ -137,12 +200,11 @@ function getDataURL(st, type) {
 
 async function loadStateData(st) {
   currentState = st;
-  document.getElementById('stateInfo').textContent = 'Loading ' + STATES[st] + '…';
-  document.getElementById('citySearch').placeholder = '🔍 Loading cities…';
+  document.getElementById('stateInfo').textContent = 'Loading ' + STATES[st] + '\u2026';
+  document.getElementById('citySearch').placeholder = '\U0001f50d Loading cities\u2026';
   document.getElementById('mapLink').href = st.toLowerCase() + '_map.html';
   
   try {
-    // Load census data
     const cr = await fetch(getDataURL(st, 'census') + '?t=' + Date.now());
     const census = await cr.json();
     allCityData = census.cities || {};
@@ -151,29 +213,22 @@ async function loadStateData(st) {
     currentCity = allCityKeys[0] || '';
     
     const n = allCityKeys.length;
-    document.getElementById('citySearch').placeholder = '🔍 Search ' + n + ' cities in ' + STATES[st] + '…';
+    document.getElementById('citySearch').placeholder = '\U0001f50d Search ' + n + ' cities in ' + STATES[st] + '\u2026';
     document.getElementById('stateInfo').textContent = n + ' cities';
     
-    // Reset crime
     crimeLoaded = false;
     arrestData = {};
     document.getElementById('crimeContainer').innerHTML = '';
     
-    // Load voting data
     try {
       const vr = await fetch(getDataURL(st, 'voting') + '?t=' + Date.now());
       const vdata = await vr.json();
       countyVoting = vdata.counties || vdata || {};
-      
-      // Build county name lookup for city->county matching
       if (vdata.counties) {
         const firstKey = Object.keys(vdata.counties)[0];
-        // Detect if keys are FIPS or names
-        if (firstKey && firstKey.match(/^\d{5}$/)) {
-          // FIPS-keyed - build name lookup from county fields
+        if (firstKey && firstKey.match(/^\\d{5}$/)) {
           countyData = { counties: vdata.counties, keyType: 'fips' };
         } else {
-          // Name-keyed
           countyData = { counties: vdata.counties, keyType: 'name' };
         }
       }
@@ -182,25 +237,17 @@ async function loadStateData(st) {
       countyData = null;
     }
     
-    // Render with first city
-    if (currentCity) {
-      renderCurrentCity();
-    }
-    
-    // Save state to URL hash
+    if (currentCity) renderCurrentCity();
     window.location.hash = st;
     
   } catch(e) {
-    document.getElementById('stateInfo').textContent = '⚠️ Error loading ' + STATES[st];
-    document.getElementById('popCards').innerHTML = '<div class="card loading-msg"><p>⚠️ Could not load data for ' + STATES[st] + '</p><p style="font-size:.72rem">' + e.message + '</p></div>';
+    document.getElementById('stateInfo').textContent = '\u26a0\ufe0f Error loading ' + STATES[st];
+    document.getElementById('popCards').innerHTML = '<div class="card loading-msg"><p>\u26a0\ufe0f Could not load data for ' + STATES[st] + '</p><p style="font-size:.72rem">' + e.message + '</p></div>';
   }
 }
 
-function selectState(st) {
-  loadStateData(st);
-}
+function selectState(st) { loadStateData(st); }
 
-// ════════ CITY SELECTION ════════
 function cleanCityName(full) {
   return full.replace(/\s+(city|town|CDP|village|borough|municipality),\s*\w+$/i, '');
 }
@@ -213,13 +260,11 @@ function renderCurrentCity() {
     document.getElementById('popCards').innerHTML = '<div class="card loading-msg">No data available</div>';
     return;
   }
-  
   if (currentTab === 'census') renderCensus();
   else if (currentTab === 'crime') renderCrime();
-  else if (currentTab === 'voting') renderVoting('2024');
+  else if (currentTab === 'voting') renderVoting(currentNationalYear);
 }
 
-// ════════ TAB SWITCHING ════════
 function showTab(tab) {
   currentTab = tab;
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -229,159 +274,84 @@ function showTab(tab) {
   document.getElementById('tabCensus').style.display = tab === 'census' ? '' : 'none';
   document.getElementById('tabCrime').style.display = tab === 'crime' ? '' : 'none';
   document.getElementById('tabVoting').style.display = tab === 'voting' ? '' : 'none';
-  
-  if (currentCity && allCityData[currentCity]) {
-    renderCurrentCity();
-  }
-  
-  if (tab === 'crime' && !crimeLoaded) {
-    loadCrimeData();
-  }
+  if (currentCity && allCityData[currentCity]) renderCurrentCity();
+  if (tab === 'crime' && !crimeLoaded) loadCrimeData();
 }
 
-// ════════ CENSUS TAB ════════
 function renderCensus() {
   const d = allCityData[currentCity];
   if (!d) return;
-  
   document.getElementById('popCards').innerHTML = `
-    <div class="card" style="text-align:center">
-      <div class="big-label">Total Population</div>
-      <div class="big-num">${fmt(d.population?.total || 0)}</div>
-      <div class="stat-sub">${cleanCityName(currentCity)} · ACS ${d.year || '2023'}</div>
-    </div>
-    <div class="card" style="text-align:center">
-      <div class="big-label">Voting Age (18+)</div>
-      <div class="big-num">${fmt(d.population?.voting_age || 0)}</div>
-      <div class="stat-sub">${d.population?.voting_age_pct || 0}% of population</div>
-    </div>
-    <div class="card" style="text-align:center">
-      <div class="big-label">Median Income</div>
-      <div class="big-num">$${fmt(d.economics?.median_household_income || 0)}</div>
-      <div class="stat-sub">${d.year || '2023'} inflation-adjusted</div>
-    </div>
-    <div class="card" style="text-align:center">
-      <div class="big-label">Poverty Rate</div>
-      <div class="big-num" style="color:var(--cf)">${d.economics?.poverty_pct || 0}%</div>
-      <div class="stat-sub">${fmt(d.economics?.poverty_count || 0)} below poverty line</div>
-    </div>`;
-  
-  // Race bars
+    <div class="card" style="text-align:center"><div class="big-label">Total Population</div><div class="big-num">${fmt(d.population?.total || 0)}</div><div class="stat-sub">${cleanCityName(currentCity)} · ACS ${d.year || '2023'}</div></div>
+    <div class="card" style="text-align:center"><div class="big-label">Voting Age (18+)</div><div class="big-num">${fmt(d.population?.voting_age || 0)}</div><div class="stat-sub">${d.population?.voting_age_pct || 0}% of population</div></div>
+    <div class="card" style="text-align:center"><div class="big-label">Median Income</div><div class="big-num">$${fmt(d.economics?.median_household_income || 0)}</div><div class="stat-sub">${d.year || '2023'} inflation-adjusted</div></div>
+    <div class="card" style="text-align:center"><div class="big-label">Poverty Rate</div><div class="big-num" style="color:var(--cf)">${d.economics?.poverty_pct || 0}%</div><div class="stat-sub">${fmt(d.economics?.poverty_count || 0)} below poverty line</div></div>`;
   const race = d.race || [];
   const colors = ['#4fc3f7','#ffab40','#66bb6a','#ff5252','#ce93d8','#8888aa','#80cbc4','#a1887f'];
-  let rh = '<div class="card"><h2>🧑 Race & Ethnicity — ' + cleanCityName(currentCity) + '</h2>';
+  let rh = '<div class="card"><h2>\U0001f9d1 Race & Ethnicity — ' + cleanCityName(currentCity) + '</h2>';
   race.forEach((r, i) => {
     const c = r.color || colors[i % colors.length];
-    rh += `<div class="race-bar-row"><div class="race-label">${r.group}</div>
-      <div class="race-bar-track"><div class="race-bar-fill" style="width:${r.pct}%;background:${c};color:${r.pct>10?'#fff':c}">${r.pct>=5?r.pct+'%':''}</div></div>
-      <div class="race-pct" style="color:${c}">${r.pct}%</div>
-      <div class="race-count">${fmt(r.count)}</div></div>`;
+    rh += '<div class="race-bar-row"><div class="race-label">' + r.group + '</div><div class="race-bar-track"><div class="race-bar-fill" style="width:' + r.pct + '%;background:' + c + ';color:' + (r.pct>10?'#fff':c) + '">' + (r.pct>=5?r.pct+'%':'') + '</div></div><div class="race-pct" style="color:' + c + '">' + r.pct + '%</div><div class="race-count">' + fmt(r.count) + '</div></div>';
   });
   rh += '</div>';
   document.getElementById('raceSection').innerHTML = rh;
-  
-  // Economics + Education
   const edu = d.education || {};
   const eduTotal = edu.bachelors_or_higher || 0;
   const popEst = (d.population?.total || 1) * 0.75;
   const eduPct = popEst > 0 ? (eduTotal / popEst * 100).toFixed(1) : 0;
-  
-  document.getElementById('detailGrid').innerHTML = `
-    <div class="card"><h2>💰 Economics</h2>
-      <div class="stat-row"><span class="stat-label">Median Income</span><span class="stat-val" style="color:var(--ac)">$${fmt(d.economics?.median_household_income || 0)}</span></div>
-      <div class="stat-row" style="margin-top:.6rem"><span class="stat-label">Below Poverty</span><span class="stat-val" style="color:var(--cf)">${d.economics?.poverty_pct || 0}%</span></div>
-      <div class="bar-bg"><div class="bar-fill" style="width:${(d.economics?.poverty_pct||0)*5}%;background:var(--cf)"></div></div>
-      <div class="stat-row"><span class="stat-label">In poverty</span><span class="stat-val">${fmt(d.economics?.poverty_count || 0)}</span></div></div>
-    <div class="card"><h2>🎓 Education (25+)</h2>
-      <div class="stat-row"><span class="stat-label">Bachelor's+</span><span class="stat-val" style="color:var(--ac)">${fmt(eduTotal)}</span></div>
-      <div class="bar-bg"><div class="bar-fill" style="width:${Math.min(100,eduPct)}%;background:var(--ac)"></div></div>
-      <div class="stat-row"><span class="stat-label">Bachelor's</span><span class="stat-val">${fmt(edu.bachelors_only || 0)}</span></div>
-      <div class="stat-row"><span class="stat-label">Master's</span><span class="stat-val">${fmt(edu.masters || 0)}</span></div>
-      <div class="stat-row"><span class="stat-label">Professional</span><span class="stat-val">${fmt(edu.professional || 0)}</span></div>
-      <div class="stat-row"><span class="stat-label">Doctorate</span><span class="stat-val">${fmt(edu.doctorate || 0)}</span></div></div>`;
+  document.getElementById('detailGrid').innerHTML = '<div class="card"><h2>\U0001f4b0 Economics</h2><div class="stat-row"><span class="stat-label">Median Income</span><span class="stat-val" style="color:var(--ac)">$' + fmt(d.economics?.median_household_income || 0) + '</span></div><div class="stat-row" style="margin-top:.6rem"><span class="stat-label">Below Poverty</span><span class="stat-val" style="color:var(--cf)">' + (d.economics?.poverty_pct || 0) + '%</span></div><div class="bar-bg"><div class="bar-fill" style="width:' + ((d.economics?.poverty_pct||0)*5) + '%;background:var(--cf)"></div></div><div class="stat-row"><span class="stat-label">In poverty</span><span class="stat-val">' + fmt(d.economics?.poverty_count || 0) + '</span></div></div><div class="card"><h2>\U0001f393 Education (25+)</h2><div class="stat-row"><span class="stat-label">Bachelor\'s+</span><span class="stat-val" style="color:var(--ac)">' + fmt(eduTotal) + '</span></div><div class="bar-bg"><div class="bar-fill" style="width:' + Math.min(100,eduPct) + '%;background:var(--ac)"></div></div><div class="stat-row"><span class="stat-label">Bachelor\'s</span><span class="stat-val">' + fmt(edu.bachelors_only || 0) + '</span></div><div class="stat-row"><span class="stat-label">Master\'s</span><span class="stat-val">' + fmt(edu.masters || 0) + '</span></div><div class="stat-row"><span class="stat-label">Professional</span><span class="stat-val">' + fmt(edu.professional || 0) + '</span></div><div class="stat-row"><span class="stat-label">Doctorate</span><span class="stat-val">' + fmt(edu.doctorate || 0) + '</span></div></div>';
 }
 
-// ════════ CRIME TAB ════════
 async function loadCrimeData() {
   if (crimeLoaded) return;
-  document.getElementById('crimeContainer').innerHTML = '<div class="loading-msg">🔄 Loading arrest data for ' + STATES[currentState] + '…</div>';
-  
+  document.getElementById('crimeContainer').innerHTML = '<div class="loading-msg">\U0001f504 Loading arrest data for ' + STATES[currentState] + '\u2026</div>';
   try {
     const r = await fetch(getDataURL(currentState, 'arrest') + '?t=' + Date.now());
     const raw = await r.json();
-    // Normalize: arrest files store data under 'cities' key
     arrestData = raw.cities || raw || {};
     crimeLoaded = true;
     if (currentTab === 'crime') renderCrime();
   } catch(e) {
-    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🛡️ Crime</h2><p style="color:var(--mu)">Could not load arrest data for ' + STATES[currentState] + '</p><p style="color:var(--mu);font-size:.7rem">' + e.message + '</p></div>';
+    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>\U0001f6e1\ufe0f Crime</h2><p style="color:var(--mu)">Could not load arrest data for ' + STATES[currentState] + '</p><p style="color:var(--mu);font-size:.7rem">' + e.message + '</p></div>';
   }
 }
 
 function renderCrime() {
   if (!crimeLoaded) { loadCrimeData(); return; }
-  
   const a = arrestData[currentCity];
   if (!a || a.total_arrests === 0 || a.note) {
-    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🛡️ Crime & Safety</h2><p style="color:var(--mu);margin-top:.5rem">No arrest data for ' + cleanCityName(currentCity) + '</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">Small cities often contract with county sheriffs and do not report independently to the FBI.</p></div>';
+    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>\U0001f6e1\ufe0f Crime & Safety</h2><p style="color:var(--mu);margin-top:.5rem">No arrest data for ' + cleanCityName(currentCity) + '</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">Small cities often contract with county sheriffs and do not report independently to the FBI.</p></div>';
     return;
   }
-  
   let html = '';
-  
-  // Summary card
   const total = a.total_arrests || 0;
   const pop = allCityData[currentCity]?.population?.total || 1;
   const rate = (total / pop * 1000).toFixed(1);
   const sex = a.sex || {};
-  
-  html += '<div class="grid"><div class="card" style="text-align:center">';
-  html += '<div class="big-label">Total Arrests (2022)</div><div class="big-num">' + fmt(total) + '</div>';
-  html += '<div class="stat-sub">' + rate + ' per 1,000 residents</div></div>';
-  html += '<div class="card" style="text-align:center"><div class="big-label">Male Arrests</div><div class="big-num">' + fmt(sex.Male || 0) + '</div></div>';
-  html += '<div class="card" style="text-align:center"><div class="big-label">Female Arrests</div><div class="big-num">' + fmt(sex.Female || 0) + '</div></div>';
-  html += '</div>';
-  
-  // Race breakdown
+  html += '<div class="grid"><div class="card" style="text-align:center"><div class="big-label">Total Arrests (2022)</div><div class="big-num">' + fmt(total) + '</div><div class="stat-sub">' + rate + ' per 1,000 residents</div></div><div class="card" style="text-align:center"><div class="big-label">Male Arrests</div><div class="big-num">' + fmt(sex.Male || 0) + '</div></div><div class="card" style="text-align:center"><div class="big-label">Female Arrests</div><div class="big-num">' + fmt(sex.Female || 0) + '</div></div></div>';
   const race = a.race || {};
-  const raceColors = {'White':'#4fc3f7','Black or African American':'#ff5252','Asian':'#66bb6a',
-    'American Indian or Alaska Native':'#a1887f','Native Hawaiian or Other Pacific Islander':'#80cbc4',
-    'Unknown':'#8888aa','Multiple':'#ce93d8','Not Specified':'#8888aa'};
-  
+  const raceColors = {'White':'#4fc3f7','Black or African American':'#ff5252','Asian':'#66bb6a','American Indian or Alaska Native':'#a1887f','Native Hawaiian or Other Pacific Islander':'#80cbc4','Unknown':'#8888aa','Multiple':'#ce93d8','Not Specified':'#8888aa'};
   if (Object.keys(race).length > 0) {
     const raceSorted = Object.entries(race).sort((a,b) => b[1] - a[1]);
     const raceTotal = raceSorted.reduce((s, r) => s + r[1], 0) || 1;
-    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>🧑 Arrest Demographics by Race</h2>';
+    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>\U0001f9d1 Arrest Demographics by Race</h2>';
     raceSorted.forEach(([g, c]) => {
       const pct = (c / raceTotal * 100).toFixed(1);
       const color = raceColors[g] || '#888';
-      html += '<div class="race-bar-row"><div class="race-label">' + g + '</div>';
-      html += '<div class="race-bar-track"><div class="race-bar-fill" style="width:' + Math.max(1,parseFloat(pct)) + '%;background:' + color + ';color:' + (parseFloat(pct)>10?'#fff':color) + '">' + (parseFloat(pct)>=5?pct+'%':'') + '</div></div>';
-      html += '<div class="race-pct" style="color:' + color + '">' + pct + '%</div>';
-      html += '<div class="race-count">' + fmt(c) + '</div></div>';
+      html += '<div class="race-bar-row"><div class="race-label">' + g + '</div><div class="race-bar-track"><div class="race-bar-fill" style="width:' + Math.max(1,parseFloat(pct)) + '%;background:' + color + ';color:' + (parseFloat(pct)>10?'#fff':color) + '">' + (parseFloat(pct)>=5?pct+'%':'') + '</div></div><div class="race-pct" style="color:' + color + '">' + pct + '%</div><div class="race-count">' + fmt(c) + '</div></div>';
     });
     html += '</div>';
   }
-  
-  // Top offenses
   const offenses = a.offenses || a.offense_categories || {};
   if (Object.keys(offenses).length > 0) {
     const topOff = Object.entries(offenses).sort((a,b) => b[1] - a[1]).slice(0, 10);
-    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>📋 Top Offense Categories</h2>';
-    topOff.forEach(([cat, cnt]) => {
-      html += '<div class="stat-row"><span class="stat-label">' + cat + '</span><span class="stat-val">' + fmt(cnt) + '</span></div>';
-    });
+    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>\U0001f4cb Top Offense Categories</h2>';
+    topOff.forEach(([cat, cnt]) => { html += '<div class="stat-row"><span class="stat-label">' + cat + '</span><span class="stat-val">' + fmt(cnt) + '</span></div>'; });
     html += '</div>';
   }
-  
-  html += '<div style="text-align:center;color:var(--mu);font-size:.62rem;margin:1rem">';
-  html += 'Source: FBI Crime Data Explorer · 2022 data · ORI: ' + (a.ori || 'N/A') + '</div>';
-  
+  html += '<div style="text-align:center;color:var(--mu);font-size:.62rem;margin:1rem">Source: FBI Crime Data Explorer · 2022 · ORI: ' + (a.ori || 'N/A') + '</div>';
   document.getElementById('crimeContainer').innerHTML = html;
 }
-
-// ════════ VOTING TAB ════════
-let currentNationalYear = '2024';
 
 const NATIONAL_VOTE = {
   2016: {popular:"Clinton 48.2% · Trump 46.1% · Other 5.7%", total:"136.7M", turnout:"60.1%",
@@ -395,29 +365,17 @@ const NATIONAL_VOTE = {
 function findCountyVote() {
   if (!cityCountyReady) return null;
   const stMap = cityCountyMap[currentState] || {};
-  // Try city name in "City, ST" format first (from map data)
   const shortName = cleanCityName(currentCity) + ', ' + currentState;
   const countyInfo = stMap[shortName] || stMap[currentCity];
-  
   if (!countyInfo || !countyData) return null;
-  
   const countyFips = countyInfo.county_fips || '';
-  
-  // Try FIPS lookup
-  if (countyData.keyType === 'fips' && countyFips) {
-    return countyData.counties[countyFips] || null;
-  }
-  
-  // Try name lookup
+  if (countyData.keyType === 'fips' && countyFips) return countyData.counties[countyFips] || null;
   const countyName = countyInfo.county || '';
   if (countyName && countyData.counties) {
     for (const [k, v] of Object.entries(countyData.counties)) {
-      if (k.includes(countyName) || (v.name || '').includes(countyName)) {
-        return v;
-      }
+      if (k.includes(countyName) || (v.name || '').includes(countyName)) return v;
     }
   }
-  
   return null;
 }
 
@@ -431,113 +389,110 @@ function renderVoting(year) {
   if (cv && cv.presidential && cv.presidential[year]) cp = cv.presidential[year];
   const reg = cv && cv.registration ? cv.registration : null;
   
-  // ── Year Selector ──
-  let html = '<div class="year-selector">';
+  let html = '<div class="year-selector" style="margin-bottom:2rem">';
   Object.keys(NATIONAL_VOTE).forEach(y => {
     html += '<div class="year-btn' + (y==year?' active':'') + '" data-year="' + y + '" onclick="renderVoting(this.dataset.year)">' + y + ' Election</div>';
   });
   html += '</div>';
   
-  // ── County Results ──
+  // County Section
   if (cp) {
     const margin = (cp.dem_pct||0) - (cp.gop_pct||0);
     const lean = margin > 0 ? 'D+' + margin.toFixed(1) : 'R+' + Math.abs(margin).toFixed(1);
     const leanColor = margin > 0 ? 'var(--ac)' : 'var(--sc)';
-    const demW = Math.max(2, cp.dem_pct||0);
-    const gopW = Math.max(2, cp.gop_pct||0);
-    const total = demW + gopW + (cp.other_pct||0);
-    const demBarW = (cp.dem_pct||0) / total * 100;
-    const gopBarW = (cp.gop_pct||0) / total * 100;
+    const demBarW = (cp.dem_pct||0) / ((cp.dem_pct||0)+(cp.gop_pct||0)+(cp.other_pct||1)) * 100;
+    const gopBarW = (cp.gop_pct||0) / ((cp.dem_pct||0)+(cp.gop_pct||0)+(cp.other_pct||1)) * 100;
     
-    html += '<div style="max-width:900px;margin:1.5rem auto">';
-    html += '<h2 style="font-size:.85rem;color:var(--ac);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.75rem">🏛️ ' + (cv.name || 'County') + ' · ' + year + ' Presidential</h2>';
-    html += '<div class="grid" style="grid-template-columns:1fr 1fr;gap:1rem">';
+    html += '<div class="voting-section"><h2>\U0001f3db\ufe0f ' + (cv.name || 'County') + ' · ' + year + ' Presidential</h2>';
+    html += '<div class="grid" style="grid-template-columns:1fr 1fr">';
     
-    // Left: Big result card
+    // Result card
     html += '<div class="card" style="text-align:center"><div class="big-label">Result</div>';
-    html += '<div class="big-num" style="color:' + leanColor + '">' + lean + '</div>';
-    html += '<div style="margin:.75rem 0"><div class="vote-bar-track">';
+    html += '<div class="big-num" style="color:' + leanColor + ';font-size:2.4rem">' + lean + '</div>';
+    html += '<div style="margin:1rem 0"><div class="vote-bar-track" style="height:12px">';
     html += '<div class="vote-bar-dem" style="width:' + demBarW + '%"></div>';
     html += '<div class="vote-bar-gop" style="width:' + gopBarW + '%"></div></div>';
-    html += '<div style="display:flex;justify-content:space-between;font-size:.7rem;margin-top:3px">';
-    html += '<span style="color:#4fc3f7;font-weight:600">🟦 Dem ' + (cp.dem_pct||0).toFixed(1) + '%</span>';
-    html += '<span style="color:#ff5252;font-weight:600">🟥 GOP ' + (cp.gop_pct||0).toFixed(1) + '%</span></div></div>';
+    html += '<div style="display:flex;justify-content:space-between;font-size:.75rem;margin-top:4px">';
+    html += '<span style="color:#4fc3f7;font-weight:600">\U0001f7e6 Dem ' + (cp.dem_pct||0).toFixed(1) + '%</span>';
+    html += '<span style="color:#ff5252;font-weight:600">\U0001f7e5 GOP ' + (cp.gop_pct||0).toFixed(1) + '%</span></div></div>';
     html += '<div class="stat-row"><span class="stat-label">Total Votes</span><span class="stat-val">' + ((cp.total_votes||0).toLocaleString()) + '</span></div>';
     html += '<div class="stat-row"><span class="stat-label">Turnout</span><span class="stat-val" style="color:var(--ac)">' + (cp.turnout_pct||'?') + '%</span></div></div>';
     
-    // Right: Registration card
-    html += '<div class="card"><h2>📋 Voter Registration</h2>';
+    // Registration card
+    html += '<div class="card"><h2>\U0001f4cb Voter Registration</h2>';
     if (reg && reg.total_registered) {
-      html += '<div class="big-num" style="font-size:1.4rem">' + (reg.total_registered||0).toLocaleString() + '</div>';
-      html += '<div class="stat-sub" style="margin-bottom:.75rem">registered voters';
+      html += '<div class="big-num" style="font-size:1.5rem;margin-bottom:.25rem">' + (reg.total_registered||0).toLocaleString() + '</div>';
+      html += '<div class="stat-sub" style="margin-bottom:1rem">registered voters';
       if (reg.eligible_voters) html += ' · ' + (reg.eligible_voters||0).toLocaleString() + ' eligible';
       html += '</div>';
-      if (reg.dem_pct) html += '<div class="stat-row"><span class="stat-label">🟦 Democratic</span><span class="stat-val" style="color:#4fc3f7">' + reg.dem_pct + '%</span></div>';
-      if (reg.gop_pct) html += '<div class="stat-row"><span class="stat-label">🟥 Republican</span><span class="stat-val" style="color:#ff5252">' + reg.gop_pct + '%</span></div>';
-      if (reg.npp_pct) html += '<div class="stat-row"><span class="stat-label">⬜ No Party Pref</span><span class="stat-val" style="color:var(--mu)">' + reg.npp_pct + '%</span></div>';
+      if (reg.dem_pct) html += '<div class="stat-row"><span class="stat-label">\U0001f7e6 Democratic</span><span class="stat-val" style="color:#4fc3f7">' + reg.dem_pct + '%</span></div>';
+      if (reg.gop_pct) html += '<div class="stat-row"><span class="stat-label">\U0001f7e5 Republican</span><span class="stat-val" style="color:#ff5252">' + reg.gop_pct + '%</span></div>';
+      if (reg.npp_pct) html += '<div class="stat-row"><span class="stat-label">\u2b1c No Party Pref</span><span class="stat-val" style="color:var(--mu)">' + reg.npp_pct + '%</span></div>';
       if (reg.other_pct) html += '<div class="stat-row"><span class="stat-label">Other</span><span class="stat-val">' + reg.other_pct + '%</span></div>';
     } else {
-      html += '<p style="color:var(--mu);font-size:.75rem">Registration data not available for this county.</p>';
+      html += '<p style="color:var(--mu);font-size:.8rem;padding:1rem 0">Registration data not available.</p>';
     }
-    html += '</div></div>';
+    html += '</div></div></div>';
     
-    // Multi-year trends
+    // Trends — full width section
     if (cv.presidential) {
       const yrs = ['2024','2020','2016'].filter(y => cv.presidential[y]);
       if (yrs.length > 1) {
-        html += '<div class="card" style="margin-top:.75rem"><h2>📈 ' + (cv.name || 'County') + ' Trends</h2><table><thead><tr>';
-        html += '<th style="text-align:left">Year</th><th>Dem</th><th>GOP</th><th>Margin</th><th>Turnout</th><th>Total Votes</th></tr></thead><tbody>';
+        html += '<div class="voting-section"><div class="card"><h2>\U0001f4c8 ' + (cv.name || 'County') + ' Trends · 2016–2024</h2>';
+        html += '<table class="voting-table"><thead><tr>';
+        html += '<th class="col-left" style="width:12%">Year</th><th style="width:14%">Dem</th><th style="width:14%">GOP</th><th style="width:18%">Margin</th><th style="width:16%">Turnout</th><th style="width:26%">Total Votes</th></tr></thead><tbody>';
         yrs.forEach(yr => {
           const p = cv.presidential[yr];
           const m = (p.dem_pct||0) - (p.gop_pct||0);
           const l = m > 0 ? 'D+' + m.toFixed(1) : 'R+' + Math.abs(m).toFixed(1);
           const active = yr === year ? ' highlight-row' : '';
-          html += '<tr class="' + active + '"><td style="text-align:left"><strong>' + yr + '</strong></td>';
+          html += '<tr class="' + active + '"><td class="col-left"><strong>' + yr + '</strong></td>';
           html += '<td class="dem">' + (p.dem_pct||0).toFixed(1) + '%</td>';
           html += '<td class="gop">' + (p.gop_pct||0).toFixed(1) + '%</td>';
           html += '<td style="color:' + (m>0?'var(--ac)':'var(--sc)') + ';font-weight:600">' + l + '</td>';
           html += '<td>' + (p.turnout_pct||'?') + '%</td>';
           html += '<td>' + ((p.total_votes||0).toLocaleString()) + '</td></tr>';
         });
-        html += '</tbody></table></div>';
+        html += '</tbody></table></div></div>';
       }
     }
-    html += '</div>';
   }
   
-  // ── National Overview ──
-  html += '<div style="max-width:900px;margin:1.5rem auto"><h2 style="font-size:.85rem;color:var(--ac);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.75rem">🇺🇸 National · ' + year + '</h2>';
-  html += '<div class="grid" style="grid-template-columns:repeat(3,1fr);gap:1rem">';
+  // National
+  html += '<div class="voting-section"><h2>\U0001f1fa\U0001f1f8 National · ' + year + '</h2>';
+  html += '<div class="grid" style="grid-template-columns:repeat(3,1fr)">';
   html += '<div class="card" style="text-align:center"><div class="big-label">Popular Vote</div><div class="big-num" style="font-size:1.1rem">' + d.popular + '</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Total Votes</div><div class="big-num">' + d.total + '</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Turnout</div><div class="big-num">' + d.turnout + '</div></div>';
   html += '</div></div>';
   
-  // ── Vote by Race ──
-  html += '<div style="max-width:900px;margin:1.5rem auto"><div class="card"><h2>🗳️ Vote by Race & Ethnicity — ' + year + '</h2><table><thead><tr>';
-  html += '<th style="text-align:left">Group</th><th>Share of<br>Electorate</th><th>Dem</th><th>GOP</th><th>Margin</th><th>Other</th><th>Turnout</th></tr></thead><tbody>';
+  // Vote by Race
+  html += '<div class="voting-section"><div class="card"><h2>\U0001f5f3\ufe0f Vote by Race & Ethnicity · ' + year + '</h2>';
+  html += '<p class="voting-desc">National exit poll data showing how different demographic groups voted</p>';
+  html += '<table class="voting-table"><thead><tr>';
+  html += '<th class="col-left" style="width:22%">Group</th><th style="width:12%">Share of<br>Electorate</th><th style="width:12%">Dem</th><th style="width:12%">GOP</th><th style="width:14%">Margin</th><th style="width:12%">Other</th><th style="width:16%">Turnout</th></tr></thead><tbody>';
   d.race_vote.forEach((r, i) => {
     const cls = i % 2 === 0 ? ' highlight-row' : '';
     const m = r.dem - r.gop;
-    html += '<tr class="' + cls + '"><td class="race-col"><strong>' + r.race + '</strong></td><td>' + r.sh + '%</td>';
-    html += '<td class="dem"><strong>' + r.dem + '%</strong></td><td class="gop"><strong>' + r.gop + '%</strong></td>';
+    html += '<tr class="' + cls + '"><td class="col-left"><strong>' + r.race + '</strong></td>';
+    html += '<td>' + r.sh + '%</td>';
+    html += '<td class="dem"><strong>' + r.dem + '%</strong></td>';
+    html += '<td class="gop"><strong>' + r.gop + '%</strong></td>';
     html += '<td style="color:' + (m>0?'var(--ac)':'var(--sc)') + ';font-weight:600">' + (m>0?'D+':'R+') + Math.abs(m) + '</td>';
-    html += '<td class="other">' + r.other + '%</td><td>' + r.to + '%</td></tr>';
+    html += '<td class="other">' + r.other + '%</td>';
+    html += '<td>' + r.to + '%</td></tr>';
   });
   html += '</tbody></table>';
-  html += '<p style="font-size:.62rem;color:var(--mu);margin-top:.75rem">Source: ' + year + ' National Exit Polls · CNN / Edison Research</p></div></div>';
+  html += '<p class="voting-source">Source: ' + year + ' National Exit Polls · CNN / Edison Research</p></div></div>';
   
   document.getElementById('votingContainer').innerHTML = html;
 }
 
-// ════════ CITY SEARCH ════════
-let activeIdx = -1;
-
+// City search functions
 function filterCityDropdown() {
   const q = document.getElementById('citySearch').value.toLowerCase().trim();
   const dd = document.getElementById('cityDropdown');
   if (!q) { dd.classList.remove('show'); return; }
-  
   const matches = allCityKeys.filter(k => k.toLowerCase().includes(q)).slice(0, 30);
   if (matches.length === 0) {
     dd.innerHTML = '<div class="no-results">No cities match</div>';
@@ -575,14 +530,10 @@ function selectCity(key) {
   renderCurrentCity();
 }
 
-// Close dropdown on outside click
 document.addEventListener('click', function(e) {
-  if (!e.target.closest('.city-search')) {
-    document.getElementById('cityDropdown').classList.remove('show');
-  }
+  if (!e.target.closest('.city-search')) document.getElementById('cityDropdown').classList.remove('show');
 });
 
-// ════════ CSV EXPORT ════════
 function exportCSV() {
   const d = allCityData[currentCity];
   if (!d) return;
@@ -593,7 +544,6 @@ function exportCSV() {
   rows.push(['Median Income', d.economics?.median_household_income || 0]);
   rows.push(['Poverty Rate', d.economics?.poverty_pct + '%']);
   (d.race || []).forEach(r => rows.push(['Race: ' + r.group, r.pct + '% (' + r.count + ')']));
-  
   const csv = rows.map(r => '"' + r.join('","') + '"').join('\n');
   const blob = new Blob([csv], {type: 'text/csv'});
   const a = document.createElement('a');
@@ -602,24 +552,18 @@ function exportCSV() {
   a.click();
 }
 
-// ════════ INIT ════════
-// Preload city→county mapping (needed by voting tab)
-let cityCountyReady = false;
+// Preload city-county map
 fetch('city_county_maps.json')
   .then(r => r.json())
   .then(m => { 
     cityCountyMap = m; 
     cityCountyReady = true; 
-    // Re-render voting tab if user is already viewing it
     if (currentTab === 'voting' && currentCity) renderVoting(currentNationalYear);
   })
   .catch(() => { cityCountyReady = true; });
 
-// Check URL hash for state
 const hashState = window.location.hash.replace('#', '').toUpperCase();
 const initState = STATES[hashState] ? hashState : 'CA';
-
-// Set dropdown
 document.getElementById('stateSelect').value = initState;
 loadStateData(initState);
 </script>
