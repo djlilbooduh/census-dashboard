@@ -297,8 +297,9 @@ function normalizeVotingData(vdata) {
 }
 
 function normalizeCountyEntry(c) {
-  // If it already has presidential, return as-is
+  // If it already has presidential or voting, return as-is
   if (c.presidential) return c;
+  if (c.voting) { var vc = Object.assign({}, c); vc.presidential = c.voting; return vc; }
   
   // Convert president_2024 format
   if (c.president_2024 || c.harris_pct) {
