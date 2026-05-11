@@ -58,7 +58,7 @@ def classify_lean(dem_pct, gop_pct):
 # ── Voting data normalization ──
 
 def normalize_voting(voting_json):
-    """Convert any voting JSON format into {county_key: {dem_pct, gop_pct}}."""
+    """Convert any voting JSON format into {county_key: (dem_pct, gop_pct)}."""
     out = {}
     
     # Case 1: dict with 'counties' key
@@ -70,6 +70,8 @@ def normalize_voting(voting_json):
                     dp, gp = extract_pcts(cdata)
                     if dp is not None:
                         out[ckey] = (dp, gp)
+                        out[ckey.lower()] = (dp, gp)
+                        out[ckey.title()] = (dp, gp)
         elif isinstance(counties, list):
             for cdata in counties:
                 if isinstance(cdata, dict):
@@ -77,6 +79,7 @@ def normalize_voting(voting_json):
                     dp, gp = extract_pcts(cdata)
                     if dp is not None and ckey:
                         out[ckey] = (dp, gp)
+                        out[ckey.lower()] = (dp, gp)
     
     # Case 2: list at top level (KY)
     elif isinstance(voting_json, list):
@@ -95,17 +98,35 @@ def normalize_voting(voting_json):
                 dp, gp = extract_pcts(entry)
                 if dp is not None and ckey:
                     out[ckey] = (dp, gp)
+                    out[ckey.lower()] = (dp, gp)
     
-    # Case 4: dict with 'presidential' at top level (MD, NJ, RI, etc.)
+    # Case 4: dict with 'presidential' at top level (MD, NJ, RI)
     if not out and isinstance(voting_json, dict):
-        for key in ['presidential', 'county_results', 'results', 'counties']:
+        for key in ['presidential', 'county_results', 'results']:
             val = voting_json.get(key)
             if isinstance(val, dict):
-                for ckey, cdata in val.items():
-                    if isinstance(cdata, dict):
-                        dp, gp = extract_pcts(cdata)
-                        if dp is not None:
-                            out[ckey] = (dp, gp)
+                if 'counties' in val:
+                    nested = val['counties']
+                    if isinstance(nested, dict):
+                        for ckey, cdata in nested.items():
+                            if isinstance(cdata, dict):
+                                dp, gp = extract_pcts(cdata)
+                                if dp is not None:
+                                    out[ckey] = (dp, gp)
+                                    out[ckey.lower()] = (dp, gp)
+                    elif isinstance(nested, list):
+                        for cdata in nested:
+                            if isinstance(cdata, dict):
+                                ckey = cdata.get('name', cdata.get('fips', ''))
+                                dp, gp = extract_pcts(cdata)
+                                if dp is not None and ckey:
+                                    out[ckey] = (dp, gp)
+                else:
+                    for ckey, cdata in val.items():
+                        if isinstance(cdata, dict) and ckey != 'statewide' and ckey != 'counties':
+                            dp, gp = extract_pcts(cdata)
+                            if dp is not None:
+                                out[ckey] = (dp, gp)
             elif isinstance(val, list):
                 for cdata in val:
                     if isinstance(cdata, dict):

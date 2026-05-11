@@ -93,12 +93,11 @@ MANUAL_ORIS = {
 }
 
 
-def match_city(city_full_name, city_agencies, county_agencies):
+def match_city(city_full_name, city_agencies, county_agencies, county_name=None):
     """Match a census city to a CDE agency ORI."""
     # Check manual overrides first
     if city_full_name in MANUAL_ORIS:
         return MANUAL_ORIS[city_full_name]
-    """Match a census city to a CDE agency ORI."""
     city_clean = re.sub(r'\s+(city|town|CDP|village|borough|municipality),\s*\w+$', '', city_full_name, flags=re.IGNORECASE)
     city_words = city_clean.lower().split()
     if not city_words:
@@ -124,7 +123,20 @@ def match_city(city_full_name, city_agencies, county_agencies):
     if best_score >= 0.5:
         return best_ori
     
-    # Fallback: use county sheriff (will be matched by county name in calling code)
+    # Fallback: try county agencies (HI only has 1 city PD, policing is county-level)
+    if county_name:
+        county_lower = county_name.lower()
+        # Try county agencies first
+        for ag in county_agencies:
+            ag_name = ag.get('agency_name', '').lower()
+            if county_lower in ag_name:
+                return ag.get('ori')
+        # Also try city agencies that serve the entire county
+        for ag in city_agencies:
+            ag_name = ag.get('agency_name', '').lower()
+            if county_lower in ag_name:
+                return ag.get('ori')
+    
     return None
 
 def fetch_arrest(ori):
@@ -211,7 +223,17 @@ def main():
             continue
         
         # Match to agency
-        ori = match_city(city_name, city_agencies, county_agencies)
+        # Get county name from city_county_maps if available
+        county_name = None
+        if os.path.exists(os.path.join(WORKSPACE, 'city_county_maps.json')):
+            with open(os.path.join(WORKSPACE, 'city_county_maps.json')) as f:
+                ccm = json.load(f)
+            short_name = re.sub(r'\s+(city|town|CDP|village|borough|municipality),\s*\w+$', '', city_name, flags=re.IGNORECASE) + ', ' + state_code
+            ccm_state = ccm.get(state_code, {})
+            info = ccm_state.get(short_name, ccm_state.get(city_name, {}))
+            county_name = info.get('county', None)
+        
+        ori = match_city(city_name, city_agencies, county_agencies, county_name)
         if not ori:
             results[city_name] = {'ori': None, 'total_arrests': 0, 'note': 'no_agency_match'}
             no_match += 1
