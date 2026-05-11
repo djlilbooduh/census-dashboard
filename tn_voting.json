@@ -1,0 +1,7170 @@
+{
+  "state": "Tennessee",
+  "state_fips": "47",
+  "data_sources": {
+    "census": "US Census Bureau ACS 5-Year Estimates 2023 (city/place level, aggregated to county via Wikipedia place-county mapping)",
+    "presidential_2024": "Wikipedia / Tennessee Secretary of State certified results (November 5, 2024)",
+    "voter_registration_note": "County-level voter registration not publicly available from TN SOS; state total ~4.97M active registrants as of November 2024. Voter registration estimated from total votes and state-level registered-voter turnout.",
+    "census_limitation": "Census data is aggregated from incorporated city/place level only. County totals exclude unincorporated areas and census-designated places (CDPs). Actual county populations are typically 20-80% higher. For full county-level census data, use ACS county-level tables directly."
+  },
+  "state_summary": {
+    "trump_votes": 1966865,
+    "harris_votes": 1056265,
+    "other_votes": 40812,
+    "total_votes_cast": 3063942,
+    "trump_pct": 64.19,
+    "harris_pct": 34.47,
+    "other_pct": 1.34,
+    "estimated_voter_registration": 4970000,
+    "estimated_turnout_of_registered_pct": 61.66,
+    "turnout_of_vep_pct": 64.04
+  },
+  "counties": {
+    "Anderson": {
+      "fips": "47001",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 32045,
+          "voting_age": 25077,
+          "voting_age_pct": 78.26
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 43,
+            "pct": 0.13
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 615,
+            "pct": 1.92
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1263,
+            "pct": 3.94
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1361,
+            "pct": 4.25
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 46,
+            "pct": 0.14
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 98,
+            "pct": 0.31
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1291,
+            "pct": 4.03
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 27321,
+            "pct": 85.26
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 24582,
+          "pct": 67.26
+        },
+        "harris": {
+          "votes": 11525,
+          "pct": 31.53
+        },
+        "other": {
+          "votes": 441,
+          "pct": 1.21
+        },
+        "total_votes_cast": 36548,
+        "margin": {
+          "winner": "Trump",
+          "votes": 13057,
+          "pct": 35.73
+        }
+      },
+      "voter_registration_estimated": 59273
+    },
+    "Bedford": {
+      "fips": "47002",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 25621,
+          "voting_age": 18070,
+          "voting_age_pct": 70.53
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 71,
+            "pct": 0.28
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 54,
+            "pct": 0.21
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 2857,
+            "pct": 11.15
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 7119,
+            "pct": 27.79
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 6,
+            "pct": 0.02
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1162,
+            "pct": 4.54
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 14352,
+            "pct": 56.02
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 15772,
+          "pct": 78.51
+        },
+        "harris": {
+          "votes": 4122,
+          "pct": 20.52
+        },
+        "other": {
+          "votes": 196,
+          "pct": 0.98
+        },
+        "total_votes_cast": 20090,
+        "margin": {
+          "winner": "Trump",
+          "votes": 11650,
+          "pct": 57.99
+        }
+      },
+      "voter_registration_estimated": 32582
+    },
+    "Benton": {
+      "fips": "47003",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 4253,
+          "voting_age": 3272,
+          "voting_age_pct": 76.93
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 149,
+            "pct": 3.5
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 35,
+            "pct": 0.82
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 90,
+            "pct": 2.12
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3979,
+            "pct": 93.56
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5886,
+          "pct": 81.07
+        },
+        "harris": {
+          "votes": 1317,
+          "pct": 18.14
+        },
+        "other": {
+          "votes": 57,
+          "pct": 0.79
+        },
+        "total_votes_cast": 7260,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4569,
+          "pct": 62.93
+        }
+      },
+      "voter_registration_estimated": 11774
+    },
+    "Bledsoe": {
+      "fips": "47004",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 2653,
+          "voting_age": 2015,
+          "voting_age_pct": 75.95
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 27,
+            "pct": 1.02
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 507,
+            "pct": 19.11
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 198,
+            "pct": 7.46
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 6,
+            "pct": 0.23
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 338,
+            "pct": 12.74
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1577,
+            "pct": 59.44
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5254,
+          "pct": 84.87
+        },
+        "harris": {
+          "votes": 891,
+          "pct": 14.39
+        },
+        "other": {
+          "votes": 46,
+          "pct": 0.74
+        },
+        "total_votes_cast": 6191,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4363,
+          "pct": 70.47
+        }
+      },
+      "voter_registration_estimated": 10041
+    },
+    "Blount": {
+      "fips": "47005",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 50576,
+          "voting_age": 39522,
+          "voting_age_pct": 78.14
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 19,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 698,
+            "pct": 1.38
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 2388,
+            "pct": 4.72
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 2810,
+            "pct": 5.56
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 138,
+            "pct": 0.27
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1647,
+            "pct": 3.26
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 42876,
+            "pct": 84.78
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 50699,
+          "pct": 73.24
+        },
+        "harris": {
+          "votes": 17664,
+          "pct": 25.52
+        },
+        "other": {
+          "votes": 861,
+          "pct": 1.24
+        },
+        "total_votes_cast": 69224,
+        "margin": {
+          "winner": "Trump",
+          "votes": 33035,
+          "pct": 47.72
+        }
+      },
+      "voter_registration_estimated": 112267
+    },
+    "Bradley": {
+      "fips": "47006",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 49001,
+          "voting_age": 38214,
+          "voting_age_pct": 77.99
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 30,
+            "pct": 0.06
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 1030,
+            "pct": 2.1
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 3756,
+            "pct": 7.67
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 5391,
+            "pct": 11.0
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 10,
+            "pct": 0.02
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 440,
+            "pct": 0.9
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1838,
+            "pct": 3.75
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 36506,
+            "pct": 74.5
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 38836,
+          "pct": 78.86
+        },
+        "harris": {
+          "votes": 9852,
+          "pct": 20.01
+        },
+        "other": {
+          "votes": 558,
+          "pct": 1.13
+        },
+        "total_votes_cast": 49246,
+        "margin": {
+          "winner": "Trump",
+          "votes": 28984,
+          "pct": 58.86
+        }
+      },
+      "voter_registration_estimated": 79867
+    },
+    "Campbell": {
+      "fips": "47007",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 12123,
+          "voting_age": 9768,
+          "voting_age_pct": 80.57
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 2,
+            "pct": 0.02
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 48,
+            "pct": 0.4
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 141,
+            "pct": 1.16
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 302,
+            "pct": 2.49
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 12,
+            "pct": 0.1
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 437,
+            "pct": 3.6
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 11179,
+            "pct": 92.21
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 13115,
+          "pct": 84.46
+        },
+        "harris": {
+          "votes": 2305,
+          "pct": 14.84
+        },
+        "other": {
+          "votes": 108,
+          "pct": 0.7
+        },
+        "total_votes_cast": 15528,
+        "margin": {
+          "winner": "Trump",
+          "votes": 10810,
+          "pct": 69.62
+        }
+      },
+      "voter_registration_estimated": 25183
+    },
+    "Cannon": {
+      "fips": "47008",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 3073,
+          "voting_age": 2352,
+          "voting_age_pct": 76.54
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 2,
+            "pct": 0.07
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 106,
+            "pct": 3.45
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 194,
+            "pct": 6.31
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 3,
+            "pct": 0.1
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 55,
+            "pct": 1.79
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 2713,
+            "pct": 88.29
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5682,
+          "pct": 82.58
+        },
+        "harris": {
+          "votes": 1132,
+          "pct": 16.45
+        },
+        "other": {
+          "votes": 67,
+          "pct": 0.97
+        },
+        "total_votes_cast": 6881,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4550,
+          "pct": 66.12
+        }
+      },
+      "voter_registration_estimated": 11160
+    },
+    "Carroll": {
+      "fips": "47009",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 12055,
+          "voting_age": 9033,
+          "voting_age_pct": 74.93
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 21,
+            "pct": 0.17
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 52,
+            "pct": 0.43
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1432,
+            "pct": 11.88
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 233,
+            "pct": 1.93
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 4,
+            "pct": 0.03
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 563,
+            "pct": 4.67
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 9749,
+            "pct": 80.87
+          }
+        ],
+        "place_count": 8
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 9547,
+          "pct": 80.35
+        },
+        "harris": {
+          "votes": 2233,
+          "pct": 18.79
+        },
+        "other": {
+          "votes": 102,
+          "pct": 0.86
+        },
+        "total_votes_cast": 11882,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7314,
+          "pct": 61.56
+        }
+      },
+      "voter_registration_estimated": 19270
+    },
+    "Carter": {
+      "fips": "47010",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 38813,
+          "voting_age": 31553,
+          "voting_age_pct": 81.29
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 17,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 526,
+            "pct": 1.36
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 2153,
+            "pct": 5.55
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1650,
+            "pct": 4.25
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 11,
+            "pct": 0.03
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 112,
+            "pct": 0.29
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1322,
+            "pct": 3.41
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 33020,
+            "pct": 85.07
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 20167,
+          "pct": 81.15
+        },
+        "harris": {
+          "votes": 4454,
+          "pct": 17.92
+        },
+        "other": {
+          "votes": 231,
+          "pct": 0.93
+        },
+        "total_votes_cast": 24852,
+        "margin": {
+          "winner": "Trump",
+          "votes": 15713,
+          "pct": 63.23
+        }
+      },
+      "voter_registration_estimated": 40305
+    },
+    "Cheatham": {
+      "fips": "47011",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 15444,
+          "voting_age": 12043,
+          "voting_age_pct": 77.98
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 6,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 184,
+            "pct": 1.19
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 491,
+            "pct": 3.18
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 799,
+            "pct": 5.17
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 9,
+            "pct": 0.06
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 503,
+            "pct": 3.26
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 13452,
+            "pct": 87.1
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 14987,
+          "pct": 72.26
+        },
+        "harris": {
+          "votes": 5464,
+          "pct": 26.34
+        },
+        "other": {
+          "votes": 290,
+          "pct": 1.4
+        },
+        "total_votes_cast": 20741,
+        "margin": {
+          "winner": "Trump",
+          "votes": 9523,
+          "pct": 45.91
+        }
+      },
+      "voter_registration_estimated": 33638
+    },
+    "Chester": {
+      "fips": "47012",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 6562,
+          "voting_age": 5137,
+          "voting_age_pct": 78.28
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 31,
+            "pct": 0.47
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 31,
+            "pct": 0.47
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1394,
+            "pct": 21.24
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 207,
+            "pct": 3.15
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 36,
+            "pct": 0.55
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 136,
+            "pct": 2.07
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 4725,
+            "pct": 72.01
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 6206,
+          "pct": 81.91
+        },
+        "harris": {
+          "votes": 1286,
+          "pct": 16.97
+        },
+        "other": {
+          "votes": 85,
+          "pct": 1.12
+        },
+        "total_votes_cast": 7577,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4920,
+          "pct": 64.93
+        }
+      },
+      "voter_registration_estimated": 12288
+    },
+    "Claiborne": {
+      "fips": "47013",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 10328,
+          "voting_age": 8409,
+          "voting_age_pct": 81.42
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 4,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 107,
+            "pct": 1.04
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 146,
+            "pct": 1.41
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 107,
+            "pct": 1.04
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 5,
+            "pct": 0.05
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 217,
+            "pct": 2.1
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 9742,
+            "pct": 94.33
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 11463,
+          "pct": 84.7
+        },
+        "harris": {
+          "votes": 1971,
+          "pct": 14.56
+        },
+        "other": {
+          "votes": 100,
+          "pct": 0.74
+        },
+        "total_votes_cast": 13534,
+        "margin": {
+          "winner": "Trump",
+          "votes": 9492,
+          "pct": 70.13
+        }
+      },
+      "voter_registration_estimated": 21949
+    },
+    "Clay": {
+      "fips": "47014",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 1782,
+          "voting_age": 1262,
+          "voting_age_pct": 70.82
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 64,
+            "pct": 3.59
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 72,
+            "pct": 4.04
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 24,
+            "pct": 1.35
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 98,
+            "pct": 5.5
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1524,
+            "pct": 85.52
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 3117,
+          "pct": 82.9
+        },
+        "harris": {
+          "votes": 614,
+          "pct": 16.33
+        },
+        "other": {
+          "votes": 29,
+          "pct": 0.77
+        },
+        "total_votes_cast": 3760,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2503,
+          "pct": 66.57
+        }
+      },
+      "voter_registration_estimated": 6098
+    },
+    "Cocke": {
+      "fips": "47015",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 7230,
+          "voting_age": 5867,
+          "voting_age_pct": 81.15
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 25,
+            "pct": 0.35
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 137,
+            "pct": 1.89
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 92,
+            "pct": 1.27
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 464,
+            "pct": 6.42
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 28,
+            "pct": 0.39
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 439,
+            "pct": 6.07
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 6045,
+            "pct": 83.61
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 13105,
+          "pct": 83.67
+        },
+        "harris": {
+          "votes": 2415,
+          "pct": 15.42
+        },
+        "other": {
+          "votes": 143,
+          "pct": 0.91
+        },
+        "total_votes_cast": 15663,
+        "margin": {
+          "winner": "Trump",
+          "votes": 10690,
+          "pct": 68.25
+        }
+      },
+      "voter_registration_estimated": 25402
+    },
+    "Coffee": {
+      "fips": "47016",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 22987,
+          "voting_age": 17063,
+          "voting_age_pct": 74.23
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 1,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 425,
+            "pct": 1.85
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1446,
+            "pct": 6.29
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1771,
+            "pct": 7.7
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 20,
+            "pct": 0.09
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 120,
+            "pct": 0.52
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 571,
+            "pct": 2.48
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 18632,
+            "pct": 81.05
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 19174,
+          "pct": 76.91
+        },
+        "harris": {
+          "votes": 5440,
+          "pct": 21.82
+        },
+        "other": {
+          "votes": 318,
+          "pct": 1.28
+        },
+        "total_votes_cast": 24932,
+        "margin": {
+          "winner": "Trump",
+          "votes": 13734,
+          "pct": 55.09
+        }
+      },
+      "voter_registration_estimated": 40435
+    },
+    "Crockett": {
+      "fips": "47017",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 6819,
+          "voting_age": 5120,
+          "voting_age_pct": 75.08
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 5,
+            "pct": 0.07
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 39,
+            "pct": 0.57
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 954,
+            "pct": 13.99
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1217,
+            "pct": 17.85
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 332,
+            "pct": 4.87
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 4272,
+            "pct": 62.65
+          }
+        ],
+        "place_count": 5
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 4674,
+          "pct": 78.94
+        },
+        "harris": {
+          "votes": 1196,
+          "pct": 20.2
+        },
+        "other": {
+          "votes": 51,
+          "pct": 0.86
+        },
+        "total_votes_cast": 5921,
+        "margin": {
+          "winner": "Trump",
+          "votes": 3478,
+          "pct": 58.74
+        }
+      },
+      "voter_registration_estimated": 9603
+    },
+    "Cumberland": {
+      "fips": "47018",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 13645,
+          "voting_age": 11469,
+          "voting_age_pct": 84.05
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 2,
+            "pct": 0.01
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 20,
+            "pct": 0.15
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 363,
+            "pct": 2.66
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1017,
+            "pct": 7.45
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 33,
+            "pct": 0.24
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 312,
+            "pct": 2.29
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 11898,
+            "pct": 87.2
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 27399,
+          "pct": 79.09
+        },
+        "harris": {
+          "votes": 6996,
+          "pct": 20.2
+        },
+        "other": {
+          "votes": 247,
+          "pct": 0.71
+        },
+        "total_votes_cast": 34642,
+        "margin": {
+          "winner": "Trump",
+          "votes": 20403,
+          "pct": 58.9
+        }
+      },
+      "voter_registration_estimated": 56182
+    },
+    "Davidson": {
+      "fips": "47019",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 703766,
+          "voting_age": 557074,
+          "voting_age_pct": 79.16
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 523,
+            "pct": 0.07
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 23826,
+            "pct": 3.39
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 174872,
+            "pct": 24.85
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 95950,
+            "pct": 13.63
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 350,
+            "pct": 0.05
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 3550,
+            "pct": 0.5
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 28625,
+            "pct": 4.07
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 376068,
+            "pct": 53.44
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 102256,
+          "pct": 35.26
+        },
+        "harris": {
+          "votes": 181862,
+          "pct": 62.7
+        },
+        "other": {
+          "votes": 5918,
+          "pct": 2.04
+        },
+        "total_votes_cast": 290036,
+        "margin": {
+          "winner": "Harris",
+          "votes": -79606,
+          "pct": -27.45,
+          "abs_votes": 79606,
+          "abs_pct": 27.45
+        }
+      },
+      "voter_registration_estimated": 470380
+    },
+    "DeKalb": {
+      "fips": "47021",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 7052,
+          "voting_age": 5238,
+          "voting_age_pct": 74.28
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 27,
+            "pct": 0.38
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 112,
+            "pct": 1.59
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 234,
+            "pct": 3.32
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1001,
+            "pct": 14.19
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 26,
+            "pct": 0.37
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 123,
+            "pct": 1.74
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 5529,
+            "pct": 78.4
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 7599,
+          "pct": 80.87
+        },
+        "harris": {
+          "votes": 1706,
+          "pct": 18.16
+        },
+        "other": {
+          "votes": 91,
+          "pct": 0.97
+        },
+        "total_votes_cast": 9396,
+        "margin": {
+          "winner": "Trump",
+          "votes": 5893,
+          "pct": 62.72
+        }
+      },
+      "voter_registration_estimated": 15238
+    },
+    "Decatur": {
+      "fips": "47020",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 4052,
+          "voting_age": 3145,
+          "voting_age_pct": 77.62
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 101,
+            "pct": 2.49
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 293,
+            "pct": 7.23
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 145,
+            "pct": 3.58
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 74,
+            "pct": 1.83
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3438,
+            "pct": 84.85
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 4596,
+          "pct": 84.08
+        },
+        "harris": {
+          "votes": 819,
+          "pct": 14.98
+        },
+        "other": {
+          "votes": 51,
+          "pct": 0.93
+        },
+        "total_votes_cast": 5466,
+        "margin": {
+          "winner": "Trump",
+          "votes": 3777,
+          "pct": 69.1
+        }
+      },
+      "voter_registration_estimated": 8865
+    },
+    "Dickson": {
+      "fips": "47022",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 24615,
+          "voting_age": 19399,
+          "voting_age_pct": 78.81
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 61,
+            "pct": 0.25
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1446,
+            "pct": 5.87
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1729,
+            "pct": 7.02
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 121,
+            "pct": 0.49
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 689,
+            "pct": 2.8
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 20569,
+            "pct": 83.56
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 19002,
+          "pct": 75.39
+        },
+        "harris": {
+          "votes": 5913,
+          "pct": 23.46
+        },
+        "other": {
+          "votes": 289,
+          "pct": 1.15
+        },
+        "total_votes_cast": 25204,
+        "margin": {
+          "winner": "Trump",
+          "votes": 13089,
+          "pct": 51.93
+        }
+      },
+      "voter_registration_estimated": 40876
+    },
+    "Dyer": {
+      "fips": "47023",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 19667,
+          "voting_age": 14808,
+          "voting_age_pct": 75.29
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 10,
+            "pct": 0.05
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 88,
+            "pct": 0.45
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 4827,
+            "pct": 24.54
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 518,
+            "pct": 2.63
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 648,
+            "pct": 3.29
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 13575,
+            "pct": 69.02
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 11603,
+          "pct": 80.61
+        },
+        "harris": {
+          "votes": 2707,
+          "pct": 18.81
+        },
+        "other": {
+          "votes": 84,
+          "pct": 0.58
+        },
+        "total_votes_cast": 14394,
+        "margin": {
+          "winner": "Trump",
+          "votes": 8896,
+          "pct": 61.8
+        }
+      },
+      "voter_registration_estimated": 23344
+    },
+    "Fayette": {
+      "fips": "47024",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 19123,
+          "voting_age": 15240,
+          "voting_age_pct": 79.69
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 26,
+            "pct": 0.14
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 94,
+            "pct": 0.49
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 5695,
+            "pct": 29.78
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 276,
+            "pct": 1.44
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 42,
+            "pct": 0.22
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 403,
+            "pct": 2.11
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 12586,
+            "pct": 65.82
+          }
+        ],
+        "place_count": 10
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 16756,
+          "pct": 70.71
+        },
+        "harris": {
+          "votes": 6720,
+          "pct": 28.36
+        },
+        "other": {
+          "votes": 220,
+          "pct": 0.93
+        },
+        "total_votes_cast": 23696,
+        "margin": {
+          "winner": "Trump",
+          "votes": 10036,
+          "pct": 42.35
+        }
+      },
+      "voter_registration_estimated": 38430
+    },
+    "Fentress": {
+      "fips": "47025",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 3234,
+          "voting_age": 2650,
+          "voting_age_pct": 81.94
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 36,
+            "pct": 1.11
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 11,
+            "pct": 0.34
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 84,
+            "pct": 2.6
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3103,
+            "pct": 95.95
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 8555,
+          "pct": 87.56
+        },
+        "harris": {
+          "votes": 1149,
+          "pct": 11.76
+        },
+        "other": {
+          "votes": 67,
+          "pct": 0.69
+        },
+        "total_votes_cast": 9771,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7406,
+          "pct": 75.8
+        }
+      },
+      "voter_registration_estimated": 15847
+    },
+    "Franklin": {
+      "fips": "47026",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 27918,
+          "voting_age": 21287,
+          "voting_age_pct": 76.25
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 19,
+            "pct": 0.07
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 320,
+            "pct": 1.15
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 2099,
+            "pct": 7.52
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1536,
+            "pct": 5.5
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 12,
+            "pct": 0.04
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 854,
+            "pct": 3.06
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 23077,
+            "pct": 82.66
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 15016,
+          "pct": 76.12
+        },
+        "harris": {
+          "votes": 4529,
+          "pct": 22.96
+        },
+        "other": {
+          "votes": 183,
+          "pct": 0.93
+        },
+        "total_votes_cast": 19728,
+        "margin": {
+          "winner": "Trump",
+          "votes": 10487,
+          "pct": 53.16
+        }
+      },
+      "voter_registration_estimated": 31995
+    },
+    "Gibson": {
+      "fips": "47027",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 31796,
+          "voting_age": 23732,
+          "voting_age_pct": 74.64
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 144,
+            "pct": 0.45
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 77,
+            "pct": 0.24
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 7130,
+            "pct": 22.42
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1319,
+            "pct": 4.15
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 10,
+            "pct": 0.03
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 71,
+            "pct": 0.22
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1964,
+            "pct": 6.18
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 21081,
+            "pct": 66.3
+          }
+        ],
+        "place_count": 10
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 16346,
+          "pct": 75.51
+        },
+        "harris": {
+          "votes": 5100,
+          "pct": 23.56
+        },
+        "other": {
+          "votes": 202,
+          "pct": 0.93
+        },
+        "total_votes_cast": 21648,
+        "margin": {
+          "winner": "Trump",
+          "votes": 11246,
+          "pct": 51.95
+        }
+      },
+      "voter_registration_estimated": 35109
+    },
+    "Giles": {
+      "fips": "47028",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 11047,
+          "voting_age": 8844,
+          "voting_age_pct": 80.06
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 9,
+            "pct": 0.08
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 82,
+            "pct": 0.74
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1772,
+            "pct": 16.04
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 345,
+            "pct": 3.12
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 7,
+            "pct": 0.06
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 934,
+            "pct": 8.45
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 7898,
+            "pct": 71.49
+          }
+        ],
+        "place_count": 5
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 10394,
+          "pct": 77.07
+        },
+        "harris": {
+          "votes": 2974,
+          "pct": 22.05
+        },
+        "other": {
+          "votes": 119,
+          "pct": 0.88
+        },
+        "total_votes_cast": 13487,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7420,
+          "pct": 55.02
+        }
+      },
+      "voter_registration_estimated": 21873
+    },
+    "Grainger": {
+      "fips": "47029",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 7308,
+          "voting_age": 5687,
+          "voting_age_pct": 77.82
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 8,
+            "pct": 0.11
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 34,
+            "pct": 0.47
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 40,
+            "pct": 0.55
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 122,
+            "pct": 1.67
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 13,
+            "pct": 0.18
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 119,
+            "pct": 1.63
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 6972,
+            "pct": 95.4
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 9630,
+          "pct": 86.52
+        },
+        "harris": {
+          "votes": 1432,
+          "pct": 12.87
+        },
+        "other": {
+          "votes": 68,
+          "pct": 0.61
+        },
+        "total_votes_cast": 11130,
+        "margin": {
+          "winner": "Trump",
+          "votes": 8198,
+          "pct": 73.66
+        }
+      },
+      "voter_registration_estimated": 18051
+    },
+    "Greene": {
+      "fips": "47030",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 21828,
+          "voting_age": 17508,
+          "voting_age_pct": 80.21
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 31,
+            "pct": 0.14
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 102,
+            "pct": 0.47
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 654,
+            "pct": 3.0
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1454,
+            "pct": 6.66
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 32,
+            "pct": 0.15
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 944,
+            "pct": 4.32
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 18611,
+            "pct": 85.26
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 25586,
+          "pct": 82.28
+        },
+        "harris": {
+          "votes": 5145,
+          "pct": 16.55
+        },
+        "other": {
+          "votes": 364,
+          "pct": 1.17
+        },
+        "total_votes_cast": 31095,
+        "margin": {
+          "winner": "Trump",
+          "votes": 20441,
+          "pct": 65.74
+        }
+      },
+      "voter_registration_estimated": 50430
+    },
+    "Grundy": {
+      "fips": "47031",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 7999,
+          "voting_age": 6107,
+          "voting_age_pct": 76.35
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 11,
+            "pct": 0.14
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 24,
+            "pct": 0.3
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 56,
+            "pct": 0.7
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 100,
+            "pct": 1.25
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 256,
+            "pct": 3.2
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 7551,
+            "pct": 94.4
+          }
+        ],
+        "place_count": 7
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5334,
+          "pct": 84.29
+        },
+        "harris": {
+          "votes": 948,
+          "pct": 14.98
+        },
+        "other": {
+          "votes": 46,
+          "pct": 0.73
+        },
+        "total_votes_cast": 6328,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4386,
+          "pct": 69.31
+        }
+      },
+      "voter_registration_estimated": 10263
+    },
+    "Hamblen": {
+      "fips": "47032",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 30983,
+          "voting_age": 23030,
+          "voting_age_pct": 74.33
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 39,
+            "pct": 0.13
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 203,
+            "pct": 0.66
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1526,
+            "pct": 4.93
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 7086,
+            "pct": 22.87
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 459,
+            "pct": 1.48
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 176,
+            "pct": 0.57
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1226,
+            "pct": 3.96
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 20268,
+            "pct": 65.42
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 20154,
+          "pct": 79.03
+        },
+        "harris": {
+          "votes": 5132,
+          "pct": 20.12
+        },
+        "other": {
+          "votes": 215,
+          "pct": 0.84
+        },
+        "total_votes_cast": 25501,
+        "margin": {
+          "winner": "Trump",
+          "votes": 15022,
+          "pct": 58.91
+        }
+      },
+      "voter_registration_estimated": 41357
+    },
+    "Hamilton": {
+      "fips": "47033",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 256796,
+          "voting_age": 204200,
+          "voting_age_pct": 79.52
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 123,
+            "pct": 0.05
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 5164,
+            "pct": 2.01
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 56742,
+            "pct": 22.1
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 23024,
+            "pct": 8.97
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 95,
+            "pct": 0.04
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 1077,
+            "pct": 0.42
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 9603,
+            "pct": 3.74
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 160968,
+            "pct": 62.68
+          }
+        ],
+        "place_count": 10
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 97195,
+          "pct": 55.72
+        },
+        "harris": {
+          "votes": 74437,
+          "pct": 42.67
+        },
+        "other": {
+          "votes": 2806,
+          "pct": 1.61
+        },
+        "total_votes_cast": 174438,
+        "margin": {
+          "winner": "Trump",
+          "votes": 22758,
+          "pct": 13.05
+        }
+      },
+      "voter_registration_estimated": 282903
+    },
+    "Hancock": {
+      "fips": "47034",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 1649,
+          "voting_age": 1324,
+          "voting_age_pct": 80.29
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 26,
+            "pct": 1.58
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 22,
+            "pct": 1.33
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 52,
+            "pct": 3.15
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1549,
+            "pct": 93.94
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 2558,
+          "pct": 87.96
+        },
+        "harris": {
+          "votes": 334,
+          "pct": 11.49
+        },
+        "other": {
+          "votes": 16,
+          "pct": 0.55
+        },
+        "total_votes_cast": 2908,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2224,
+          "pct": 76.48
+        }
+      },
+      "voter_registration_estimated": 4716
+    },
+    "Hardeman": {
+      "fips": "47035",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 11862,
+          "voting_age": 9857,
+          "voting_age_pct": 83.1
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 9,
+            "pct": 0.08
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 29,
+            "pct": 0.24
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 6078,
+            "pct": 51.24
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 385,
+            "pct": 3.25
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 5,
+            "pct": 0.04
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 15,
+            "pct": 0.13
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 428,
+            "pct": 3.61
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 4911,
+            "pct": 41.4
+          }
+        ],
+        "place_count": 9
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5793,
+          "pct": 61.63
+        },
+        "harris": {
+          "votes": 3527,
+          "pct": 37.53
+        },
+        "other": {
+          "votes": 79,
+          "pct": 0.84
+        },
+        "total_votes_cast": 9399,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2266,
+          "pct": 24.11
+        }
+      },
+      "voter_registration_estimated": 15243
+    },
+    "Hardin": {
+      "fips": "47036",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 10936,
+          "voting_age": 8251,
+          "voting_age_pct": 75.45
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 12,
+            "pct": 0.11
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 4,
+            "pct": 0.04
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 630,
+            "pct": 5.76
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 393,
+            "pct": 3.59
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 560,
+            "pct": 5.12
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 9334,
+            "pct": 85.35
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 10293,
+          "pct": 85.11
+        },
+        "harris": {
+          "votes": 1704,
+          "pct": 14.09
+        },
+        "other": {
+          "votes": 97,
+          "pct": 0.8
+        },
+        "total_votes_cast": 12094,
+        "margin": {
+          "winner": "Trump",
+          "votes": 8589,
+          "pct": 71.02
+        }
+      },
+      "voter_registration_estimated": 19614
+    },
+    "Hawkins": {
+      "fips": "47037",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 48258,
+          "voting_age": 38316,
+          "voting_age_pct": 79.4
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 20,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 438,
+            "pct": 0.91
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1118,
+            "pct": 2.32
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1079,
+            "pct": 2.24
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 86,
+            "pct": 0.18
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1395,
+            "pct": 2.89
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 44122,
+            "pct": 91.43
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 22066,
+          "pct": 84.01
+        },
+        "harris": {
+          "votes": 3987,
+          "pct": 15.18
+        },
+        "other": {
+          "votes": 213,
+          "pct": 0.81
+        },
+        "total_votes_cast": 26266,
+        "margin": {
+          "winner": "Trump",
+          "votes": 18079,
+          "pct": 68.83
+        }
+      },
+      "voter_registration_estimated": 42598
+    },
+    "Haywood": {
+      "fips": "47038",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 10128,
+          "voting_age": 7703,
+          "voting_age_pct": 76.06
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 6975,
+            "pct": 68.87
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 509,
+            "pct": 5.03
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 81,
+            "pct": 0.8
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 125,
+            "pct": 1.23
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 2438,
+            "pct": 24.07
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 3286,
+          "pct": 49.4
+        },
+        "harris": {
+          "votes": 3311,
+          "pct": 49.77
+        },
+        "other": {
+          "votes": 55,
+          "pct": 0.83
+        },
+        "total_votes_cast": 6652,
+        "margin": {
+          "winner": "Harris",
+          "votes": -25,
+          "pct": -0.38,
+          "abs_votes": 25,
+          "abs_pct": 0.38
+        }
+      },
+      "voter_registration_estimated": 10788
+    },
+    "Henderson": {
+      "fips": "47039",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 9563,
+          "voting_age": 7153,
+          "voting_age_pct": 74.8
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 35,
+            "pct": 0.37
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1417,
+            "pct": 14.82
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 193,
+            "pct": 2.02
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 396,
+            "pct": 4.14
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 7521,
+            "pct": 78.65
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 10083,
+          "pct": 83.7
+        },
+        "harris": {
+          "votes": 1902,
+          "pct": 15.79
+        },
+        "other": {
+          "votes": 62,
+          "pct": 0.51
+        },
+        "total_votes_cast": 12047,
+        "margin": {
+          "winner": "Trump",
+          "votes": 8181,
+          "pct": 67.91
+        }
+      },
+      "voter_registration_estimated": 19538
+    },
+    "Henry": {
+      "fips": "47040",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 13623,
+          "voting_age": 10757,
+          "voting_age_pct": 78.96
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 47,
+            "pct": 0.35
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 114,
+            "pct": 0.84
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 2322,
+            "pct": 17.04
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 579,
+            "pct": 4.25
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 1,
+            "pct": 0.01
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 450,
+            "pct": 3.3
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 10109,
+            "pct": 74.21
+          }
+        ],
+        "place_count": 5
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 11629,
+          "pct": 77.14
+        },
+        "harris": {
+          "votes": 3286,
+          "pct": 21.8
+        },
+        "other": {
+          "votes": 161,
+          "pct": 1.07
+        },
+        "total_votes_cast": 15076,
+        "margin": {
+          "winner": "Trump",
+          "votes": 8343,
+          "pct": 55.34
+        }
+      },
+      "voter_registration_estimated": 24450
+    },
+    "Hickman": {
+      "fips": "47041",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 3543,
+          "voting_age": 2942,
+          "voting_age_pct": 83.04
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 19,
+            "pct": 0.54
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 105,
+            "pct": 2.96
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 105,
+            "pct": 2.96
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 64,
+            "pct": 1.81
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3250,
+            "pct": 91.73
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 8265,
+          "pct": 80.17
+        },
+        "harris": {
+          "votes": 1968,
+          "pct": 19.09
+        },
+        "other": {
+          "votes": 76,
+          "pct": 0.74
+        },
+        "total_votes_cast": 10309,
+        "margin": {
+          "winner": "Trump",
+          "votes": 6297,
+          "pct": 61.08
+        }
+      },
+      "voter_registration_estimated": 16719
+    },
+    "Houston": {
+      "fips": "47042",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 1985,
+          "voting_age": 1543,
+          "voting_age_pct": 77.73
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 2,
+            "pct": 0.1
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 7,
+            "pct": 0.35
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 128,
+            "pct": 6.45
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 51,
+            "pct": 2.57
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 62,
+            "pct": 3.12
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1734,
+            "pct": 87.36
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 2989,
+          "pct": 78.45
+        },
+        "harris": {
+          "votes": 773,
+          "pct": 20.29
+        },
+        "other": {
+          "votes": 48,
+          "pct": 1.26
+        },
+        "total_votes_cast": 3810,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2216,
+          "pct": 58.16
+        }
+      },
+      "voter_registration_estimated": 6179
+    },
+    "Humphreys": {
+      "fips": "47043",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 8022,
+          "voting_age": 6736,
+          "voting_age_pct": 83.97
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 7,
+            "pct": 0.09
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 22,
+            "pct": 0.27
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 104,
+            "pct": 1.3
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 135,
+            "pct": 1.68
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 22,
+            "pct": 0.27
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 295,
+            "pct": 3.68
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 7437,
+            "pct": 92.71
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 6400,
+          "pct": 77.44
+        },
+        "harris": {
+          "votes": 1767,
+          "pct": 21.38
+        },
+        "other": {
+          "votes": 97,
+          "pct": 1.17
+        },
+        "total_votes_cast": 8264,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4633,
+          "pct": 56.06
+        }
+      },
+      "voter_registration_estimated": 13403
+    },
+    "Jackson": {
+      "fips": "47044",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 1086,
+          "voting_age": 912,
+          "voting_age_pct": 83.98
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 4,
+            "pct": 0.37
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 27,
+            "pct": 2.49
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 10,
+            "pct": 0.92
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 69,
+            "pct": 6.35
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 976,
+            "pct": 89.87
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 4586,
+          "pct": 80.8
+        },
+        "harris": {
+          "votes": 1040,
+          "pct": 18.32
+        },
+        "other": {
+          "votes": 50,
+          "pct": 0.88
+        },
+        "total_votes_cast": 5676,
+        "margin": {
+          "winner": "Trump",
+          "votes": 3546,
+          "pct": 62.47
+        }
+      },
+      "voter_registration_estimated": 9205
+    },
+    "Jefferson": {
+      "fips": "47045",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 17027,
+          "voting_age": 13665,
+          "voting_age_pct": 80.25
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 4,
+            "pct": 0.02
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 51,
+            "pct": 0.3
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 474,
+            "pct": 2.78
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1324,
+            "pct": 7.78
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 22,
+            "pct": 0.13
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 138,
+            "pct": 0.81
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 559,
+            "pct": 3.28
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 14455,
+            "pct": 84.89
+          }
+        ],
+        "place_count": 5
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 21068,
+          "pct": 81.61
+        },
+        "harris": {
+          "votes": 4503,
+          "pct": 17.44
+        },
+        "other": {
+          "votes": 244,
+          "pct": 0.95
+        },
+        "total_votes_cast": 25815,
+        "margin": {
+          "winner": "Trump",
+          "votes": 16565,
+          "pct": 64.17
+        }
+      },
+      "voter_registration_estimated": 41867
+    },
+    "Johnson": {
+      "fips": "47046",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 2275,
+          "voting_age": 1868,
+          "voting_age_pct": 82.11
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 20,
+            "pct": 0.88
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 63,
+            "pct": 2.77
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 177,
+            "pct": 7.78
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 48,
+            "pct": 2.11
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1967,
+            "pct": 86.46
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 6829,
+          "pct": 84.29
+        },
+        "harris": {
+          "votes": 1212,
+          "pct": 14.96
+        },
+        "other": {
+          "votes": 61,
+          "pct": 0.75
+        },
+        "total_votes_cast": 8102,
+        "margin": {
+          "winner": "Trump",
+          "votes": 5617,
+          "pct": 69.33
+        }
+      },
+      "voter_registration_estimated": 13140
+    },
+    "Knox": {
+      "fips": "47047",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 218030,
+          "voting_age": 177036,
+          "voting_age_pct": 81.2
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 212,
+            "pct": 0.1
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 4039,
+            "pct": 1.85
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 30208,
+            "pct": 13.85
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 15281,
+            "pct": 7.01
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 122,
+            "pct": 0.06
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 790,
+            "pct": 0.36
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 8875,
+            "pct": 4.07
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 158503,
+            "pct": 72.7
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 130815,
+          "pct": 58.96
+        },
+        "harris": {
+          "votes": 87516,
+          "pct": 39.45
+        },
+        "other": {
+          "votes": 3533,
+          "pct": 1.59
+        },
+        "total_votes_cast": 221864,
+        "margin": {
+          "winner": "Trump",
+          "votes": 43299,
+          "pct": 19.52
+        }
+      },
+      "voter_registration_estimated": 359818
+    },
+    "Lake": {
+      "fips": "47048",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 5410,
+          "voting_age": 4642,
+          "voting_age_pct": 85.8
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 67,
+            "pct": 1.24
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 13,
+            "pct": 0.24
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1442,
+            "pct": 26.65
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 215,
+            "pct": 3.97
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 13,
+            "pct": 0.24
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 347,
+            "pct": 6.41
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3313,
+            "pct": 61.24
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 1493,
+          "pct": 77.0
+        },
+        "harris": {
+          "votes": 429,
+          "pct": 22.12
+        },
+        "other": {
+          "votes": 17,
+          "pct": 0.88
+        },
+        "total_votes_cast": 1939,
+        "margin": {
+          "winner": "Trump",
+          "votes": 1064,
+          "pct": 54.87
+        }
+      },
+      "voter_registration_estimated": 3145
+    },
+    "Lauderdale": {
+      "fips": "47049",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 11573,
+          "voting_age": 8761,
+          "voting_age_pct": 75.7
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 60,
+            "pct": 0.52
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 9,
+            "pct": 0.08
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 6149,
+            "pct": 53.13
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 178,
+            "pct": 1.54
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 544,
+            "pct": 4.7
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 4633,
+            "pct": 40.03
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5633,
+          "pct": 68.15
+        },
+        "harris": {
+          "votes": 2571,
+          "pct": 31.1
+        },
+        "other": {
+          "votes": 62,
+          "pct": 0.75
+        },
+        "total_votes_cast": 8266,
+        "margin": {
+          "winner": "Trump",
+          "votes": 3062,
+          "pct": 37.04
+        }
+      },
+      "voter_registration_estimated": 13406
+    },
+    "Lawrence": {
+      "fips": "47050",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 14948,
+          "voting_age": 11457,
+          "voting_age_pct": 76.65
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 6,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 578,
+            "pct": 3.87
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 659,
+            "pct": 4.41
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 14,
+            "pct": 0.09
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 853,
+            "pct": 5.71
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 12838,
+            "pct": 85.88
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 16429,
+          "pct": 84.11
+        },
+        "harris": {
+          "votes": 2939,
+          "pct": 15.05
+        },
+        "other": {
+          "votes": 165,
+          "pct": 0.84
+        },
+        "total_votes_cast": 19533,
+        "margin": {
+          "winner": "Trump",
+          "votes": 13490,
+          "pct": 69.06
+        }
+      },
+      "voter_registration_estimated": 31679
+    },
+    "Lewis": {
+      "fips": "47051",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 3790,
+          "voting_age": 3166,
+          "voting_age_pct": 83.54
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 74,
+            "pct": 1.95
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 27,
+            "pct": 0.71
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 8,
+            "pct": 0.21
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 323,
+            "pct": 8.52
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3358,
+            "pct": 88.6
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 4852,
+          "pct": 82.38
+        },
+        "harris": {
+          "votes": 991,
+          "pct": 16.83
+        },
+        "other": {
+          "votes": 47,
+          "pct": 0.8
+        },
+        "total_votes_cast": 5890,
+        "margin": {
+          "winner": "Trump",
+          "votes": 3861,
+          "pct": 65.55
+        }
+      },
+      "voter_registration_estimated": 9552
+    },
+    "Lincoln": {
+      "fips": "47052",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 7326,
+          "voting_age": 5422,
+          "voting_age_pct": 74.01
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 13,
+            "pct": 0.18
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 6,
+            "pct": 0.08
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1308,
+            "pct": 17.85
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 255,
+            "pct": 3.48
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 618,
+            "pct": 8.44
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 5125,
+            "pct": 69.96
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 13208,
+          "pct": 81.89
+        },
+        "harris": {
+          "votes": 2782,
+          "pct": 17.25
+        },
+        "other": {
+          "votes": 138,
+          "pct": 0.86
+        },
+        "total_votes_cast": 16128,
+        "margin": {
+          "winner": "Trump",
+          "votes": 10426,
+          "pct": 64.65
+        }
+      },
+      "voter_registration_estimated": 26156
+    },
+    "Loudon": {
+      "fips": "47053",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 19269,
+          "voting_age": 14771,
+          "voting_age_pct": 76.66
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 10,
+            "pct": 0.05
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 312,
+            "pct": 1.62
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 320,
+            "pct": 1.66
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 3144,
+            "pct": 16.32
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 141,
+            "pct": 0.73
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 399,
+            "pct": 2.07
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 14943,
+            "pct": 77.55
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 25226,
+          "pct": 75.96
+        },
+        "harris": {
+          "votes": 7625,
+          "pct": 22.96
+        },
+        "other": {
+          "votes": 358,
+          "pct": 1.08
+        },
+        "total_votes_cast": 33209,
+        "margin": {
+          "winner": "Trump",
+          "votes": 17601,
+          "pct": 53.0
+        }
+      },
+      "voter_registration_estimated": 53858
+    },
+    "Macon": {
+      "fips": "47054",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 7037,
+          "voting_age": 5072,
+          "voting_age_pct": 72.08
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 10,
+            "pct": 0.14
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 191,
+            "pct": 2.71
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1045,
+            "pct": 14.85
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 150,
+            "pct": 2.13
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 5641,
+            "pct": 80.16
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 8958,
+          "pct": 86.69
+        },
+        "harris": {
+          "votes": 1277,
+          "pct": 12.36
+        },
+        "other": {
+          "votes": 98,
+          "pct": 0.95
+        },
+        "total_votes_cast": 10333,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7681,
+          "pct": 74.33
+        }
+      },
+      "voter_registration_estimated": 16758
+    },
+    "Madison": {
+      "fips": "47055",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 73086,
+          "voting_age": 55815,
+          "voting_age_pct": 76.37
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 96,
+            "pct": 0.13
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 963,
+            "pct": 1.32
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 30737,
+            "pct": 42.06
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 3296,
+            "pct": 4.51
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 87,
+            "pct": 0.12
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 524,
+            "pct": 0.72
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 2134,
+            "pct": 2.92
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 35249,
+            "pct": 48.23
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 23385,
+          "pct": 58.52
+        },
+        "harris": {
+          "votes": 16115,
+          "pct": 40.32
+        },
+        "other": {
+          "votes": 464,
+          "pct": 1.16
+        },
+        "total_votes_cast": 39964,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7270,
+          "pct": 18.19
+        }
+      },
+      "voter_registration_estimated": 64813
+    },
+    "Marion": {
+      "fips": "47056",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 13562,
+          "voting_age": 10745,
+          "voting_age_pct": 79.23
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 69,
+            "pct": 0.51
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 573,
+            "pct": 4.23
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 533,
+            "pct": 3.93
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 697,
+            "pct": 5.14
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 11689,
+            "pct": 86.19
+          }
+        ],
+        "place_count": 8
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 10788,
+          "pct": 77.43
+        },
+        "harris": {
+          "votes": 3026,
+          "pct": 21.72
+        },
+        "other": {
+          "votes": 119,
+          "pct": 0.85
+        },
+        "total_votes_cast": 13933,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7762,
+          "pct": 55.71
+        }
+      },
+      "voter_registration_estimated": 22596
+    },
+    "Marshall": {
+      "fips": "47057",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 16259,
+          "voting_age": 12074,
+          "voting_age_pct": 74.26
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 59,
+            "pct": 0.36
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 51,
+            "pct": 0.31
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1143,
+            "pct": 7.03
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1539,
+            "pct": 9.47
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 163,
+            "pct": 1.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1017,
+            "pct": 6.25
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 12286,
+            "pct": 75.56
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 12426,
+          "pct": 77.85
+        },
+        "harris": {
+          "votes": 3390,
+          "pct": 21.24
+        },
+        "other": {
+          "votes": 146,
+          "pct": 0.91
+        },
+        "total_votes_cast": 15962,
+        "margin": {
+          "winner": "Trump",
+          "votes": 9036,
+          "pct": 56.61
+        }
+      },
+      "voter_registration_estimated": 25887
+    },
+    "Maury": {
+      "fips": "47058",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 75566,
+          "voting_age": 55476,
+          "voting_age_pct": 73.41
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 32,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 707,
+            "pct": 0.94
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 9435,
+            "pct": 12.49
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 7410,
+            "pct": 9.81
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 63,
+            "pct": 0.08
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 2880,
+            "pct": 3.81
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 55036,
+            "pct": 72.83
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 37376,
+          "pct": 71.75
+        },
+        "harris": {
+          "votes": 14145,
+          "pct": 27.15
+        },
+        "other": {
+          "votes": 569,
+          "pct": 1.09
+        },
+        "total_votes_cast": 52090,
+        "margin": {
+          "winner": "Trump",
+          "votes": 23231,
+          "pct": 44.6
+        }
+      },
+      "voter_registration_estimated": 84479
+    },
+    "McMinn": {
+      "fips": "47059",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 23984,
+          "voting_age": 19159,
+          "voting_age_pct": 79.88
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 12,
+            "pct": 0.05
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 229,
+            "pct": 0.95
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1282,
+            "pct": 5.35
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1478,
+            "pct": 6.16
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 24,
+            "pct": 0.1
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1700,
+            "pct": 7.09
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 19257,
+            "pct": 80.29
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 19673,
+          "pct": 81.73
+        },
+        "harris": {
+          "votes": 4207,
+          "pct": 17.48
+        },
+        "other": {
+          "votes": 192,
+          "pct": 0.8
+        },
+        "total_votes_cast": 24072,
+        "margin": {
+          "winner": "Trump",
+          "votes": 15466,
+          "pct": 64.25
+        }
+      },
+      "voter_registration_estimated": 39040
+    },
+    "McNairy": {
+      "fips": "47060",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 9843,
+          "voting_age": 7812,
+          "voting_age_pct": 79.37
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 12,
+            "pct": 0.12
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 1,
+            "pct": 0.01
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 982,
+            "pct": 9.98
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 200,
+            "pct": 2.03
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 3,
+            "pct": 0.03
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 364,
+            "pct": 3.7
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 8278,
+            "pct": 84.1
+          }
+        ],
+        "place_count": 12
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 9437,
+          "pct": 83.76
+        },
+        "harris": {
+          "votes": 1727,
+          "pct": 15.33
+        },
+        "other": {
+          "votes": 103,
+          "pct": 0.91
+        },
+        "total_votes_cast": 11267,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7710,
+          "pct": 68.43
+        }
+      },
+      "voter_registration_estimated": 18273
+    },
+    "Meigs": {
+      "fips": "47061",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 1860,
+          "voting_age": 1512,
+          "voting_age_pct": 81.29
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 65,
+            "pct": 3.49
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 28,
+            "pct": 1.51
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 93,
+            "pct": 5.0
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1674,
+            "pct": 90.0
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5085,
+          "pct": 83.37
+        },
+        "harris": {
+          "votes": 968,
+          "pct": 15.87
+        },
+        "other": {
+          "votes": 46,
+          "pct": 0.75
+        },
+        "total_votes_cast": 6099,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4117,
+          "pct": 67.5
+        }
+      },
+      "voter_registration_estimated": 9891
+    },
+    "Monroe": {
+      "fips": "47062",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 11368,
+          "voting_age": 8877,
+          "voting_age_pct": 78.09
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 31,
+            "pct": 0.27
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 49,
+            "pct": 0.43
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 551,
+            "pct": 4.85
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 344,
+            "pct": 3.03
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 720,
+            "pct": 6.33
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 9671,
+            "pct": 85.07
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 18526,
+          "pct": 82.99
+        },
+        "harris": {
+          "votes": 3608,
+          "pct": 16.16
+        },
+        "other": {
+          "votes": 189,
+          "pct": 0.85
+        },
+        "total_votes_cast": 22323,
+        "margin": {
+          "winner": "Trump",
+          "votes": 14918,
+          "pct": 66.83
+        }
+      },
+      "voter_registration_estimated": 36203
+    },
+    "Montgomery": {
+      "fips": "47063",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 171897,
+          "voting_age": 125463,
+          "voting_age_pct": 72.99
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 279,
+            "pct": 0.16
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 4148,
+            "pct": 2.41
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 38590,
+            "pct": 22.45
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 21438,
+            "pct": 12.47
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 598,
+            "pct": 0.35
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 991,
+            "pct": 0.58
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 11263,
+            "pct": 6.55
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 94590,
+            "pct": 55.03
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 47795,
+          "pct": 58.46
+        },
+        "harris": {
+          "votes": 32736,
+          "pct": 40.04
+        },
+        "other": {
+          "votes": 1224,
+          "pct": 1.5
+        },
+        "total_votes_cast": 81755,
+        "margin": {
+          "winner": "Trump",
+          "votes": 15059,
+          "pct": 18.42
+        }
+      },
+      "voter_registration_estimated": 132590
+    },
+    "Moore": {
+      "fips": "47064",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 note: Moore County is a consolidated city-county with Lynchburg; city-level ACS data not available in source file",
+        "population": {
+          "total": 0,
+          "voting_age": 0,
+          "voting_age_pct": 0,
+          "note": "Consolidated city-county \u2013 city-level ACS data unavailable"
+        },
+        "race": [],
+        "place_count": 0
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 3060,
+          "pct": 83.74
+        },
+        "harris": {
+          "votes": 542,
+          "pct": 14.83
+        },
+        "other": {
+          "votes": 52,
+          "pct": 1.43
+        },
+        "total_votes_cast": 3654,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2518,
+          "pct": 68.91
+        }
+      },
+      "voter_registration_estimated": 5926
+    },
+    "Morgan": {
+      "fips": "47065",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 3368,
+          "voting_age": 2566,
+          "voting_age_pct": 76.19
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 4,
+            "pct": 0.12
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 35,
+            "pct": 1.04
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 20,
+            "pct": 0.59
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 36,
+            "pct": 1.07
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 74,
+            "pct": 2.2
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3197,
+            "pct": 94.92
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 7427,
+          "pct": 86.76
+        },
+        "harris": {
+          "votes": 1054,
+          "pct": 12.31
+        },
+        "other": {
+          "votes": 79,
+          "pct": 0.92
+        },
+        "total_votes_cast": 8560,
+        "margin": {
+          "winner": "Trump",
+          "votes": 6373,
+          "pct": 74.45
+        }
+      },
+      "voter_registration_estimated": 13883
+    },
+    "Obion": {
+      "fips": "47066",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 18691,
+          "voting_age": 13921,
+          "voting_age_pct": 74.48
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 15,
+            "pct": 0.08
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 65,
+            "pct": 0.35
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 3015,
+            "pct": 16.13
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1339,
+            "pct": 7.16
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 2,
+            "pct": 0.01
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 36,
+            "pct": 0.19
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 869,
+            "pct": 4.65
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 13349,
+            "pct": 71.42
+          }
+        ],
+        "place_count": 10
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 10596,
+          "pct": 82.14
+        },
+        "harris": {
+          "votes": 2221,
+          "pct": 17.22
+        },
+        "other": {
+          "votes": 83,
+          "pct": 0.64
+        },
+        "total_votes_cast": 12900,
+        "margin": {
+          "winner": "Trump",
+          "votes": 8375,
+          "pct": 64.92
+        }
+      },
+      "voter_registration_estimated": 20921
+    },
+    "Overton": {
+      "fips": "47067",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 3957,
+          "voting_age": 3264,
+          "voting_age_pct": 82.49
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 14,
+            "pct": 0.35
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 50,
+            "pct": 1.26
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 208,
+            "pct": 5.26
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 179,
+            "pct": 4.52
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 4,
+            "pct": 0.1
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1,
+            "pct": 0.03
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 3501,
+            "pct": 88.48
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 9042,
+          "pct": 81.69
+        },
+        "harris": {
+          "votes": 1931,
+          "pct": 17.45
+        },
+        "other": {
+          "votes": 96,
+          "pct": 0.87
+        },
+        "total_votes_cast": 11069,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7111,
+          "pct": 64.24
+        }
+      },
+      "voter_registration_estimated": 17952
+    },
+    "Perry": {
+      "fips": "47068",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 2359,
+          "voting_age": 1907,
+          "voting_age_pct": 80.84
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 108,
+            "pct": 4.58
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 29,
+            "pct": 1.23
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 89,
+            "pct": 3.77
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 130,
+            "pct": 5.51
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 2003,
+            "pct": 84.91
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 3139,
+          "pct": 84.47
+        },
+        "harris": {
+          "votes": 558,
+          "pct": 15.02
+        },
+        "other": {
+          "votes": 19,
+          "pct": 0.51
+        },
+        "total_votes_cast": 3716,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2581,
+          "pct": 69.46
+        }
+      },
+      "voter_registration_estimated": 6027
+    },
+    "Pickett": {
+      "fips": "47069",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 1344,
+          "voting_age": 975,
+          "voting_age_pct": 72.54
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 18,
+            "pct": 1.34
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 4,
+            "pct": 0.3
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 3,
+            "pct": 0.22
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1319,
+            "pct": 98.14
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 2441,
+          "pct": 82.63
+        },
+        "harris": {
+          "votes": 487,
+          "pct": 16.49
+        },
+        "other": {
+          "votes": 26,
+          "pct": 0.88
+        },
+        "total_votes_cast": 2954,
+        "margin": {
+          "winner": "Trump",
+          "votes": 1954,
+          "pct": 66.15
+        }
+      },
+      "voter_registration_estimated": 4791
+    },
+    "Polk": {
+      "fips": "47070",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 2228,
+          "voting_age": 1915,
+          "voting_age_pct": 85.95
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 64,
+            "pct": 2.87
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 15,
+            "pct": 0.67
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 79,
+            "pct": 3.55
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 2070,
+            "pct": 92.91
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 7302,
+          "pct": 83.67
+        },
+        "harris": {
+          "votes": 1356,
+          "pct": 15.54
+        },
+        "other": {
+          "votes": 69,
+          "pct": 0.79
+        },
+        "total_votes_cast": 8727,
+        "margin": {
+          "winner": "Trump",
+          "votes": 5946,
+          "pct": 68.13
+        }
+      },
+      "voter_registration_estimated": 14153
+    },
+    "Putnam": {
+      "fips": "47071",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 43575,
+          "voting_age": 34154,
+          "voting_age_pct": 78.38
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 5,
+            "pct": 0.01
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 669,
+            "pct": 1.54
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1305,
+            "pct": 2.99
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 4883,
+            "pct": 11.21
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 62,
+            "pct": 0.14
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1521,
+            "pct": 3.49
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 35130,
+            "pct": 80.62
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 25554,
+          "pct": 73.14
+        },
+        "harris": {
+          "votes": 8991,
+          "pct": 25.73
+        },
+        "other": {
+          "votes": 394,
+          "pct": 1.13
+        },
+        "total_votes_cast": 34939,
+        "margin": {
+          "winner": "Trump",
+          "votes": 16563,
+          "pct": 47.41
+        }
+      },
+      "voter_registration_estimated": 56664
+    },
+    "Rhea": {
+      "fips": "47072",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 10861,
+          "voting_age": 8743,
+          "voting_age_pct": 80.5
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 213,
+            "pct": 1.96
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 320,
+            "pct": 2.95
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 958,
+            "pct": 8.82
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 34,
+            "pct": 0.31
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 343,
+            "pct": 3.16
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 8993,
+            "pct": 82.8
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 11974,
+          "pct": 82.9
+        },
+        "harris": {
+          "votes": 2312,
+          "pct": 16.01
+        },
+        "other": {
+          "votes": 158,
+          "pct": 1.09
+        },
+        "total_votes_cast": 14444,
+        "margin": {
+          "winner": "Trump",
+          "votes": 9662,
+          "pct": 66.89
+        }
+      },
+      "voter_registration_estimated": 23425
+    },
+    "Roane": {
+      "fips": "47073",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 37090,
+          "voting_age": 28717,
+          "voting_age_pct": 77.43
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 59,
+            "pct": 0.16
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 588,
+            "pct": 1.59
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1858,
+            "pct": 5.01
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1392,
+            "pct": 3.75
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 34,
+            "pct": 0.09
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 156,
+            "pct": 0.42
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1534,
+            "pct": 4.14
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 31464,
+            "pct": 84.83
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 21011,
+          "pct": 76.65
+        },
+        "harris": {
+          "votes": 6073,
+          "pct": 22.15
+        },
+        "other": {
+          "votes": 328,
+          "pct": 1.2
+        },
+        "total_votes_cast": 27412,
+        "margin": {
+          "winner": "Trump",
+          "votes": 14938,
+          "pct": 54.49
+        }
+      },
+      "voter_registration_estimated": 44457
+    },
+    "Robertson": {
+      "fips": "47074",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 44771,
+          "voting_age": 33533,
+          "voting_age_pct": 74.9
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 16,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 415,
+            "pct": 0.93
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 4735,
+            "pct": 10.58
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 6112,
+            "pct": 13.65
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 11,
+            "pct": 0.02
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 357,
+            "pct": 0.8
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1568,
+            "pct": 3.5
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 31554,
+            "pct": 70.48
+          }
+        ],
+        "place_count": 9
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 26260,
+          "pct": 74.88
+        },
+        "harris": {
+          "votes": 8428,
+          "pct": 24.03
+        },
+        "other": {
+          "votes": 382,
+          "pct": 1.09
+        },
+        "total_votes_cast": 35070,
+        "margin": {
+          "winner": "Trump",
+          "votes": 17832,
+          "pct": 50.85
+        }
+      },
+      "voter_registration_estimated": 56876
+    },
+    "Rutherford": {
+      "fips": "47075",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 252491,
+          "voting_age": 189933,
+          "voting_age_pct": 75.22
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 142,
+            "pct": 0.06
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 9719,
+            "pct": 3.85
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 46158,
+            "pct": 18.28
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 33283,
+            "pct": 13.18
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 217,
+            "pct": 0.09
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 1121,
+            "pct": 0.44
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 12688,
+            "pct": 5.03
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 149163,
+            "pct": 59.08
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 88811,
+          "pct": 60.15
+        },
+        "harris": {
+          "votes": 56656,
+          "pct": 38.37
+        },
+        "other": {
+          "votes": 2189,
+          "pct": 1.48
+        },
+        "total_votes_cast": 147656,
+        "margin": {
+          "winner": "Trump",
+          "votes": 32155,
+          "pct": 21.78
+        }
+      },
+      "voter_registration_estimated": 239468
+    },
+    "Scott": {
+      "fips": "47076",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 6591,
+          "voting_age": 5019,
+          "voting_age_pct": 76.15
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 39,
+            "pct": 0.59
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 3,
+            "pct": 0.05
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 68,
+            "pct": 1.03
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 23,
+            "pct": 0.35
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 7,
+            "pct": 0.11
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 22,
+            "pct": 0.33
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 118,
+            "pct": 1.79
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 6311,
+            "pct": 95.75
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 8608,
+          "pct": 89.62
+        },
+        "harris": {
+          "votes": 942,
+          "pct": 9.81
+        },
+        "other": {
+          "votes": 55,
+          "pct": 0.57
+        },
+        "total_votes_cast": 9605,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7666,
+          "pct": 79.81
+        }
+      },
+      "voter_registration_estimated": 15577
+    },
+    "Sequatchie": {
+      "fips": "47077",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 5546,
+          "voting_age": 4341,
+          "voting_age_pct": 78.27
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 4,
+            "pct": 0.07
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 73,
+            "pct": 1.32
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 500,
+            "pct": 9.02
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 20,
+            "pct": 0.36
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 112,
+            "pct": 2.02
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 4837,
+            "pct": 87.22
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 6522,
+          "pct": 82.66
+        },
+        "harris": {
+          "votes": 1292,
+          "pct": 16.38
+        },
+        "other": {
+          "votes": 76,
+          "pct": 0.96
+        },
+        "total_votes_cast": 7890,
+        "margin": {
+          "winner": "Trump",
+          "votes": 5230,
+          "pct": 66.29
+        }
+      },
+      "voter_registration_estimated": 12796
+    },
+    "Sevier": {
+      "fips": "47078",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 28614,
+          "voting_age": 21939,
+          "voting_age_pct": 76.67
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 32,
+            "pct": 0.11
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 873,
+            "pct": 3.05
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 549,
+            "pct": 1.92
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 6367,
+            "pct": 22.25
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 476,
+            "pct": 1.66
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 910,
+            "pct": 3.18
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 19407,
+            "pct": 67.82
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 35207,
+          "pct": 80.07
+        },
+        "harris": {
+          "votes": 8322,
+          "pct": 18.93
+        },
+        "other": {
+          "votes": 441,
+          "pct": 1.0
+        },
+        "total_votes_cast": 43970,
+        "margin": {
+          "winner": "Trump",
+          "votes": 26885,
+          "pct": 61.14
+        }
+      },
+      "voter_registration_estimated": 71310
+    },
+    "Shelby": {
+      "fips": "47079",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 818259,
+          "voting_age": 610387,
+          "voting_age_pct": 74.6
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 333,
+            "pct": 0.04
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 22979,
+            "pct": 2.81
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 421293,
+            "pct": 51.49
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 71788,
+            "pct": 8.77
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 462,
+            "pct": 0.06
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 2493,
+            "pct": 0.3
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 18266,
+            "pct": 2.23
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 280645,
+            "pct": 34.3
+          }
+        ],
+        "place_count": 7
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 118917,
+          "pct": 36.42
+        },
+        "harris": {
+          "votes": 201759,
+          "pct": 61.8
+        },
+        "other": {
+          "votes": 5821,
+          "pct": 1.78
+        },
+        "total_votes_cast": 326497,
+        "margin": {
+          "winner": "Harris",
+          "votes": -82842,
+          "pct": -25.37,
+          "abs_votes": 82842,
+          "abs_pct": 25.37
+        }
+      },
+      "voter_registration_estimated": 529512
+    },
+    "Smith": {
+      "fips": "47080",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 5803,
+          "voting_age": 4534,
+          "voting_age_pct": 78.13
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 34,
+            "pct": 0.59
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 167,
+            "pct": 2.88
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 181,
+            "pct": 3.12
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 6,
+            "pct": 0.1
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 161,
+            "pct": 2.77
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 5254,
+            "pct": 90.54
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 7655,
+          "pct": 81.99
+        },
+        "harris": {
+          "votes": 1595,
+          "pct": 17.08
+        },
+        "other": {
+          "votes": 86,
+          "pct": 0.92
+        },
+        "total_votes_cast": 9336,
+        "margin": {
+          "winner": "Trump",
+          "votes": 6060,
+          "pct": 64.91
+        }
+      },
+      "voter_registration_estimated": 15141
+    },
+    "Stewart": {
+      "fips": "47081",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 3328,
+          "voting_age": 2366,
+          "voting_age_pct": 71.09
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 5,
+            "pct": 0.15
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 4,
+            "pct": 0.12
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 61,
+            "pct": 1.83
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 157,
+            "pct": 4.72
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 1,
+            "pct": 0.03
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 207,
+            "pct": 6.22
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 2892,
+            "pct": 86.9
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 5389,
+          "pct": 81.4
+        },
+        "harris": {
+          "votes": 1160,
+          "pct": 17.52
+        },
+        "other": {
+          "votes": 71,
+          "pct": 1.07
+        },
+        "total_votes_cast": 6620,
+        "margin": {
+          "winner": "Trump",
+          "votes": 4229,
+          "pct": 63.88
+        }
+      },
+      "voter_registration_estimated": 10736
+    },
+    "Sullivan": {
+      "fips": "47082",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 81479,
+          "voting_age": 65065,
+          "voting_age_pct": 79.85
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 43,
+            "pct": 0.05
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 894,
+            "pct": 1.1
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 3123,
+            "pct": 3.83
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 3320,
+            "pct": 4.07
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 11,
+            "pct": 0.01
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 186,
+            "pct": 0.23
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 2852,
+            "pct": 3.5
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 71048,
+            "pct": 87.2
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 58154,
+          "pct": 76.98
+        },
+        "harris": {
+          "votes": 16624,
+          "pct": 22.01
+        },
+        "other": {
+          "votes": 763,
+          "pct": 1.01
+        },
+        "total_votes_cast": 75541,
+        "margin": {
+          "winner": "Trump",
+          "votes": 41530,
+          "pct": 54.98
+        }
+      },
+      "voter_registration_estimated": 122512
+    },
+    "Sumner": {
+      "fips": "47083",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 143940,
+          "voting_age": 110488,
+          "voting_age_pct": 76.76
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 122,
+            "pct": 0.08
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 2548,
+            "pct": 1.77
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 15871,
+            "pct": 11.03
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 11174,
+            "pct": 7.76
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 41,
+            "pct": 0.03
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 608,
+            "pct": 0.42
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 4209,
+            "pct": 2.92
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 109364,
+            "pct": 75.98
+          }
+        ],
+        "place_count": 8
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 68767,
+          "pct": 70.34
+        },
+        "harris": {
+          "votes": 27874,
+          "pct": 28.51
+        },
+        "other": {
+          "votes": 1120,
+          "pct": 1.15
+        },
+        "total_votes_cast": 97761,
+        "margin": {
+          "winner": "Trump",
+          "votes": 40893,
+          "pct": 41.83
+        }
+      },
+      "voter_registration_estimated": 158548
+    },
+    "Tipton": {
+      "fips": "47084",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 30634,
+          "voting_age": 22557,
+          "voting_age_pct": 73.63
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 66,
+            "pct": 0.22
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 222,
+            "pct": 0.72
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 7841,
+            "pct": 25.6
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 816,
+            "pct": 2.66
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 177,
+            "pct": 0.58
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 870,
+            "pct": 2.84
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 20642,
+            "pct": 67.38
+          }
+        ],
+        "place_count": 8
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 20303,
+          "pct": 75.95
+        },
+        "harris": {
+          "votes": 6178,
+          "pct": 23.11
+        },
+        "other": {
+          "votes": 252,
+          "pct": 0.94
+        },
+        "total_votes_cast": 26733,
+        "margin": {
+          "winner": "Trump",
+          "votes": 14125,
+          "pct": 52.84
+        }
+      },
+      "voter_registration_estimated": 43355
+    },
+    "Trousdale": {
+      "fips": "47085",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 note: Trousdale County is a consolidated city-county with Hartsville; city-level ACS data not available in source file",
+        "population": {
+          "total": 0,
+          "voting_age": 0,
+          "voting_age_pct": 0,
+          "note": "Consolidated city-county \u2013 city-level ACS data unavailable"
+        },
+        "race": [],
+        "place_count": 0
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 3359,
+          "pct": 79.02
+        },
+        "harris": {
+          "votes": 856,
+          "pct": 20.14
+        },
+        "other": {
+          "votes": 36,
+          "pct": 0.84
+        },
+        "total_votes_cast": 4251,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2503,
+          "pct": 58.88
+        }
+      },
+      "voter_registration_estimated": 6894
+    },
+    "Unicoi": {
+      "fips": "47086",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 9816,
+          "voting_age": 8194,
+          "voting_age_pct": 83.48
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 11,
+            "pct": 0.11
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 29,
+            "pct": 0.3
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 48,
+            "pct": 0.49
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 747,
+            "pct": 7.61
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 222,
+            "pct": 2.26
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 8759,
+            "pct": 89.23
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 6876,
+          "pct": 80.51
+        },
+        "harris": {
+          "votes": 1578,
+          "pct": 18.48
+        },
+        "other": {
+          "votes": 87,
+          "pct": 1.02
+        },
+        "total_votes_cast": 8541,
+        "margin": {
+          "winner": "Trump",
+          "votes": 5298,
+          "pct": 62.03
+        }
+      },
+      "voter_registration_estimated": 13852
+    },
+    "Union": {
+      "fips": "47087",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 5783,
+          "voting_age": 4473,
+          "voting_age_pct": 77.35
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 2,
+            "pct": 0.03
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 44,
+            "pct": 0.76
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 102,
+            "pct": 1.76
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 124,
+            "pct": 2.14
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 5511,
+            "pct": 95.3
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 7384,
+          "pct": 85.18
+        },
+        "harris": {
+          "votes": 1216,
+          "pct": 14.03
+        },
+        "other": {
+          "votes": 69,
+          "pct": 0.8
+        },
+        "total_votes_cast": 8669,
+        "margin": {
+          "winner": "Trump",
+          "votes": 6168,
+          "pct": 71.15
+        }
+      },
+      "voter_registration_estimated": 14059
+    },
+    "Van Buren": {
+      "fips": "47088",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 1494,
+          "voting_age": 1283,
+          "voting_age_pct": 85.88
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 6,
+            "pct": 0.4
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 7,
+            "pct": 0.47
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 103,
+            "pct": 6.89
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 1378,
+            "pct": 92.24
+          }
+        ],
+        "place_count": 1
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 2718,
+          "pct": 83.25
+        },
+        "harris": {
+          "votes": 524,
+          "pct": 16.05
+        },
+        "other": {
+          "votes": 23,
+          "pct": 0.7
+        },
+        "total_votes_cast": 3265,
+        "margin": {
+          "winner": "Trump",
+          "votes": 2194,
+          "pct": 67.2
+        }
+      },
+      "voter_registration_estimated": 5295
+    },
+    "Warren": {
+      "fips": "47089",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 14956,
+          "voting_age": 11618,
+          "voting_age_pct": 77.68
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 11,
+            "pct": 0.07
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 162,
+            "pct": 1.08
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 599,
+            "pct": 4.01
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1845,
+            "pct": 12.34
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 1,
+            "pct": 0.01
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 2,
+            "pct": 0.01
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 571,
+            "pct": 3.82
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 11765,
+            "pct": 78.66
+          }
+        ],
+        "place_count": 4
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 13192,
+          "pct": 77.53
+        },
+        "harris": {
+          "votes": 3647,
+          "pct": 21.43
+        },
+        "other": {
+          "votes": 176,
+          "pct": 1.03
+        },
+        "total_votes_cast": 17015,
+        "margin": {
+          "winner": "Trump",
+          "votes": 9545,
+          "pct": 56.1
+        }
+      },
+      "voter_registration_estimated": 27595
+    },
+    "Washington": {
+      "fips": "47090",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 29874,
+          "voting_age": 24239,
+          "voting_age_pct": 81.14
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 17,
+            "pct": 0.06
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 808,
+            "pct": 2.7
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 1706,
+            "pct": 5.71
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 1701,
+            "pct": 5.69
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 11,
+            "pct": 0.04
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 110,
+            "pct": 0.37
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 1101,
+            "pct": 3.69
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 24418,
+            "pct": 81.74
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 42299,
+          "pct": 69.08
+        },
+        "harris": {
+          "votes": 18131,
+          "pct": 29.61
+        },
+        "other": {
+          "votes": 804,
+          "pct": 1.31
+        },
+        "total_votes_cast": 61234,
+        "margin": {
+          "winner": "Trump",
+          "votes": 24168,
+          "pct": 39.47
+        }
+      },
+      "voter_registration_estimated": 99309
+    },
+    "Wayne": {
+      "fips": "47091",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 6159,
+          "voting_age": 5149,
+          "voting_age_pct": 83.6
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 21,
+            "pct": 0.34
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 656,
+            "pct": 10.65
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 304,
+            "pct": 4.94
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 25,
+            "pct": 0.41
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 21,
+            "pct": 0.34
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 501,
+            "pct": 8.13
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 4631,
+            "pct": 75.19
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 6016,
+          "pct": 88.07
+        },
+        "harris": {
+          "votes": 762,
+          "pct": 11.16
+        },
+        "other": {
+          "votes": 53,
+          "pct": 0.78
+        },
+        "total_votes_cast": 6831,
+        "margin": {
+          "winner": "Trump",
+          "votes": 5254,
+          "pct": 76.91
+        }
+      },
+      "voter_registration_estimated": 11078
+    },
+    "Weakley": {
+      "fips": "47092",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 20109,
+          "voting_age": 16517,
+          "voting_age_pct": 82.14
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 48,
+            "pct": 0.24
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 356,
+            "pct": 1.77
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 2406,
+            "pct": 11.96
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 589,
+            "pct": 2.93
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 61,
+            "pct": 0.3
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 512,
+            "pct": 2.55
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 16136,
+            "pct": 80.24
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 10541,
+          "pct": 78.7
+        },
+        "harris": {
+          "votes": 2725,
+          "pct": 20.34
+        },
+        "other": {
+          "votes": 128,
+          "pct": 0.96
+        },
+        "total_votes_cast": 13394,
+        "margin": {
+          "winner": "Trump",
+          "votes": 7816,
+          "pct": 58.35
+        }
+      },
+      "voter_registration_estimated": 21722
+    },
+    "White": {
+      "fips": "47093",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 5403,
+          "voting_age": 4244,
+          "voting_age_pct": 78.55
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 8,
+            "pct": 0.15
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 272,
+            "pct": 5.03
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 186,
+            "pct": 3.44
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 138,
+            "pct": 2.55
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 4799,
+            "pct": 88.82
+          }
+        ],
+        "place_count": 2
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 10717,
+          "pct": 82.88
+        },
+        "harris": {
+          "votes": 2105,
+          "pct": 16.28
+        },
+        "other": {
+          "votes": 109,
+          "pct": 0.84
+        },
+        "total_votes_cast": 12931,
+        "margin": {
+          "winner": "Trump",
+          "votes": 8612,
+          "pct": 66.6
+        }
+      },
+      "voter_registration_estimated": 20971
+    },
+    "Williamson": {
+      "fips": "47094",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 189790,
+          "voting_age": 139742,
+          "voting_age_pct": 73.63
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 90,
+            "pct": 0.05
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 12004,
+            "pct": 6.32
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 8588,
+            "pct": 4.53
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 12334,
+            "pct": 6.5
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 816,
+            "pct": 0.43
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 6741,
+            "pct": 3.55
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 149214,
+            "pct": 78.62
+          }
+        ],
+        "place_count": 6
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 94562,
+          "pct": 65.36
+        },
+        "harris": {
+          "votes": 47695,
+          "pct": 32.97
+        },
+        "other": {
+          "votes": 2411,
+          "pct": 1.67
+        },
+        "total_votes_cast": 144668,
+        "margin": {
+          "winner": "Trump",
+          "votes": 46867,
+          "pct": 32.4
+        }
+      },
+      "voter_registration_estimated": 234622
+    },
+    "Wilson": {
+      "fips": "47095",
+      "census": {
+        "source": "US Census Bureau ACS 5-Year Estimates (2023) \u2013 aggregated from city/place level",
+        "population": {
+          "total": 84290,
+          "voting_age": 63652,
+          "voting_age_pct": 75.52
+        },
+        "race": [
+          {
+            "group": "American Indian and Alaska Native (non-Hispanic)",
+            "count": 49,
+            "pct": 0.06
+          },
+          {
+            "group": "Asian (non-Hispanic)",
+            "count": 2698,
+            "pct": 3.2
+          },
+          {
+            "group": "Black or African American (non-Hispanic)",
+            "count": 7787,
+            "pct": 9.24
+          },
+          {
+            "group": "Hispanic or Latino",
+            "count": 6793,
+            "pct": 8.06
+          },
+          {
+            "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+            "count": 0,
+            "pct": 0.0
+          },
+          {
+            "group": "Some Other Race (non-Hispanic)",
+            "count": 1257,
+            "pct": 1.49
+          },
+          {
+            "group": "Two or More Races (non-Hispanic)",
+            "count": 3041,
+            "pct": 3.61
+          },
+          {
+            "group": "White (non-Hispanic)",
+            "count": 62665,
+            "pct": 74.34
+          }
+        ],
+        "place_count": 3
+      },
+      "presidential_2024": {
+        "source": "TN Secretary of State certified results (Nov 5, 2024)",
+        "trump": {
+          "votes": 56425,
+          "pct": 69.44
+        },
+        "harris": {
+          "votes": 23855,
+          "pct": 29.36
+        },
+        "other": {
+          "votes": 974,
+          "pct": 1.2
+        },
+        "total_votes_cast": 81254,
+        "margin": {
+          "winner": "Trump",
+          "votes": 32570,
+          "pct": 40.08
+        }
+      },
+      "voter_registration_estimated": 131777
+    }
+  }
+}

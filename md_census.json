@@ -1,0 +1,6634 @@
+{
+  "cities": {
+    "Baltimore city, Maryland": {
+      "state": "MD",
+      "fips": "2404000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 577193,
+        "voting_age": 456699,
+        "voting_age_pct": 79.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 151037,
+          "pct": 26.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 342194,
+          "pct": 59.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 980,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14383,
+          "pct": 2.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 159,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3418,
+          "pct": 0.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 19602,
+          "pct": 3.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 45420,
+          "pct": 7.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 59623,
+        "poverty_count": 28741,
+        "poverty_pct": 5
+      },
+      "education": {
+        "bachelors_or_higher": 143233,
+        "bachelors_only": 73130,
+        "masters": 47151,
+        "professional": 12693,
+        "doctorate": 10259
+      }
+    },
+    "Frederick city, Maryland": {
+      "state": "MD",
+      "fips": "2430325",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 80617,
+        "voting_age": 62575,
+        "voting_age_pct": 77.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 41480,
+          "pct": 51.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 13438,
+          "pct": 16.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 125,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4461,
+          "pct": 5.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 21,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 363,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4173,
+          "pct": 5.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16556,
+          "pct": 20.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 95150,
+        "poverty_count": 2169,
+        "poverty_pct": 2.7
+      },
+      "education": {
+        "bachelors_or_higher": 23238,
+        "bachelors_only": 12809,
+        "masters": 7713,
+        "professional": 1143,
+        "doctorate": 1573
+      }
+    },
+    "Gaithersburg city, Maryland": {
+      "state": "MD",
+      "fips": "2431175",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 69225,
+        "voting_age": 53584,
+        "voting_age_pct": 77.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 21623,
+          "pct": 31.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10365,
+          "pct": 15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 59,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 13514,
+          "pct": 19.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 136,
+          "pct": 0.2
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 486,
+          "pct": 0.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2631,
+          "pct": 3.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 20411,
+          "pct": 29.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 107496,
+        "poverty_count": 1771,
+        "poverty_pct": 2.6
+      },
+      "education": {
+        "bachelors_or_higher": 25132,
+        "bachelors_only": 13282,
+        "masters": 8140,
+        "professional": 1348,
+        "doctorate": 2362
+      }
+    },
+    "Rockville city, Maryland": {
+      "state": "MD",
+      "fips": "2467675",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 67218,
+        "voting_age": 53593,
+        "voting_age_pct": 79.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 29931,
+          "pct": 44.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7264,
+          "pct": 10.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 66,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14138,
+          "pct": 21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 659,
+          "pct": 1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3189,
+          "pct": 4.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11971,
+          "pct": 17.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 122384,
+        "poverty_count": 921,
+        "poverty_pct": 1.4
+      },
+      "education": {
+        "bachelors_or_higher": 31168,
+        "bachelors_only": 12928,
+        "masters": 10550,
+        "professional": 2677,
+        "doctorate": 5013
+      }
+    },
+    "Bowie city, Maryland": {
+      "state": "MD",
+      "fips": "2408775",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 57771,
+        "voting_age": 45290,
+        "voting_age_pct": 78.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15511,
+          "pct": 26.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 32251,
+          "pct": 55.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 167,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1735,
+          "pct": 3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 10,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 204,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2997,
+          "pct": 5.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4896,
+          "pct": 8.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 141831,
+        "poverty_count": 558,
+        "poverty_pct": 1
+      },
+      "education": {
+        "bachelors_or_higher": 20799,
+        "bachelors_only": 10672,
+        "masters": 7959,
+        "professional": 923,
+        "doctorate": 1245
+      }
+    },
+    "Hagerstown city, Maryland": {
+      "state": "MD",
+      "fips": "2436075",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 43490,
+        "voting_age": 32493,
+        "voting_age_pct": 74.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25066,
+          "pct": 57.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9783,
+          "pct": 22.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 578,
+          "pct": 1.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 72,
+          "pct": 0.2
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 92,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3265,
+          "pct": 7.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4619,
+          "pct": 10.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 49957,
+        "poverty_count": 3166,
+        "poverty_pct": 7.3
+      },
+      "education": {
+        "bachelors_or_higher": 5740,
+        "bachelors_only": 3624,
+        "masters": 1612,
+        "professional": 251,
+        "doctorate": 253
+      }
+    },
+    "Annapolis city, Maryland": {
+      "state": "MD",
+      "fips": "2401600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 40744,
+        "voting_age": 31965,
+        "voting_age_pct": 78.45
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 23197,
+          "pct": 56.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7543,
+          "pct": 18.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1093,
+          "pct": 2.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 56,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1244,
+          "pct": 3.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7596,
+          "pct": 18.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 104257,
+        "poverty_count": 661,
+        "poverty_pct": 1.6
+      },
+      "education": {
+        "bachelors_or_higher": 15375,
+        "bachelors_only": 8104,
+        "masters": 4759,
+        "professional": 1391,
+        "doctorate": 1121
+      }
+    },
+    "College Park city, Maryland": {
+      "state": "MD",
+      "fips": "2418750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 34397,
+        "voting_age": 30946,
+        "voting_age_pct": 89.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13305,
+          "pct": 38.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8189,
+          "pct": 23.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 63,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5290,
+          "pct": 15.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 7,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 177,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1406,
+          "pct": 4.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5960,
+          "pct": 17.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 74867,
+        "poverty_count": 487,
+        "poverty_pct": 1.4
+      },
+      "education": {
+        "bachelors_or_higher": 6694,
+        "bachelors_only": 3583,
+        "masters": 2243,
+        "professional": 261,
+        "doctorate": 607
+      }
+    },
+    "Salisbury city, Maryland": {
+      "state": "MD",
+      "fips": "2469925",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 33080,
+        "voting_age": 25073,
+        "voting_age_pct": 75.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14369,
+          "pct": 43.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 13350,
+          "pct": 40.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 23,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1034,
+          "pct": 3.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 74,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2267,
+          "pct": 6.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1963,
+          "pct": 5.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 56402,
+        "poverty_count": 1998,
+        "poverty_pct": 6
+      },
+      "education": {
+        "bachelors_or_higher": 5434,
+        "bachelors_only": 3270,
+        "masters": 1531,
+        "professional": 411,
+        "doctorate": 222
+      }
+    },
+    "Laurel city, Maryland": {
+      "state": "MD",
+      "fips": "2445900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 29594,
+        "voting_age": 22771,
+        "voting_age_pct": 76.94
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4194,
+          "pct": 14.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14435,
+          "pct": 48.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 45,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2844,
+          "pct": 9.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 105,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1346,
+          "pct": 4.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6625,
+          "pct": 22.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 94063,
+        "poverty_count": 926,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 9164,
+        "bachelors_only": 4549,
+        "masters": 3168,
+        "professional": 693,
+        "doctorate": 754
+      }
+    },
+    "Greenbelt city, Maryland": {
+      "state": "MD",
+      "fips": "2434775",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 24572,
+        "voting_age": 18884,
+        "voting_age_pct": 76.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5084,
+          "pct": 20.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11165,
+          "pct": 45.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 70,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2208,
+          "pct": 9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 252,
+          "pct": 1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1601,
+          "pct": 6.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4192,
+          "pct": 17.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 86352,
+        "poverty_count": 1816,
+        "poverty_pct": 7.4
+      },
+      "education": {
+        "bachelors_or_higher": 7711,
+        "bachelors_only": 4205,
+        "masters": 2477,
+        "professional": 412,
+        "doctorate": 617
+      }
+    },
+    "Hyattsville city, Maryland": {
+      "state": "MD",
+      "fips": "2441250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 20861,
+        "voting_age": 16618,
+        "voting_age_pct": 79.66
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5275,
+          "pct": 25.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5077,
+          "pct": 24.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 93,
+          "pct": 0.4
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1096,
+          "pct": 5.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 215,
+          "pct": 1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 767,
+          "pct": 3.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8338,
+          "pct": 40
+        }
+      ],
+      "economics": {
+        "median_household_income": 94231,
+        "poverty_count": 409,
+        "poverty_pct": 2
+      },
+      "education": {
+        "bachelors_or_higher": 7472,
+        "bachelors_only": 3091,
+        "masters": 2859,
+        "professional": 817,
+        "doctorate": 705
+      }
+    },
+    "Westminster city, Maryland": {
+      "state": "MD",
+      "fips": "2483100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 20257,
+        "voting_age": 16779,
+        "voting_age_pct": 82.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15754,
+          "pct": 77.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1525,
+          "pct": 7.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 603,
+          "pct": 3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 59,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 729,
+          "pct": 3.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1580,
+          "pct": 7.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 79431,
+        "poverty_count": 435,
+        "poverty_pct": 2.1
+      },
+      "education": {
+        "bachelors_or_higher": 4870,
+        "bachelors_only": 3059,
+        "masters": 1467,
+        "professional": 156,
+        "doctorate": 188
+      }
+    },
+    "Cumberland city, Maryland": {
+      "state": "MD",
+      "fips": "2421325",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18938,
+        "voting_age": 15223,
+        "voting_age_pct": 80.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16429,
+          "pct": 86.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 871,
+          "pct": 4.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 99,
+          "pct": 0.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 56,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1068,
+          "pct": 5.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 403,
+          "pct": 2.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 47819,
+        "poverty_count": 1026,
+        "poverty_pct": 5.4
+      },
+      "education": {
+        "bachelors_or_higher": 2889,
+        "bachelors_only": 1606,
+        "masters": 886,
+        "professional": 265,
+        "doctorate": 132
+      }
+    },
+    "Takoma Park city, Maryland": {
+      "state": "MD",
+      "fips": "2476650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17522,
+        "voting_age": 12778,
+        "voting_age_pct": 72.93
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7442,
+          "pct": 42.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5695,
+          "pct": 32.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 80,
+          "pct": 0.5
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 788,
+          "pct": 4.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 133,
+          "pct": 0.8
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 950,
+          "pct": 5.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2434,
+          "pct": 13.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 97872,
+        "poverty_count": 326,
+        "poverty_pct": 1.9
+      },
+      "education": {
+        "bachelors_or_higher": 7133,
+        "bachelors_only": 2712,
+        "masters": 2911,
+        "professional": 741,
+        "doctorate": 769
+      }
+    },
+    "Easton town, Maryland": {
+      "state": "MD",
+      "fips": "2424475",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17202,
+        "voting_age": 13498,
+        "voting_age_pct": 78.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11610,
+          "pct": 67.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2474,
+          "pct": 14.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 333,
+          "pct": 1.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 172,
+          "pct": 1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 520,
+          "pct": 3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2091,
+          "pct": 12.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 73460,
+        "poverty_count": 599,
+        "poverty_pct": 3.5
+      },
+      "education": {
+        "bachelors_or_higher": 4973,
+        "bachelors_only": 2785,
+        "masters": 1300,
+        "professional": 504,
+        "doctorate": 384
+      }
+    },
+    "Aberdeen city, Maryland": {
+      "state": "MD",
+      "fips": "2400125",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16831,
+        "voting_age": 13146,
+        "voting_age_pct": 78.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8651,
+          "pct": 51.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4970,
+          "pct": 29.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 418,
+          "pct": 2.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 277,
+          "pct": 1.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 861,
+          "pct": 5.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1654,
+          "pct": 9.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 76019,
+        "poverty_count": 719,
+        "poverty_pct": 4.3
+      },
+      "education": {
+        "bachelors_or_higher": 2998,
+        "bachelors_only": 1693,
+        "masters": 1045,
+        "professional": 182,
+        "doctorate": 78
+      }
+    },
+    "Elkton town, Maryland": {
+      "state": "MD",
+      "fips": "2425800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15867,
+        "voting_age": 12351,
+        "voting_age_pct": 77.84
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9974,
+          "pct": 62.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2433,
+          "pct": 15.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 412,
+          "pct": 2.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 356,
+          "pct": 2.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1396,
+          "pct": 8.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1291,
+          "pct": 8.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 56565,
+        "poverty_count": 938,
+        "poverty_pct": 5.9
+      },
+      "education": {
+        "bachelors_or_higher": 2048,
+        "bachelors_only": 1453,
+        "masters": 525,
+        "professional": 21,
+        "doctorate": 49
+      }
+    },
+    "Havre de Grace city, Maryland": {
+      "state": "MD",
+      "fips": "2437600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14857,
+        "voting_age": 12180,
+        "voting_age_pct": 81.98
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11001,
+          "pct": 74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1917,
+          "pct": 12.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 339,
+          "pct": 2.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 70,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 666,
+          "pct": 4.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 858,
+          "pct": 5.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 106798,
+        "poverty_count": 192,
+        "poverty_pct": 1.3
+      },
+      "education": {
+        "bachelors_or_higher": 4671,
+        "bachelors_only": 2443,
+        "masters": 1875,
+        "professional": 101,
+        "doctorate": 252
+      }
+    },
+    "New Carrollton city, Maryland": {
+      "state": "MD",
+      "fips": "2455400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13544,
+        "voting_age": 10030,
+        "voting_age_pct": 74.05
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 650,
+          "pct": 4.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8249,
+          "pct": 60.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 186,
+          "pct": 1.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 27,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 462,
+          "pct": 3.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3970,
+          "pct": 29.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 80292,
+        "poverty_count": 144,
+        "poverty_pct": 1.1
+      },
+      "education": {
+        "bachelors_or_higher": 2621,
+        "bachelors_only": 1874,
+        "masters": 617,
+        "professional": 78,
+        "doctorate": 52
+      }
+    },
+    "Cambridge city, Maryland": {
+      "state": "MD",
+      "fips": "2412400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13094,
+        "voting_age": 9959,
+        "voting_age_pct": 76.06
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4871,
+          "pct": 37.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5783,
+          "pct": 44.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 279,
+          "pct": 2.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 54,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1125,
+          "pct": 8.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 982,
+          "pct": 7.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 46261,
+        "poverty_count": 1072,
+        "poverty_pct": 8.2
+      },
+      "education": {
+        "bachelors_or_higher": 1725,
+        "bachelors_only": 827,
+        "masters": 719,
+        "professional": 47,
+        "doctorate": 132
+      }
+    },
+    "Bel Air town, Maryland": {
+      "state": "MD",
+      "fips": "2405550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10616,
+        "voting_age": 8642,
+        "voting_age_pct": 81.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7697,
+          "pct": 72.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 461,
+          "pct": 4.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 489,
+          "pct": 4.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 32,
+          "pct": 0.3
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 185,
+          "pct": 1.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 407,
+          "pct": 3.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1345,
+          "pct": 12.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 69912,
+        "poverty_count": 264,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 3126,
+        "bachelors_only": 1888,
+        "masters": 989,
+        "professional": 29,
+        "doctorate": 220
+      }
+    },
+    "La Plata town, Maryland": {
+      "state": "MD",
+      "fips": "2445750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10470,
+        "voting_age": 8448,
+        "voting_age_pct": 80.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4944,
+          "pct": 47.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3573,
+          "pct": 34.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 398,
+          "pct": 3.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 826,
+          "pct": 7.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 712,
+          "pct": 6.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 121707,
+        "poverty_count": 27,
+        "poverty_pct": 0.3
+      },
+      "education": {
+        "bachelors_or_higher": 2439,
+        "bachelors_only": 1388,
+        "masters": 887,
+        "professional": 135,
+        "doctorate": 29
+      }
+    },
+    "Mount Airy town, Maryland": {
+      "state": "MD",
+      "fips": "2453875",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9746,
+        "voting_age": 7185,
+        "voting_age_pct": 73.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8003,
+          "pct": 82.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 252,
+          "pct": 2.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 223,
+          "pct": 2.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 126,
+          "pct": 1.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 338,
+          "pct": 3.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 804,
+          "pct": 8.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 154514,
+        "poverty_count": 19,
+        "poverty_pct": 0.2
+      },
+      "education": {
+        "bachelors_or_higher": 3618,
+        "bachelors_only": 2210,
+        "masters": 1095,
+        "professional": 110,
+        "doctorate": 203
+      }
+    },
+    "Bladensburg town, Maryland": {
+      "state": "MD",
+      "fips": "2407850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9552,
+        "voting_age": 6159,
+        "voting_age_pct": 64.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 47,
+          "pct": 0.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5508,
+          "pct": 57.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 62,
+          "pct": 0.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 205,
+          "pct": 2.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3730,
+          "pct": 39
+        }
+      ],
+      "economics": {
+        "median_household_income": 62400,
+        "poverty_count": 295,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 749,
+        "bachelors_only": 558,
+        "masters": 123,
+        "professional": 30,
+        "doctorate": 38
+      }
+    },
+    "Mount Rainier city, Maryland": {
+      "state": "MD",
+      "fips": "2454275",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8235,
+        "voting_age": 6227,
+        "voting_age_pct": 75.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1378,
+          "pct": 16.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3728,
+          "pct": 45.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 92,
+          "pct": 1.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 74,
+          "pct": 0.9
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 116,
+          "pct": 1.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2847,
+          "pct": 34.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 68281,
+        "poverty_count": 100,
+        "poverty_pct": 1.2
+      },
+      "education": {
+        "bachelors_or_higher": 1983,
+        "bachelors_only": 1092,
+        "masters": 499,
+        "professional": 146,
+        "doctorate": 246
+      }
+    },
+    "Brunswick city, Maryland": {
+      "state": "MD",
+      "fips": "2410900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7994,
+        "voting_age": 5945,
+        "voting_age_pct": 74.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5742,
+          "pct": 71.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 581,
+          "pct": 7.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 239,
+          "pct": 3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 571,
+          "pct": 7.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 836,
+          "pct": 10.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 115972,
+        "poverty_count": 51,
+        "poverty_pct": 0.6
+      },
+      "education": {
+        "bachelors_or_higher": 1961,
+        "bachelors_only": 996,
+        "masters": 822,
+        "professional": 78,
+        "doctorate": 65
+      }
+    },
+    "Taneytown city, Maryland": {
+      "state": "MD",
+      "fips": "2476725",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7295,
+        "voting_age": 5436,
+        "voting_age_pct": 74.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6225,
+          "pct": 85.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 600,
+          "pct": 8.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 54,
+          "pct": 0.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 152,
+          "pct": 2.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 260,
+          "pct": 3.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 78726,
+        "poverty_count": 348,
+        "poverty_pct": 4.8
+      },
+      "education": {
+        "bachelors_or_higher": 1060,
+        "bachelors_only": 663,
+        "masters": 335,
+        "professional": 53,
+        "doctorate": 9
+      }
+    },
+    "Riverdale Park town, Maryland": {
+      "state": "MD",
+      "fips": "2466635",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7249,
+        "voting_age": 5448,
+        "voting_age_pct": 75.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1261,
+          "pct": 17.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1588,
+          "pct": 21.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 233,
+          "pct": 3.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 391,
+          "pct": 5.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3769,
+          "pct": 52
+        }
+      ],
+      "economics": {
+        "median_household_income": 104583,
+        "poverty_count": 270,
+        "poverty_pct": 3.7
+      },
+      "education": {
+        "bachelors_or_higher": 1455,
+        "bachelors_only": 734,
+        "masters": 535,
+        "professional": 113,
+        "doctorate": 73
+      }
+    },
+    "Frostburg city, Maryland": {
+      "state": "MD",
+      "fips": "2430900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7025,
+        "voting_age": 6196,
+        "voting_age_pct": 88.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5743,
+          "pct": 81.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 814,
+          "pct": 11.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 172,
+          "pct": 2.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 134,
+          "pct": 1.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 162,
+          "pct": 2.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 51052,
+        "poverty_count": 111,
+        "poverty_pct": 1.6
+      },
+      "education": {
+        "bachelors_or_higher": 1490,
+        "bachelors_only": 764,
+        "masters": 562,
+        "professional": 28,
+        "doctorate": 136
+      }
+    },
+    "Ocean City town, Maryland": {
+      "state": "MD",
+      "fips": "2458225",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6887,
+        "voting_age": 6227,
+        "voting_age_pct": 90.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5936,
+          "pct": 86.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 44,
+          "pct": 0.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 80,
+          "pct": 1.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 103,
+          "pct": 1.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 121,
+          "pct": 1.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 586,
+          "pct": 8.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 69675,
+        "poverty_count": 154,
+        "poverty_pct": 2.2
+      },
+      "education": {
+        "bachelors_or_higher": 2246,
+        "bachelors_only": 1377,
+        "masters": 753,
+        "professional": 65,
+        "doctorate": 51
+      }
+    },
+    "Thurmont town, Maryland": {
+      "state": "MD",
+      "fips": "2477825",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6439,
+        "voting_age": 5088,
+        "voting_age_pct": 79.02
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5693,
+          "pct": 88.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 111,
+          "pct": 1.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 22,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 290,
+          "pct": 4.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 323,
+          "pct": 5
+        }
+      ],
+      "economics": {
+        "median_household_income": 92391,
+        "poverty_count": 198,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 1175,
+        "bachelors_only": 793,
+        "masters": 264,
+        "professional": 28,
+        "doctorate": 90
+      }
+    },
+    "Chesapeake Beach town, Maryland": {
+      "state": "MD",
+      "fips": "2415925",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6428,
+        "voting_age": 4874,
+        "voting_age_pct": 75.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4903,
+          "pct": 76.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 427,
+          "pct": 6.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 30,
+          "pct": 0.5
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 202,
+          "pct": 3.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 648,
+          "pct": 10.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 208,
+          "pct": 3.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 135888,
+        "poverty_count": 29,
+        "poverty_pct": 0.5
+      },
+      "education": {
+        "bachelors_or_higher": 2282,
+        "bachelors_only": 1137,
+        "masters": 799,
+        "professional": 132,
+        "doctorate": 214
+      }
+    },
+    "Walkersville town, Maryland": {
+      "state": "MD",
+      "fips": "2481275",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6352,
+        "voting_age": 4919,
+        "voting_age_pct": 77.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4747,
+          "pct": 74.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 347,
+          "pct": 5.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 309,
+          "pct": 4.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 342,
+          "pct": 5.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 590,
+          "pct": 9.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 137218,
+        "poverty_count": 20,
+        "poverty_pct": 0.3
+      },
+      "education": {
+        "bachelors_or_higher": 2028,
+        "bachelors_only": 1155,
+        "masters": 692,
+        "professional": 81,
+        "doctorate": 100
+      }
+    },
+    "Glenarden city, Maryland": {
+      "state": "MD",
+      "fips": "2432500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6320,
+        "voting_age": 4712,
+        "voting_age_pct": 74.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 163,
+          "pct": 2.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4728,
+          "pct": 74.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23,
+          "pct": 0.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 117,
+          "pct": 1.9
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 165,
+          "pct": 2.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1124,
+          "pct": 17.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 96875,
+        "poverty_count": 52,
+        "poverty_pct": 0.8
+      },
+      "education": {
+        "bachelors_or_higher": 1590,
+        "bachelors_only": 772,
+        "masters": 635,
+        "professional": 157,
+        "doctorate": 26
+      }
+    },
+    "Hampstead town, Maryland": {
+      "state": "MD",
+      "fips": "2436500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6311,
+        "voting_age": 5259,
+        "voting_age_pct": 83.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5668,
+          "pct": 89.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 163,
+          "pct": 2.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 241,
+          "pct": 3.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 86,
+          "pct": 1.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 97,
+          "pct": 1.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 56,
+          "pct": 0.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 96802,
+        "poverty_count": 11,
+        "poverty_pct": 0.2
+      },
+      "education": {
+        "bachelors_or_higher": 2074,
+        "bachelors_only": 1407,
+        "masters": 400,
+        "professional": 106,
+        "doctorate": 161
+      }
+    },
+    "Cheverly town, Maryland": {
+      "state": "MD",
+      "fips": "2416550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6107,
+        "voting_age": 4534,
+        "voting_age_pct": 74.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1681,
+          "pct": 27.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2398,
+          "pct": 39.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 361,
+          "pct": 5.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 60,
+          "pct": 1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 585,
+          "pct": 9.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1022,
+          "pct": 16.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 117633,
+        "poverty_count": 64,
+        "poverty_pct": 1
+      },
+      "education": {
+        "bachelors_or_higher": 2104,
+        "bachelors_only": 1206,
+        "masters": 692,
+        "professional": 129,
+        "doctorate": 77
+      }
+    },
+    "District Heights city, Maryland": {
+      "state": "MD",
+      "fips": "2423025",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5888,
+        "voting_age": 4480,
+        "voting_age_pct": 76.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 203,
+          "pct": 3.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5172,
+          "pct": 87.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 97,
+          "pct": 1.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 76,
+          "pct": 1.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 336,
+          "pct": 5.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 81750,
+        "poverty_count": 462,
+        "poverty_pct": 7.8
+      },
+      "education": {
+        "bachelors_or_higher": 1187,
+        "bachelors_only": 731,
+        "masters": 266,
+        "professional": 106,
+        "doctorate": 84
+      }
+    },
+    "Poolesville town, Maryland": {
+      "state": "MD",
+      "fips": "2462850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5704,
+        "voting_age": 4433,
+        "voting_age_pct": 77.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4181,
+          "pct": 73.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 100,
+          "pct": 1.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 572,
+          "pct": 10
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 308,
+          "pct": 5.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 543,
+          "pct": 9.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 216653,
+        "poverty_count": 29,
+        "poverty_pct": 0.5
+      },
+      "education": {
+        "bachelors_or_higher": 2747,
+        "bachelors_only": 1399,
+        "masters": 944,
+        "professional": 205,
+        "doctorate": 199
+      }
+    },
+    "Fruitland city, Maryland": {
+      "state": "MD",
+      "fips": "2430950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5698,
+        "voting_age": 4243,
+        "voting_age_pct": 74.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2910,
+          "pct": 51.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1532,
+          "pct": 26.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 195,
+          "pct": 3.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 272,
+          "pct": 4.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 789,
+          "pct": 13.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 64352,
+        "poverty_count": 233,
+        "poverty_pct": 4.1
+      },
+      "education": {
+        "bachelors_or_higher": 1333,
+        "bachelors_only": 705,
+        "masters": 420,
+        "professional": 154,
+        "doctorate": 54
+      }
+    },
+    "Chestertown town, Maryland": {
+      "state": "MD",
+      "fips": "2416225",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5548,
+        "voting_age": 4658,
+        "voting_age_pct": 83.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3738,
+          "pct": 67.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1376,
+          "pct": 24.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 127,
+          "pct": 2.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 39,
+          "pct": 0.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 90,
+          "pct": 1.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 178,
+          "pct": 3.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 47047,
+        "poverty_count": 145,
+        "poverty_pct": 2.6
+      },
+      "education": {
+        "bachelors_or_higher": 1418,
+        "bachelors_only": 669,
+        "masters": 455,
+        "professional": 108,
+        "doctorate": 186
+      }
+    },
+    "Manchester town, Maryland": {
+      "state": "MD",
+      "fips": "2449950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5446,
+        "voting_age": 4224,
+        "voting_age_pct": 77.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4600,
+          "pct": 84.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 162,
+          "pct": 3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 47,
+          "pct": 0.9
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 203,
+          "pct": 3.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 281,
+          "pct": 5.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 142,
+          "pct": 2.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 112679,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 1254,
+        "bachelors_only": 768,
+        "masters": 347,
+        "professional": 85,
+        "doctorate": 54
+      }
+    },
+    "Berlin town, Maryland": {
+      "state": "MD",
+      "fips": "2406800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5161,
+        "voting_age": 3751,
+        "voting_age_pct": 72.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3796,
+          "pct": 73.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 782,
+          "pct": 15.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 36,
+          "pct": 0.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 348,
+          "pct": 6.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 177,
+          "pct": 3.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 78883,
+        "poverty_count": 98,
+        "poverty_pct": 1.9
+      },
+      "education": {
+        "bachelors_or_higher": 1287,
+        "bachelors_only": 780,
+        "masters": 264,
+        "professional": 62,
+        "doctorate": 181
+      }
+    },
+    "Middletown town, Maryland": {
+      "state": "MD",
+      "fips": "2452425",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5108,
+        "voting_age": 3761,
+        "voting_age_pct": 73.63
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4291,
+          "pct": 84
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 54,
+          "pct": 1.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 469,
+          "pct": 9.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 149,
+          "pct": 2.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 145,
+          "pct": 2.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 159342,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 2096,
+        "bachelors_only": 950,
+        "masters": 879,
+        "professional": 125,
+        "doctorate": 142
+      }
+    },
+    "Denton town, Maryland": {
+      "state": "MD",
+      "fips": "2422725",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4879,
+        "voting_age": 3755,
+        "voting_age_pct": 76.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3211,
+          "pct": 65.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1239,
+          "pct": 25.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26,
+          "pct": 0.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 23,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 233,
+          "pct": 4.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 144,
+          "pct": 3
+        }
+      ],
+      "economics": {
+        "median_household_income": 63769,
+        "poverty_count": 169,
+        "poverty_pct": 3.5
+      },
+      "education": {
+        "bachelors_or_higher": 474,
+        "bachelors_only": 316,
+        "masters": 140,
+        "professional": 18,
+        "doctorate": 0
+      }
+    },
+    "Centreville town, Maryland": {
+      "state": "MD",
+      "fips": "2414950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4725,
+        "voting_age": 3497,
+        "voting_age_pct": 74.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3992,
+          "pct": 84.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 515,
+          "pct": 10.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 53,
+          "pct": 1.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 129,
+          "pct": 2.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 36,
+          "pct": 0.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 93276,
+        "poverty_count": 34,
+        "poverty_pct": 0.7
+      },
+      "education": {
+        "bachelors_or_higher": 1415,
+        "bachelors_only": 826,
+        "masters": 515,
+        "professional": 56,
+        "doctorate": 18
+      }
+    },
+    "Leonardtown town, Maryland": {
+      "state": "MD",
+      "fips": "2446475",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4712,
+        "voting_age": 3362,
+        "voting_age_pct": 71.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3283,
+          "pct": 69.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 452,
+          "pct": 9.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 172,
+          "pct": 3.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 22,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 59,
+          "pct": 1.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 724,
+          "pct": 15.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 148276,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 1253,
+        "bachelors_only": 696,
+        "masters": 486,
+        "professional": 71,
+        "doctorate": 0
+      }
+    },
+    "Seat Pleasant city, Maryland": {
+      "state": "MD",
+      "fips": "2470850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4515,
+        "voting_age": 3702,
+        "voting_age_pct": 81.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14,
+          "pct": 0.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3621,
+          "pct": 80.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 44,
+          "pct": 1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 92,
+          "pct": 2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 744,
+          "pct": 16.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 54076,
+        "poverty_count": 96,
+        "poverty_pct": 2.1
+      },
+      "education": {
+        "bachelors_or_higher": 913,
+        "bachelors_only": 655,
+        "masters": 150,
+        "professional": 24,
+        "doctorate": 84
+      }
+    },
+    "Perryville town, Maryland": {
+      "state": "MD",
+      "fips": "2461150",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4425,
+        "voting_age": 3364,
+        "voting_age_pct": 76.02
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3312,
+          "pct": 74.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 602,
+          "pct": 13.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 346,
+          "pct": 7.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 165,
+          "pct": 3.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 75543,
+        "poverty_count": 25,
+        "poverty_pct": 0.6
+      },
+      "education": {
+        "bachelors_or_higher": 581,
+        "bachelors_only": 345,
+        "masters": 226,
+        "professional": 0,
+        "doctorate": 10
+      }
+    },
+    "Pocomoke City city, Maryland": {
+      "state": "MD",
+      "fips": "2462475",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4360,
+        "voting_age": 3309,
+        "voting_age_pct": 75.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2070,
+          "pct": 47.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1895,
+          "pct": 43.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 60,
+          "pct": 1.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 288,
+          "pct": 6.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 47,
+          "pct": 1.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 52163,
+        "poverty_count": 36,
+        "poverty_pct": 0.8
+      },
+      "education": {
+        "bachelors_or_higher": 521,
+        "bachelors_only": 322,
+        "masters": 163,
+        "professional": 36,
+        "doctorate": 0
+      }
+    },
+    "Sykesville town, Maryland": {
+      "state": "MD",
+      "fips": "2476550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4346,
+        "voting_age": 3104,
+        "voting_age_pct": 71.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3269,
+          "pct": 75.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 660,
+          "pct": 15.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 120,
+          "pct": 2.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 139,
+          "pct": 3.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 153,
+          "pct": 3.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 135692,
+        "poverty_count": 27,
+        "poverty_pct": 0.6
+      },
+      "education": {
+        "bachelors_or_higher": 1376,
+        "bachelors_only": 850,
+        "masters": 481,
+        "professional": 36,
+        "doctorate": 9
+      }
+    },
+    "North East town, Maryland": {
+      "state": "MD",
+      "fips": "2456450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4095,
+        "voting_age": 3033,
+        "voting_age_pct": 74.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3408,
+          "pct": 83.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 357,
+          "pct": 8.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23,
+          "pct": 0.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 199,
+          "pct": 4.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 108,
+          "pct": 2.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 87510,
+        "poverty_count": 120,
+        "poverty_pct": 2.9
+      },
+      "education": {
+        "bachelors_or_higher": 1007,
+        "bachelors_only": 458,
+        "masters": 505,
+        "professional": 0,
+        "doctorate": 44
+      }
+    },
+    "Delmar town, Maryland": {
+      "state": "MD",
+      "fips": "2422600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4058,
+        "voting_age": 3362,
+        "voting_age_pct": 82.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2310,
+          "pct": 56.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 969,
+          "pct": 23.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 226,
+          "pct": 5.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 159,
+          "pct": 3.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 366,
+          "pct": 9
+        }
+      ],
+      "economics": {
+        "median_household_income": 77402,
+        "poverty_count": 85,
+        "poverty_pct": 2.1
+      },
+      "education": {
+        "bachelors_or_higher": 805,
+        "bachelors_only": 537,
+        "masters": 178,
+        "professional": 0,
+        "doctorate": 90
+      }
+    },
+    "Capitol Heights town, Maryland": {
+      "state": "MD",
+      "fips": "2413000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4014,
+        "voting_age": 2860,
+        "voting_age_pct": 71.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30,
+          "pct": 0.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2903,
+          "pct": 72.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 76,
+          "pct": 1.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1005,
+          "pct": 25
+        }
+      ],
+      "economics": {
+        "median_household_income": 91938,
+        "poverty_count": 44,
+        "poverty_pct": 1.1
+      },
+      "education": {
+        "bachelors_or_higher": 482,
+        "bachelors_only": 375,
+        "masters": 77,
+        "professional": 30,
+        "doctorate": 0
+      }
+    },
+    "Indian Head town, Maryland": {
+      "state": "MD",
+      "fips": "2441500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3982,
+        "voting_age": 3129,
+        "voting_age_pct": 78.58
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 961,
+          "pct": 24.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2409,
+          "pct": 60.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 121,
+          "pct": 3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 7,
+          "pct": 0.2
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 163,
+          "pct": 4.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 321,
+          "pct": 8.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 84898,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 367,
+        "bachelors_only": 210,
+        "masters": 157,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Boonsboro town, Maryland": {
+      "state": "MD",
+      "fips": "2408625",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3799,
+        "voting_age": 2676,
+        "voting_age_pct": 70.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3459,
+          "pct": 91.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 204,
+          "pct": 5.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 0.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 42,
+          "pct": 1.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 59,
+          "pct": 1.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 93730,
+        "poverty_count": 34,
+        "poverty_pct": 0.9
+      },
+      "education": {
+        "bachelors_or_higher": 577,
+        "bachelors_only": 414,
+        "masters": 150,
+        "professional": 0,
+        "doctorate": 13
+      }
+    },
+    "Brentwood town, Maryland": {
+      "state": "MD",
+      "fips": "2409500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3753,
+        "voting_age": 2871,
+        "voting_age_pct": 76.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 372,
+          "pct": 9.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1154,
+          "pct": 30.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.5
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 0.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 173,
+          "pct": 4.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2002,
+          "pct": 53.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 70573,
+        "poverty_count": 94,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 546,
+        "bachelors_only": 296,
+        "masters": 186,
+        "professional": 21,
+        "doctorate": 43
+      }
+    },
+    "Princess Anne town, Maryland": {
+      "state": "MD",
+      "fips": "2464000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3461,
+        "voting_age": 2477,
+        "voting_age_pct": 71.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 823,
+          "pct": 23.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2129,
+          "pct": 61.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 64,
+          "pct": 1.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 443,
+          "pct": 12.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 50000,
+        "poverty_count": 101,
+        "poverty_pct": 2.9
+      },
+      "education": {
+        "bachelors_or_higher": 478,
+        "bachelors_only": 393,
+        "masters": 79,
+        "professional": 0,
+        "doctorate": 6
+      }
+    },
+    "Berwyn Heights town, Maryland": {
+      "state": "MD",
+      "fips": "2406925",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3306,
+        "voting_age": 2376,
+        "voting_age_pct": 71.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 906,
+          "pct": 27.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 275,
+          "pct": 8.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 199,
+          "pct": 6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 85,
+          "pct": 2.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1831,
+          "pct": 55.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 145833,
+        "poverty_count": 30,
+        "poverty_pct": 0.9
+      },
+      "education": {
+        "bachelors_or_higher": 857,
+        "bachelors_only": 438,
+        "masters": 250,
+        "professional": 65,
+        "doctorate": 104
+      }
+    },
+    "Smithsburg town, Maryland": {
+      "state": "MD",
+      "fips": "2472900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3069,
+        "voting_age": 2201,
+        "voting_age_pct": 71.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2834,
+          "pct": 92.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 59,
+          "pct": 1.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 29,
+          "pct": 0.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 93,
+          "pct": 3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 54,
+          "pct": 1.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 86065,
+        "poverty_count": 151,
+        "poverty_pct": 4.9
+      },
+      "education": {
+        "bachelors_or_higher": 446,
+        "bachelors_only": 289,
+        "masters": 128,
+        "professional": 16,
+        "doctorate": 13
+      }
+    },
+    "Chevy Chase town, Maryland": {
+      "state": "MD",
+      "fips": "2416620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2884,
+        "voting_age": 2182,
+        "voting_age_pct": 75.66
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2359,
+          "pct": 81.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 17,
+          "pct": 0.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 122,
+          "pct": 4.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 25,
+          "pct": 0.9
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 201,
+          "pct": 7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 153,
+          "pct": 5.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 250001,
+        "poverty_count": 7,
+        "poverty_pct": 0.2
+      },
+      "education": {
+        "bachelors_or_higher": 1900,
+        "bachelors_only": 429,
+        "masters": 603,
+        "professional": 614,
+        "doctorate": 254
+      }
+    },
+    "Emmitsburg town, Maryland": {
+      "state": "MD",
+      "fips": "2426200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2855,
+        "voting_age": 2334,
+        "voting_age_pct": 81.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2384,
+          "pct": 83.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 168,
+          "pct": 5.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15,
+          "pct": 0.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 64,
+          "pct": 2.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 213,
+          "pct": 7.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 78986,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 450,
+        "bachelors_only": 229,
+        "masters": 194,
+        "professional": 7,
+        "doctorate": 20
+      }
+    },
+    "Federalsburg town, Maryland": {
+      "state": "MD",
+      "fips": "2427900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2818,
+        "voting_age": 2031,
+        "voting_age_pct": 72.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1139,
+          "pct": 40.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1232,
+          "pct": 43.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 97,
+          "pct": 3.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 227,
+          "pct": 8.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 116,
+          "pct": 4.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 35432,
+        "poverty_count": 296,
+        "poverty_pct": 10.5
+      },
+      "education": {
+        "bachelors_or_higher": 108,
+        "bachelors_only": 46,
+        "masters": 30,
+        "professional": 19,
+        "doctorate": 13
+      }
+    },
+    "North Beach town, Maryland": {
+      "state": "MD",
+      "fips": "2456300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2769,
+        "voting_age": 1765,
+        "voting_age_pct": 63.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1664,
+          "pct": 60.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 635,
+          "pct": 22.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 151,
+          "pct": 5.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 57,
+          "pct": 2.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 52,
+          "pct": 1.9
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 72,
+          "pct": 2.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 134,
+          "pct": 4.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 81500,
+        "poverty_count": 18,
+        "poverty_pct": 0.7
+      },
+      "education": {
+        "bachelors_or_higher": 605,
+        "bachelors_only": 319,
+        "masters": 250,
+        "professional": 21,
+        "doctorate": 15
+      }
+    },
+    "Rising Sun town, Maryland": {
+      "state": "MD",
+      "fips": "2466275",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2756,
+        "voting_age": 1904,
+        "voting_age_pct": 69.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2286,
+          "pct": 82.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 100,
+          "pct": 3.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 152,
+          "pct": 5.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 197,
+          "pct": 7.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 85750,
+        "poverty_count": 37,
+        "poverty_pct": 1.3
+      },
+      "education": {
+        "bachelors_or_higher": 377,
+        "bachelors_only": 276,
+        "masters": 87,
+        "professional": 12,
+        "doctorate": 2
+      }
+    },
+    "University Park town, Maryland": {
+      "state": "MD",
+      "fips": "2479675",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2636,
+        "voting_age": 2159,
+        "voting_age_pct": 81.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1645,
+          "pct": 62.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 502,
+          "pct": 19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 1.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 0.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 95,
+          "pct": 3.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 337,
+          "pct": 12.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 197589,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 1605,
+        "bachelors_only": 554,
+        "masters": 680,
+        "professional": 179,
+        "doctorate": 192
+      }
+    },
+    "Forest Heights town, Maryland": {
+      "state": "MD",
+      "fips": "2428725",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2619,
+        "voting_age": 2011,
+        "voting_age_pct": 76.79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 360,
+          "pct": 13.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1272,
+          "pct": 48.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 73,
+          "pct": 2.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 22,
+          "pct": 0.8
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 53,
+          "pct": 2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 838,
+          "pct": 32
+        }
+      ],
+      "economics": {
+        "median_household_income": 96434,
+        "poverty_count": 49,
+        "poverty_pct": 1.9
+      },
+      "education": {
+        "bachelors_or_higher": 384,
+        "bachelors_only": 275,
+        "masters": 109,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Greensboro town, Maryland": {
+      "state": "MD",
+      "fips": "2435200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2563,
+        "voting_age": 1755,
+        "voting_age_pct": 68.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1372,
+          "pct": 53.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 406,
+          "pct": 15.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 69,
+          "pct": 2.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 714,
+          "pct": 27.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 44934,
+        "poverty_count": 268,
+        "poverty_pct": 10.5
+      },
+      "education": {
+        "bachelors_or_higher": 80,
+        "bachelors_only": 49,
+        "masters": 31,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Snow Hill town, Maryland": {
+      "state": "MD",
+      "fips": "2473075",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2545,
+        "voting_age": 1830,
+        "voting_age_pct": 71.91
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1551,
+          "pct": 60.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 803,
+          "pct": 31.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 54,
+          "pct": 2.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 28,
+          "pct": 1.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 107,
+          "pct": 4.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 49583,
+        "poverty_count": 146,
+        "poverty_pct": 5.7
+      },
+      "education": {
+        "bachelors_or_higher": 357,
+        "bachelors_only": 190,
+        "masters": 124,
+        "professional": 27,
+        "doctorate": 16
+      }
+    },
+    "Crisfield city, Maryland": {
+      "state": "MD",
+      "fips": "2420775",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2468,
+        "voting_age": 1865,
+        "voting_age_pct": 75.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1389,
+          "pct": 56.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 770,
+          "pct": 31.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 1.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 0.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 149,
+          "pct": 6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 110,
+          "pct": 4.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 49602,
+        "poverty_count": 155,
+        "poverty_pct": 6.3
+      },
+      "education": {
+        "bachelors_or_higher": 356,
+        "bachelors_only": 206,
+        "masters": 88,
+        "professional": 14,
+        "doctorate": 48
+      }
+    },
+    "Myersville town, Maryland": {
+      "state": "MD",
+      "fips": "2454875",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2464,
+        "voting_age": 1528,
+        "voting_age_pct": 62.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2092,
+          "pct": 84.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 37,
+          "pct": 1.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 3.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 39,
+          "pct": 1.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 213,
+          "pct": 8.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 144840,
+        "poverty_count": 27,
+        "poverty_pct": 1.1
+      },
+      "education": {
+        "bachelors_or_higher": 731,
+        "bachelors_only": 374,
+        "masters": 292,
+        "professional": 35,
+        "doctorate": 30
+      }
+    },
+    "Kensington town, Maryland": {
+      "state": "MD",
+      "fips": "2443500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2248,
+        "voting_age": 1540,
+        "voting_age_pct": 68.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1419,
+          "pct": 63.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 120,
+          "pct": 5.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 309,
+          "pct": 13.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 79,
+          "pct": 3.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 313,
+          "pct": 13.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 149698,
+        "poverty_count": 40,
+        "poverty_pct": 1.8
+      },
+      "education": {
+        "bachelors_or_higher": 1103,
+        "bachelors_only": 414,
+        "masters": 426,
+        "professional": 163,
+        "doctorate": 100
+      }
+    },
+    "Hurlock town, Maryland": {
+      "state": "MD",
+      "fips": "2441125",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2205,
+        "voting_age": 1732,
+        "voting_age_pct": 78.55
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 995,
+          "pct": 45.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 842,
+          "pct": 38.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 40,
+          "pct": 1.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 1.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 91,
+          "pct": 4.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 205,
+          "pct": 9.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 55705,
+        "poverty_count": 98,
+        "poverty_pct": 4.4
+      },
+      "education": {
+        "bachelors_or_higher": 161,
+        "bachelors_only": 94,
+        "masters": 46,
+        "professional": 13,
+        "doctorate": 8
+      }
+    },
+    "Williamsport town, Maryland": {
+      "state": "MD",
+      "fips": "2485100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2133,
+        "voting_age": 1691,
+        "voting_age_pct": 79.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1840,
+          "pct": 86.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 86,
+          "pct": 4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 151,
+          "pct": 7.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 50,
+          "pct": 2.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 58590,
+        "poverty_count": 112,
+        "poverty_pct": 5.3
+      },
+      "education": {
+        "bachelors_or_higher": 290,
+        "bachelors_only": 188,
+        "masters": 102,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Oakland town, Maryland": {
+      "state": "MD",
+      "fips": "2457650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2043,
+        "voting_age": 1711,
+        "voting_age_pct": 83.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1917,
+          "pct": 93.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 28,
+          "pct": 1.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.4
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 31,
+          "pct": 1.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 11,
+          "pct": 0.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 48,
+          "pct": 2.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 59904,
+        "poverty_count": 41,
+        "poverty_pct": 2
+      },
+      "education": {
+        "bachelors_or_higher": 422,
+        "bachelors_only": 185,
+        "masters": 95,
+        "professional": 137,
+        "doctorate": 5
+      }
+    },
+    "Charlestown town, Maryland": {
+      "state": "MD",
+      "fips": "2415400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2037,
+        "voting_age": 1452,
+        "voting_age_pct": 71.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1756,
+          "pct": 86.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 72,
+          "pct": 3.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 24,
+          "pct": 1.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 62,
+          "pct": 3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 114,
+          "pct": 5.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 109650,
+        "poverty_count": 31,
+        "poverty_pct": 1.5
+      },
+      "education": {
+        "bachelors_or_higher": 538,
+        "bachelors_only": 304,
+        "masters": 177,
+        "professional": 38,
+        "doctorate": 19
+      }
+    },
+    "Pittsville town, Maryland": {
+      "state": "MD",
+      "fips": "2462025",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2034,
+        "voting_age": 1593,
+        "voting_age_pct": 78.32
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1556,
+          "pct": 76.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 111,
+          "pct": 5.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 24,
+          "pct": 1.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 159,
+          "pct": 7.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 184,
+          "pct": 9
+        }
+      ],
+      "economics": {
+        "median_household_income": 73441,
+        "poverty_count": 92,
+        "poverty_pct": 4.5
+      },
+      "education": {
+        "bachelors_or_higher": 162,
+        "bachelors_only": 129,
+        "masters": 13,
+        "professional": 6,
+        "doctorate": 14
+      }
+    },
+    "Mountain Lake Park town, Maryland": {
+      "state": "MD",
+      "fips": "2453800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2033,
+        "voting_age": 1659,
+        "voting_age_pct": 81.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1880,
+          "pct": 92.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11,
+          "pct": 0.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 46,
+          "pct": 2.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 75,
+          "pct": 3.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9,
+          "pct": 0.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 58418,
+        "poverty_count": 83,
+        "poverty_pct": 4.1
+      },
+      "education": {
+        "bachelors_or_higher": 333,
+        "bachelors_only": 199,
+        "masters": 100,
+        "professional": 17,
+        "doctorate": 17
+      }
+    },
+    "Landover Hills town, Maryland": {
+      "state": "MD",
+      "fips": "2445400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1996,
+        "voting_age": 1472,
+        "voting_age_pct": 73.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 186,
+          "pct": 9.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 474,
+          "pct": 23.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 49,
+          "pct": 2.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1275,
+          "pct": 63.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 91250,
+        "poverty_count": 26,
+        "poverty_pct": 1.3
+      },
+      "education": {
+        "bachelors_or_higher": 228,
+        "bachelors_only": 118,
+        "masters": 83,
+        "professional": 23,
+        "doctorate": 4
+      }
+    },
+    "Westernport town, Maryland": {
+      "state": "MD",
+      "fips": "2482750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1864,
+        "voting_age": 1401,
+        "voting_age_pct": 75.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1804,
+          "pct": 96.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3,
+          "pct": 0.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 47,
+          "pct": 2.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 52059,
+        "poverty_count": 80,
+        "poverty_pct": 4.3
+      },
+      "education": {
+        "bachelors_or_higher": 199,
+        "bachelors_only": 118,
+        "masters": 74,
+        "professional": 7,
+        "doctorate": 0
+      }
+    },
+    "Chevy Chase Village town, Maryland": {
+      "state": "MD",
+      "fips": "2416787",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1860,
+        "voting_age": 1393,
+        "voting_age_pct": 74.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1658,
+          "pct": 89.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.5
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 71,
+          "pct": 3.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 97,
+          "pct": 5.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 250001,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 1264,
+        "bachelors_only": 398,
+        "masters": 341,
+        "professional": 380,
+        "doctorate": 145
+      }
+    },
+    "Hancock town, Maryland": {
+      "state": "MD",
+      "fips": "2436600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1715,
+        "voting_age": 1313,
+        "voting_age_pct": 76.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1541,
+          "pct": 89.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 32,
+          "pct": 1.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26,
+          "pct": 1.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 16,
+          "pct": 0.9
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 99,
+          "pct": 5.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 39375,
+        "poverty_count": 137,
+        "poverty_pct": 8
+      },
+      "education": {
+        "bachelors_or_higher": 113,
+        "bachelors_only": 55,
+        "masters": 47,
+        "professional": 11,
+        "doctorate": 0
+      }
+    },
+    "Ridgely town, Maryland": {
+      "state": "MD",
+      "fips": "2466000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1685,
+        "voting_age": 1190,
+        "voting_age_pct": 70.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1158,
+          "pct": 68.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 103,
+          "pct": 6.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 43,
+          "pct": 2.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 87,
+          "pct": 5.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 282,
+          "pct": 16.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 64432,
+        "poverty_count": 38,
+        "poverty_pct": 2.3
+      },
+      "education": {
+        "bachelors_or_higher": 153,
+        "bachelors_only": 108,
+        "masters": 41,
+        "professional": 4,
+        "doctorate": 0
+      }
+    },
+    "New Market town, Maryland": {
+      "state": "MD",
+      "fips": "2455650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1588,
+        "voting_age": 1017,
+        "voting_age_pct": 64.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1286,
+          "pct": 81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 77,
+          "pct": 4.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 37,
+          "pct": 2.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 105,
+          "pct": 6.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 83,
+          "pct": 5.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 198080,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 603,
+        "bachelors_only": 313,
+        "masters": 194,
+        "professional": 63,
+        "doctorate": 33
+      }
+    },
+    "Colmar Manor town, Maryland": {
+      "state": "MD",
+      "fips": "2418850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1579,
+        "voting_age": 1262,
+        "voting_age_pct": 79.92
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 85,
+          "pct": 5.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 360,
+          "pct": 22.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 5.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 45,
+          "pct": 2.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1006,
+          "pct": 63.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 104074,
+        "poverty_count": 6,
+        "poverty_pct": 0.4
+      },
+      "education": {
+        "bachelors_or_higher": 214,
+        "bachelors_only": 85,
+        "masters": 56,
+        "professional": 21,
+        "doctorate": 52
+      }
+    },
+    "Fairmount Heights town, Maryland": {
+      "state": "MD",
+      "fips": "2427400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1429,
+        "voting_age": 1115,
+        "voting_age_pct": 78.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 68,
+          "pct": 4.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 908,
+          "pct": 63.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 1.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 27,
+          "pct": 1.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 16,
+          "pct": 1.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 392,
+          "pct": 27.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 92321,
+        "poverty_count": 60,
+        "poverty_pct": 4.2
+      },
+      "education": {
+        "bachelors_or_higher": 230,
+        "bachelors_only": 123,
+        "masters": 102,
+        "professional": 0,
+        "doctorate": 5
+      }
+    },
+    "Woodsboro town, Maryland": {
+      "state": "MD",
+      "fips": "2486750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1394,
+        "voting_age": 1080,
+        "voting_age_pct": 77.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 959,
+          "pct": 68.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 362,
+          "pct": 26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 1.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 35,
+          "pct": 2.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 20,
+          "pct": 1.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 115583,
+        "poverty_count": 47,
+        "poverty_pct": 3.4
+      },
+      "education": {
+        "bachelors_or_higher": 370,
+        "bachelors_only": 193,
+        "masters": 175,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "St. Michaels town, Maryland": {
+      "state": "MD",
+      "fips": "2469825",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1381,
+        "voting_age": 1166,
+        "voting_age_pct": 84.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 920,
+          "pct": 66.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 292,
+          "pct": 21.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 12,
+          "pct": 0.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 153,
+          "pct": 11.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 73831,
+        "poverty_count": 9,
+        "poverty_pct": 0.7
+      },
+      "education": {
+        "bachelors_or_higher": 468,
+        "bachelors_only": 262,
+        "masters": 149,
+        "professional": 41,
+        "doctorate": 16
+      }
+    },
+    "New Windsor town, Maryland": {
+      "state": "MD",
+      "fips": "2455925",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1338,
+        "voting_age": 1078,
+        "voting_age_pct": 80.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1121,
+          "pct": 83.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 145,
+          "pct": 10.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17,
+          "pct": 1.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 12,
+          "pct": 0.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 3.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 111731,
+        "poverty_count": 49,
+        "poverty_pct": 3.7
+      },
+      "education": {
+        "bachelors_or_higher": 331,
+        "bachelors_only": 218,
+        "masters": 92,
+        "professional": 21,
+        "doctorate": 0
+      }
+    },
+    "Edmonston town, Maryland": {
+      "state": "MD",
+      "fips": "2425425",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1332,
+        "voting_age": 902,
+        "voting_age_pct": 67.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 119,
+          "pct": 8.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 368,
+          "pct": 27.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 13,
+          "pct": 1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 51,
+          "pct": 3.8
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 24,
+          "pct": 1.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 757,
+          "pct": 56.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 82431,
+        "poverty_count": 17,
+        "poverty_pct": 1.3
+      },
+      "education": {
+        "bachelors_or_higher": 131,
+        "bachelors_only": 50,
+        "masters": 68,
+        "professional": 5,
+        "doctorate": 8
+      }
+    },
+    "Hebron town, Maryland": {
+      "state": "MD",
+      "fips": "2437875",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1297,
+        "voting_age": 957,
+        "voting_age_pct": 73.79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 975,
+          "pct": 75.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 136,
+          "pct": 10.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 37,
+          "pct": 2.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 137,
+          "pct": 10.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 75625,
+        "poverty_count": 90,
+        "poverty_pct": 6.9
+      },
+      "education": {
+        "bachelors_or_higher": 201,
+        "bachelors_only": 159,
+        "masters": 29,
+        "professional": 13,
+        "doctorate": 0
+      }
+    },
+    "Rock Hall town, Maryland": {
+      "state": "MD",
+      "fips": "2467400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1286,
+        "voting_age": 1141,
+        "voting_age_pct": 88.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1197,
+          "pct": 93.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 2.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 5,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 38,
+          "pct": 3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 18,
+          "pct": 1.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 68906,
+        "poverty_count": 39,
+        "poverty_pct": 3
+      },
+      "education": {
+        "bachelors_or_higher": 344,
+        "bachelors_only": 188,
+        "masters": 114,
+        "professional": 35,
+        "doctorate": 7
+      }
+    },
+    "Willards town, Maryland": {
+      "state": "MD",
+      "fips": "2484950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1273,
+        "voting_age": 930,
+        "voting_age_pct": 73.06
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 990,
+          "pct": 77.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 43,
+          "pct": 3.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 77,
+          "pct": 6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 153,
+          "pct": 12
+        }
+      ],
+      "economics": {
+        "median_household_income": 72614,
+        "poverty_count": 111,
+        "poverty_pct": 8.7
+      },
+      "education": {
+        "bachelors_or_higher": 131,
+        "bachelors_only": 93,
+        "masters": 35,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Keedysville town, Maryland": {
+      "state": "MD",
+      "fips": "2443100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1243,
+        "voting_age": 887,
+        "voting_age_pct": 71.36
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1129,
+          "pct": 90.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 19,
+          "pct": 1.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 76,
+          "pct": 6.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 17,
+          "pct": 1.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 143611,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 312,
+        "bachelors_only": 168,
+        "masters": 98,
+        "professional": 39,
+        "doctorate": 7
+      }
+    },
+    "Cottage City town, Maryland": {
+      "state": "MD",
+      "fips": "2420050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1162,
+        "voting_age": 1007,
+        "voting_age_pct": 86.66
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 142,
+          "pct": 12.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 296,
+          "pct": 25.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 63,
+          "pct": 5.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 27,
+          "pct": 2.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 36,
+          "pct": 3.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 598,
+          "pct": 51.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 78456,
+        "poverty_count": 14,
+        "poverty_pct": 1.2
+      },
+      "education": {
+        "bachelors_or_higher": 198,
+        "bachelors_only": 135,
+        "masters": 60,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Trappe town, Maryland": {
+      "state": "MD",
+      "fips": "2478575",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1112,
+        "voting_age": 806,
+        "voting_age_pct": 72.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 731,
+          "pct": 65.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 226,
+          "pct": 20.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 1.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 24,
+          "pct": 2.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 110,
+          "pct": 9.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 64231,
+        "poverty_count": 27,
+        "poverty_pct": 2.4
+      },
+      "education": {
+        "bachelors_or_higher": 135,
+        "bachelors_only": 94,
+        "masters": 33,
+        "professional": 8,
+        "doctorate": 0
+      }
+    },
+    "Lonaconing town, Maryland": {
+      "state": "MD",
+      "fips": "2447875",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1093,
+        "voting_age": 835,
+        "voting_age_pct": 76.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1024,
+          "pct": 93.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 1.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 25,
+          "pct": 2.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 28,
+          "pct": 2.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 43947,
+        "poverty_count": 65,
+        "poverty_pct": 5.9
+      },
+      "education": {
+        "bachelors_or_higher": 122,
+        "bachelors_only": 70,
+        "masters": 51,
+        "professional": 1,
+        "doctorate": 0
+      }
+    },
+    "Chevy Chase View town, Maryland": {
+      "state": "MD",
+      "fips": "2416775",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1092,
+        "voting_age": 722,
+        "voting_age_pct": 66.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 907,
+          "pct": 83.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 16,
+          "pct": 1.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 33,
+          "pct": 3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 42,
+          "pct": 3.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 94,
+          "pct": 8.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 250001,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 602,
+        "bachelors_only": 275,
+        "masters": 226,
+        "professional": 80,
+        "doctorate": 21
+      }
+    },
+    "Church Hill town, Maryland": {
+      "state": "MD",
+      "fips": "2417100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1052,
+        "voting_age": 703,
+        "voting_age_pct": 66.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 674,
+          "pct": 64.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 135,
+          "pct": 12.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 57,
+          "pct": 5.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 24,
+          "pct": 2.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 162,
+          "pct": 15.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 69688,
+        "poverty_count": 43,
+        "poverty_pct": 4.1
+      },
+      "education": {
+        "bachelors_or_higher": 158,
+        "bachelors_only": 67,
+        "masters": 74,
+        "professional": 8,
+        "doctorate": 9
+      }
+    },
+    "Morningside town, Maryland": {
+      "state": "MD",
+      "fips": "2453625",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1031,
+        "voting_age": 831,
+        "voting_age_pct": 80.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 242,
+          "pct": 23.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 448,
+          "pct": 43.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.7
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15,
+          "pct": 1.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 41,
+          "pct": 4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 268,
+          "pct": 26
+        }
+      ],
+      "economics": {
+        "median_household_income": 80000,
+        "poverty_count": 40,
+        "poverty_pct": 3.9
+      },
+      "education": {
+        "bachelors_or_higher": 180,
+        "bachelors_only": 115,
+        "masters": 55,
+        "professional": 3,
+        "doctorate": 7
+      }
+    },
+    "Somerset town, Maryland": {
+      "state": "MD",
+      "fips": "2473350",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1020,
+        "voting_age": 716,
+        "voting_age_pct": 70.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 823,
+          "pct": 80.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 21,
+          "pct": 2.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 52,
+          "pct": 5.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.8
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 39,
+          "pct": 3.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 77,
+          "pct": 7.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 250001,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 630,
+        "bachelors_only": 175,
+        "masters": 186,
+        "professional": 186,
+        "doctorate": 83
+      }
+    },
+    "Martin's Additions village, Maryland": {
+      "state": "MD",
+      "fips": "2450965",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1019,
+        "voting_age": 736,
+        "voting_age_pct": 72.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 917,
+          "pct": 90
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 1.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 27,
+          "pct": 2.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 47,
+          "pct": 4.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 250001,
+        "poverty_count": 38,
+        "poverty_pct": 3.7
+      },
+      "education": {
+        "bachelors_or_higher": 632,
+        "bachelors_only": 238,
+        "masters": 181,
+        "professional": 160,
+        "doctorate": 53
+      }
+    }
+  }
+}

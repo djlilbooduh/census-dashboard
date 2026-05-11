@@ -1,0 +1,5854 @@
+{
+  "cities": {
+    "Boise City city, Idaho": {
+      "state": "ID",
+      "fips": "1608830",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 235701,
+        "voting_age": 191852,
+        "voting_age_pct": 81.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 189589,
+          "pct": 80.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3072,
+          "pct": 1.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 730,
+          "pct": 0.31
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7867,
+          "pct": 3.34
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 600,
+          "pct": 0.25
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1114,
+          "pct": 0.47
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 10257,
+          "pct": 4.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 22472,
+          "pct": 9.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 81308,
+        "poverty_count": 4925,
+        "poverty_pct": 2.09
+      },
+      "education": {
+        "bachelors_or_higher": 77303,
+        "bachelors_only": 48463,
+        "masters": 19901,
+        "professional": 5218,
+        "doctorate": 3721
+      }
+    },
+    "Meridian city, Idaho": {
+      "state": "ID",
+      "fips": "1652120",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 124865,
+        "voting_age": 91965,
+        "voting_age_pct": 73.65
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 101627,
+          "pct": 81.39
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1884,
+          "pct": 1.51
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 341,
+          "pct": 0.27
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2605,
+          "pct": 2.09
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 100,
+          "pct": 0.08
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 955,
+          "pct": 0.76
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5527,
+          "pct": 4.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11826,
+          "pct": 9.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 98686,
+        "poverty_count": 1936,
+        "poverty_pct": 1.55
+      },
+      "education": {
+        "bachelors_or_higher": 36327,
+        "bachelors_only": 23977,
+        "masters": 9261,
+        "professional": 1859,
+        "doctorate": 1230
+      }
+    },
+    "Nampa city, Idaho": {
+      "state": "ID",
+      "fips": "1656260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 106289,
+        "voting_age": 79429,
+        "voting_age_pct": 74.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 72403,
+          "pct": 68.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1191,
+          "pct": 1.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 240,
+          "pct": 0.23
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 729,
+          "pct": 0.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 66,
+          "pct": 0.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1240,
+          "pct": 1.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4355,
+          "pct": 4.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26065,
+          "pct": 24.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 72122,
+        "poverty_count": 2560,
+        "poverty_pct": 2.41
+      },
+      "education": {
+        "bachelors_or_higher": 16163,
+        "bachelors_only": 11466,
+        "masters": 3720,
+        "professional": 562,
+        "doctorate": 415
+      }
+    },
+    "Idaho Falls city, Idaho": {
+      "state": "ID",
+      "fips": "1639700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 66672,
+        "voting_age": 47939,
+        "voting_age_pct": 71.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 51758,
+          "pct": 77.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 292,
+          "pct": 0.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 393,
+          "pct": 0.59
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 468,
+          "pct": 0.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 192,
+          "pct": 0.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 95,
+          "pct": 0.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2449,
+          "pct": 3.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11025,
+          "pct": 16.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 69630,
+        "poverty_count": 2715,
+        "poverty_pct": 4.07
+      },
+      "education": {
+        "bachelors_or_higher": 12933,
+        "bachelors_only": 8957,
+        "masters": 2766,
+        "professional": 563,
+        "doctorate": 647
+      }
+    },
+    "Caldwell city, Idaho": {
+      "state": "ID",
+      "fips": "1612250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 63465,
+        "voting_age": 43718,
+        "voting_age_pct": 68.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 35033,
+          "pct": 55.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 220,
+          "pct": 0.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 229,
+          "pct": 0.36
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 658,
+          "pct": 1.04
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 186,
+          "pct": 0.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 280,
+          "pct": 0.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2654,
+          "pct": 4.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 24205,
+          "pct": 38.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 66663,
+        "poverty_count": 3047,
+        "poverty_pct": 4.8
+      },
+      "education": {
+        "bachelors_or_higher": 6599,
+        "bachelors_only": 4901,
+        "masters": 1135,
+        "professional": 379,
+        "doctorate": 184
+      }
+    },
+    "Pocatello city, Idaho": {
+      "state": "ID",
+      "fips": "1664090",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 57152,
+        "voting_age": 43209,
+        "voting_age_pct": 75.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 46786,
+          "pct": 81.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 678,
+          "pct": 1.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 742,
+          "pct": 1.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1164,
+          "pct": 2.04
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 152,
+          "pct": 0.27
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 154,
+          "pct": 0.27
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2202,
+          "pct": 3.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5274,
+          "pct": 9.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 57931,
+        "poverty_count": 1799,
+        "poverty_pct": 3.15
+      },
+      "education": {
+        "bachelors_or_higher": 11889,
+        "bachelors_only": 7332,
+        "masters": 2749,
+        "professional": 681,
+        "doctorate": 1127
+      }
+    },
+    "Coeur d'Alene city, Idaho": {
+      "state": "ID",
+      "fips": "1616750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 55558,
+        "voting_age": 44386,
+        "voting_age_pct": 79.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 47821,
+          "pct": 86.07
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 212,
+          "pct": 0.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 370,
+          "pct": 0.67
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 625,
+          "pct": 1.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 9,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 541,
+          "pct": 0.97
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3187,
+          "pct": 5.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2793,
+          "pct": 5.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 70845,
+        "poverty_count": 928,
+        "poverty_pct": 1.67
+      },
+      "education": {
+        "bachelors_or_higher": 12183,
+        "bachelors_only": 7433,
+        "masters": 2821,
+        "professional": 1145,
+        "doctorate": 784
+      }
+    },
+    "Twin Falls city, Idaho": {
+      "state": "ID",
+      "fips": "1682810",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 53219,
+        "voting_age": 39854,
+        "voting_age_pct": 74.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 40174,
+          "pct": 75.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 465,
+          "pct": 0.87
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 96,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1184,
+          "pct": 2.22
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 265,
+          "pct": 0.5
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 225,
+          "pct": 0.42
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2326,
+          "pct": 4.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8484,
+          "pct": 15.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 60760,
+        "poverty_count": 1899,
+        "poverty_pct": 3.57
+      },
+      "education": {
+        "bachelors_or_higher": 7811,
+        "bachelors_only": 5063,
+        "masters": 2038,
+        "professional": 248,
+        "doctorate": 462
+      }
+    },
+    "Post Falls city, Idaho": {
+      "state": "ID",
+      "fips": "1664810",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 41716,
+        "voting_age": 30405,
+        "voting_age_pct": 72.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 35226,
+          "pct": 84.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 129,
+          "pct": 0.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 400,
+          "pct": 0.96
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 258,
+          "pct": 0.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.01
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2927,
+          "pct": 7.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2770,
+          "pct": 6.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 73313,
+        "poverty_count": 1619,
+        "poverty_pct": 3.88
+      },
+      "education": {
+        "bachelors_or_higher": 6323,
+        "bachelors_only": 4911,
+        "masters": 1164,
+        "professional": 131,
+        "doctorate": 117
+      }
+    },
+    "Rexburg city, Idaho": {
+      "state": "ID",
+      "fips": "1667420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39589,
+        "voting_age": 33411,
+        "voting_age_pct": 84.39
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 32633,
+          "pct": 82.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 417,
+          "pct": 1.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 23,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 704,
+          "pct": 1.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 115,
+          "pct": 0.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 187,
+          "pct": 0.47
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1023,
+          "pct": 2.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4487,
+          "pct": 11.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 50359,
+        "poverty_count": 1178,
+        "poverty_pct": 2.98
+      },
+      "education": {
+        "bachelors_or_higher": 4350,
+        "bachelors_only": 3150,
+        "masters": 887,
+        "professional": 78,
+        "doctorate": 235
+      }
+    },
+    "Lewiston city, Idaho": {
+      "state": "ID",
+      "fips": "1646540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 34471,
+        "voting_age": 27143,
+        "voting_age_pct": 78.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30691,
+          "pct": 89.03
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 20,
+          "pct": 0.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 432,
+          "pct": 1.25
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 322,
+          "pct": 0.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 63,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 114,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1364,
+          "pct": 3.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1465,
+          "pct": 4.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 71047,
+        "poverty_count": 1133,
+        "poverty_pct": 3.29
+      },
+      "education": {
+        "bachelors_or_higher": 6443,
+        "bachelors_only": 4318,
+        "masters": 1206,
+        "professional": 284,
+        "doctorate": 635
+      }
+    },
+    "Eagle city, Idaho": {
+      "state": "ID",
+      "fips": "1623410",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31490,
+        "voting_age": 23888,
+        "voting_age_pct": 75.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 26659,
+          "pct": 84.66
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 105,
+          "pct": 0.33
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 56,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 615,
+          "pct": 1.95
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 44,
+          "pct": 0.14
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 162,
+          "pct": 0.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 845,
+          "pct": 2.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3004,
+          "pct": 9.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 118037,
+        "poverty_count": 390,
+        "poverty_pct": 1.24
+      },
+      "education": {
+        "bachelors_or_higher": 12272,
+        "bachelors_only": 8020,
+        "masters": 3184,
+        "professional": 793,
+        "doctorate": 275
+      }
+    },
+    "Kuna city, Idaho": {
+      "state": "ID",
+      "fips": "1644290",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 25960,
+        "voting_age": 17681,
+        "voting_age_pct": 68.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 21973,
+          "pct": 84.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 95,
+          "pct": 0.37
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 53,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 217,
+          "pct": 0.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 47,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 86,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 748,
+          "pct": 2.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2741,
+          "pct": 10.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 93545,
+        "poverty_count": 441,
+        "poverty_pct": 1.7
+      },
+      "education": {
+        "bachelors_or_higher": 5105,
+        "bachelors_only": 3581,
+        "masters": 1074,
+        "professional": 316,
+        "doctorate": 134
+      }
+    },
+    "Moscow city, Idaho": {
+      "state": "ID",
+      "fips": "1654550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 25868,
+        "voting_age": 21526,
+        "voting_age_pct": 83.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 21563,
+          "pct": 83.36
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 380,
+          "pct": 1.47
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 170,
+          "pct": 0.66
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 734,
+          "pct": 2.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 81,
+          "pct": 0.31
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 96,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1407,
+          "pct": 5.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1437,
+          "pct": 5.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 56497,
+        "poverty_count": 593,
+        "poverty_pct": 2.29
+      },
+      "education": {
+        "bachelors_or_higher": 7115,
+        "bachelors_only": 4189,
+        "masters": 1810,
+        "professional": 435,
+        "doctorate": 681
+      }
+    },
+    "Ammon city, Idaho": {
+      "state": "ID",
+      "fips": "1601990",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18496,
+        "voting_age": 12528,
+        "voting_age_pct": 67.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15786,
+          "pct": 85.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 17,
+          "pct": 0.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 14,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 152,
+          "pct": 0.82
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 45,
+          "pct": 0.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 273,
+          "pct": 1.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2209,
+          "pct": 11.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 84154,
+        "poverty_count": 448,
+        "poverty_pct": 2.42
+      },
+      "education": {
+        "bachelors_or_higher": 4348,
+        "bachelors_only": 2935,
+        "masters": 1032,
+        "professional": 239,
+        "doctorate": 142
+      }
+    },
+    "Mountain Home city, Idaho": {
+      "state": "ID",
+      "fips": "1654730",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16265,
+        "voting_age": 12041,
+        "voting_age_pct": 74.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11612,
+          "pct": 71.39
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 416,
+          "pct": 2.56
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 134,
+          "pct": 0.82
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 578,
+          "pct": 3.55
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 34,
+          "pct": 0.21
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 12,
+          "pct": 0.07
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 742,
+          "pct": 4.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2737,
+          "pct": 16.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 58486,
+        "poverty_count": 416,
+        "poverty_pct": 2.56
+      },
+      "education": {
+        "bachelors_or_higher": 1966,
+        "bachelors_only": 1497,
+        "masters": 336,
+        "professional": 116,
+        "doctorate": 17
+      }
+    },
+    "Hayden city, Idaho": {
+      "state": "ID",
+      "fips": "1636370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16021,
+        "voting_age": 12327,
+        "voting_age_pct": 76.94
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14270,
+          "pct": 89.07
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 58,
+          "pct": 0.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 99,
+          "pct": 0.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 29,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 48,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 635,
+          "pct": 3.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 873,
+          "pct": 5.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 77534,
+        "poverty_count": 251,
+        "poverty_pct": 1.57
+      },
+      "education": {
+        "bachelors_or_higher": 3078,
+        "bachelors_only": 2143,
+        "masters": 673,
+        "professional": 108,
+        "doctorate": 154
+      }
+    },
+    "Chubbuck city, Idaho": {
+      "state": "ID",
+      "fips": "1614680",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15900,
+        "voting_age": 11052,
+        "voting_age_pct": 69.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12290,
+          "pct": 77.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 31,
+          "pct": 0.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 191,
+          "pct": 1.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 98,
+          "pct": 0.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 95,
+          "pct": 0.6
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 590,
+          "pct": 3.71
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 357,
+          "pct": 2.25
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2248,
+          "pct": 14.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 78646,
+        "poverty_count": 472,
+        "poverty_pct": 2.97
+      },
+      "education": {
+        "bachelors_or_higher": 2565,
+        "bachelors_only": 2009,
+        "masters": 474,
+        "professional": 15,
+        "doctorate": 67
+      }
+    },
+    "Star city, Idaho": {
+      "state": "ID",
+      "fips": "1676870",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13231,
+        "voting_age": 10108,
+        "voting_age_pct": 76.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10893,
+          "pct": 82.33
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 114,
+          "pct": 0.86
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 146,
+          "pct": 1.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 124,
+          "pct": 0.94
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 551,
+          "pct": 4.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1402,
+          "pct": 10.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 91318,
+        "poverty_count": 530,
+        "poverty_pct": 4.01
+      },
+      "education": {
+        "bachelors_or_higher": 2977,
+        "bachelors_only": 2204,
+        "masters": 526,
+        "professional": 96,
+        "doctorate": 151
+      }
+    },
+    "Jerome city, Idaho": {
+      "state": "ID",
+      "fips": "1641320",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12689,
+        "voting_age": 8579,
+        "voting_age_pct": 67.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6016,
+          "pct": 47.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10,
+          "pct": 0.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 20,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 27,
+          "pct": 0.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 25,
+          "pct": 0.2
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 40,
+          "pct": 0.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 398,
+          "pct": 3.14
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6153,
+          "pct": 48.49
+        }
+      ],
+      "economics": {
+        "median_household_income": 65343,
+        "poverty_count": 703,
+        "poverty_pct": 5.54
+      },
+      "education": {
+        "bachelors_or_higher": 724,
+        "bachelors_only": 531,
+        "masters": 160,
+        "professional": 23,
+        "doctorate": 10
+      }
+    },
+    "Blackfoot city, Idaho": {
+      "state": "ID",
+      "fips": "1607840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12628,
+        "voting_age": 9153,
+        "voting_age_pct": 72.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9106,
+          "pct": 72.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 70,
+          "pct": 0.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 415,
+          "pct": 3.29
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 48,
+          "pct": 0.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 28,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 428,
+          "pct": 3.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2533,
+          "pct": 20.06
+        }
+      ],
+      "economics": {
+        "median_household_income": 69091,
+        "poverty_count": 280,
+        "poverty_pct": 2.22
+      },
+      "education": {
+        "bachelors_or_higher": 1799,
+        "bachelors_only": 1285,
+        "masters": 355,
+        "professional": 110,
+        "doctorate": 49
+      }
+    },
+    "Garden City city, Idaho": {
+      "state": "ID",
+      "fips": "1629620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12483,
+        "voting_age": 9825,
+        "voting_age_pct": 78.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10427,
+          "pct": 83.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 64,
+          "pct": 0.51
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 27,
+          "pct": 0.22
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 89,
+          "pct": 0.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 27,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 556,
+          "pct": 4.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1293,
+          "pct": 10.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 66859,
+        "poverty_count": 248,
+        "poverty_pct": 1.99
+      },
+      "education": {
+        "bachelors_or_higher": 3544,
+        "bachelors_only": 2350,
+        "masters": 786,
+        "professional": 242,
+        "doctorate": 166
+      }
+    },
+    "Burley city, Idaho": {
+      "state": "ID",
+      "fips": "1611260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11721,
+        "voting_age": 8018,
+        "voting_age_pct": 68.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6393,
+          "pct": 54.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.04
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 32,
+          "pct": 0.27
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 49,
+          "pct": 0.42
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 274,
+          "pct": 2.34
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 516,
+          "pct": 4.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4449,
+          "pct": 37.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 63315,
+        "poverty_count": 624,
+        "poverty_pct": 5.32
+      },
+      "education": {
+        "bachelors_or_higher": 1085,
+        "bachelors_only": 794,
+        "masters": 208,
+        "professional": 66,
+        "doctorate": 17
+      }
+    },
+    "Rathdrum city, Idaho": {
+      "state": "ID",
+      "fips": "1666340",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10133,
+        "voting_age": 7560,
+        "voting_age_pct": 74.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8977,
+          "pct": 88.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 52,
+          "pct": 0.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 30,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 669,
+          "pct": 6.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 405,
+          "pct": 4
+        }
+      ],
+      "economics": {
+        "median_household_income": 86431,
+        "poverty_count": 459,
+        "poverty_pct": 4.53
+      },
+      "education": {
+        "bachelors_or_higher": 1503,
+        "bachelors_only": 1055,
+        "masters": 381,
+        "professional": 51,
+        "doctorate": 16
+      }
+    },
+    "Middleton city, Idaho": {
+      "state": "ID",
+      "fips": "1652660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10101,
+        "voting_age": 7222,
+        "voting_age_pct": 71.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7793,
+          "pct": 77.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 39,
+          "pct": 0.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 20,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 0.82
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 592,
+          "pct": 5.86
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1574,
+          "pct": 15.58
+        }
+      ],
+      "economics": {
+        "median_household_income": 83681,
+        "poverty_count": 307,
+        "poverty_pct": 3.04
+      },
+      "education": {
+        "bachelors_or_higher": 1867,
+        "bachelors_only": 1317,
+        "masters": 354,
+        "professional": 66,
+        "doctorate": 130
+      }
+    },
+    "Hailey city, Idaho": {
+      "state": "ID",
+      "fips": "1634390",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9439,
+        "voting_age": 6913,
+        "voting_age_pct": 73.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6629,
+          "pct": 70.23
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 354,
+          "pct": 3.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2446,
+          "pct": 25.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 83084,
+        "poverty_count": 352,
+        "poverty_pct": 3.73
+      },
+      "education": {
+        "bachelors_or_higher": 2657,
+        "bachelors_only": 2058,
+        "masters": 502,
+        "professional": 83,
+        "doctorate": 14
+      }
+    },
+    "Sandpoint city, Idaho": {
+      "state": "ID",
+      "fips": "1672100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9244,
+        "voting_age": 7151,
+        "voting_age_pct": 77.36
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7960,
+          "pct": 86.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 25,
+          "pct": 0.27
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 94,
+          "pct": 1.02
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 44,
+          "pct": 0.48
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 386,
+          "pct": 4.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 722,
+          "pct": 7.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 67769,
+        "poverty_count": 447,
+        "poverty_pct": 4.84
+      },
+      "education": {
+        "bachelors_or_higher": 2633,
+        "bachelors_only": 1778,
+        "masters": 650,
+        "professional": 125,
+        "doctorate": 80
+      }
+    },
+    "Payette city, Idaho": {
+      "state": "ID",
+      "fips": "1661300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8358,
+        "voting_age": 6190,
+        "voting_age_pct": 74.06
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5616,
+          "pct": 67.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 22,
+          "pct": 0.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 29,
+          "pct": 0.35
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 201,
+          "pct": 2.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 481,
+          "pct": 5.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2009,
+          "pct": 24.04
+        }
+      ],
+      "economics": {
+        "median_household_income": 55455,
+        "poverty_count": 451,
+        "poverty_pct": 5.4
+      },
+      "education": {
+        "bachelors_or_higher": 791,
+        "bachelors_only": 480,
+        "masters": 242,
+        "professional": 37,
+        "doctorate": 32
+      }
+    },
+    "Emmett city, Idaho": {
+      "state": "ID",
+      "fips": "1625570",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7948,
+        "voting_age": 6115,
+        "voting_age_pct": 76.94
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6277,
+          "pct": 78.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 48,
+          "pct": 0.6
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 72,
+          "pct": 0.91
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 276,
+          "pct": 3.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1264,
+          "pct": 15.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 58523,
+        "poverty_count": 289,
+        "poverty_pct": 3.64
+      },
+      "education": {
+        "bachelors_or_higher": 932,
+        "bachelors_only": 684,
+        "masters": 169,
+        "professional": 79,
+        "doctorate": 0
+      }
+    },
+    "Fruitland city, Idaho": {
+      "state": "ID",
+      "fips": "1628990",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6405,
+        "voting_age": 4568,
+        "voting_age_pct": 71.32
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4591,
+          "pct": 71.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 100,
+          "pct": 1.56
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1,
+          "pct": 0.02
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 324,
+          "pct": 5.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1389,
+          "pct": 21.69
+        }
+      ],
+      "economics": {
+        "median_household_income": 62703,
+        "poverty_count": 126,
+        "poverty_pct": 1.97
+      },
+      "education": {
+        "bachelors_or_higher": 737,
+        "bachelors_only": 553,
+        "masters": 124,
+        "professional": 25,
+        "doctorate": 35
+      }
+    },
+    "Rupert city, Idaho": {
+      "state": "ID",
+      "fips": "1670660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6157,
+        "voting_age": 4275,
+        "voting_age_pct": 69.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2817,
+          "pct": 45.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26,
+          "pct": 0.42
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7,
+          "pct": 0.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3301,
+          "pct": 53.61
+        }
+      ],
+      "economics": {
+        "median_household_income": 54444,
+        "poverty_count": 648,
+        "poverty_pct": 10.52
+      },
+      "education": {
+        "bachelors_or_higher": 301,
+        "bachelors_only": 214,
+        "masters": 80,
+        "professional": 7,
+        "doctorate": 0
+      }
+    },
+    "Weiser city, Idaho": {
+      "state": "ID",
+      "fips": "1686140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5803,
+        "voting_age": 4431,
+        "voting_age_pct": 76.36
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3958,
+          "pct": 68.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 25,
+          "pct": 0.43
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 301,
+          "pct": 5.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1497,
+          "pct": 25.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 45463,
+        "poverty_count": 306,
+        "poverty_pct": 5.27
+      },
+      "education": {
+        "bachelors_or_higher": 563,
+        "bachelors_only": 312,
+        "masters": 200,
+        "professional": 19,
+        "doctorate": 32
+      }
+    },
+    "Preston city, Idaho": {
+      "state": "ID",
+      "fips": "1665260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5800,
+        "voting_age": 4078,
+        "voting_age_pct": 70.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5179,
+          "pct": 89.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.22
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 63,
+          "pct": 1.09
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 205,
+          "pct": 3.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 340,
+          "pct": 5.86
+        }
+      ],
+      "economics": {
+        "median_household_income": 55625,
+        "poverty_count": 197,
+        "poverty_pct": 3.4
+      },
+      "education": {
+        "bachelors_or_higher": 586,
+        "bachelors_only": 372,
+        "masters": 132,
+        "professional": 64,
+        "doctorate": 18
+      }
+    },
+    "Rigby city, Idaho": {
+      "state": "ID",
+      "fips": "1667780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5251,
+        "voting_age": 3742,
+        "voting_age_pct": 71.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4357,
+          "pct": 82.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 143,
+          "pct": 2.72
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17,
+          "pct": 0.32
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 125,
+          "pct": 2.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 605,
+          "pct": 11.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 78278,
+        "poverty_count": 222,
+        "poverty_pct": 4.23
+      },
+      "education": {
+        "bachelors_or_higher": 1222,
+        "bachelors_only": 800,
+        "masters": 365,
+        "professional": 31,
+        "doctorate": 26
+      }
+    },
+    "Shelley city, Idaho": {
+      "state": "ID",
+      "fips": "1673450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4987,
+        "voting_age": 3353,
+        "voting_age_pct": 67.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4101,
+          "pct": 82.23
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 20,
+          "pct": 0.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 232,
+          "pct": 4.65
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 624,
+          "pct": 12.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 63864,
+        "poverty_count": 195,
+        "poverty_pct": 3.91
+      },
+      "education": {
+        "bachelors_or_higher": 601,
+        "bachelors_only": 362,
+        "masters": 133,
+        "professional": 106,
+        "doctorate": 0
+      }
+    },
+    "Kimberly city, Idaho": {
+      "state": "ID",
+      "fips": "1643570",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4883,
+        "voting_age": 3005,
+        "voting_age_pct": 61.54
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3163,
+          "pct": 64.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 53,
+          "pct": 1.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1640,
+          "pct": 33.59
+        }
+      ],
+      "economics": {
+        "median_household_income": 76587,
+        "poverty_count": 414,
+        "poverty_pct": 8.48
+      },
+      "education": {
+        "bachelors_or_higher": 609,
+        "bachelors_only": 353,
+        "masters": 239,
+        "professional": 17,
+        "doctorate": 0
+      }
+    },
+    "American Falls city, Idaho": {
+      "state": "ID",
+      "fips": "1601900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4636,
+        "voting_age": 3071,
+        "voting_age_pct": 66.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2216,
+          "pct": 47.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 71,
+          "pct": 1.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 116,
+          "pct": 2.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2230,
+          "pct": 48.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 58376,
+        "poverty_count": 70,
+        "poverty_pct": 1.51
+      },
+      "education": {
+        "bachelors_or_higher": 377,
+        "bachelors_only": 276,
+        "masters": 84,
+        "professional": 17,
+        "doctorate": 0
+      }
+    },
+    "Buhl city, Idaho": {
+      "state": "ID",
+      "fips": "1610810",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4624,
+        "voting_age": 3303,
+        "voting_age_pct": 71.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3078,
+          "pct": 66.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7,
+          "pct": 0.15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 29,
+          "pct": 0.63
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 76,
+          "pct": 1.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1434,
+          "pct": 31.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 46217,
+        "poverty_count": 86,
+        "poverty_pct": 1.86
+      },
+      "education": {
+        "bachelors_or_higher": 418,
+        "bachelors_only": 298,
+        "masters": 98,
+        "professional": 22,
+        "doctorate": 0
+      }
+    },
+    "McCall city, Idaho": {
+      "state": "ID",
+      "fips": "1648790",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3847,
+        "voting_age": 3210,
+        "voting_age_pct": 83.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3774,
+          "pct": 98.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 73,
+          "pct": 1.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 60197,
+        "poverty_count": 147,
+        "poverty_pct": 3.82
+      },
+      "education": {
+        "bachelors_or_higher": 1208,
+        "bachelors_only": 760,
+        "masters": 265,
+        "professional": 83,
+        "doctorate": 100
+      }
+    },
+    "St. Anthony city, Idaho": {
+      "state": "ID",
+      "fips": "1671020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3818,
+        "voting_age": 2910,
+        "voting_age_pct": 76.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2662,
+          "pct": 69.72
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9,
+          "pct": 0.24
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 109,
+          "pct": 2.85
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 11,
+          "pct": 0.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 204,
+          "pct": 5.34
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 54,
+          "pct": 1.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 762,
+          "pct": 19.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 52446,
+        "poverty_count": 312,
+        "poverty_pct": 8.17
+      },
+      "education": {
+        "bachelors_or_higher": 288,
+        "bachelors_only": 229,
+        "masters": 58,
+        "professional": 0,
+        "doctorate": 1
+      }
+    },
+    "Gooding city, Idaho": {
+      "state": "ID",
+      "fips": "1632140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3731,
+        "voting_age": 2617,
+        "voting_age_pct": 70.14
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2356,
+          "pct": 63.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6,
+          "pct": 0.16
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 189,
+          "pct": 5.07
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1180,
+          "pct": 31.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 36889,
+        "poverty_count": 430,
+        "poverty_pct": 11.53
+      },
+      "education": {
+        "bachelors_or_higher": 203,
+        "bachelors_only": 128,
+        "masters": 51,
+        "professional": 0,
+        "doctorate": 24
+      }
+    },
+    "Heyburn city, Idaho": {
+      "state": "ID",
+      "fips": "1637360",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3678,
+        "voting_age": 2264,
+        "voting_age_pct": 61.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2542,
+          "pct": 69.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15,
+          "pct": 0.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 56,
+          "pct": 1.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1065,
+          "pct": 28.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 70078,
+        "poverty_count": 281,
+        "poverty_pct": 7.64
+      },
+      "education": {
+        "bachelors_or_higher": 587,
+        "bachelors_only": 293,
+        "masters": 176,
+        "professional": 56,
+        "doctorate": 62
+      }
+    },
+    "Ketchum city, Idaho": {
+      "state": "ID",
+      "fips": "1643030",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3551,
+        "voting_age": 3350,
+        "voting_age_pct": 94.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3176,
+          "pct": 89.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23,
+          "pct": 0.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 92,
+          "pct": 2.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 258,
+          "pct": 7.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 87658,
+        "poverty_count": 24,
+        "poverty_pct": 0.68
+      },
+      "education": {
+        "bachelors_or_higher": 1718,
+        "bachelors_only": 1344,
+        "masters": 215,
+        "professional": 159,
+        "doctorate": 0
+      }
+    },
+    "Grangeville city, Idaho": {
+      "state": "ID",
+      "fips": "1632950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3443,
+        "voting_age": 2647,
+        "voting_age_pct": 76.88
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2954,
+          "pct": 85.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 62,
+          "pct": 1.8
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 19,
+          "pct": 0.55
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 78,
+          "pct": 2.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 327,
+          "pct": 9.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 59013,
+        "poverty_count": 162,
+        "poverty_pct": 4.71
+      },
+      "education": {
+        "bachelors_or_higher": 483,
+        "bachelors_only": 358,
+        "masters": 72,
+        "professional": 13,
+        "doctorate": 40
+      }
+    },
+    "Orofino city, Idaho": {
+      "state": "ID",
+      "fips": "1659320",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3254,
+        "voting_age": 2779,
+        "voting_age_pct": 85.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2633,
+          "pct": 80.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 18,
+          "pct": 0.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 54,
+          "pct": 1.66
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 52,
+          "pct": 1.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 23,
+          "pct": 0.71
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 196,
+          "pct": 6.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 278,
+          "pct": 8.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 57171,
+        "poverty_count": 50,
+        "poverty_pct": 1.54
+      },
+      "education": {
+        "bachelors_or_higher": 440,
+        "bachelors_only": 335,
+        "masters": 82,
+        "professional": 22,
+        "doctorate": 1
+      }
+    },
+    "Salmon city, Idaho": {
+      "state": "ID",
+      "fips": "1671650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3196,
+        "voting_age": 2687,
+        "voting_age_pct": 84.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2960,
+          "pct": 92.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.41
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 213,
+          "pct": 6.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9,
+          "pct": 0.28
+        }
+      ],
+      "economics": {
+        "median_household_income": 40875,
+        "poverty_count": 108,
+        "poverty_pct": 3.38
+      },
+      "education": {
+        "bachelors_or_higher": 371,
+        "bachelors_only": 234,
+        "masters": 115,
+        "professional": 22,
+        "doctorate": 0
+      }
+    },
+    "Soda Springs city, Idaho": {
+      "state": "ID",
+      "fips": "1675195",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3150,
+        "voting_age": 2288,
+        "voting_age_pct": 72.63
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3005,
+          "pct": 95.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.32
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 109,
+          "pct": 3.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26,
+          "pct": 0.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 47480,
+        "poverty_count": 108,
+        "poverty_pct": 3.43
+      },
+      "education": {
+        "bachelors_or_higher": 146,
+        "bachelors_only": 97,
+        "masters": 25,
+        "professional": 24,
+        "doctorate": 0
+      }
+    },
+    "St. Maries city, Idaho": {
+      "state": "ID",
+      "fips": "1671470",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3032,
+        "voting_age": 2347,
+        "voting_age_pct": 77.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2893,
+          "pct": 95.42
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.13
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 29,
+          "pct": 0.96
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 10,
+          "pct": 0.33
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1,
+          "pct": 0.03
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 38,
+          "pct": 1.25
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 57,
+          "pct": 1.88
+        }
+      ],
+      "economics": {
+        "median_household_income": 52468,
+        "poverty_count": 142,
+        "poverty_pct": 4.68
+      },
+      "education": {
+        "bachelors_or_higher": 440,
+        "bachelors_only": 330,
+        "masters": 104,
+        "professional": 6,
+        "doctorate": 0
+      }
+    },
+    "Victor city, Idaho": {
+      "state": "ID",
+      "fips": "1684250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3024,
+        "voting_age": 2284,
+        "voting_age_pct": 75.53
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2138,
+          "pct": 70.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 73,
+          "pct": 2.41
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 78,
+          "pct": 2.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 735,
+          "pct": 24.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 73664,
+        "poverty_count": 104,
+        "poverty_pct": 3.44
+      },
+      "education": {
+        "bachelors_or_higher": 917,
+        "bachelors_only": 740,
+        "masters": 130,
+        "professional": 20,
+        "doctorate": 27
+      }
+    },
+    "Homedale city, Idaho": {
+      "state": "ID",
+      "fips": "1638170",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3006,
+        "voting_age": 2150,
+        "voting_age_pct": 71.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1742,
+          "pct": 57.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 53,
+          "pct": 1.76
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 13,
+          "pct": 0.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 120,
+          "pct": 3.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1078,
+          "pct": 35.86
+        }
+      ],
+      "economics": {
+        "median_household_income": 49764,
+        "poverty_count": 278,
+        "poverty_pct": 9.25
+      },
+      "education": {
+        "bachelors_or_higher": 190,
+        "bachelors_only": 108,
+        "masters": 27,
+        "professional": 0,
+        "doctorate": 55
+      }
+    },
+    "Wendell city, Idaho": {
+      "state": "ID",
+      "fips": "1686320",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2940,
+        "voting_age": 2101,
+        "voting_age_pct": 71.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1561,
+          "pct": 53.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 54,
+          "pct": 1.84
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.34
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 13,
+          "pct": 0.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 18,
+          "pct": 0.61
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1283,
+          "pct": 43.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 54850,
+        "poverty_count": 196,
+        "poverty_pct": 6.67
+      },
+      "education": {
+        "bachelors_or_higher": 199,
+        "bachelors_only": 119,
+        "masters": 80,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Iona city, Idaho": {
+      "state": "ID",
+      "fips": "1640420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2882,
+        "voting_age": 1619,
+        "voting_age_pct": 56.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2652,
+          "pct": 92.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.38
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 25,
+          "pct": 0.87
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 53,
+          "pct": 1.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 138,
+          "pct": 4.79
+        }
+      ],
+      "economics": {
+        "median_household_income": 83750,
+        "poverty_count": 63,
+        "poverty_pct": 2.19
+      },
+      "education": {
+        "bachelors_or_higher": 425,
+        "bachelors_only": 247,
+        "masters": 152,
+        "professional": 14,
+        "doctorate": 12
+      }
+    },
+    "Filer city, Idaho": {
+      "state": "ID",
+      "fips": "1627730",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2837,
+        "voting_age": 1870,
+        "voting_age_pct": 65.91
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2611,
+          "pct": 92.03
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 40,
+          "pct": 1.41
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 47,
+          "pct": 1.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 139,
+          "pct": 4.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 53508,
+        "poverty_count": 81,
+        "poverty_pct": 2.86
+      },
+      "education": {
+        "bachelors_or_higher": 196,
+        "bachelors_only": 109,
+        "masters": 63,
+        "professional": 24,
+        "doctorate": 0
+      }
+    },
+    "Montpelier city, Idaho": {
+      "state": "ID",
+      "fips": "1653920",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2681,
+        "voting_age": 1945,
+        "voting_age_pct": 72.55
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2461,
+          "pct": 91.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.37
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 60,
+          "pct": 2.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 150,
+          "pct": 5.59
+        }
+      ],
+      "economics": {
+        "median_household_income": 52212,
+        "poverty_count": 85,
+        "poverty_pct": 3.17
+      },
+      "education": {
+        "bachelors_or_higher": 269,
+        "bachelors_only": 173,
+        "masters": 82,
+        "professional": 7,
+        "doctorate": 7
+      }
+    },
+    "Driggs city, Idaho": {
+      "state": "ID",
+      "fips": "1622690",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2655,
+        "voting_age": 2048,
+        "voting_age_pct": 77.14
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1666,
+          "pct": 62.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 18,
+          "pct": 0.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 965,
+          "pct": 36.35
+        }
+      ],
+      "economics": {
+        "median_household_income": 82434,
+        "poverty_count": 121,
+        "poverty_pct": 4.56
+      },
+      "education": {
+        "bachelors_or_higher": 876,
+        "bachelors_only": 555,
+        "masters": 251,
+        "professional": 49,
+        "doctorate": 21
+      }
+    },
+    "Bonners Ferry city, Idaho": {
+      "state": "ID",
+      "fips": "1609370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2615,
+        "voting_age": 2053,
+        "voting_age_pct": 78.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2192,
+          "pct": 83.82
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 86,
+          "pct": 3.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.65
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.04
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.76
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 127,
+          "pct": 4.86
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 172,
+          "pct": 6.58
+        }
+      ],
+      "economics": {
+        "median_household_income": 54107,
+        "poverty_count": 61,
+        "poverty_pct": 2.33
+      },
+      "education": {
+        "bachelors_or_higher": 317,
+        "bachelors_only": 226,
+        "masters": 63,
+        "professional": 28,
+        "doctorate": 0
+      }
+    },
+    "Bellevue city, Idaho": {
+      "state": "ID",
+      "fips": "1606220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2571,
+        "voting_age": 2120,
+        "voting_age_pct": 82.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1814,
+          "pct": 70.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 19,
+          "pct": 0.74
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 253,
+          "pct": 9.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 485,
+          "pct": 18.86
+        }
+      ],
+      "economics": {
+        "median_household_income": 72242,
+        "poverty_count": 7,
+        "poverty_pct": 0.27
+      },
+      "education": {
+        "bachelors_or_higher": 478,
+        "bachelors_only": 405,
+        "masters": 70,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Dalton Gardens city, Idaho": {
+      "state": "ID",
+      "fips": "1620350",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2526,
+        "voting_age": 2096,
+        "voting_age_pct": 82.98
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2302,
+          "pct": 91.13
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 21,
+          "pct": 0.83
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 73,
+          "pct": 2.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 89,
+          "pct": 3.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 1.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 84375,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 620,
+        "bachelors_only": 324,
+        "masters": 229,
+        "professional": 58,
+        "doctorate": 9
+      }
+    },
+    "Malad City city, Idaho": {
+      "state": "ID",
+      "fips": "1650140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2441,
+        "voting_age": 1732,
+        "voting_age_pct": 70.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2342,
+          "pct": 95.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.45
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5,
+          "pct": 0.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 83,
+          "pct": 3.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 75500,
+        "poverty_count": 91,
+        "poverty_pct": 3.73
+      },
+      "education": {
+        "bachelors_or_higher": 400,
+        "bachelors_only": 265,
+        "masters": 129,
+        "professional": 0,
+        "doctorate": 6
+      }
+    },
+    "Aberdeen city, Idaho": {
+      "state": "ID",
+      "fips": "1600100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2418,
+        "voting_age": 1567,
+        "voting_age_pct": 64.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 560,
+          "pct": 23.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15,
+          "pct": 0.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 28,
+          "pct": 1.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6,
+          "pct": 0.25
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1809,
+          "pct": 74.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 67813,
+        "poverty_count": 74,
+        "poverty_pct": 3.06
+      },
+      "education": {
+        "bachelors_or_higher": 94,
+        "bachelors_only": 62,
+        "masters": 17,
+        "professional": 3,
+        "doctorate": 12
+      }
+    },
+    "Kellogg city, Idaho": {
+      "state": "ID",
+      "fips": "1642580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2232,
+        "voting_age": 1785,
+        "voting_age_pct": 79.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1992,
+          "pct": 89.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 31,
+          "pct": 1.39
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 113,
+          "pct": 5.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 96,
+          "pct": 4.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 44352,
+        "poverty_count": 128,
+        "poverty_pct": 5.73
+      },
+      "education": {
+        "bachelors_or_higher": 192,
+        "bachelors_only": 123,
+        "masters": 47,
+        "professional": 11,
+        "doctorate": 11
+      }
+    },
+    "Priest River city, Idaho": {
+      "state": "ID",
+      "fips": "1665530",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2058,
+        "voting_age": 1600,
+        "voting_age_pct": 77.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1785,
+          "pct": 86.73
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.34
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 188,
+          "pct": 9.14
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 78,
+          "pct": 3.79
+        }
+      ],
+      "economics": {
+        "median_household_income": 57712,
+        "poverty_count": 19,
+        "poverty_pct": 0.92
+      },
+      "education": {
+        "bachelors_or_higher": 140,
+        "bachelors_only": 81,
+        "masters": 52,
+        "professional": 0,
+        "doctorate": 7
+      }
+    },
+    "Pinehurst city, Idaho": {
+      "state": "ID",
+      "fips": "1663100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2014,
+        "voting_age": 1581,
+        "voting_age_pct": 78.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1723,
+          "pct": 85.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 20,
+          "pct": 0.99
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 34,
+          "pct": 1.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 14,
+          "pct": 0.7
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 163,
+          "pct": 8.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 59,
+          "pct": 2.93
+        }
+      ],
+      "economics": {
+        "median_household_income": 66447,
+        "poverty_count": 44,
+        "poverty_pct": 2.18
+      },
+      "education": {
+        "bachelors_or_higher": 166,
+        "bachelors_only": 109,
+        "masters": 37,
+        "professional": 20,
+        "doctorate": 0
+      }
+    },
+    "Sugar City city, Idaho": {
+      "state": "ID",
+      "fips": "1678040",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2011,
+        "voting_age": 1352,
+        "voting_age_pct": 67.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1761,
+          "pct": 87.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14,
+          "pct": 0.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.55
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 71,
+          "pct": 3.53
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6,
+          "pct": 0.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 138,
+          "pct": 6.86
+        }
+      ],
+      "economics": {
+        "median_household_income": 71944,
+        "poverty_count": 95,
+        "poverty_pct": 4.72
+      },
+      "education": {
+        "bachelors_or_higher": 501,
+        "bachelors_only": 331,
+        "masters": 125,
+        "professional": 17,
+        "doctorate": 28
+      }
+    },
+    "Shoshone city, Idaho": {
+      "state": "ID",
+      "fips": "1673900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1985,
+        "voting_age": 1466,
+        "voting_age_pct": 73.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1070,
+          "pct": 53.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 26,
+          "pct": 1.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 60,
+          "pct": 3.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 816,
+          "pct": 41.11
+        }
+      ],
+      "economics": {
+        "median_household_income": 56050,
+        "poverty_count": 24,
+        "poverty_pct": 1.21
+      },
+      "education": {
+        "bachelors_or_higher": 137,
+        "bachelors_only": 76,
+        "masters": 25,
+        "professional": 18,
+        "doctorate": 18
+      }
+    },
+    "New Plymouth city, Idaho": {
+      "state": "ID",
+      "fips": "1656980",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1863,
+        "voting_age": 1356,
+        "voting_age_pct": 72.79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1402,
+          "pct": 75.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 34,
+          "pct": 1.83
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 27,
+          "pct": 1.45
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 60,
+          "pct": 3.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 337,
+          "pct": 18.09
+        }
+      ],
+      "economics": {
+        "median_household_income": 59875,
+        "poverty_count": 48,
+        "poverty_pct": 2.58
+      },
+      "education": {
+        "bachelors_or_higher": 370,
+        "bachelors_only": 310,
+        "masters": 25,
+        "professional": 31,
+        "doctorate": 4
+      }
+    },
+    "Parma city, Idaho": {
+      "state": "ID",
+      "fips": "1660940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1836,
+        "voting_age": 1335,
+        "voting_age_pct": 72.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1253,
+          "pct": 68.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 25,
+          "pct": 1.36
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 24,
+          "pct": 1.31
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 533,
+          "pct": 29.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 47798,
+        "poverty_count": 105,
+        "poverty_pct": 5.72
+      },
+      "education": {
+        "bachelors_or_higher": 144,
+        "bachelors_only": 113,
+        "masters": 31,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Spirit Lake city, Idaho": {
+      "state": "ID",
+      "fips": "1676060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1768,
+        "voting_age": 1282,
+        "voting_age_pct": 72.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1529,
+          "pct": 86.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7,
+          "pct": 0.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.45
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 33,
+          "pct": 1.87
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 39,
+          "pct": 2.21
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 152,
+          "pct": 8.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 60938,
+        "poverty_count": 41,
+        "poverty_pct": 2.32
+      },
+      "education": {
+        "bachelors_or_higher": 174,
+        "bachelors_only": 135,
+        "masters": 39,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Osburn city, Idaho": {
+      "state": "ID",
+      "fips": "1659590",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1728,
+        "voting_age": 1270,
+        "voting_age_pct": 73.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1461,
+          "pct": 84.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 1.56
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.98
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 55,
+          "pct": 3.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 158,
+          "pct": 9.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 44583,
+        "poverty_count": 112,
+        "poverty_pct": 6.48
+      },
+      "education": {
+        "bachelors_or_higher": 171,
+        "bachelors_only": 112,
+        "masters": 59,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Wilder city, Idaho": {
+      "state": "ID",
+      "fips": "1687670",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1690,
+        "voting_age": 1120,
+        "voting_age_pct": 66.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 532,
+          "pct": 31.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.41
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.65
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 112,
+          "pct": 6.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1013,
+          "pct": 59.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 55938,
+        "poverty_count": 172,
+        "poverty_pct": 10.18
+      },
+      "education": {
+        "bachelors_or_higher": 97,
+        "bachelors_only": 81,
+        "masters": 16,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Paul city, Idaho": {
+      "state": "ID",
+      "fips": "1661210",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1615,
+        "voting_age": 1212,
+        "voting_age_pct": 75.05
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 922,
+          "pct": 57.09
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 117,
+          "pct": 7.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 576,
+          "pct": 35.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 62830,
+        "poverty_count": 29,
+        "poverty_pct": 1.8
+      },
+      "education": {
+        "bachelors_or_higher": 143,
+        "bachelors_only": 122,
+        "masters": 7,
+        "professional": 14,
+        "doctorate": 0
+      }
+    },
+    "Ucon city, Idaho": {
+      "state": "ID",
+      "fips": "1683350",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1537,
+        "voting_age": 1126,
+        "voting_age_pct": 73.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1384,
+          "pct": 90.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 13,
+          "pct": 0.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 59,
+          "pct": 3.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 79,
+          "pct": 5.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 83864,
+        "poverty_count": 58,
+        "poverty_pct": 3.77
+      },
+      "education": {
+        "bachelors_or_higher": 220,
+        "bachelors_only": 181,
+        "masters": 36,
+        "professional": 0,
+        "doctorate": 3
+      }
+    },
+    "Ponderay city, Idaho": {
+      "state": "ID",
+      "fips": "1664450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1456,
+        "voting_age": 1164,
+        "voting_age_pct": 79.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1176,
+          "pct": 80.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 88,
+          "pct": 6.04
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 1.44
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 14,
+          "pct": 0.96
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 67,
+          "pct": 4.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 90,
+          "pct": 6.18
+        }
+      ],
+      "economics": {
+        "median_household_income": 50119,
+        "poverty_count": 84,
+        "poverty_pct": 5.77
+      },
+      "education": {
+        "bachelors_or_higher": 95,
+        "bachelors_only": 69,
+        "masters": 18,
+        "professional": 8,
+        "doctorate": 0
+      }
+    },
+    "Glenns Ferry city, Idaho": {
+      "state": "ID",
+      "fips": "1631690",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1443,
+        "voting_age": 1158,
+        "voting_age_pct": 80.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1064,
+          "pct": 73.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 54,
+          "pct": 3.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 322,
+          "pct": 22.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 51625,
+        "poverty_count": 106,
+        "poverty_pct": 7.35
+      },
+      "education": {
+        "bachelors_or_higher": 112,
+        "bachelors_only": 75,
+        "masters": 9,
+        "professional": 26,
+        "doctorate": 2
+      }
+    },
+    "Moyie Springs city, Idaho": {
+      "state": "ID",
+      "fips": "1655270",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1420,
+        "voting_age": 969,
+        "voting_age_pct": 68.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1254,
+          "pct": 88.31
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.35
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 7,
+          "pct": 0.49
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 115,
+          "pct": 8.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 38,
+          "pct": 2.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 61783,
+        "poverty_count": 76,
+        "poverty_pct": 5.35
+      },
+      "education": {
+        "bachelors_or_higher": 172,
+        "bachelors_only": 125,
+        "masters": 30,
+        "professional": 11,
+        "doctorate": 6
+      }
+    },
+    "Hansen city, Idaho": {
+      "state": "ID",
+      "fips": "1634930",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1414,
+        "voting_age": 887,
+        "voting_age_pct": 62.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 965,
+          "pct": 68.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.42
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 39,
+          "pct": 2.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 402,
+          "pct": 28.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 47396,
+        "poverty_count": 237,
+        "poverty_pct": 16.76
+      },
+      "education": {
+        "bachelors_or_higher": 115,
+        "bachelors_only": 96,
+        "masters": 19,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Sun Valley city, Idaho": {
+      "state": "ID",
+      "fips": "1678850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1383,
+        "voting_age": 1285,
+        "voting_age_pct": 92.91
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1068,
+          "pct": 77.22
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 36,
+          "pct": 2.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 1.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 130,
+          "pct": 9.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 122,
+          "pct": 8.82
+        }
+      ],
+      "economics": {
+        "median_household_income": 82045,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 879,
+        "bachelors_only": 554,
+        "masters": 217,
+        "professional": 102,
+        "doctorate": 6
+      }
+    },
+    "Grace city, Idaho": {
+      "state": "ID",
+      "fips": "1632500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1345,
+        "voting_age": 913,
+        "voting_age_pct": 67.88
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 995,
+          "pct": 73.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.22
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 36,
+          "pct": 2.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 309,
+          "pct": 22.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 69286,
+        "poverty_count": 9,
+        "poverty_pct": 0.67
+      },
+      "education": {
+        "bachelors_or_higher": 121,
+        "bachelors_only": 59,
+        "masters": 58,
+        "professional": 0,
+        "doctorate": 4
+      }
+    },
+    "Ashton city, Idaho": {
+      "state": "ID",
+      "fips": "1603610",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1329,
+        "voting_age": 1007,
+        "voting_age_pct": 75.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1099,
+          "pct": 82.69
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6,
+          "pct": 0.45
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.45
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 57,
+          "pct": 4.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 161,
+          "pct": 12.11
+        }
+      ],
+      "economics": {
+        "median_household_income": 66250,
+        "poverty_count": 24,
+        "poverty_pct": 1.81
+      },
+      "education": {
+        "bachelors_or_higher": 220,
+        "bachelors_only": 165,
+        "masters": 30,
+        "professional": 2,
+        "doctorate": 23
+      }
+    },
+    "Genesee city, Idaho": {
+      "state": "ID",
+      "fips": "1630160",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1312,
+        "voting_age": 935,
+        "voting_age_pct": 71.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1166,
+          "pct": 88.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.23
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1,
+          "pct": 0.08
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 111,
+          "pct": 8.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26,
+          "pct": 1.98
+        }
+      ],
+      "economics": {
+        "median_household_income": 78125,
+        "poverty_count": 39,
+        "poverty_pct": 2.97
+      },
+      "education": {
+        "bachelors_or_higher": 298,
+        "bachelors_only": 253,
+        "masters": 32,
+        "professional": 6,
+        "doctorate": 7
+      }
+    },
+    "Marsing city, Idaho": {
+      "state": "ID",
+      "fips": "1650950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1245,
+        "voting_age": 992,
+        "voting_age_pct": 79.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 520,
+          "pct": 41.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 55,
+          "pct": 4.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 670,
+          "pct": 53.82
+        }
+      ],
+      "economics": {
+        "median_household_income": 57973,
+        "poverty_count": 33,
+        "poverty_pct": 2.65
+      },
+      "education": {
+        "bachelors_or_higher": 75,
+        "bachelors_only": 66,
+        "masters": 6,
+        "professional": 0,
+        "doctorate": 3
+      }
+    },
+    "Hagerman city, Idaho": {
+      "state": "ID",
+      "fips": "1634300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1198,
+        "voting_age": 980,
+        "voting_age_pct": 81.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1055,
+          "pct": 88.06
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.25
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8,
+          "pct": 0.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.67
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 23,
+          "pct": 1.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 101,
+          "pct": 8.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 59250,
+        "poverty_count": 49,
+        "poverty_pct": 4.09
+      },
+      "education": {
+        "bachelors_or_higher": 270,
+        "bachelors_only": 221,
+        "masters": 49,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Carey city, Idaho": {
+      "state": "ID",
+      "fips": "1612790",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1197,
+        "voting_age": 771,
+        "voting_age_pct": 64.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 604,
+          "pct": 50.46
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1,
+          "pct": 0.08
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 592,
+          "pct": 49.46
+        }
+      ],
+      "economics": {
+        "median_household_income": 50938,
+        "poverty_count": 11,
+        "poverty_pct": 0.92
+      },
+      "education": {
+        "bachelors_or_higher": 134,
+        "bachelors_only": 111,
+        "masters": 23,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Greenleaf city, Idaho": {
+      "state": "ID",
+      "fips": "1633490",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1152,
+        "voting_age": 886,
+        "voting_age_pct": 76.91
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 638,
+          "pct": 55.38
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 13,
+          "pct": 1.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2,
+          "pct": 0.17
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 1.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 68,
+          "pct": 5.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 416,
+          "pct": 36.11
+        }
+      ],
+      "economics": {
+        "median_household_income": 64375,
+        "poverty_count": 18,
+        "poverty_pct": 1.56
+      },
+      "education": {
+        "bachelors_or_higher": 188,
+        "bachelors_only": 155,
+        "masters": 31,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "Cottonwood city, Idaho": {
+      "state": "ID",
+      "fips": "1618640",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1138,
+        "voting_age": 848,
+        "voting_age_pct": 74.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1075,
+          "pct": 94.46
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.09
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 46,
+          "pct": 4.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 1.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 56250,
+        "poverty_count": 97,
+        "poverty_pct": 8.52
+      },
+      "education": {
+        "bachelors_or_higher": 184,
+        "bachelors_only": 161,
+        "masters": 21,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "Wallace city, Idaho": {
+      "state": "ID",
+      "fips": "1684790",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1127,
+        "voting_age": 871,
+        "voting_age_pct": 77.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1028,
+          "pct": 91.22
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.71
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.53
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.18
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 14,
+          "pct": 1.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 68,
+          "pct": 6.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 50526,
+        "poverty_count": 60,
+        "poverty_pct": 5.32
+      },
+      "education": {
+        "bachelors_or_higher": 151,
+        "bachelors_only": 116,
+        "masters": 22,
+        "professional": 10,
+        "doctorate": 3
+      }
+    },
+    "Kootenai city, Idaho": {
+      "state": "ID",
+      "fips": "1644200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1076,
+        "voting_age": 820,
+        "voting_age_pct": 76.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 984,
+          "pct": 91.45
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.65
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 27,
+          "pct": 2.51
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 58,
+          "pct": 5.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 69457,
+        "poverty_count": 39,
+        "poverty_pct": 3.62
+      },
+      "education": {
+        "bachelors_or_higher": 151,
+        "bachelors_only": 102,
+        "masters": 47,
+        "professional": 0,
+        "doctorate": 2
+      }
+    },
+    "Plummer city, Idaho": {
+      "state": "ID",
+      "fips": "1663910",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1055,
+        "voting_age": 794,
+        "voting_age_pct": 75.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 447,
+          "pct": 42.37
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 46,
+          "pct": 4.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 373,
+          "pct": 35.36
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 73,
+          "pct": 6.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 110,
+          "pct": 10.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 52188,
+        "poverty_count": 36,
+        "poverty_pct": 3.41
+      },
+      "education": {
+        "bachelors_or_higher": 92,
+        "bachelors_only": 42,
+        "masters": 44,
+        "professional": 5,
+        "doctorate": 1
+      }
+    },
+    "Kamiah city, Idaho": {
+      "state": "ID",
+      "fips": "1642400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1053,
+        "voting_age": 879,
+        "voting_age_pct": 83.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 791,
+          "pct": 75.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 23,
+          "pct": 2.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 20,
+          "pct": 1.9
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 1.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 31,
+          "pct": 2.94
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 87,
+          "pct": 8.26
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 85,
+          "pct": 8.07
+        }
+      ],
+      "economics": {
+        "median_household_income": 35433,
+        "poverty_count": 55,
+        "poverty_pct": 5.22
+      },
+      "education": {
+        "bachelors_or_higher": 145,
+        "bachelors_only": 110,
+        "masters": 26,
+        "professional": 0,
+        "doctorate": 9
+      }
+    },
+    "Lapwai city, Idaho": {
+      "state": "ID",
+      "fips": "1645370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1041,
+        "voting_age": 713,
+        "voting_age_pct": 68.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 186,
+          "pct": 17.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 711,
+          "pct": 68.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.96
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5,
+          "pct": 0.48
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.29
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 81,
+          "pct": 7.78
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 3.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 60197,
+        "poverty_count": 79,
+        "poverty_pct": 7.59
+      },
+      "education": {
+        "bachelors_or_higher": 105,
+        "bachelors_only": 80,
+        "masters": 23,
+        "professional": 2,
+        "doctorate": 0
+      }
+    }
+  }
+}

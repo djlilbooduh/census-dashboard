@@ -1,0 +1,1334 @@
+{
+  "state": "OK",
+  "description": "Oklahoma county-level 2024 presidential election results and November 2024 voter registration",
+  "sources": {
+    "presidential_2024": "Wikipedia - 2024 United States presidential election in Oklahoma (sourced from OK State Election Board)",
+    "voter_registration_nov2024": "Oklahoma State Election Board - November 1, 2024 Voter Registration by County"
+  },
+  "counties": {
+    "Adair": {
+      "presidential_2024": {
+        "trump": 5860,
+        "trump_pct": 80.76,
+        "harris": 1289,
+        "harris_pct": 17.76,
+        "other": 107,
+        "total": 7256
+      },
+      "voter_registration_nov2024": {
+        "republican": 6428,
+        "democrat": 3339,
+        "libertarian": 85,
+        "independent": 1815,
+        "total": 11667
+      }
+    },
+    "Alfalfa": {
+      "presidential_2024": {
+        "trump": 1891,
+        "trump_pct": 87.55,
+        "harris": 236,
+        "harris_pct": 10.93,
+        "other": 33,
+        "total": 2160
+      },
+      "voter_registration_nov2024": {
+        "republican": 2384,
+        "democrat": 337,
+        "libertarian": 23,
+        "independent": 321,
+        "total": 3065
+      }
+    },
+    "Atoka": {
+      "presidential_2024": {
+        "trump": 4832,
+        "trump_pct": 85.34,
+        "harris": 779,
+        "harris_pct": 13.76,
+        "other": 51,
+        "total": 5662
+      },
+      "voter_registration_nov2024": {
+        "republican": 4840,
+        "democrat": 2453,
+        "libertarian": 55,
+        "independent": 983,
+        "total": 8331
+      }
+    },
+    "Beaver": {
+      "presidential_2024": {
+        "trump": 1938,
+        "trump_pct": 91.24,
+        "harris": 158,
+        "harris_pct": 7.44,
+        "other": 28,
+        "total": 2124
+      },
+      "voter_registration_nov2024": {
+        "republican": 2524,
+        "democrat": 324,
+        "libertarian": 24,
+        "independent": 382,
+        "total": 3254
+      }
+    },
+    "Beckham": {
+      "presidential_2024": {
+        "trump": 6474,
+        "trump_pct": 84.32,
+        "harris": 1093,
+        "harris_pct": 14.24,
+        "other": 111,
+        "total": 7678
+      },
+      "voter_registration_nov2024": {
+        "republican": 7858,
+        "democrat": 2207,
+        "libertarian": 89,
+        "independent": 1928,
+        "total": 12082
+      }
+    },
+    "Blaine": {
+      "presidential_2024": {
+        "trump": 3054,
+        "trump_pct": 80.67,
+        "harris": 671,
+        "harris_pct": 17.72,
+        "other": 61,
+        "total": 3786
+      },
+      "voter_registration_nov2024": {
+        "republican": 3635,
+        "democrat": 1139,
+        "libertarian": 39,
+        "independent": 808,
+        "total": 5621
+      }
+    },
+    "Bryan": {
+      "presidential_2024": {
+        "trump": 13999,
+        "trump_pct": 78.59,
+        "harris": 3569,
+        "harris_pct": 20.04,
+        "other": 244,
+        "total": 17812
+      },
+      "voter_registration_nov2024": {
+        "republican": 16184,
+        "democrat": 7102,
+        "libertarian": 252,
+        "independent": 5640,
+        "total": 29178
+      }
+    },
+    "Caddo": {
+      "presidential_2024": {
+        "trump": 6886,
+        "trump_pct": 72.51,
+        "harris": 2414,
+        "harris_pct": 25.42,
+        "other": 196,
+        "total": 9496
+      },
+      "voter_registration_nov2024": {
+        "republican": 7364,
+        "democrat": 4804,
+        "libertarian": 112,
+        "independent": 2436,
+        "total": 14716
+      }
+    },
+    "Canadian": {
+      "presidential_2024": {
+        "trump": 50551,
+        "trump_pct": 69.18,
+        "harris": 21038,
+        "harris_pct": 28.79,
+        "other": 1485,
+        "total": 73074
+      },
+      "voter_registration_nov2024": {
+        "republican": 62954,
+        "democrat": 21173,
+        "libertarian": 1242,
+        "independent": 21703,
+        "total": 107072
+      }
+    },
+    "Carter": {
+      "presidential_2024": {
+        "trump": 14945,
+        "trump_pct": 76.69,
+        "harris": 4277,
+        "harris_pct": 21.95,
+        "other": 266,
+        "total": 19488
+      },
+      "voter_registration_nov2024": {
+        "republican": 17574,
+        "democrat": 7913,
+        "libertarian": 290,
+        "independent": 6324,
+        "total": 32101
+      }
+    },
+    "Cherokee": {
+      "presidential_2024": {
+        "trump": 11637,
+        "trump_pct": 65.29,
+        "harris": 5826,
+        "harris_pct": 32.69,
+        "other": 360,
+        "total": 17823
+      },
+      "voter_registration_nov2024": {
+        "republican": 12604,
+        "democrat": 10319,
+        "libertarian": 275,
+        "independent": 5711,
+        "total": 28909
+      }
+    },
+    "Choctaw": {
+      "presidential_2024": {
+        "trump": 4633,
+        "trump_pct": 82.16,
+        "harris": 944,
+        "harris_pct": 16.74,
+        "other": 62,
+        "total": 5639
+      },
+      "voter_registration_nov2024": {
+        "republican": 4913,
+        "democrat": 2984,
+        "libertarian": 48,
+        "independent": 1410,
+        "total": 9355
+      }
+    },
+    "Cimarron": {
+      "presidential_2024": {
+        "trump": 860,
+        "trump_pct": 91.98,
+        "harris": 66,
+        "harris_pct": 7.06,
+        "other": 9,
+        "total": 935
+      },
+      "voter_registration_nov2024": {
+        "republican": 1097,
+        "democrat": 171,
+        "libertarian": 4,
+        "independent": 134,
+        "total": 1406
+      }
+    },
+    "Cleveland": {
+      "presidential_2024": {
+        "trump": 67225,
+        "trump_pct": 56.35,
+        "harris": 49432,
+        "harris_pct": 41.44,
+        "other": 2637,
+        "total": 119294
+      },
+      "voter_registration_nov2024": {
+        "republican": 86820,
+        "democrat": 53508,
+        "libertarian": 2040,
+        "independent": 41154,
+        "total": 183522
+      }
+    },
+    "Coal": {
+      "presidential_2024": {
+        "trump": 2155,
+        "trump_pct": 84.91,
+        "harris": 345,
+        "harris_pct": 13.59,
+        "other": 38,
+        "total": 2538
+      },
+      "voter_registration_nov2024": {
+        "republican": 1856,
+        "democrat": 1569,
+        "libertarian": 19,
+        "independent": 501,
+        "total": 3945
+      }
+    },
+    "Comanche": {
+      "presidential_2024": {
+        "trump": 20823,
+        "trump_pct": 60.74,
+        "harris": 12823,
+        "harris_pct": 37.4,
+        "other": 638,
+        "total": 34284
+      },
+      "voter_registration_nov2024": {
+        "republican": 27682,
+        "democrat": 19651,
+        "libertarian": 711,
+        "independent": 15889,
+        "total": 63933
+      }
+    },
+    "Cotton": {
+      "presidential_2024": {
+        "trump": 2067,
+        "trump_pct": 82.48,
+        "harris": 392,
+        "harris_pct": 15.64,
+        "other": 47,
+        "total": 2506
+      },
+      "voter_registration_nov2024": {
+        "republican": 2459,
+        "democrat": 926,
+        "libertarian": 17,
+        "independent": 481,
+        "total": 3883
+      }
+    },
+    "Craig": {
+      "presidential_2024": {
+        "trump": 4740,
+        "trump_pct": 78.27,
+        "harris": 1212,
+        "harris_pct": 20.01,
+        "other": 104,
+        "total": 6056
+      },
+      "voter_registration_nov2024": {
+        "republican": 4977,
+        "democrat": 2573,
+        "libertarian": 55,
+        "independent": 1195,
+        "total": 8800
+      }
+    },
+    "Creek": {
+      "presidential_2024": {
+        "trump": 24098,
+        "trump_pct": 76.96,
+        "harris": 6643,
+        "harris_pct": 21.22,
+        "other": 571,
+        "total": 31312
+      },
+      "voter_registration_nov2024": {
+        "republican": 28502,
+        "democrat": 8956,
+        "libertarian": 402,
+        "independent": 8001,
+        "total": 45861
+      }
+    },
+    "Custer": {
+      "presidential_2024": {
+        "trump": 7693,
+        "trump_pct": 75.66,
+        "harris": 2279,
+        "harris_pct": 22.41,
+        "other": 196,
+        "total": 10168
+      },
+      "voter_registration_nov2024": {
+        "republican": 9536,
+        "democrat": 3513,
+        "libertarian": 162,
+        "independent": 2738,
+        "total": 15949
+      }
+    },
+    "Delaware": {
+      "presidential_2024": {
+        "trump": 14407,
+        "trump_pct": 79.56,
+        "harris": 3475,
+        "harris_pct": 19.19,
+        "other": 226,
+        "total": 18108
+      },
+      "voter_registration_nov2024": {
+        "republican": 17423,
+        "democrat": 5790,
+        "libertarian": 203,
+        "independent": 4784,
+        "total": 28200
+      }
+    },
+    "Dewey": {
+      "presidential_2024": {
+        "trump": 1984,
+        "trump_pct": 89.57,
+        "harris": 209,
+        "harris_pct": 9.44,
+        "other": 22,
+        "total": 2215
+      },
+      "voter_registration_nov2024": {
+        "republican": 2314,
+        "democrat": 471,
+        "libertarian": 7,
+        "independent": 316,
+        "total": 3108
+      }
+    },
+    "Ellis": {
+      "presidential_2024": {
+        "trump": 1585,
+        "trump_pct": 87.47,
+        "harris": 197,
+        "harris_pct": 10.87,
+        "other": 30,
+        "total": 1812
+      },
+      "voter_registration_nov2024": {
+        "republican": 1989,
+        "democrat": 321,
+        "libertarian": 17,
+        "independent": 276,
+        "total": 2603
+      }
+    },
+    "Garfield": {
+      "presidential_2024": {
+        "trump": 16593,
+        "trump_pct": 75.96,
+        "harris": 4849,
+        "harris_pct": 22.2,
+        "other": 402,
+        "total": 21844
+      },
+      "voter_registration_nov2024": {
+        "republican": 21637,
+        "democrat": 5974,
+        "libertarian": 362,
+        "independent": 6730,
+        "total": 34703
+      }
+    },
+    "Garvin": {
+      "presidential_2024": {
+        "trump": 9063,
+        "trump_pct": 82.46,
+        "harris": 1802,
+        "harris_pct": 16.4,
+        "other": 126,
+        "total": 10991
+      },
+      "voter_registration_nov2024": {
+        "republican": 10335,
+        "democrat": 3785,
+        "libertarian": 125,
+        "independent": 2438,
+        "total": 16683
+      }
+    },
+    "Grady": {
+      "presidential_2024": {
+        "trump": 20378,
+        "trump_pct": 80.6,
+        "harris": 4536,
+        "harris_pct": 17.94,
+        "other": 369,
+        "total": 25283
+      },
+      "voter_registration_nov2024": {
+        "republican": 23874,
+        "democrat": 6777,
+        "libertarian": 314,
+        "independent": 5930,
+        "total": 36895
+      }
+    },
+    "Grant": {
+      "presidential_2024": {
+        "trump": 1794,
+        "trump_pct": 84.42,
+        "harris": 295,
+        "harris_pct": 13.88,
+        "other": 36,
+        "total": 2125
+      },
+      "voter_registration_nov2024": {
+        "republican": 2215,
+        "democrat": 400,
+        "libertarian": 22,
+        "independent": 317,
+        "total": 2954
+      }
+    },
+    "Greer": {
+      "presidential_2024": {
+        "trump": 1511,
+        "trump_pct": 82.3,
+        "harris": 304,
+        "harris_pct": 16.56,
+        "other": 21,
+        "total": 1836
+      },
+      "voter_registration_nov2024": {
+        "republican": 1640,
+        "democrat": 837,
+        "libertarian": 20,
+        "independent": 457,
+        "total": 2954
+      }
+    },
+    "Harmon": {
+      "presidential_2024": {
+        "trump": 709,
+        "trump_pct": 80.39,
+        "harris": 165,
+        "harris_pct": 18.71,
+        "other": 8,
+        "total": 882
+      },
+      "voter_registration_nov2024": {
+        "republican": 753,
+        "democrat": 467,
+        "libertarian": 10,
+        "independent": 195,
+        "total": 1425
+      }
+    },
+    "Harper": {
+      "presidential_2024": {
+        "trump": 1284,
+        "trump_pct": 88.49,
+        "harris": 147,
+        "harris_pct": 10.13,
+        "other": 20,
+        "total": 1451
+      },
+      "voter_registration_nov2024": {
+        "republican": 1529,
+        "democrat": 248,
+        "libertarian": 7,
+        "independent": 177,
+        "total": 1961
+      }
+    },
+    "Haskell": {
+      "presidential_2024": {
+        "trump": 4156,
+        "trump_pct": 84.2,
+        "harris": 718,
+        "harris_pct": 14.55,
+        "other": 62,
+        "total": 4936
+      },
+      "voter_registration_nov2024": {
+        "republican": 4141,
+        "democrat": 2324,
+        "libertarian": 37,
+        "independent": 738,
+        "total": 7240
+      }
+    },
+    "Hughes": {
+      "presidential_2024": {
+        "trump": 3744,
+        "trump_pct": 80.36,
+        "harris": 831,
+        "harris_pct": 17.84,
+        "other": 84,
+        "total": 4659
+      },
+      "voter_registration_nov2024": {
+        "republican": 3879,
+        "democrat": 2261,
+        "libertarian": 42,
+        "independent": 1104,
+        "total": 7286
+      }
+    },
+    "Jackson": {
+      "presidential_2024": {
+        "trump": 6295,
+        "trump_pct": 78.17,
+        "harris": 1602,
+        "harris_pct": 19.89,
+        "other": 156,
+        "total": 8053
+      },
+      "voter_registration_nov2024": {
+        "republican": 8006,
+        "democrat": 2855,
+        "libertarian": 173,
+        "independent": 2755,
+        "total": 13789
+      }
+    },
+    "Jefferson": {
+      "presidential_2024": {
+        "trump": 2020,
+        "trump_pct": 85.05,
+        "harris": 319,
+        "harris_pct": 13.43,
+        "other": 36,
+        "total": 2375
+      },
+      "voter_registration_nov2024": {
+        "republican": 2177,
+        "democrat": 920,
+        "libertarian": 30,
+        "independent": 518,
+        "total": 3645
+      }
+    },
+    "Johnston": {
+      "presidential_2024": {
+        "trump": 3462,
+        "trump_pct": 81.84,
+        "harris": 684,
+        "harris_pct": 16.17,
+        "other": 84,
+        "total": 4230
+      },
+      "voter_registration_nov2024": {
+        "republican": 3608,
+        "democrat": 1814,
+        "libertarian": 41,
+        "independent": 861,
+        "total": 6324
+      }
+    },
+    "Kay": {
+      "presidential_2024": {
+        "trump": 12483,
+        "trump_pct": 73.81,
+        "harris": 4136,
+        "harris_pct": 24.45,
+        "other": 294,
+        "total": 16913
+      },
+      "voter_registration_nov2024": {
+        "republican": 15781,
+        "democrat": 5469,
+        "libertarian": 220,
+        "independent": 5324,
+        "total": 26794
+      }
+    },
+    "Kingfisher": {
+      "presidential_2024": {
+        "trump": 5745,
+        "trump_pct": 85.06,
+        "harris": 923,
+        "harris_pct": 13.67,
+        "other": 86,
+        "total": 6754
+      },
+      "voter_registration_nov2024": {
+        "republican": 7017,
+        "democrat": 1274,
+        "libertarian": 71,
+        "independent": 1059,
+        "total": 9421
+      }
+    },
+    "Kiowa": {
+      "presidential_2024": {
+        "trump": 2569,
+        "trump_pct": 78.37,
+        "harris": 658,
+        "harris_pct": 20.07,
+        "other": 51,
+        "total": 3278
+      },
+      "voter_registration_nov2024": {
+        "republican": 2828,
+        "democrat": 1402,
+        "libertarian": 27,
+        "independent": 718,
+        "total": 4975
+      }
+    },
+    "Latimer": {
+      "presidential_2024": {
+        "trump": 3356,
+        "trump_pct": 82.28,
+        "harris": 681,
+        "harris_pct": 16.7,
+        "other": 42,
+        "total": 4079
+      },
+      "voter_registration_nov2024": {
+        "republican": 3309,
+        "democrat": 2188,
+        "libertarian": 35,
+        "independent": 760,
+        "total": 6292
+      }
+    },
+    "LeFlore": {
+      "presidential_2024": {
+        "trump": 15333,
+        "trump_pct": 81.76,
+        "harris": 3184,
+        "harris_pct": 16.98,
+        "other": 237,
+        "total": 18754
+      },
+      "voter_registration_nov2024": {
+        "republican": 17488,
+        "democrat": 7497,
+        "libertarian": 238,
+        "independent": 5092,
+        "total": 30315
+      }
+    },
+    "Lincoln": {
+      "presidential_2024": {
+        "trump": 12495,
+        "trump_pct": 80.8,
+        "harris": 2712,
+        "harris_pct": 17.54,
+        "other": 258,
+        "total": 15465
+      },
+      "voter_registration_nov2024": {
+        "republican": 14655,
+        "democrat": 4043,
+        "libertarian": 200,
+        "independent": 3298,
+        "total": 22196
+      }
+    },
+    "Logan": {
+      "presidential_2024": {
+        "trump": 17748,
+        "trump_pct": 73.49,
+        "harris": 5901,
+        "harris_pct": 24.44,
+        "other": 500,
+        "total": 24149
+      },
+      "voter_registration_nov2024": {
+        "republican": 21645,
+        "democrat": 6490,
+        "libertarian": 344,
+        "independent": 6370,
+        "total": 34849
+      }
+    },
+    "Love": {
+      "presidential_2024": {
+        "trump": 3510,
+        "trump_pct": 82.39,
+        "harris": 689,
+        "harris_pct": 16.17,
+        "other": 61,
+        "total": 4260
+      },
+      "voter_registration_nov2024": {
+        "republican": 3741,
+        "democrat": 1792,
+        "libertarian": 34,
+        "independent": 1323,
+        "total": 6890
+      }
+    },
+    "Major": {
+      "presidential_2024": {
+        "trump": 3087,
+        "trump_pct": 88.76,
+        "harris": 327,
+        "harris_pct": 9.4,
+        "other": 64,
+        "total": 3478
+      },
+      "voter_registration_nov2024": {
+        "republican": 3774,
+        "democrat": 404,
+        "libertarian": 39,
+        "independent": 499,
+        "total": 4716
+      }
+    },
+    "Marshall": {
+      "presidential_2024": {
+        "trump": 5348,
+        "trump_pct": 81.17,
+        "harris": 1169,
+        "harris_pct": 17.74,
+        "other": 72,
+        "total": 6589
+      },
+      "voter_registration_nov2024": {
+        "republican": 6051,
+        "democrat": 2291,
+        "libertarian": 70,
+        "independent": 1757,
+        "total": 10169
+      }
+    },
+    "Mayes": {
+      "presidential_2024": {
+        "trump": 13514,
+        "trump_pct": 77.78,
+        "harris": 3529,
+        "harris_pct": 20.31,
+        "other": 331,
+        "total": 17374
+      },
+      "voter_registration_nov2024": {
+        "republican": 15469,
+        "democrat": 5932,
+        "libertarian": 202,
+        "independent": 4081,
+        "total": 25684
+      }
+    },
+    "McClain": {
+      "presidential_2024": {
+        "trump": 17005,
+        "trump_pct": 79.47,
+        "harris": 4031,
+        "harris_pct": 18.84,
+        "other": 361,
+        "total": 21397
+      },
+      "voter_registration_nov2024": {
+        "republican": 19793,
+        "democrat": 5104,
+        "libertarian": 261,
+        "independent": 4809,
+        "total": 29967
+      }
+    },
+    "McCurtain": {
+      "presidential_2024": {
+        "trump": 9485,
+        "trump_pct": 83.87,
+        "harris": 1696,
+        "harris_pct": 15.0,
+        "other": 128,
+        "total": 11309
+      },
+      "voter_registration_nov2024": {
+        "republican": 10192,
+        "democrat": 5216,
+        "libertarian": 98,
+        "independent": 2248,
+        "total": 17754
+      }
+    },
+    "McIntosh": {
+      "presidential_2024": {
+        "trump": 6387,
+        "trump_pct": 75.68,
+        "harris": 1937,
+        "harris_pct": 22.95,
+        "other": 115,
+        "total": 8439
+      },
+      "voter_registration_nov2024": {
+        "republican": 6489,
+        "democrat": 4615,
+        "libertarian": 81,
+        "independent": 1869,
+        "total": 13054
+      }
+    },
+    "Murray": {
+      "presidential_2024": {
+        "trump": 4689,
+        "trump_pct": 79.68,
+        "harris": 1080,
+        "harris_pct": 18.35,
+        "other": 116,
+        "total": 5885
+      },
+      "voter_registration_nov2024": {
+        "republican": 4699,
+        "democrat": 2662,
+        "libertarian": 74,
+        "independent": 1325,
+        "total": 8760
+      }
+    },
+    "Muskogee": {
+      "presidential_2024": {
+        "trump": 16550,
+        "trump_pct": 67.95,
+        "harris": 7400,
+        "harris_pct": 30.38,
+        "other": 407,
+        "total": 24357
+      },
+      "voter_registration_nov2024": {
+        "republican": 18598,
+        "democrat": 13347,
+        "libertarian": 298,
+        "independent": 6904,
+        "total": 39147
+      }
+    },
+    "Noble": {
+      "presidential_2024": {
+        "trump": 3853,
+        "trump_pct": 77.73,
+        "harris": 1009,
+        "harris_pct": 20.36,
+        "other": 95,
+        "total": 4957
+      },
+      "voter_registration_nov2024": {
+        "republican": 4719,
+        "democrat": 1359,
+        "libertarian": 53,
+        "independent": 1004,
+        "total": 7135
+      }
+    },
+    "Nowata": {
+      "presidential_2024": {
+        "trump": 3774,
+        "trump_pct": 82.75,
+        "harris": 720,
+        "harris_pct": 15.79,
+        "other": 67,
+        "total": 4561
+      },
+      "voter_registration_nov2024": {
+        "republican": 4224,
+        "democrat": 1384,
+        "libertarian": 62,
+        "independent": 1035,
+        "total": 6705
+      }
+    },
+    "Okfuskee": {
+      "presidential_2024": {
+        "trump": 3080,
+        "trump_pct": 77.23,
+        "harris": 854,
+        "harris_pct": 21.41,
+        "other": 54,
+        "total": 3988
+      },
+      "voter_registration_nov2024": {
+        "republican": 3365,
+        "democrat": 2000,
+        "libertarian": 43,
+        "independent": 945,
+        "total": 6353
+      }
+    },
+    "Oklahoma": {
+      "presidential_2024": {
+        "trump": 143618,
+        "trump_pct": 49.71,
+        "harris": 138769,
+        "harris_pct": 48.03,
+        "other": 6536,
+        "total": 288923
+      },
+      "voter_registration_nov2024": {
+        "republican": 194586,
+        "democrat": 160941,
+        "libertarian": 4932,
+        "independent": 110670,
+        "total": 471129
+      }
+    },
+    "Okmulgee": {
+      "presidential_2024": {
+        "trump": 10100,
+        "trump_pct": 70.39,
+        "harris": 3979,
+        "harris_pct": 27.73,
+        "other": 270,
+        "total": 14349
+      },
+      "voter_registration_nov2024": {
+        "republican": 11066,
+        "democrat": 7039,
+        "libertarian": 169,
+        "independent": 3964,
+        "total": 22238
+      }
+    },
+    "Osage": {
+      "presidential_2024": {
+        "trump": 14404,
+        "trump_pct": 69.83,
+        "harris": 5867,
+        "harris_pct": 28.44,
+        "other": 357,
+        "total": 20628
+      },
+      "voter_registration_nov2024": {
+        "republican": 16981,
+        "democrat": 8023,
+        "libertarian": 240,
+        "independent": 5020,
+        "total": 30264
+      }
+    },
+    "Ottawa": {
+      "presidential_2024": {
+        "trump": 8490,
+        "trump_pct": 75.95,
+        "harris": 2511,
+        "harris_pct": 22.46,
+        "other": 177,
+        "total": 11178
+      },
+      "voter_registration_nov2024": {
+        "republican": 9919,
+        "democrat": 5009,
+        "libertarian": 144,
+        "independent": 3875,
+        "total": 18947
+      }
+    },
+    "Pawnee": {
+      "presidential_2024": {
+        "trump": 5405,
+        "trump_pct": 78.56,
+        "harris": 1355,
+        "harris_pct": 19.69,
+        "other": 120,
+        "total": 6880
+      },
+      "voter_registration_nov2024": {
+        "republican": 6314,
+        "democrat": 2111,
+        "libertarian": 95,
+        "independent": 1699,
+        "total": 10219
+      }
+    },
+    "Payne": {
+      "presidential_2024": {
+        "trump": 17962,
+        "trump_pct": 61.35,
+        "harris": 10560,
+        "harris_pct": 36.07,
+        "other": 757,
+        "total": 29279
+      },
+      "voter_registration_nov2024": {
+        "republican": 24610,
+        "democrat": 12027,
+        "libertarian": 560,
+        "independent": 9532,
+        "total": 46729
+      }
+    },
+    "Pittsburg": {
+      "presidential_2024": {
+        "trump": 13841,
+        "trump_pct": 78.77,
+        "harris": 3473,
+        "harris_pct": 19.76,
+        "other": 258,
+        "total": 17572
+      },
+      "voter_registration_nov2024": {
+        "republican": 15465,
+        "democrat": 7801,
+        "libertarian": 229,
+        "independent": 4621,
+        "total": 28116
+      }
+    },
+    "Pontotoc": {
+      "presidential_2024": {
+        "trump": 10967,
+        "trump_pct": 72.27,
+        "harris": 3895,
+        "harris_pct": 25.67,
+        "other": 312,
+        "total": 15174
+      },
+      "voter_registration_nov2024": {
+        "republican": 12408,
+        "democrat": 7066,
+        "libertarian": 238,
+        "independent": 4244,
+        "total": 23956
+      }
+    },
+    "Pottawatomie": {
+      "presidential_2024": {
+        "trump": 20915,
+        "trump_pct": 72.69,
+        "harris": 7266,
+        "harris_pct": 25.25,
+        "other": 593,
+        "total": 28774
+      },
+      "voter_registration_nov2024": {
+        "republican": 25075,
+        "democrat": 10136,
+        "libertarian": 463,
+        "independent": 8098,
+        "total": 43772
+      }
+    },
+    "Pushmataha": {
+      "presidential_2024": {
+        "trump": 4025,
+        "trump_pct": 85.6,
+        "harris": 616,
+        "harris_pct": 13.1,
+        "other": 61,
+        "total": 4702
+      },
+      "voter_registration_nov2024": {
+        "republican": 4026,
+        "democrat": 2196,
+        "libertarian": 43,
+        "independent": 957,
+        "total": 7222
+      }
+    },
+    "Roger Mills": {
+      "presidential_2024": {
+        "trump": 1548,
+        "trump_pct": 89.32,
+        "harris": 160,
+        "harris_pct": 9.23,
+        "other": 25,
+        "total": 1733
+      },
+      "voter_registration_nov2024": {
+        "republican": 1707,
+        "democrat": 488,
+        "libertarian": 9,
+        "independent": 224,
+        "total": 2428
+      }
+    },
+    "Rogers": {
+      "presidential_2024": {
+        "trump": 35942,
+        "trump_pct": 76.63,
+        "harris": 10146,
+        "harris_pct": 21.63,
+        "other": 814,
+        "total": 46902
+      },
+      "voter_registration_nov2024": {
+        "republican": 42593,
+        "democrat": 12299,
+        "libertarian": 631,
+        "independent": 11020,
+        "total": 66543
+      }
+    },
+    "Seminole": {
+      "presidential_2024": {
+        "trump": 5951,
+        "trump_pct": 73.98,
+        "harris": 1951,
+        "harris_pct": 24.25,
+        "other": 142,
+        "total": 8044
+      },
+      "voter_registration_nov2024": {
+        "republican": 6813,
+        "democrat": 3843,
+        "libertarian": 109,
+        "independent": 2419,
+        "total": 13184
+      }
+    },
+    "Sequoyah": {
+      "presidential_2024": {
+        "trump": 12491,
+        "trump_pct": 80.16,
+        "harris": 2907,
+        "harris_pct": 18.65,
+        "other": 185,
+        "total": 15583
+      },
+      "voter_registration_nov2024": {
+        "republican": 13998,
+        "democrat": 6929,
+        "libertarian": 174,
+        "independent": 4137,
+        "total": 25238
+      }
+    },
+    "Stephens": {
+      "presidential_2024": {
+        "trump": 15092,
+        "trump_pct": 81.05,
+        "harris": 3236,
+        "harris_pct": 17.38,
+        "other": 292,
+        "total": 18620
+      },
+      "voter_registration_nov2024": {
+        "republican": 18549,
+        "democrat": 5534,
+        "libertarian": 211,
+        "independent": 4413,
+        "total": 28707
+      }
+    },
+    "Texas": {
+      "presidential_2024": {
+        "trump": 4319,
+        "trump_pct": 82.96,
+        "harris": 793,
+        "harris_pct": 15.23,
+        "other": 94,
+        "total": 5206
+      },
+      "voter_registration_nov2024": {
+        "republican": 5763,
+        "democrat": 1578,
+        "libertarian": 86,
+        "independent": 1925,
+        "total": 9352
+      }
+    },
+    "Tillman": {
+      "presidential_2024": {
+        "trump": 2006,
+        "trump_pct": 79.19,
+        "harris": 500,
+        "harris_pct": 19.74,
+        "other": 27,
+        "total": 2533
+      },
+      "voter_registration_nov2024": {
+        "republican": 2243,
+        "democrat": 1214,
+        "libertarian": 26,
+        "independent": 631,
+        "total": 4114
+      }
+    },
+    "Tulsa": {
+      "presidential_2024": {
+        "trump": 145241,
+        "trump_pct": 56.53,
+        "harris": 106105,
+        "harris_pct": 41.3,
+        "other": 5593,
+        "total": 256939
+      },
+      "voter_registration_nov2024": {
+        "republican": 192658,
+        "democrat": 118700,
+        "libertarian": 4090,
+        "independent": 87099,
+        "total": 402547
+      }
+    },
+    "Wagoner": {
+      "presidential_2024": {
+        "trump": 28487,
+        "trump_pct": 73.99,
+        "harris": 9330,
+        "harris_pct": 24.23,
+        "other": 684,
+        "total": 38501
+      },
+      "voter_registration_nov2024": {
+        "republican": 33754,
+        "democrat": 11190,
+        "libertarian": 488,
+        "independent": 9078,
+        "total": 54510
+      }
+    },
+    "Washington": {
+      "presidential_2024": {
+        "trump": 16836,
+        "trump_pct": 72.65,
+        "harris": 5793,
+        "harris_pct": 25.0,
+        "other": 545,
+        "total": 23174
+      },
+      "voter_registration_nov2024": {
+        "republican": 21872,
+        "democrat": 6522,
+        "libertarian": 352,
+        "independent": 7170,
+        "total": 35916
+      }
+    },
+    "Washita": {
+      "presidential_2024": {
+        "trump": 4030,
+        "trump_pct": 86.63,
+        "harris": 551,
+        "harris_pct": 11.84,
+        "other": 71,
+        "total": 4652
+      },
+      "voter_registration_nov2024": {
+        "republican": 4443,
+        "democrat": 1407,
+        "libertarian": 58,
+        "independent": 997,
+        "total": 6905
+      }
+    },
+    "Woods": {
+      "presidential_2024": {
+        "trump": 2955,
+        "trump_pct": 81.23,
+        "harris": 614,
+        "harris_pct": 16.88,
+        "other": 69,
+        "total": 3638
+      },
+      "voter_registration_nov2024": {
+        "republican": 3606,
+        "democrat": 812,
+        "libertarian": 49,
+        "independent": 672,
+        "total": 5139
+      }
+    },
+    "Woodward": {
+      "presidential_2024": {
+        "trump": 6231,
+        "trump_pct": 85.22,
+        "harris": 967,
+        "harris_pct": 13.22,
+        "other": 114,
+        "total": 7312
+      },
+      "voter_registration_nov2024": {
+        "republican": 8048,
+        "democrat": 1522,
+        "libertarian": 88,
+        "independent": 1782,
+        "total": 11440
+      }
+    }
+  },
+  "statewide": {
+    "presidential_2024": {
+      "trump": 1036213,
+      "harris": 499599,
+      "other": 30361,
+      "total": 1566173
+    },
+    "voter_registration_nov2024": {
+      "republican": 1278045,
+      "democrat": 659061,
+      "libertarian": 23288,
+      "independent": 481817,
+      "total": 2442211
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "state": "New Hampshire",
+  "state_code": "NH",
+  "state_fips": "33",
+  "election": "2024 Presidential General Election",
+  "election_date": "2024-11-05",
+  "source_election_results": "New Hampshire Secretary of State via Wikipedia (2024 United States presidential election in New Hampshire)",
+  "source_voter_registration": "Estimated from statewide turnout (76%) applied to county vote totals; NH SOS county-level checklist data was unavailable at time of fetch",
+  "source_county_population": "U.S. Census Bureau QuickFacts (2023 estimates)",
+  "statewide": {
+    "total_votes": 826189,
+    "turnout_pct": 76.0,
+    "estimated_registered_voters": 1087091,
+    "results": {
+      "harris_dem": {
+        "votes": 418488,
+        "pct": 50.65
+      },
+      "trump_rep": {
+        "votes": 395523,
+        "pct": 47.87
+      },
+      "oliver_lib": {
+        "votes": 4425,
+        "pct": 0.54
+      },
+      "stein_grn": {
+        "votes": 3680,
+        "pct": 0.45
+      },
+      "write_ins": {
+        "votes": 4073,
+        "pct": 0.49
+      }
+    },
+    "margin": {
+      "winner": "Harris (Dem)",
+      "margin_votes": 22965,
+      "margin_pct": 2.78
+    },
+    "electoral_votes": {
+      "harris": 4,
+      "trump": 0
+    }
+  },
+  "counties": [
+    {
+      "name": "Belknap",
+      "fips": "33001",
+      "seat": "Laconia",
+      "population": 65147,
+      "results": {
+        "harris_dem": {
+          "votes": 17469,
+          "pct": 42.95
+        },
+        "trump_rep": {
+          "votes": 22765,
+          "pct": 55.97
+        },
+        "other": {
+          "votes": 442,
+          "pct": 1.09
+        },
+        "total": 40676
+      },
+      "winner": "Trump (Rep)",
+      "margin": {
+        "votes": -5296,
+        "pct": -13.02
+      },
+      "voter_registration": {
+        "estimated_registered": 53521,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Carroll",
+      "fips": "33003",
+      "seat": "Ossipee",
+      "population": 52784,
+      "results": {
+        "harris_dem": {
+          "votes": 16822,
+          "pct": 48.54
+        },
+        "trump_rep": {
+          "votes": 17426,
+          "pct": 50.28
+        },
+        "other": {
+          "votes": 410,
+          "pct": 1.18
+        },
+        "total": 34658
+      },
+      "winner": "Trump (Rep)",
+      "margin": {
+        "votes": -604,
+        "pct": -1.74
+      },
+      "flipped_from_2020": true,
+      "flipped_from": "Dem",
+      "voter_registration": {
+        "estimated_registered": 45603,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Cheshire",
+      "fips": "33005",
+      "seat": "Keene",
+      "population": 78269,
+      "results": {
+        "harris_dem": {
+          "votes": 24579,
+          "pct": 54.15
+        },
+        "trump_rep": {
+          "votes": 20083,
+          "pct": 44.25
+        },
+        "other": {
+          "votes": 727,
+          "pct": 1.60
+        },
+        "total": 45389
+      },
+      "winner": "Harris (Dem)",
+      "margin": {
+        "votes": 4496,
+        "pct": 9.90
+      },
+      "voter_registration": {
+        "estimated_registered": 59722,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Coös",
+      "fips": "33007",
+      "seat": "Lancaster",
+      "population": 31343,
+      "results": {
+        "harris_dem": {
+          "votes": 7367,
+          "pct": 42.53
+        },
+        "trump_rep": {
+          "votes": 9734,
+          "pct": 56.19
+        },
+        "other": {
+          "votes": 221,
+          "pct": 1.28
+        },
+        "total": 17322
+      },
+      "winner": "Trump (Rep)",
+      "margin": {
+        "votes": -2367,
+        "pct": -13.66
+      },
+      "voter_registration": {
+        "estimated_registered": 22792,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Grafton",
+      "fips": "33009",
+      "seat": "Haverhill",
+      "population": 93225,
+      "results": {
+        "harris_dem": {
+          "votes": 32993,
+          "pct": 59.03
+        },
+        "trump_rep": {
+          "votes": 21909,
+          "pct": 39.20
+        },
+        "other": {
+          "votes": 993,
+          "pct": 1.78
+        },
+        "total": 55895
+      },
+      "winner": "Harris (Dem)",
+      "margin": {
+        "votes": 11084,
+        "pct": 19.83
+      },
+      "voter_registration": {
+        "estimated_registered": 73546,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Hillsborough",
+      "fips": "33011",
+      "seat": "Manchester & Nashua",
+      "population": 433415,
+      "results": {
+        "harris_dem": {
+          "votes": 118776,
+          "pct": 50.66
+        },
+        "trump_rep": {
+          "votes": 112057,
+          "pct": 47.80
+        },
+        "other": {
+          "votes": 3607,
+          "pct": 1.54
+        },
+        "total": 234440
+      },
+      "winner": "Harris (Dem)",
+      "margin": {
+        "votes": 6719,
+        "pct": 2.86
+      },
+      "voter_registration": {
+        "estimated_registered": 308474,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      },
+      "validation": {
+        "major_cities": [
+          {
+            "city": "Manchester",
+            "population": 115415,
+            "voting_age": 94864,
+            "voting_age_pct": 82.19,
+            "median_household_income": 77415,
+            "bachelors_or_higher": 27972
+          },
+          {
+            "city": "Nashua",
+            "population": 91131,
+            "voting_age": 73866,
+            "voting_age_pct": 81.05,
+            "median_household_income": 92457,
+            "bachelors_or_higher": 26892
+          }
+        ],
+        "combined_city_population": 206546,
+        "combined_pct_of_county": 47.66,
+        "notes": "Manchester and Nashua account for 47.7% of Hillsborough's 433,415 population. Both are Democratic-leaning urban centers with above-average educational attainment. Hillsborough's 50.66% Harris margin is consistent with urban Democratic votes in Manchester/Nashua offsetting more Republican-leaning suburban and rural townships (e.g., Bedford, Merrimack, Hollis). The county's 2.86% Dem margin reflects its competitive suburban character compared to more solidly Democratic Grafton/Strafford or more Republican Belknap/Coös."
+      }
+    },
+    {
+      "name": "Merrimack",
+      "fips": "33013",
+      "seat": "Concord",
+      "population": 158078,
+      "results": {
+        "harris_dem": {
+          "votes": 48181,
+          "pct": 51.82
+        },
+        "trump_rep": {
+          "votes": 43364,
+          "pct": 46.64
+        },
+        "other": {
+          "votes": 1433,
+          "pct": 1.54
+        },
+        "total": 92978
+      },
+      "winner": "Harris (Dem)",
+      "margin": {
+        "votes": 4817,
+        "pct": 5.18
+      },
+      "voter_registration": {
+        "estimated_registered": 122339,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Rockingham",
+      "fips": "33015",
+      "seat": "Brentwood",
+      "population": 324077,
+      "results": {
+        "harris_dem": {
+          "votes": 97611,
+          "pct": 48.10
+        },
+        "trump_rep": {
+          "votes": 102539,
+          "pct": 50.53
+        },
+        "other": {
+          "votes": 2772,
+          "pct": 1.37
+        },
+        "total": 202922
+      },
+      "winner": "Trump (Rep)",
+      "margin": {
+        "votes": -4928,
+        "pct": -2.43
+      },
+      "flipped_from_2020": true,
+      "flipped_from": "Dem",
+      "voter_registration": {
+        "estimated_registered": 267003,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Strafford",
+      "fips": "33017",
+      "seat": "Dover",
+      "population": 135043,
+      "results": {
+        "harris_dem": {
+          "votes": 42373,
+          "pct": 55.25
+        },
+        "trump_rep": {
+          "votes": 33162,
+          "pct": 43.24
+        },
+        "other": {
+          "votes": 1153,
+          "pct": 1.50
+        },
+        "total": 76688
+      },
+      "winner": "Harris (Dem)",
+      "margin": {
+        "votes": 9211,
+        "pct": 12.01
+      },
+      "voter_registration": {
+        "estimated_registered": 100905,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    },
+    {
+      "name": "Sullivan",
+      "fips": "33019",
+      "seat": "Newport",
+      "population": 43961,
+      "results": {
+        "harris_dem": {
+          "votes": 12317,
+          "pct": 48.84
+        },
+        "trump_rep": {
+          "votes": 12484,
+          "pct": 49.50
+        },
+        "other": {
+          "votes": 420,
+          "pct": 1.67
+        },
+        "total": 25221
+      },
+      "winner": "Trump (Rep)",
+      "margin": {
+        "votes": -167,
+        "pct": -0.66
+      },
+      "flipped_from_2020": true,
+      "flipped_from": "Dem",
+      "voter_registration": {
+        "estimated_registered": 33186,
+        "method": "Estimated as total_votes / 0.76 (statewide turnout rate)"
+      }
+    }
+  ],
+  "county_flips_2020_to_2024": [
+    {
+      "county": "Carroll",
+      "from": "Dem",
+      "to": "Rep",
+      "margin_change": "Closest flip in state — Trump won by 1.74% (604 votes)"
+    },
+    {
+      "county": "Rockingham",
+      "from": "Dem",
+      "to": "Rep",
+      "margin_change": "Largest county flipped — Trump won by 2.43% (4,928 votes)"
+    },
+    {
+      "county": "Sullivan",
+      "from": "Dem",
+      "to": "Rep",
+      "margin_change": "Tightest margin in state — Trump won by 0.66% (167 votes)"
+    }
+  ],
+  "county_winners_summary": {
+    "harris_won": ["Cheshire", "Grafton", "Hillsborough", "Merrimack", "Strafford"],
+    "trump_won": ["Belknap", "Carroll", "Coös", "Rockingham", "Sullivan"],
+    "harris_counties": 5,
+    "trump_counties": 5
+  },
+  "note_voter_registration": "Party registration data by county was inaccessible via NH Secretary of State website (CDN blocking all direct fetches). Estimated registration derived as county_total_votes / 0.76 statewide turnout. NH has same-day registration, so registration closely tracks citizen voting-age population. Actual SOS checklist totals may differ slightly."
+}

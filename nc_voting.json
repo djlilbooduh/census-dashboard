@@ -1,0 +1,2623 @@
+{
+  "state": "North Carolina",
+  "election": "2024 General Election (November 5, 2024)",
+  "sources": {
+    "presidential_results": "NCSBE / tonmcg US County Level Election Results 08-24",
+    "voter_registration": "NCSBE voter_stats_20241105 (snapshot as of election day)",
+    "census": "US Census Bureau ACS 5-Year Estimates 2023 (city-level in nc_census.json)"
+  },
+  "statewide_summary": {
+    "trump_votes": 2898423,
+    "harris_votes": 2715375,
+    "total_votes": 5679647,
+    "total_registered": 7854464,
+    "registered_dem": 2457532,
+    "registered_rep": 2350382,
+    "registered_una": 2965094,
+    "trump_pct": 51.03,
+    "harris_pct": 47.81,
+    "statewide_turnout": 72.31
+  },
+  "counties": {
+    "Alamance": {
+      "name": "Alamance County",
+      "fips": "37001",
+      "presidential_2024": {
+        "trump": 47937,
+        "harris": 40624,
+        "total": 89568,
+        "margin": 7313,
+        "trump_pct": 53.52,
+        "harris_pct": 45.36,
+        "margin_pct": 8.16,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 119766,
+        "democrat": 38297,
+        "republican": 38341,
+        "unaffiliated": 42131,
+        "libertarian": 695,
+        "other": 302,
+        "dem_pct": 31.98,
+        "rep_pct": 32.01,
+        "una_pct": 35.18
+      },
+      "turnout": 74.79
+    },
+    "Alexander": {
+      "name": "Alexander County",
+      "fips": "37003",
+      "presidential_2024": {
+        "trump": 16404,
+        "harris": 4060,
+        "total": 20625,
+        "margin": 12344,
+        "trump_pct": 79.53,
+        "harris_pct": 19.68,
+        "margin_pct": 59.85,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 25966,
+        "democrat": 3991,
+        "republican": 12712,
+        "unaffiliated": 9064,
+        "libertarian": 126,
+        "other": 73,
+        "dem_pct": 15.37,
+        "rep_pct": 48.96,
+        "una_pct": 34.91
+      },
+      "turnout": 79.43
+    },
+    "Alleghany": {
+      "name": "Alleghany County",
+      "fips": "37005",
+      "presidential_2024": {
+        "trump": 4900,
+        "harris": 1533,
+        "total": 6480,
+        "margin": 3367,
+        "trump_pct": 75.62,
+        "harris_pct": 23.66,
+        "margin_pct": 51.96,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 8335,
+        "democrat": 1696,
+        "republican": 3558,
+        "unaffiliated": 3019,
+        "libertarian": 42,
+        "other": 20,
+        "dem_pct": 20.35,
+        "rep_pct": 42.69,
+        "una_pct": 36.22
+      },
+      "turnout": 77.74
+    },
+    "Anson": {
+      "name": "Anson County",
+      "fips": "37007",
+      "presidential_2024": {
+        "trump": 5525,
+        "harris": 5253,
+        "total": 10859,
+        "margin": 272,
+        "trump_pct": 50.88,
+        "harris_pct": 48.37,
+        "margin_pct": 2.5,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 16745,
+        "democrat": 8532,
+        "republican": 3387,
+        "unaffiliated": 4725,
+        "libertarian": 58,
+        "other": 43,
+        "dem_pct": 50.95,
+        "rep_pct": 20.23,
+        "una_pct": 28.22
+      },
+      "turnout": 64.85
+    },
+    "Ashe": {
+      "name": "Ashe County",
+      "fips": "37009",
+      "presidential_2024": {
+        "trump": 11629,
+        "harris": 4431,
+        "total": 16187,
+        "margin": 7198,
+        "trump_pct": 71.84,
+        "harris_pct": 27.37,
+        "margin_pct": 44.47,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 20829,
+        "democrat": 3688,
+        "republican": 9557,
+        "unaffiliated": 7444,
+        "libertarian": 105,
+        "other": 35,
+        "dem_pct": 17.71,
+        "rep_pct": 45.88,
+        "una_pct": 35.74
+      },
+      "turnout": 77.71
+    },
+    "Avery": {
+      "name": "Avery County",
+      "fips": "37011",
+      "presidential_2024": {
+        "trump": 7181,
+        "harris": 2220,
+        "total": 9468,
+        "margin": 4961,
+        "trump_pct": 75.84,
+        "harris_pct": 23.45,
+        "margin_pct": 52.4,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 12871,
+        "democrat": 1277,
+        "republican": 7322,
+        "unaffiliated": 4173,
+        "libertarian": 69,
+        "other": 30,
+        "dem_pct": 9.92,
+        "rep_pct": 56.89,
+        "una_pct": 32.42
+      },
+      "turnout": 73.56
+    },
+    "Beaufort": {
+      "name": "Beaufort County",
+      "fips": "37013",
+      "presidential_2024": {
+        "trump": 17296,
+        "harris": 9049,
+        "total": 26521,
+        "margin": 8247,
+        "trump_pct": 65.22,
+        "harris_pct": 34.12,
+        "margin_pct": 31.1,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 35125,
+        "democrat": 10125,
+        "republican": 13342,
+        "unaffiliated": 11447,
+        "libertarian": 134,
+        "other": 77,
+        "dem_pct": 28.83,
+        "rep_pct": 37.98,
+        "una_pct": 32.59
+      },
+      "turnout": 75.5
+    },
+    "Bertie": {
+      "name": "Bertie County",
+      "fips": "37015",
+      "presidential_2024": {
+        "trump": 3840,
+        "harris": 5279,
+        "total": 9170,
+        "margin": -1439,
+        "trump_pct": 41.88,
+        "harris_pct": 57.57,
+        "margin_pct": -15.69,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 12838,
+        "democrat": 7502,
+        "republican": 1805,
+        "unaffiliated": 3471,
+        "libertarian": 39,
+        "other": 21,
+        "dem_pct": 58.44,
+        "rep_pct": 14.06,
+        "una_pct": 27.04
+      },
+      "turnout": 71.43
+    },
+    "Bladen": {
+      "name": "Bladen County",
+      "fips": "37017",
+      "presidential_2024": {
+        "trump": 10035,
+        "harris": 6620,
+        "total": 16743,
+        "margin": 3415,
+        "trump_pct": 59.94,
+        "harris_pct": 39.54,
+        "margin_pct": 20.4,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 23710,
+        "democrat": 8996,
+        "republican": 5903,
+        "unaffiliated": 8654,
+        "libertarian": 88,
+        "other": 69,
+        "dem_pct": 37.94,
+        "rep_pct": 24.9,
+        "una_pct": 36.5
+      },
+      "turnout": 70.62
+    },
+    "Brunswick": {
+      "name": "Brunswick County",
+      "fips": "37019",
+      "presidential_2024": {
+        "trump": 67658,
+        "harris": 40557,
+        "total": 109049,
+        "margin": 27101,
+        "trump_pct": 62.04,
+        "harris_pct": 37.19,
+        "margin_pct": 24.85,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 141259,
+        "democrat": 28349,
+        "republican": 57533,
+        "unaffiliated": 54331,
+        "libertarian": 734,
+        "other": 312,
+        "dem_pct": 20.07,
+        "rep_pct": 40.73,
+        "una_pct": 38.46
+      },
+      "turnout": 77.2
+    },
+    "Buncombe": {
+      "name": "Buncombe County",
+      "fips": "37021",
+      "presidential_2024": {
+        "trump": 59016,
+        "harris": 98662,
+        "total": 159885,
+        "margin": -39646,
+        "trump_pct": 36.91,
+        "harris_pct": 61.71,
+        "margin_pct": -24.8,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 217714,
+        "democrat": 74802,
+        "republican": 46003,
+        "unaffiliated": 94368,
+        "libertarian": 1664,
+        "other": 877,
+        "dem_pct": 34.36,
+        "rep_pct": 21.13,
+        "una_pct": 43.34
+      },
+      "turnout": 73.44
+    },
+    "Burke": {
+      "name": "Burke County",
+      "fips": "37023",
+      "presidential_2024": {
+        "trump": 32130,
+        "harris": 13272,
+        "total": 45733,
+        "margin": 18858,
+        "trump_pct": 70.26,
+        "harris_pct": 29.02,
+        "margin_pct": 41.23,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 61321,
+        "democrat": 12436,
+        "republican": 25035,
+        "unaffiliated": 23346,
+        "libertarian": 368,
+        "other": 136,
+        "dem_pct": 20.28,
+        "rep_pct": 40.83,
+        "una_pct": 38.07
+      },
+      "turnout": 74.58
+    },
+    "Cabarrus": {
+      "name": "Cabarrus County",
+      "fips": "37025",
+      "presidential_2024": {
+        "trump": 63746,
+        "harris": 54494,
+        "total": 119820,
+        "margin": 9252,
+        "trump_pct": 53.2,
+        "harris_pct": 45.48,
+        "margin_pct": 7.72,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 162427,
+        "democrat": 45121,
+        "republican": 52922,
+        "unaffiliated": 62390,
+        "libertarian": 1184,
+        "other": 810,
+        "dem_pct": 27.78,
+        "rep_pct": 32.58,
+        "una_pct": 38.41
+      },
+      "turnout": 73.77
+    },
+    "Caldwell": {
+      "name": "Caldwell County",
+      "fips": "37027",
+      "presidential_2024": {
+        "trump": 33009,
+        "harris": 10146,
+        "total": 43451,
+        "margin": 22863,
+        "trump_pct": 75.97,
+        "harris_pct": 23.35,
+        "margin_pct": 52.62,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 56462,
+        "democrat": 9317,
+        "republican": 28049,
+        "unaffiliated": 18585,
+        "libertarian": 363,
+        "other": 148,
+        "dem_pct": 16.5,
+        "rep_pct": 49.68,
+        "una_pct": 32.92
+      },
+      "turnout": 76.96
+    },
+    "Camden": {
+      "name": "Camden County",
+      "fips": "37029",
+      "presidential_2024": {
+        "trump": 4716,
+        "harris": 1522,
+        "total": 6292,
+        "margin": 3194,
+        "trump_pct": 74.95,
+        "harris_pct": 24.19,
+        "margin_pct": 50.76,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 8807,
+        "democrat": 1361,
+        "republican": 3398,
+        "unaffiliated": 3943,
+        "libertarian": 72,
+        "other": 33,
+        "dem_pct": 15.45,
+        "rep_pct": 38.58,
+        "una_pct": 44.77
+      },
+      "turnout": 71.44
+    },
+    "Carteret": {
+      "name": "Carteret County",
+      "fips": "37031",
+      "presidential_2024": {
+        "trump": 32508,
+        "harris": 12813,
+        "total": 45693,
+        "margin": 19695,
+        "trump_pct": 71.14,
+        "harris_pct": 28.04,
+        "margin_pct": 43.1,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 58891,
+        "democrat": 9319,
+        "republican": 27170,
+        "unaffiliated": 21917,
+        "libertarian": 371,
+        "other": 114,
+        "dem_pct": 15.82,
+        "rep_pct": 46.14,
+        "una_pct": 37.22
+      },
+      "turnout": 77.59
+    },
+    "Caswell": {
+      "name": "Caswell County",
+      "fips": "37033",
+      "presidential_2024": {
+        "trump": 7445,
+        "harris": 4493,
+        "total": 12025,
+        "margin": 2952,
+        "trump_pct": 61.91,
+        "harris_pct": 37.36,
+        "margin_pct": 24.55,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 15871,
+        "democrat": 5881,
+        "republican": 4671,
+        "unaffiliated": 5228,
+        "libertarian": 64,
+        "other": 27,
+        "dem_pct": 37.06,
+        "rep_pct": 29.43,
+        "una_pct": 32.94
+      },
+      "turnout": 75.77
+    },
+    "Catawba": {
+      "name": "Catawba County",
+      "fips": "37035",
+      "presidential_2024": {
+        "trump": 59577,
+        "harris": 26569,
+        "total": 86885,
+        "margin": 33008,
+        "trump_pct": 68.57,
+        "harris_pct": 30.58,
+        "margin_pct": 37.99,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 117342,
+        "democrat": 20686,
+        "republican": 50877,
+        "unaffiliated": 44638,
+        "libertarian": 666,
+        "other": 475,
+        "dem_pct": 17.63,
+        "rep_pct": 43.36,
+        "una_pct": 38.04
+      },
+      "turnout": 74.04
+    },
+    "Chatham": {
+      "name": "Chatham County",
+      "fips": "37037",
+      "presidential_2024": {
+        "trump": 22507,
+        "harris": 29014,
+        "total": 52098,
+        "margin": -6507,
+        "trump_pct": 43.2,
+        "harris_pct": 55.69,
+        "margin_pct": -12.49,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 63795,
+        "democrat": 21537,
+        "republican": 15093,
+        "unaffiliated": 26681,
+        "libertarian": 319,
+        "other": 165,
+        "dem_pct": 33.76,
+        "rep_pct": 23.66,
+        "una_pct": 41.82
+      },
+      "turnout": 81.66
+    },
+    "Cherokee": {
+      "name": "Cherokee County",
+      "fips": "37039",
+      "presidential_2024": {
+        "trump": 13883,
+        "harris": 3686,
+        "total": 17748,
+        "margin": 10197,
+        "trump_pct": 78.22,
+        "harris_pct": 20.77,
+        "margin_pct": 57.45,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 24597,
+        "democrat": 3270,
+        "republican": 12826,
+        "unaffiliated": 8304,
+        "libertarian": 157,
+        "other": 40,
+        "dem_pct": 13.29,
+        "rep_pct": 52.14,
+        "una_pct": 33.76
+      },
+      "turnout": 72.16
+    },
+    "Chowan": {
+      "name": "Chowan County",
+      "fips": "37041",
+      "presidential_2024": {
+        "trump": 4587,
+        "harris": 2895,
+        "total": 7533,
+        "margin": 1692,
+        "trump_pct": 60.89,
+        "harris_pct": 38.43,
+        "margin_pct": 22.46,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 10681,
+        "democrat": 3569,
+        "republican": 3337,
+        "unaffiliated": 3691,
+        "libertarian": 46,
+        "other": 38,
+        "dem_pct": 33.41,
+        "rep_pct": 31.24,
+        "una_pct": 34.56
+      },
+      "turnout": 70.53
+    },
+    "Clay": {
+      "name": "Clay County",
+      "fips": "37043",
+      "presidential_2024": {
+        "trump": 5761,
+        "harris": 1899,
+        "total": 7708,
+        "margin": 3862,
+        "trump_pct": 74.74,
+        "harris_pct": 24.64,
+        "margin_pct": 50.1,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 10356,
+        "democrat": 1392,
+        "republican": 5125,
+        "unaffiliated": 3774,
+        "libertarian": 56,
+        "other": 9,
+        "dem_pct": 13.44,
+        "rep_pct": 49.49,
+        "una_pct": 36.44
+      },
+      "turnout": 74.43
+    },
+    "Cleveland": {
+      "name": "Cleveland County",
+      "fips": "37045",
+      "presidential_2024": {
+        "trump": 34654,
+        "harris": 16603,
+        "total": 51602,
+        "margin": 18051,
+        "trump_pct": 67.16,
+        "harris_pct": 32.18,
+        "margin_pct": 34.98,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 71052,
+        "democrat": 19751,
+        "republican": 27900,
+        "unaffiliated": 22740,
+        "libertarian": 418,
+        "other": 243,
+        "dem_pct": 27.8,
+        "rep_pct": 39.27,
+        "una_pct": 32.0
+      },
+      "turnout": 72.63
+    },
+    "Columbus": {
+      "name": "Columbus County",
+      "fips": "37047",
+      "presidential_2024": {
+        "trump": 17592,
+        "harris": 8648,
+        "total": 26363,
+        "margin": 8944,
+        "trump_pct": 66.73,
+        "harris_pct": 32.8,
+        "margin_pct": 33.93,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 38088,
+        "democrat": 13429,
+        "republican": 11689,
+        "unaffiliated": 12786,
+        "libertarian": 120,
+        "other": 64,
+        "dem_pct": 35.26,
+        "rep_pct": 30.69,
+        "una_pct": 33.57
+      },
+      "turnout": 69.22
+    },
+    "Craven": {
+      "name": "Craven County",
+      "fips": "37049",
+      "presidential_2024": {
+        "trump": 33477,
+        "harris": 22011,
+        "total": 56028,
+        "margin": 11466,
+        "trump_pct": 59.75,
+        "harris_pct": 39.29,
+        "margin_pct": 20.46,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 79739,
+        "democrat": 20225,
+        "republican": 29695,
+        "unaffiliated": 28920,
+        "libertarian": 602,
+        "other": 297,
+        "dem_pct": 25.36,
+        "rep_pct": 37.24,
+        "una_pct": 36.27
+      },
+      "turnout": 70.26
+    },
+    "Cumberland": {
+      "name": "Cumberland County",
+      "fips": "37051",
+      "presidential_2024": {
+        "trump": 59840,
+        "harris": 78631,
+        "total": 140175,
+        "margin": -18791,
+        "trump_pct": 42.69,
+        "harris_pct": 56.09,
+        "margin_pct": -13.41,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 230310,
+        "democrat": 89333,
+        "republican": 52796,
+        "unaffiliated": 84857,
+        "libertarian": 1908,
+        "other": 1416,
+        "dem_pct": 38.79,
+        "rep_pct": 22.92,
+        "una_pct": 36.84
+      },
+      "turnout": 60.86
+    },
+    "Currituck": {
+      "name": "Currituck County",
+      "fips": "37053",
+      "presidential_2024": {
+        "trump": 13235,
+        "harris": 4604,
+        "total": 18010,
+        "margin": 8631,
+        "trump_pct": 73.49,
+        "harris_pct": 25.56,
+        "margin_pct": 47.92,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 25213,
+        "democrat": 3366,
+        "republican": 10695,
+        "unaffiliated": 10830,
+        "libertarian": 219,
+        "other": 103,
+        "dem_pct": 13.35,
+        "rep_pct": 42.42,
+        "una_pct": 42.95
+      },
+      "turnout": 71.43
+    },
+    "Dare": {
+      "name": "Dare County",
+      "fips": "37055",
+      "presidential_2024": {
+        "trump": 14792,
+        "harris": 10074,
+        "total": 25115,
+        "margin": 4718,
+        "trump_pct": 58.9,
+        "harris_pct": 40.11,
+        "margin_pct": 18.79,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 34280,
+        "democrat": 7475,
+        "republican": 11918,
+        "unaffiliated": 14542,
+        "libertarian": 249,
+        "other": 96,
+        "dem_pct": 21.81,
+        "rep_pct": 34.77,
+        "una_pct": 42.42
+      },
+      "turnout": 73.26
+    },
+    "Davidson": {
+      "name": "Davidson County",
+      "fips": "37057",
+      "presidential_2024": {
+        "trump": 67959,
+        "harris": 24150,
+        "total": 93091,
+        "margin": 43809,
+        "trump_pct": 73.0,
+        "harris_pct": 25.94,
+        "margin_pct": 47.06,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 121756,
+        "democrat": 21650,
+        "republican": 58732,
+        "unaffiliated": 40233,
+        "libertarian": 695,
+        "other": 446,
+        "dem_pct": 17.78,
+        "rep_pct": 48.24,
+        "una_pct": 33.04
+      },
+      "turnout": 76.46
+    },
+    "Davie": {
+      "name": "Davie County",
+      "fips": "37059",
+      "presidential_2024": {
+        "trump": 19398,
+        "harris": 6988,
+        "total": 26704,
+        "margin": 12410,
+        "trump_pct": 72.64,
+        "harris_pct": 26.17,
+        "margin_pct": 46.47,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 33702,
+        "democrat": 4686,
+        "republican": 17151,
+        "unaffiliated": 11588,
+        "libertarian": 163,
+        "other": 114,
+        "dem_pct": 13.9,
+        "rep_pct": 50.89,
+        "una_pct": 34.38
+      },
+      "turnout": 79.24
+    },
+    "Duplin": {
+      "name": "Duplin County",
+      "fips": "37061",
+      "presidential_2024": {
+        "trump": 14677,
+        "harris": 8057,
+        "total": 22864,
+        "margin": 6620,
+        "trump_pct": 64.19,
+        "harris_pct": 35.24,
+        "margin_pct": 28.95,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 32693,
+        "democrat": 10548,
+        "republican": 10504,
+        "unaffiliated": 11426,
+        "libertarian": 138,
+        "other": 77,
+        "dem_pct": 32.26,
+        "rep_pct": 32.13,
+        "una_pct": 34.95
+      },
+      "turnout": 69.94
+    },
+    "Durham": {
+      "name": "Durham County",
+      "fips": "37063",
+      "presidential_2024": {
+        "trump": 32853,
+        "harris": 144450,
+        "total": 180189,
+        "margin": -111597,
+        "trump_pct": 18.23,
+        "harris_pct": 80.17,
+        "margin_pct": -61.93,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 253366,
+        "democrat": 129479,
+        "republican": 24253,
+        "unaffiliated": 97534,
+        "libertarian": 1169,
+        "other": 931,
+        "dem_pct": 51.1,
+        "rep_pct": 9.57,
+        "una_pct": 38.5
+      },
+      "turnout": 71.12
+    },
+    "Edgecombe": {
+      "name": "Edgecombe County",
+      "fips": "37065",
+      "presidential_2024": {
+        "trump": 9355,
+        "harris": 14900,
+        "total": 24416,
+        "margin": -5545,
+        "trump_pct": 38.32,
+        "harris_pct": 61.03,
+        "margin_pct": -22.71,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 36542,
+        "democrat": 20303,
+        "republican": 6996,
+        "unaffiliated": 8985,
+        "libertarian": 116,
+        "other": 142,
+        "dem_pct": 55.56,
+        "rep_pct": 19.15,
+        "una_pct": 24.59
+      },
+      "turnout": 66.82
+    },
+    "Forsyth": {
+      "name": "Forsyth County",
+      "fips": "37067",
+      "presidential_2024": {
+        "trump": 87292,
+        "harris": 114145,
+        "total": 203928,
+        "margin": -26853,
+        "trump_pct": 42.81,
+        "harris_pct": 55.97,
+        "margin_pct": -13.17,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 280007,
+        "democrat": 100325,
+        "republican": 73808,
+        "unaffiliated": 102895,
+        "libertarian": 1698,
+        "other": 1281,
+        "dem_pct": 35.83,
+        "rep_pct": 26.36,
+        "una_pct": 36.75
+      },
+      "turnout": 72.83
+    },
+    "Franklin": {
+      "name": "Franklin County",
+      "fips": "37069",
+      "presidential_2024": {
+        "trump": 23938,
+        "harris": 18167,
+        "total": 42526,
+        "margin": 5771,
+        "trump_pct": 56.29,
+        "harris_pct": 42.72,
+        "margin_pct": 13.57,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 55589,
+        "democrat": 17201,
+        "republican": 17461,
+        "unaffiliated": 20342,
+        "libertarian": 401,
+        "other": 184,
+        "dem_pct": 30.94,
+        "rep_pct": 31.41,
+        "una_pct": 36.59
+      },
+      "turnout": 76.5
+    },
+    "Gaston": {
+      "name": "Gaston County",
+      "fips": "37071",
+      "presidential_2024": {
+        "trump": 73828,
+        "harris": 44062,
+        "total": 118959,
+        "margin": 29766,
+        "trump_pct": 62.06,
+        "harris_pct": 37.04,
+        "margin_pct": 25.02,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 163717,
+        "democrat": 41750,
+        "republican": 63029,
+        "unaffiliated": 56877,
+        "libertarian": 1191,
+        "other": 870,
+        "dem_pct": 25.5,
+        "rep_pct": 38.5,
+        "una_pct": 34.74
+      },
+      "turnout": 72.66
+    },
+    "Gates": {
+      "name": "Gates County",
+      "fips": "37073",
+      "presidential_2024": {
+        "trump": 3538,
+        "harris": 2268,
+        "total": 5860,
+        "margin": 1270,
+        "trump_pct": 60.38,
+        "harris_pct": 38.7,
+        "margin_pct": 21.67,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 8532,
+        "democrat": 3362,
+        "republican": 2310,
+        "unaffiliated": 2805,
+        "libertarian": 35,
+        "other": 20,
+        "dem_pct": 39.4,
+        "rep_pct": 27.07,
+        "una_pct": 32.88
+      },
+      "turnout": 68.68
+    },
+    "Graham": {
+      "name": "Graham County",
+      "fips": "37075",
+      "presidential_2024": {
+        "trump": 3883,
+        "harris": 839,
+        "total": 4769,
+        "margin": 3044,
+        "trump_pct": 81.42,
+        "harris_pct": 17.59,
+        "margin_pct": 63.83,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 6315,
+        "democrat": 1037,
+        "republican": 3248,
+        "unaffiliated": 1990,
+        "libertarian": 36,
+        "other": 4,
+        "dem_pct": 16.42,
+        "rep_pct": 51.43,
+        "una_pct": 31.51
+      },
+      "turnout": 75.52
+    },
+    "Granville": {
+      "name": "Granville County",
+      "fips": "37077",
+      "presidential_2024": {
+        "trump": 17383,
+        "harris": 14365,
+        "total": 32044,
+        "margin": 3018,
+        "trump_pct": 54.25,
+        "harris_pct": 44.83,
+        "margin_pct": 9.42,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 42205,
+        "democrat": 15681,
+        "republican": 11682,
+        "unaffiliated": 14482,
+        "libertarian": 221,
+        "other": 139,
+        "dem_pct": 37.15,
+        "rep_pct": 27.68,
+        "una_pct": 34.31
+      },
+      "turnout": 75.92
+    },
+    "Greene": {
+      "name": "Greene County",
+      "fips": "37079",
+      "presidential_2024": {
+        "trump": 4965,
+        "harris": 3437,
+        "total": 8442,
+        "margin": 1528,
+        "trump_pct": 58.81,
+        "harris_pct": 40.71,
+        "margin_pct": 18.1,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 11278,
+        "democrat": 4687,
+        "republican": 2709,
+        "unaffiliated": 3814,
+        "libertarian": 26,
+        "other": 42,
+        "dem_pct": 41.56,
+        "rep_pct": 24.02,
+        "una_pct": 33.82
+      },
+      "turnout": 74.85
+    },
+    "Guilford": {
+      "name": "Guilford County",
+      "fips": "37081",
+      "presidential_2024": {
+        "trump": 109077,
+        "harris": 171118,
+        "total": 284114,
+        "margin": -62041,
+        "trump_pct": 38.39,
+        "harris_pct": 60.23,
+        "margin_pct": -21.84,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 397744,
+        "democrat": 159427,
+        "republican": 91522,
+        "unaffiliated": 142899,
+        "libertarian": 2144,
+        "other": 1752,
+        "dem_pct": 40.08,
+        "rep_pct": 23.01,
+        "una_pct": 35.93
+      },
+      "turnout": 71.43
+    },
+    "Halifax": {
+      "name": "Halifax County",
+      "fips": "37083",
+      "presidential_2024": {
+        "trump": 9778,
+        "harris": 14014,
+        "total": 23938,
+        "margin": -4236,
+        "trump_pct": 40.85,
+        "harris_pct": 58.54,
+        "margin_pct": -17.7,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 36427,
+        "democrat": 20158,
+        "republican": 5019,
+        "unaffiliated": 11028,
+        "libertarian": 110,
+        "other": 112,
+        "dem_pct": 55.34,
+        "rep_pct": 13.78,
+        "una_pct": 30.27
+      },
+      "turnout": 65.71
+    },
+    "Harnett": {
+      "name": "Harnett County",
+      "fips": "37085",
+      "presidential_2024": {
+        "trump": 39440,
+        "harris": 23472,
+        "total": 63597,
+        "margin": 15968,
+        "trump_pct": 62.02,
+        "harris_pct": 36.91,
+        "margin_pct": 25.11,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 93455,
+        "democrat": 24878,
+        "republican": 33895,
+        "unaffiliated": 33316,
+        "libertarian": 818,
+        "other": 548,
+        "dem_pct": 26.62,
+        "rep_pct": 36.27,
+        "una_pct": 35.65
+      },
+      "turnout": 68.05
+    },
+    "Haywood": {
+      "name": "Haywood County",
+      "fips": "37087",
+      "presidential_2024": {
+        "trump": 23393,
+        "harris": 13913,
+        "total": 37724,
+        "margin": 9480,
+        "trump_pct": 62.01,
+        "harris_pct": 36.88,
+        "margin_pct": 25.13,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 48250,
+        "democrat": 11966,
+        "republican": 17171,
+        "unaffiliated": 18620,
+        "libertarian": 338,
+        "other": 155,
+        "dem_pct": 24.8,
+        "rep_pct": 35.59,
+        "una_pct": 38.59
+      },
+      "turnout": 78.18
+    },
+    "Henderson": {
+      "name": "Henderson County",
+      "fips": "37089",
+      "presidential_2024": {
+        "trump": 39497,
+        "harris": 29361,
+        "total": 69651,
+        "margin": 10136,
+        "trump_pct": 56.71,
+        "harris_pct": 42.15,
+        "margin_pct": 14.55,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 92782,
+        "democrat": 17720,
+        "republican": 33190,
+        "unaffiliated": 40956,
+        "libertarian": 619,
+        "other": 297,
+        "dem_pct": 19.1,
+        "rep_pct": 35.77,
+        "una_pct": 44.14
+      },
+      "turnout": 75.07
+    },
+    "Hertford": {
+      "name": "Hertford County",
+      "fips": "37091",
+      "presidential_2024": {
+        "trump": 3561,
+        "harris": 6191,
+        "total": 9819,
+        "margin": -2630,
+        "trump_pct": 36.27,
+        "harris_pct": 63.05,
+        "margin_pct": -26.78,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 14356,
+        "democrat": 8775,
+        "republican": 1729,
+        "unaffiliated": 3774,
+        "libertarian": 42,
+        "other": 36,
+        "dem_pct": 61.12,
+        "rep_pct": 12.04,
+        "una_pct": 26.29
+      },
+      "turnout": 68.4
+    },
+    "Hoke": {
+      "name": "Hoke County",
+      "fips": "37093",
+      "presidential_2024": {
+        "trump": 10547,
+        "harris": 11896,
+        "total": 22724,
+        "margin": -1349,
+        "trump_pct": 46.41,
+        "harris_pct": 52.35,
+        "margin_pct": -5.94,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 37259,
+        "democrat": 13976,
+        "republican": 8358,
+        "unaffiliated": 14423,
+        "libertarian": 323,
+        "other": 179,
+        "dem_pct": 37.51,
+        "rep_pct": 22.43,
+        "una_pct": 38.71
+      },
+      "turnout": 60.99
+    },
+    "Hyde": {
+      "name": "Hyde County",
+      "fips": "37095",
+      "presidential_2024": {
+        "trump": 1465,
+        "harris": 931,
+        "total": 2417,
+        "margin": 534,
+        "trump_pct": 60.61,
+        "harris_pct": 38.52,
+        "margin_pct": 22.09,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 3186,
+        "democrat": 1306,
+        "republican": 718,
+        "unaffiliated": 1145,
+        "libertarian": 14,
+        "other": 3,
+        "dem_pct": 40.99,
+        "rep_pct": 22.54,
+        "una_pct": 35.94
+      },
+      "turnout": 75.86
+    },
+    "Iredell": {
+      "name": "Iredell County",
+      "fips": "37097",
+      "presidential_2024": {
+        "trump": 72801,
+        "harris": 36739,
+        "total": 110560,
+        "margin": 36062,
+        "trump_pct": 65.85,
+        "harris_pct": 33.23,
+        "margin_pct": 32.62,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 146567,
+        "democrat": 28168,
+        "republican": 60686,
+        "unaffiliated": 56316,
+        "libertarian": 895,
+        "other": 502,
+        "dem_pct": 19.22,
+        "rep_pct": 41.4,
+        "una_pct": 38.42
+      },
+      "turnout": 75.43
+    },
+    "Jackson": {
+      "name": "Jackson County",
+      "fips": "37099",
+      "presidential_2024": {
+        "trump": 11796,
+        "harris": 9746,
+        "total": 21864,
+        "margin": 2050,
+        "trump_pct": 53.95,
+        "harris_pct": 44.58,
+        "margin_pct": 9.38,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 31646,
+        "democrat": 8488,
+        "republican": 8975,
+        "unaffiliated": 13854,
+        "libertarian": 245,
+        "other": 84,
+        "dem_pct": 26.82,
+        "rep_pct": 28.36,
+        "una_pct": 43.78
+      },
+      "turnout": 69.09
+    },
+    "Johnston": {
+      "name": "Johnston County",
+      "fips": "37101",
+      "presidential_2024": {
+        "trump": 74878,
+        "harris": 48116,
+        "total": 124360,
+        "margin": 26762,
+        "trump_pct": 60.21,
+        "harris_pct": 38.69,
+        "margin_pct": 21.52,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 165663,
+        "democrat": 41566,
+        "republican": 60919,
+        "unaffiliated": 61014,
+        "libertarian": 1220,
+        "other": 944,
+        "dem_pct": 25.09,
+        "rep_pct": 36.77,
+        "una_pct": 36.83
+      },
+      "turnout": 75.07
+    },
+    "Jones": {
+      "name": "Jones County",
+      "fips": "37103",
+      "presidential_2024": {
+        "trump": 3409,
+        "harris": 2007,
+        "total": 5458,
+        "margin": 1402,
+        "trump_pct": 62.46,
+        "harris_pct": 36.77,
+        "margin_pct": 25.69,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 7364,
+        "democrat": 2414,
+        "republican": 2449,
+        "unaffiliated": 2444,
+        "libertarian": 32,
+        "other": 25,
+        "dem_pct": 32.78,
+        "rep_pct": 33.26,
+        "una_pct": 33.19
+      },
+      "turnout": 74.12
+    },
+    "Lee": {
+      "name": "Lee County",
+      "fips": "37105",
+      "presidential_2024": {
+        "trump": 17489,
+        "harris": 12245,
+        "total": 30007,
+        "margin": 5244,
+        "trump_pct": 58.28,
+        "harris_pct": 40.81,
+        "margin_pct": 17.48,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 41335,
+        "democrat": 12445,
+        "republican": 12792,
+        "unaffiliated": 15620,
+        "libertarian": 313,
+        "other": 165,
+        "dem_pct": 30.11,
+        "rep_pct": 30.95,
+        "una_pct": 37.79
+      },
+      "turnout": 72.59
+    },
+    "Lenoir": {
+      "name": "Lenoir County",
+      "fips": "37107",
+      "presidential_2024": {
+        "trump": 14564,
+        "harris": 12700,
+        "total": 27465,
+        "margin": 1864,
+        "trump_pct": 53.03,
+        "harris_pct": 46.24,
+        "margin_pct": 6.79,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 39568,
+        "democrat": 16310,
+        "republican": 10965,
+        "unaffiliated": 11874,
+        "libertarian": 149,
+        "other": 270,
+        "dem_pct": 41.22,
+        "rep_pct": 27.71,
+        "una_pct": 30.01
+      },
+      "turnout": 69.41
+    },
+    "Lincoln": {
+      "name": "Lincoln County",
+      "fips": "37109",
+      "presidential_2024": {
+        "trump": 40183,
+        "harris": 14842,
+        "total": 55433,
+        "margin": 25341,
+        "trump_pct": 72.49,
+        "harris_pct": 26.77,
+        "margin_pct": 45.71,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 70666,
+        "democrat": 11797,
+        "republican": 33808,
+        "unaffiliated": 24447,
+        "libertarian": 415,
+        "other": 199,
+        "dem_pct": 16.69,
+        "rep_pct": 47.84,
+        "una_pct": 34.6
+      },
+      "turnout": 78.44
+    },
+    "Macon": {
+      "name": "Macon County",
+      "fips": "37113",
+      "presidential_2024": {
+        "trump": 14981,
+        "harris": 6675,
+        "total": 21846,
+        "margin": 8306,
+        "trump_pct": 68.58,
+        "harris_pct": 30.55,
+        "margin_pct": 38.02,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 29588,
+        "democrat": 4970,
+        "republican": 12939,
+        "unaffiliated": 11440,
+        "libertarian": 202,
+        "other": 37,
+        "dem_pct": 16.8,
+        "rep_pct": 43.73,
+        "una_pct": 38.66
+      },
+      "turnout": 73.83
+    },
+    "Madison": {
+      "name": "Madison County",
+      "fips": "37115",
+      "presidential_2024": {
+        "trump": 8275,
+        "harris": 5090,
+        "total": 13561,
+        "margin": 3185,
+        "trump_pct": 61.02,
+        "harris_pct": 37.53,
+        "margin_pct": 23.49,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 17836,
+        "democrat": 4891,
+        "republican": 5121,
+        "unaffiliated": 7645,
+        "libertarian": 120,
+        "other": 59,
+        "dem_pct": 27.42,
+        "rep_pct": 28.71,
+        "una_pct": 42.86
+      },
+      "turnout": 76.03
+    },
+    "Martin": {
+      "name": "Martin County",
+      "fips": "37117",
+      "presidential_2024": {
+        "trump": 6601,
+        "harris": 5360,
+        "total": 12028,
+        "margin": 1241,
+        "trump_pct": 54.88,
+        "harris_pct": 44.56,
+        "margin_pct": 10.32,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 16761,
+        "democrat": 7499,
+        "republican": 3637,
+        "unaffiliated": 5526,
+        "libertarian": 61,
+        "other": 38,
+        "dem_pct": 44.74,
+        "rep_pct": 21.7,
+        "una_pct": 32.97
+      },
+      "turnout": 71.76
+    },
+    "McDowell": {
+      "name": "McDowell County",
+      "fips": "37111",
+      "presidential_2024": {
+        "trump": 17520,
+        "harris": 5911,
+        "total": 23600,
+        "margin": 11609,
+        "trump_pct": 74.24,
+        "harris_pct": 25.05,
+        "margin_pct": 49.19,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 31509,
+        "democrat": 5423,
+        "republican": 14037,
+        "unaffiliated": 11778,
+        "libertarian": 188,
+        "other": 83,
+        "dem_pct": 17.21,
+        "rep_pct": 44.55,
+        "una_pct": 37.38
+      },
+      "turnout": 74.9
+    },
+    "Mecklenburg": {
+      "name": "Mecklenburg County",
+      "fips": "37119",
+      "presidential_2024": {
+        "trump": 187770,
+        "harris": 376454,
+        "total": 573679,
+        "margin": -188684,
+        "trump_pct": 32.73,
+        "harris_pct": 65.62,
+        "margin_pct": -32.89,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 842270,
+        "democrat": 333651,
+        "republican": 163043,
+        "unaffiliated": 335371,
+        "libertarian": 5856,
+        "other": 4349,
+        "dem_pct": 39.61,
+        "rep_pct": 19.36,
+        "una_pct": 39.82
+      },
+      "turnout": 68.11
+    },
+    "Mitchell": {
+      "name": "Mitchell County",
+      "fips": "37121",
+      "presidential_2024": {
+        "trump": 6843,
+        "harris": 1915,
+        "total": 8821,
+        "margin": 4928,
+        "trump_pct": 77.58,
+        "harris_pct": 21.71,
+        "margin_pct": 55.87,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 11508,
+        "democrat": 1049,
+        "republican": 6636,
+        "unaffiliated": 3746,
+        "libertarian": 56,
+        "other": 21,
+        "dem_pct": 9.12,
+        "rep_pct": 57.66,
+        "una_pct": 32.55
+      },
+      "turnout": 76.65
+    },
+    "Montgomery": {
+      "name": "Montgomery County",
+      "fips": "37123",
+      "presidential_2024": {
+        "trump": 9044,
+        "harris": 4055,
+        "total": 13188,
+        "margin": 4989,
+        "trump_pct": 68.58,
+        "harris_pct": 30.75,
+        "margin_pct": 37.83,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 17769,
+        "democrat": 4926,
+        "republican": 6735,
+        "unaffiliated": 5980,
+        "libertarian": 77,
+        "other": 51,
+        "dem_pct": 27.72,
+        "rep_pct": 37.9,
+        "una_pct": 33.65
+      },
+      "turnout": 74.22
+    },
+    "Moore": {
+      "name": "Moore County",
+      "fips": "37125",
+      "presidential_2024": {
+        "trump": 39617,
+        "harris": 21436,
+        "total": 61590,
+        "margin": 18181,
+        "trump_pct": 64.32,
+        "harris_pct": 34.8,
+        "margin_pct": 29.52,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 79456,
+        "democrat": 15262,
+        "republican": 32902,
+        "unaffiliated": 30458,
+        "libertarian": 630,
+        "other": 204,
+        "dem_pct": 19.21,
+        "rep_pct": 41.41,
+        "una_pct": 38.33
+      },
+      "turnout": 77.51
+    },
+    "Nash": {
+      "name": "Nash County",
+      "fips": "37127",
+      "presidential_2024": {
+        "trump": 26431,
+        "harris": 25508,
+        "total": 52364,
+        "margin": 923,
+        "trump_pct": 50.48,
+        "harris_pct": 48.71,
+        "margin_pct": 1.76,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 71083,
+        "democrat": 27549,
+        "republican": 20156,
+        "unaffiliated": 22811,
+        "libertarian": 295,
+        "other": 272,
+        "dem_pct": 38.76,
+        "rep_pct": 28.36,
+        "una_pct": 32.09
+      },
+      "turnout": 73.67
+    },
+    "New Hanover": {
+      "name": "New Hanover County",
+      "fips": "37129",
+      "presidential_2024": {
+        "trump": 67949,
+        "harris": 68814,
+        "total": 138243,
+        "margin": -865,
+        "trump_pct": 49.15,
+        "harris_pct": 49.78,
+        "margin_pct": -0.63,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 190667,
+        "democrat": 51631,
+        "republican": 56278,
+        "unaffiliated": 80584,
+        "libertarian": 1446,
+        "other": 728,
+        "dem_pct": 27.08,
+        "rep_pct": 29.52,
+        "una_pct": 42.26
+      },
+      "turnout": 72.5
+    },
+    "Northampton": {
+      "name": "Northampton County",
+      "fips": "37131",
+      "presidential_2024": {
+        "trump": 3905,
+        "harris": 5239,
+        "total": 9197,
+        "margin": -1334,
+        "trump_pct": 42.46,
+        "harris_pct": 56.96,
+        "margin_pct": -14.5,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 13281,
+        "democrat": 7671,
+        "republican": 1666,
+        "unaffiliated": 3873,
+        "libertarian": 36,
+        "other": 35,
+        "dem_pct": 57.76,
+        "rep_pct": 12.54,
+        "una_pct": 29.16
+      },
+      "turnout": 69.25
+    },
+    "Onslow": {
+      "name": "Onslow County",
+      "fips": "37133",
+      "presidential_2024": {
+        "trump": 54960,
+        "harris": 25684,
+        "total": 81476,
+        "margin": 29276,
+        "trump_pct": 67.46,
+        "harris_pct": 31.52,
+        "margin_pct": 35.93,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 137629,
+        "democrat": 24239,
+        "republican": 52745,
+        "unaffiliated": 58234,
+        "libertarian": 1856,
+        "other": 555,
+        "dem_pct": 17.61,
+        "rep_pct": 38.32,
+        "una_pct": 42.31
+      },
+      "turnout": 59.2
+    },
+    "Orange": {
+      "name": "Orange County",
+      "fips": "37135",
+      "presidential_2024": {
+        "trump": 20806,
+        "harris": 65444,
+        "total": 87426,
+        "margin": -44638,
+        "trump_pct": 23.8,
+        "harris_pct": 74.86,
+        "margin_pct": -51.06,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 115633,
+        "democrat": 51982,
+        "republican": 13989,
+        "unaffiliated": 48783,
+        "libertarian": 553,
+        "other": 326,
+        "dem_pct": 44.95,
+        "rep_pct": 12.1,
+        "una_pct": 42.19
+      },
+      "turnout": 75.61
+    },
+    "Pamlico": {
+      "name": "Pamlico County",
+      "fips": "37137",
+      "presidential_2024": {
+        "trump": 5229,
+        "harris": 2676,
+        "total": 7961,
+        "margin": 2553,
+        "trump_pct": 65.68,
+        "harris_pct": 33.61,
+        "margin_pct": 32.07,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 10648,
+        "democrat": 2760,
+        "republican": 4380,
+        "unaffiliated": 3426,
+        "libertarian": 54,
+        "other": 28,
+        "dem_pct": 25.92,
+        "rep_pct": 41.13,
+        "una_pct": 32.18
+      },
+      "turnout": 74.77
+    },
+    "Pasquotank": {
+      "name": "Pasquotank County",
+      "fips": "37139",
+      "presidential_2024": {
+        "trump": 10537,
+        "harris": 9549,
+        "total": 20277,
+        "margin": 988,
+        "trump_pct": 51.97,
+        "harris_pct": 47.09,
+        "margin_pct": 4.87,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 32029,
+        "democrat": 10937,
+        "republican": 8226,
+        "unaffiliated": 12518,
+        "libertarian": 213,
+        "other": 135,
+        "dem_pct": 34.15,
+        "rep_pct": 25.68,
+        "una_pct": 39.08
+      },
+      "turnout": 63.31
+    },
+    "Pender": {
+      "name": "Pender County",
+      "fips": "37141",
+      "presidential_2024": {
+        "trump": 26042,
+        "harris": 12460,
+        "total": 38837,
+        "margin": 13582,
+        "trump_pct": 67.05,
+        "harris_pct": 32.08,
+        "margin_pct": 34.97,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 52117,
+        "democrat": 10805,
+        "republican": 21311,
+        "unaffiliated": 19409,
+        "libertarian": 428,
+        "other": 164,
+        "dem_pct": 20.73,
+        "rep_pct": 40.89,
+        "una_pct": 37.24
+      },
+      "turnout": 74.52
+    },
+    "Perquimans": {
+      "name": "Perquimans County",
+      "fips": "37143",
+      "presidential_2024": {
+        "trump": 5278,
+        "harris": 2269,
+        "total": 7640,
+        "margin": 3009,
+        "trump_pct": 69.08,
+        "harris_pct": 29.7,
+        "margin_pct": 39.38,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 10837,
+        "democrat": 2857,
+        "republican": 3833,
+        "unaffiliated": 4047,
+        "libertarian": 64,
+        "other": 36,
+        "dem_pct": 26.36,
+        "rep_pct": 35.37,
+        "una_pct": 37.34
+      },
+      "turnout": 70.5
+    },
+    "Person": {
+      "name": "Person County",
+      "fips": "37145",
+      "presidential_2024": {
+        "trump": 13509,
+        "harris": 8295,
+        "total": 21993,
+        "margin": 5214,
+        "trump_pct": 61.42,
+        "harris_pct": 37.72,
+        "margin_pct": 23.71,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 28749,
+        "democrat": 9395,
+        "republican": 8717,
+        "unaffiliated": 10447,
+        "libertarian": 124,
+        "other": 66,
+        "dem_pct": 32.68,
+        "rep_pct": 30.32,
+        "una_pct": 36.34
+      },
+      "turnout": 76.5
+    },
+    "Pitt": {
+      "name": "Pitt County",
+      "fips": "37147",
+      "presidential_2024": {
+        "trump": 40403,
+        "harris": 45595,
+        "total": 86924,
+        "margin": -5192,
+        "trump_pct": 46.48,
+        "harris_pct": 52.45,
+        "margin_pct": -5.97,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 129050,
+        "democrat": 48802,
+        "republican": 32067,
+        "unaffiliated": 46833,
+        "libertarian": 777,
+        "other": 571,
+        "dem_pct": 37.82,
+        "rep_pct": 24.85,
+        "una_pct": 36.29
+      },
+      "turnout": 67.36
+    },
+    "Polk": {
+      "name": "Polk County",
+      "fips": "37149",
+      "presidential_2024": {
+        "trump": 8107,
+        "harris": 4827,
+        "total": 13032,
+        "margin": 3280,
+        "trump_pct": 62.21,
+        "harris_pct": 37.04,
+        "margin_pct": 25.17,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 17441,
+        "democrat": 3645,
+        "republican": 6621,
+        "unaffiliated": 7014,
+        "libertarian": 116,
+        "other": 45,
+        "dem_pct": 20.9,
+        "rep_pct": 37.96,
+        "una_pct": 40.22
+      },
+      "turnout": 74.72
+    },
+    "Randolph": {
+      "name": "Randolph County",
+      "fips": "37151",
+      "presidential_2024": {
+        "trump": 59357,
+        "harris": 15951,
+        "total": 75841,
+        "margin": 43406,
+        "trump_pct": 78.27,
+        "harris_pct": 21.03,
+        "margin_pct": 57.23,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 99777,
+        "democrat": 14927,
+        "republican": 52023,
+        "unaffiliated": 31914,
+        "libertarian": 585,
+        "other": 328,
+        "dem_pct": 14.96,
+        "rep_pct": 52.14,
+        "una_pct": 31.99
+      },
+      "turnout": 76.01
+    },
+    "Richmond": {
+      "name": "Richmond County",
+      "fips": "37153",
+      "presidential_2024": {
+        "trump": 11931,
+        "harris": 7787,
+        "total": 19848,
+        "margin": 4144,
+        "trump_pct": 60.11,
+        "harris_pct": 39.23,
+        "margin_pct": 20.88,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 29465,
+        "democrat": 11593,
+        "republican": 8053,
+        "unaffiliated": 9575,
+        "libertarian": 128,
+        "other": 116,
+        "dem_pct": 39.34,
+        "rep_pct": 27.33,
+        "una_pct": 32.5
+      },
+      "turnout": 67.36
+    },
+    "Robeson": {
+      "name": "Robeson County",
+      "fips": "37155",
+      "presidential_2024": {
+        "trump": 29647,
+        "harris": 16728,
+        "total": 46677,
+        "margin": 12919,
+        "trump_pct": 63.52,
+        "harris_pct": 35.84,
+        "margin_pct": 27.68,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 79176,
+        "democrat": 33538,
+        "republican": 15691,
+        "unaffiliated": 29324,
+        "libertarian": 242,
+        "other": 381,
+        "dem_pct": 42.36,
+        "rep_pct": 19.82,
+        "una_pct": 37.04
+      },
+      "turnout": 58.95
+    },
+    "Rockingham": {
+      "name": "Rockingham County",
+      "fips": "37157",
+      "presidential_2024": {
+        "trump": 33447,
+        "harris": 15676,
+        "total": 49492,
+        "margin": 17771,
+        "trump_pct": 67.58,
+        "harris_pct": 31.67,
+        "margin_pct": 35.91,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 64706,
+        "democrat": 17339,
+        "republican": 26185,
+        "unaffiliated": 20636,
+        "libertarian": 337,
+        "other": 209,
+        "dem_pct": 26.8,
+        "rep_pct": 40.47,
+        "una_pct": 31.89
+      },
+      "turnout": 76.49
+    },
+    "Rowan": {
+      "name": "Rowan County",
+      "fips": "37159",
+      "presidential_2024": {
+        "trump": 50807,
+        "harris": 23788,
+        "total": 75236,
+        "margin": 27019,
+        "trump_pct": 67.53,
+        "harris_pct": 31.62,
+        "margin_pct": 35.91,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 101923,
+        "democrat": 22694,
+        "republican": 43752,
+        "unaffiliated": 34342,
+        "libertarian": 632,
+        "other": 503,
+        "dem_pct": 22.27,
+        "rep_pct": 42.93,
+        "una_pct": 33.69
+      },
+      "turnout": 73.82
+    },
+    "Rutherford": {
+      "name": "Rutherford County",
+      "fips": "37161",
+      "presidential_2024": {
+        "trump": 25456,
+        "harris": 8914,
+        "total": 34600,
+        "margin": 16542,
+        "trump_pct": 73.57,
+        "harris_pct": 25.76,
+        "margin_pct": 47.81,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 48084,
+        "democrat": 9602,
+        "republican": 21106,
+        "unaffiliated": 16955,
+        "libertarian": 270,
+        "other": 151,
+        "dem_pct": 19.97,
+        "rep_pct": 43.89,
+        "una_pct": 35.26
+      },
+      "turnout": 71.96
+    },
+    "Sampson": {
+      "name": "Sampson County",
+      "fips": "37163",
+      "presidential_2024": {
+        "trump": 18178,
+        "harris": 9797,
+        "total": 28138,
+        "margin": 8381,
+        "trump_pct": 64.6,
+        "harris_pct": 34.82,
+        "margin_pct": 29.79,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 39470,
+        "democrat": 12548,
+        "republican": 16121,
+        "unaffiliated": 10438,
+        "libertarian": 192,
+        "other": 171,
+        "dem_pct": 31.79,
+        "rep_pct": 40.84,
+        "una_pct": 26.45
+      },
+      "turnout": 71.29
+    },
+    "Scotland": {
+      "name": "Scotland County",
+      "fips": "37165",
+      "presidential_2024": {
+        "trump": 7767,
+        "harris": 6754,
+        "total": 14613,
+        "margin": 1013,
+        "trump_pct": 53.15,
+        "harris_pct": 46.22,
+        "margin_pct": 6.93,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 22821,
+        "democrat": 9605,
+        "republican": 5050,
+        "unaffiliated": 7988,
+        "libertarian": 80,
+        "other": 98,
+        "dem_pct": 42.09,
+        "rep_pct": 22.13,
+        "una_pct": 35.0
+      },
+      "turnout": 64.03
+    },
+    "Stanly": {
+      "name": "Stanly County",
+      "fips": "37167",
+      "presidential_2024": {
+        "trump": 27518,
+        "harris": 8881,
+        "total": 36651,
+        "margin": 18637,
+        "trump_pct": 75.08,
+        "harris_pct": 24.23,
+        "margin_pct": 50.85,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 46713,
+        "democrat": 8421,
+        "republican": 22470,
+        "unaffiliated": 15352,
+        "libertarian": 217,
+        "other": 253,
+        "dem_pct": 18.03,
+        "rep_pct": 48.1,
+        "una_pct": 32.86
+      },
+      "turnout": 78.46
+    },
+    "Stokes": {
+      "name": "Stokes County",
+      "fips": "37169",
+      "presidential_2024": {
+        "trump": 21548,
+        "harris": 5380,
+        "total": 27127,
+        "margin": 16168,
+        "trump_pct": 79.43,
+        "harris_pct": 19.83,
+        "margin_pct": 59.6,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 33833,
+        "democrat": 5064,
+        "republican": 18027,
+        "unaffiliated": 10457,
+        "libertarian": 215,
+        "other": 70,
+        "dem_pct": 14.97,
+        "rep_pct": 53.28,
+        "una_pct": 30.91
+      },
+      "turnout": 80.18
+    },
+    "Surry": {
+      "name": "Surry County",
+      "fips": "37171",
+      "presidential_2024": {
+        "trump": 28565,
+        "harris": 8613,
+        "total": 37424,
+        "margin": 19952,
+        "trump_pct": 76.33,
+        "harris_pct": 23.01,
+        "margin_pct": 53.31,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 49366,
+        "democrat": 8940,
+        "republican": 23557,
+        "unaffiliated": 16528,
+        "libertarian": 234,
+        "other": 107,
+        "dem_pct": 18.11,
+        "rep_pct": 47.72,
+        "una_pct": 33.48
+      },
+      "turnout": 75.81
+    },
+    "Swain": {
+      "name": "Swain County",
+      "fips": "37173",
+      "presidential_2024": {
+        "trump": 4311,
+        "harris": 2643,
+        "total": 7036,
+        "margin": 1668,
+        "trump_pct": 61.27,
+        "harris_pct": 37.56,
+        "margin_pct": 23.71,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 10255,
+        "democrat": 2752,
+        "republican": 3305,
+        "unaffiliated": 4082,
+        "libertarian": 73,
+        "other": 43,
+        "dem_pct": 26.84,
+        "rep_pct": 32.23,
+        "una_pct": 39.8
+      },
+      "turnout": 68.61
+    },
+    "Transylvania": {
+      "name": "Transylvania County",
+      "fips": "37175",
+      "presidential_2024": {
+        "trump": 11492,
+        "harris": 8972,
+        "total": 20706,
+        "margin": 2520,
+        "trump_pct": 55.5,
+        "harris_pct": 43.33,
+        "margin_pct": 12.17,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 27254,
+        "democrat": 5740,
+        "republican": 8824,
+        "unaffiliated": 12488,
+        "libertarian": 153,
+        "other": 49,
+        "dem_pct": 21.06,
+        "rep_pct": 32.38,
+        "una_pct": 45.82
+      },
+      "turnout": 75.97
+    },
+    "Tyrrell": {
+      "name": "Tyrrell County",
+      "fips": "37177",
+      "presidential_2024": {
+        "trump": 1057,
+        "harris": 680,
+        "total": 1752,
+        "margin": 377,
+        "trump_pct": 60.33,
+        "harris_pct": 38.81,
+        "margin_pct": 21.52,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 2383,
+        "democrat": 977,
+        "republican": 503,
+        "unaffiliated": 889,
+        "libertarian": 10,
+        "other": 4,
+        "dem_pct": 41.0,
+        "rep_pct": 21.11,
+        "una_pct": 37.31
+      },
+      "turnout": 73.52
+    },
+    "Union": {
+      "name": "Union County",
+      "fips": "37179",
+      "presidential_2024": {
+        "trump": 86271,
+        "harris": 51168,
+        "total": 138875,
+        "margin": 35103,
+        "trump_pct": 62.12,
+        "harris_pct": 36.84,
+        "margin_pct": 25.28,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 185312,
+        "democrat": 40606,
+        "republican": 73520,
+        "unaffiliated": 69339,
+        "libertarian": 1194,
+        "other": 653,
+        "dem_pct": 21.91,
+        "rep_pct": 39.67,
+        "una_pct": 37.42
+      },
+      "turnout": 74.94
+    },
+    "Vance": {
+      "name": "Vance County",
+      "fips": "37181",
+      "presidential_2024": {
+        "trump": 8614,
+        "harris": 11292,
+        "total": 20059,
+        "margin": -2678,
+        "trump_pct": 42.94,
+        "harris_pct": 56.29,
+        "margin_pct": -13.35,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 29192,
+        "democrat": 15901,
+        "republican": 5449,
+        "unaffiliated": 7636,
+        "libertarian": 108,
+        "other": 98,
+        "dem_pct": 54.47,
+        "rep_pct": 18.67,
+        "una_pct": 26.16
+      },
+      "turnout": 68.71
+    },
+    "Wake": {
+      "name": "Wake County",
+      "fips": "37183",
+      "presidential_2024": {
+        "trump": 236735,
+        "harris": 402984,
+        "total": 650796,
+        "margin": -166249,
+        "trump_pct": 36.38,
+        "harris_pct": 61.92,
+        "margin_pct": -25.55,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 862969,
+        "democrat": 294021,
+        "republican": 181167,
+        "unaffiliated": 378028,
+        "libertarian": 6029,
+        "other": 3724,
+        "dem_pct": 34.07,
+        "rep_pct": 20.99,
+        "una_pct": 43.81
+      },
+      "turnout": 75.41
+    },
+    "Warren": {
+      "name": "Warren County",
+      "fips": "37185",
+      "presidential_2024": {
+        "trump": 3976,
+        "harris": 5872,
+        "total": 9985,
+        "margin": -1896,
+        "trump_pct": 39.82,
+        "harris_pct": 58.81,
+        "margin_pct": -18.99,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 13588,
+        "democrat": 7710,
+        "republican": 2478,
+        "unaffiliated": 3322,
+        "libertarian": 41,
+        "other": 37,
+        "dem_pct": 56.74,
+        "rep_pct": 18.24,
+        "una_pct": 24.45
+      },
+      "turnout": 73.48
+    },
+    "Washington": {
+      "name": "Washington County",
+      "fips": "37187",
+      "presidential_2024": {
+        "trump": 2768,
+        "harris": 3138,
+        "total": 5939,
+        "margin": -370,
+        "trump_pct": 46.61,
+        "harris_pct": 52.84,
+        "margin_pct": -6.23,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 8218,
+        "democrat": 4508,
+        "republican": 1501,
+        "unaffiliated": 2179,
+        "libertarian": 20,
+        "other": 10,
+        "dem_pct": 54.86,
+        "rep_pct": 18.26,
+        "una_pct": 26.51
+      },
+      "turnout": 72.27
+    },
+    "Watauga": {
+      "name": "Watauga County",
+      "fips": "37189",
+      "presidential_2024": {
+        "trump": 15254,
+        "harris": 17225,
+        "total": 32934,
+        "margin": -1971,
+        "trump_pct": 46.32,
+        "harris_pct": 52.3,
+        "margin_pct": -5.98,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 46601,
+        "democrat": 11546,
+        "republican": 12863,
+        "unaffiliated": 21632,
+        "libertarian": 382,
+        "other": 178,
+        "dem_pct": 24.78,
+        "rep_pct": 27.6,
+        "una_pct": 46.42
+      },
+      "turnout": 70.67
+    },
+    "Wayne": {
+      "name": "Wayne County",
+      "fips": "37191",
+      "presidential_2024": {
+        "trump": 31580,
+        "harris": 22618,
+        "total": 54667,
+        "margin": 8962,
+        "trump_pct": 57.77,
+        "harris_pct": 41.37,
+        "margin_pct": 16.39,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 78035,
+        "democrat": 26860,
+        "republican": 26914,
+        "unaffiliated": 23280,
+        "libertarian": 459,
+        "other": 522,
+        "dem_pct": 34.42,
+        "rep_pct": 34.49,
+        "una_pct": 29.83
+      },
+      "turnout": 70.05
+    },
+    "Wilkes": {
+      "name": "Wilkes County",
+      "fips": "37193",
+      "presidential_2024": {
+        "trump": 28812,
+        "harris": 7194,
+        "total": 36240,
+        "margin": 21618,
+        "trump_pct": 79.5,
+        "harris_pct": 19.85,
+        "margin_pct": 59.65,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 45719,
+        "democrat": 6606,
+        "republican": 25200,
+        "unaffiliated": 13598,
+        "libertarian": 207,
+        "other": 108,
+        "dem_pct": 14.45,
+        "rep_pct": 55.12,
+        "una_pct": 29.74
+      },
+      "turnout": 79.27
+    },
+    "Wilson": {
+      "name": "Wilson County",
+      "fips": "37195",
+      "presidential_2024": {
+        "trump": 19750,
+        "harris": 19909,
+        "total": 39978,
+        "margin": -159,
+        "trump_pct": 49.4,
+        "harris_pct": 49.8,
+        "margin_pct": -0.4,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total": 56906,
+        "democrat": 24746,
+        "republican": 14539,
+        "unaffiliated": 17153,
+        "libertarian": 255,
+        "other": 213,
+        "dem_pct": 43.49,
+        "rep_pct": 25.55,
+        "una_pct": 30.14
+      },
+      "turnout": 70.25
+    },
+    "Yadkin": {
+      "name": "Yadkin County",
+      "fips": "37197",
+      "presidential_2024": {
+        "trump": 16439,
+        "harris": 3739,
+        "total": 20346,
+        "margin": 12700,
+        "trump_pct": 80.8,
+        "harris_pct": 18.38,
+        "margin_pct": 62.42,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 25764,
+        "democrat": 2863,
+        "republican": 14723,
+        "unaffiliated": 7984,
+        "libertarian": 134,
+        "other": 60,
+        "dem_pct": 11.11,
+        "rep_pct": 57.15,
+        "una_pct": 30.99
+      },
+      "turnout": 78.97
+    },
+    "Yancey": {
+      "name": "Yancey County",
+      "fips": "37199",
+      "presidential_2024": {
+        "trump": 7509,
+        "harris": 3635,
+        "total": 11247,
+        "margin": 3874,
+        "trump_pct": 66.76,
+        "harris_pct": 32.32,
+        "margin_pct": 34.44,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total": 14713,
+        "democrat": 3655,
+        "republican": 5584,
+        "unaffiliated": 5352,
+        "libertarian": 89,
+        "other": 33,
+        "dem_pct": 24.84,
+        "rep_pct": 37.95,
+        "una_pct": 36.38
+      },
+      "turnout": 76.44
+    }
+  }
+}

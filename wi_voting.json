@@ -1,0 +1,1830 @@
+{
+  "state": "Wisconsin",
+  "election": "2024 Presidential General Election",
+  "election_date": "2024-11-05",
+  "data_sources": {
+    "results": "Wisconsin Elections Commission, County by County Report (Nov 27, 2024). Archived at https://web.archive.org/web/20250829005002/https://elections.wi.gov/sites/default/files/documents/County%20by%20County%20Report_POTUS.pdf",
+    "registration": "Wisconsin Elections Commission, November 1, 2024 Voter Registration Statistics. https://elections.wi.gov/resources/statistics/november-1-2024-voter-registration-statistics"
+  },
+  "statewide": {
+    "trump": {
+      "votes": 1697626,
+      "pct": 49.6
+    },
+    "harris": {
+      "votes": 1668229,
+      "pct": 48.74
+    },
+    "other": {
+      "votes": 57063,
+      "pct": 1.67
+    },
+    "total_votes": 3422918,
+    "registered_voters": 3658236,
+    "winner": "Trump",
+    "margin_votes": 29397,
+    "margin_pct": 0.86
+  },
+  "counties": [
+    {
+      "county": "Adams County",
+      "trump": {
+        "votes": 7763,
+        "pct": 60.26
+      },
+      "harris": {
+        "votes": 4443,
+        "pct": 34.49
+      },
+      "other": {
+        "votes": 676,
+        "pct": 5.25
+      },
+      "margin": {
+        "votes": 3320,
+        "pct": 25.77,
+        "winner": "Trump"
+      },
+      "total_votes": 12882,
+      "registered_voters": 13683,
+      "turnout_pct": 94.15,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Ashland County",
+      "trump": {
+        "votes": 4191,
+        "pct": 46.8
+      },
+      "harris": {
+        "votes": 4612,
+        "pct": 51.5
+      },
+      "other": {
+        "votes": 152,
+        "pct": 1.7
+      },
+      "margin": {
+        "votes": -421,
+        "pct": -4.7,
+        "winner": "Harris"
+      },
+      "total_votes": 8955,
+      "registered_voters": 9776,
+      "turnout_pct": 91.6,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Barron County",
+      "trump": {
+        "votes": 16726,
+        "pct": 62.39
+      },
+      "harris": {
+        "votes": 8941,
+        "pct": 33.35
+      },
+      "other": {
+        "votes": 1142,
+        "pct": 4.26
+      },
+      "margin": {
+        "votes": 7785,
+        "pct": 29.04,
+        "winner": "Trump"
+      },
+      "total_votes": 26809,
+      "registered_voters": 28303,
+      "turnout_pct": 94.72,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Bayfield County",
+      "trump": {
+        "votes": 4860,
+        "pct": 43.24
+      },
+      "harris": {
+        "votes": 6107,
+        "pct": 54.33
+      },
+      "other": {
+        "votes": 273,
+        "pct": 2.43
+      },
+      "margin": {
+        "votes": -1247,
+        "pct": -11.09,
+        "winner": "Harris"
+      },
+      "total_votes": 11240,
+      "registered_voters": 12110,
+      "turnout_pct": 92.82,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Brown County",
+      "trump": {
+        "votes": 79132,
+        "pct": 52.99
+      },
+      "harris": {
+        "votes": 67937,
+        "pct": 45.49
+      },
+      "other": {
+        "votes": 2264,
+        "pct": 1.52
+      },
+      "margin": {
+        "votes": 11195,
+        "pct": 7.5,
+        "winner": "Trump"
+      },
+      "total_votes": 149333,
+      "registered_voters": 157996,
+      "turnout_pct": 94.52,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Buffalo County",
+      "trump": {
+        "votes": 5213,
+        "pct": 64.36
+      },
+      "harris": {
+        "votes": 2765,
+        "pct": 34.14
+      },
+      "other": {
+        "votes": 122,
+        "pct": 1.51
+      },
+      "margin": {
+        "votes": 2448,
+        "pct": 30.22,
+        "winner": "Trump"
+      },
+      "total_votes": 8100,
+      "registered_voters": 8509,
+      "turnout_pct": 95.19,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Burnett County",
+      "trump": {
+        "votes": 7008,
+        "pct": 64.83
+      },
+      "harris": {
+        "votes": 3665,
+        "pct": 33.9
+      },
+      "other": {
+        "votes": 137,
+        "pct": 1.27
+      },
+      "margin": {
+        "votes": 3343,
+        "pct": 30.93,
+        "winner": "Trump"
+      },
+      "total_votes": 10810,
+      "registered_voters": 11398,
+      "turnout_pct": 94.84,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Calumet County",
+      "trump": {
+        "votes": 19488,
+        "pct": 59.21
+      },
+      "harris": {
+        "votes": 12927,
+        "pct": 39.27
+      },
+      "other": {
+        "votes": 501,
+        "pct": 1.52
+      },
+      "margin": {
+        "votes": 6561,
+        "pct": 19.93,
+        "winner": "Trump"
+      },
+      "total_votes": 32916,
+      "registered_voters": 34332,
+      "turnout_pct": 95.88,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Chippewa County",
+      "trump": {
+        "votes": 23399,
+        "pct": 60.82
+      },
+      "harris": {
+        "votes": 14573,
+        "pct": 37.88
+      },
+      "other": {
+        "votes": 499,
+        "pct": 1.3
+      },
+      "margin": {
+        "votes": 8826,
+        "pct": 22.94,
+        "winner": "Trump"
+      },
+      "total_votes": 38471,
+      "registered_voters": 39975,
+      "turnout_pct": 96.24,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Clark County",
+      "trump": {
+        "votes": 10481,
+        "pct": 68.32
+      },
+      "harris": {
+        "votes": 4509,
+        "pct": 29.39
+      },
+      "other": {
+        "votes": 350,
+        "pct": 2.28
+      },
+      "margin": {
+        "votes": 5972,
+        "pct": 38.93,
+        "winner": "Trump"
+      },
+      "total_votes": 15340,
+      "registered_voters": 15992,
+      "turnout_pct": 95.92,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Columbia County",
+      "trump": {
+        "votes": 17988,
+        "pct": 51.52
+      },
+      "harris": {
+        "votes": 16388,
+        "pct": 46.94
+      },
+      "other": {
+        "votes": 538,
+        "pct": 1.54
+      },
+      "margin": {
+        "votes": 1600,
+        "pct": 4.58,
+        "winner": "Trump"
+      },
+      "total_votes": 34914,
+      "registered_voters": 36788,
+      "turnout_pct": 94.91,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Crawford County",
+      "trump": {
+        "votes": 5113,
+        "pct": 56.16
+      },
+      "harris": {
+        "votes": 3860,
+        "pct": 42.39
+      },
+      "other": {
+        "votes": 132,
+        "pct": 1.45
+      },
+      "margin": {
+        "votes": 1253,
+        "pct": 13.76,
+        "winner": "Trump"
+      },
+      "total_votes": 9105,
+      "registered_voters": 9506,
+      "turnout_pct": 95.78,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Dane County",
+      "trump": {
+        "votes": 85454,
+        "pct": 23.35
+      },
+      "harris": {
+        "votes": 273995,
+        "pct": 74.88
+      },
+      "other": {
+        "votes": 6480,
+        "pct": 1.77
+      },
+      "margin": {
+        "votes": -188541,
+        "pct": -51.52,
+        "winner": "Harris"
+      },
+      "total_votes": 365929,
+      "registered_voters": 402147,
+      "turnout_pct": 90.99,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Dodge County",
+      "trump": {
+        "votes": 33067,
+        "pct": 65.74
+      },
+      "harris": {
+        "votes": 16518,
+        "pct": 32.84
+      },
+      "other": {
+        "votes": 715,
+        "pct": 1.42
+      },
+      "margin": {
+        "votes": 16549,
+        "pct": 32.9,
+        "winner": "Trump"
+      },
+      "total_votes": 50300,
+      "registered_voters": 52458,
+      "turnout_pct": 95.89,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Door County",
+      "trump": {
+        "votes": 10099,
+        "pct": 48.22
+      },
+      "harris": {
+        "votes": 10565,
+        "pct": 50.44
+      },
+      "other": {
+        "votes": 280,
+        "pct": 1.34
+      },
+      "margin": {
+        "votes": -466,
+        "pct": -2.22,
+        "winner": "Harris"
+      },
+      "total_votes": 20944,
+      "registered_voters": 21923,
+      "turnout_pct": 95.53,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Douglas County",
+      "trump": {
+        "votes": 11732,
+        "pct": 46.49
+      },
+      "harris": {
+        "votes": 13073,
+        "pct": 51.81
+      },
+      "other": {
+        "votes": 429,
+        "pct": 1.7
+      },
+      "margin": {
+        "votes": -1341,
+        "pct": -5.31,
+        "winner": "Harris"
+      },
+      "total_votes": 25234,
+      "registered_voters": 27195,
+      "turnout_pct": 92.79,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Dunn County",
+      "trump": {
+        "votes": 14726,
+        "pct": 57.35
+      },
+      "harris": {
+        "votes": 10643,
+        "pct": 41.45
+      },
+      "other": {
+        "votes": 309,
+        "pct": 1.2
+      },
+      "margin": {
+        "votes": 4083,
+        "pct": 15.9,
+        "winner": "Trump"
+      },
+      "total_votes": 25678,
+      "registered_voters": 26748,
+      "turnout_pct": 96.0,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Eau Claire County",
+      "trump": {
+        "votes": 27728,
+        "pct": 43.89
+      },
+      "harris": {
+        "votes": 34400,
+        "pct": 54.45
+      },
+      "other": {
+        "votes": 1049,
+        "pct": 1.66
+      },
+      "margin": {
+        "votes": -6672,
+        "pct": -10.56,
+        "winner": "Harris"
+      },
+      "total_votes": 63177,
+      "registered_voters": 65228,
+      "turnout_pct": 96.86,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Florence County",
+      "trump": {
+        "votes": 2356,
+        "pct": 74.6
+      },
+      "harris": {
+        "votes": 783,
+        "pct": 24.79
+      },
+      "other": {
+        "votes": 19,
+        "pct": 0.6
+      },
+      "margin": {
+        "votes": 1573,
+        "pct": 49.81,
+        "winner": "Trump"
+      },
+      "total_votes": 3158,
+      "registered_voters": 3267,
+      "turnout_pct": 96.66,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Fond du Lac County",
+      "trump": {
+        "votes": 37272,
+        "pct": 63.68
+      },
+      "harris": {
+        "votes": 20495,
+        "pct": 35.02
+      },
+      "other": {
+        "votes": 760,
+        "pct": 1.3
+      },
+      "margin": {
+        "votes": 16777,
+        "pct": 28.67,
+        "winner": "Trump"
+      },
+      "total_votes": 58527,
+      "registered_voters": 60331,
+      "turnout_pct": 97.01,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Forest County",
+      "trump": {
+        "votes": 3382,
+        "pct": 66.35
+      },
+      "harris": {
+        "votes": 1681,
+        "pct": 32.98
+      },
+      "other": {
+        "votes": 34,
+        "pct": 0.67
+      },
+      "margin": {
+        "votes": 1701,
+        "pct": 33.37,
+        "winner": "Trump"
+      },
+      "total_votes": 5097,
+      "registered_voters": 5825,
+      "turnout_pct": 87.5,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Grant County",
+      "trump": {
+        "votes": 15922,
+        "pct": 58.31
+      },
+      "harris": {
+        "votes": 10966,
+        "pct": 40.16
+      },
+      "other": {
+        "votes": 418,
+        "pct": 1.53
+      },
+      "margin": {
+        "votes": 4956,
+        "pct": 18.15,
+        "winner": "Trump"
+      },
+      "total_votes": 27306,
+      "registered_voters": 27890,
+      "turnout_pct": 97.91,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Green County",
+      "trump": {
+        "votes": 10843,
+        "pct": 49.12
+      },
+      "harris": {
+        "votes": 10903,
+        "pct": 49.39
+      },
+      "other": {
+        "votes": 330,
+        "pct": 1.49
+      },
+      "margin": {
+        "votes": -60,
+        "pct": -0.27,
+        "winner": "Harris"
+      },
+      "total_votes": 22076,
+      "registered_voters": 22980,
+      "turnout_pct": 96.07,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Green Lake County",
+      "trump": {
+        "votes": 7458,
+        "pct": 67.48
+      },
+      "harris": {
+        "votes": 3449,
+        "pct": 31.21
+      },
+      "other": {
+        "votes": 145,
+        "pct": 1.31
+      },
+      "margin": {
+        "votes": 4009,
+        "pct": 36.27,
+        "winner": "Trump"
+      },
+      "total_votes": 11052,
+      "registered_voters": 11680,
+      "turnout_pct": 94.62,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Iowa County",
+      "trump": {
+        "votes": 6631,
+        "pct": 45.18
+      },
+      "harris": {
+        "votes": 7750,
+        "pct": 52.8
+      },
+      "other": {
+        "votes": 296,
+        "pct": 2.02
+      },
+      "margin": {
+        "votes": -1119,
+        "pct": -7.62,
+        "winner": "Harris"
+      },
+      "total_votes": 14677,
+      "registered_voters": 15244,
+      "turnout_pct": 96.28,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Iron County",
+      "trump": {
+        "votes": 2557,
+        "pct": 62.61
+      },
+      "harris": {
+        "votes": 1487,
+        "pct": 36.41
+      },
+      "other": {
+        "votes": 40,
+        "pct": 0.98
+      },
+      "margin": {
+        "votes": 1070,
+        "pct": 26.2,
+        "winner": "Trump"
+      },
+      "total_votes": 4084,
+      "registered_voters": 4427,
+      "turnout_pct": 92.25,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Jackson County",
+      "trump": {
+        "votes": 6204,
+        "pct": 59.07
+      },
+      "harris": {
+        "votes": 4157,
+        "pct": 39.58
+      },
+      "other": {
+        "votes": 141,
+        "pct": 1.34
+      },
+      "margin": {
+        "votes": 2047,
+        "pct": 19.49,
+        "winner": "Trump"
+      },
+      "total_votes": 10502,
+      "registered_voters": 11134,
+      "turnout_pct": 94.32,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Jefferson County",
+      "trump": {
+        "votes": 28771,
+        "pct": 57.37
+      },
+      "harris": {
+        "votes": 20574,
+        "pct": 41.03
+      },
+      "other": {
+        "votes": 801,
+        "pct": 1.6
+      },
+      "margin": {
+        "votes": 8197,
+        "pct": 16.35,
+        "winner": "Trump"
+      },
+      "total_votes": 50146,
+      "registered_voters": 52186,
+      "turnout_pct": 96.09,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Juneau County",
+      "trump": {
+        "votes": 9525,
+        "pct": 65.45
+      },
+      "harris": {
+        "votes": 4854,
+        "pct": 33.35
+      },
+      "other": {
+        "votes": 174,
+        "pct": 1.2
+      },
+      "margin": {
+        "votes": 4671,
+        "pct": 32.1,
+        "winner": "Trump"
+      },
+      "total_votes": 14553,
+      "registered_voters": 15066,
+      "turnout_pct": 96.59,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Kenosha County",
+      "trump": {
+        "votes": 47478,
+        "pct": 52.36
+      },
+      "harris": {
+        "votes": 41826,
+        "pct": 46.12
+      },
+      "other": {
+        "votes": 1376,
+        "pct": 1.52
+      },
+      "margin": {
+        "votes": 5652,
+        "pct": 6.23,
+        "winner": "Trump"
+      },
+      "total_votes": 90680,
+      "registered_voters": 95685,
+      "turnout_pct": 94.77,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Kewaunee County",
+      "trump": {
+        "votes": 8267,
+        "pct": 66.22
+      },
+      "harris": {
+        "votes": 4059,
+        "pct": 32.51
+      },
+      "other": {
+        "votes": 158,
+        "pct": 1.27
+      },
+      "margin": {
+        "votes": 4208,
+        "pct": 33.71,
+        "winner": "Trump"
+      },
+      "total_votes": 12484,
+      "registered_voters": 12880,
+      "turnout_pct": 96.93,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "La Crosse County",
+      "trump": {
+        "votes": 32247,
+        "pct": 44.63
+      },
+      "harris": {
+        "votes": 39008,
+        "pct": 53.98
+      },
+      "other": {
+        "votes": 1006,
+        "pct": 1.39
+      },
+      "margin": {
+        "votes": -6761,
+        "pct": -9.36,
+        "winner": "Harris"
+      },
+      "total_votes": 72261,
+      "registered_voters": 73715,
+      "turnout_pct": 98.03,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Lafayette County",
+      "trump": {
+        "votes": 5256,
+        "pct": 59.51
+      },
+      "harris": {
+        "votes": 3469,
+        "pct": 39.28
+      },
+      "other": {
+        "votes": 107,
+        "pct": 1.21
+      },
+      "margin": {
+        "votes": 1787,
+        "pct": 20.23,
+        "winner": "Trump"
+      },
+      "total_votes": 8832,
+      "registered_voters": 9169,
+      "turnout_pct": 96.32,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Langlade County",
+      "trump": {
+        "votes": 7782,
+        "pct": 66.72
+      },
+      "harris": {
+        "votes": 3746,
+        "pct": 32.12
+      },
+      "other": {
+        "votes": 136,
+        "pct": 1.17
+      },
+      "margin": {
+        "votes": 4036,
+        "pct": 34.6,
+        "winner": "Trump"
+      },
+      "total_votes": 11664,
+      "registered_voters": 12141,
+      "turnout_pct": 96.07,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Lincoln County",
+      "trump": {
+        "votes": 10633,
+        "pct": 61.79
+      },
+      "harris": {
+        "votes": 6306,
+        "pct": 36.64
+      },
+      "other": {
+        "votes": 270,
+        "pct": 1.57
+      },
+      "margin": {
+        "votes": 4327,
+        "pct": 25.14,
+        "winner": "Trump"
+      },
+      "total_votes": 17209,
+      "registered_voters": 17726,
+      "turnout_pct": 97.08,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Manitowoc County",
+      "trump": {
+        "votes": 28200,
+        "pct": 60.89
+      },
+      "harris": {
+        "votes": 17399,
+        "pct": 37.57
+      },
+      "other": {
+        "votes": 717,
+        "pct": 1.55
+      },
+      "margin": {
+        "votes": 10801,
+        "pct": 23.32,
+        "winner": "Trump"
+      },
+      "total_votes": 46316,
+      "registered_voters": 48926,
+      "turnout_pct": 94.67,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Marathon County",
+      "trump": {
+        "votes": 46213,
+        "pct": 58.63
+      },
+      "harris": {
+        "votes": 31529,
+        "pct": 40.0
+      },
+      "other": {
+        "votes": 1084,
+        "pct": 1.38
+      },
+      "margin": {
+        "votes": 14684,
+        "pct": 18.63,
+        "winner": "Trump"
+      },
+      "total_votes": 78826,
+      "registered_voters": 83126,
+      "turnout_pct": 94.83,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Marinette County",
+      "trump": {
+        "votes": 16670,
+        "pct": 68.28
+      },
+      "harris": {
+        "votes": 7415,
+        "pct": 30.37
+      },
+      "other": {
+        "votes": 330,
+        "pct": 1.35
+      },
+      "margin": {
+        "votes": 9255,
+        "pct": 37.91,
+        "winner": "Trump"
+      },
+      "total_votes": 24415,
+      "registered_voters": 25928,
+      "turnout_pct": 94.16,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Marquette County",
+      "trump": {
+        "votes": 6041,
+        "pct": 64.08
+      },
+      "harris": {
+        "votes": 3252,
+        "pct": 34.5
+      },
+      "other": {
+        "votes": 134,
+        "pct": 1.42
+      },
+      "margin": {
+        "votes": 2789,
+        "pct": 29.59,
+        "winner": "Trump"
+      },
+      "total_votes": 9427,
+      "registered_voters": 9868,
+      "turnout_pct": 95.53,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Menominee County",
+      "trump": {
+        "votes": 296,
+        "pct": 18.83
+      },
+      "harris": {
+        "votes": 1266,
+        "pct": 80.53
+      },
+      "other": {
+        "votes": 10,
+        "pct": 0.64
+      },
+      "margin": {
+        "votes": -970,
+        "pct": -61.7,
+        "winner": "Harris"
+      },
+      "total_votes": 1572,
+      "registered_voters": 1880,
+      "turnout_pct": 83.62,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Milwaukee County",
+      "trump": {
+        "votes": 138022,
+        "pct": 29.74
+      },
+      "harris": {
+        "votes": 316292,
+        "pct": 68.15
+      },
+      "other": {
+        "votes": 9793,
+        "pct": 2.11
+      },
+      "margin": {
+        "votes": -178270,
+        "pct": -38.41,
+        "winner": "Harris"
+      },
+      "total_votes": 464107,
+      "registered_voters": 521899,
+      "turnout_pct": 88.93,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Monroe County",
+      "trump": {
+        "votes": 14563,
+        "pct": 62.32
+      },
+      "harris": {
+        "votes": 8476,
+        "pct": 36.27
+      },
+      "other": {
+        "votes": 330,
+        "pct": 1.41
+      },
+      "margin": {
+        "votes": 6087,
+        "pct": 26.05,
+        "winner": "Trump"
+      },
+      "total_votes": 23369,
+      "registered_voters": 24920,
+      "turnout_pct": 93.78,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Oconto County",
+      "trump": {
+        "votes": 17675,
+        "pct": 70.95
+      },
+      "harris": {
+        "votes": 6967,
+        "pct": 27.97
+      },
+      "other": {
+        "votes": 270,
+        "pct": 1.08
+      },
+      "margin": {
+        "votes": 10708,
+        "pct": 42.98,
+        "winner": "Trump"
+      },
+      "total_votes": 24912,
+      "registered_voters": 26003,
+      "turnout_pct": 95.8,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Oneida County",
+      "trump": {
+        "votes": 14455,
+        "pct": 58.06
+      },
+      "harris": {
+        "votes": 10080,
+        "pct": 40.49
+      },
+      "other": {
+        "votes": 360,
+        "pct": 1.45
+      },
+      "margin": {
+        "votes": 4375,
+        "pct": 17.57,
+        "winner": "Trump"
+      },
+      "total_votes": 24895,
+      "registered_voters": 26622,
+      "turnout_pct": 93.51,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Outagamie County",
+      "trump": {
+        "votes": 60827,
+        "pct": 54.34
+      },
+      "harris": {
+        "votes": 49438,
+        "pct": 44.17
+      },
+      "other": {
+        "votes": 1667,
+        "pct": 1.49
+      },
+      "margin": {
+        "votes": 11389,
+        "pct": 10.17,
+        "winner": "Trump"
+      },
+      "total_votes": 111932,
+      "registered_voters": 119005,
+      "turnout_pct": 94.06,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Ozaukee County",
+      "trump": {
+        "votes": 34504,
+        "pct": 54.36
+      },
+      "harris": {
+        "votes": 27874,
+        "pct": 43.92
+      },
+      "other": {
+        "votes": 1094,
+        "pct": 1.72
+      },
+      "margin": {
+        "votes": 6630,
+        "pct": 10.45,
+        "winner": "Trump"
+      },
+      "total_votes": 63472,
+      "registered_voters": 67130,
+      "turnout_pct": 94.55,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Pepin County",
+      "trump": {
+        "votes": 2798,
+        "pct": 64.26
+      },
+      "harris": {
+        "votes": 1523,
+        "pct": 34.98
+      },
+      "other": {
+        "votes": 33,
+        "pct": 0.76
+      },
+      "margin": {
+        "votes": 1275,
+        "pct": 29.28,
+        "winner": "Trump"
+      },
+      "total_votes": 4354,
+      "registered_voters": 4540,
+      "turnout_pct": 95.9,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Pierce County",
+      "trump": {
+        "votes": 14417,
+        "pct": 56.78
+      },
+      "harris": {
+        "votes": 10171,
+        "pct": 40.06
+      },
+      "other": {
+        "votes": 804,
+        "pct": 3.17
+      },
+      "margin": {
+        "votes": 4246,
+        "pct": 16.72,
+        "winner": "Trump"
+      },
+      "total_votes": 25392,
+      "registered_voters": 25928,
+      "turnout_pct": 97.93,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Polk County",
+      "trump": {
+        "votes": 18296,
+        "pct": 64.83
+      },
+      "harris": {
+        "votes": 9567,
+        "pct": 33.9
+      },
+      "other": {
+        "votes": 359,
+        "pct": 1.27
+      },
+      "margin": {
+        "votes": 8729,
+        "pct": 30.93,
+        "winner": "Trump"
+      },
+      "total_votes": 28222,
+      "registered_voters": 29397,
+      "turnout_pct": 96.0,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Portage County",
+      "trump": {
+        "votes": 20987,
+        "pct": 48.52
+      },
+      "harris": {
+        "votes": 21503,
+        "pct": 49.71
+      },
+      "other": {
+        "votes": 768,
+        "pct": 1.78
+      },
+      "margin": {
+        "votes": -516,
+        "pct": -1.19,
+        "winner": "Harris"
+      },
+      "total_votes": 43258,
+      "registered_voters": 45530,
+      "turnout_pct": 95.01,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Price County",
+      "trump": {
+        "votes": 5763,
+        "pct": 65.07
+      },
+      "harris": {
+        "votes": 3005,
+        "pct": 33.93
+      },
+      "other": {
+        "votes": 88,
+        "pct": 0.99
+      },
+      "margin": {
+        "votes": 2758,
+        "pct": 31.14,
+        "winner": "Trump"
+      },
+      "total_votes": 8856,
+      "registered_voters": 9383,
+      "turnout_pct": 94.38,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Racine County",
+      "trump": {
+        "votes": 56347,
+        "pct": 52.33
+      },
+      "harris": {
+        "votes": 49721,
+        "pct": 46.17
+      },
+      "other": {
+        "votes": 1618,
+        "pct": 1.5
+      },
+      "margin": {
+        "votes": 6626,
+        "pct": 6.15,
+        "winner": "Trump"
+      },
+      "total_votes": 107686,
+      "registered_voters": 116343,
+      "turnout_pct": 92.56,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Richland County",
+      "trump": {
+        "votes": 5207,
+        "pct": 55.85
+      },
+      "harris": {
+        "votes": 3985,
+        "pct": 42.74
+      },
+      "other": {
+        "votes": 131,
+        "pct": 1.41
+      },
+      "margin": {
+        "votes": 1222,
+        "pct": 13.11,
+        "winner": "Trump"
+      },
+      "total_votes": 9323,
+      "registered_voters": 9924,
+      "turnout_pct": 93.94,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Rock County",
+      "trump": {
+        "votes": 40218,
+        "pct": 45.54
+      },
+      "harris": {
+        "votes": 46642,
+        "pct": 52.82
+      },
+      "other": {
+        "votes": 1450,
+        "pct": 1.64
+      },
+      "margin": {
+        "votes": -6424,
+        "pct": -7.27,
+        "winner": "Harris"
+      },
+      "total_votes": 88310,
+      "registered_voters": 95947,
+      "turnout_pct": 92.04,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Rusk County",
+      "trump": {
+        "votes": 5660,
+        "pct": 68.44
+      },
+      "harris": {
+        "votes": 2516,
+        "pct": 30.42
+      },
+      "other": {
+        "votes": 94,
+        "pct": 1.14
+      },
+      "margin": {
+        "votes": 3144,
+        "pct": 38.02,
+        "winner": "Trump"
+      },
+      "total_votes": 8270,
+      "registered_voters": 8581,
+      "turnout_pct": 96.38,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "St. Croix County",
+      "trump": {
+        "votes": 35537,
+        "pct": 58.6
+      },
+      "harris": {
+        "votes": 23870,
+        "pct": 39.36
+      },
+      "other": {
+        "votes": 1235,
+        "pct": 2.04
+      },
+      "margin": {
+        "votes": 11667,
+        "pct": 19.24,
+        "winner": "Trump"
+      },
+      "total_votes": 60642,
+      "registered_voters": 63694,
+      "turnout_pct": 95.21,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Sauk County",
+      "trump": {
+        "votes": 18798,
+        "pct": 50.02
+      },
+      "harris": {
+        "votes": 18172,
+        "pct": 48.35
+      },
+      "other": {
+        "votes": 614,
+        "pct": 1.63
+      },
+      "margin": {
+        "votes": 626,
+        "pct": 1.67,
+        "winner": "Trump"
+      },
+      "total_votes": 37584,
+      "registered_voters": 40055,
+      "turnout_pct": 93.83,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Sawyer County",
+      "trump": {
+        "votes": 6422,
+        "pct": 57.65
+      },
+      "harris": {
+        "votes": 4599,
+        "pct": 41.28
+      },
+      "other": {
+        "votes": 119,
+        "pct": 1.07
+      },
+      "margin": {
+        "votes": 1823,
+        "pct": 16.36,
+        "winner": "Trump"
+      },
+      "total_votes": 11140,
+      "registered_voters": 11979,
+      "turnout_pct": 93.0,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Shawano County",
+      "trump": {
+        "votes": 15850,
+        "pct": 67.45
+      },
+      "harris": {
+        "votes": 7336,
+        "pct": 31.22
+      },
+      "other": {
+        "votes": 314,
+        "pct": 1.34
+      },
+      "margin": {
+        "votes": 8514,
+        "pct": 36.23,
+        "winner": "Trump"
+      },
+      "total_votes": 23500,
+      "registered_voters": 24671,
+      "turnout_pct": 95.25,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Sheboygan County",
+      "trump": {
+        "votes": 38763,
+        "pct": 57.37
+      },
+      "harris": {
+        "votes": 27735,
+        "pct": 41.05
+      },
+      "other": {
+        "votes": 1064,
+        "pct": 1.57
+      },
+      "margin": {
+        "votes": 11028,
+        "pct": 16.32,
+        "winner": "Trump"
+      },
+      "total_votes": 67562,
+      "registered_voters": 71913,
+      "turnout_pct": 93.95,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Taylor County",
+      "trump": {
+        "votes": 8209,
+        "pct": 73.39
+      },
+      "harris": {
+        "votes": 2823,
+        "pct": 25.24
+      },
+      "other": {
+        "votes": 154,
+        "pct": 1.38
+      },
+      "margin": {
+        "votes": 5386,
+        "pct": 48.15,
+        "winner": "Trump"
+      },
+      "total_votes": 11186,
+      "registered_voters": 11671,
+      "turnout_pct": 95.84,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Trempealeau County",
+      "trump": {
+        "votes": 9661,
+        "pct": 60.08
+      },
+      "harris": {
+        "votes": 6219,
+        "pct": 38.68
+      },
+      "other": {
+        "votes": 199,
+        "pct": 1.24
+      },
+      "margin": {
+        "votes": 3442,
+        "pct": 21.41,
+        "winner": "Trump"
+      },
+      "total_votes": 16079,
+      "registered_voters": 16774,
+      "turnout_pct": 95.86,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Vernon County",
+      "trump": {
+        "votes": 8807,
+        "pct": 53.03
+      },
+      "harris": {
+        "votes": 7514,
+        "pct": 45.24
+      },
+      "other": {
+        "votes": 288,
+        "pct": 1.73
+      },
+      "margin": {
+        "votes": 1293,
+        "pct": 7.78,
+        "winner": "Trump"
+      },
+      "total_votes": 16609,
+      "registered_voters": 17393,
+      "turnout_pct": 95.49,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Vilas County",
+      "trump": {
+        "votes": 9837,
+        "pct": 60.97
+      },
+      "harris": {
+        "votes": 6119,
+        "pct": 37.92
+      },
+      "other": {
+        "votes": 179,
+        "pct": 1.11
+      },
+      "margin": {
+        "votes": 3718,
+        "pct": 23.04,
+        "winner": "Trump"
+      },
+      "total_votes": 16135,
+      "registered_voters": 17274,
+      "turnout_pct": 93.41,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Walworth County",
+      "trump": {
+        "votes": 36603,
+        "pct": 60.4
+      },
+      "harris": {
+        "votes": 23161,
+        "pct": 38.22
+      },
+      "other": {
+        "votes": 833,
+        "pct": 1.37
+      },
+      "margin": {
+        "votes": 13442,
+        "pct": 22.18,
+        "winner": "Trump"
+      },
+      "total_votes": 60597,
+      "registered_voters": 64193,
+      "turnout_pct": 94.4,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Washburn County",
+      "trump": {
+        "votes": 6962,
+        "pct": 63.42
+      },
+      "harris": {
+        "votes": 3867,
+        "pct": 35.22
+      },
+      "other": {
+        "votes": 149,
+        "pct": 1.36
+      },
+      "margin": {
+        "votes": 3095,
+        "pct": 28.19,
+        "winner": "Trump"
+      },
+      "total_votes": 10978,
+      "registered_voters": 11638,
+      "turnout_pct": 94.33,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Washington County",
+      "trump": {
+        "votes": 61604,
+        "pct": 67.4
+      },
+      "harris": {
+        "votes": 28504,
+        "pct": 31.18
+      },
+      "other": {
+        "votes": 1299,
+        "pct": 1.42
+      },
+      "margin": {
+        "votes": 33100,
+        "pct": 36.21,
+        "winner": "Trump"
+      },
+      "total_votes": 91407,
+      "registered_voters": 95203,
+      "turnout_pct": 96.01,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Waukesha County",
+      "trump": {
+        "votes": 162768,
+        "pct": 59.02
+      },
+      "harris": {
+        "votes": 108478,
+        "pct": 39.33
+      },
+      "other": {
+        "votes": 4541,
+        "pct": 1.65
+      },
+      "margin": {
+        "votes": 54290,
+        "pct": 19.69,
+        "winner": "Trump"
+      },
+      "total_votes": 275787,
+      "registered_voters": 293429,
+      "turnout_pct": 93.99,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Waupaca County",
+      "trump": {
+        "votes": 20093,
+        "pct": 66.09
+      },
+      "harris": {
+        "votes": 9947,
+        "pct": 32.72
+      },
+      "other": {
+        "votes": 363,
+        "pct": 1.19
+      },
+      "margin": {
+        "votes": 10146,
+        "pct": 33.37,
+        "winner": "Trump"
+      },
+      "total_votes": 30403,
+      "registered_voters": 31413,
+      "turnout_pct": 96.78,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Waushara County",
+      "trump": {
+        "votes": 9625,
+        "pct": 67.01
+      },
+      "harris": {
+        "votes": 4571,
+        "pct": 31.82
+      },
+      "other": {
+        "votes": 167,
+        "pct": 1.16
+      },
+      "margin": {
+        "votes": 5054,
+        "pct": 35.19,
+        "winner": "Trump"
+      },
+      "total_votes": 14363,
+      "registered_voters": 14918,
+      "turnout_pct": 96.28,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Winnebago County",
+      "trump": {
+        "votes": 49179,
+        "pct": 51.57
+      },
+      "harris": {
+        "votes": 44660,
+        "pct": 46.83
+      },
+      "other": {
+        "votes": 1532,
+        "pct": 1.61
+      },
+      "margin": {
+        "votes": 4519,
+        "pct": 4.74,
+        "winner": "Trump"
+      },
+      "total_votes": 95371,
+      "registered_voters": 101561,
+      "turnout_pct": 93.91,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    },
+    {
+      "county": "Wood County",
+      "trump": {
+        "votes": 24997,
+        "pct": 59.21
+      },
+      "harris": {
+        "votes": 16599,
+        "pct": 39.32
+      },
+      "other": {
+        "votes": 620,
+        "pct": 1.47
+      },
+      "margin": {
+        "votes": 8398,
+        "pct": 19.89,
+        "winner": "Trump"
+      },
+      "total_votes": 42216,
+      "registered_voters": 44164,
+      "turnout_pct": 95.59,
+      "source": "Wisconsin Elections Commission (County by County Report, Nov 27 2024)",
+      "registration_source": "Wisconsin Elections Commission (Nov 1, 2024 Voter Registration Statistics)"
+    }
+  ]
+}

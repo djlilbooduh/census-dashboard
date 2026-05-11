@@ -1,0 +1,3604 @@
+{
+  "state": "IL",
+  "source": "Wikipedia (county presidential results). Voter registration estimated from turnout rate.",
+  "turnout_rates": {
+    "2016_pct": 68.95,
+    "2020_pct": 72.14,
+    "2024_pct": 70.42
+  },
+  "statewide_totals": {
+    "2016": {
+      "dem_votes": 3090729,
+      "rep_votes": 2146015,
+      "other_votes": 358535,
+      "total_votes": 5595279,
+      "est_registered": 8114980
+    },
+    "2020": {
+      "dem_votes": 3471915,
+      "rep_votes": 2446891,
+      "other_votes": 132704,
+      "total_votes": 6051510,
+      "est_registered": 8388564
+    },
+    "2024": {
+      "dem_votes": 3062863,
+      "rep_votes": 2449079,
+      "other_votes": 121928,
+      "total_votes": 5633870,
+      "est_registered": 8000383
+    }
+  },
+  "counties": {
+    "Adams": {
+      "name": "Adams",
+      "voting": {
+        "2016": {
+          "democratic_votes": 7676,
+          "democratic_pct": 23.76,
+          "republican_votes": 22790,
+          "republican_pct": 70.54,
+          "other_votes": 1844,
+          "other_pct": 5.7,
+          "total_votes": 32310,
+          "est_registered_voters": 46860
+        },
+        "2020": {
+          "democratic_votes": 8633,
+          "democratic_pct": 25.75,
+          "republican_votes": 24220,
+          "republican_pct": 72.24,
+          "other_votes": 674,
+          "other_pct": 2.01,
+          "total_votes": 33527,
+          "est_registered_voters": 46475
+        },
+        "2024": {
+          "democratic_votes": 8111,
+          "democratic_pct": 25.43,
+          "republican_votes": 23161,
+          "republican_pct": 72.61,
+          "other_votes": 628,
+          "other_pct": 1.96,
+          "total_votes": 31900,
+          "est_registered_voters": 45300
+        }
+      }
+    },
+    "Alexander": {
+      "name": "Alexander",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1262,
+          "democratic_pct": 44.75,
+          "republican_votes": 1496,
+          "republican_pct": 53.05,
+          "other_votes": 62,
+          "other_pct": 2.2,
+          "total_votes": 2820,
+          "est_registered_voters": 4090
+        },
+        "2020": {
+          "democratic_votes": 1114,
+          "democratic_pct": 42.5,
+          "republican_votes": 1486,
+          "republican_pct": 56.7,
+          "other_votes": 21,
+          "other_pct": 0.8,
+          "total_votes": 2621,
+          "est_registered_voters": 3633
+        },
+        "2024": {
+          "democratic_votes": 904,
+          "democratic_pct": 39.72,
+          "republican_votes": 1341,
+          "republican_pct": 58.92,
+          "other_votes": 31,
+          "other_pct": 1.36,
+          "total_votes": 2276,
+          "est_registered_voters": 3232
+        }
+      }
+    },
+    "Bond": {
+      "name": "Bond",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2068,
+          "democratic_pct": 27.32,
+          "republican_votes": 4888,
+          "republican_pct": 64.57,
+          "other_votes": 614,
+          "other_pct": 8.11,
+          "total_votes": 7570,
+          "est_registered_voters": 10979
+        },
+        "2020": {
+          "democratic_votes": 2288,
+          "democratic_pct": 28.02,
+          "republican_votes": 5625,
+          "republican_pct": 68.89,
+          "other_votes": 252,
+          "other_pct": 3.09,
+          "total_votes": 8165,
+          "est_registered_voters": 11318
+        },
+        "2024": {
+          "democratic_votes": 2117,
+          "democratic_pct": 26.41,
+          "republican_votes": 5692,
+          "republican_pct": 71.01,
+          "other_votes": 207,
+          "other_pct": 2.58,
+          "total_votes": 8016,
+          "est_registered_voters": 11383
+        }
+      }
+    },
+    "Boone": {
+      "name": "Boone",
+      "voting": {
+        "2016": {
+          "democratic_votes": 8986,
+          "democratic_pct": 39.07,
+          "republican_votes": 12282,
+          "republican_pct": 53.4,
+          "other_votes": 1733,
+          "other_pct": 7.53,
+          "total_votes": 23001,
+          "est_registered_voters": 33359
+        },
+        "2020": {
+          "democratic_votes": 10542,
+          "democratic_pct": 42.09,
+          "republican_votes": 13883,
+          "republican_pct": 55.43,
+          "other_votes": 1733,
+          "other_pct": 2.48,
+          "total_votes": 26158,
+          "est_registered_voters": 36260
+        },
+        "2024": {
+          "democratic_votes": 10159,
+          "democratic_pct": 41.71,
+          "republican_votes": 13673,
+          "republican_pct": 56.14,
+          "other_votes": 525,
+          "other_pct": 2.15,
+          "total_votes": 24357,
+          "est_registered_voters": 34588
+        }
+      }
+    },
+    "Brown": {
+      "name": "Brown",
+      "voting": {
+        "2016": {
+          "democratic_votes": 476,
+          "democratic_pct": 20.01,
+          "republican_votes": 1796,
+          "republican_pct": 75.49,
+          "other_votes": 107,
+          "other_pct": 4.5,
+          "total_votes": 2379,
+          "est_registered_voters": 3450
+        },
+        "2020": {
+          "democratic_votes": 486,
+          "democratic_pct": 19.25,
+          "republican_votes": 1931,
+          "republican_pct": 76.48,
+          "other_votes": 108,
+          "other_pct": 4.27,
+          "total_votes": 2525,
+          "est_registered_voters": 3500
+        },
+        "2024": {
+          "democratic_votes": 467,
+          "democratic_pct": 18.95,
+          "republican_votes": 1938,
+          "republican_pct": 78.62,
+          "other_votes": 60,
+          "other_pct": 2.43,
+          "total_votes": 2465,
+          "est_registered_voters": 3500
+        }
+      }
+    },
+    "Bureau": {
+      "name": "Bureau",
+      "voting": {
+        "2016": {
+          "democratic_votes": 6029,
+          "democratic_pct": 36.38,
+          "republican_votes": 9281,
+          "republican_pct": 56.01,
+          "other_votes": 1261,
+          "other_pct": 7.61,
+          "total_votes": 16571,
+          "est_registered_voters": 24033
+        },
+        "2020": {
+          "democratic_votes": 6669,
+          "democratic_pct": 38.12,
+          "republican_votes": 10411,
+          "republican_pct": 59.51,
+          "other_votes": 414,
+          "other_pct": 2.37,
+          "total_votes": 17494,
+          "est_registered_voters": 24250
+        },
+        "2024": {
+          "democratic_votes": 5900,
+          "democratic_pct": 36.71,
+          "republican_votes": 9784,
+          "republican_pct": 60.88,
+          "other_votes": 387,
+          "other_pct": 2.41,
+          "total_votes": 16071,
+          "est_registered_voters": 22822
+        }
+      }
+    },
+    "Calhoun": {
+      "name": "Calhoun",
+      "voting": {
+        "2016": {
+          "democratic_votes": 739,
+          "democratic_pct": 28.74,
+          "republican_votes": 1721,
+          "republican_pct": 66.94,
+          "other_votes": 111,
+          "other_pct": 4.32,
+          "total_votes": 2571,
+          "est_registered_voters": 3729
+        },
+        "2020": {
+          "democratic_votes": 677,
+          "democratic_pct": 24.41,
+          "republican_votes": 2046,
+          "republican_pct": 73.78,
+          "other_votes": 50,
+          "other_pct": 1.81,
+          "total_votes": 2773,
+          "est_registered_voters": 3844
+        },
+        "2024": {
+          "democratic_votes": 560,
+          "democratic_pct": 20.86,
+          "republican_votes": 2059,
+          "republican_pct": 76.71,
+          "other_votes": 65,
+          "other_pct": 2.43,
+          "total_votes": 2684,
+          "est_registered_voters": 3811
+        }
+      }
+    },
+    "Carroll": {
+      "name": "Carroll",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2447,
+          "democratic_pct": 32.87,
+          "republican_votes": 4434,
+          "republican_pct": 59.56,
+          "other_votes": 564,
+          "other_pct": 7.57,
+          "total_votes": 7445,
+          "est_registered_voters": 10798
+        },
+        "2020": {
+          "democratic_votes": 2748,
+          "democratic_pct": 34.19,
+          "republican_votes": 5105,
+          "republican_pct": 63.52,
+          "other_votes": 184,
+          "other_pct": 2.29,
+          "total_votes": 8037,
+          "est_registered_voters": 11141
+        },
+        "2024": {
+          "democratic_votes": 2600,
+          "democratic_pct": 33.09,
+          "republican_votes": 5082,
+          "republican_pct": 64.68,
+          "other_votes": 175,
+          "other_pct": 2.23,
+          "total_votes": 7857,
+          "est_registered_voters": 11157
+        }
+      }
+    },
+    "Cass": {
+      "name": "Cass",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1621,
+          "democratic_pct": 31.64,
+          "republican_votes": 3216,
+          "republican_pct": 62.76,
+          "other_votes": 287,
+          "other_pct": 5.6,
+          "total_votes": 5124,
+          "est_registered_voters": 7431
+        },
+        "2020": {
+          "democratic_votes": 1615,
+          "democratic_pct": 30.32,
+          "republican_votes": 3625,
+          "republican_pct": 68.06,
+          "other_votes": 86,
+          "other_pct": 1.62,
+          "total_votes": 5326,
+          "est_registered_voters": 7383
+        },
+        "2024": {
+          "democratic_votes": 1438,
+          "democratic_pct": 27.44,
+          "republican_votes": 3712,
+          "republican_pct": 70.83,
+          "other_votes": 91,
+          "other_pct": 1.73,
+          "total_votes": 5241,
+          "est_registered_voters": 7442
+        }
+      }
+    },
+    "Champaign": {
+      "name": "Champaign",
+      "voting": {
+        "2016": {
+          "democratic_votes": 50137,
+          "democratic_pct": 54.72,
+          "republican_votes": 33368,
+          "republican_pct": 36.42,
+          "other_votes": 8123,
+          "other_pct": 8.86,
+          "total_votes": 91628,
+          "est_registered_voters": 132891
+        },
+        "2020": {
+          "democratic_votes": 57067,
+          "democratic_pct": 59.71,
+          "republican_votes": 35285,
+          "republican_pct": 36.92,
+          "other_votes": 3221,
+          "other_pct": 3.37,
+          "total_votes": 95573,
+          "est_registered_voters": 132483
+        },
+        "2024": {
+          "democratic_votes": 54314,
+          "democratic_pct": 60.18,
+          "republican_votes": 32965,
+          "republican_pct": 36.52,
+          "other_votes": 2977,
+          "other_pct": 3.3,
+          "total_votes": 90256,
+          "est_registered_voters": 128168
+        }
+      }
+    },
+    "Christian": {
+      "name": "Christian",
+      "voting": {
+        "2016": {
+          "democratic_votes": 3992,
+          "democratic_pct": 25.79,
+          "republican_votes": 10543,
+          "republican_pct": 68.12,
+          "other_votes": 942,
+          "other_pct": 6.09,
+          "total_votes": 15477,
+          "est_registered_voters": 22447
+        },
+        "2020": {
+          "democratic_votes": 4335,
+          "democratic_pct": 26.71,
+          "republican_votes": 11563,
+          "republican_pct": 71.24,
+          "other_votes": 333,
+          "other_pct": 2.05,
+          "total_votes": 16231,
+          "est_registered_voters": 22499
+        },
+        "2024": {
+          "democratic_votes": 4026,
+          "democratic_pct": 25.81,
+          "republican_votes": 11278,
+          "republican_pct": 72.29,
+          "other_votes": 296,
+          "other_pct": 1.9,
+          "total_votes": 15600,
+          "est_registered_voters": 22153
+        }
+      }
+    },
+    "Clark": {
+      "name": "Clark",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1877,
+          "democratic_pct": 23.68,
+          "republican_votes": 5622,
+          "republican_pct": 70.91,
+          "other_votes": 429,
+          "other_pct": 5.41,
+          "total_votes": 7928,
+          "est_registered_voters": 11498
+        },
+        "2020": {
+          "democratic_votes": 1993,
+          "democratic_pct": 23.81,
+          "republican_votes": 6226,
+          "republican_pct": 74.39,
+          "other_votes": 150,
+          "other_pct": 1.8,
+          "total_votes": 8369,
+          "est_registered_voters": 11601
+        },
+        "2024": {
+          "democratic_votes": 1927,
+          "democratic_pct": 23.42,
+          "republican_votes": 6130,
+          "republican_pct": 74.5,
+          "other_votes": 171,
+          "other_pct": 2.08,
+          "total_votes": 8228,
+          "est_registered_voters": 11684
+        }
+      }
+    },
+    "Clay": {
+      "name": "Clay",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1020,
+          "democratic_pct": 16.06,
+          "republican_votes": 5021,
+          "republican_pct": 79.07,
+          "other_votes": 309,
+          "other_pct": 4.87,
+          "total_votes": 6350,
+          "est_registered_voters": 9210
+        },
+        "2020": {
+          "democratic_votes": 1129,
+          "democratic_pct": 16.36,
+          "republican_votes": 5629,
+          "republican_pct": 81.59,
+          "other_votes": 141,
+          "other_pct": 2.05,
+          "total_votes": 6899,
+          "est_registered_voters": 9563
+        },
+        "2024": {
+          "democratic_votes": 1054,
+          "democratic_pct": 15.55,
+          "republican_votes": 5610,
+          "republican_pct": 82.77,
+          "other_votes": 114,
+          "other_pct": 1.68,
+          "total_votes": 6778,
+          "est_registered_voters": 9625
+        }
+      }
+    },
+    "Clinton": {
+      "name": "Clinton",
+      "voting": {
+        "2016": {
+          "democratic_votes": 3945,
+          "democratic_pct": 22.65,
+          "republican_votes": 12412,
+          "republican_pct": 71.26,
+          "other_votes": 1062,
+          "other_pct": 6.09,
+          "total_votes": 17419,
+          "est_registered_voters": 25263
+        },
+        "2020": {
+          "democratic_votes": 4493,
+          "democratic_pct": 23.38,
+          "republican_votes": 14304,
+          "republican_pct": 74.45,
+          "other_votes": 417,
+          "other_pct": 2.17,
+          "total_votes": 19214,
+          "est_registered_voters": 26634
+        },
+        "2024": {
+          "democratic_votes": 4447,
+          "democratic_pct": 23.03,
+          "republican_votes": 14407,
+          "republican_pct": 74.62,
+          "other_votes": 452,
+          "other_pct": 2.35,
+          "total_votes": 19306,
+          "est_registered_voters": 27416
+        }
+      }
+    },
+    "Coles": {
+      "name": "Coles",
+      "voting": {
+        "2016": {
+          "democratic_votes": 7309,
+          "democratic_pct": 33.35,
+          "republican_votes": 13003,
+          "republican_pct": 59.33,
+          "other_votes": 1606,
+          "other_pct": 7.32,
+          "total_votes": 21918,
+          "est_registered_voters": 31788
+        },
+        "2020": {
+          "democratic_votes": 8067,
+          "democratic_pct": 35.59,
+          "republican_votes": 14037,
+          "republican_pct": 61.92,
+          "other_votes": 564,
+          "other_pct": 2.49,
+          "total_votes": 22668,
+          "est_registered_voters": 31422
+        },
+        "2024": {
+          "democratic_votes": 7495,
+          "democratic_pct": 34.68,
+          "republican_votes": 13606,
+          "republican_pct": 62.95,
+          "other_votes": 512,
+          "other_pct": 2.37,
+          "total_votes": 21613,
+          "est_registered_voters": 30692
+        }
+      }
+    },
+    "Cook": {
+      "name": "Cook",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1611946,
+          "democratic_pct": 73.93,
+          "republican_votes": 453287,
+          "republican_pct": 20.79,
+          "other_votes": 115111,
+          "other_pct": 5.28,
+          "total_votes": 2180344,
+          "est_registered_voters": 3162210
+        },
+        "2020": {
+          "democratic_votes": 1725973,
+          "democratic_pct": 74.22,
+          "republican_votes": 558269,
+          "republican_pct": 24.01,
+          "other_votes": 41163,
+          "other_pct": 1.77,
+          "total_votes": 2325405,
+          "est_registered_voters": 3223461
+        },
+        "2024": {
+          "democratic_votes": 1447821,
+          "democratic_pct": 69.63,
+          "republican_votes": 583852,
+          "republican_pct": 28.08,
+          "other_votes": 47566,
+          "other_pct": 2.29,
+          "total_votes": 2079239,
+          "est_registered_voters": 2952626
+        }
+      }
+    },
+    "Crawford": {
+      "name": "Crawford",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1992,
+          "democratic_pct": 22.79,
+          "republican_votes": 6277,
+          "republican_pct": 71.83,
+          "other_votes": 470,
+          "other_pct": 5.38,
+          "total_votes": 8739,
+          "est_registered_voters": 12674
+        },
+        "2020": {
+          "democratic_votes": 2202,
+          "democratic_pct": 23.32,
+          "republican_votes": 7043,
+          "republican_pct": 74.6,
+          "other_votes": 196,
+          "other_pct": 2.08,
+          "total_votes": 9441,
+          "est_registered_voters": 13087
+        },
+        "2024": {
+          "democratic_votes": 2048,
+          "democratic_pct": 22.87,
+          "republican_votes": 6727,
+          "republican_pct": 75.13,
+          "other_votes": 179,
+          "other_pct": 2.0,
+          "total_votes": 8954,
+          "est_registered_voters": 12715
+        }
+      }
+    },
+    "Cumberland": {
+      "name": "Cumberland",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1031,
+          "democratic_pct": 18.51,
+          "republican_votes": 4206,
+          "republican_pct": 75.5,
+          "other_votes": 334,
+          "other_pct": 5.99,
+          "total_votes": 5571,
+          "est_registered_voters": 8080
+        },
+        "2020": {
+          "democratic_votes": 1142,
+          "democratic_pct": 19.52,
+          "republican_votes": 4601,
+          "republican_pct": 78.66,
+          "other_votes": 106,
+          "other_pct": 1.82,
+          "total_votes": 5849,
+          "est_registered_voters": 8108
+        },
+        "2024": {
+          "democratic_votes": 1059,
+          "democratic_pct": 18.28,
+          "republican_votes": 4627,
+          "republican_pct": 79.89,
+          "other_votes": 106,
+          "other_pct": 1.83,
+          "total_votes": 5792,
+          "est_registered_voters": 8225
+        }
+      }
+    },
+    "DeKalb": {
+      "name": "DeKalb",
+      "voting": {
+        "2016": {
+          "democratic_votes": 20466,
+          "democratic_pct": 46.94,
+          "republican_votes": 19091,
+          "republican_pct": 43.79,
+          "other_votes": 4043,
+          "other_pct": 9.27,
+          "total_votes": 43600,
+          "est_registered_voters": 63234
+        },
+        "2020": {
+          "democratic_votes": 24643,
+          "democratic_pct": 51.35,
+          "republican_votes": 21905,
+          "republican_pct": 45.65,
+          "other_votes": 1441,
+          "other_pct": 3.0,
+          "total_votes": 47989,
+          "est_registered_voters": 66522
+        },
+        "2024": {
+          "democratic_votes": 23648,
+          "democratic_pct": 50.12,
+          "republican_votes": 22716,
+          "republican_pct": 48.14,
+          "other_votes": 822,
+          "other_pct": 1.74,
+          "total_votes": 47186,
+          "est_registered_voters": 67007
+        }
+      }
+    },
+    "DeWitt": {
+      "name": "DeWitt",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1910,
+          "democratic_pct": 25.28,
+          "republican_votes": 5077,
+          "republican_pct": 67.19,
+          "other_votes": 569,
+          "other_pct": 7.53,
+          "total_votes": 7556,
+          "est_registered_voters": 10959
+        },
+        "2020": {
+          "democratic_votes": 2191,
+          "democratic_pct": 27.25,
+          "republican_votes": 5632,
+          "republican_pct": 70.06,
+          "other_votes": 216,
+          "other_pct": 2.69,
+          "total_votes": 8039,
+          "est_registered_voters": 11144
+        },
+        "2024": {
+          "democratic_votes": 2058,
+          "democratic_pct": 26.49,
+          "republican_votes": 5529,
+          "republican_pct": 71.18,
+          "other_votes": 181,
+          "other_pct": 2.33,
+          "total_votes": 7768,
+          "est_registered_voters": 11031
+        }
+      }
+    },
+    "Douglas": {
+      "name": "Douglas",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1949,
+          "democratic_pct": 23.78,
+          "republican_votes": 5698,
+          "republican_pct": 69.53,
+          "other_votes": 548,
+          "other_pct": 6.69,
+          "total_votes": 8195,
+          "est_registered_voters": 11885
+        },
+        "2020": {
+          "democratic_votes": 2335,
+          "democratic_pct": 26.66,
+          "republican_votes": 6227,
+          "republican_pct": 71.08,
+          "other_votes": 198,
+          "other_pct": 2.26,
+          "total_votes": 8760,
+          "est_registered_voters": 12143
+        },
+        "2024": {
+          "democratic_votes": 2198,
+          "democratic_pct": 26.02,
+          "republican_votes": 6076,
+          "republican_pct": 71.92,
+          "other_votes": 174,
+          "other_pct": 2.06,
+          "total_votes": 8448,
+          "est_registered_voters": 11997
+        }
+      }
+    },
+    "DuPage": {
+      "name": "DuPage",
+      "voting": {
+        "2016": {
+          "democratic_votes": 228622,
+          "democratic_pct": 53.08,
+          "republican_votes": 166415,
+          "republican_pct": 38.64,
+          "other_votes": 35637,
+          "other_pct": 8.28,
+          "total_votes": 430674,
+          "est_registered_voters": 624618
+        },
+        "2020": {
+          "democratic_votes": 281222,
+          "democratic_pct": 57.66,
+          "republican_votes": 193611,
+          "republican_pct": 39.69,
+          "other_votes": 12930,
+          "other_pct": 2.65,
+          "total_votes": 487763,
+          "est_registered_voters": 676134
+        },
+        "2024": {
+          "democratic_votes": 251164,
+          "democratic_pct": 55.86,
+          "republican_votes": 191243,
+          "republican_pct": 42.53,
+          "other_votes": 7253,
+          "other_pct": 1.61,
+          "total_votes": 449660,
+          "est_registered_voters": 638540
+        }
+      }
+    },
+    "Edgar": {
+      "name": "Edgar",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1793,
+          "democratic_pct": 22.7,
+          "republican_votes": 5645,
+          "republican_pct": 71.46,
+          "other_votes": 461,
+          "other_pct": 5.84,
+          "total_votes": 7899,
+          "est_registered_voters": 11456
+        },
+        "2020": {
+          "democratic_votes": 1887,
+          "democratic_pct": 22.98,
+          "republican_votes": 6193,
+          "republican_pct": 75.41,
+          "other_votes": 132,
+          "other_pct": 1.61,
+          "total_votes": 8212,
+          "est_registered_voters": 11383
+        },
+        "2024": {
+          "democratic_votes": 1816,
+          "democratic_pct": 22.91,
+          "republican_votes": 5955,
+          "republican_pct": 75.11,
+          "other_votes": 157,
+          "other_pct": 1.98,
+          "total_votes": 7928,
+          "est_registered_voters": 11258
+        }
+      }
+    },
+    "Edwards": {
+      "name": "Edwards",
+      "voting": {
+        "2016": {
+          "democratic_votes": 434,
+          "democratic_pct": 13.06,
+          "republican_votes": 2778,
+          "republican_pct": 83.57,
+          "other_votes": 112,
+          "other_pct": 3.37,
+          "total_votes": 3324,
+          "est_registered_voters": 4821
+        },
+        "2020": {
+          "democratic_votes": 488,
+          "democratic_pct": 14.49,
+          "republican_votes": 2833,
+          "republican_pct": 84.12,
+          "other_votes": 47,
+          "other_pct": 1.39,
+          "total_votes": 3368,
+          "est_registered_voters": 4669
+        },
+        "2024": {
+          "democratic_votes": 457,
+          "democratic_pct": 13.87,
+          "republican_votes": 2794,
+          "republican_pct": 84.8,
+          "other_votes": 44,
+          "other_pct": 1.33,
+          "total_votes": 3295,
+          "est_registered_voters": 4679
+        }
+      }
+    },
+    "Effingham": {
+      "name": "Effingham",
+      "voting": {
+        "2016": {
+          "democratic_votes": 3083,
+          "democratic_pct": 17.51,
+          "republican_votes": 13635,
+          "republican_pct": 77.43,
+          "other_votes": 891,
+          "other_pct": 5.06,
+          "total_votes": 17609,
+          "est_registered_voters": 25539
+        },
+        "2020": {
+          "democratic_votes": 3716,
+          "democratic_pct": 19.47,
+          "republican_votes": 15006,
+          "republican_pct": 78.64,
+          "other_votes": 361,
+          "other_pct": 1.89,
+          "total_votes": 19083,
+          "est_registered_voters": 26453
+        },
+        "2024": {
+          "democratic_votes": 3617,
+          "democratic_pct": 18.88,
+          "republican_votes": 15124,
+          "republican_pct": 78.96,
+          "other_votes": 413,
+          "other_pct": 2.16,
+          "total_votes": 19154,
+          "est_registered_voters": 27200
+        }
+      }
+    },
+    "Fayette": {
+      "name": "Fayette",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1819,
+          "democratic_pct": 18.97,
+          "republican_votes": 7372,
+          "republican_pct": 76.86,
+          "other_votes": 400,
+          "other_pct": 4.17,
+          "total_votes": 9591,
+          "est_registered_voters": 13910
+        },
+        "2020": {
+          "democratic_votes": 1826,
+          "democratic_pct": 18.12,
+          "republican_votes": 8055,
+          "republican_pct": 79.94,
+          "other_votes": 195,
+          "other_pct": 1.94,
+          "total_votes": 10076,
+          "est_registered_voters": 13967
+        },
+        "2024": {
+          "democratic_votes": 1632,
+          "democratic_pct": 16.95,
+          "republican_votes": 7847,
+          "republican_pct": 81.52,
+          "other_votes": 147,
+          "other_pct": 1.53,
+          "total_votes": 9626,
+          "est_registered_voters": 13669
+        }
+      }
+    },
+    "Ford": {
+      "name": "Ford",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1414,
+          "democratic_pct": 22.11,
+          "republican_votes": 4480,
+          "republican_pct": 70.04,
+          "other_votes": 502,
+          "other_pct": 7.85,
+          "total_votes": 6396,
+          "est_registered_voters": 9276
+        },
+        "2020": {
+          "democratic_votes": 1754,
+          "democratic_pct": 25.18,
+          "republican_votes": 5048,
+          "republican_pct": 72.46,
+          "other_votes": 165,
+          "other_pct": 2.36,
+          "total_votes": 6967,
+          "est_registered_voters": 9658
+        },
+        "2024": {
+          "democratic_votes": 1643,
+          "democratic_pct": 24.99,
+          "republican_votes": 4778,
+          "republican_pct": 72.67,
+          "other_votes": 154,
+          "other_pct": 2.34,
+          "total_votes": 6575,
+          "est_registered_voters": 9337
+        }
+      }
+    },
+    "Franklin": {
+      "name": "Franklin",
+      "voting": {
+        "2016": {
+          "democratic_votes": 4727,
+          "democratic_pct": 25.26,
+          "republican_votes": 13116,
+          "republican_pct": 70.1,
+          "other_votes": 868,
+          "other_pct": 4.64,
+          "total_votes": 18711,
+          "est_registered_voters": 27137
+        },
+        "2020": {
+          "democratic_votes": 4760,
+          "democratic_pct": 25.5,
+          "republican_votes": 13622,
+          "republican_pct": 72.97,
+          "other_votes": 287,
+          "other_pct": 1.53,
+          "total_votes": 18669,
+          "est_registered_voters": 25879
+        },
+        "2024": {
+          "democratic_votes": 4257,
+          "democratic_pct": 24.0,
+          "republican_votes": 13200,
+          "republican_pct": 74.41,
+          "other_votes": 282,
+          "other_pct": 1.59,
+          "total_votes": 17739,
+          "est_registered_voters": 25190
+        }
+      }
+    },
+    "Fulton": {
+      "name": "Fulton",
+      "voting": {
+        "2016": {
+          "democratic_votes": 6133,
+          "democratic_pct": 38.82,
+          "republican_votes": 8492,
+          "republican_pct": 53.76,
+          "other_votes": 1172,
+          "other_pct": 7.42,
+          "total_votes": 15797,
+          "est_registered_voters": 22911
+        },
+        "2020": {
+          "democratic_votes": 6503,
+          "democratic_pct": 38.88,
+          "republican_votes": 9867,
+          "republican_pct": 59.0,
+          "other_votes": 354,
+          "other_pct": 2.12,
+          "total_votes": 16724,
+          "est_registered_voters": 23183
+        },
+        "2024": {
+          "democratic_votes": 5980,
+          "democratic_pct": 36.89,
+          "republican_votes": 9827,
+          "republican_pct": 60.62,
+          "other_votes": 405,
+          "other_pct": 2.49,
+          "total_votes": 16212,
+          "est_registered_voters": 23022
+        }
+      }
+    },
+    "Gallatin": {
+      "name": "Gallatin",
+      "voting": {
+        "2016": {
+          "democratic_votes": 657,
+          "democratic_pct": 24.27,
+          "republican_votes": 1942,
+          "republican_pct": 71.74,
+          "other_votes": 108,
+          "other_pct": 3.99,
+          "total_votes": 2707,
+          "est_registered_voters": 3926
+        },
+        "2020": {
+          "democratic_votes": 622,
+          "democratic_pct": 23.25,
+          "republican_votes": 2019,
+          "republican_pct": 75.48,
+          "other_votes": 34,
+          "other_pct": 1.27,
+          "total_votes": 2675,
+          "est_registered_voters": 3708
+        },
+        "2024": {
+          "democratic_votes": 561,
+          "democratic_pct": 22.13,
+          "republican_votes": 1923,
+          "republican_pct": 75.86,
+          "other_votes": 51,
+          "other_pct": 2.01,
+          "total_votes": 2535,
+          "est_registered_voters": 3600
+        }
+      }
+    },
+    "Greene": {
+      "name": "Greene",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1205,
+          "democratic_pct": 21.58,
+          "republican_votes": 4145,
+          "republican_pct": 74.22,
+          "other_votes": 235,
+          "other_pct": 4.2,
+          "total_votes": 5585,
+          "est_registered_voters": 8100
+        },
+        "2020": {
+          "democratic_votes": 1349,
+          "democratic_pct": 21.63,
+          "republican_votes": 4770,
+          "republican_pct": 76.48,
+          "other_votes": 118,
+          "other_pct": 1.89,
+          "total_votes": 6237,
+          "est_registered_voters": 8646
+        },
+        "2024": {
+          "democratic_votes": 1220,
+          "democratic_pct": 20.08,
+          "republican_votes": 4719,
+          "republican_pct": 77.68,
+          "other_votes": 136,
+          "other_pct": 2.24,
+          "total_votes": 6075,
+          "est_registered_voters": 8627
+        }
+      }
+    },
+    "Grundy": {
+      "name": "Grundy",
+      "voting": {
+        "2016": {
+          "democratic_votes": 8065,
+          "democratic_pct": 34.71,
+          "republican_votes": 13454,
+          "republican_pct": 57.9,
+          "other_votes": 1718,
+          "other_pct": 7.39,
+          "total_votes": 23237,
+          "est_registered_voters": 33701
+        },
+        "2020": {
+          "democratic_votes": 9626,
+          "democratic_pct": 35.98,
+          "republican_votes": 16523,
+          "republican_pct": 61.75,
+          "other_votes": 607,
+          "other_pct": 2.27,
+          "total_votes": 26756,
+          "est_registered_voters": 37089
+        },
+        "2024": {
+          "democratic_votes": 9143,
+          "democratic_pct": 34.28,
+          "republican_votes": 16997,
+          "republican_pct": 63.74,
+          "other_votes": 528,
+          "other_pct": 1.98,
+          "total_votes": 26668,
+          "est_registered_voters": 37870
+        }
+      }
+    },
+    "Hamilton": {
+      "name": "Hamilton",
+      "voting": {
+        "2016": {
+          "democratic_votes": 802,
+          "democratic_pct": 19.3,
+          "republican_votes": 3206,
+          "republican_pct": 77.14,
+          "other_votes": 148,
+          "other_pct": 3.56,
+          "total_votes": 4156,
+          "est_registered_voters": 6028
+        },
+        "2020": {
+          "democratic_votes": 824,
+          "democratic_pct": 19.06,
+          "republican_votes": 3432,
+          "republican_pct": 79.39,
+          "other_votes": 67,
+          "other_pct": 1.55,
+          "total_votes": 4323,
+          "est_registered_voters": 5993
+        },
+        "2024": {
+          "democratic_votes": 739,
+          "democratic_pct": 17.62,
+          "republican_votes": 3385,
+          "republican_pct": 80.71,
+          "other_votes": 70,
+          "other_pct": 1.67,
+          "total_votes": 4194,
+          "est_registered_voters": 5956
+        }
+      }
+    },
+    "Hancock": {
+      "name": "Hancock",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2139,
+          "democratic_pct": 23.45,
+          "republican_votes": 6430,
+          "republican_pct": 70.5,
+          "other_votes": 552,
+          "other_pct": 6.05,
+          "total_votes": 9121,
+          "est_registered_voters": 13228
+        },
+        "2020": {
+          "democratic_votes": 2315,
+          "democratic_pct": 24.62,
+          "republican_votes": 6906,
+          "republican_pct": 73.44,
+          "other_votes": 182,
+          "other_pct": 1.94,
+          "total_votes": 9403,
+          "est_registered_voters": 13034
+        },
+        "2024": {
+          "democratic_votes": 2183,
+          "democratic_pct": 23.97,
+          "republican_votes": 6708,
+          "republican_pct": 73.67,
+          "other_votes": 215,
+          "other_pct": 2.36,
+          "total_votes": 9106,
+          "est_registered_voters": 12931
+        }
+      }
+    },
+    "Hardin": {
+      "name": "Hardin",
+      "voting": {
+        "2016": {
+          "democratic_votes": 420,
+          "democratic_pct": 19.55,
+          "republican_votes": 1653,
+          "republican_pct": 76.96,
+          "other_votes": 75,
+          "other_pct": 3.49,
+          "total_votes": 2148,
+          "est_registered_voters": 3115
+        },
+        "2020": {
+          "democratic_votes": 449,
+          "democratic_pct": 20.77,
+          "republican_votes": 1691,
+          "republican_pct": 78.21,
+          "other_votes": 22,
+          "other_pct": 1.02,
+          "total_votes": 2162,
+          "est_registered_voters": 2997
+        },
+        "2024": {
+          "democratic_votes": 357,
+          "democratic_pct": 18.47,
+          "republican_votes": 1546,
+          "republican_pct": 79.98,
+          "other_votes": 30,
+          "other_pct": 1.55,
+          "total_votes": 1933,
+          "est_registered_voters": 2745
+        }
+      }
+    },
+    "Henderson": {
+      "name": "Henderson",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1155,
+          "democratic_pct": 32.83,
+          "republican_votes": 2155,
+          "republican_pct": 61.26,
+          "other_votes": 208,
+          "other_pct": 5.91,
+          "total_votes": 3518,
+          "est_registered_voters": 5102
+        },
+        "2020": {
+          "democratic_votes": 1187,
+          "democratic_pct": 32.47,
+          "republican_votes": 2394,
+          "republican_pct": 65.48,
+          "other_votes": 75,
+          "other_pct": 2.05,
+          "total_votes": 3656,
+          "est_registered_voters": 5068
+        },
+        "2024": {
+          "democratic_votes": 1026,
+          "democratic_pct": 29.57,
+          "republican_votes": 2369,
+          "republican_pct": 68.27,
+          "other_votes": 75,
+          "other_pct": 2.16,
+          "total_votes": 3470,
+          "est_registered_voters": 4928
+        }
+      }
+    },
+    "Henry": {
+      "name": "Henry",
+      "voting": {
+        "2016": {
+          "democratic_votes": 8871,
+          "democratic_pct": 36.0,
+          "republican_votes": 13985,
+          "republican_pct": 56.75,
+          "other_votes": 1787,
+          "other_pct": 7.25,
+          "total_votes": 24643,
+          "est_registered_voters": 35740
+        },
+        "2020": {
+          "democratic_votes": 9797,
+          "democratic_pct": 38.12,
+          "republican_votes": 15300,
+          "republican_pct": 59.53,
+          "other_votes": 604,
+          "other_pct": 2.35,
+          "total_votes": 25701,
+          "est_registered_voters": 35627
+        },
+        "2024": {
+          "democratic_votes": 9226,
+          "democratic_pct": 36.64,
+          "republican_votes": 15359,
+          "republican_pct": 60.99,
+          "other_votes": 596,
+          "other_pct": 2.37,
+          "total_votes": 25181,
+          "est_registered_voters": 35758
+        }
+      }
+    },
+    "Iroquois": {
+      "name": "Iroquois",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2504,
+          "democratic_pct": 19.11,
+          "republican_votes": 9750,
+          "republican_pct": 74.42,
+          "other_votes": 848,
+          "other_pct": 6.47,
+          "total_votes": 13102,
+          "est_registered_voters": 19002
+        },
+        "2020": {
+          "democratic_votes": 2908,
+          "democratic_pct": 20.71,
+          "republican_votes": 10877,
+          "republican_pct": 77.45,
+          "other_votes": 258,
+          "other_pct": 1.84,
+          "total_votes": 14043,
+          "est_registered_voters": 19466
+        },
+        "2024": {
+          "democratic_votes": 2747,
+          "democratic_pct": 20.57,
+          "republican_votes": 10376,
+          "republican_pct": 77.7,
+          "other_votes": 231,
+          "other_pct": 1.73,
+          "total_votes": 13354,
+          "est_registered_voters": 18963
+        }
+      }
+    },
+    "Jackson": {
+      "name": "Jackson",
+      "voting": {
+        "2016": {
+          "democratic_votes": 11634,
+          "democratic_pct": 47.26,
+          "republican_votes": 10843,
+          "republican_pct": 44.05,
+          "other_votes": 2140,
+          "other_pct": 8.69,
+          "total_votes": 24617,
+          "est_registered_voters": 35703
+        },
+        "2020": {
+          "democratic_votes": 11181,
+          "democratic_pct": 49.22,
+          "republican_votes": 10890,
+          "republican_pct": 47.94,
+          "other_votes": 647,
+          "other_pct": 2.84,
+          "total_votes": 22718,
+          "est_registered_voters": 31492
+        },
+        "2024": {
+          "democratic_votes": 11394,
+          "democratic_pct": 50.46,
+          "republican_votes": 10614,
+          "republican_pct": 47.0,
+          "other_votes": 574,
+          "other_pct": 2.54,
+          "total_votes": 22582,
+          "est_registered_voters": 32068
+        }
+      }
+    },
+    "Jasper": {
+      "name": "Jasper",
+      "voting": {
+        "2016": {
+          "democratic_votes": 924,
+          "democratic_pct": 18.08,
+          "republican_votes": 3975,
+          "republican_pct": 77.76,
+          "other_votes": 213,
+          "other_pct": 4.16,
+          "total_votes": 5112,
+          "est_registered_voters": 7414
+        },
+        "2020": {
+          "democratic_votes": 1007,
+          "democratic_pct": 18.03,
+          "republican_votes": 4494,
+          "republican_pct": 80.45,
+          "other_votes": 85,
+          "other_pct": 1.52,
+          "total_votes": 5586,
+          "est_registered_voters": 7743
+        },
+        "2024": {
+          "democratic_votes": 912,
+          "democratic_pct": 16.77,
+          "republican_votes": 4449,
+          "republican_pct": 81.81,
+          "other_votes": 77,
+          "other_pct": 1.42,
+          "total_votes": 5438,
+          "est_registered_voters": 7722
+        }
+      }
+    },
+    "Jefferson": {
+      "name": "Jefferson",
+      "voting": {
+        "2016": {
+          "democratic_votes": 4425,
+          "democratic_pct": 26.03,
+          "republican_votes": 11695,
+          "republican_pct": 68.8,
+          "other_votes": 879,
+          "other_pct": 5.17,
+          "total_votes": 16999,
+          "est_registered_voters": 24654
+        },
+        "2020": {
+          "democratic_votes": 4608,
+          "democratic_pct": 26.43,
+          "republican_votes": 12476,
+          "republican_pct": 71.55,
+          "other_votes": 352,
+          "other_pct": 2.02,
+          "total_votes": 17436,
+          "est_registered_voters": 24170
+        },
+        "2024": {
+          "democratic_votes": 4240,
+          "democratic_pct": 25.38,
+          "republican_votes": 12189,
+          "republican_pct": 72.97,
+          "other_votes": 275,
+          "other_pct": 1.65,
+          "total_votes": 16704,
+          "est_registered_voters": 23721
+        }
+      }
+    },
+    "Jersey": {
+      "name": "Jersey",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2679,
+          "democratic_pct": 24.37,
+          "republican_votes": 7748,
+          "republican_pct": 70.49,
+          "other_votes": 564,
+          "other_pct": 5.14,
+          "total_votes": 10991,
+          "est_registered_voters": 15941
+        },
+        "2020": {
+          "democratic_votes": 2961,
+          "democratic_pct": 24.76,
+          "republican_votes": 8712,
+          "republican_pct": 72.84,
+          "other_votes": 287,
+          "other_pct": 2.4,
+          "total_votes": 11960,
+          "est_registered_voters": 16579
+        },
+        "2024": {
+          "democratic_votes": 2816,
+          "democratic_pct": 23.98,
+          "republican_votes": 8684,
+          "republican_pct": 73.95,
+          "other_votes": 243,
+          "other_pct": 2.07,
+          "total_votes": 11743,
+          "est_registered_voters": 16676
+        }
+      }
+    },
+    "Jo Daviess": {
+      "name": "Jo Daviess",
+      "voting": {
+        "2016": {
+          "democratic_votes": 4462,
+          "democratic_pct": 39.37,
+          "republican_votes": 6121,
+          "republican_pct": 54.01,
+          "other_votes": 751,
+          "other_pct": 6.62,
+          "total_votes": 11334,
+          "est_registered_voters": 16438
+        },
+        "2020": {
+          "democratic_votes": 5109,
+          "democratic_pct": 40.79,
+          "republican_votes": 7166,
+          "republican_pct": 57.21,
+          "other_votes": 250,
+          "other_pct": 2.0,
+          "total_votes": 12525,
+          "est_registered_voters": 17362
+        },
+        "2024": {
+          "democratic_votes": 5051,
+          "democratic_pct": 40.5,
+          "republican_votes": 7136,
+          "republican_pct": 57.22,
+          "other_votes": 285,
+          "other_pct": 2.28,
+          "total_votes": 12472,
+          "est_registered_voters": 17711
+        }
+      }
+    },
+    "Johnson": {
+      "name": "Johnson",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1142,
+          "democratic_pct": 18.76,
+          "republican_votes": 4649,
+          "republican_pct": 76.35,
+          "other_votes": 298,
+          "other_pct": 4.89,
+          "total_votes": 6089,
+          "est_registered_voters": 8831
+        },
+        "2020": {
+          "democratic_votes": 1281,
+          "democratic_pct": 19.86,
+          "republican_votes": 5059,
+          "republican_pct": 78.43,
+          "other_votes": 110,
+          "other_pct": 1.71,
+          "total_votes": 6450,
+          "est_registered_voters": 8941
+        },
+        "2024": {
+          "democratic_votes": 1241,
+          "democratic_pct": 20.33,
+          "republican_votes": 4798,
+          "republican_pct": 78.62,
+          "other_votes": 64,
+          "other_pct": 1.05,
+          "total_votes": 6103,
+          "est_registered_voters": 8667
+        }
+      }
+    },
+    "Kane": {
+      "name": "Kane",
+      "voting": {
+        "2016": {
+          "democratic_votes": 103665,
+          "democratic_pct": 51.91,
+          "republican_votes": 82734,
+          "republican_pct": 41.43,
+          "other_votes": 13288,
+          "other_pct": 6.66,
+          "total_votes": 199687,
+          "est_registered_voters": 289611
+        },
+        "2020": {
+          "democratic_votes": 130166,
+          "democratic_pct": 56.14,
+          "republican_votes": 96775,
+          "republican_pct": 41.74,
+          "other_votes": 4935,
+          "other_pct": 2.12,
+          "total_votes": 231876,
+          "est_registered_voters": 321425
+        },
+        "2024": {
+          "democratic_votes": 120077,
+          "democratic_pct": 54.0,
+          "republican_votes": 99260,
+          "republican_pct": 44.64,
+          "other_votes": 3027,
+          "other_pct": 1.36,
+          "total_votes": 222364,
+          "est_registered_voters": 315768
+        }
+      }
+    },
+    "Kankakee": {
+      "name": "Kankakee",
+      "voting": {
+        "2016": {
+          "democratic_votes": 18971,
+          "democratic_pct": 40.1,
+          "republican_votes": 25129,
+          "republican_pct": 53.12,
+          "other_votes": 3205,
+          "other_pct": 6.78,
+          "total_votes": 47305,
+          "est_registered_voters": 68608
+        },
+        "2020": {
+          "democratic_votes": 20271,
+          "democratic_pct": 40.51,
+          "republican_votes": 28532,
+          "republican_pct": 57.02,
+          "other_votes": 1237,
+          "other_pct": 2.47,
+          "total_votes": 50040,
+          "est_registered_voters": 69365
+        },
+        "2024": {
+          "democratic_votes": 18399,
+          "democratic_pct": 38.5,
+          "republican_votes": 28285,
+          "republican_pct": 59.19,
+          "other_votes": 1101,
+          "other_pct": 2.31,
+          "total_votes": 47785,
+          "est_registered_voters": 67857
+        }
+      }
+    },
+    "Kendall": {
+      "name": "Kendall",
+      "voting": {
+        "2016": {
+          "democratic_votes": 24884,
+          "democratic_pct": 46.03,
+          "republican_votes": 24961,
+          "republican_pct": 46.18,
+          "other_votes": 4210,
+          "other_pct": 7.79,
+          "total_votes": 54055,
+          "est_registered_voters": 78397
+        },
+        "2020": {
+          "democratic_votes": 33168,
+          "democratic_pct": 51.66,
+          "republican_votes": 29492,
+          "republican_pct": 45.93,
+          "other_votes": 1545,
+          "other_pct": 2.41,
+          "total_votes": 64205,
+          "est_registered_voters": 89001
+        },
+        "2024": {
+          "democratic_votes": 32977,
+          "democratic_pct": 49.99,
+          "republican_votes": 31970,
+          "republican_pct": 48.46,
+          "other_votes": 1023,
+          "other_pct": 1.55,
+          "total_votes": 65970,
+          "est_registered_voters": 93681
+        }
+      }
+    },
+    "Knox": {
+      "name": "Knox",
+      "voting": {
+        "2016": {
+          "democratic_votes": 10083,
+          "democratic_pct": 44.81,
+          "republican_votes": 10737,
+          "republican_pct": 47.71,
+          "other_votes": 1683,
+          "other_pct": 7.48,
+          "total_votes": 22503,
+          "est_registered_voters": 32637
+        },
+        "2020": {
+          "democratic_votes": 10703,
+          "democratic_pct": 46.12,
+          "republican_votes": 12009,
+          "republican_pct": 51.75,
+          "other_votes": 496,
+          "other_pct": 2.13,
+          "total_votes": 23208,
+          "est_registered_voters": 32171
+        },
+        "2024": {
+          "democratic_votes": 9838,
+          "democratic_pct": 44.13,
+          "republican_votes": 11917,
+          "republican_pct": 53.45,
+          "other_votes": 540,
+          "other_pct": 2.42,
+          "total_votes": 22295,
+          "est_registered_voters": 31660
+        }
+      }
+    },
+    "LaSalle": {
+      "name": "LaSalle",
+      "voting": {
+        "2016": {
+          "democratic_votes": 19543,
+          "democratic_pct": 39.29,
+          "republican_votes": 26689,
+          "republican_pct": 53.65,
+          "other_votes": 3511,
+          "other_pct": 7.06,
+          "total_votes": 49743,
+          "est_registered_voters": 72144
+        },
+        "2020": {
+          "democratic_votes": 22442,
+          "democratic_pct": 41.8,
+          "republican_votes": 30113,
+          "republican_pct": 56.09,
+          "other_votes": 1132,
+          "other_pct": 2.11,
+          "total_votes": 53687,
+          "est_registered_voters": 74421
+        },
+        "2024": {
+          "democratic_votes": 21029,
+          "democratic_pct": 39.91,
+          "republican_votes": 30717,
+          "republican_pct": 58.3,
+          "other_votes": 942,
+          "other_pct": 1.79,
+          "total_votes": 52688,
+          "est_registered_voters": 74820
+        }
+      }
+    },
+    "Lake": {
+      "name": "Lake",
+      "voting": {
+        "2016": {
+          "democratic_votes": 171095,
+          "democratic_pct": 56.37,
+          "republican_votes": 109767,
+          "republican_pct": 36.16,
+          "other_votes": 22658,
+          "other_pct": 7.47,
+          "total_votes": 303520,
+          "est_registered_voters": 440203
+        },
+        "2020": {
+          "democratic_votes": 204032,
+          "democratic_pct": 60.78,
+          "republican_votes": 123594,
+          "republican_pct": 36.82,
+          "other_votes": 8049,
+          "other_pct": 2.4,
+          "total_votes": 335675,
+          "est_registered_voters": 465311
+        },
+        "2024": {
+          "democratic_votes": 184642,
+          "democratic_pct": 58.89,
+          "republican_votes": 120402,
+          "republican_pct": 38.4,
+          "other_votes": 8514,
+          "other_pct": 2.71,
+          "total_votes": 313558,
+          "est_registered_voters": 445268
+        }
+      }
+    },
+    "Lawrence": {
+      "name": "Lawrence",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1290,
+          "democratic_pct": 21.17,
+          "republican_votes": 4521,
+          "republican_pct": 74.19,
+          "other_votes": 283,
+          "other_pct": 4.64,
+          "total_votes": 6094,
+          "est_registered_voters": 8838
+        },
+        "2020": {
+          "democratic_votes": 1419,
+          "democratic_pct": 22.1,
+          "republican_votes": 4886,
+          "republican_pct": 76.08,
+          "other_votes": 117,
+          "other_pct": 1.82,
+          "total_votes": 6422,
+          "est_registered_voters": 8902
+        },
+        "2024": {
+          "democratic_votes": 1283,
+          "democratic_pct": 20.94,
+          "republican_votes": 4715,
+          "republican_pct": 76.97,
+          "other_votes": 128,
+          "other_pct": 2.09,
+          "total_votes": 6126,
+          "est_registered_voters": 8699
+        }
+      }
+    },
+    "Lee": {
+      "name": "Lee",
+      "voting": {
+        "2016": {
+          "democratic_votes": 5528,
+          "democratic_pct": 35.69,
+          "republican_votes": 8612,
+          "republican_pct": 55.6,
+          "other_votes": 1349,
+          "other_pct": 8.71,
+          "total_votes": 15489,
+          "est_registered_voters": 22464
+        },
+        "2020": {
+          "democratic_votes": 6407,
+          "democratic_pct": 38.97,
+          "republican_votes": 9630,
+          "republican_pct": 58.58,
+          "other_votes": 403,
+          "other_pct": 2.45,
+          "total_votes": 16440,
+          "est_registered_voters": 22789
+        },
+        "2024": {
+          "democratic_votes": 6105,
+          "democratic_pct": 37.75,
+          "republican_votes": 9680,
+          "republican_pct": 59.86,
+          "other_votes": 387,
+          "other_pct": 2.39,
+          "total_votes": 16172,
+          "est_registered_voters": 22965
+        }
+      }
+    },
+    "Livingston": {
+      "name": "Livingston",
+      "voting": {
+        "2016": {
+          "democratic_votes": 4023,
+          "democratic_pct": 26.22,
+          "republican_votes": 10208,
+          "republican_pct": 66.54,
+          "other_votes": 1111,
+          "other_pct": 7.24,
+          "total_votes": 15342,
+          "est_registered_voters": 22251
+        },
+        "2020": {
+          "democratic_votes": 4615,
+          "democratic_pct": 26.81,
+          "republican_votes": 12208,
+          "republican_pct": 70.92,
+          "other_votes": 391,
+          "other_pct": 2.27,
+          "total_votes": 17214,
+          "est_registered_voters": 23862
+        },
+        "2024": {
+          "democratic_votes": 4311,
+          "democratic_pct": 25.94,
+          "republican_votes": 11970,
+          "republican_pct": 72.02,
+          "other_votes": 340,
+          "other_pct": 2.04,
+          "total_votes": 16621,
+          "est_registered_voters": 23603
+        }
+      }
+    },
+    "Logan": {
+      "name": "Logan",
+      "voting": {
+        "2016": {
+          "democratic_votes": 3313,
+          "democratic_pct": 26.72,
+          "republican_votes": 8181,
+          "republican_pct": 65.97,
+          "other_votes": 907,
+          "other_pct": 7.31,
+          "total_votes": 12401,
+          "est_registered_voters": 17985
+        },
+        "2020": {
+          "democratic_votes": 3840,
+          "democratic_pct": 28.81,
+          "republican_votes": 9136,
+          "republican_pct": 68.55,
+          "other_votes": 351,
+          "other_pct": 2.64,
+          "total_votes": 13327,
+          "est_registered_voters": 18474
+        },
+        "2024": {
+          "democratic_votes": 3543,
+          "democratic_pct": 28.07,
+          "republican_votes": 8757,
+          "republican_pct": 69.38,
+          "other_votes": 321,
+          "other_pct": 2.55,
+          "total_votes": 12621,
+          "est_registered_voters": 17922
+        }
+      }
+    },
+    "Macon": {
+      "name": "Macon",
+      "voting": {
+        "2016": {
+          "democratic_votes": 18343,
+          "democratic_pct": 38.17,
+          "republican_votes": 26866,
+          "republican_pct": 55.9,
+          "other_votes": 2851,
+          "other_pct": 5.93,
+          "total_votes": 48060,
+          "est_registered_voters": 69703
+        },
+        "2020": {
+          "democratic_votes": 19847,
+          "democratic_pct": 40.07,
+          "republican_votes": 28589,
+          "republican_pct": 57.72,
+          "other_votes": 1098,
+          "other_pct": 2.21,
+          "total_votes": 49534,
+          "est_registered_voters": 68664
+        },
+        "2024": {
+          "democratic_votes": 18009,
+          "democratic_pct": 39.57,
+          "republican_votes": 26562,
+          "republican_pct": 58.37,
+          "other_votes": 938,
+          "other_pct": 2.06,
+          "total_votes": 45509,
+          "est_registered_voters": 64625
+        }
+      }
+    },
+    "Macoupin": {
+      "name": "Macoupin",
+      "voting": {
+        "2016": {
+          "democratic_votes": 6689,
+          "democratic_pct": 29.87,
+          "republican_votes": 14322,
+          "republican_pct": 63.96,
+          "other_votes": 1380,
+          "other_pct": 6.17,
+          "total_votes": 22391,
+          "est_registered_voters": 32474
+        },
+        "2020": {
+          "democratic_votes": 7365,
+          "democratic_pct": 30.6,
+          "republican_votes": 16153,
+          "republican_pct": 67.11,
+          "other_votes": 552,
+          "other_pct": 2.29,
+          "total_votes": 24070,
+          "est_registered_voters": 33366
+        },
+        "2024": {
+          "democratic_votes": 6892,
+          "democratic_pct": 29.32,
+          "republican_votes": 16065,
+          "republican_pct": 68.35,
+          "other_votes": 546,
+          "other_pct": 2.32,
+          "total_votes": 23503,
+          "est_registered_voters": 33375
+        }
+      }
+    },
+    "Madison": {
+      "name": "Madison",
+      "voting": {
+        "2016": {
+          "democratic_votes": 50587,
+          "democratic_pct": 38.86,
+          "republican_votes": 70490,
+          "republican_pct": 54.15,
+          "other_votes": 9102,
+          "other_pct": 6.99,
+          "total_votes": 130179,
+          "est_registered_voters": 188802
+        },
+        "2020": {
+          "democratic_votes": 57836,
+          "democratic_pct": 42.04,
+          "republican_votes": 76031,
+          "republican_pct": 55.27,
+          "other_votes": 3691,
+          "other_pct": 2.69,
+          "total_votes": 137558,
+          "est_registered_voters": 190682
+        },
+        "2024": {
+          "democratic_votes": 56341,
+          "democratic_pct": 42.18,
+          "republican_votes": 73925,
+          "republican_pct": 55.34,
+          "other_votes": 3317,
+          "other_pct": 2.48,
+          "total_votes": 133583,
+          "est_registered_voters": 189695
+        }
+      }
+    },
+    "Marion": {
+      "name": "Marion",
+      "voting": {
+        "2016": {
+          "democratic_votes": 4369,
+          "democratic_pct": 25.55,
+          "republican_votes": 11859,
+          "republican_pct": 69.36,
+          "other_votes": 870,
+          "other_pct": 5.09,
+          "total_votes": 17098,
+          "est_registered_voters": 24798
+        },
+        "2020": {
+          "democratic_votes": 4524,
+          "democratic_pct": 25.86,
+          "republican_votes": 12678,
+          "republican_pct": 72.47,
+          "other_votes": 292,
+          "other_pct": 1.67,
+          "total_votes": 17494,
+          "est_registered_voters": 24250
+        },
+        "2024": {
+          "democratic_votes": 4116,
+          "democratic_pct": 24.5,
+          "republican_votes": 12409,
+          "republican_pct": 73.85,
+          "other_votes": 278,
+          "other_pct": 1.65,
+          "total_votes": 16803,
+          "est_registered_voters": 23861
+        }
+      }
+    },
+    "Marshall": {
+      "name": "Marshall",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1789,
+          "democratic_pct": 29.9,
+          "republican_votes": 3785,
+          "republican_pct": 63.25,
+          "other_votes": 410,
+          "other_pct": 6.85,
+          "total_votes": 5984,
+          "est_registered_voters": 8679
+        },
+        "2020": {
+          "democratic_votes": 2005,
+          "democratic_pct": 31.6,
+          "republican_votes": 4197,
+          "republican_pct": 66.15,
+          "other_votes": 143,
+          "other_pct": 2.25,
+          "total_votes": 6345,
+          "est_registered_voters": 8795
+        },
+        "2024": {
+          "democratic_votes": 1913,
+          "democratic_pct": 31.09,
+          "republican_votes": 4119,
+          "republican_pct": 66.93,
+          "other_votes": 122,
+          "other_pct": 1.98,
+          "total_votes": 6154,
+          "est_registered_voters": 8739
+        }
+      }
+    },
+    "Mason": {
+      "name": "Mason",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2014,
+          "democratic_pct": 31.02,
+          "republican_votes": 4058,
+          "republican_pct": 62.5,
+          "other_votes": 421,
+          "other_pct": 6.48,
+          "total_votes": 6493,
+          "est_registered_voters": 9417
+        },
+        "2020": {
+          "democratic_votes": 1985,
+          "democratic_pct": 29.26,
+          "republican_votes": 4654,
+          "republican_pct": 68.59,
+          "other_votes": 146,
+          "other_pct": 2.15,
+          "total_votes": 6785,
+          "est_registered_voters": 9405
+        },
+        "2024": {
+          "democratic_votes": 1773,
+          "democratic_pct": 27.69,
+          "republican_votes": 4464,
+          "republican_pct": 69.73,
+          "other_votes": 165,
+          "other_pct": 2.58,
+          "total_votes": 6402,
+          "est_registered_voters": 9091
+        }
+      }
+    },
+    "Massac": {
+      "name": "Massac",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1558,
+          "democratic_pct": 23.26,
+          "republican_votes": 4846,
+          "republican_pct": 72.36,
+          "other_votes": 293,
+          "other_pct": 4.38,
+          "total_votes": 6697,
+          "est_registered_voters": 9713
+        },
+        "2020": {
+          "democratic_votes": 1725,
+          "democratic_pct": 25.3,
+          "republican_votes": 4997,
+          "republican_pct": 73.29,
+          "other_votes": 96,
+          "other_pct": 1.41,
+          "total_votes": 6818,
+          "est_registered_voters": 9451
+        },
+        "2024": {
+          "democratic_votes": 1683,
+          "democratic_pct": 25.11,
+          "republican_votes": 4939,
+          "republican_pct": 73.68,
+          "other_votes": 81,
+          "other_pct": 1.21,
+          "total_votes": 6703,
+          "est_registered_voters": 9519
+        }
+      }
+    },
+    "McDonough": {
+      "name": "McDonough",
+      "voting": {
+        "2016": {
+          "democratic_votes": 5288,
+          "democratic_pct": 40.23,
+          "republican_votes": 6795,
+          "republican_pct": 51.7,
+          "other_votes": 1061,
+          "other_pct": 8.07,
+          "total_votes": 13144,
+          "est_registered_voters": 19063
+        },
+        "2020": {
+          "democratic_votes": 4992,
+          "democratic_pct": 40.5,
+          "republican_votes": 7027,
+          "republican_pct": 57.0,
+          "other_votes": 308,
+          "other_pct": 2.5,
+          "total_votes": 12327,
+          "est_registered_voters": 17088
+        },
+        "2024": {
+          "democratic_votes": 4736,
+          "democratic_pct": 39.38,
+          "republican_votes": 6987,
+          "republican_pct": 58.1,
+          "other_votes": 302,
+          "other_pct": 2.52,
+          "total_votes": 12025,
+          "est_registered_voters": 17076
+        }
+      }
+    },
+    "McHenry": {
+      "name": "McHenry",
+      "voting": {
+        "2016": {
+          "democratic_votes": 60803,
+          "democratic_pct": 42.24,
+          "republican_votes": 71612,
+          "republican_pct": 49.75,
+          "other_votes": 11515,
+          "other_pct": 8.01,
+          "total_votes": 143930,
+          "est_registered_voters": 208745
+        },
+        "2020": {
+          "democratic_votes": 78154,
+          "democratic_pct": 47.49,
+          "republican_votes": 82260,
+          "republican_pct": 49.98,
+          "other_votes": 4164,
+          "other_pct": 2.53,
+          "total_votes": 164578,
+          "est_registered_voters": 228137
+        },
+        "2024": {
+          "democratic_votes": 75370,
+          "democratic_pct": 46.22,
+          "republican_votes": 83933,
+          "republican_pct": 51.47,
+          "other_votes": 3779,
+          "other_pct": 2.31,
+          "total_votes": 163082,
+          "est_registered_voters": 231585
+        }
+      }
+    },
+    "McLean": {
+      "name": "McLean",
+      "voting": {
+        "2016": {
+          "democratic_votes": 36196,
+          "democratic_pct": 44.51,
+          "republican_votes": 37237,
+          "republican_pct": 45.79,
+          "other_votes": 7891,
+          "other_pct": 9.7,
+          "total_votes": 81324,
+          "est_registered_voters": 117946
+        },
+        "2020": {
+          "democratic_votes": 43933,
+          "democratic_pct": 50.27,
+          "republican_votes": 40502,
+          "republican_pct": 46.35,
+          "other_votes": 2952,
+          "other_pct": 3.38,
+          "total_votes": 87387,
+          "est_registered_voters": 121135
+        },
+        "2024": {
+          "democratic_votes": 44495,
+          "democratic_pct": 51.08,
+          "republican_votes": 40290,
+          "republican_pct": 46.25,
+          "other_votes": 2330,
+          "other_pct": 2.67,
+          "total_votes": 87115,
+          "est_registered_voters": 123708
+        }
+      }
+    },
+    "Menard": {
+      "name": "Menard",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1817,
+          "democratic_pct": 27.89,
+          "republican_votes": 4231,
+          "republican_pct": 64.94,
+          "other_votes": 467,
+          "other_pct": 7.17,
+          "total_votes": 6515,
+          "est_registered_voters": 9449
+        },
+        "2020": {
+          "democratic_votes": 2022,
+          "democratic_pct": 29.08,
+          "republican_votes": 4764,
+          "republican_pct": 68.51,
+          "other_votes": 168,
+          "other_pct": 2.41,
+          "total_votes": 6954,
+          "est_registered_voters": 9640
+        },
+        "2024": {
+          "democratic_votes": 1834,
+          "democratic_pct": 28.41,
+          "republican_votes": 4499,
+          "republican_pct": 69.69,
+          "other_votes": 123,
+          "other_pct": 1.9,
+          "total_votes": 6456,
+          "est_registered_voters": 9168
+        }
+      }
+    },
+    "Mercer": {
+      "name": "Mercer",
+      "voting": {
+        "2016": {
+          "democratic_votes": 3071,
+          "democratic_pct": 36.02,
+          "republican_votes": 4807,
+          "republican_pct": 56.39,
+          "other_votes": 647,
+          "other_pct": 7.59,
+          "total_votes": 8525,
+          "est_registered_voters": 12364
+        },
+        "2020": {
+          "democratic_votes": 3280,
+          "democratic_pct": 36.8,
+          "republican_votes": 5418,
+          "republican_pct": 60.78,
+          "other_votes": 216,
+          "other_pct": 2.42,
+          "total_votes": 8914,
+          "est_registered_voters": 12357
+        },
+        "2024": {
+          "democratic_votes": 2950,
+          "democratic_pct": 35.23,
+          "republican_votes": 5215,
+          "republican_pct": 62.28,
+          "other_votes": 208,
+          "other_pct": 2.49,
+          "total_votes": 8373,
+          "est_registered_voters": 11890
+        }
+      }
+    },
+    "Monroe": {
+      "name": "Monroe",
+      "voting": {
+        "2016": {
+          "democratic_votes": 5535,
+          "democratic_pct": 28.6,
+          "republican_votes": 12629,
+          "republican_pct": 65.25,
+          "other_votes": 1190,
+          "other_pct": 6.15,
+          "total_votes": 19354,
+          "est_registered_voters": 28070
+        },
+        "2020": {
+          "democratic_votes": 6569,
+          "democratic_pct": 30.98,
+          "republican_votes": 14142,
+          "republican_pct": 66.69,
+          "other_votes": 495,
+          "other_pct": 2.33,
+          "total_votes": 21206,
+          "est_registered_voters": 29396
+        },
+        "2024": {
+          "democratic_votes": 6473,
+          "democratic_pct": 30.8,
+          "republican_votes": 14055,
+          "republican_pct": 66.88,
+          "other_votes": 486,
+          "other_pct": 2.32,
+          "total_votes": 21014,
+          "est_registered_voters": 29841
+        }
+      }
+    },
+    "Montgomery": {
+      "name": "Montgomery",
+      "voting": {
+        "2016": {
+          "democratic_votes": 3504,
+          "democratic_pct": 27.0,
+          "republican_votes": 8630,
+          "republican_pct": 66.5,
+          "other_votes": 844,
+          "other_pct": 6.5,
+          "total_votes": 12978,
+          "est_registered_voters": 18822
+        },
+        "2020": {
+          "democratic_votes": 3905,
+          "democratic_pct": 28.38,
+          "republican_votes": 9544,
+          "republican_pct": 69.36,
+          "other_votes": 312,
+          "other_pct": 2.26,
+          "total_votes": 13761,
+          "est_registered_voters": 19075
+        },
+        "2024": {
+          "democratic_votes": 3573,
+          "democratic_pct": 26.97,
+          "republican_votes": 9378,
+          "republican_pct": 70.8,
+          "other_votes": 295,
+          "other_pct": 2.23,
+          "total_votes": 13246,
+          "est_registered_voters": 18810
+        }
+      }
+    },
+    "Morgan": {
+      "name": "Morgan",
+      "voting": {
+        "2016": {
+          "democratic_votes": 4696,
+          "democratic_pct": 31.73,
+          "republican_votes": 9076,
+          "republican_pct": 61.32,
+          "other_votes": 1028,
+          "other_pct": 6.95,
+          "total_votes": 14800,
+          "est_registered_voters": 21465
+        },
+        "2020": {
+          "democratic_votes": 5076,
+          "democratic_pct": 33.11,
+          "republican_votes": 9950,
+          "republican_pct": 64.89,
+          "other_votes": 307,
+          "other_pct": 2.0,
+          "total_votes": 15333,
+          "est_registered_voters": 21255
+        },
+        "2024": {
+          "democratic_votes": 4848,
+          "democratic_pct": 33.03,
+          "republican_votes": 9607,
+          "republican_pct": 65.46,
+          "other_votes": 222,
+          "other_pct": 1.51,
+          "total_votes": 14677,
+          "est_registered_voters": 20842
+        }
+      }
+    },
+    "Moultrie": {
+      "name": "Moultrie",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1481,
+          "democratic_pct": 23.57,
+          "republican_votes": 4455,
+          "republican_pct": 70.91,
+          "other_votes": 347,
+          "other_pct": 5.52,
+          "total_votes": 6283,
+          "est_registered_voters": 9112
+        },
+        "2020": {
+          "democratic_votes": 1662,
+          "democratic_pct": 24.6,
+          "republican_votes": 4964,
+          "republican_pct": 73.48,
+          "other_votes": 130,
+          "other_pct": 1.92,
+          "total_votes": 6756,
+          "est_registered_voters": 9365
+        },
+        "2024": {
+          "democratic_votes": 1615,
+          "democratic_pct": 24.67,
+          "republican_votes": 4816,
+          "republican_pct": 73.56,
+          "other_votes": 116,
+          "other_pct": 1.77,
+          "total_votes": 6547,
+          "est_registered_voters": 9297
+        }
+      }
+    },
+    "Ogle": {
+      "name": "Ogle",
+      "voting": {
+        "2016": {
+          "democratic_votes": 8050,
+          "democratic_pct": 33.27,
+          "republican_votes": 14352,
+          "republican_pct": 59.32,
+          "other_votes": 1791,
+          "other_pct": 7.41,
+          "total_votes": 24193,
+          "est_registered_voters": 35088
+        },
+        "2020": {
+          "democratic_votes": 9428,
+          "democratic_pct": 35.79,
+          "republican_votes": 16248,
+          "republican_pct": 61.69,
+          "other_votes": 664,
+          "other_pct": 2.52,
+          "total_votes": 26340,
+          "est_registered_voters": 36512
+        },
+        "2024": {
+          "democratic_votes": 8883,
+          "democratic_pct": 34.3,
+          "republican_votes": 16450,
+          "republican_pct": 63.51,
+          "other_votes": 567,
+          "other_pct": 2.19,
+          "total_votes": 25900,
+          "est_registered_voters": 36779
+        }
+      }
+    },
+    "Peoria": {
+      "name": "Peoria",
+      "voting": {
+        "2016": {
+          "democratic_votes": 38060,
+          "democratic_pct": 48.12,
+          "republican_votes": 35633,
+          "republican_pct": 45.05,
+          "other_votes": 5409,
+          "other_pct": 6.83,
+          "total_votes": 79102,
+          "est_registered_voters": 114724
+        },
+        "2020": {
+          "democratic_votes": 43578,
+          "democratic_pct": 51.9,
+          "republican_votes": 38252,
+          "republican_pct": 45.55,
+          "other_votes": 2143,
+          "other_pct": 2.55,
+          "total_votes": 83973,
+          "est_registered_voters": 116403
+        },
+        "2024": {
+          "democratic_votes": 40564,
+          "democratic_pct": 50.88,
+          "republican_votes": 36896,
+          "republican_pct": 46.28,
+          "other_votes": 2262,
+          "other_pct": 2.84,
+          "total_votes": 79722,
+          "est_registered_voters": 113209
+        }
+      }
+    },
+    "Perry": {
+      "name": "Perry",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2462,
+          "democratic_pct": 24.93,
+          "republican_votes": 6855,
+          "republican_pct": 69.42,
+          "other_votes": 557,
+          "other_pct": 5.65,
+          "total_votes": 9874,
+          "est_registered_voters": 14321
+        },
+        "2020": {
+          "democratic_votes": 2612,
+          "democratic_pct": 25.94,
+          "republican_votes": 7313,
+          "republican_pct": 72.61,
+          "other_votes": 146,
+          "other_pct": 1.45,
+          "total_votes": 10071,
+          "est_registered_voters": 13960
+        },
+        "2024": {
+          "democratic_votes": 2146,
+          "democratic_pct": 23.16,
+          "republican_votes": 6949,
+          "republican_pct": 75.0,
+          "other_votes": 170,
+          "other_pct": 1.84,
+          "total_votes": 9265,
+          "est_registered_voters": 13157
+        }
+      }
+    },
+    "Piatt": {
+      "name": "Piatt",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2645,
+          "democratic_pct": 29.19,
+          "republican_votes": 5634,
+          "republican_pct": 62.19,
+          "other_votes": 781,
+          "other_pct": 8.62,
+          "total_votes": 9060,
+          "est_registered_voters": 13140
+        },
+        "2020": {
+          "democratic_votes": 3329,
+          "democratic_pct": 33.79,
+          "republican_votes": 6248,
+          "republican_pct": 63.43,
+          "other_votes": 274,
+          "other_pct": 2.78,
+          "total_votes": 9851,
+          "est_registered_voters": 13655
+        },
+        "2024": {
+          "democratic_votes": 3204,
+          "democratic_pct": 33.56,
+          "republican_votes": 6104,
+          "republican_pct": 63.94,
+          "other_votes": 238,
+          "other_pct": 2.5,
+          "total_votes": 9546,
+          "est_registered_voters": 13556
+        }
+      }
+    },
+    "Pike": {
+      "name": "Pike",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1413,
+          "democratic_pct": 18.76,
+          "republican_votes": 5754,
+          "republican_pct": 76.41,
+          "other_votes": 363,
+          "other_pct": 4.83,
+          "total_votes": 7530,
+          "est_registered_voters": 10921
+        },
+        "2020": {
+          "democratic_votes": 1484,
+          "democratic_pct": 18.63,
+          "republican_votes": 6332,
+          "republican_pct": 79.5,
+          "other_votes": 149,
+          "other_pct": 1.87,
+          "total_votes": 7965,
+          "est_registered_voters": 11041
+        },
+        "2024": {
+          "democratic_votes": 1302,
+          "democratic_pct": 17.3,
+          "republican_votes": 6086,
+          "republican_pct": 80.88,
+          "other_votes": 137,
+          "other_pct": 1.82,
+          "total_votes": 7525,
+          "est_registered_voters": 10686
+        }
+      }
+    },
+    "Pope": {
+      "name": "Pope",
+      "voting": {
+        "2016": {
+          "democratic_votes": 375,
+          "democratic_pct": 17.51,
+          "republican_votes": 1678,
+          "republican_pct": 78.34,
+          "other_votes": 89,
+          "other_pct": 4.15,
+          "total_votes": 2142,
+          "est_registered_voters": 3107
+        },
+        "2020": {
+          "democratic_votes": 433,
+          "democratic_pct": 19.9,
+          "republican_votes": 1722,
+          "republican_pct": 79.14,
+          "other_votes": 21,
+          "other_pct": 0.96,
+          "total_votes": 2176,
+          "est_registered_voters": 3016
+        },
+        "2024": {
+          "democratic_votes": 416,
+          "democratic_pct": 19.48,
+          "republican_votes": 1698,
+          "republican_pct": 79.53,
+          "other_votes": 21,
+          "other_pct": 0.99,
+          "total_votes": 2135,
+          "est_registered_voters": 3032
+        }
+      }
+    },
+    "Pulaski": {
+      "name": "Pulaski",
+      "voting": {
+        "2016": {
+          "democratic_votes": 962,
+          "democratic_pct": 35.17,
+          "republican_votes": 1675,
+          "republican_pct": 61.24,
+          "other_votes": 98,
+          "other_pct": 3.59,
+          "total_votes": 2735,
+          "est_registered_voters": 3967
+        },
+        "2020": {
+          "democratic_votes": 891,
+          "democratic_pct": 33.87,
+          "republican_votes": 1699,
+          "republican_pct": 64.58,
+          "other_votes": 41,
+          "other_pct": 1.55,
+          "total_votes": 2631,
+          "est_registered_voters": 3647
+        },
+        "2024": {
+          "democratic_votes": 769,
+          "democratic_pct": 32.23,
+          "republican_votes": 1583,
+          "republican_pct": 66.35,
+          "other_votes": 34,
+          "other_pct": 1.42,
+          "total_votes": 2386,
+          "est_registered_voters": 3388
+        }
+      }
+    },
+    "Putnam": {
+      "name": "Putnam",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1147,
+          "democratic_pct": 36.86,
+          "republican_votes": 1767,
+          "republican_pct": 56.78,
+          "other_votes": 198,
+          "other_pct": 6.36,
+          "total_votes": 3112,
+          "est_registered_voters": 4513
+        },
+        "2020": {
+          "democratic_votes": 1338,
+          "democratic_pct": 39.41,
+          "republican_votes": 1993,
+          "republican_pct": 58.7,
+          "other_votes": 64,
+          "other_pct": 1.89,
+          "total_votes": 3395,
+          "est_registered_voters": 4706
+        },
+        "2024": {
+          "democratic_votes": 1254,
+          "democratic_pct": 37.46,
+          "republican_votes": 2014,
+          "republican_pct": 60.16,
+          "other_votes": 80,
+          "other_pct": 2.38,
+          "total_votes": 3348,
+          "est_registered_voters": 4754
+        }
+      }
+    },
+    "Randolph": {
+      "name": "Randolph",
+      "voting": {
+        "2016": {
+          "democratic_votes": 3439,
+          "democratic_pct": 24.23,
+          "republican_votes": 10023,
+          "republican_pct": 70.61,
+          "other_votes": 732,
+          "other_pct": 5.16,
+          "total_votes": 14194,
+          "est_registered_voters": 20586
+        },
+        "2020": {
+          "democratic_votes": 3592,
+          "democratic_pct": 24.09,
+          "republican_votes": 11076,
+          "republican_pct": 74.29,
+          "other_votes": 242,
+          "other_pct": 1.62,
+          "total_votes": 14910,
+          "est_registered_voters": 20668
+        },
+        "2024": {
+          "democratic_votes": 3461,
+          "democratic_pct": 24.08,
+          "republican_votes": 10624,
+          "republican_pct": 73.92,
+          "other_votes": 288,
+          "other_pct": 2.0,
+          "total_votes": 14373,
+          "est_registered_voters": 20410
+        }
+      }
+    },
+    "Richland": {
+      "name": "Richland",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1584,
+          "democratic_pct": 20.59,
+          "republican_votes": 5739,
+          "republican_pct": 74.59,
+          "other_votes": 371,
+          "other_pct": 4.82,
+          "total_votes": 7694,
+          "est_registered_voters": 11159
+        },
+        "2020": {
+          "democratic_votes": 1830,
+          "democratic_pct": 22.66,
+          "republican_votes": 6089,
+          "republican_pct": 75.39,
+          "other_votes": 158,
+          "other_pct": 1.95,
+          "total_votes": 8077,
+          "est_registered_voters": 11196
+        },
+        "2024": {
+          "democratic_votes": 1747,
+          "democratic_pct": 22.48,
+          "republican_votes": 5889,
+          "republican_pct": 75.77,
+          "other_votes": 136,
+          "other_pct": 1.75,
+          "total_votes": 7772,
+          "est_registered_voters": 11037
+        }
+      }
+    },
+    "Rock Island": {
+      "name": "Rock Island",
+      "voting": {
+        "2016": {
+          "democratic_votes": 32298,
+          "democratic_pct": 50.47,
+          "republican_votes": 26998,
+          "republican_pct": 42.19,
+          "other_votes": 4698,
+          "other_pct": 7.34,
+          "total_votes": 63994,
+          "est_registered_voters": 92812
+        },
+        "2020": {
+          "democratic_votes": 36691,
+          "democratic_pct": 54.81,
+          "republican_votes": 28603,
+          "republican_pct": 42.72,
+          "other_votes": 1653,
+          "other_pct": 2.47,
+          "total_votes": 66947,
+          "est_registered_voters": 92801
+        },
+        "2024": {
+          "democratic_votes": 34126,
+          "democratic_pct": 53.59,
+          "republican_votes": 28061,
+          "republican_pct": 44.07,
+          "other_votes": 1492,
+          "other_pct": 2.34,
+          "total_votes": 63679,
+          "est_registered_voters": 90427
+        }
+      }
+    },
+    "Saline": {
+      "name": "Saline",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2572,
+          "democratic_pct": 22.59,
+          "republican_votes": 8276,
+          "republican_pct": 72.7,
+          "other_votes": 536,
+          "other_pct": 4.71,
+          "total_votes": 11384,
+          "est_registered_voters": 16511
+        },
+        "2020": {
+          "democratic_votes": 2789,
+          "democratic_pct": 25.15,
+          "republican_votes": 8103,
+          "republican_pct": 73.07,
+          "other_votes": 197,
+          "other_pct": 1.78,
+          "total_votes": 11089,
+          "est_registered_voters": 15371
+        },
+        "2024": {
+          "democratic_votes": 2634,
+          "democratic_pct": 24.78,
+          "republican_votes": 7830,
+          "republican_pct": 73.67,
+          "other_votes": 165,
+          "other_pct": 1.55,
+          "total_votes": 10629,
+          "est_registered_voters": 15094
+        }
+      }
+    },
+    "Sangamon": {
+      "name": "Sangamon",
+      "voting": {
+        "2016": {
+          "democratic_votes": 40907,
+          "democratic_pct": 41.58,
+          "republican_votes": 49944,
+          "republican_pct": 50.77,
+          "other_votes": 7522,
+          "other_pct": 7.65,
+          "total_votes": 98373,
+          "est_registered_voters": 142673
+        },
+        "2020": {
+          "democratic_votes": 48917,
+          "democratic_pct": 46.52,
+          "republican_votes": 53485,
+          "republican_pct": 50.87,
+          "other_votes": 2740,
+          "other_pct": 2.61,
+          "total_votes": 105142,
+          "est_registered_voters": 145747
+        },
+        "2024": {
+          "democratic_votes": 46074,
+          "democratic_pct": 46.18,
+          "republican_votes": 50979,
+          "republican_pct": 51.09,
+          "other_votes": 2720,
+          "other_pct": 2.73,
+          "total_votes": 99773,
+          "est_registered_voters": 141683
+        }
+      }
+    },
+    "Schuyler": {
+      "name": "Schuyler",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1075,
+          "democratic_pct": 28.04,
+          "republican_votes": 2524,
+          "republican_pct": 65.83,
+          "other_votes": 235,
+          "other_pct": 6.13,
+          "total_votes": 3834,
+          "est_registered_voters": 5561
+        },
+        "2020": {
+          "democratic_votes": 1068,
+          "democratic_pct": 27.26,
+          "republican_votes": 2773,
+          "republican_pct": 70.78,
+          "other_votes": 77,
+          "other_pct": 1.96,
+          "total_votes": 3918,
+          "est_registered_voters": 5431
+        },
+        "2024": {
+          "democratic_votes": 961,
+          "democratic_pct": 25.51,
+          "republican_votes": 2720,
+          "republican_pct": 72.21,
+          "other_votes": 86,
+          "other_pct": 2.28,
+          "total_votes": 3767,
+          "est_registered_voters": 5349
+        }
+      }
+    },
+    "Scott": {
+      "name": "Scott",
+      "voting": {
+        "2016": {
+          "democratic_votes": 535,
+          "democratic_pct": 20.51,
+          "republican_votes": 1966,
+          "republican_pct": 75.38,
+          "other_votes": 107,
+          "other_pct": 4.11,
+          "total_votes": 2608,
+          "est_registered_voters": 3782
+        },
+        "2020": {
+          "democratic_votes": 572,
+          "democratic_pct": 20.85,
+          "republican_votes": 2114,
+          "republican_pct": 77.07,
+          "other_votes": 57,
+          "other_pct": 2.08,
+          "total_votes": 2743,
+          "est_registered_voters": 3802
+        },
+        "2024": {
+          "democratic_votes": 488,
+          "democratic_pct": 18.83,
+          "republican_votes": 2071,
+          "republican_pct": 79.9,
+          "other_votes": 33,
+          "other_pct": 1.27,
+          "total_votes": 2592,
+          "est_registered_voters": 3681
+        }
+      }
+    },
+    "Shelby": {
+      "name": "Shelby",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2288,
+          "democratic_pct": 20.71,
+          "republican_votes": 8229,
+          "republican_pct": 74.48,
+          "other_votes": 532,
+          "other_pct": 4.81,
+          "total_votes": 11049,
+          "est_registered_voters": 16025
+        },
+        "2020": {
+          "democratic_votes": 2504,
+          "democratic_pct": 20.67,
+          "republican_votes": 9426,
+          "republican_pct": 77.8,
+          "other_votes": 185,
+          "other_pct": 1.53,
+          "total_votes": 12115,
+          "est_registered_voters": 16794
+        },
+        "2024": {
+          "democratic_votes": 2240,
+          "democratic_pct": 19.14,
+          "republican_votes": 9267,
+          "republican_pct": 79.18,
+          "other_votes": 196,
+          "other_pct": 1.68,
+          "total_votes": 11703,
+          "est_registered_voters": 16619
+        }
+      }
+    },
+    "St. Clair": {
+      "name": "St. Clair",
+      "voting": {
+        "2016": {
+          "democratic_votes": 60756,
+          "democratic_pct": 50.03,
+          "republican_votes": 53857,
+          "republican_pct": 44.35,
+          "other_votes": 6823,
+          "other_pct": 5.62,
+          "total_votes": 121436,
+          "est_registered_voters": 176122
+        },
+        "2020": {
+          "democratic_votes": 68325,
+          "democratic_pct": 53.17,
+          "republican_votes": 57150,
+          "republican_pct": 44.47,
+          "other_votes": 3930,
+          "other_pct": 2.36,
+          "total_votes": 129405,
+          "est_registered_voters": 179380
+        },
+        "2024": {
+          "democratic_votes": 63433,
+          "democratic_pct": 52.61,
+          "republican_votes": 54021,
+          "republican_pct": 44.8,
+          "other_votes": 3118,
+          "other_pct": 2.59,
+          "total_votes": 120572,
+          "est_registered_voters": 171218
+        }
+      }
+    },
+    "Stark": {
+      "name": "Stark",
+      "voting": {
+        "2016": {
+          "democratic_votes": 751,
+          "democratic_pct": 27.38,
+          "republican_votes": 1778,
+          "republican_pct": 64.82,
+          "other_votes": 214,
+          "other_pct": 7.8,
+          "total_votes": 2743,
+          "est_registered_voters": 3978
+        },
+        "2020": {
+          "democratic_votes": 815,
+          "democratic_pct": 28.24,
+          "republican_votes": 2004,
+          "republican_pct": 69.44,
+          "other_votes": 67,
+          "other_pct": 2.32,
+          "total_votes": 2886,
+          "est_registered_voters": 4001
+        },
+        "2024": {
+          "democratic_votes": 725,
+          "democratic_pct": 26.22,
+          "republican_votes": 1983,
+          "republican_pct": 71.72,
+          "other_votes": 57,
+          "other_pct": 2.06,
+          "total_votes": 2765,
+          "est_registered_voters": 3926
+        }
+      }
+    },
+    "Stephenson": {
+      "name": "Stephenson",
+      "voting": {
+        "2016": {
+          "democratic_votes": 7768,
+          "democratic_pct": 38.19,
+          "republican_votes": 11083,
+          "republican_pct": 54.48,
+          "other_votes": 1492,
+          "other_pct": 7.33,
+          "total_votes": 20343,
+          "est_registered_voters": 29504
+        },
+        "2020": {
+          "democratic_votes": 9055,
+          "democratic_pct": 40.95,
+          "republican_votes": 12521,
+          "republican_pct": 56.63,
+          "other_votes": 535,
+          "other_pct": 2.42,
+          "total_votes": 22111,
+          "est_registered_voters": 30650
+        },
+        "2024": {
+          "democratic_votes": 8278,
+          "democratic_pct": 39.28,
+          "republican_votes": 12347,
+          "republican_pct": 58.58,
+          "other_votes": 451,
+          "other_pct": 2.14,
+          "total_votes": 21076,
+          "est_registered_voters": 29929
+        }
+      }
+    },
+    "Tazewell": {
+      "name": "Tazewell",
+      "voting": {
+        "2016": {
+          "democratic_votes": 20685,
+          "democratic_pct": 31.95,
+          "republican_votes": 38707,
+          "republican_pct": 59.78,
+          "other_votes": 5359,
+          "other_pct": 8.27,
+          "total_votes": 64751,
+          "est_registered_voters": 93910
+        },
+        "2020": {
+          "democratic_votes": 24819,
+          "democratic_pct": 35.83,
+          "republican_votes": 42513,
+          "republican_pct": 61.37,
+          "other_votes": 1944,
+          "other_pct": 2.8,
+          "total_votes": 69276,
+          "est_registered_voters": 96030
+        },
+        "2024": {
+          "democratic_votes": 24325,
+          "democratic_pct": 35.54,
+          "republican_votes": 42451,
+          "republican_pct": 62.02,
+          "other_votes": 1666,
+          "other_pct": 2.44,
+          "total_votes": 68442,
+          "est_registered_voters": 97191
+        }
+      }
+    },
+    "Union": {
+      "name": "Union",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2402,
+          "democratic_pct": 27.88,
+          "republican_votes": 5790,
+          "republican_pct": 67.2,
+          "other_votes": 424,
+          "other_pct": 4.92,
+          "total_votes": 8616,
+          "est_registered_voters": 12496
+        },
+        "2020": {
+          "democratic_votes": 2579,
+          "democratic_pct": 28.96,
+          "republican_votes": 6161,
+          "republican_pct": 69.19,
+          "other_votes": 164,
+          "other_pct": 1.85,
+          "total_votes": 8904,
+          "est_registered_voters": 12343
+        },
+        "2024": {
+          "democratic_votes": 2285,
+          "democratic_pct": 27.64,
+          "republican_votes": 5837,
+          "republican_pct": 70.6,
+          "other_votes": 146,
+          "other_pct": 1.76,
+          "total_votes": 8268,
+          "est_registered_voters": 11741
+        }
+      }
+    },
+    "Vermilion": {
+      "name": "Vermilion",
+      "voting": {
+        "2016": {
+          "democratic_votes": 10039,
+          "democratic_pct": 32.58,
+          "republican_votes": 19087,
+          "republican_pct": 61.93,
+          "other_votes": 1692,
+          "other_pct": 5.49,
+          "total_votes": 30818,
+          "est_registered_voters": 44696
+        },
+        "2020": {
+          "democratic_votes": 10323,
+          "democratic_pct": 32.62,
+          "republican_votes": 20725,
+          "republican_pct": 65.5,
+          "other_votes": 594,
+          "other_pct": 1.88,
+          "total_votes": 31642,
+          "est_registered_voters": 43862
+        },
+        "2024": {
+          "democratic_votes": 9254,
+          "democratic_pct": 31.21,
+          "republican_votes": 19777,
+          "republican_pct": 66.7,
+          "other_votes": 620,
+          "other_pct": 2.09,
+          "total_votes": 29651,
+          "est_registered_voters": 42106
+        }
+      }
+    },
+    "Wabash": {
+      "name": "Wabash",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1151,
+          "democratic_pct": 21.07,
+          "republican_votes": 4047,
+          "republican_pct": 74.07,
+          "other_votes": 266,
+          "other_pct": 4.86,
+          "total_votes": 5464,
+          "est_registered_voters": 7925
+        },
+        "2020": {
+          "democratic_votes": 1253,
+          "democratic_pct": 22.35,
+          "republican_votes": 4237,
+          "republican_pct": 75.57,
+          "other_votes": 117,
+          "other_pct": 2.08,
+          "total_votes": 5607,
+          "est_registered_voters": 7772
+        },
+        "2024": {
+          "democratic_votes": 1200,
+          "democratic_pct": 22.25,
+          "republican_votes": 4095,
+          "republican_pct": 75.93,
+          "other_votes": 98,
+          "other_pct": 1.82,
+          "total_votes": 5393,
+          "est_registered_voters": 7658
+        }
+      }
+    },
+    "Warren": {
+      "name": "Warren",
+      "voting": {
+        "2016": {
+          "democratic_votes": 2987,
+          "democratic_pct": 38.26,
+          "republican_votes": 4275,
+          "republican_pct": 54.76,
+          "other_votes": 545,
+          "other_pct": 6.98,
+          "total_votes": 7807,
+          "est_registered_voters": 11323
+        },
+        "2020": {
+          "democratic_votes": 3090,
+          "democratic_pct": 39.0,
+          "republican_votes": 4676,
+          "republican_pct": 59.01,
+          "other_votes": 158,
+          "other_pct": 1.99,
+          "total_votes": 7924,
+          "est_registered_voters": 10984
+        },
+        "2024": {
+          "democratic_votes": 2711,
+          "democratic_pct": 36.29,
+          "republican_votes": 4579,
+          "republican_pct": 61.3,
+          "other_votes": 180,
+          "other_pct": 2.41,
+          "total_votes": 7470,
+          "est_registered_voters": 10608
+        }
+      }
+    },
+    "Washington": {
+      "name": "Washington",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1448,
+          "democratic_pct": 19.47,
+          "republican_votes": 5571,
+          "republican_pct": 74.9,
+          "other_votes": 419,
+          "other_pct": 5.63,
+          "total_votes": 7438,
+          "est_registered_voters": 10788
+        },
+        "2020": {
+          "democratic_votes": 1641,
+          "democratic_pct": 20.72,
+          "republican_votes": 6115,
+          "republican_pct": 77.2,
+          "other_votes": 165,
+          "other_pct": 2.08,
+          "total_votes": 7921,
+          "est_registered_voters": 10980
+        },
+        "2024": {
+          "democratic_votes": 1564,
+          "democratic_pct": 20.59,
+          "republican_votes": 5892,
+          "republican_pct": 77.56,
+          "other_votes": 141,
+          "other_pct": 1.85,
+          "total_votes": 7597,
+          "est_registered_voters": 10788
+        }
+      }
+    },
+    "Wayne": {
+      "name": "Wayne",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1048,
+          "democratic_pct": 12.62,
+          "republican_votes": 6967,
+          "republican_pct": 83.93,
+          "other_votes": 286,
+          "other_pct": 3.45,
+          "total_votes": 8301,
+          "est_registered_voters": 12039
+        },
+        "2020": {
+          "democratic_votes": 1187,
+          "democratic_pct": 13.97,
+          "republican_votes": 7176,
+          "republican_pct": 84.43,
+          "other_votes": 136,
+          "other_pct": 1.6,
+          "total_votes": 8499,
+          "est_registered_voters": 11781
+        },
+        "2024": {
+          "democratic_votes": 1155,
+          "democratic_pct": 13.93,
+          "republican_votes": 7019,
+          "republican_pct": 84.66,
+          "other_votes": 117,
+          "other_pct": 1.41,
+          "total_votes": 8291,
+          "est_registered_voters": 11774
+        }
+      }
+    },
+    "White": {
+      "name": "White",
+      "voting": {
+        "2016": {
+          "democratic_votes": 1412,
+          "democratic_pct": 19.25,
+          "republican_votes": 5640,
+          "republican_pct": 76.89,
+          "other_votes": 283,
+          "other_pct": 3.86,
+          "total_votes": 7335,
+          "est_registered_voters": 10638
+        },
+        "2020": {
+          "democratic_votes": 1517,
+          "democratic_pct": 20.41,
+          "republican_votes": 5791,
+          "republican_pct": 77.93,
+          "other_votes": 123,
+          "other_pct": 1.66,
+          "total_votes": 7431,
+          "est_registered_voters": 10301
+        },
+        "2024": {
+          "democratic_votes": 1390,
+          "democratic_pct": 19.62,
+          "republican_votes": 5586,
+          "republican_pct": 78.84,
+          "other_votes": 109,
+          "other_pct": 1.54,
+          "total_votes": 7085,
+          "est_registered_voters": 10061
+        }
+      }
+    },
+    "Whiteside": {
+      "name": "Whiteside",
+      "voting": {
+        "2016": {
+          "democratic_votes": 11035,
+          "democratic_pct": 43.14,
+          "republican_votes": 12615,
+          "republican_pct": 49.31,
+          "other_votes": 1932,
+          "other_pct": 7.55,
+          "total_votes": 25582,
+          "est_registered_voters": 37102
+        },
+        "2020": {
+          "democratic_votes": 12253,
+          "democratic_pct": 44.67,
+          "republican_votes": 14527,
+          "republican_pct": 52.95,
+          "other_votes": 653,
+          "other_pct": 2.38,
+          "total_votes": 27433,
+          "est_registered_voters": 38027
+        },
+        "2024": {
+          "democratic_votes": 11012,
+          "democratic_pct": 41.48,
+          "republican_votes": 14898,
+          "republican_pct": 56.11,
+          "other_votes": 640,
+          "other_pct": 2.41,
+          "total_votes": 26550,
+          "est_registered_voters": 37702
+        }
+      }
+    },
+    "Will": {
+      "name": "Will",
+      "voting": {
+        "2016": {
+          "democratic_votes": 151927,
+          "democratic_pct": 49.94,
+          "republican_votes": 132720,
+          "republican_pct": 43.63,
+          "other_votes": 19579,
+          "other_pct": 6.43,
+          "total_votes": 304226,
+          "est_registered_voters": 441227
+        },
+        "2020": {
+          "democratic_votes": 183915,
+          "democratic_pct": 53.11,
+          "republican_votes": 155116,
+          "republican_pct": 44.8,
+          "other_votes": 7235,
+          "other_pct": 2.09,
+          "total_votes": 346266,
+          "est_registered_voters": 479992
+        },
+        "2024": {
+          "democratic_votes": 162874,
+          "democratic_pct": 50.1,
+          "republican_votes": 157672,
+          "republican_pct": 48.5,
+          "other_votes": 4425,
+          "other_pct": 1.4,
+          "total_votes": 324971,
+          "est_registered_voters": 461475
+        }
+      }
+    },
+    "Williamson": {
+      "name": "Williamson",
+      "voting": {
+        "2016": {
+          "democratic_votes": 8581,
+          "democratic_pct": 26.94,
+          "republican_votes": 21570,
+          "republican_pct": 67.72,
+          "other_votes": 1701,
+          "other_pct": 5.34,
+          "total_votes": 31852,
+          "est_registered_voters": 46196
+        },
+        "2020": {
+          "democratic_votes": 10206,
+          "democratic_pct": 30.26,
+          "republican_votes": 22801,
+          "republican_pct": 67.6,
+          "other_votes": 723,
+          "other_pct": 2.14,
+          "total_votes": 33730,
+          "est_registered_voters": 46756
+        },
+        "2024": {
+          "democratic_votes": 9890,
+          "democratic_pct": 29.81,
+          "republican_votes": 22686,
+          "republican_pct": 68.38,
+          "other_votes": 598,
+          "other_pct": 1.81,
+          "total_votes": 33174,
+          "est_registered_voters": 47109
+        }
+      }
+    },
+    "Winnebago": {
+      "name": "Winnebago",
+      "voting": {
+        "2016": {
+          "democratic_votes": 55713,
+          "democratic_pct": 46.41,
+          "republican_votes": 55624,
+          "republican_pct": 46.33,
+          "other_votes": 8718,
+          "other_pct": 7.26,
+          "total_votes": 120055,
+          "est_registered_voters": 174119
+        },
+        "2020": {
+          "democratic_votes": 64056,
+          "democratic_pct": 49.98,
+          "republican_votes": 60861,
+          "republican_pct": 47.49,
+          "other_votes": 3243,
+          "other_pct": 2.53,
+          "total_votes": 128160,
+          "est_registered_voters": 177655
+        },
+        "2024": {
+          "democratic_votes": 59942,
+          "democratic_pct": 49.13,
+          "republican_votes": 59257,
+          "republican_pct": 48.56,
+          "other_votes": 2819,
+          "other_pct": 2.31,
+          "total_votes": 122018,
+          "est_registered_voters": 173272
+        }
+      }
+    },
+    "Woodford": {
+      "name": "Woodford",
+      "voting": {
+        "2016": {
+          "democratic_votes": 5092,
+          "democratic_pct": 25.63,
+          "republican_votes": 13207,
+          "republican_pct": 66.49,
+          "other_votes": 1565,
+          "other_pct": 7.88,
+          "total_votes": 19864,
+          "est_registered_voters": 28809
+        },
+        "2020": {
+          "democratic_votes": 6160,
+          "democratic_pct": 28.65,
+          "republican_votes": 14799,
+          "republican_pct": 68.83,
+          "other_votes": 543,
+          "other_pct": 2.52,
+          "total_votes": 21502,
+          "est_registered_voters": 29806
+        },
+        "2024": {
+          "democratic_votes": 5958,
+          "democratic_pct": 28.03,
+          "republican_votes": 14837,
+          "republican_pct": 69.79,
+          "other_votes": 463,
+          "other_pct": 2.18,
+          "total_votes": 21258,
+          "est_registered_voters": 30187
+        }
+      }
+    }
+  }
+}

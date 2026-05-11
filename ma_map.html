@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📍 US Census — Massachusetts City Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {--bg:#0a0a10;--sf:#141420;--bd:#1e1e3a;--tx:#e0e0f0;--mu:#8888aa;--ac:#4fc3f7;--sc:#ff5252;--cf:#ffab40;--uc:#66bb6a;--pl:#ce93d8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden}
+body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--tx);display:flex;flex-direction:column}
+#topbar{background:linear-gradient(135deg,#0d1b2a,#1b2838,#0d1b2a);border-bottom:1px solid #1a1a3a;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:space-between;z-index:1000;flex-shrink:0}
+#topbar h1{font-size:1.2rem;color:var(--ac);display:flex;align-items:center;gap:0.4rem}
+#topbar .nav-link{color:var(--mu);text-decoration:none;font-size:0.78rem;padding:0.35rem 0.9rem;border:1px solid var(--bd);border-radius:5px;transition:all 0.15s;background:var(--sf)}
+#topbar .nav-link:hover{color:var(--ac);border-color:var(--ac);background:rgba(79,195,247,0.08)}
+#map{flex:1;width:100%;background:var(--bg)}
+#legend{position:absolute;bottom:28px;right:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:12px 16px;z-index:900;font-size:0.72rem;backdrop-filter:blur(8px)}
+#legend h3{color:var(--ac);font-size:0.72rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.legend-label{color:var(--mu)}
+#info-panel{position:absolute;bottom:28px;left:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;z-index:900;font-size:0.7rem;color:var(--mu);backdrop-filter:blur(8px)}
+.leaflet-popup-content-wrapper{background:rgba(20,20,32,0.96)!important;border:1px solid var(--bd)!important;border-radius:10px!important;color:var(--tx)!important;backdrop-filter:blur(10px)}
+.leaflet-popup-content{margin:0;min-width:220px}
+.leaflet-popup-tip{background:rgba(20,20,32,0.96)!important}
+.popup-card{padding:10px 0}
+.popup-header{font-size:0.95rem;font-weight:700;color:var(--ac);margin-bottom:2px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.popup-stat{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:0.74rem;padding:3px 0}
+.popup-stat-label{color:var(--mu);font-size:0.7rem}
+.popup-stat-val{font-weight:600;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-vote-bar{margin-top:6px}
+.popup-vote-labels{display:flex;justify-content:space-between;font-size:0.66rem;margin-bottom:3px}
+.popup-vote-labels .dem-label{color:#4fc3f7}
+.popup-vote-labels .gop-label{color:#ff5252}
+.popup-bar-track{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden;display:flex;margin-bottom:2px}
+.popup-bar-dem{background:#4fc3f7;height:100%;border-radius:3px 0 0 3px}
+.popup-bar-gop{background:#ff5252;height:100%;border-radius:0 3px 3px 0}
+.popup-lean{text-align:right;font-size:0.7rem;font-weight:700;margin-top:4px;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-lean.lean-D{color:#4fc3f7}.popup-lean.lean-R{color:#ff5252}
+.popup-lean.lean-lean-D{color:#81d4fa}.popup-lean.lean-lean-R{color:#ff8a80}
+.popup-link-btn{display:block;text-align:center;margin-top:8px;padding:6px 10px;background:rgba(79,195,247,0.12);border:1px solid rgba(79,195,247,0.3);border-radius:6px;color:var(--ac);text-decoration:none;font-size:0.72rem;font-weight:600;transition:all 0.15s}
+.popup-link-btn:hover{background:rgba(79,195,247,0.22);border-color:var(--ac);color:#fff}
+#map-search{background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:0.3rem 0.7rem;border-radius:5px;font-size:0.72rem;outline:none;width:160px;transition:border-color 0.15s}
+#map-search:focus{border-color:var(--ac)}
+#map-search::placeholder{color:var(--mu)}
+#map-search-clear{background:none;border:none;color:var(--mu);cursor:pointer;font-size:0.85rem;padding:0 2px 0 6px;display:none}
+#map-search-clear.visible{display:inline}
+#map-search-clear:hover{color:var(--sc)}
+#filter-toggle{position:absolute;top:12px;right:12px;z-index:950;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:8px;color:var(--ac);padding:0.45rem 0.85rem;font-size:0.72rem;font-family:inherit;cursor:pointer;backdrop-filter:blur(8px);transition:all 0.15s;display:flex;align-items:center;gap:6px;font-weight:600}
+#filter-toggle:hover{background:rgba(20,20,40,0.95);border-color:var(--ac)}
+#filter-toggle .arrow{transition:transform 0.2s;font-size:0.6rem}
+#filter-panel{position:absolute;top:52px;right:12px;z-index:940;background:rgba(10,10,16,0.94);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;backdrop-filter:blur(10px);font-size:0.7rem;color:var(--tx);width:270px;transition:all 0.25s ease;overflow:hidden}
+#filter-panel.collapsed{opacity:0;pointer-events:none;transform:translateX(20px);max-height:0;padding-top:0;padding-bottom:0;margin:0;border-width:0}
+#filter-panel h3{font-size:0.72rem;color:var(--ac);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.filter-group{margin-bottom:12px}
+.filter-group:last-of-type{margin-bottom:10px}
+.filter-label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.filter-label .name{font-weight:600;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.3px;color:var(--mu)}
+.filter-label .range-val{font-family:'SF Mono','Cascadia Code',monospace;font-size:0.68rem;color:var(--ac);font-weight:600}
+.dual-range{position:relative;height:24px;margin:2px 0}
+.dual-range .track-bg{position:absolute;top:10px;left:0;right:0;height:4px;background:rgba(255,255,255,0.08);border-radius:2px}
+.dual-range .track-active{position:absolute;top:10px;height:4px;background:var(--ac);border-radius:2px}
+.dual-range input[type=range]{position:absolute;top:0;width:100%;height:24px;-webkit-appearance:none;background:transparent;pointer-events:none;margin:0}
+.dual-range input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--ac);border:2px solid var(--sf);cursor:pointer;pointer-events:auto;box-shadow:0 0 6px rgba(79,195,247,0.4)}
+.filter-btn{display:block;width:100%;margin-top:8px;padding:6px;background:rgba(79,195,247,0.15);border:1px solid var(--bd);border-radius:5px;color:var(--mu);font-size:0.68rem;cursor:pointer;transition:all 0.15s}
+.filter-btn:hover{color:var(--ac);border-color:var(--ac)}
+</style>
+</head>
+<body>
+<div id="topbar">
+<h1>📍 Massachusetts</h1>
+<div style="display:flex;align-items:center;gap:10px">
+<input type="text" id="map-search" placeholder="🔍 Search cities..."/>
+<button id="map-search-clear">✕</button>
+<a class="nav-link" href="census_dashboard.html">📊 Census Dashboard</a>
+</div>
+</div>
+<div id="map"></div>
+<div id="legend">
+<h3>Political Lean</h3>
+<div class="legend-row"><div class="legend-dot" style="background:#4fc3f7"></div><span class="legend-label">Democrat</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#81d4fa"></div><span class="legend-label">Lean Dem</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ce93d8"></div><span class="legend-label">Swing</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff8a80"></div><span class="legend-label">Lean GOP</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff5252"></div><span class="legend-label">Republican</span></div>
+</div>
+<div id="info-panel">
+<span id="city-count">58 cities</span>
+<span style="margin:0 6px;opacity:0.3">|</span>
+<span id="visible-count">58 visible</span>
+</div>
+<button id="filter-toggle">⚙ Filters <span class="arrow">▼</span></button>
+<div id="filter-panel" class="collapsed">
+<h3>Filters <span id="filter-reset" style="cursor:pointer;font-size:0.65rem;color:var(--mu)">Reset</span></h3>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Population</span><span class="range-val" id="pop-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="pop-track"></div>
+<input type="range" id="pop-min" min="0" max="100" value="0" step="1">
+<input type="range" id="pop-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Income</span><span class="range-val" id="income-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="income-track"></div>
+<input type="range" id="income-min" min="0" max="100" value="0" step="1">
+<input type="range" id="income-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Lean (D+ / R+)</span><span class="range-val" id="lean-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="lean-track"></div>
+<input type="range" id="lean-min" min="-100" max="100" value="-100" step="1">
+<input type="range" id="lean-max" min="-100" max="100" value="100" step="1">
+</div></div>
+<button class="filter-btn" id="filter-reset-btn">↺ Reset All Filters</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CITIES=[{"name":"Boston, MA","lat":42.338551,"lng":-71.018253,"population":663972,"income":94755,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Worcester, MA","lat":42.269478,"lng":-71.807783,"population":205501,"income":67544,"county":"Worcester","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25027"},{"name":"Springfield, MA","lat":42.115454,"lng":-72.539978,"population":154751,"income":51339,"county":"Hampden","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25013"},{"name":"Cambridge, MA","lat":42.376043,"lng":-71.11868,"population":117794,"income":126469,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Lowell, MA","lat":42.638995,"lng":-71.32102,"population":114799,"income":76205,"county":"Middlesex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25017"},{"name":"Brockton, MA","lat":42.082543,"lng":-71.024638,"population":105080,"income":77089,"county":"Norfolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25021"},{"name":"Quincy, MA","lat":42.261006,"lng":-71.008988,"population":101361,"income":95711,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Lynn, MA","lat":42.474766,"lng":-70.962035,"population":100905,"income":74715,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"New Bedford, MA","lat":41.661303,"lng":-70.937913,"population":100731,"income":56025,"county":"Bristol","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25005"},{"name":"Fall River, MA","lat":41.725351,"lng":-71.094162,"population":93764,"income":53933,"county":"Bristol","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25005"},{"name":"Newton, MA","lat":42.331768,"lng":-71.2084,"population":88504,"income":184989,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Lawrence, MA","lat":42.700273,"lng":-71.161357,"population":88297,"income":57903,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Somerville, MA","lat":42.390445,"lng":-71.101033,"population":80549,"income":127056,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Framingham, MA","lat":42.307905,"lng":-71.436196,"population":72013,"income":98179,"county":"Middlesex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25017"},{"name":"Haverhill, MA","lat":42.782945,"lng":-71.087436,"population":67387,"income":87675,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Malden, MA","lat":42.42938,"lng":-71.058706,"population":65509,"income":95298,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Waltham, MA","lat":42.388921,"lng":-71.242268,"population":64723,"income":116560,"county":"Middlesex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25017"},{"name":"Revere, MA","lat":42.421005,"lng":-70.99036,"population":59933,"income":81121,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Taunton, MA","lat":41.903324,"lng":-71.094987,"population":59719,"income":79715,"county":"Bristol","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25005"},{"name":"Medford, MA","lat":42.423844,"lng":-71.109231,"population":59062,"income":118089,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Weymouth Town, MA","lat":42.2073,"lng":-70.943687,"population":57786,"income":100077,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Chicopee, MA","lat":42.177586,"lng":-72.570189,"population":55213,"income":66927,"county":"Hampden","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25013"},{"name":"Peabody, MA","lat":42.53431,"lng":-70.969443,"population":54180,"income":95278,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Methuen Town, MA","lat":42.742641,"lng":-71.178651,"population":53043,"income":103270,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Everett, MA","lat":42.405938,"lng":-71.054649,"population":49236,"income":79658,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Barnstable Town, MA","lat":41.661478,"lng":-70.356951,"population":49232,"income":97348,"county":"Barnstable","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25001"},{"name":"Attleboro, MA","lat":41.931653,"lng":-71.294503,"population":46499,"income":93266,"county":"Bristol","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25005"},{"name":"Salem, MA","lat":42.499248,"lng":-70.898204,"population":44241,"income":85137,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Leominster, MA","lat":42.520876,"lng":-71.770611,"population":43697,"income":81556,"county":"Worcester","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25027"},{"name":"Pittsfield, MA","lat":42.45184,"lng":-73.260685,"population":43559,"income":68386,"county":"Berkshire","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25003"},{"name":"Beverly, MA","lat":42.556659,"lng":-70.84496,"population":42408,"income":103739,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Fitchburg, MA","lat":42.601977,"lng":-71.81587,"population":41633,"income":70659,"county":"Worcester","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25027"},{"name":"Marlborough, MA","lat":42.349617,"lng":-71.547214,"population":41398,"income":95047,"county":"Middlesex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25017"},{"name":"Woburn, MA","lat":42.488703,"lng":-71.154383,"population":41205,"income":107754,"county":"Middlesex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25017"},{"name":"Westfield, MA","lat":42.138838,"lng":-72.755911,"population":40673,"income":82847,"county":"Hampden","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25013"},{"name":"Chelsea, MA","lat":42.396824,"lng":-71.031348,"population":39460,"income":72220,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Braintree Town, MA","lat":42.206188,"lng":-71.00232,"population":38762,"income":125305,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Holyoke, MA","lat":42.211658,"lng":-72.642448,"population":37949,"income":51892,"county":"Hampden","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25013"},{"name":"Amherst Town, MA","lat":42.363534,"lng":-72.507291,"population":35472,"income":65938,"county":"Hampshire","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25015"},{"name":"Watertown Town, MA","lat":42.369451,"lng":-71.177925,"population":35270,"income":123422,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Randolph Town, MA","lat":42.178993,"lng":-71.052654,"population":34683,"income":103129,"county":"Norfolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25021"},{"name":"Franklin Town, MA","lat":42.084858,"lng":-71.410571,"population":33067,"income":142788,"county":"Norfolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25021"},{"name":"North Attleborough Town, MA","lat":41.970454,"lng":-71.33493,"population":30842,"income":109426,"county":"Norfolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25021"},{"name":"Gloucester, MA","lat":42.62885,"lng":-70.685875,"population":29862,"income":87898,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Melrose, MA","lat":42.455723,"lng":-71.059019,"population":29488,"income":126854,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Bridgewater Town, MA","lat":41.972376,"lng":-70.978773,"population":28669,"income":112482,"county":"Plymouth","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25023"},{"name":"Northampton, MA","lat":42.327044,"lng":-72.67463,"population":28640,"income":78467,"county":"Hampshire","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25015"},{"name":"West Springfield Town, MA","lat":42.125451,"lng":-72.649734,"population":28635,"income":70401,"county":"Hampden","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25013"},{"name":"Agawam Town, MA","lat":42.063891,"lng":-72.652959,"population":28510,"income":82359,"county":"Hampden","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25013"},{"name":"Gardner, MA","lat":42.584206,"lng":-71.988737,"population":21075,"income":62948,"county":"Worcester","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25027"},{"name":"Winthrop Town, MA","lat":42.375541,"lng":-70.970646,"population":18807,"income":106357,"county":"Suffolk","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25025"},{"name":"Newburyport, MA","lat":42.812141,"lng":-70.886646,"population":18444,"income":144259,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Southbridge Town, MA","lat":42.059737,"lng":-72.033908,"population":17806,"income":59397,"county":"Worcester","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25027"},{"name":"Greenfield, MA","lat":42.614671,"lng":-72.597063,"population":17662,"income":53961,"county":"Franklin","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25011"},{"name":"Amesbury Town, MA","lat":42.851277,"lng":-70.955792,"population":17277,"income":100599,"county":"Essex","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25009"},{"name":"Easthampton Town, MA","lat":42.265435,"lng":-72.670813,"population":16103,"income":72925,"county":"Hampshire","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25015"},{"name":"North Adams, MA","lat":42.675565,"lng":-73.118114,"population":12660,"income":48521,"county":"Berkshire","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25003"},{"name":"Palmer Town, MA","lat":42.188862,"lng":-72.30648,"population":12372,"income":78789,"county":"Hampden","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"25013"}];
+const map=L.map('map',{center:[39.8,-98.5],zoom:5,zoomControl:false,attributionControl:false});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:18,attribution:'&copy;<a href="https://carto.com/">CartoDB</a>'}).addTo(map);
+L.control.zoom({position:'bottomleft'}).addTo(map);
+function leanColor(l){return l==='D'?'#4fc3f7':l==='lean-D'?'#81d4fa':l==='swing'?'#ce93d8':l==='lean-R'?'#ff8a80':l==='R'?'#ff5252':'#888'}
+function popRadius(p){const m=CITIES.length>0?CITIES[0].population:2300000;return 3+12*Math.sqrt(p/Math.max(m,1))}
+const markers=[];
+CITIES.forEach(c=>{const color=leanColor(c.lean);const radius=popRadius(c.population);
+const m=L.circleMarker([c.lat,c.lng],{radius,fillColor:color,color:'rgba(255,255,255,0.15)',weight:1,fillOpacity:0.85}).addTo(map);
+m._cityData=c;
+const cityEnc=encodeURIComponent(c.name);
+const demPct=c.dem_pct_2024||50,gopPct=c.gop_pct_2024||50;
+const margin=demPct-gopPct;
+const leanVal=margin>0?'D+'+margin.toFixed(1):'R+'+Math.abs(margin).toFixed(1);
+const lcc=c.lean==='D'?'lean-D':c.lean==='R'?'lean-R':c.lean==='lean-D'?'lean-lean-D':c.lean==='lean-R'?'lean-lean-R':'';
+const tv=demPct+gopPct,dbw=tv>0?(demPct/tv)*100:50,gbw=tv>0?(gopPct/tv)*100:50;
+m.bindPopup(`<div class="popup-card"><div class="popup-header">${c.name}</div>
+<div class="popup-stat"><span class="popup-stat-label">Population</span><span class="popup-stat-val">${c.population.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">Median Income</span><span class="popup-stat-val">$${c.income.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">County</span><span class="popup-stat-val">${c.county}</span></div>
+<div class="popup-vote-bar"><div class="popup-vote-labels"><span class="dem-label">🟦 Dem ${demPct.toFixed(1)}%</span><span class="gop-label">🟥 GOP ${gopPct.toFixed(1)}%</span></div>
+<div class="popup-bar-track"><div class="popup-bar-dem" style="width:${dbw}%"></div><div class="popup-bar-gop" style="width:${gbw}%"></div></div></div>
+<div class="popup-lean ${lcc}">${leanVal} • ${c.lean.replace('lean-','lean ')}</div>
+<a class="popup-link-btn" href="census_dashboard.html?city=${cityEnc}" target="_blank">📊 View Full Report →</a></div>`,{maxWidth:280,className:'dark-popup'});
+markers.push(m);});
+function updateInfo(){const t=markers.length,v=markers.filter(m=>!m._filtered).length;document.getElementById('city-count').textContent=t+' cities';document.getElementById('visible-count').textContent=v+' visible'}
+updateInfo();
+const fs={sq:'',pMin:0,pMax:Infinity,iMin:0,iMax:Infinity,lMin:-100,lMax:100};
+function applyFilters(){markers.forEach(m=>{const c=m._cityData;const nm=!fs.sq||c.name.toLowerCase().includes(fs.sq);const pm=c.population>=fs.pMin&&c.population<=fs.pMax;const im=c.income>=fs.iMin&&c.income<=fs.iMax;const mg=(c.dem_pct_2024||50)-(c.gop_pct_2024||50);const lm=mg>=fs.lMin&&mg<=fs.lMax;if(nm&&pm&&im&&lm){if(m._filtered){m.addTo(map);m._filtered=false}}else{if(!m._filtered){m.remove();m._filtered=true}}});updateInfo()}
+const si=document.getElementById('map-search'),sc=document.getElementById('map-search-clear');
+si.addEventListener('input',()=>{fs.sq=si.value.toLowerCase().trim();sc.classList.toggle('visible',fs.sq.length>0);applyFilters()});
+sc.addEventListener('click',()=>{si.value='';fs.sq='';sc.classList.remove('visible');applyFilters();si.focus()});
+const ft=document.getElementById('filter-toggle'),fp=document.getElementById('filter-panel'),fa=ft.querySelector('.arrow');
+ft.addEventListener('click',()=>{const s=fp.classList.toggle('collapsed');fa.textContent=s?'▼':'▲'});
+const pmin=document.getElementById('pop-min'),pmax=document.getElementById('pop-max'),plab=document.getElementById('pop-range-label'),ptrack=document.getElementById('pop-track');
+function upf(){let mn=parseInt(pmin.value),mx=parseInt(pmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mp=mn===0?0:Math.round(Math.pow(10,2+(mn/100)*5));const xp=mx===100?Infinity:Math.round(Math.pow(10,2+(mx/100)*5));fs.pMin=mp;fs.pMax=xp;plab.textContent=mp===0&&xp===Infinity?'All':mp.toLocaleString()+' - '+(xp===Infinity?'∞':xp.toLocaleString());ptrack.style.left=mn+'%';ptrack.style.right=(100-mx)+'%';applyFilters()}
+[pmin,pmax].forEach(e=>e.addEventListener('input',upf));upf();
+const imin=document.getElementById('income-min'),imax=document.getElementById('income-max'),ilab=document.getElementById('income-range-label'),itrack=document.getElementById('income-track');
+function uif(){let mn=parseInt(imin.value),mx=parseInt(imax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mi=Math.round((mn/100)*250000);const xi=mx===100?Infinity:Math.round((mx/100)*250000);fs.iMin=mi;fs.iMax=xi;ilab.textContent=mi===0&&xi===Infinity?'All':'$'+mi.toLocaleString()+' - '+(xi===Infinity?'∞':'$'+xi.toLocaleString());itrack.style.left=mn+'%';itrack.style.right=(100-mx)+'%';applyFilters()}
+[imin,imax].forEach(e=>e.addEventListener('input',uif));uif();
+const lmin=document.getElementById('lean-min'),lmax=document.getElementById('lean-max'),llab=document.getElementById('lean-range-label'),ltrack=document.getElementById('lean-track');
+function ulf(){let mn=parseInt(lmin.value),mx=parseInt(lmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};fs.lMin=mn;fs.lMax=mx;llab.textContent=(mn<=-100&&mx>=100)?'All':(mn>=0?'D+'+mn:'R+'+Math.abs(mn))+' to '+(mx>=0?'D+'+mx:'R+'+Math.abs(mx));ltrack.style.left=((mn+100)/200*100)+'%';ltrack.style.right=(100-(mx+100)/200*100)+'%';applyFilters()}
+[lmin,lmax].forEach(e=>e.addEventListener('input',ulf));ulf();
+function rf(){fs.sq='';si.value='';sc.classList.remove('visible');pmin.value=0;pmax.value=100;upf();imin.value=0;imax.value=100;uif();lmin.value=-100;lmax.value=100;ulf()}
+document.getElementById('filter-reset').addEventListener('click',rf);
+document.getElementById('filter-reset-btn').addEventListener('click',rf);
+</script>
+</body>
+</html>

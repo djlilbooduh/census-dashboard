@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📍 US Census — Arizona City Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {--bg:#0a0a10;--sf:#141420;--bd:#1e1e3a;--tx:#e0e0f0;--mu:#8888aa;--ac:#4fc3f7;--sc:#ff5252;--cf:#ffab40;--uc:#66bb6a;--pl:#ce93d8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden}
+body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--tx);display:flex;flex-direction:column}
+#topbar{background:linear-gradient(135deg,#0d1b2a,#1b2838,#0d1b2a);border-bottom:1px solid #1a1a3a;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:space-between;z-index:1000;flex-shrink:0}
+#topbar h1{font-size:1.2rem;color:var(--ac);display:flex;align-items:center;gap:0.4rem}
+#topbar .nav-link{color:var(--mu);text-decoration:none;font-size:0.78rem;padding:0.35rem 0.9rem;border:1px solid var(--bd);border-radius:5px;transition:all 0.15s;background:var(--sf)}
+#topbar .nav-link:hover{color:var(--ac);border-color:var(--ac);background:rgba(79,195,247,0.08)}
+#map{flex:1;width:100%;background:var(--bg)}
+#legend{position:absolute;bottom:28px;right:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:12px 16px;z-index:900;font-size:0.72rem;backdrop-filter:blur(8px)}
+#legend h3{color:var(--ac);font-size:0.72rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.legend-label{color:var(--mu)}
+#info-panel{position:absolute;bottom:28px;left:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;z-index:900;font-size:0.7rem;color:var(--mu);backdrop-filter:blur(8px)}
+.leaflet-popup-content-wrapper{background:rgba(20,20,32,0.96)!important;border:1px solid var(--bd)!important;border-radius:10px!important;color:var(--tx)!important;backdrop-filter:blur(10px)}
+.leaflet-popup-content{margin:0;min-width:220px}
+.leaflet-popup-tip{background:rgba(20,20,32,0.96)!important}
+.popup-card{padding:10px 0}
+.popup-header{font-size:0.95rem;font-weight:700;color:var(--ac);margin-bottom:2px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.popup-stat{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:0.74rem;padding:3px 0}
+.popup-stat-label{color:var(--mu);font-size:0.7rem}
+.popup-stat-val{font-weight:600;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-vote-bar{margin-top:6px}
+.popup-vote-labels{display:flex;justify-content:space-between;font-size:0.66rem;margin-bottom:3px}
+.popup-vote-labels .dem-label{color:#4fc3f7}
+.popup-vote-labels .gop-label{color:#ff5252}
+.popup-bar-track{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden;display:flex;margin-bottom:2px}
+.popup-bar-dem{background:#4fc3f7;height:100%;border-radius:3px 0 0 3px}
+.popup-bar-gop{background:#ff5252;height:100%;border-radius:0 3px 3px 0}
+.popup-lean{text-align:right;font-size:0.7rem;font-weight:700;margin-top:4px;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-lean.lean-D{color:#4fc3f7}.popup-lean.lean-R{color:#ff5252}
+.popup-lean.lean-lean-D{color:#81d4fa}.popup-lean.lean-lean-R{color:#ff8a80}
+.popup-link-btn{display:block;text-align:center;margin-top:8px;padding:6px 10px;background:rgba(79,195,247,0.12);border:1px solid rgba(79,195,247,0.3);border-radius:6px;color:var(--ac);text-decoration:none;font-size:0.72rem;font-weight:600;transition:all 0.15s}
+.popup-link-btn:hover{background:rgba(79,195,247,0.22);border-color:var(--ac);color:#fff}
+#map-search{background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:0.3rem 0.7rem;border-radius:5px;font-size:0.72rem;outline:none;width:160px;transition:border-color 0.15s}
+#map-search:focus{border-color:var(--ac)}
+#map-search::placeholder{color:var(--mu)}
+#map-search-clear{background:none;border:none;color:var(--mu);cursor:pointer;font-size:0.85rem;padding:0 2px 0 6px;display:none}
+#map-search-clear.visible{display:inline}
+#map-search-clear:hover{color:var(--sc)}
+#filter-toggle{position:absolute;top:12px;right:12px;z-index:950;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:8px;color:var(--ac);padding:0.45rem 0.85rem;font-size:0.72rem;font-family:inherit;cursor:pointer;backdrop-filter:blur(8px);transition:all 0.15s;display:flex;align-items:center;gap:6px;font-weight:600}
+#filter-toggle:hover{background:rgba(20,20,40,0.95);border-color:var(--ac)}
+#filter-toggle .arrow{transition:transform 0.2s;font-size:0.6rem}
+#filter-panel{position:absolute;top:52px;right:12px;z-index:940;background:rgba(10,10,16,0.94);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;backdrop-filter:blur(10px);font-size:0.7rem;color:var(--tx);width:270px;transition:all 0.25s ease;overflow:hidden}
+#filter-panel.collapsed{opacity:0;pointer-events:none;transform:translateX(20px);max-height:0;padding-top:0;padding-bottom:0;margin:0;border-width:0}
+#filter-panel h3{font-size:0.72rem;color:var(--ac);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.filter-group{margin-bottom:12px}
+.filter-group:last-of-type{margin-bottom:10px}
+.filter-label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.filter-label .name{font-weight:600;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.3px;color:var(--mu)}
+.filter-label .range-val{font-family:'SF Mono','Cascadia Code',monospace;font-size:0.68rem;color:var(--ac);font-weight:600}
+.dual-range{position:relative;height:24px;margin:2px 0}
+.dual-range .track-bg{position:absolute;top:10px;left:0;right:0;height:4px;background:rgba(255,255,255,0.08);border-radius:2px}
+.dual-range .track-active{position:absolute;top:10px;height:4px;background:var(--ac);border-radius:2px}
+.dual-range input[type=range]{position:absolute;top:0;width:100%;height:24px;-webkit-appearance:none;background:transparent;pointer-events:none;margin:0}
+.dual-range input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--ac);border:2px solid var(--sf);cursor:pointer;pointer-events:auto;box-shadow:0 0 6px rgba(79,195,247,0.4)}
+.filter-btn{display:block;width:100%;margin-top:8px;padding:6px;background:rgba(79,195,247,0.15);border:1px solid var(--bd);border-radius:5px;color:var(--mu);font-size:0.68rem;cursor:pointer;transition:all 0.15s}
+.filter-btn:hover{color:var(--ac);border-color:var(--ac)}
+</style>
+</head>
+<body>
+<div id="topbar">
+<h1>📍 Arizona</h1>
+<div style="display:flex;align-items:center;gap:10px">
+<input type="text" id="map-search" placeholder="🔍 Search cities..."/>
+<button id="map-search-clear">✕</button>
+<a class="nav-link" href="census_dashboard.html">📊 Census Dashboard</a>
+</div>
+</div>
+<div id="map"></div>
+<div id="legend">
+<h3>Political Lean</h3>
+<div class="legend-row"><div class="legend-dot" style="background:#4fc3f7"></div><span class="legend-label">Democrat</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#81d4fa"></div><span class="legend-label">Lean Dem</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ce93d8"></div><span class="legend-label">Swing</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff8a80"></div><span class="legend-label">Lean GOP</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff5252"></div><span class="legend-label">Republican</span></div>
+</div>
+<div id="info-panel">
+<span id="city-count">86 cities</span>
+<span style="margin:0 6px;opacity:0.3">|</span>
+<span id="visible-count">86 visible</span>
+</div>
+<button id="filter-toggle">⚙ Filters <span class="arrow">▼</span></button>
+<div id="filter-panel" class="collapsed">
+<h3>Filters <span id="filter-reset" style="cursor:pointer;font-size:0.65rem;color:var(--mu)">Reset</span></h3>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Population</span><span class="range-val" id="pop-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="pop-track"></div>
+<input type="range" id="pop-min" min="0" max="100" value="0" step="1">
+<input type="range" id="pop-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Income</span><span class="range-val" id="income-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="income-track"></div>
+<input type="range" id="income-min" min="0" max="100" value="0" step="1">
+<input type="range" id="income-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Lean (D+ / R+)</span><span class="range-val" id="lean-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="lean-track"></div>
+<input type="range" id="lean-min" min="-100" max="100" value="-100" step="1">
+<input type="range" id="lean-max" min="-100" max="100" value="100" step="1">
+</div></div>
+<button class="filter-btn" id="filter-reset-btn">↺ Reset All Filters</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CITIES=[{"name":"Phoenix, AZ","lat":33.572154,"lng":-112.090132,"population":1624832,"income":77041,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Tucson, AZ","lat":32.153036,"lng":-110.870773,"population":543348,"income":54546,"county":"Santa Cruz","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.2,"county_fips":"04023"},{"name":"Mesa, AZ","lat":33.400626,"lng":-111.716487,"population":507478,"income":78779,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Chandler, AZ","lat":33.282765,"lng":-111.851819,"population":278123,"income":103691,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Gilbert, AZ","lat":33.310345,"lng":-111.743121,"population":271118,"income":121351,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Glendale, AZ","lat":33.533111,"lng":-112.189901,"population":250193,"income":70139,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Scottsdale, AZ","lat":33.684272,"lng":-111.861448,"population":242169,"income":107372,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Peoria, AZ","lat":33.786186,"lng":-112.308042,"population":194338,"income":93403,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Tempe, AZ","lat":33.388414,"lng":-111.931782,"population":186419,"income":77643,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Surprise, AZ","lat":33.670801,"lng":-112.452546,"population":149519,"income":93371,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Goodyear, AZ","lat":33.254031,"lng":-112.366472,"population":102891,"income":101814,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Buckeye, AZ","lat":33.431573,"lng":-112.641626,"population":99844,"income":98778,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Yuma, AZ","lat":32.516286,"lng":-114.521782,"population":98461,"income":62546,"county":"Yuma","lean":"R","dem_pct_2024":39.3,"gop_pct_2024":59.7,"county_fips":"04027"},{"name":"Avondale, AZ","lat":33.313236,"lng":-112.328928,"population":90644,"income":81260,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Flagstaff, AZ","lat":35.185212,"lng":-111.620698,"population":76333,"income":68041,"county":"Coconino","lean":"D","dem_pct_2024":59.2,"gop_pct_2024":39.3,"county_fips":"04005"},{"name":"Queen Creek, AZ","lat":33.239425,"lng":-111.613319,"population":66369,"income":134719,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Maricopa, AZ","lat":33.041942,"lng":-111.999259,"population":62986,"income":94208,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Lake Havasu City, AZ","lat":34.499809,"lng":-114.310943,"population":58037,"income":66264,"county":"La Paz","lean":"R","dem_pct_2024":27.6,"gop_pct_2024":71.7,"county_fips":"04012"},{"name":"Casa Grande, AZ","lat":32.906922,"lng":-111.763486,"population":57590,"income":66354,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Marana, AZ","lat":32.465939,"lng":-111.135401,"population":54487,"income":108256,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Prescott Valley, AZ","lat":34.59793,"lng":-112.318497,"population":48048,"income":70793,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Oro Valley, AZ","lat":32.420713,"lng":-110.977,"population":47595,"income":105342,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Prescott, AZ","lat":34.592241,"lng":-112.446733,"population":46744,"income":69151,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Sierra Vista, AZ","lat":31.56541,"lng":-110.314508,"population":45203,"income":69783,"county":"Santa Cruz","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.2,"county_fips":"04023"},{"name":"Bullhead City, AZ","lat":35.127371,"lng":-114.55599,"population":42193,"income":47717,"county":"Mohave","lean":"R","dem_pct_2024":21.8,"gop_pct_2024":77.6,"county_fips":"04015"},{"name":"Apache Junction, AZ","lat":33.382766,"lng":-111.540509,"population":39746,"income":58619,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"San Luis, AZ","lat":32.485678,"lng":-114.721947,"population":35998,"income":57364,"county":"Yuma","lean":"R","dem_pct_2024":39.3,"gop_pct_2024":59.7,"county_fips":"04027"},{"name":"El Mirage, AZ","lat":33.590224,"lng":-112.327102,"population":35823,"income":74764,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Sahuarita, AZ","lat":31.932238,"lng":-110.965395,"population":35012,"income":100719,"county":"Santa Cruz","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.2,"county_fips":"04023"},{"name":"Kingman, AZ","lat":35.216992,"lng":-114.010529,"population":33850,"income":60418,"county":"Mohave","lean":"R","dem_pct_2024":21.8,"gop_pct_2024":77.6,"county_fips":"04015"},{"name":"Florence, AZ","lat":33.069367,"lng":-111.413992,"population":25961,"income":76259,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Fountain Hills, AZ","lat":33.607799,"lng":-111.738398,"population":23768,"income":104788,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Nogales, AZ","lat":31.361928,"lng":-110.93482,"population":19753,"income":40745,"county":"Santa Cruz","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.2,"county_fips":"04023"},{"name":"Eloy, AZ","lat":32.741255,"lng":-111.594015,"population":16671,"income":54080,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Payson, AZ","lat":34.243841,"lng":-111.318964,"population":16494,"income":65175,"county":"Gila","lean":"R","dem_pct_2024":30.8,"gop_pct_2024":68.4,"county_fips":"04007"},{"name":"Douglas, AZ","lat":31.399274,"lng":-109.541292,"population":16118,"income":39350,"county":"Cochise","lean":"R","dem_pct_2024":37.8,"gop_pct_2024":61.0,"county_fips":"04003"},{"name":"Coolidge, AZ","lat":32.933616,"lng":-111.523585,"population":15300,"income":57161,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Somerton, AZ","lat":32.601816,"lng":-114.696344,"population":14383,"income":71825,"county":"Yuma","lean":"R","dem_pct_2024":39.3,"gop_pct_2024":59.7,"county_fips":"04027"},{"name":"Chino Valley, AZ","lat":34.73989,"lng":-112.40606,"population":13372,"income":59733,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Paradise Valley, AZ","lat":33.552157,"lng":-111.96133,"population":12621,"income":236250,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Cottonwood, AZ","lat":34.750834,"lng":-111.984004,"population":12547,"income":47162,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Camp Verde, AZ","lat":34.569405,"lng":-111.857014,"population":12282,"income":58383,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Show Low, AZ","lat":34.265053,"lng":-110.038321,"population":11913,"income":63376,"county":"Gila","lean":"R","dem_pct_2024":30.8,"gop_pct_2024":68.4,"county_fips":"04007"},{"name":"Safford, AZ","lat":32.833298,"lng":-109.697418,"population":10217,"income":65727,"county":"Graham","lean":"R","dem_pct_2024":25.5,"gop_pct_2024":73.6,"county_fips":"04009"},{"name":"Sedona, AZ","lat":34.858517,"lng":-111.793057,"population":9770,"income":67374,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Winslow, AZ","lat":35.024236,"lng":-110.709331,"population":8831,"income":53114,"county":"Navajo","lean":"R","dem_pct_2024":40.9,"gop_pct_2024":58.1,"county_fips":"04017"},{"name":"Wickenburg, AZ","lat":33.994799,"lng":-112.758908,"population":7468,"income":65253,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Page, AZ","lat":36.941815,"lng":-111.513283,"population":7407,"income":88452,"county":"Coconino","lean":"D","dem_pct_2024":59.2,"gop_pct_2024":39.3,"county_fips":"04005"},{"name":"Tolleson, AZ","lat":33.44837,"lng":-112.256012,"population":7233,"income":55015,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Globe, AZ","lat":33.393642,"lng":-110.741106,"population":7230,"income":66545,"county":"Gila","lean":"R","dem_pct_2024":30.8,"gop_pct_2024":68.4,"county_fips":"04007"},{"name":"Youngtown, AZ","lat":33.584969,"lng":-112.304916,"population":6985,"income":68472,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Litchfield Park, AZ","lat":33.501761,"lng":-112.35947,"population":6871,"income":124973,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Snowflake, AZ","lat":34.521459,"lng":-110.091182,"population":6349,"income":72753,"county":"Navajo","lean":"R","dem_pct_2024":40.9,"gop_pct_2024":58.1,"county_fips":"04017"},{"name":"Thatcher, AZ","lat":32.812708,"lng":-109.766516,"population":5354,"income":77455,"county":"Graham","lean":"R","dem_pct_2024":25.5,"gop_pct_2024":73.6,"county_fips":"04009"},{"name":"Benson, AZ","lat":31.914497,"lng":-110.328552,"population":5331,"income":48854,"county":"Cochise","lean":"R","dem_pct_2024":37.8,"gop_pct_2024":61.0,"county_fips":"04003"},{"name":"Guadalupe, AZ","lat":33.366453,"lng":-111.963156,"population":5293,"income":58507,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Cave Creek, AZ","lat":33.836219,"lng":-111.982084,"population":5033,"income":102589,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Bisbee, AZ","lat":31.398036,"lng":-109.931834,"population":4963,"income":46689,"county":"Cochise","lean":"R","dem_pct_2024":37.8,"gop_pct_2024":61.0,"county_fips":"04003"},{"name":"Holbrook, AZ","lat":34.904624,"lng":-110.16721,"population":4834,"income":61979,"county":"Navajo","lean":"R","dem_pct_2024":40.9,"gop_pct_2024":58.1,"county_fips":"04017"},{"name":"Clarkdale, AZ","lat":34.747979,"lng":-112.058699,"population":4642,"income":32607,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"South Tucson, AZ","lat":32.195474,"lng":-110.969154,"population":4601,"income":33734,"county":"Santa Cruz","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.2,"county_fips":"04023"},{"name":"Dewey-Humboldt, AZ","lat":34.517396,"lng":-112.24965,"population":4428,"income":64183,"county":"Yavapai","lean":"R","dem_pct_2024":32.6,"gop_pct_2024":66.5,"county_fips":"04025"},{"name":"Eagar, AZ","lat":34.10678,"lng":-109.301221,"population":4410,"income":81667,"county":"Greenlee","lean":"R","dem_pct_2024":28.8,"gop_pct_2024":69.8,"county_fips":"04011"},{"name":"Pinetop-Lakeside, AZ","lat":34.148424,"lng":-109.965998,"population":4103,"income":52207,"county":"Gila","lean":"R","dem_pct_2024":30.8,"gop_pct_2024":68.4,"county_fips":"04007"},{"name":"Taylor, AZ","lat":34.442748,"lng":-110.098534,"population":4091,"income":69945,"county":"Gila","lean":"R","dem_pct_2024":30.8,"gop_pct_2024":68.4,"county_fips":"04007"},{"name":"Clifton, AZ","lat":33.02957,"lng":-109.284039,"population":3845,"income":84457,"county":"Greenlee","lean":"R","dem_pct_2024":28.8,"gop_pct_2024":69.8,"county_fips":"04011"},{"name":"Carefree, AZ","lat":33.823214,"lng":-111.913271,"population":3672,"income":141331,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"St. Johns, AZ","lat":34.500368,"lng":-109.37691,"population":3409,"income":128920,"county":"Apache","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.0,"county_fips":"04001"},{"name":"Parker, AZ","lat":34.034006,"lng":-114.228109,"population":3379,"income":74643,"county":"La Paz","lean":"R","dem_pct_2024":27.6,"gop_pct_2024":71.7,"county_fips":"04012"},{"name":"Williams, AZ","lat":35.24664,"lng":-112.183296,"population":3322,"income":66183,"county":"Coconino","lean":"D","dem_pct_2024":59.2,"gop_pct_2024":39.3,"county_fips":"04005"},{"name":"Willcox, AZ","lat":32.251804,"lng":-109.835698,"population":3236,"income":40750,"county":"Cochise","lean":"R","dem_pct_2024":37.8,"gop_pct_2024":61.0,"county_fips":"04003"},{"name":"Pima, AZ","lat":32.891886,"lng":-109.844268,"population":2910,"income":97238,"county":"Graham","lean":"R","dem_pct_2024":25.5,"gop_pct_2024":73.6,"county_fips":"04009"},{"name":"Colorado City, AZ","lat":36.970109,"lng":-112.985312,"population":2598,"income":75234,"county":"Mohave","lean":"R","dem_pct_2024":21.8,"gop_pct_2024":77.6,"county_fips":"04015"},{"name":"Star Valley, AZ","lat":34.254685,"lng":-111.220709,"population":2517,"income":66075,"county":"Gila","lean":"R","dem_pct_2024":30.8,"gop_pct_2024":68.4,"county_fips":"04007"},{"name":"Superior, AZ","lat":33.27162,"lng":-111.124161,"population":2470,"income":42050,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Wellton, AZ","lat":32.640144,"lng":-114.215206,"population":2470,"income":51938,"county":"Yuma","lean":"R","dem_pct_2024":39.3,"gop_pct_2024":59.7,"county_fips":"04027"},{"name":"Kearny, AZ","lat":33.056392,"lng":-110.907091,"population":2245,"income":49688,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"},{"name":"Gila Bend, AZ","lat":32.966242,"lng":-112.715465,"population":1871,"income":49786,"county":"Maricopa","lean":"swing","dem_pct_2024":47.7,"gop_pct_2024":51.2,"county_fips":"04013"},{"name":"Springerville, AZ","lat":34.171921,"lng":-109.306892,"population":1847,"income":49886,"county":"Greenlee","lean":"R","dem_pct_2024":28.8,"gop_pct_2024":69.8,"county_fips":"04011"},{"name":"Huachuca City, AZ","lat":31.630804,"lng":-110.342193,"population":1808,"income":47621,"county":"Santa Cruz","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.2,"county_fips":"04023"},{"name":"Quartzsite, AZ","lat":33.667507,"lng":-114.217041,"population":1805,"income":24359,"county":"La Paz","lean":"R","dem_pct_2024":27.6,"gop_pct_2024":71.7,"county_fips":"04012"},{"name":"Miami, AZ","lat":33.395065,"lng":-110.872382,"population":1436,"income":44286,"county":"Gila","lean":"R","dem_pct_2024":30.8,"gop_pct_2024":68.4,"county_fips":"04007"},{"name":"Fredonia, AZ","lat":36.961626,"lng":-112.516363,"population":1084,"income":60476,"county":"Coconino","lean":"D","dem_pct_2024":59.2,"gop_pct_2024":39.3,"county_fips":"04005"},{"name":"Duncan, AZ","lat":32.749981,"lng":-109.0884,"population":1063,"income":38750,"county":"Greenlee","lean":"R","dem_pct_2024":28.8,"gop_pct_2024":69.8,"county_fips":"04011"},{"name":"Tombstone, AZ","lat":31.720772,"lng":-110.076701,"population":1022,"income":54792,"county":"Cochise","lean":"R","dem_pct_2024":37.8,"gop_pct_2024":61.0,"county_fips":"04003"},{"name":"Mammoth, AZ","lat":32.68517,"lng":-110.729286,"population":1015,"income":46719,"county":"Pinal","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":60.6,"county_fips":"04021"}];
+const map=L.map('map',{center:[39.8,-98.5],zoom:5,zoomControl:false,attributionControl:false});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:18,attribution:'&copy;<a href="https://carto.com/">CartoDB</a>'}).addTo(map);
+L.control.zoom({position:'bottomleft'}).addTo(map);
+function leanColor(l){return l==='D'?'#4fc3f7':l==='lean-D'?'#81d4fa':l==='swing'?'#ce93d8':l==='lean-R'?'#ff8a80':l==='R'?'#ff5252':'#888'}
+function popRadius(p){const m=CITIES.length>0?CITIES[0].population:2300000;return 3+12*Math.sqrt(p/Math.max(m,1))}
+const markers=[];
+CITIES.forEach(c=>{const color=leanColor(c.lean);const radius=popRadius(c.population);
+const m=L.circleMarker([c.lat,c.lng],{radius,fillColor:color,color:'rgba(255,255,255,0.15)',weight:1,fillOpacity:0.85}).addTo(map);
+m._cityData=c;
+const cityEnc=encodeURIComponent(c.name);
+const demPct=c.dem_pct_2024||50,gopPct=c.gop_pct_2024||50;
+const margin=demPct-gopPct;
+const leanVal=margin>0?'D+'+margin.toFixed(1):'R+'+Math.abs(margin).toFixed(1);
+const lcc=c.lean==='D'?'lean-D':c.lean==='R'?'lean-R':c.lean==='lean-D'?'lean-lean-D':c.lean==='lean-R'?'lean-lean-R':'';
+const tv=demPct+gopPct,dbw=tv>0?(demPct/tv)*100:50,gbw=tv>0?(gopPct/tv)*100:50;
+m.bindPopup(`<div class="popup-card"><div class="popup-header">${c.name}</div>
+<div class="popup-stat"><span class="popup-stat-label">Population</span><span class="popup-stat-val">${c.population.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">Median Income</span><span class="popup-stat-val">$${c.income.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">County</span><span class="popup-stat-val">${c.county}</span></div>
+<div class="popup-vote-bar"><div class="popup-vote-labels"><span class="dem-label">🟦 Dem ${demPct.toFixed(1)}%</span><span class="gop-label">🟥 GOP ${gopPct.toFixed(1)}%</span></div>
+<div class="popup-bar-track"><div class="popup-bar-dem" style="width:${dbw}%"></div><div class="popup-bar-gop" style="width:${gbw}%"></div></div></div>
+<div class="popup-lean ${lcc}">${leanVal} • ${c.lean.replace('lean-','lean ')}</div>
+<a class="popup-link-btn" href="census_dashboard.html?city=${cityEnc}" target="_blank">📊 View Full Report →</a></div>`,{maxWidth:280,className:'dark-popup'});
+markers.push(m);});
+function updateInfo(){const t=markers.length,v=markers.filter(m=>!m._filtered).length;document.getElementById('city-count').textContent=t+' cities';document.getElementById('visible-count').textContent=v+' visible'}
+updateInfo();
+const fs={sq:'',pMin:0,pMax:Infinity,iMin:0,iMax:Infinity,lMin:-100,lMax:100};
+function applyFilters(){markers.forEach(m=>{const c=m._cityData;const nm=!fs.sq||c.name.toLowerCase().includes(fs.sq);const pm=c.population>=fs.pMin&&c.population<=fs.pMax;const im=c.income>=fs.iMin&&c.income<=fs.iMax;const mg=(c.dem_pct_2024||50)-(c.gop_pct_2024||50);const lm=mg>=fs.lMin&&mg<=fs.lMax;if(nm&&pm&&im&&lm){if(m._filtered){m.addTo(map);m._filtered=false}}else{if(!m._filtered){m.remove();m._filtered=true}}});updateInfo()}
+const si=document.getElementById('map-search'),sc=document.getElementById('map-search-clear');
+si.addEventListener('input',()=>{fs.sq=si.value.toLowerCase().trim();sc.classList.toggle('visible',fs.sq.length>0);applyFilters()});
+sc.addEventListener('click',()=>{si.value='';fs.sq='';sc.classList.remove('visible');applyFilters();si.focus()});
+const ft=document.getElementById('filter-toggle'),fp=document.getElementById('filter-panel'),fa=ft.querySelector('.arrow');
+ft.addEventListener('click',()=>{const s=fp.classList.toggle('collapsed');fa.textContent=s?'▼':'▲'});
+const pmin=document.getElementById('pop-min'),pmax=document.getElementById('pop-max'),plab=document.getElementById('pop-range-label'),ptrack=document.getElementById('pop-track');
+function upf(){let mn=parseInt(pmin.value),mx=parseInt(pmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mp=mn===0?0:Math.round(Math.pow(10,2+(mn/100)*5));const xp=mx===100?Infinity:Math.round(Math.pow(10,2+(mx/100)*5));fs.pMin=mp;fs.pMax=xp;plab.textContent=mp===0&&xp===Infinity?'All':mp.toLocaleString()+' - '+(xp===Infinity?'∞':xp.toLocaleString());ptrack.style.left=mn+'%';ptrack.style.right=(100-mx)+'%';applyFilters()}
+[pmin,pmax].forEach(e=>e.addEventListener('input',upf));upf();
+const imin=document.getElementById('income-min'),imax=document.getElementById('income-max'),ilab=document.getElementById('income-range-label'),itrack=document.getElementById('income-track');
+function uif(){let mn=parseInt(imin.value),mx=parseInt(imax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mi=Math.round((mn/100)*250000);const xi=mx===100?Infinity:Math.round((mx/100)*250000);fs.iMin=mi;fs.iMax=xi;ilab.textContent=mi===0&&xi===Infinity?'All':'$'+mi.toLocaleString()+' - '+(xi===Infinity?'∞':'$'+xi.toLocaleString());itrack.style.left=mn+'%';itrack.style.right=(100-mx)+'%';applyFilters()}
+[imin,imax].forEach(e=>e.addEventListener('input',uif));uif();
+const lmin=document.getElementById('lean-min'),lmax=document.getElementById('lean-max'),llab=document.getElementById('lean-range-label'),ltrack=document.getElementById('lean-track');
+function ulf(){let mn=parseInt(lmin.value),mx=parseInt(lmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};fs.lMin=mn;fs.lMax=mx;llab.textContent=(mn<=-100&&mx>=100)?'All':(mn>=0?'D+'+mn:'R+'+Math.abs(mn))+' to '+(mx>=0?'D+'+mx:'R+'+Math.abs(mx));ltrack.style.left=((mn+100)/200*100)+'%';ltrack.style.right=(100-(mx+100)/200*100)+'%';applyFilters()}
+[lmin,lmax].forEach(e=>e.addEventListener('input',ulf));ulf();
+function rf(){fs.sq='';si.value='';sc.classList.remove('visible');pmin.value=0;pmax.value=100;upf();imin.value=0;imax.value=100;uif();lmin.value=-100;lmax.value=100;ulf()}
+document.getElementById('filter-reset').addEventListener('click',rf);
+document.getElementById('filter-reset-btn').addEventListener('click',rf);
+</script>
+</body>
+</html>

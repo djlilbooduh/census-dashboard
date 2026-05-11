@@ -1,0 +1,3774 @@
+{
+  "cities": {
+    "Boston city, Massachusetts": {
+      "state": "MA",
+      "fips": "2507000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 663972,
+        "voting_age": 562896,
+        "voting_age_pct": 84.78
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 295342,
+          "pct": 44.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 134494,
+          "pct": 20.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 744,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 65899,
+          "pct": 9.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 411,
+          "pct": 0.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6937,
+          "pct": 1.04
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 34378,
+          "pct": 5.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 125767,
+          "pct": 18.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 94755,
+        "poverty_count": 20007,
+        "poverty_pct": 3.01
+      },
+      "education": {
+        "bachelors_or_higher": 252191,
+        "bachelors_only": 132913,
+        "masters": 76654,
+        "professional": 24421,
+        "doctorate": 18203
+      }
+    },
+    "Worcester city, Massachusetts": {
+      "state": "MA",
+      "fips": "2582000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 205501,
+        "voting_age": 164862,
+        "voting_age_pct": 80.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 103835,
+          "pct": 50.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 23518,
+          "pct": 11.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 222,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14219,
+          "pct": 6.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 138,
+          "pct": 0.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2667,
+          "pct": 1.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9710,
+          "pct": 4.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 51192,
+          "pct": 24.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 67544,
+        "poverty_count": 9102,
+        "poverty_pct": 4.43
+      },
+      "education": {
+        "bachelors_or_higher": 45972,
+        "bachelors_only": 27104,
+        "masters": 12902,
+        "professional": 2739,
+        "doctorate": 3227
+      }
+    },
+    "Springfield city, Massachusetts": {
+      "state": "MA",
+      "fips": "2567000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 154751,
+        "voting_age": 116705,
+        "voting_age_pct": 75.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 45316,
+          "pct": 29.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27345,
+          "pct": 17.67
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 100,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4187,
+          "pct": 2.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 241,
+          "pct": 0.16
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4200,
+          "pct": 2.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 73362,
+          "pct": 47.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 51339,
+        "poverty_count": 12500,
+        "poverty_pct": 8.08
+      },
+      "education": {
+        "bachelors_or_higher": 19218,
+        "bachelors_only": 10519,
+        "masters": 6516,
+        "professional": 1430,
+        "doctorate": 753
+      }
+    },
+    "Cambridge city, Massachusetts": {
+      "state": "MA",
+      "fips": "2511000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 117794,
+        "voting_age": 103344,
+        "voting_age_pct": 87.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 64830,
+          "pct": 55.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12064,
+          "pct": 10.24
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 76,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23046,
+          "pct": 19.56
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 55,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 823,
+          "pct": 0.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6357,
+          "pct": 5.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10543,
+          "pct": 8.95
+        }
+      ],
+      "economics": {
+        "median_household_income": 126469,
+        "poverty_count": 1925,
+        "poverty_pct": 1.63
+      },
+      "education": {
+        "bachelors_or_higher": 63712,
+        "bachelors_only": 23696,
+        "masters": 21999,
+        "professional": 5573,
+        "doctorate": 12444
+      }
+    },
+    "Lowell city, Massachusetts": {
+      "state": "MA",
+      "fips": "2537000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 114799,
+        "voting_age": 90484,
+        "voting_age_pct": 78.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 50707,
+          "pct": 44.17
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11538,
+          "pct": 10.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 93,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 24076,
+          "pct": 20.97
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 121,
+          "pct": 0.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1299,
+          "pct": 1.13
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4777,
+          "pct": 4.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 22188,
+          "pct": 19.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 76205,
+        "poverty_count": 4047,
+        "poverty_pct": 3.53
+      },
+      "education": {
+        "bachelors_or_higher": 22802,
+        "bachelors_only": 13736,
+        "masters": 7366,
+        "professional": 845,
+        "doctorate": 855
+      }
+    },
+    "Brockton city, Massachusetts": {
+      "state": "MA",
+      "fips": "2509000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 105080,
+        "voting_age": 78457,
+        "voting_age_pct": 74.66
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 27965,
+          "pct": 26.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 38923,
+          "pct": 37.04
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 90,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2263,
+          "pct": 2.15
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 91,
+          "pct": 0.09
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7145,
+          "pct": 6.8
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 15017,
+          "pct": 14.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 13586,
+          "pct": 12.93
+        }
+      ],
+      "economics": {
+        "median_household_income": 77089,
+        "poverty_count": 4400,
+        "poverty_pct": 4.19
+      },
+      "education": {
+        "bachelors_or_higher": 14526,
+        "bachelors_only": 9951,
+        "masters": 3762,
+        "professional": 552,
+        "doctorate": 261
+      }
+    },
+    "Quincy city, Massachusetts": {
+      "state": "MA",
+      "fips": "2555745",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 101361,
+        "voting_age": 86162,
+        "voting_age_pct": 85.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 55117,
+          "pct": 54.38
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6139,
+          "pct": 6.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 150,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 29550,
+          "pct": 29.15
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 61,
+          "pct": 0.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 924,
+          "pct": 0.91
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3579,
+          "pct": 3.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5841,
+          "pct": 5.76
+        }
+      ],
+      "economics": {
+        "median_household_income": 95711,
+        "poverty_count": 2280,
+        "poverty_pct": 2.25
+      },
+      "education": {
+        "bachelors_or_higher": 38200,
+        "bachelors_only": 21971,
+        "masters": 12323,
+        "professional": 2244,
+        "doctorate": 1662
+      }
+    },
+    "Lynn city, Massachusetts": {
+      "state": "MA",
+      "fips": "2537490",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 100905,
+        "voting_age": 76382,
+        "voting_age_pct": 75.7
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 36300,
+          "pct": 35.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10442,
+          "pct": 10.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 106,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5987,
+          "pct": 5.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 107,
+          "pct": 0.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1126,
+          "pct": 1.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3979,
+          "pct": 3.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 42858,
+          "pct": 42.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 74715,
+        "poverty_count": 3812,
+        "poverty_pct": 3.78
+      },
+      "education": {
+        "bachelors_or_higher": 15564,
+        "bachelors_only": 10346,
+        "masters": 3917,
+        "professional": 710,
+        "doctorate": 591
+      }
+    },
+    "New Bedford city, Massachusetts": {
+      "state": "MA",
+      "fips": "2545000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 100731,
+        "voting_age": 76909,
+        "voting_age_pct": 76.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 55994,
+          "pct": 55.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5296,
+          "pct": 5.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 181,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1551,
+          "pct": 1.54
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 10,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4200,
+          "pct": 4.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 8782,
+          "pct": 8.72
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 24717,
+          "pct": 24.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 56025,
+        "poverty_count": 5817,
+        "poverty_pct": 5.77
+      },
+      "education": {
+        "bachelors_or_higher": 11412,
+        "bachelors_only": 7972,
+        "masters": 2614,
+        "professional": 363,
+        "doctorate": 463
+      }
+    },
+    "Fall River city, Massachusetts": {
+      "state": "MA",
+      "fips": "2523000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 93764,
+        "voting_age": 74041,
+        "voting_age_pct": 78.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 65120,
+          "pct": 69.45
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5128,
+          "pct": 5.47
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 104,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2512,
+          "pct": 2.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1338,
+          "pct": 1.43
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7206,
+          "pct": 7.69
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12356,
+          "pct": 13.18
+        }
+      ],
+      "economics": {
+        "median_household_income": 53933,
+        "poverty_count": 5638,
+        "poverty_pct": 6.01
+      },
+      "education": {
+        "bachelors_or_higher": 11277,
+        "bachelors_only": 7453,
+        "masters": 3061,
+        "professional": 343,
+        "doctorate": 420
+      }
+    },
+    "Newton city, Massachusetts": {
+      "state": "MA",
+      "fips": "2545560",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 88504,
+        "voting_age": 70059,
+        "voting_age_pct": 79.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 61733,
+          "pct": 69.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1893,
+          "pct": 2.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 111,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14599,
+          "pct": 16.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 15,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1532,
+          "pct": 1.73
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4334,
+          "pct": 4.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4287,
+          "pct": 4.84
+        }
+      ],
+      "economics": {
+        "median_household_income": 184989,
+        "poverty_count": 395,
+        "poverty_pct": 0.45
+      },
+      "education": {
+        "bachelors_or_higher": 48111,
+        "bachelors_only": 16828,
+        "masters": 16361,
+        "professional": 7218,
+        "doctorate": 7704
+      }
+    },
+    "Lawrence city, Massachusetts": {
+      "state": "MA",
+      "fips": "2534550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 88297,
+        "voting_age": 64513,
+        "voting_age_pct": 73.06
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11094,
+          "pct": 12.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1838,
+          "pct": 2.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1486,
+          "pct": 1.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 512,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 723,
+          "pct": 0.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 72628,
+          "pct": 82.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 57903,
+        "poverty_count": 5808,
+        "poverty_pct": 6.58
+      },
+      "education": {
+        "bachelors_or_higher": 9065,
+        "bachelors_only": 6394,
+        "masters": 2074,
+        "professional": 431,
+        "doctorate": 166
+      }
+    },
+    "Somerville city, Massachusetts": {
+      "state": "MA",
+      "fips": "2562535",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 80549,
+        "voting_age": 72149,
+        "voting_age_pct": 89.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 53254,
+          "pct": 66.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3628,
+          "pct": 4.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 50,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9390,
+          "pct": 11.66
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 39,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1070,
+          "pct": 1.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3937,
+          "pct": 4.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9181,
+          "pct": 11.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 127056,
+        "poverty_count": 822,
+        "poverty_pct": 1.02
+      },
+      "education": {
+        "bachelors_or_higher": 41642,
+        "bachelors_only": 21192,
+        "masters": 13026,
+        "professional": 2487,
+        "doctorate": 4937
+      }
+    },
+    "Framingham city, Massachusetts": {
+      "state": "MA",
+      "fips": "2524960",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 72013,
+        "voting_age": 56062,
+        "voting_age_pct": 77.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37210,
+          "pct": 51.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4464,
+          "pct": 6.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 56,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5193,
+          "pct": 7.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 32,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4509,
+          "pct": 6.26
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7060,
+          "pct": 9.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 13489,
+          "pct": 18.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 98179,
+        "poverty_count": 2443,
+        "poverty_pct": 3.39
+      },
+      "education": {
+        "bachelors_or_higher": 24332,
+        "bachelors_only": 14244,
+        "masters": 7844,
+        "professional": 940,
+        "doctorate": 1304
+      }
+    },
+    "Haverhill city, Massachusetts": {
+      "state": "MA",
+      "fips": "2529405",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 67387,
+        "voting_age": 52932,
+        "voting_age_pct": 78.55
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 43572,
+          "pct": 64.66
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1751,
+          "pct": 2.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 881,
+          "pct": 1.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 484,
+          "pct": 0.72
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2940,
+          "pct": 4.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 17759,
+          "pct": 26.35
+        }
+      ],
+      "economics": {
+        "median_household_income": 87675,
+        "poverty_count": 1926,
+        "poverty_pct": 2.86
+      },
+      "education": {
+        "bachelors_or_higher": 14858,
+        "bachelors_only": 9875,
+        "masters": 3733,
+        "professional": 690,
+        "doctorate": 560
+      }
+    },
+    "Malden city, Massachusetts": {
+      "state": "MA",
+      "fips": "2537875",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 65509,
+        "voting_age": 53725,
+        "voting_age_pct": 82.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 27748,
+          "pct": 42.36
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8599,
+          "pct": 13.13
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 71,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18745,
+          "pct": 28.61
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1338,
+          "pct": 2.04
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3685,
+          "pct": 5.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5323,
+          "pct": 8.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 95298,
+        "poverty_count": 1811,
+        "poverty_pct": 2.76
+      },
+      "education": {
+        "bachelors_or_higher": 21597,
+        "bachelors_only": 12588,
+        "masters": 6394,
+        "professional": 992,
+        "doctorate": 1623
+      }
+    },
+    "Waltham city, Massachusetts": {
+      "state": "MA",
+      "fips": "2572600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 64723,
+        "voting_age": 56039,
+        "voting_age_pct": 86.58
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37592,
+          "pct": 58.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4611,
+          "pct": 7.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 168,
+          "pct": 0.26
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8309,
+          "pct": 12.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 69,
+          "pct": 0.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 257,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1922,
+          "pct": 2.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11795,
+          "pct": 18.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 116560,
+        "poverty_count": 769,
+        "poverty_pct": 1.19
+      },
+      "education": {
+        "bachelors_or_higher": 24861,
+        "bachelors_only": 12774,
+        "masters": 8815,
+        "professional": 1183,
+        "doctorate": 2089
+      }
+    },
+    "Revere city, Massachusetts": {
+      "state": "MA",
+      "fips": "2556585",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 59933,
+        "voting_age": 47816,
+        "voting_age_pct": 79.78
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 28739,
+          "pct": 47.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2598,
+          "pct": 4.33
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 162,
+          "pct": 0.27
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2434,
+          "pct": 4.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 991,
+          "pct": 1.65
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1847,
+          "pct": 3.08
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 23162,
+          "pct": 38.65
+        }
+      ],
+      "economics": {
+        "median_household_income": 81121,
+        "poverty_count": 1805,
+        "poverty_pct": 3.01
+      },
+      "education": {
+        "bachelors_or_higher": 10770,
+        "bachelors_only": 7330,
+        "masters": 2658,
+        "professional": 373,
+        "doctorate": 409
+      }
+    },
+    "Taunton city, Massachusetts": {
+      "state": "MA",
+      "fips": "2569170",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 59719,
+        "voting_age": 46645,
+        "voting_age_pct": 78.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 43029,
+          "pct": 72.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4093,
+          "pct": 6.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 88,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 869,
+          "pct": 1.46
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1151,
+          "pct": 1.93
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5054,
+          "pct": 8.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5435,
+          "pct": 9.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 79715,
+        "poverty_count": 2580,
+        "poverty_pct": 4.32
+      },
+      "education": {
+        "bachelors_or_higher": 10246,
+        "bachelors_only": 7161,
+        "masters": 2527,
+        "professional": 344,
+        "doctorate": 214
+      }
+    },
+    "Medford city, Massachusetts": {
+      "state": "MA",
+      "fips": "2539835",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 59062,
+        "voting_age": 51313,
+        "voting_age_pct": 86.88
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 39539,
+          "pct": 66.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3708,
+          "pct": 6.28
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7065,
+          "pct": 11.96
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 14,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 975,
+          "pct": 1.65
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2507,
+          "pct": 4.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5243,
+          "pct": 8.88
+        }
+      ],
+      "economics": {
+        "median_household_income": 118089,
+        "poverty_count": 511,
+        "poverty_pct": 0.87
+      },
+      "education": {
+        "bachelors_or_higher": 25239,
+        "bachelors_only": 13282,
+        "masters": 8106,
+        "professional": 1367,
+        "doctorate": 2484
+      }
+    },
+    "Weymouth Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2578972",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 57786,
+        "voting_age": 48097,
+        "voting_age_pct": 83.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 45775,
+          "pct": 79.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2947,
+          "pct": 5.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4025,
+          "pct": 6.97
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 688,
+          "pct": 1.19
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1690,
+          "pct": 2.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2654,
+          "pct": 4.59
+        }
+      ],
+      "economics": {
+        "median_household_income": 100077,
+        "poverty_count": 954,
+        "poverty_pct": 1.65
+      },
+      "education": {
+        "bachelors_or_higher": 18878,
+        "bachelors_only": 12438,
+        "masters": 5051,
+        "professional": 918,
+        "doctorate": 471
+      }
+    },
+    "Chicopee city, Massachusetts": {
+      "state": "MA",
+      "fips": "2513660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 55213,
+        "voting_age": 44507,
+        "voting_age_pct": 80.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 36319,
+          "pct": 65.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2195,
+          "pct": 3.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1082,
+          "pct": 1.96
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 86,
+          "pct": 0.16
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1258,
+          "pct": 2.28
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 14273,
+          "pct": 25.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 66927,
+        "poverty_count": 2068,
+        "poverty_pct": 3.75
+      },
+      "education": {
+        "bachelors_or_higher": 9214,
+        "bachelors_only": 5723,
+        "masters": 3107,
+        "professional": 198,
+        "doctorate": 186
+      }
+    },
+    "Peabody city, Massachusetts": {
+      "state": "MA",
+      "fips": "2552490",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 54180,
+        "voting_age": 44681,
+        "voting_age_pct": 82.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 41547,
+          "pct": 76.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1937,
+          "pct": 3.58
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1085,
+          "pct": 2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 404,
+          "pct": 0.75
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2470,
+          "pct": 4.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6719,
+          "pct": 12.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 95278,
+        "poverty_count": 343,
+        "poverty_pct": 0.63
+      },
+      "education": {
+        "bachelors_or_higher": 13778,
+        "bachelors_only": 9082,
+        "masters": 3864,
+        "professional": 575,
+        "doctorate": 257
+      }
+    },
+    "Methuen Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2540710",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 53043,
+        "voting_age": 41875,
+        "voting_age_pct": 78.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 29467,
+          "pct": 55.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2628,
+          "pct": 4.95
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1936,
+          "pct": 3.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 172,
+          "pct": 0.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1436,
+          "pct": 2.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 17388,
+          "pct": 32.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 103270,
+        "poverty_count": 937,
+        "poverty_pct": 1.77
+      },
+      "education": {
+        "bachelors_or_higher": 11402,
+        "bachelors_only": 7468,
+        "masters": 3304,
+        "professional": 314,
+        "doctorate": 316
+      }
+    },
+    "Everett city, Massachusetts": {
+      "state": "MA",
+      "fips": "2521990",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 49236,
+        "voting_age": 38392,
+        "voting_age_pct": 77.98
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 18659,
+          "pct": 37.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5704,
+          "pct": 11.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 14,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3814,
+          "pct": 7.75
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 50,
+          "pct": 0.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1549,
+          "pct": 3.15
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4038,
+          "pct": 8.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 15408,
+          "pct": 31.29
+        }
+      ],
+      "economics": {
+        "median_household_income": 79658,
+        "poverty_count": 2529,
+        "poverty_pct": 5.14
+      },
+      "education": {
+        "bachelors_or_higher": 8095,
+        "bachelors_only": 5576,
+        "masters": 1808,
+        "professional": 349,
+        "doctorate": 362
+      }
+    },
+    "Barnstable Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2503690",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 49232,
+        "voting_age": 40949,
+        "voting_age_pct": 83.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37730,
+          "pct": 76.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3107,
+          "pct": 6.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 54,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 552,
+          "pct": 1.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1263,
+          "pct": 2.57
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3377,
+          "pct": 6.86
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3149,
+          "pct": 6.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 97348,
+        "poverty_count": 938,
+        "poverty_pct": 1.91
+      },
+      "education": {
+        "bachelors_or_higher": 15778,
+        "bachelors_only": 9075,
+        "masters": 4854,
+        "professional": 1248,
+        "doctorate": 601
+      }
+    },
+    "Attleboro city, Massachusetts": {
+      "state": "MA",
+      "fips": "2502690",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 46499,
+        "voting_age": 35779,
+        "voting_age_pct": 76.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 36152,
+          "pct": 77.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2599,
+          "pct": 5.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 28,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2094,
+          "pct": 4.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 13,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 218,
+          "pct": 0.47
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1338,
+          "pct": 2.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4057,
+          "pct": 8.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 93266,
+        "poverty_count": 1137,
+        "poverty_pct": 2.45
+      },
+      "education": {
+        "bachelors_or_higher": 10971,
+        "bachelors_only": 7281,
+        "masters": 3013,
+        "professional": 432,
+        "doctorate": 245
+      }
+    },
+    "Salem city, Massachusetts": {
+      "state": "MA",
+      "fips": "2559105",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 44241,
+        "voting_age": 37320,
+        "voting_age_pct": 84.36
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 29927,
+          "pct": 67.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2235,
+          "pct": 5.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 48,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1444,
+          "pct": 3.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 31,
+          "pct": 0.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 483,
+          "pct": 1.09
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1476,
+          "pct": 3.34
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8597,
+          "pct": 19.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 85137,
+        "poverty_count": 1482,
+        "poverty_pct": 3.35
+      },
+      "education": {
+        "bachelors_or_higher": 15886,
+        "bachelors_only": 9256,
+        "masters": 5017,
+        "professional": 823,
+        "doctorate": 790
+      }
+    },
+    "Leominster city, Massachusetts": {
+      "state": "MA",
+      "fips": "2535075",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 43697,
+        "voting_age": 34846,
+        "voting_age_pct": 79.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 29842,
+          "pct": 68.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2142,
+          "pct": 4.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 26,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1329,
+          "pct": 3.04
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 486,
+          "pct": 1.11
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2382,
+          "pct": 5.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7490,
+          "pct": 17.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 81556,
+        "poverty_count": 1110,
+        "poverty_pct": 2.54
+      },
+      "education": {
+        "bachelors_or_higher": 10210,
+        "bachelors_only": 6240,
+        "masters": 3216,
+        "professional": 310,
+        "doctorate": 444
+      }
+    },
+    "Pittsfield city, Massachusetts": {
+      "state": "MA",
+      "fips": "2553960",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 43559,
+        "voting_age": 35816,
+        "voting_age_pct": 82.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 33723,
+          "pct": 77.42
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2109,
+          "pct": 4.84
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 612,
+          "pct": 1.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 163,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3024,
+          "pct": 6.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3915,
+          "pct": 8.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 68386,
+        "poverty_count": 1508,
+        "poverty_pct": 3.46
+      },
+      "education": {
+        "bachelors_or_higher": 11204,
+        "bachelors_only": 6683,
+        "masters": 3313,
+        "professional": 888,
+        "doctorate": 320
+      }
+    },
+    "Beverly city, Massachusetts": {
+      "state": "MA",
+      "fips": "2505595",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 42408,
+        "voting_age": 34302,
+        "voting_age_pct": 80.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 36231,
+          "pct": 85.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1019,
+          "pct": 2.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 40,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 842,
+          "pct": 1.99
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 210,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1664,
+          "pct": 3.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2400,
+          "pct": 5.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 103739,
+        "poverty_count": 1130,
+        "poverty_pct": 2.66
+      },
+      "education": {
+        "bachelors_or_higher": 15230,
+        "bachelors_only": 9421,
+        "masters": 4580,
+        "professional": 695,
+        "doctorate": 534
+      }
+    },
+    "Fitchburg city, Massachusetts": {
+      "state": "MA",
+      "fips": "2523875",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 41633,
+        "voting_age": 33323,
+        "voting_age_pct": 80.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 23707,
+          "pct": 56.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2379,
+          "pct": 5.71
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 57,
+          "pct": 0.14
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 859,
+          "pct": 2.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 221,
+          "pct": 0.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1703,
+          "pct": 4.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12707,
+          "pct": 30.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 70659,
+        "poverty_count": 1534,
+        "poverty_pct": 3.68
+      },
+      "education": {
+        "bachelors_or_higher": 6787,
+        "bachelors_only": 4725,
+        "masters": 1618,
+        "professional": 277,
+        "doctorate": 167
+      }
+    },
+    "Marlborough city, Massachusetts": {
+      "state": "MA",
+      "fips": "2538715",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 41398,
+        "voting_age": 32802,
+        "voting_age_pct": 79.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 24276,
+          "pct": 58.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1462,
+          "pct": 3.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 23,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2027,
+          "pct": 4.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1620,
+          "pct": 3.91
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5015,
+          "pct": 12.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6975,
+          "pct": 16.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 95047,
+        "poverty_count": 757,
+        "poverty_pct": 1.83
+      },
+      "education": {
+        "bachelors_or_higher": 11887,
+        "bachelors_only": 6875,
+        "masters": 3892,
+        "professional": 583,
+        "doctorate": 537
+      }
+    },
+    "Woburn city, Massachusetts": {
+      "state": "MA",
+      "fips": "2581035",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 41205,
+        "voting_age": 33916,
+        "voting_age_pct": 82.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30564,
+          "pct": 74.18
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2423,
+          "pct": 5.88
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 22,
+          "pct": 0.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3365,
+          "pct": 8.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 65,
+          "pct": 0.16
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 499,
+          "pct": 1.21
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1847,
+          "pct": 4.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2420,
+          "pct": 5.87
+        }
+      ],
+      "economics": {
+        "median_household_income": 107754,
+        "poverty_count": 573,
+        "poverty_pct": 1.39
+      },
+      "education": {
+        "bachelors_or_higher": 14079,
+        "bachelors_only": 8163,
+        "masters": 4718,
+        "professional": 276,
+        "doctorate": 922
+      }
+    },
+    "Westfield city, Massachusetts": {
+      "state": "MA",
+      "fips": "2576030",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 40673,
+        "voting_age": 32598,
+        "voting_age_pct": 80.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 33458,
+          "pct": 82.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 394,
+          "pct": 0.97
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1478,
+          "pct": 3.63
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 13,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 96,
+          "pct": 0.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1148,
+          "pct": 2.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4075,
+          "pct": 10.02
+        }
+      ],
+      "economics": {
+        "median_household_income": 82847,
+        "poverty_count": 1041,
+        "poverty_pct": 2.56
+      },
+      "education": {
+        "bachelors_or_higher": 8985,
+        "bachelors_only": 5795,
+        "masters": 2559,
+        "professional": 272,
+        "doctorate": 359
+      }
+    },
+    "Chelsea city, Massachusetts": {
+      "state": "MA",
+      "fips": "2513205",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39460,
+        "voting_age": 29777,
+        "voting_age_pct": 75.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7710,
+          "pct": 19.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2456,
+          "pct": 6.22
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1142,
+          "pct": 2.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 317,
+          "pct": 0.8
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2198,
+          "pct": 5.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 25637,
+          "pct": 64.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 72220,
+        "poverty_count": 2441,
+        "poverty_pct": 6.19
+      },
+      "education": {
+        "bachelors_or_higher": 5873,
+        "bachelors_only": 3807,
+        "masters": 1462,
+        "professional": 349,
+        "doctorate": 255
+      }
+    },
+    "Braintree Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2507740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 38762,
+        "voting_age": 30888,
+        "voting_age_pct": 79.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 26906,
+          "pct": 69.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 976,
+          "pct": 2.52
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8220,
+          "pct": 21.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 231,
+          "pct": 0.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1227,
+          "pct": 3.17
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1198,
+          "pct": 3.09
+        }
+      ],
+      "economics": {
+        "median_household_income": 125305,
+        "poverty_count": 395,
+        "poverty_pct": 1.02
+      },
+      "education": {
+        "bachelors_or_higher": 13007,
+        "bachelors_only": 7554,
+        "masters": 4314,
+        "professional": 548,
+        "doctorate": 591
+      }
+    },
+    "Holyoke city, Massachusetts": {
+      "state": "MA",
+      "fips": "2530840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 37949,
+        "voting_age": 29835,
+        "voting_age_pct": 78.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16500,
+          "pct": 43.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 940,
+          "pct": 2.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 245,
+          "pct": 0.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 0.08
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 656,
+          "pct": 1.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 19563,
+          "pct": 51.55
+        }
+      ],
+      "economics": {
+        "median_household_income": 51892,
+        "poverty_count": 2439,
+        "poverty_pct": 6.43
+      },
+      "education": {
+        "bachelors_or_higher": 6498,
+        "bachelors_only": 4130,
+        "masters": 1769,
+        "professional": 240,
+        "doctorate": 359
+      }
+    },
+    "Amherst Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2501370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 35472,
+        "voting_age": 32392,
+        "voting_age_pct": 91.32
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 23380,
+          "pct": 65.91
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1581,
+          "pct": 4.46
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4876,
+          "pct": 13.75
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 93,
+          "pct": 0.26
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 25,
+          "pct": 0.07
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2347,
+          "pct": 6.62
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3162,
+          "pct": 8.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 65938,
+        "poverty_count": 237,
+        "poverty_pct": 0.67
+      },
+      "education": {
+        "bachelors_or_higher": 8601,
+        "bachelors_only": 2530,
+        "masters": 3771,
+        "professional": 282,
+        "doctorate": 2018
+      }
+    },
+    "Watertown Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2573440",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 35270,
+        "voting_age": 30056,
+        "voting_age_pct": 85.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 24622,
+          "pct": 69.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1459,
+          "pct": 4.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 53,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4177,
+          "pct": 11.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 371,
+          "pct": 1.05
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2312,
+          "pct": 6.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2276,
+          "pct": 6.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 123422,
+        "poverty_count": 172,
+        "poverty_pct": 0.49
+      },
+      "education": {
+        "bachelors_or_higher": 18806,
+        "bachelors_only": 8886,
+        "masters": 6837,
+        "professional": 1143,
+        "doctorate": 1940
+      }
+    },
+    "Randolph Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2556000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 34683,
+        "voting_age": 28345,
+        "voting_age_pct": 81.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9583,
+          "pct": 27.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 13947,
+          "pct": 40.21
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4486,
+          "pct": 12.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 157,
+          "pct": 0.45
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1945,
+          "pct": 5.61
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4565,
+          "pct": 13.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 103129,
+        "poverty_count": 377,
+        "poverty_pct": 1.09
+      },
+      "education": {
+        "bachelors_or_higher": 8774,
+        "bachelors_only": 5705,
+        "masters": 2529,
+        "professional": 296,
+        "doctorate": 244
+      }
+    },
+    "Franklin Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2525172",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 33067,
+        "voting_age": 26468,
+        "voting_age_pct": 80.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 27696,
+          "pct": 83.76
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 661,
+          "pct": 2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2010,
+          "pct": 6.08
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 172,
+          "pct": 0.52
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 877,
+          "pct": 2.65
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1651,
+          "pct": 4.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 142788,
+        "poverty_count": 337,
+        "poverty_pct": 1.02
+      },
+      "education": {
+        "bachelors_or_higher": 12809,
+        "bachelors_only": 7268,
+        "masters": 3868,
+        "professional": 431,
+        "doctorate": 1242
+      }
+    },
+    "North Attleborough Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2546598",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 30842,
+        "voting_age": 24487,
+        "voting_age_pct": 79.39
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 26235,
+          "pct": 85.06
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 592,
+          "pct": 1.92
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1615,
+          "pct": 5.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 126,
+          "pct": 0.41
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1152,
+          "pct": 3.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1122,
+          "pct": 3.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 109426,
+        "poverty_count": 357,
+        "poverty_pct": 1.16
+      },
+      "education": {
+        "bachelors_or_higher": 10494,
+        "bachelors_only": 6600,
+        "masters": 3153,
+        "professional": 436,
+        "doctorate": 305
+      }
+    },
+    "Gloucester city, Massachusetts": {
+      "state": "MA",
+      "fips": "2526150",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 29862,
+        "voting_age": 25234,
+        "voting_age_pct": 84.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 26605,
+          "pct": 89.09
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 319,
+          "pct": 1.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16,
+          "pct": 0.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 483,
+          "pct": 1.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 89,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 926,
+          "pct": 3.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1424,
+          "pct": 4.77
+        }
+      ],
+      "economics": {
+        "median_household_income": 87898,
+        "poverty_count": 829,
+        "poverty_pct": 2.78
+      },
+      "education": {
+        "bachelors_or_higher": 8900,
+        "bachelors_only": 5271,
+        "masters": 2902,
+        "professional": 418,
+        "doctorate": 309
+      }
+    },
+    "Melrose city, Massachusetts": {
+      "state": "MA",
+      "fips": "2540115",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 29488,
+        "voting_age": 23648,
+        "voting_age_pct": 80.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 22668,
+          "pct": 76.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 649,
+          "pct": 2.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2835,
+          "pct": 9.61
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 138,
+          "pct": 0.47
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1428,
+          "pct": 4.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1770,
+          "pct": 6
+        }
+      ],
+      "economics": {
+        "median_household_income": 126854,
+        "poverty_count": 143,
+        "poverty_pct": 0.48
+      },
+      "education": {
+        "bachelors_or_higher": 13667,
+        "bachelors_only": 7427,
+        "masters": 4641,
+        "professional": 509,
+        "doctorate": 1090
+      }
+    },
+    "Bridgewater Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2508130",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28669,
+        "voting_age": 23955,
+        "voting_age_pct": 83.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 23512,
+          "pct": 82.01
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1901,
+          "pct": 6.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 889,
+          "pct": 3.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 258,
+          "pct": 0.9
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1028,
+          "pct": 3.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1048,
+          "pct": 3.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 112482,
+        "poverty_count": 94,
+        "poverty_pct": 0.33
+      },
+      "education": {
+        "bachelors_or_higher": 7532,
+        "bachelors_only": 4484,
+        "masters": 2423,
+        "professional": 374,
+        "doctorate": 251
+      }
+    },
+    "Northampton city, Massachusetts": {
+      "state": "MA",
+      "fips": "2546330",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28640,
+        "voting_age": 24153,
+        "voting_age_pct": 84.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 22901,
+          "pct": 79.96
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 596,
+          "pct": 2.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1057,
+          "pct": 3.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 102,
+          "pct": 0.36
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1235,
+          "pct": 4.31
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2732,
+          "pct": 9.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 78467,
+        "poverty_count": 606,
+        "poverty_pct": 2.12
+      },
+      "education": {
+        "bachelors_or_higher": 12347,
+        "bachelors_only": 5476,
+        "masters": 4420,
+        "professional": 1108,
+        "doctorate": 1343
+      }
+    },
+    "West Springfield Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2577890",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28635,
+        "voting_age": 23263,
+        "voting_age_pct": 81.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20569,
+          "pct": 71.83
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1282,
+          "pct": 4.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 47,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1852,
+          "pct": 6.47
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 299,
+          "pct": 1.04
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 841,
+          "pct": 2.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3745,
+          "pct": 13.08
+        }
+      ],
+      "economics": {
+        "median_household_income": 70401,
+        "poverty_count": 511,
+        "poverty_pct": 1.78
+      },
+      "education": {
+        "bachelors_or_higher": 7248,
+        "bachelors_only": 4274,
+        "masters": 2220,
+        "professional": 487,
+        "doctorate": 267
+      }
+    },
+    "Agawam Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2500840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28510,
+        "voting_age": 23564,
+        "voting_age_pct": 82.65
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 24625,
+          "pct": 86.37
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 714,
+          "pct": 2.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 669,
+          "pct": 2.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 95,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 620,
+          "pct": 2.17
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1787,
+          "pct": 6.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 82359,
+        "poverty_count": 231,
+        "poverty_pct": 0.81
+      },
+      "education": {
+        "bachelors_or_higher": 7446,
+        "bachelors_only": 4370,
+        "masters": 2400,
+        "professional": 347,
+        "doctorate": 329
+      }
+    },
+    "Gardner city, Massachusetts": {
+      "state": "MA",
+      "fips": "2525485",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 21075,
+        "voting_age": 17171,
+        "voting_age_pct": 81.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16816,
+          "pct": 79.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 760,
+          "pct": 3.61
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 580,
+          "pct": 2.75
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 25,
+          "pct": 0.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 883,
+          "pct": 4.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1978,
+          "pct": 9.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 62948,
+        "poverty_count": 738,
+        "poverty_pct": 3.5
+      },
+      "education": {
+        "bachelors_or_higher": 3651,
+        "bachelors_only": 2510,
+        "masters": 981,
+        "professional": 84,
+        "doctorate": 76
+      }
+    },
+    "Winthrop Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2581005",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18807,
+        "voting_age": 15189,
+        "voting_age_pct": 80.76
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13408,
+          "pct": 71.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 589,
+          "pct": 3.13
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 23,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 322,
+          "pct": 1.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 257,
+          "pct": 1.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 488,
+          "pct": 2.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3720,
+          "pct": 19.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 106357,
+        "poverty_count": 238,
+        "poverty_pct": 1.27
+      },
+      "education": {
+        "bachelors_or_higher": 6047,
+        "bachelors_only": 3799,
+        "masters": 1676,
+        "professional": 267,
+        "doctorate": 305
+      }
+    },
+    "Newburyport city, Massachusetts": {
+      "state": "MA",
+      "fips": "2545245",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18444,
+        "voting_age": 14431,
+        "voting_age_pct": 78.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16780,
+          "pct": 90.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 73,
+          "pct": 0.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 129,
+          "pct": 0.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 23,
+          "pct": 0.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 699,
+          "pct": 3.79
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 740,
+          "pct": 4.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 144259,
+        "poverty_count": 188,
+        "poverty_pct": 1.02
+      },
+      "education": {
+        "bachelors_or_higher": 8960,
+        "bachelors_only": 5095,
+        "masters": 2863,
+        "professional": 602,
+        "doctorate": 400
+      }
+    },
+    "Southbridge Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2563345",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17806,
+        "voting_age": 14030,
+        "voting_age_pct": 78.79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9603,
+          "pct": 53.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 460,
+          "pct": 2.58
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 28,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 125,
+          "pct": 0.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 35,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 395,
+          "pct": 2.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7160,
+          "pct": 40.21
+        }
+      ],
+      "economics": {
+        "median_household_income": 59397,
+        "poverty_count": 648,
+        "poverty_pct": 3.64
+      },
+      "education": {
+        "bachelors_or_higher": 2107,
+        "bachelors_only": 1448,
+        "masters": 534,
+        "professional": 67,
+        "doctorate": 58
+      }
+    },
+    "Greenfield city, Massachusetts": {
+      "state": "MA",
+      "fips": "2527060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17662,
+        "voting_age": 14282,
+        "voting_age_pct": 80.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15416,
+          "pct": 87.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 426,
+          "pct": 2.41
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 339,
+          "pct": 1.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 9,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 137,
+          "pct": 0.78
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 268,
+          "pct": 1.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1063,
+          "pct": 6.02
+        }
+      ],
+      "economics": {
+        "median_household_income": 53961,
+        "poverty_count": 489,
+        "poverty_pct": 2.77
+      },
+      "education": {
+        "bachelors_or_higher": 4933,
+        "bachelors_only": 2719,
+        "masters": 1556,
+        "professional": 332,
+        "doctorate": 326
+      }
+    },
+    "Amesbury Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2501260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17277,
+        "voting_age": 14000,
+        "voting_age_pct": 81.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14941,
+          "pct": 86.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 562,
+          "pct": 3.25
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 197,
+          "pct": 1.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 30,
+          "pct": 0.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 879,
+          "pct": 5.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 664,
+          "pct": 3.84
+        }
+      ],
+      "economics": {
+        "median_household_income": 100599,
+        "poverty_count": 254,
+        "poverty_pct": 1.47
+      },
+      "education": {
+        "bachelors_or_higher": 5557,
+        "bachelors_only": 3476,
+        "masters": 1631,
+        "professional": 228,
+        "doctorate": 222
+      }
+    },
+    "Easthampton Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2519370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16103,
+        "voting_age": 13490,
+        "voting_age_pct": 83.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13791,
+          "pct": 85.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 83,
+          "pct": 0.52
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 224,
+          "pct": 1.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 132,
+          "pct": 0.82
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 506,
+          "pct": 3.14
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1367,
+          "pct": 8.49
+        }
+      ],
+      "economics": {
+        "median_household_income": 72925,
+        "poverty_count": 126,
+        "poverty_pct": 0.78
+      },
+      "education": {
+        "bachelors_or_higher": 5028,
+        "bachelors_only": 2734,
+        "masters": 1898,
+        "professional": 149,
+        "doctorate": 247
+      }
+    },
+    "North Adams city, Massachusetts": {
+      "state": "MA",
+      "fips": "2546225",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12660,
+        "voting_age": 10566,
+        "voting_age_pct": 83.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10981,
+          "pct": 86.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 136,
+          "pct": 1.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 0.26
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 395,
+          "pct": 3.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 36,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 303,
+          "pct": 2.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 776,
+          "pct": 6.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 48521,
+        "poverty_count": 446,
+        "poverty_pct": 3.52
+      },
+      "education": {
+        "bachelors_or_higher": 2443,
+        "bachelors_only": 1365,
+        "masters": 851,
+        "professional": 65,
+        "doctorate": 162
+      }
+    },
+    "Palmer Town city, Massachusetts": {
+      "state": "MA",
+      "fips": "2552144",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12372,
+        "voting_age": 10645,
+        "voting_age_pct": 86.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10398,
+          "pct": 84.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 394,
+          "pct": 3.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 30,
+          "pct": 0.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 50,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 921,
+          "pct": 7.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 579,
+          "pct": 4.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 78789,
+        "poverty_count": 126,
+        "poverty_pct": 1.02
+      },
+      "education": {
+        "bachelors_or_higher": 2354,
+        "bachelors_only": 1515,
+        "masters": 609,
+        "professional": 158,
+        "doctorate": 72
+      }
+    }
+  }
+}

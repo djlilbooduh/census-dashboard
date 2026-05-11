@@ -1,0 +1,1232 @@
+{
+  "state": "Washington",
+  "state_fips": "53",
+  "election": "2024 United States Presidential Election",
+  "election_date": "2024-11-05",
+  "data_sources": {
+    "presidential_results": {
+      "source": "Wikipedia - 2024 United States presidential election in Washington (state)",
+      "url": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Washington_(state)",
+      "note": "Data compiled from certified county-level results as reported by WA Secretary of State"
+    },
+    "voter_registration": {
+      "source": "Estimated from WA Secretary of State statewide turnout figure",
+      "methodology": "County registered voters estimated as: total_votes / statewide_turnout_rate (78.94%). Actual county-level registration figures may vary because turnout rates differ by county. Official county-level registration data from WA SOS was unavailable at time of compilation (site restructuring).",
+      "statewide_registered_estimated": 4971172,
+      "statewide_turnout_pct": 78.94
+    }
+  },
+  "summary": {
+    "total_votes_cast": 3924243,
+    "harris_votes": 2245849,
+    "harris_pct": 57.23,
+    "trump_votes": 1530923,
+    "trump_pct": 39.01,
+    "other_votes": 147471,
+    "other_pct": 3.76,
+    "harris_margin": 714926,
+    "harris_margin_pct": 18.22,
+    "statewide_registered_estimated": 4971172,
+    "statewide_turnout_pct": 78.94,
+    "electoral_votes": 12,
+    "winner": "Kamala Harris (D)"
+  },
+  "counties": [
+    {
+      "name": "Adams County",
+      "fips": "53001",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 5365,
+        "harris": {
+          "votes": 1455,
+          "pct": 27.12
+        },
+        "trump": {
+          "votes": 3767,
+          "pct": 70.21
+        },
+        "other": {
+          "votes": 143,
+          "pct": 2.67
+        },
+        "margin": {
+          "party": "R",
+          "votes": 2312,
+          "pct": 43.09
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 6796,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Asotin County",
+      "fips": "53003",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 11468,
+        "harris": {
+          "votes": 4082,
+          "pct": 35.59
+        },
+        "trump": {
+          "votes": 7004,
+          "pct": 61.07
+        },
+        "other": {
+          "votes": 382,
+          "pct": 3.33
+        },
+        "margin": {
+          "party": "R",
+          "votes": 2922,
+          "pct": 25.48
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 14527,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Benton County",
+      "fips": "53005",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 100693,
+        "harris": {
+          "votes": 37662,
+          "pct": 37.4
+        },
+        "trump": {
+          "votes": 59555,
+          "pct": 59.15
+        },
+        "other": {
+          "votes": 3476,
+          "pct": 3.45
+        },
+        "margin": {
+          "party": "R",
+          "votes": 21893,
+          "pct": 21.74
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 127556,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Chelan County",
+      "fips": "53007",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 42191,
+        "harris": {
+          "votes": 18397,
+          "pct": 43.6
+        },
+        "trump": {
+          "votes": 22363,
+          "pct": 53.0
+        },
+        "other": {
+          "votes": 1431,
+          "pct": 3.39
+        },
+        "margin": {
+          "party": "R",
+          "votes": 3966,
+          "pct": 9.4
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 53447,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Clallam County",
+      "fips": "53009",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 48663,
+        "harris": {
+          "votes": 25440,
+          "pct": 52.28
+        },
+        "trump": {
+          "votes": 21632,
+          "pct": 44.45
+        },
+        "other": {
+          "votes": 1591,
+          "pct": 3.27
+        },
+        "margin": {
+          "party": "D",
+          "votes": 3808,
+          "pct": 7.83
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 61646,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Clark County",
+      "fips": "53011",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 276578,
+        "harris": {
+          "votes": 143206,
+          "pct": 51.78
+        },
+        "trump": {
+          "votes": 123998,
+          "pct": 44.83
+        },
+        "other": {
+          "votes": 9374,
+          "pct": 3.39
+        },
+        "margin": {
+          "party": "D",
+          "votes": 19208,
+          "pct": 6.94
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 350365,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Columbia County",
+      "fips": "53013",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 2485,
+        "harris": {
+          "votes": 661,
+          "pct": 26.6
+        },
+        "trump": {
+          "votes": 1737,
+          "pct": 69.9
+        },
+        "other": {
+          "votes": 87,
+          "pct": 3.5
+        },
+        "margin": {
+          "party": "R",
+          "votes": 1076,
+          "pct": 43.3
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 3148,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Cowlitz County",
+      "fips": "53015",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 59325,
+        "harris": {
+          "votes": 22825,
+          "pct": 38.47
+        },
+        "trump": {
+          "votes": 34580,
+          "pct": 58.29
+        },
+        "other": {
+          "votes": 1920,
+          "pct": 3.24
+        },
+        "margin": {
+          "party": "R",
+          "votes": 11755,
+          "pct": 19.81
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 75152,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Douglas County",
+      "fips": "53017",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 21182,
+        "harris": {
+          "votes": 7410,
+          "pct": 34.98
+        },
+        "trump": {
+          "votes": 13095,
+          "pct": 61.82
+        },
+        "other": {
+          "votes": 677,
+          "pct": 3.2
+        },
+        "margin": {
+          "party": "R",
+          "votes": 5685,
+          "pct": 26.84
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 26833,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Ferry County",
+      "fips": "53019",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 4119,
+        "harris": {
+          "votes": 1315,
+          "pct": 31.93
+        },
+        "trump": {
+          "votes": 2667,
+          "pct": 64.75
+        },
+        "other": {
+          "votes": 137,
+          "pct": 3.33
+        },
+        "margin": {
+          "party": "R",
+          "votes": 1352,
+          "pct": 32.82
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 5218,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Franklin County",
+      "fips": "53021",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 31897,
+        "harris": {
+          "votes": 11884,
+          "pct": 37.26
+        },
+        "trump": {
+          "votes": 19086,
+          "pct": 59.84
+        },
+        "other": {
+          "votes": 927,
+          "pct": 2.91
+        },
+        "margin": {
+          "party": "R",
+          "votes": 7202,
+          "pct": 22.58
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 40407,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Garfield County",
+      "fips": "53023",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 1352,
+        "harris": {
+          "votes": 330,
+          "pct": 24.41
+        },
+        "trump": {
+          "votes": 973,
+          "pct": 71.97
+        },
+        "other": {
+          "votes": 49,
+          "pct": 3.62
+        },
+        "margin": {
+          "party": "R",
+          "votes": 643,
+          "pct": 47.56
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 1713,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Grant County",
+      "fips": "53025",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 36253,
+        "harris": {
+          "votes": 10806,
+          "pct": 29.81
+        },
+        "trump": {
+          "votes": 24326,
+          "pct": 67.1
+        },
+        "other": {
+          "votes": 1121,
+          "pct": 3.09
+        },
+        "margin": {
+          "party": "R",
+          "votes": 13520,
+          "pct": 37.29
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 45925,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Grays Harbor County",
+      "fips": "53027",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 37793,
+        "harris": {
+          "votes": 17161,
+          "pct": 45.41
+        },
+        "trump": {
+          "votes": 19432,
+          "pct": 51.42
+        },
+        "other": {
+          "votes": 1200,
+          "pct": 3.18
+        },
+        "margin": {
+          "party": "R",
+          "votes": 2271,
+          "pct": 6.01
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 47876,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Island County",
+      "fips": "53029",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 52449,
+        "harris": {
+          "votes": 29595,
+          "pct": 56.43
+        },
+        "trump": {
+          "votes": 20967,
+          "pct": 39.98
+        },
+        "other": {
+          "votes": 1887,
+          "pct": 3.6
+        },
+        "margin": {
+          "party": "D",
+          "votes": 8628,
+          "pct": 16.45
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 66442,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Jefferson County",
+      "fips": "53031",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 24698,
+        "harris": {
+          "votes": 17459,
+          "pct": 70.69
+        },
+        "trump": {
+          "votes": 6324,
+          "pct": 25.61
+        },
+        "other": {
+          "votes": 915,
+          "pct": 3.7
+        },
+        "margin": {
+          "party": "D",
+          "votes": 11135,
+          "pct": 45.08
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 31287,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "King County",
+      "fips": "53033",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 1130502,
+        "harris": {
+          "votes": 832606,
+          "pct": 73.65
+        },
+        "trump": {
+          "votes": 252193,
+          "pct": 22.31
+        },
+        "other": {
+          "votes": 45703,
+          "pct": 4.04
+        },
+        "margin": {
+          "party": "D",
+          "votes": 580413,
+          "pct": 51.34
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 1432103,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Kitsap County",
+      "fips": "53035",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 156872,
+        "harris": {
+          "votes": 91731,
+          "pct": 58.48
+        },
+        "trump": {
+          "votes": 59080,
+          "pct": 37.66
+        },
+        "other": {
+          "votes": 6061,
+          "pct": 3.86
+        },
+        "margin": {
+          "party": "D",
+          "votes": 32651,
+          "pct": 20.81
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 198723,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Kittitas County",
+      "fips": "53037",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 26499,
+        "harris": {
+          "votes": 10810,
+          "pct": 40.79
+        },
+        "trump": {
+          "votes": 14645,
+          "pct": 55.27
+        },
+        "other": {
+          "votes": 1044,
+          "pct": 3.94
+        },
+        "margin": {
+          "party": "R",
+          "votes": 3835,
+          "pct": 14.47
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 33569,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Klickitat County",
+      "fips": "53039",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 13607,
+        "harris": {
+          "votes": 5917,
+          "pct": 43.48
+        },
+        "trump": {
+          "votes": 7178,
+          "pct": 52.75
+        },
+        "other": {
+          "votes": 512,
+          "pct": 3.76
+        },
+        "margin": {
+          "party": "R",
+          "votes": 1261,
+          "pct": 9.27
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 17237,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Lewis County",
+      "fips": "53041",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 45338,
+        "harris": {
+          "votes": 14433,
+          "pct": 31.83
+        },
+        "trump": {
+          "votes": 29322,
+          "pct": 64.67
+        },
+        "other": {
+          "votes": 1583,
+          "pct": 3.49
+        },
+        "margin": {
+          "party": "R",
+          "votes": 14889,
+          "pct": 32.84
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 57433,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Lincoln County",
+      "fips": "53043",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 7144,
+        "harris": {
+          "votes": 1678,
+          "pct": 23.49
+        },
+        "trump": {
+          "votes": 5272,
+          "pct": 73.8
+        },
+        "other": {
+          "votes": 194,
+          "pct": 2.72
+        },
+        "margin": {
+          "party": "R",
+          "votes": 3594,
+          "pct": 50.31
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 9050,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Mason County",
+      "fips": "53045",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 36689,
+        "harris": {
+          "votes": 17215,
+          "pct": 46.92
+        },
+        "trump": {
+          "votes": 18127,
+          "pct": 49.41
+        },
+        "other": {
+          "votes": 1347,
+          "pct": 3.67
+        },
+        "margin": {
+          "party": "R",
+          "votes": 912,
+          "pct": 2.49
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 46477,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Okanogan County",
+      "fips": "53047",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 20732,
+        "harris": {
+          "votes": 8466,
+          "pct": 40.84
+        },
+        "trump": {
+          "votes": 11555,
+          "pct": 55.74
+        },
+        "other": {
+          "votes": 711,
+          "pct": 3.43
+        },
+        "margin": {
+          "party": "R",
+          "votes": 3089,
+          "pct": 14.9
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 26263,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Pacific County",
+      "fips": "53049",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 14244,
+        "harris": {
+          "votes": 6825,
+          "pct": 47.91
+        },
+        "trump": {
+          "votes": 7010,
+          "pct": 49.21
+        },
+        "other": {
+          "votes": 409,
+          "pct": 2.87
+        },
+        "margin": {
+          "party": "R",
+          "votes": 185,
+          "pct": 1.3
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 18044,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Pend Oreille County",
+      "fips": "53051",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 8545,
+        "harris": {
+          "votes": 2461,
+          "pct": 28.8
+        },
+        "trump": {
+          "votes": 5826,
+          "pct": 68.18
+        },
+        "other": {
+          "votes": 258,
+          "pct": 3.02
+        },
+        "margin": {
+          "party": "R",
+          "votes": 3365,
+          "pct": 39.38
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 10825,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Pierce County",
+      "fips": "53053",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 439581,
+        "harris": {
+          "votes": 235169,
+          "pct": 53.5
+        },
+        "trump": {
+          "votes": 188194,
+          "pct": 42.81
+        },
+        "other": {
+          "votes": 16218,
+          "pct": 3.69
+        },
+        "margin": {
+          "party": "D",
+          "votes": 46975,
+          "pct": 10.69
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 556855,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "San Juan County",
+      "fips": "53055",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 13006,
+        "harris": {
+          "votes": 9539,
+          "pct": 73.34
+        },
+        "trump": {
+          "votes": 2890,
+          "pct": 22.22
+        },
+        "other": {
+          "votes": 577,
+          "pct": 4.44
+        },
+        "margin": {
+          "party": "D",
+          "votes": 6649,
+          "pct": 51.12
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 16476,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Skagit County",
+      "fips": "53057",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 70256,
+        "harris": {
+          "votes": 36956,
+          "pct": 52.6
+        },
+        "trump": {
+          "votes": 30765,
+          "pct": 43.79
+        },
+        "other": {
+          "votes": 2535,
+          "pct": 3.61
+        },
+        "margin": {
+          "party": "D",
+          "votes": 6191,
+          "pct": 8.81
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 88999,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Skamania County",
+      "fips": "53059",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 7355,
+        "harris": {
+          "votes": 3147,
+          "pct": 42.79
+        },
+        "trump": {
+          "votes": 3961,
+          "pct": 53.85
+        },
+        "other": {
+          "votes": 247,
+          "pct": 3.36
+        },
+        "margin": {
+          "party": "R",
+          "votes": 814,
+          "pct": 11.07
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 9317,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Snohomish County",
+      "fips": "53061",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 418221,
+        "harris": {
+          "votes": 240099,
+          "pct": 57.41
+        },
+        "trump": {
+          "votes": 161371,
+          "pct": 38.59
+        },
+        "other": {
+          "votes": 16751,
+          "pct": 4.01
+        },
+        "margin": {
+          "party": "D",
+          "votes": 78728,
+          "pct": 18.82
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 529796,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Spokane County",
+      "fips": "53063",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 287082,
+        "harris": {
+          "votes": 131163,
+          "pct": 45.69
+        },
+        "trump": {
+          "votes": 145338,
+          "pct": 50.63
+        },
+        "other": {
+          "votes": 10581,
+          "pct": 3.69
+        },
+        "margin": {
+          "party": "R",
+          "votes": 14175,
+          "pct": 4.94
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 363671,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Stevens County",
+      "fips": "53065",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 28246,
+        "harris": {
+          "votes": 7492,
+          "pct": 26.52
+        },
+        "trump": {
+          "votes": 19895,
+          "pct": 70.43
+        },
+        "other": {
+          "votes": 859,
+          "pct": 3.04
+        },
+        "margin": {
+          "party": "R",
+          "votes": 12403,
+          "pct": 43.91
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 35782,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Thurston County",
+      "fips": "53067",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 164537,
+        "harris": {
+          "votes": 95663,
+          "pct": 58.14
+        },
+        "trump": {
+          "votes": 62282,
+          "pct": 37.85
+        },
+        "other": {
+          "votes": 6592,
+          "pct": 4.01
+        },
+        "margin": {
+          "party": "D",
+          "votes": 33381,
+          "pct": 20.29
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 208433,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Wahkiakum County",
+      "fips": "53069",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 3062,
+        "harris": {
+          "votes": 1204,
+          "pct": 39.32
+        },
+        "trump": {
+          "votes": 1757,
+          "pct": 57.38
+        },
+        "other": {
+          "votes": 101,
+          "pct": 3.3
+        },
+        "margin": {
+          "party": "R",
+          "votes": 553,
+          "pct": 18.06
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 3879,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Walla Walla County",
+      "fips": "53071",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 29568,
+        "harris": {
+          "votes": 13106,
+          "pct": 44.32
+        },
+        "trump": {
+          "votes": 15476,
+          "pct": 52.34
+        },
+        "other": {
+          "votes": 986,
+          "pct": 3.33
+        },
+        "margin": {
+          "party": "R",
+          "votes": 2370,
+          "pct": 8.02
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 37456,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Whatcom County",
+      "fips": "53073",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 137868,
+        "harris": {
+          "votes": 83295,
+          "pct": 60.42
+        },
+        "trump": {
+          "votes": 49213,
+          "pct": 35.7
+        },
+        "other": {
+          "votes": 5360,
+          "pct": 3.89
+        },
+        "margin": {
+          "party": "D",
+          "votes": 34082,
+          "pct": 24.72
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 174649,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Whitman County",
+      "fips": "53075",
+      "president_2024": {
+        "winner": "Harris (D)",
+        "total_votes": 20027,
+        "harris": {
+          "votes": 10480,
+          "pct": 52.33
+        },
+        "trump": {
+          "votes": 8699,
+          "pct": 43.44
+        },
+        "other": {
+          "votes": 848,
+          "pct": 4.23
+        },
+        "margin": {
+          "party": "D",
+          "votes": 1781,
+          "pct": 8.89
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 25370,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    },
+    {
+      "name": "Yakima County",
+      "fips": "53077",
+      "president_2024": {
+        "winner": "Trump (R)",
+        "total_votes": 88751,
+        "harris": {
+          "votes": 36706,
+          "pct": 41.36
+        },
+        "trump": {
+          "votes": 49368,
+          "pct": 55.63
+        },
+        "other": {
+          "votes": 2677,
+          "pct": 3.02
+        },
+        "margin": {
+          "party": "R",
+          "votes": 12662,
+          "pct": 14.27
+        }
+      },
+      "voter_registration": {
+        "registered_voters_estimated": 112428,
+        "estimation_note": "Estimated from total votes / statewide turnout (78.94%). Actual registration may differ.",
+        "turnout_of_registered_pct": null
+      }
+    }
+  ],
+  "_validation": {
+    "king_county": {
+      "city_represents": "Seattle",
+      "president_2024_harris": "832,606 (73.65%)",
+      "president_2024_trump": "252,193 (22.31%)",
+      "total_votes": 1130502,
+      "est_registered": 1432103,
+      "margin": "D+580,413 (51.34 pp)"
+    },
+    "spokane_county": {
+      "city_represents": "Spokane",
+      "president_2024_harris": "131,163 (45.69%)",
+      "president_2024_trump": "145,338 (50.63%)",
+      "total_votes": 287082,
+      "est_registered": 363671,
+      "margin": "R+14,175 (4.94 pp)"
+    },
+    "pierce_county": {
+      "city_represents": "Tacoma",
+      "president_2024_harris": "235,169 (53.50%)",
+      "president_2024_trump": "188,194 (42.81%)",
+      "total_votes": 439581,
+      "est_registered": 556855,
+      "margin": "D+46,975 (10.69 pp)"
+    }
+  }
+}

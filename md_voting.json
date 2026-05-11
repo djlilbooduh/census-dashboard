@@ -1,0 +1,541 @@
+{
+  "state": "Maryland",
+  "source_presidential": "Wikipedia - 2024 United States presidential election in Maryland",
+  "source_registration": "Maryland State Board of Elections - Eligible Active Voters by County, 2024 Presidential General Election",
+  "presidential": {
+    "year": "2024",
+    "statewide": {
+      "harris_votes": 1902577,
+      "harris_pct": 62.62,
+      "trump_votes": 1035550,
+      "trump_pct": 34.08,
+      "other_votes": 100207,
+      "other_pct": 3.30,
+      "total_votes": 3038334,
+      "margin": 867027,
+      "margin_pct": 28.54,
+      "winner": "Harris"
+    },
+    "counties": {
+      "Allegany": {
+        "harris_votes": 9231,
+        "harris_pct": 28.72,
+        "trump_votes": 22141,
+        "trump_pct": 68.90,
+        "other_votes": 765,
+        "other_pct": 2.38,
+        "total_votes": 32137,
+        "margin": -12910,
+        "winner": "Trump"
+      },
+      "Anne Arundel": {
+        "harris_votes": 171945,
+        "harris_pct": 55.19,
+        "trump_votes": 128892,
+        "trump_pct": 41.37,
+        "other_votes": 10735,
+        "other_pct": 3.45,
+        "total_votes": 311572,
+        "margin": 43053,
+        "winner": "Harris"
+      },
+      "Baltimore City": {
+        "harris_votes": 195109,
+        "harris_pct": 84.55,
+        "trump_votes": 27984,
+        "trump_pct": 12.13,
+        "other_votes": 7661,
+        "other_pct": 3.32,
+        "total_votes": 230754,
+        "margin": 167125,
+        "winner": "Harris"
+      },
+      "Baltimore County": {
+        "harris_votes": 249958,
+        "harris_pct": 60.53,
+        "trump_votes": 149560,
+        "trump_pct": 36.22,
+        "other_votes": 13397,
+        "other_pct": 3.24,
+        "total_votes": 412915,
+        "margin": 100398,
+        "winner": "Harris"
+      },
+      "Calvert": {
+        "harris_votes": 23438,
+        "harris_pct": 43.25,
+        "trump_votes": 29361,
+        "trump_pct": 54.18,
+        "other_votes": 1392,
+        "other_pct": 2.57,
+        "total_votes": 54191,
+        "margin": -5923,
+        "winner": "Trump"
+      },
+      "Caroline": {
+        "harris_votes": 4860,
+        "harris_pct": 29.76,
+        "trump_votes": 11053,
+        "trump_pct": 67.69,
+        "other_votes": 417,
+        "other_pct": 2.55,
+        "total_votes": 16330,
+        "margin": -6193,
+        "winner": "Trump"
+      },
+      "Carroll": {
+        "harris_votes": 36867,
+        "harris_pct": 35.91,
+        "trump_votes": 62273,
+        "trump_pct": 60.66,
+        "other_votes": 3511,
+        "other_pct": 3.42,
+        "total_votes": 102651,
+        "margin": -25406,
+        "winner": "Trump"
+      },
+      "Cecil": {
+        "harris_votes": 17628,
+        "harris_pct": 33.37,
+        "trump_votes": 33871,
+        "trump_pct": 64.11,
+        "other_votes": 1332,
+        "other_pct": 2.52,
+        "total_votes": 52831,
+        "margin": -16243,
+        "winner": "Trump"
+      },
+      "Charles": {
+        "harris_votes": 63454,
+        "harris_pct": 68.90,
+        "trump_votes": 26145,
+        "trump_pct": 28.39,
+        "other_votes": 2498,
+        "other_pct": 2.71,
+        "total_votes": 92097,
+        "margin": 37309,
+        "winner": "Harris"
+      },
+      "Dorchester": {
+        "harris_votes": 6954,
+        "harris_pct": 41.46,
+        "trump_votes": 9390,
+        "trump_pct": 55.99,
+        "other_votes": 428,
+        "other_pct": 2.55,
+        "total_votes": 16772,
+        "margin": -2436,
+        "winner": "Trump"
+      },
+      "Frederick": {
+        "harris_votes": 82409,
+        "harris_pct": 52.79,
+        "trump_votes": 68753,
+        "trump_pct": 44.04,
+        "other_votes": 4952,
+        "other_pct": 3.17,
+        "total_votes": 156114,
+        "margin": 13656,
+        "winner": "Harris"
+      },
+      "Garrett": {
+        "harris_votes": 3456,
+        "harris_pct": 21.82,
+        "trump_votes": 11983,
+        "trump_pct": 75.66,
+        "other_votes": 399,
+        "other_pct": 2.52,
+        "total_votes": 15838,
+        "margin": -8527,
+        "winner": "Trump"
+      },
+      "Harford": {
+        "harris_votes": 62453,
+        "harris_pct": 41.61,
+        "trump_votes": 83050,
+        "trump_pct": 55.33,
+        "other_votes": 4587,
+        "other_pct": 3.06,
+        "total_votes": 150090,
+        "margin": -20597,
+        "winner": "Trump"
+      },
+      "Howard": {
+        "harris_votes": 124764,
+        "harris_pct": 68.44,
+        "trump_votes": 49425,
+        "trump_pct": 27.11,
+        "other_votes": 8102,
+        "other_pct": 4.44,
+        "total_votes": 182291,
+        "margin": 75339,
+        "winner": "Harris"
+      },
+      "Kent": {
+        "harris_votes": 5251,
+        "harris_pct": 47.19,
+        "trump_votes": 5561,
+        "trump_pct": 49.97,
+        "other_votes": 316,
+        "other_pct": 2.84,
+        "total_votes": 11128,
+        "margin": -310,
+        "winner": "Trump"
+      },
+      "Montgomery": {
+        "harris_votes": 386581,
+        "harris_pct": 74.45,
+        "trump_votes": 112637,
+        "trump_pct": 21.69,
+        "other_votes": 20003,
+        "other_pct": 3.85,
+        "total_votes": 519221,
+        "margin": 273944,
+        "winner": "Harris"
+      },
+      "Prince George's": {
+        "harris_votes": 347038,
+        "harris_pct": 85.90,
+        "trump_votes": 45008,
+        "trump_pct": 11.14,
+        "other_votes": 11963,
+        "other_pct": 2.96,
+        "total_votes": 404009,
+        "margin": 302030,
+        "winner": "Harris"
+      },
+      "Queen Anne's": {
+        "harris_votes": 11273,
+        "harris_pct": 34.85,
+        "trump_votes": 20200,
+        "trump_pct": 62.45,
+        "other_votes": 874,
+        "other_pct": 2.70,
+        "total_votes": 32347,
+        "margin": -8927,
+        "winner": "Trump"
+      },
+      "Saint Mary's": {
+        "harris_votes": 23531,
+        "harris_pct": 39.91,
+        "trump_votes": 33582,
+        "trump_pct": 56.96,
+        "other_votes": 1841,
+        "other_pct": 3.12,
+        "total_votes": 58954,
+        "margin": -10051,
+        "winner": "Trump"
+      },
+      "Somerset": {
+        "harris_votes": 4054,
+        "harris_pct": 39.99,
+        "trump_votes": 5805,
+        "trump_pct": 57.27,
+        "other_votes": 278,
+        "other_pct": 2.74,
+        "total_votes": 10137,
+        "margin": -1751,
+        "winner": "Trump"
+      },
+      "Talbot": {
+        "harris_votes": 11119,
+        "harris_pct": 48.70,
+        "trump_votes": 11125,
+        "trump_pct": 48.73,
+        "other_votes": 586,
+        "other_pct": 2.57,
+        "total_votes": 22830,
+        "margin": -6,
+        "winner": "Trump"
+      },
+      "Washington": {
+        "harris_votes": 27260,
+        "harris_pct": 37.17,
+        "trump_votes": 44054,
+        "trump_pct": 60.07,
+        "other_votes": 2018,
+        "other_pct": 2.75,
+        "total_votes": 73332,
+        "margin": -16794,
+        "winner": "Trump"
+      },
+      "Wicomico": {
+        "harris_votes": 21513,
+        "harris_pct": 45.86,
+        "trump_votes": 24065,
+        "trump_pct": 51.30,
+        "other_votes": 1334,
+        "other_pct": 2.84,
+        "total_votes": 46912,
+        "margin": -2552,
+        "winner": "Trump"
+      },
+      "Worcester": {
+        "harris_votes": 12431,
+        "harris_pct": 37.81,
+        "trump_votes": 19632,
+        "trump_pct": 59.71,
+        "other_votes": 818,
+        "other_pct": 2.49,
+        "total_votes": 32881,
+        "margin": -7201,
+        "winner": "Trump"
+      }
+    }
+  },
+  "voter_registration": {
+    "as_of": "2024 Presidential General Election close of registration",
+    "statewide": {
+      "democratic": 2211316,
+      "republican": 1007384,
+      "libertarian": 19277,
+      "other": 47511,
+      "unaffiliated": 907638,
+      "no_label_maryland": 6483,
+      "green": 4963,
+      "total": 4204572
+    },
+    "counties": {
+      "Allegany": {
+        "democratic": 10812,
+        "republican": 23016,
+        "libertarian": 274,
+        "other": 495,
+        "unaffiliated": 8730,
+        "no_label_maryland": 63,
+        "green": 56,
+        "total": 43446
+      },
+      "Anne Arundel": {
+        "democratic": 172652,
+        "republican": 129077,
+        "libertarian": 2491,
+        "other": 3678,
+        "unaffiliated": 103458,
+        "no_label_maryland": 699,
+        "green": 465,
+        "total": 412520
+      },
+      "Baltimore City": {
+        "democratic": 298865,
+        "republican": 29211,
+        "libertarian": 1254,
+        "other": 5020,
+        "unaffiliated": 63722,
+        "no_label_maryland": 698,
+        "green": 736,
+        "total": 399506
+      },
+      "Baltimore County": {
+        "democratic": 306847,
+        "republican": 139293,
+        "libertarian": 2699,
+        "other": 6892,
+        "unaffiliated": 118059,
+        "no_label_maryland": 864,
+        "green": 711,
+        "total": 575365
+      },
+      "Calvert": {
+        "democratic": 23494,
+        "republican": 28397,
+        "libertarian": 452,
+        "other": 630,
+        "unaffiliated": 16229,
+        "no_label_maryland": 95,
+        "green": 64,
+        "total": 69361
+      },
+      "Caroline": {
+        "democratic": 5936,
+        "republican": 10830,
+        "libertarian": 124,
+        "other": 222,
+        "unaffiliated": 4791,
+        "no_label_maryland": 31,
+        "green": 26,
+        "total": 21960
+      },
+      "Carroll": {
+        "democratic": 33091,
+        "republican": 63932,
+        "libertarian": 853,
+        "other": 1187,
+        "unaffiliated": 29928,
+        "no_label_maryland": 122,
+        "green": 137,
+        "total": 129250
+      },
+      "Cecil": {
+        "democratic": 19013,
+        "republican": 34984,
+        "libertarian": 481,
+        "other": 810,
+        "unaffiliated": 16965,
+        "no_label_maryland": 126,
+        "green": 72,
+        "total": 72451
+      },
+      "Charles": {
+        "democratic": 75333,
+        "republican": 23363,
+        "libertarian": 448,
+        "other": 1092,
+        "unaffiliated": 24603,
+        "no_label_maryland": 160,
+        "green": 109,
+        "total": 125108
+      },
+      "Dorchester": {
+        "democratic": 9551,
+        "republican": 9456,
+        "libertarian": 110,
+        "other": 252,
+        "unaffiliated": 4257,
+        "no_label_maryland": 30,
+        "green": 16,
+        "total": 23672
+      },
+      "Frederick": {
+        "democratic": 78431,
+        "republican": 68686,
+        "libertarian": 1252,
+        "other": 1468,
+        "unaffiliated": 52988,
+        "no_label_maryland": 274,
+        "green": 232,
+        "total": 203331
+      },
+      "Garrett": {
+        "democratic": 3451,
+        "republican": 13758,
+        "libertarian": 106,
+        "other": 182,
+        "unaffiliated": 3010,
+        "no_label_maryland": 24,
+        "green": 18,
+        "total": 20549
+      },
+      "Harford": {
+        "democratic": 64081,
+        "republican": 80972,
+        "libertarian": 1281,
+        "other": 2002,
+        "unaffiliated": 44122,
+        "no_label_maryland": 276,
+        "green": 164,
+        "total": 192898
+      },
+      "Howard": {
+        "democratic": 122630,
+        "republican": 48498,
+        "libertarian": 959,
+        "other": 2148,
+        "unaffiliated": 61796,
+        "no_label_maryland": 346,
+        "green": 264,
+        "total": 236641
+      },
+      "Kent": {
+        "democratic": 5719,
+        "republican": 5411,
+        "libertarian": 71,
+        "other": 126,
+        "unaffiliated": 2764,
+        "no_label_maryland": 21,
+        "green": 14,
+        "total": 14126
+      },
+      "Montgomery": {
+        "democratic": 403843,
+        "republican": 98946,
+        "libertarian": 2481,
+        "other": 6031,
+        "unaffiliated": 170306,
+        "no_label_maryland": 1053,
+        "green": 855,
+        "total": 683515
+      },
+      "Prince George's": {
+        "democratic": 455749,
+        "republican": 40327,
+        "libertarian": 1648,
+        "other": 11549,
+        "unaffiliated": 99412,
+        "no_label_maryland": 1068,
+        "green": 637,
+        "total": 610390
+      },
+      "Queen Anne's": {
+        "democratic": 11165,
+        "republican": 20302,
+        "libertarian": 237,
+        "other": 328,
+        "unaffiliated": 8753,
+        "no_label_maryland": 48,
+        "green": 43,
+        "total": 40876
+      },
+      "Saint Mary's": {
+        "democratic": 24789,
+        "republican": 32638,
+        "libertarian": 517,
+        "other": 726,
+        "unaffiliated": 17785,
+        "no_label_maryland": 107,
+        "green": 66,
+        "total": 76628
+      },
+      "Somerset": {
+        "democratic": 5326,
+        "republican": 6201,
+        "libertarian": 76,
+        "other": 149,
+        "unaffiliated": 2514,
+        "no_label_maryland": 19,
+        "green": 17,
+        "total": 14302
+      },
+      "Talbot": {
+        "democratic": 10534,
+        "republican": 11597,
+        "libertarian": 174,
+        "other": 242,
+        "unaffiliated": 5905,
+        "no_label_maryland": 32,
+        "green": 24,
+        "total": 28508
+      },
+      "Washington": {
+        "democratic": 30537,
+        "republican": 44553,
+        "libertarian": 662,
+        "other": 985,
+        "unaffiliated": 23635,
+        "no_label_maryland": 149,
+        "green": 127,
+        "total": 100648
+      },
+      "Wicomico": {
+        "democratic": 25881,
+        "republican": 24188,
+        "libertarian": 381,
+        "other": 798,
+        "unaffiliated": 14836,
+        "no_label_maryland": 122,
+        "green": 68,
+        "total": 66274
+      },
+      "Worcester": {
+        "democratic": 13586,
+        "republican": 19748,
+        "libertarian": 246,
+        "other": 499,
+        "unaffiliated": 9070,
+        "no_label_maryland": 56,
+        "green": 42,
+        "total": 43247
+      }
+    }
+  }
+}

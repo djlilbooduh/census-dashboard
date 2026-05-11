@@ -1,0 +1,1629 @@
+{
+  "cities": {
+    "Bridgeport city, Connecticut": {
+      "state": "CT",
+      "fips": "0908000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 148012,
+        "voting_age": 116282,
+        "voting_age_pct": 78.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37918,
+          "pct": 25.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 28859,
+          "pct": 19.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 147,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7738,
+          "pct": 5.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 22,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2595,
+          "pct": 1.75
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4716,
+          "pct": 3.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 66017,
+          "pct": 44.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 56584,
+        "poverty_count": 10405,
+        "poverty_pct": 7.03
+      },
+      "education": {
+        "bachelors_or_higher": 22923,
+        "bachelors_only": 14377,
+        "masters": 6244,
+        "professional": 1528,
+        "doctorate": 774
+      }
+    },
+    "Stamford city, Connecticut": {
+      "state": "CT",
+      "fips": "0973000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 135806,
+        "voting_age": 110996,
+        "voting_age_pct": 81.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 57727,
+          "pct": 42.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 26163,
+          "pct": 19.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 99,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9550,
+          "pct": 7.03
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 66,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 558,
+          "pct": 0.41
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3478,
+          "pct": 2.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 38165,
+          "pct": 28.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 107474,
+        "poverty_count": 2945,
+        "poverty_pct": 2.17
+      },
+      "education": {
+        "bachelors_or_higher": 50736,
+        "bachelors_only": 28383,
+        "masters": 15611,
+        "professional": 4706,
+        "doctorate": 2036
+      }
+    },
+    "New Haven city, Connecticut": {
+      "state": "CT",
+      "fips": "0952000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 132893,
+        "voting_age": 104183,
+        "voting_age_pct": 78.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 38974,
+          "pct": 29.33
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 38597,
+          "pct": 29.04
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 76,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6774,
+          "pct": 5.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1903,
+          "pct": 1.43
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5066,
+          "pct": 3.81
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41503,
+          "pct": 31.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 53771,
+        "poverty_count": 9520,
+        "poverty_pct": 7.16
+      },
+      "education": {
+        "bachelors_or_higher": 31866,
+        "bachelors_only": 14643,
+        "masters": 9992,
+        "professional": 3452,
+        "doctorate": 3779
+      }
+    },
+    "Hartford city, Connecticut": {
+      "state": "CT",
+      "fips": "0937000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 119970,
+        "voting_age": 92025,
+        "voting_age_pct": 76.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19132,
+          "pct": 15.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 40490,
+          "pct": 33.75
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 97,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2698,
+          "pct": 2.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 72,
+          "pct": 0.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 895,
+          "pct": 0.75
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2899,
+          "pct": 2.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 53687,
+          "pct": 44.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 45300,
+        "poverty_count": 8684,
+        "poverty_pct": 7.24
+      },
+      "education": {
+        "bachelors_or_higher": 13848,
+        "bachelors_only": 7828,
+        "masters": 3958,
+        "professional": 1156,
+        "doctorate": 906
+      }
+    },
+    "Waterbury city, Connecticut": {
+      "state": "CT",
+      "fips": "0980000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 114356,
+        "voting_age": 88627,
+        "voting_age_pct": 77.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 34909,
+          "pct": 30.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27144,
+          "pct": 23.74
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 29,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2814,
+          "pct": 2.46
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 51,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1416,
+          "pct": 1.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5098,
+          "pct": 4.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 42895,
+          "pct": 37.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 51642,
+        "poverty_count": 8246,
+        "poverty_pct": 7.21
+      },
+      "education": {
+        "bachelors_or_higher": 13088,
+        "bachelors_only": 7569,
+        "masters": 4038,
+        "professional": 1087,
+        "doctorate": 394
+      }
+    },
+    "Norwalk city, Connecticut": {
+      "state": "CT",
+      "fips": "0955990",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 91375,
+        "voting_age": 73610,
+        "voting_age_pct": 80.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 39052,
+          "pct": 42.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 16026,
+          "pct": 17.54
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 34,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4258,
+          "pct": 4.66
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 406,
+          "pct": 0.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2919,
+          "pct": 3.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 28680,
+          "pct": 31.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 105301,
+        "poverty_count": 2723,
+        "poverty_pct": 2.98
+      },
+      "education": {
+        "bachelors_or_higher": 29575,
+        "bachelors_only": 17206,
+        "masters": 9009,
+        "professional": 2271,
+        "doctorate": 1089
+      }
+    },
+    "Danbury city, Connecticut": {
+      "state": "CT",
+      "fips": "0918430",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 86086,
+        "voting_age": 69195,
+        "voting_age_pct": 80.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37701,
+          "pct": 43.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9682,
+          "pct": 11.25
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 100,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4124,
+          "pct": 4.79
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 20,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2089,
+          "pct": 2.43
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5583,
+          "pct": 6.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26787,
+          "pct": 31.12
+        }
+      ],
+      "economics": {
+        "median_household_income": 83422,
+        "poverty_count": 2474,
+        "poverty_pct": 2.87
+      },
+      "education": {
+        "bachelors_or_higher": 20848,
+        "bachelors_only": 11909,
+        "masters": 6701,
+        "professional": 1616,
+        "doctorate": 622
+      }
+    },
+    "New Britain city, Connecticut": {
+      "state": "CT",
+      "fips": "0950370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 73301,
+        "voting_age": 56986,
+        "voting_age_pct": 77.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 29141,
+          "pct": 39.76
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7805,
+          "pct": 10.65
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 47,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1650,
+          "pct": 2.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 33,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 188,
+          "pct": 0.26
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3082,
+          "pct": 4.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 31355,
+          "pct": 42.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 57036,
+        "poverty_count": 3783,
+        "poverty_pct": 5.16
+      },
+      "education": {
+        "bachelors_or_higher": 8864,
+        "bachelors_only": 5271,
+        "masters": 2662,
+        "professional": 483,
+        "doctorate": 448
+      }
+    },
+    "Bristol city, Connecticut": {
+      "state": "CT",
+      "fips": "0908420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 61129,
+        "voting_age": 49115,
+        "voting_age_pct": 80.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 39669,
+          "pct": 64.89
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4059,
+          "pct": 6.64
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 44,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2788,
+          "pct": 4.56
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 151,
+          "pct": 0.25
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3033,
+          "pct": 4.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11385,
+          "pct": 18.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 83458,
+        "poverty_count": 1075,
+        "poverty_pct": 1.76
+      },
+      "education": {
+        "bachelors_or_higher": 13246,
+        "bachelors_only": 8147,
+        "masters": 4156,
+        "professional": 755,
+        "doctorate": 188
+      }
+    },
+    "Meriden city, Connecticut": {
+      "state": "CT",
+      "fips": "0946450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 60418,
+        "voting_age": 47369,
+        "voting_age_pct": 78.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 29710,
+          "pct": 49.17
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4463,
+          "pct": 7.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 104,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1421,
+          "pct": 2.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 135,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1808,
+          "pct": 2.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 22777,
+          "pct": 37.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 68617,
+        "poverty_count": 2793,
+        "poverty_pct": 4.62
+      },
+      "education": {
+        "bachelors_or_higher": 9363,
+        "bachelors_only": 5717,
+        "masters": 2787,
+        "professional": 594,
+        "doctorate": 265
+      }
+    },
+    "West Haven city, Connecticut": {
+      "state": "CT",
+      "fips": "0982800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 55147,
+        "voting_age": 43284,
+        "voting_age_pct": 78.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25728,
+          "pct": 46.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10019,
+          "pct": 18.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 76,
+          "pct": 0.14
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2581,
+          "pct": 4.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 59,
+          "pct": 0.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 488,
+          "pct": 0.88
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1591,
+          "pct": 2.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 14605,
+          "pct": 26.48
+        }
+      ],
+      "economics": {
+        "median_household_income": 73566,
+        "poverty_count": 1548,
+        "poverty_pct": 2.81
+      },
+      "education": {
+        "bachelors_or_higher": 10399,
+        "bachelors_only": 6193,
+        "masters": 3097,
+        "professional": 629,
+        "doctorate": 480
+      }
+    },
+    "Middletown city, Connecticut": {
+      "state": "CT",
+      "fips": "0947290",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 47646,
+        "voting_age": 40660,
+        "voting_age_pct": 85.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30839,
+          "pct": 64.73
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6338,
+          "pct": 13.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2519,
+          "pct": 5.29
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 51,
+          "pct": 0.11
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2253,
+          "pct": 4.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5629,
+          "pct": 11.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 73979,
+        "poverty_count": 928,
+        "poverty_pct": 1.95
+      },
+      "education": {
+        "bachelors_or_higher": 13744,
+        "bachelors_only": 8058,
+        "masters": 4094,
+        "professional": 727,
+        "doctorate": 865
+      }
+    },
+    "Shelton city, Connecticut": {
+      "state": "CT",
+      "fips": "0968100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 41402,
+        "voting_age": 33594,
+        "voting_age_pct": 81.14
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 28713,
+          "pct": 69.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2414,
+          "pct": 5.83
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 54,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3540,
+          "pct": 8.55
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 597,
+          "pct": 1.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1177,
+          "pct": 2.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4907,
+          "pct": 11.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 114739,
+        "poverty_count": 395,
+        "poverty_pct": 0.95
+      },
+      "education": {
+        "bachelors_or_higher": 13458,
+        "bachelors_only": 7632,
+        "masters": 4610,
+        "professional": 800,
+        "doctorate": 416
+      }
+    },
+    "Norwich city, Connecticut": {
+      "state": "CT",
+      "fips": "0956200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39992,
+        "voting_age": 31553,
+        "voting_age_pct": 78.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 22375,
+          "pct": 55.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4026,
+          "pct": 10.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 118,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2568,
+          "pct": 6.42
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 412,
+          "pct": 1.03
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1920,
+          "pct": 4.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8573,
+          "pct": 21.44
+        }
+      ],
+      "economics": {
+        "median_household_income": 64185,
+        "poverty_count": 1709,
+        "poverty_pct": 4.27
+      },
+      "education": {
+        "bachelors_or_higher": 6348,
+        "bachelors_only": 3786,
+        "masters": 1983,
+        "professional": 402,
+        "doctorate": 177
+      }
+    },
+    "Torrington city, Connecticut": {
+      "state": "CT",
+      "fips": "0976500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 35481,
+        "voting_age": 29234,
+        "voting_age_pct": 82.39
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25767,
+          "pct": 72.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2070,
+          "pct": 5.83
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1053,
+          "pct": 2.97
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 210,
+          "pct": 0.59
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1544,
+          "pct": 4.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4834,
+          "pct": 13.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 69611,
+        "poverty_count": 1078,
+        "poverty_pct": 3.04
+      },
+      "education": {
+        "bachelors_or_higher": 6413,
+        "bachelors_only": 3963,
+        "masters": 2201,
+        "professional": 178,
+        "doctorate": 71
+      }
+    },
+    "Naugatuck borough, Connecticut": {
+      "state": "CT",
+      "fips": "0949880",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31634,
+        "voting_age": 25260,
+        "voting_age_pct": 79.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19179,
+          "pct": 60.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3590,
+          "pct": 11.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1393,
+          "pct": 4.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 115,
+          "pct": 0.36
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1916,
+          "pct": 6.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5441,
+          "pct": 17.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 92184,
+        "poverty_count": 519,
+        "poverty_pct": 1.64
+      },
+      "education": {
+        "bachelors_or_higher": 7228,
+        "bachelors_only": 3582,
+        "masters": 3184,
+        "professional": 267,
+        "doctorate": 195
+      }
+    },
+    "New London city, Connecticut": {
+      "state": "CT",
+      "fips": "0952280",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 27199,
+        "voting_age": 22396,
+        "voting_age_pct": 82.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12182,
+          "pct": 44.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3664,
+          "pct": 13.47
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 21,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 638,
+          "pct": 2.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 178,
+          "pct": 0.65
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1148,
+          "pct": 4.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9368,
+          "pct": 34.44
+        }
+      ],
+      "economics": {
+        "median_household_income": 60123,
+        "poverty_count": 1539,
+        "poverty_pct": 5.66
+      },
+      "education": {
+        "bachelors_or_higher": 5067,
+        "bachelors_only": 2886,
+        "masters": 1565,
+        "professional": 386,
+        "doctorate": 230
+      }
+    },
+    "Ansonia city, Connecticut": {
+      "state": "CT",
+      "fips": "0901150",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18951,
+        "voting_age": 15432,
+        "voting_age_pct": 81.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9581,
+          "pct": 50.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3129,
+          "pct": 16.51
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 579,
+          "pct": 3.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 95,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 799,
+          "pct": 4.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4755,
+          "pct": 25.09
+        }
+      ],
+      "economics": {
+        "median_household_income": 80585,
+        "poverty_count": 227,
+        "poverty_pct": 1.2
+      },
+      "education": {
+        "bachelors_or_higher": 3142,
+        "bachelors_only": 1988,
+        "masters": 935,
+        "professional": 111,
+        "doctorate": 108
+      }
+    },
+    "Derby city, Connecticut": {
+      "state": "CT",
+      "fips": "0919480",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12359,
+        "voting_age": 10376,
+        "voting_age_pct": 83.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7275,
+          "pct": 58.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1396,
+          "pct": 11.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 21,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 237,
+          "pct": 1.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 333,
+          "pct": 2.69
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 514,
+          "pct": 4.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2583,
+          "pct": 20.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 76263,
+        "poverty_count": 87,
+        "poverty_pct": 0.7
+      },
+      "education": {
+        "bachelors_or_higher": 3226,
+        "bachelors_only": 1792,
+        "masters": 1039,
+        "professional": 134,
+        "doctorate": 261
+      }
+    },
+    "Groton city, Connecticut": {
+      "state": "CT",
+      "fips": "0934180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9343,
+        "voting_age": 7892,
+        "voting_age_pct": 84.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5810,
+          "pct": 62.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 842,
+          "pct": 9.01
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 509,
+          "pct": 5.45
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 68,
+          "pct": 0.73
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 602,
+          "pct": 6.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1495,
+          "pct": 16
+        }
+      ],
+      "economics": {
+        "median_household_income": 69811,
+        "poverty_count": 576,
+        "poverty_pct": 6.17
+      },
+      "education": {
+        "bachelors_or_higher": 2363,
+        "bachelors_only": 1664,
+        "masters": 488,
+        "professional": 121,
+        "doctorate": 90
+      }
+    },
+    "Danielson borough, Connecticut": {
+      "state": "CT",
+      "fips": "0918780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4185,
+        "voting_age": 3365,
+        "voting_age_pct": 80.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3345,
+          "pct": 79.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 248,
+          "pct": 5.93
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.24
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 54,
+          "pct": 1.29
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 13,
+          "pct": 0.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 118,
+          "pct": 2.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 397,
+          "pct": 9.49
+        }
+      ],
+      "economics": {
+        "median_household_income": 71672,
+        "poverty_count": 336,
+        "poverty_pct": 8.03
+      },
+      "education": {
+        "bachelors_or_higher": 426,
+        "bachelors_only": 383,
+        "masters": 15,
+        "professional": 14,
+        "doctorate": 14
+      }
+    },
+    "Jewett City borough, Connecticut": {
+      "state": "CT",
+      "fips": "0939940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3412,
+        "voting_age": 2685,
+        "voting_age_pct": 78.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3068,
+          "pct": 89.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 20,
+          "pct": 0.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 36,
+          "pct": 1.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 93,
+          "pct": 2.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 195,
+          "pct": 5.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 55590,
+        "poverty_count": 25,
+        "poverty_pct": 0.73
+      },
+      "education": {
+        "bachelors_or_higher": 223,
+        "bachelors_only": 174,
+        "masters": 25,
+        "professional": 24,
+        "doctorate": 0
+      }
+    },
+    "Newtown borough, Connecticut": {
+      "state": "CT",
+      "fips": "0952910",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1968,
+        "voting_age": 1514,
+        "voting_age_pct": 76.93
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1716,
+          "pct": 87.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 28,
+          "pct": 1.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 33,
+          "pct": 1.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 15,
+          "pct": 0.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 176,
+          "pct": 8.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 161000,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 862,
+        "bachelors_only": 560,
+        "masters": 206,
+        "professional": 68,
+        "doctorate": 28
+      }
+    },
+    "Woodmont borough, Connecticut": {
+      "state": "CT",
+      "fips": "0988050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1591,
+        "voting_age": 1373,
+        "voting_age_pct": 86.3
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1427,
+          "pct": 89.69
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 18,
+          "pct": 1.13
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 48,
+          "pct": 3.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 92,
+          "pct": 5.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 89375,
+        "poverty_count": 2,
+        "poverty_pct": 0.13
+      },
+      "education": {
+        "bachelors_or_higher": 787,
+        "bachelors_only": 347,
+        "masters": 294,
+        "professional": 103,
+        "doctorate": 43
+      }
+    },
+    "Litchfield borough, Connecticut": {
+      "state": "CT",
+      "fips": "0943300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1274,
+        "voting_age": 1022,
+        "voting_age_pct": 80.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 977,
+          "pct": 76.69
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 24,
+          "pct": 1.88
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 103,
+          "pct": 8.08
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 45,
+          "pct": 3.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 82,
+          "pct": 6.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 43,
+          "pct": 3.38
+        }
+      ],
+      "economics": {
+        "median_household_income": 107024,
+        "poverty_count": 14,
+        "poverty_pct": 1.1
+      },
+      "education": {
+        "bachelors_or_higher": 613,
+        "bachelors_only": 233,
+        "masters": 315,
+        "professional": 36,
+        "doctorate": 29
+      }
+    }
+  }
+}

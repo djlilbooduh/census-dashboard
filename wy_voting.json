@@ -1,0 +1,375 @@
+{
+  "state": "Wyoming",
+  "source": "Wyoming Secretary of State (sos.wyo.gov), Wikipedia (2024 US presidential election in Wyoming)",
+  "generated": "2026-05-10",
+  "note": "Wyoming has same-day voter registration. Total ballots cast may exceed advance registration. Presidential results are certified official. Voter registration is as of Nov 1, 2024 (close of business before Election Day).",
+  "statewide_presidential_2024": {
+    "trump_r": { "votes": 192633, "pct": 71.60 },
+    "harris_d": { "votes": 69527, "pct": 25.84 },
+    "other": { "votes": 6888, "pct": 2.56 },
+    "total": 269048,
+    "margin": { "raw": 123106, "pct": 45.76 }
+  },
+  "statewide_registration": {
+    "november_2024": {
+      "constitution": 445,
+      "democratic": 29398,
+      "libertarian": 1349,
+      "no_labels": 535,
+      "republican": 198300,
+      "unaffiliated": 20621,
+      "other": 12,
+      "total": 250660
+    },
+    "october_2024": {
+      "constitution": 398,
+      "democratic": 26789,
+      "libertarian": 1199,
+      "no_labels": 312,
+      "republican": 189676,
+      "unaffiliated": 17904,
+      "other": 12,
+      "total": 236290
+    }
+  },
+  "counties": {
+    "Albany": {
+      "seat": "Laramie",
+      "major_city": "Laramie",
+      "presidential_2024": {
+        "trump_r": { "votes": 8930, "pct": 49.95 },
+        "harris_d": { "votes": 8371, "pct": 46.83 },
+        "other": { "votes": 576, "pct": 3.22 },
+        "total": 17877,
+        "margin": { "raw": 559, "pct": 3.12 }
+      },
+      "ballots_cast_general": 17993,
+      "ballots_cast_primary": { "republican": 4453, "democratic": 1616, "non_partisan": 248, "total": 6317 },
+      "registration_nov_2024": { "constitution": 27, "democratic": 4115, "libertarian": 157, "no_labels": 33, "republican": 9940, "unaffiliated": 2223, "other": 0, "total": 16495 },
+      "note": "Flipped from D (2020) to R (2024) — only county to flip"
+    },
+    "Big Horn": {
+      "seat": "Basin",
+      "major_city": "Lovell",
+      "presidential_2024": {
+        "trump_r": { "votes": 4867, "pct": 84.86 },
+        "harris_d": { "votes": 742, "pct": 12.94 },
+        "other": { "votes": 126, "pct": 2.20 },
+        "total": 5735,
+        "margin": { "raw": 4125, "pct": 71.92 }
+      },
+      "ballots_cast_general": 5788,
+      "ballots_cast_primary": { "republican": 2489, "democratic": 105, "non_partisan": 50, "total": 2644 },
+      "registration_nov_2024": { "constitution": 14, "democratic": 260, "libertarian": 25, "no_labels": 7, "republican": 4662, "unaffiliated": 257, "other": 0, "total": 5225 }
+    },
+    "Campbell": {
+      "seat": "Gillette",
+      "major_city": "Gillette",
+      "presidential_2024": {
+        "trump_r": { "votes": 16006, "pct": 87.26 },
+        "harris_d": { "votes": 2004, "pct": 10.93 },
+        "other": { "votes": 332, "pct": 1.81 },
+        "total": 18342,
+        "margin": { "raw": 14002, "pct": 76.33 }
+      },
+      "ballots_cast_general": 18450,
+      "ballots_cast_primary": { "republican": 7190, "democratic": 183, "non_partisan": 105, "total": 7478 },
+      "registration_nov_2024": { "constitution": 37, "democratic": 634, "libertarian": 92, "no_labels": 14, "republican": 14900, "unaffiliated": 835, "other": 0, "total": 16512 }
+    },
+    "Carbon": {
+      "seat": "Rawlins",
+      "major_city": "Rawlins",
+      "presidential_2024": {
+        "trump_r": { "votes": 4952, "pct": 77.53 },
+        "harris_d": { "votes": 1274, "pct": 19.95 },
+        "other": { "votes": 161, "pct": 2.52 },
+        "total": 6387,
+        "margin": { "raw": 3678, "pct": 57.58 }
+      },
+      "ballots_cast_general": 6446,
+      "ballots_cast_primary": { "republican": 2589, "democratic": 333, "non_partisan": 134, "total": 3056 },
+      "registration_nov_2024": { "constitution": 19, "democratic": 687, "libertarian": 48, "no_labels": 21, "republican": 4692, "unaffiliated": 513, "other": 0, "total": 5980 }
+    },
+    "Converse": {
+      "seat": "Douglas",
+      "major_city": "Douglas",
+      "presidential_2024": {
+        "trump_r": { "votes": 5756, "pct": 85.41 },
+        "harris_d": { "votes": 845, "pct": 12.54 },
+        "other": { "votes": 138, "pct": 2.05 },
+        "total": 6739,
+        "margin": { "raw": 4911, "pct": 72.87 }
+      },
+      "ballots_cast_general": 6780,
+      "ballots_cast_primary": { "republican": 3451, "democratic": 108, "non_partisan": 38, "total": 3597 },
+      "registration_nov_2024": { "constitution": 14, "democratic": 278, "libertarian": 19, "no_labels": 12, "republican": 5656, "unaffiliated": 297, "other": 0, "total": 6276 }
+    },
+    "Crook": {
+      "seat": "Sundance",
+      "major_city": "Sundance",
+      "presidential_2024": {
+        "trump_r": { "votes": 3805, "pct": 87.59 },
+        "harris_d": { "votes": 443, "pct": 10.20 },
+        "other": { "votes": 96, "pct": 2.21 },
+        "total": 4344,
+        "margin": { "raw": 3362, "pct": 77.39 }
+      },
+      "ballots_cast_general": 4368,
+      "ballots_cast_primary": { "republican": 1833, "democratic": 49, "non_partisan": 9, "total": 1891 },
+      "registration_nov_2024": { "constitution": 11, "democratic": 153, "libertarian": 13, "no_labels": 10, "republican": 3764, "unaffiliated": 208, "other": 0, "total": 4159 }
+    },
+    "Fremont": {
+      "seat": "Lander",
+      "major_city": "Riverton",
+      "presidential_2024": {
+        "trump_r": { "votes": 11552, "pct": 66.94 },
+        "harris_d": { "votes": 5179, "pct": 30.01 },
+        "other": { "votes": 525, "pct": 3.05 },
+        "total": 17256,
+        "margin": { "raw": 6373, "pct": 36.93 }
+      },
+      "ballots_cast_general": 17396,
+      "ballots_cast_primary": { "republican": 8185, "democratic": 902, "non_partisan": 197, "total": 9284 },
+      "registration_nov_2024": { "constitution": 24, "democratic": 2129, "libertarian": 85, "no_labels": 38, "republican": 12923, "unaffiliated": 1174, "other": 0, "total": 16373 }
+    },
+    "Goshen": {
+      "seat": "Torrington",
+      "major_city": "Torrington",
+      "presidential_2024": {
+        "trump_r": { "votes": 4893, "pct": 79.25 },
+        "harris_d": { "votes": 1156, "pct": 18.72 },
+        "other": { "votes": 125, "pct": 2.03 },
+        "total": 6174,
+        "margin": { "raw": 3737, "pct": 60.53 }
+      },
+      "ballots_cast_general": 6214,
+      "ballots_cast_primary": { "republican": 3236, "democratic": 164, "non_partisan": 27, "total": 3427 },
+      "registration_nov_2024": { "constitution": 11, "democratic": 491, "libertarian": 22, "no_labels": 5, "republican": 5096, "unaffiliated": 360, "other": 0, "total": 5985 }
+    },
+    "Hot Springs": {
+      "seat": "Thermopolis",
+      "major_city": "Thermopolis",
+      "presidential_2024": {
+        "trump_r": { "votes": 2082, "pct": 79.47 },
+        "harris_d": { "votes": 488, "pct": 18.63 },
+        "other": { "votes": 50, "pct": 1.90 },
+        "total": 2620,
+        "margin": { "raw": 1594, "pct": 60.84 }
+      },
+      "ballots_cast_general": 2643,
+      "ballots_cast_primary": { "republican": 1593, "democratic": 105, "non_partisan": 50, "total": 1748 },
+      "registration_nov_2024": { "constitution": 6, "democratic": 202, "libertarian": 10, "no_labels": 7, "republican": 2242, "unaffiliated": 174, "other": 0, "total": 2641 }
+    },
+    "Johnson": {
+      "seat": "Buffalo",
+      "major_city": "Buffalo",
+      "presidential_2024": {
+        "trump_r": { "votes": 3936, "pct": 80.36 },
+        "harris_d": { "votes": 847, "pct": 17.29 },
+        "other": { "votes": 115, "pct": 2.35 },
+        "total": 4898,
+        "margin": { "raw": 3089, "pct": 63.07 }
+      },
+      "ballots_cast_general": 4955,
+      "ballots_cast_primary": { "republican": 3116, "democratic": 80, "non_partisan": 26, "total": 3222 },
+      "registration_nov_2024": { "constitution": 13, "democratic": 218, "libertarian": 15, "no_labels": 17, "republican": 4498, "unaffiliated": 285, "other": 0, "total": 5046 }
+    },
+    "Laramie": {
+      "seat": "Cheyenne",
+      "major_city": "Cheyenne",
+      "presidential_2024": {
+        "trump_r": { "votes": 28063, "pct": 64.72 },
+        "harris_d": { "votes": 14153, "pct": 32.64 },
+        "other": { "votes": 1146, "pct": 2.64 },
+        "total": 43362,
+        "margin": { "raw": 13910, "pct": 32.08 }
+      },
+      "ballots_cast_general": 43607,
+      "ballots_cast_primary": { "republican": 15625, "democratic": 2454, "non_partisan": 475, "total": 18554 },
+      "registration_nov_2024": { "constitution": 58, "democratic": 6096, "libertarian": 190, "no_labels": 33, "republican": 29115, "unaffiliated": 4182, "other": 6, "total": 39680 }
+    },
+    "Lincoln": {
+      "seat": "Kemmerer",
+      "major_city": "Kemmerer",
+      "presidential_2024": {
+        "trump_r": { "votes": 8957, "pct": 82.63 },
+        "harris_d": { "votes": 1623, "pct": 14.97 },
+        "other": { "votes": 260, "pct": 2.40 },
+        "total": 10840,
+        "margin": { "raw": 7334, "pct": 67.66 }
+      },
+      "ballots_cast_general": 10940,
+      "ballots_cast_primary": { "republican": 4492, "democratic": 154, "non_partisan": 52, "total": 4698 },
+      "registration_nov_2024": { "constitution": 22, "democratic": 521, "libertarian": 75, "no_labels": 37, "republican": 8489, "unaffiliated": 804, "other": 0, "total": 9948 }
+    },
+    "Natrona": {
+      "seat": "Casper",
+      "major_city": "Casper",
+      "presidential_2024": {
+        "trump_r": { "votes": 24671, "pct": 72.73 },
+        "harris_d": { "votes": 8337, "pct": 24.58 },
+        "other": { "votes": 913, "pct": 2.69 },
+        "total": 33921,
+        "margin": { "raw": 16334, "pct": 48.15 }
+      },
+      "ballots_cast_general": 34206,
+      "ballots_cast_primary": { "republican": 13513, "democratic": 1045, "non_partisan": 412, "total": 14970 },
+      "registration_nov_2024": { "constitution": 33, "democratic": 2838, "libertarian": 156, "no_labels": 52, "republican": 24123, "unaffiliated": 2239, "other": 0, "total": 29441 }
+    },
+    "Niobrara": {
+      "seat": "Lusk",
+      "major_city": "Lusk",
+      "presidential_2024": {
+        "trump_r": { "votes": 1108, "pct": 89.79 },
+        "harris_d": { "votes": 112, "pct": 9.08 },
+        "other": { "votes": 14, "pct": 1.13 },
+        "total": 1234,
+        "margin": { "raw": 996, "pct": 80.71 }
+      },
+      "ballots_cast_general": 1244,
+      "ballots_cast_primary": { "republican": 899, "democratic": 15, "non_partisan": 0, "total": 914 },
+      "registration_nov_2024": { "constitution": 3, "democratic": 37, "libertarian": 6, "no_labels": 4, "republican": 1200, "unaffiliated": 47, "other": 0, "total": 1297 }
+    },
+    "Park": {
+      "seat": "Cody",
+      "major_city": "Cody",
+      "presidential_2024": {
+        "trump_r": { "votes": 13084, "pct": 78.15 },
+        "harris_d": { "votes": 3259, "pct": 19.46 },
+        "other": { "votes": 400, "pct": 2.39 },
+        "total": 16743,
+        "margin": { "raw": 9825, "pct": 58.69 }
+      },
+      "ballots_cast_general": 16876,
+      "ballots_cast_primary": { "republican": 8536, "democratic": 318, "non_partisan": 118, "total": 8972 },
+      "registration_nov_2024": { "constitution": 24, "democratic": 972, "libertarian": 76, "no_labels": 42, "republican": 14251, "unaffiliated": 1140, "other": 0, "total": 16505 }
+    },
+    "Platte": {
+      "seat": "Wheatland",
+      "major_city": "Wheatland",
+      "presidential_2024": {
+        "trump_r": { "votes": 3874, "pct": 81.30 },
+        "harris_d": { "votes": 780, "pct": 16.37 },
+        "other": { "votes": 111, "pct": 2.33 },
+        "total": 4765,
+        "margin": { "raw": 3094, "pct": 64.93 }
+      },
+      "ballots_cast_general": 4805,
+      "ballots_cast_primary": { "republican": 2596, "democratic": 192, "non_partisan": 55, "total": 2843 },
+      "registration_nov_2024": { "constitution": 26, "democratic": 380, "libertarian": 28, "no_labels": 15, "republican": 3982, "unaffiliated": 333, "other": 0, "total": 4764 }
+    },
+    "Sheridan": {
+      "seat": "Sheridan",
+      "major_city": "Sheridan",
+      "presidential_2024": {
+        "trump_r": { "votes": 12041, "pct": 73.31 },
+        "harris_d": { "votes": 3920, "pct": 23.87 },
+        "other": { "votes": 464, "pct": 2.82 },
+        "total": 16425,
+        "margin": { "raw": 8121, "pct": 49.44 }
+      },
+      "ballots_cast_general": 16577,
+      "ballots_cast_primary": { "republican": 7233, "democratic": 622, "non_partisan": 76, "total": 7931 },
+      "registration_nov_2024": { "constitution": 22, "democratic": 1556, "libertarian": 79, "no_labels": 14, "republican": 12974, "unaffiliated": 1104, "other": 5, "total": 15754 }
+    },
+    "Sublette": {
+      "seat": "Pinedale",
+      "major_city": "Pinedale",
+      "presidential_2024": {
+        "trump_r": { "votes": 3905, "pct": 79.31 },
+        "harris_d": { "votes": 920, "pct": 18.68 },
+        "other": { "votes": 99, "pct": 2.01 },
+        "total": 4924,
+        "margin": { "raw": 2985, "pct": 60.63 }
+      },
+      "ballots_cast_general": 4972,
+      "ballots_cast_primary": { "republican": 2677, "democratic": 51, "non_partisan": 0, "total": 2728 },
+      "registration_nov_2024": { "constitution": 10, "democratic": 206, "libertarian": 18, "no_labels": 19, "republican": 4291, "unaffiliated": 276, "other": 1, "total": 4821 }
+    },
+    "Sweetwater": {
+      "seat": "Green River",
+      "major_city": "Rock Springs",
+      "presidential_2024": {
+        "trump_r": { "votes": 12541, "pct": 75.10 },
+        "harris_d": { "votes": 3731, "pct": 22.34 },
+        "other": { "votes": 426, "pct": 2.56 },
+        "total": 16698,
+        "margin": { "raw": 8810, "pct": 52.76 }
+      },
+      "ballots_cast_general": 16819,
+      "ballots_cast_primary": { "republican": 5440, "democratic": 925, "non_partisan": 132, "total": 6497 },
+      "registration_nov_2024": { "constitution": 29, "democratic": 2176, "libertarian": 105, "no_labels": 97, "republican": 10937, "unaffiliated": 969, "other": 0, "total": 14313 }
+    },
+    "Teton": {
+      "seat": "Jackson",
+      "major_city": "Jackson",
+      "presidential_2024": {
+        "trump_r": { "votes": 4134, "pct": 31.12 },
+        "harris_d": { "votes": 8748, "pct": 65.84 },
+        "other": { "votes": 404, "pct": 3.04 },
+        "total": 13286,
+        "margin": { "raw": -4614, "pct": -34.72 }
+      },
+      "ballots_cast_general": 13424,
+      "ballots_cast_primary": { "republican": 2178, "democratic": 1226, "non_partisan": 101, "total": 3505 },
+      "registration_nov_2024": { "constitution": 5, "democratic": 4403, "libertarian": 68, "no_labels": 7, "republican": 7244, "unaffiliated": 2266, "other": 0, "total": 13993 },
+      "note": "Only Wyoming county won by Harris. Gave Harris 65.84%, highest Dem share in any WY county."
+    },
+    "Uinta": {
+      "seat": "Evanston",
+      "major_city": "Evanston",
+      "presidential_2024": {
+        "trump_r": { "votes": 7282, "pct": 80.12 },
+        "harris_d": { "votes": 1561, "pct": 17.17 },
+        "other": { "votes": 246, "pct": 2.71 },
+        "total": 9089,
+        "margin": { "raw": 5721, "pct": 62.95 }
+      },
+      "ballots_cast_general": 9170,
+      "ballots_cast_primary": { "republican": 3738, "democratic": 266, "non_partisan": 107, "total": 4111 },
+      "registration_nov_2024": { "constitution": 21, "democratic": 702, "libertarian": 30, "no_labels": 24, "republican": 6967, "unaffiliated": 579, "other": 0, "total": 8323 }
+    },
+    "Washakie": {
+      "seat": "Worland",
+      "major_city": "Worland",
+      "presidential_2024": {
+        "trump_r": { "votes": 3125, "pct": 80.60 },
+        "harris_d": { "votes": 656, "pct": 16.92 },
+        "other": { "votes": 96, "pct": 2.48 },
+        "total": 3877,
+        "margin": { "raw": 2469, "pct": 63.68 }
+      },
+      "ballots_cast_general": 3917,
+      "ballots_cast_primary": { "republican": 2127, "democratic": 127, "non_partisan": 51, "total": 2305 },
+      "registration_nov_2024": { "constitution": 7, "democratic": 234, "libertarian": 16, "no_labels": 12, "republican": 3279, "unaffiliated": 209, "other": 0, "total": 3757 }
+    },
+    "Weston": {
+      "seat": "Newcastle",
+      "major_city": "Newcastle",
+      "presidential_2024": {
+        "trump_r": { "votes": 3069, "pct": 87.39 },
+        "harris_d": { "votes": 378, "pct": 10.76 },
+        "other": { "votes": 65, "pct": 1.85 },
+        "total": 3512,
+        "margin": { "raw": 2691, "pct": 76.63 }
+      },
+      "ballots_cast_general": 3533,
+      "ballots_cast_primary": { "republican": 1949, "democratic": 49, "non_partisan": 28, "total": 2026 },
+      "registration_nov_2024": { "constitution": 9, "democratic": 110, "libertarian": 16, "no_labels": 15, "republican": 3075, "unaffiliated": 147, "other": 0, "total": 3372 }
+    }
+  },
+  "validation_notes": {
+    "Laramie_Cheyenne": {
+      "presidential_total": 43362,
+      "ballots_cast": 43607,
+      "difference": 245,
+      "note": "Presidential undervote of 245 — normal (people who voted down-ballot only)"
+    },
+    "Natrona_Casper": {
+      "presidential_total": 33921,
+      "ballots_cast": 34206,
+      "difference": 285,
+      "note": "Presidential undervote of 285 — normal"
+    }
+  }
+}

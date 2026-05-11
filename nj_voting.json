@@ -1,0 +1,539 @@
+{
+  "state": "New Jersey",
+  "state_abbr": "NJ",
+  "electoral_votes": 14,
+  "generated": "2026-05-10",
+  "presidential": {
+    "election": "2024",
+    "election_date": "2024-11-05",
+    "source": "Wikipedia - 2024 United States presidential election in New Jersey",
+    "source_url": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_New_Jersey",
+    "statewide": {
+      "harris_dem": 2220713,
+      "harris_pct": 51.97,
+      "trump_rep": 1968215,
+      "trump_pct": 46.06,
+      "other": 83797,
+      "other_pct": 1.96,
+      "total_votes": 4272725,
+      "margin_raw": 252498,
+      "margin_pct": 5.91,
+      "winner": "Harris"
+    },
+    "by_county": {
+      "Atlantic": {
+        "harris": 61879,
+        "harris_pct": 47.69,
+        "trump": 65817,
+        "trump_pct": 50.72,
+        "other": 2063,
+        "other_pct": 1.59,
+        "total": 129759,
+        "winner": "Trump",
+        "margin_raw": -3938,
+        "margin_pct": -3.03,
+        "flipped_from_2020": true
+      },
+      "Bergen": {
+        "harris": 232660,
+        "harris_pct": 50.68,
+        "trump": 217096,
+        "trump_pct": 47.29,
+        "other": 9321,
+        "other_pct": 2.03,
+        "total": 459077,
+        "winner": "Harris",
+        "margin_raw": 15564,
+        "margin_pct": 3.39
+      },
+      "Burlington": {
+        "harris": 132275,
+        "harris_pct": 57.64,
+        "trump": 94116,
+        "trump_pct": 41.02,
+        "other": 3075,
+        "other_pct": 1.34,
+        "total": 229466,
+        "winner": "Harris",
+        "margin_raw": 38159,
+        "margin_pct": 16.63
+      },
+      "Camden": {
+        "harris": 155522,
+        "harris_pct": 62.98,
+        "trump": 87767,
+        "trump_pct": 35.54,
+        "other": 3665,
+        "other_pct": 1.48,
+        "total": 246954,
+        "winner": "Harris",
+        "margin_raw": 67755,
+        "margin_pct": 27.44
+      },
+      "Cape May": {
+        "harris": 21648,
+        "harris_pct": 39.67,
+        "trump": 32151,
+        "trump_pct": 58.92,
+        "other": 769,
+        "other_pct": 1.41,
+        "total": 54568,
+        "winner": "Trump",
+        "margin_raw": -10503,
+        "margin_pct": -19.25
+      },
+      "Cumberland": {
+        "harris": 26577,
+        "harris_pct": 47.56,
+        "trump": 28675,
+        "trump_pct": 51.31,
+        "other": 633,
+        "other_pct": 1.13,
+        "total": 55885,
+        "winner": "Trump",
+        "margin_raw": -2098,
+        "margin_pct": -3.75,
+        "flipped_from_2020": true
+      },
+      "Essex": {
+        "harris": 224596,
+        "harris_pct": 71.69,
+        "trump": 83908,
+        "trump_pct": 26.78,
+        "other": 4779,
+        "other_pct": 1.53,
+        "total": 313283,
+        "winner": "Harris",
+        "margin_raw": 140688,
+        "margin_pct": 44.91
+      },
+      "Gloucester": {
+        "harris": 78708,
+        "harris_pct": 47.81,
+        "trump": 83326,
+        "trump_pct": 50.61,
+        "other": 2601,
+        "other_pct": 1.58,
+        "total": 164635,
+        "winner": "Trump",
+        "margin_raw": -4618,
+        "margin_pct": -2.80,
+        "flipped_from_2020": true
+      },
+      "Hudson": {
+        "harris": 144765,
+        "harris_pct": 62.62,
+        "trump": 79913,
+        "trump_pct": 34.57,
+        "other": 6503,
+        "other_pct": 2.81,
+        "total": 231181,
+        "winner": "Harris",
+        "margin_raw": 64852,
+        "margin_pct": 28.05
+      },
+      "Hunterdon": {
+        "harris": 36995,
+        "harris_pct": 45.72,
+        "trump": 42391,
+        "trump_pct": 52.38,
+        "other": 1539,
+        "other_pct": 1.90,
+        "total": 80925,
+        "winner": "Trump",
+        "margin_raw": -5396,
+        "margin_pct": -6.67
+      },
+      "Mercer": {
+        "harris": 107558,
+        "harris_pct": 65.88,
+        "trump": 52274,
+        "trump_pct": 32.02,
+        "other": 3438,
+        "other_pct": 2.11,
+        "total": 163270,
+        "winner": "Harris",
+        "margin_raw": 55284,
+        "margin_pct": 33.86
+      },
+      "Middlesex": {
+        "harris": 191802,
+        "harris_pct": 52.52,
+        "trump": 162459,
+        "trump_pct": 44.49,
+        "other": 10926,
+        "other_pct": 2.99,
+        "total": 365187,
+        "winner": "Harris",
+        "margin_raw": 29343,
+        "margin_pct": 8.04
+      },
+      "Monmouth": {
+        "harris": 156382,
+        "harris_pct": 43.42,
+        "trump": 197409,
+        "trump_pct": 54.81,
+        "other": 6352,
+        "other_pct": 1.76,
+        "total": 360143,
+        "winner": "Trump",
+        "margin_raw": -41027,
+        "margin_pct": -11.39
+      },
+      "Morris": {
+        "harris": 135672,
+        "harris_pct": 47.66,
+        "trump": 143439,
+        "trump_pct": 50.39,
+        "other": 5555,
+        "other_pct": 1.95,
+        "total": 284666,
+        "winner": "Trump",
+        "margin_raw": -7767,
+        "margin_pct": -2.73,
+        "flipped_from_2020": true
+      },
+      "Ocean": {
+        "harris": 105789,
+        "harris_pct": 31.38,
+        "trump": 227232,
+        "trump_pct": 67.40,
+        "other": 4114,
+        "other_pct": 1.22,
+        "total": 337135,
+        "winner": "Trump",
+        "margin_raw": -121443,
+        "margin_pct": -36.02
+      },
+      "Passaic": {
+        "harris": 95156,
+        "harris_pct": 46.93,
+        "trump": 100954,
+        "trump_pct": 49.79,
+        "other": 6657,
+        "other_pct": 3.28,
+        "total": 202767,
+        "winner": "Trump",
+        "margin_raw": -5798,
+        "margin_pct": -2.86,
+        "flipped_from_2020": true
+      },
+      "Salem": {
+        "harris": 12275,
+        "harris_pct": 39.60,
+        "trump": 18229,
+        "trump_pct": 58.80,
+        "other": 497,
+        "other_pct": 1.60,
+        "total": 31001,
+        "winner": "Trump",
+        "margin_raw": -5954,
+        "margin_pct": -19.21
+      },
+      "Somerset": {
+        "harris": 98790,
+        "harris_pct": 55.68,
+        "trump": 74101,
+        "trump_pct": 41.77,
+        "other": 4521,
+        "other_pct": 2.55,
+        "total": 177412,
+        "winner": "Harris",
+        "margin_raw": 24689,
+        "margin_pct": 13.92
+      },
+      "Sussex": {
+        "harris": 31019,
+        "harris_pct": 36.65,
+        "trump": 52123,
+        "trump_pct": 61.59,
+        "other": 1487,
+        "other_pct": 1.76,
+        "total": 84629,
+        "winner": "Trump",
+        "margin_raw": -21104,
+        "margin_pct": -24.94
+      },
+      "Union": {
+        "harris": 147327,
+        "harris_pct": 61.23,
+        "trump": 89063,
+        "trump_pct": 37.01,
+        "other": 4242,
+        "other_pct": 1.76,
+        "total": 240632,
+        "winner": "Harris",
+        "margin_raw": 58264,
+        "margin_pct": 24.21
+      },
+      "Warren": {
+        "harris": 23318,
+        "harris_pct": 38.77,
+        "trump": 35772,
+        "trump_pct": 59.47,
+        "other": 1060,
+        "other_pct": 1.76,
+        "total": 60150,
+        "winner": "Trump",
+        "margin_raw": -12454,
+        "margin_pct": -20.70
+      }
+    }
+  },
+  "voter_registration": {
+    "as_of": "2024-11-01",
+    "source": "NJ Division of Elections - Statewide Voter Registration System (SVRS)",
+    "source_url": "https://www.nj.gov/state/elections/assets/pdf/svrs-reports/2024/2024-11-voter-registration-by-county.pdf",
+    "statewide": {
+      "democratic": 2534932,
+      "republican": 1628633,
+      "unaffiliated": 2485411,
+      "conservative": 12390,
+      "green": 11716,
+      "libertarian": 25094,
+      "natural_law": 5470,
+      "reform": 1488,
+      "socialist": 7749,
+      "other_minor": 14475,
+      "total_registered": 6727358
+    },
+    "turnout_2024": {
+      "total_votes_cast": 4272725,
+      "turnout_pct": 63.51,
+      "note": "Turnout computed as total votes / Nov 1 registered voters. Official state turnout reported as 64.67% (may use final registration count)"
+    },
+    "by_county": {
+      "Atlantic": {
+        "democratic": 69644,
+        "republican": 60503,
+        "unaffiliated": 75052,
+        "other": 2833,
+        "total": 208032
+      },
+      "Bergen": {
+        "democratic": 257038,
+        "republican": 161318,
+        "unaffiliated": 269365,
+        "other": 6585,
+        "total": 694306
+      },
+      "Burlington": {
+        "democratic": 143271,
+        "republican": 97496,
+        "unaffiliated": 127588,
+        "other": 4244,
+        "total": 372599
+      },
+      "Camden": {
+        "democratic": 182651,
+        "republican": 68902,
+        "unaffiliated": 139928,
+        "other": 5352,
+        "total": 396833
+      },
+      "Cape May": {
+        "democratic": 18499,
+        "republican": 33928,
+        "unaffiliated": 23762,
+        "other": 882,
+        "total": 77071
+      },
+      "Cumberland": {
+        "democratic": 31923,
+        "republican": 24886,
+        "unaffiliated": 39532,
+        "other": 1772,
+        "total": 98113
+      },
+      "Essex": {
+        "democratic": 302623,
+        "republican": 64787,
+        "unaffiliated": 222392,
+        "other": 5517,
+        "total": 595319
+      },
+      "Gloucester": {
+        "democratic": 83696,
+        "republican": 63728,
+        "unaffiliated": 75835,
+        "other": 2880,
+        "total": 226139
+      },
+      "Hudson": {
+        "democratic": 222219,
+        "republican": 50756,
+        "unaffiliated": 147637,
+        "other": 5683,
+        "total": 426295
+      },
+      "Hunterdon": {
+        "democratic": 31202,
+        "republican": 43957,
+        "unaffiliated": 33491,
+        "other": 928,
+        "total": 109578
+      },
+      "Mercer": {
+        "democratic": 120323,
+        "republican": 42960,
+        "unaffiliated": 104547,
+        "other": 3635,
+        "total": 271465
+      },
+      "Middlesex": {
+        "democratic": 243127,
+        "republican": 106989,
+        "unaffiliated": 236279,
+        "other": 7114,
+        "total": 593509
+      },
+      "Monmouth": {
+        "democratic": 141342,
+        "republican": 163064,
+        "unaffiliated": 200639,
+        "other": 5570,
+        "total": 510615
+      },
+      "Morris": {
+        "democratic": 119391,
+        "republican": 138728,
+        "unaffiliated": 139091,
+        "other": 3827,
+        "total": 401037
+      },
+      "Ocean": {
+        "democratic": 98765,
+        "republican": 193514,
+        "unaffiliated": 186372,
+        "other": 5784,
+        "total": 484435
+      },
+      "Passaic": {
+        "democratic": 132094,
+        "republican": 76560,
+        "unaffiliated": 128800,
+        "other": 4631,
+        "total": 342085
+      },
+      "Salem": {
+        "democratic": 14694,
+        "republican": 15960,
+        "unaffiliated": 18915,
+        "other": 811,
+        "total": 50380
+      },
+      "Somerset": {
+        "democratic": 92433,
+        "republican": 66056,
+        "unaffiliated": 102456,
+        "other": 2658,
+        "total": 263603
+      },
+      "Sussex": {
+        "democratic": 26884,
+        "republican": 51710,
+        "unaffiliated": 41423,
+        "other": 1796,
+        "total": 121813
+      },
+      "Union": {
+        "democratic": 179248,
+        "republican": 65729,
+        "unaffiliated": 144674,
+        "other": 4382,
+        "total": 394033
+      },
+      "Warren": {
+        "democratic": 23865,
+        "republican": 37102,
+        "unaffiliated": 27633,
+        "other": 1498,
+        "total": 90098
+      }
+    }
+  },
+  "validation": {
+    "description": "Validated key counties against census city data in nj_census.json",
+    "counties_validated": [
+      {
+        "county": "Essex",
+        "seat": "Newark",
+        "census_city_population": 307188,
+        "census_city_voting_age": 231771,
+        "county_registered_voters": 595319,
+        "county_total_votes_2024": 313283,
+        "county_turnout_of_registered_pct": 52.6,
+        "harris_votes": 224596,
+        "harris_pct": 71.69,
+        "trump_votes": 83908,
+        "trump_pct": 26.78,
+        "registration_breakdown": {
+          "democratic": 302623,
+          "democratic_pct": 50.83,
+          "republican": 64787,
+          "republican_pct": 10.88,
+          "unaffiliated": 222392,
+          "unaffiliated_pct": 37.36,
+          "other": 5517,
+          "other_pct": 0.93
+        },
+        "notes": "Heavily Democratic urban core (Newark). Largest Dem margin in NJ by percentage. Harris underperformed Dem registration (71.7% of votes vs 50.8% of registrants are Dem) — but note many unaffiliated voters likely voted Dem here."
+      },
+      {
+        "county": "Hudson",
+        "seat": "Jersey City",
+        "census_city_population": 289691,
+        "census_city_voting_age": 231790,
+        "county_registered_voters": 426295,
+        "county_total_votes_2024": 231181,
+        "county_turnout_of_registered_pct": 54.2,
+        "harris_votes": 144765,
+        "harris_pct": 62.62,
+        "trump_votes": 79913,
+        "trump_pct": 34.57,
+        "registration_breakdown": {
+          "democratic": 222219,
+          "democratic_pct": 52.13,
+          "republican": 50756,
+          "republican_pct": 11.91,
+          "unaffiliated": 147637,
+          "unaffiliated_pct": 34.63,
+          "other": 5683,
+          "other_pct": 1.33
+        },
+        "notes": "Strongly Democratic. Jersey City anchor. High 'other' vote share (2.81%) due to significant third-party/independent presence in diverse urban county."
+      },
+      {
+        "county": "Bergen",
+        "seat": "Hackensack",
+        "census_city_hackensack_population": 45768,
+        "county_registered_voters": 694306,
+        "county_total_votes_2024": 459077,
+        "county_turnout_of_registered_pct": 66.1,
+        "harris_votes": 232660,
+        "harris_pct": 50.68,
+        "trump_votes": 217096,
+        "trump_pct": 47.29,
+        "registration_breakdown": {
+          "democratic": 257038,
+          "democratic_pct": 37.02,
+          "republican": 161318,
+          "republican_pct": 23.23,
+          "unaffiliated": 269365,
+          "unaffiliated_pct": 38.80,
+          "other": 6585,
+          "other_pct": 0.95
+        },
+        "notes": "Most populous NJ county. Narrowest Dem win margin at just 3.39%. Competitive suburban county with large unaffiliated bloc. Harris won despite more unaffiliated+Rep registrants than Dem registrants. Key battleground county."
+      }
+    ],
+    "general_observations": [
+      "NJ remained Democratic but saw a significant rightward shift: Harris margin dropped from Biden's 15.94% in 2020 to 5.91%.",
+      "Five counties flipped from Biden 2020 to Trump 2024: Atlantic, Cumberland, Gloucester, Morris, Passaic.",
+      "Turnout fell sharply: ~4.27M votes in 2024 vs ~4.55M in 2020 (down ~280K, roughly 6%).",
+      "Harris received ~400K fewer votes than Biden in 2020; Trump gained ~100K from 2020.",
+      "County turnout rates vary widely: from ~50% in urban counties (Essex, Hudson) to ~70% in suburban/rural (Ocean, Cape May).",
+      "The 'unaffiliated' bloc is the largest or second-largest registration category in most counties, reflecting NJ's semi-closed primary system where unaffiliated voters can declare at the polls."
+    ]
+  }
+}

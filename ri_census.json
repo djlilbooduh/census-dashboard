@@ -1,0 +1,524 @@
+{
+  "cities": {
+    "Central Falls city, Rhode Island": {
+      "state": "RI",
+      "fips": "4414140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 22481,
+        "voting_age": 16428,
+        "voting_age_pct": 73.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3623,
+          "pct": 16.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1786,
+          "pct": 7.94
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 0.16
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 457,
+          "pct": 2.03
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 988,
+          "pct": 4.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 15582,
+          "pct": 69.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 45921,
+        "poverty_count": 4825,
+        "poverty_pct": 22.27
+      },
+      "education": {
+        "bachelors_or_higher": 1626,
+        "bachelors_only": 530,
+        "masters": 23,
+        "professional": 0,
+        "doctorate": 33
+      }
+    },
+    "Cranston city, Rhode Island": {
+      "state": "RI",
+      "fips": "4419180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 82632,
+        "voting_age": 65970,
+        "voting_age_pct": 79.84
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 55185,
+          "pct": 66.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4160,
+          "pct": 5.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 134,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5953,
+          "pct": 7.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 160,
+          "pct": 0.19
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 308,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2945,
+          "pct": 3.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 13787,
+          "pct": 16.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 87716,
+        "poverty_count": 6892,
+        "poverty_pct": 8.7
+      },
+      "education": {
+        "bachelors_or_higher": 21530,
+        "bachelors_only": 6183,
+        "masters": 2320,
+        "professional": 760,
+        "doctorate": 656
+      }
+    },
+    "East Providence city, Rhode Island": {
+      "state": "RI",
+      "fips": "4422960",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 46970,
+        "voting_age": 39042,
+        "voting_age_pct": 83.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 34943,
+          "pct": 74.39
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2532,
+          "pct": 5.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 120,
+          "pct": 0.26
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1245,
+          "pct": 2.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 17,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 916,
+          "pct": 1.95
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3020,
+          "pct": 6.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4177,
+          "pct": 8.89
+        }
+      ],
+      "economics": {
+        "median_household_income": 79660,
+        "poverty_count": 4981,
+        "poverty_pct": 10.76
+      },
+      "education": {
+        "bachelors_or_higher": 11676,
+        "bachelors_only": 3814,
+        "masters": 1302,
+        "professional": 358,
+        "doctorate": 243
+      }
+    },
+    "Newport city, Rhode Island": {
+      "state": "RI",
+      "fips": "4449960",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 25029,
+        "voting_age": 21363,
+        "voting_age_pct": 85.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 18417,
+          "pct": 73.58
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1780,
+          "pct": 7.11
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 133,
+          "pct": 0.53
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 742,
+          "pct": 2.96
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 175,
+          "pct": 0.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1140,
+          "pct": 4.55
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2642,
+          "pct": 10.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 83562,
+        "poverty_count": 3343,
+        "poverty_pct": 15.15
+      },
+      "education": {
+        "bachelors_or_higher": 9720,
+        "bachelors_only": 2893,
+        "masters": 1264,
+        "professional": 351,
+        "doctorate": 187
+      }
+    },
+    "Pawtucket city, Rhode Island": {
+      "state": "RI",
+      "fips": "4454640",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 75280,
+        "voting_age": 59359,
+        "voting_age_pct": 78.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 35903,
+          "pct": 47.69
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9499,
+          "pct": 12.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 161,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1001,
+          "pct": 1.33
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 103,
+          "pct": 0.14
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2333,
+          "pct": 3.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7795,
+          "pct": 10.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 18485,
+          "pct": 24.55
+        }
+      ],
+      "economics": {
+        "median_household_income": 67436,
+        "poverty_count": 10177,
+        "poverty_pct": 13.63
+      },
+      "education": {
+        "bachelors_or_higher": 12564,
+        "bachelors_only": 3642,
+        "masters": 1452,
+        "professional": 363,
+        "doctorate": 398
+      }
+    },
+    "Providence city, Rhode Island": {
+      "state": "RI",
+      "fips": "4459000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 190214,
+        "voting_age": 151742,
+        "voting_age_pct": 79.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 64661,
+          "pct": 33.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 21409,
+          "pct": 11.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 685,
+          "pct": 0.36
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11101,
+          "pct": 5.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 57,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1609,
+          "pct": 0.85
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6479,
+          "pct": 3.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 84213,
+          "pct": 44.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 66772,
+        "poverty_count": 35065,
+        "poverty_pct": 20.05
+      },
+      "education": {
+        "bachelors_or_higher": 41745,
+        "bachelors_only": 10326,
+        "masters": 4849,
+        "professional": 2816,
+        "doctorate": 2043
+      }
+    },
+    "Warwick city, Rhode Island": {
+      "state": "RI",
+      "fips": "4474300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 82871,
+        "voting_age": 68205,
+        "voting_age_pct": 82.3
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 70065,
+          "pct": 84.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2303,
+          "pct": 2.78
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2212,
+          "pct": 2.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 61,
+          "pct": 0.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 311,
+          "pct": 0.38
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3006,
+          "pct": 3.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4880,
+          "pct": 5.89
+        }
+      ],
+      "economics": {
+        "median_household_income": 87536,
+        "poverty_count": 5865,
+        "poverty_pct": 7.13
+      },
+      "education": {
+        "bachelors_or_higher": 20788,
+        "bachelors_only": 6202,
+        "masters": 2073,
+        "professional": 455,
+        "doctorate": 346
+      }
+    },
+    "Woonsocket city, Rhode Island": {
+      "state": "RI",
+      "fips": "4480780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 43074,
+        "voting_age": 33088,
+        "voting_age_pct": 76.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 23166,
+          "pct": 53.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2580,
+          "pct": 5.99
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 83,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2966,
+          "pct": 6.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 362,
+          "pct": 0.84
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2814,
+          "pct": 6.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11103,
+          "pct": 25.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 58614,
+        "poverty_count": 8341,
+        "poverty_pct": 19.69
+      },
+      "education": {
+        "bachelors_or_higher": 5581,
+        "bachelors_only": 1989,
+        "masters": 673,
+        "professional": 29,
+        "doctorate": 39
+      }
+    }
+  }
+}

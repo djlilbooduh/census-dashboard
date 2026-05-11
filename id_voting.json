@@ -1,0 +1,1269 @@
+{
+  "state": "Idaho",
+  "election": "2024 General",
+  "electoral_votes": 4,
+  "sources": {
+    "presidential_results": "Wikipedia: 2024 United States presidential election in Idaho (sourced from Idaho Secretary of State certified results). Other votes calculated as Total - Trump - Harris.",
+    "voter_registration": "archive.voteidaho.gov - Idaho Secretary of State 2024 General Election Turnout (certified results)"
+  },
+  "statewide_summary": {
+    "presidential": {
+      "trump": {
+        "votes": 605246,
+        "pct": 66.87
+      },
+      "harris": {
+        "votes": 274972,
+        "pct": 30.38
+      },
+      "other": {
+        "votes": 24839,
+        "pct": 2.74
+      },
+      "margin": {
+        "votes": 330274,
+        "pct": 36.49
+      },
+      "total_votes": 905057
+    },
+    "voter_registration": {
+      "registered_voters": 1178750,
+      "ballots_cast": 917469,
+      "turnout_pct": 77.83
+    }
+  },
+  "counties": [
+    {
+      "name": "Ada",
+      "presidential": {
+        "trump": {
+          "votes": 143759,
+          "pct": 53.36
+        },
+        "harris": {
+          "votes": 116116,
+          "pct": 43.1
+        },
+        "other": {
+          "votes": 7544,
+          "pct": 2.82
+        },
+        "margin": {
+          "votes": 27643,
+          "pct": 10.34
+        },
+        "total_votes": 267419
+      },
+      "voter_registration": {
+        "registered_voters": 346361,
+        "ballots_cast": 271186,
+        "turnout_pct": 78.3,
+        "election_day_registrations": 26345
+      }
+    },
+    {
+      "name": "Adams",
+      "presidential": {
+        "trump": {
+          "votes": 2037,
+          "pct": 75.98
+        },
+        "harris": {
+          "votes": 577,
+          "pct": 21.52
+        },
+        "other": {
+          "votes": 67,
+          "pct": 2.5
+        },
+        "margin": {
+          "votes": 1460,
+          "pct": 54.46
+        },
+        "total_votes": 2681
+      },
+      "voter_registration": {
+        "registered_voters": 3378,
+        "ballots_cast": 2724,
+        "turnout_pct": 80.64,
+        "election_day_registrations": 239
+      }
+    },
+    {
+      "name": "Bannock",
+      "presidential": {
+        "trump": {
+          "votes": 24329,
+          "pct": 60.86
+        },
+        "harris": {
+          "votes": 14306,
+          "pct": 35.79
+        },
+        "other": {
+          "votes": 1341,
+          "pct": 3.35
+        },
+        "margin": {
+          "votes": 10023,
+          "pct": 25.07
+        },
+        "total_votes": 39976
+      },
+      "voter_registration": {
+        "registered_voters": 52897,
+        "ballots_cast": 40565,
+        "turnout_pct": 76.69,
+        "election_day_registrations": 6401
+      }
+    },
+    {
+      "name": "Bear Lake",
+      "presidential": {
+        "trump": {
+          "votes": 2908,
+          "pct": 87.46
+        },
+        "harris": {
+          "votes": 346,
+          "pct": 10.41
+        },
+        "other": {
+          "votes": 71,
+          "pct": 2.14
+        },
+        "margin": {
+          "votes": 2562,
+          "pct": 77.05
+        },
+        "total_votes": 3325
+      },
+      "voter_registration": {
+        "registered_voters": 4167,
+        "ballots_cast": 3388,
+        "turnout_pct": 81.31,
+        "election_day_registrations": 458
+      }
+    },
+    {
+      "name": "Benewah",
+      "presidential": {
+        "trump": {
+          "votes": 4094,
+          "pct": 79.57
+        },
+        "harris": {
+          "votes": 935,
+          "pct": 18.17
+        },
+        "other": {
+          "votes": 116,
+          "pct": 2.25
+        },
+        "margin": {
+          "votes": 3159,
+          "pct": 61.4
+        },
+        "total_votes": 5145
+      },
+      "voter_registration": {
+        "registered_voters": 6769,
+        "ballots_cast": 5225,
+        "turnout_pct": 77.19,
+        "election_day_registrations": 477
+      }
+    },
+    {
+      "name": "Bingham",
+      "presidential": {
+        "trump": {
+          "votes": 16188,
+          "pct": 78.39
+        },
+        "harris": {
+          "votes": 3878,
+          "pct": 18.78
+        },
+        "other": {
+          "votes": 585,
+          "pct": 2.83
+        },
+        "margin": {
+          "votes": 12310,
+          "pct": 59.61
+        },
+        "total_votes": 20651
+      },
+      "voter_registration": {
+        "registered_voters": 26384,
+        "ballots_cast": 20886,
+        "turnout_pct": 79.16,
+        "election_day_registrations": 3166
+      }
+    },
+    {
+      "name": "Blaine",
+      "presidential": {
+        "trump": {
+          "votes": 4281,
+          "pct": 32.71
+        },
+        "harris": {
+          "votes": 8424,
+          "pct": 64.36
+        },
+        "other": {
+          "votes": 384,
+          "pct": 2.93
+        },
+        "margin": {
+          "votes": -4143,
+          "pct": -31.65
+        },
+        "total_votes": 13089
+      },
+      "voter_registration": {
+        "registered_voters": 17472,
+        "ballots_cast": 13275,
+        "turnout_pct": 75.98,
+        "election_day_registrations": 1617
+      }
+    },
+    {
+      "name": "Boise",
+      "presidential": {
+        "trump": {
+          "votes": 3727,
+          "pct": 75.91
+        },
+        "harris": {
+          "votes": 1065,
+          "pct": 21.69
+        },
+        "other": {
+          "votes": 118,
+          "pct": 2.4
+        },
+        "margin": {
+          "votes": 2662,
+          "pct": 54.22
+        },
+        "total_votes": 4910
+      },
+      "voter_registration": {
+        "registered_voters": 6511,
+        "ballots_cast": 4942,
+        "turnout_pct": 75.9,
+        "election_day_registrations": 383
+      }
+    },
+    {
+      "name": "Bonner",
+      "presidential": {
+        "trump": {
+          "votes": 21352,
+          "pct": 71.87
+        },
+        "harris": {
+          "votes": 7650,
+          "pct": 25.75
+        },
+        "other": {
+          "votes": 708,
+          "pct": 2.38
+        },
+        "margin": {
+          "votes": 13702,
+          "pct": 46.12
+        },
+        "total_votes": 29710
+      },
+      "voter_registration": {
+        "registered_voters": 37335,
+        "ballots_cast": 30115,
+        "turnout_pct": 80.66,
+        "election_day_registrations": 2788
+      }
+    },
+    {
+      "name": "Bonneville",
+      "presidential": {
+        "trump": {
+          "votes": 40053,
+          "pct": 70.97
+        },
+        "harris": {
+          "votes": 14458,
+          "pct": 25.62
+        },
+        "other": {
+          "votes": 1925,
+          "pct": 3.41
+        },
+        "margin": {
+          "votes": 25595,
+          "pct": 45.35
+        },
+        "total_votes": 56436
+      },
+      "voter_registration": {
+        "registered_voters": 73670,
+        "ballots_cast": 57243,
+        "turnout_pct": 77.7,
+        "election_day_registrations": 11081
+      }
+    },
+    {
+      "name": "Boundary",
+      "presidential": {
+        "trump": {
+          "votes": 5794,
+          "pct": 81.49
+        },
+        "harris": {
+          "votes": 1145,
+          "pct": 16.1
+        },
+        "other": {
+          "votes": 171,
+          "pct": 2.41
+        },
+        "margin": {
+          "votes": 4649,
+          "pct": 65.39
+        },
+        "total_votes": 7110
+      },
+      "voter_registration": {
+        "registered_voters": 8889,
+        "ballots_cast": 7260,
+        "turnout_pct": 81.67,
+        "election_day_registrations": 646
+      }
+    },
+    {
+      "name": "Butte",
+      "presidential": {
+        "trump": {
+          "votes": 1268,
+          "pct": 84.87
+        },
+        "harris": {
+          "votes": 185,
+          "pct": 12.38
+        },
+        "other": {
+          "votes": 41,
+          "pct": 2.74
+        },
+        "margin": {
+          "votes": 1083,
+          "pct": 72.49
+        },
+        "total_votes": 1494
+      },
+      "voter_registration": {
+        "registered_voters": 1755,
+        "ballots_cast": 1507,
+        "turnout_pct": 85.87,
+        "election_day_registrations": 187
+      }
+    },
+    {
+      "name": "Camas",
+      "presidential": {
+        "trump": {
+          "votes": 547,
+          "pct": 75.14
+        },
+        "harris": {
+          "votes": 153,
+          "pct": 21.02
+        },
+        "other": {
+          "votes": 28,
+          "pct": 3.85
+        },
+        "margin": {
+          "votes": 394,
+          "pct": 54.12
+        },
+        "total_votes": 728
+      },
+      "voter_registration": {
+        "registered_voters": 880,
+        "ballots_cast": 734,
+        "turnout_pct": 83.41,
+        "election_day_registrations": 63
+      }
+    },
+    {
+      "name": "Canyon",
+      "presidential": {
+        "trump": {
+          "votes": 72755,
+          "pct": 72.01
+        },
+        "harris": {
+          "votes": 25669,
+          "pct": 25.41
+        },
+        "other": {
+          "votes": 2606,
+          "pct": 2.58
+        },
+        "margin": {
+          "votes": 47086,
+          "pct": 46.61
+        },
+        "total_votes": 101030
+      },
+      "voter_registration": {
+        "registered_voters": 134650,
+        "ballots_cast": 102432,
+        "turnout_pct": 76.07,
+        "election_day_registrations": 14444
+      }
+    },
+    {
+      "name": "Caribou",
+      "presidential": {
+        "trump": {
+          "votes": 2906,
+          "pct": 84.09
+        },
+        "harris": {
+          "votes": 445,
+          "pct": 12.88
+        },
+        "other": {
+          "votes": 105,
+          "pct": 3.04
+        },
+        "margin": {
+          "votes": 2461,
+          "pct": 71.21
+        },
+        "total_votes": 3456
+      },
+      "voter_registration": {
+        "registered_voters": 4390,
+        "ballots_cast": 3519,
+        "turnout_pct": 80.16,
+        "election_day_registrations": 564
+      }
+    },
+    {
+      "name": "Cassia",
+      "presidential": {
+        "trump": {
+          "votes": 7959,
+          "pct": 83.27
+        },
+        "harris": {
+          "votes": 1359,
+          "pct": 14.22
+        },
+        "other": {
+          "votes": 240,
+          "pct": 2.51
+        },
+        "margin": {
+          "votes": 6600,
+          "pct": 69.05
+        },
+        "total_votes": 9558
+      },
+      "voter_registration": {
+        "registered_voters": 12021,
+        "ballots_cast": 9647,
+        "turnout_pct": 80.25,
+        "election_day_registrations": 1611
+      }
+    },
+    {
+      "name": "Clark",
+      "presidential": {
+        "trump": {
+          "votes": 280,
+          "pct": 84.08
+        },
+        "harris": {
+          "votes": 50,
+          "pct": 15.02
+        },
+        "other": {
+          "votes": 3,
+          "pct": 0.9
+        },
+        "margin": {
+          "votes": 230,
+          "pct": 69.07
+        },
+        "total_votes": 333
+      },
+      "voter_registration": {
+        "registered_voters": 438,
+        "ballots_cast": 339,
+        "turnout_pct": 77.4,
+        "election_day_registrations": 37
+      }
+    },
+    {
+      "name": "Clearwater",
+      "presidential": {
+        "trump": {
+          "votes": 3550,
+          "pct": 80.32
+        },
+        "harris": {
+          "votes": 774,
+          "pct": 17.51
+        },
+        "other": {
+          "votes": 96,
+          "pct": 2.17
+        },
+        "margin": {
+          "votes": 2776,
+          "pct": 62.81
+        },
+        "total_votes": 4420
+      },
+      "voter_registration": {
+        "registered_voters": 5531,
+        "ballots_cast": 4463,
+        "turnout_pct": 80.69,
+        "election_day_registrations": 409
+      }
+    },
+    {
+      "name": "Custer",
+      "presidential": {
+        "trump": {
+          "votes": 1998,
+          "pct": 75.4
+        },
+        "harris": {
+          "votes": 586,
+          "pct": 22.11
+        },
+        "other": {
+          "votes": 66,
+          "pct": 2.49
+        },
+        "margin": {
+          "votes": 1412,
+          "pct": 53.28
+        },
+        "total_votes": 2650
+      },
+      "voter_registration": {
+        "registered_voters": 3198,
+        "ballots_cast": 2680,
+        "turnout_pct": 83.8,
+        "election_day_registrations": 210
+      }
+    },
+    {
+      "name": "Elmore",
+      "presidential": {
+        "trump": {
+          "votes": 7791,
+          "pct": 73.0
+        },
+        "harris": {
+          "votes": 2611,
+          "pct": 24.47
+        },
+        "other": {
+          "votes": 270,
+          "pct": 2.53
+        },
+        "margin": {
+          "votes": 5180,
+          "pct": 48.54
+        },
+        "total_votes": 10672
+      },
+      "voter_registration": {
+        "registered_voters": 14718,
+        "ballots_cast": 10755,
+        "turnout_pct": 73.07,
+        "election_day_registrations": 1630
+      }
+    },
+    {
+      "name": "Franklin",
+      "presidential": {
+        "trump": {
+          "votes": 6279,
+          "pct": 87.4
+        },
+        "harris": {
+          "votes": 703,
+          "pct": 9.79
+        },
+        "other": {
+          "votes": 202,
+          "pct": 2.81
+        },
+        "margin": {
+          "votes": 5576,
+          "pct": 77.62
+        },
+        "total_votes": 7184
+      },
+      "voter_registration": {
+        "registered_voters": 8883,
+        "ballots_cast": 7298,
+        "turnout_pct": 82.16,
+        "election_day_registrations": 1043
+      }
+    },
+    {
+      "name": "Fremont",
+      "presidential": {
+        "trump": {
+          "votes": 5645,
+          "pct": 82.98
+        },
+        "harris": {
+          "votes": 954,
+          "pct": 14.02
+        },
+        "other": {
+          "votes": 204,
+          "pct": 3.0
+        },
+        "margin": {
+          "votes": 4691,
+          "pct": 68.95
+        },
+        "total_votes": 6803
+      },
+      "voter_registration": {
+        "registered_voters": 8715,
+        "ballots_cast": 6876,
+        "turnout_pct": 78.9,
+        "election_day_registrations": 1018
+      }
+    },
+    {
+      "name": "Gem",
+      "presidential": {
+        "trump": {
+          "votes": 8707,
+          "pct": 81.99
+        },
+        "harris": {
+          "votes": 1699,
+          "pct": 16.0
+        },
+        "other": {
+          "votes": 214,
+          "pct": 2.02
+        },
+        "margin": {
+          "votes": 7008,
+          "pct": 65.99
+        },
+        "total_votes": 10620
+      },
+      "voter_registration": {
+        "registered_voters": 13437,
+        "ballots_cast": 10729,
+        "turnout_pct": 79.85,
+        "election_day_registrations": 1400
+      }
+    },
+    {
+      "name": "Gooding",
+      "presidential": {
+        "trump": {
+          "votes": 4676,
+          "pct": 79.01
+        },
+        "harris": {
+          "votes": 1100,
+          "pct": 18.59
+        },
+        "other": {
+          "votes": 142,
+          "pct": 2.4
+        },
+        "margin": {
+          "votes": 3576,
+          "pct": 60.43
+        },
+        "total_votes": 5918
+      },
+      "voter_registration": {
+        "registered_voters": 7658,
+        "ballots_cast": 5976,
+        "turnout_pct": 78.04,
+        "election_day_registrations": 800
+      }
+    },
+    {
+      "name": "Idaho",
+      "presidential": {
+        "trump": {
+          "votes": 8148,
+          "pct": 82.58
+        },
+        "harris": {
+          "votes": 1460,
+          "pct": 14.8
+        },
+        "other": {
+          "votes": 259,
+          "pct": 2.62
+        },
+        "margin": {
+          "votes": 6688,
+          "pct": 67.78
+        },
+        "total_votes": 9867
+      },
+      "voter_registration": {
+        "registered_voters": 12006,
+        "ballots_cast": 9998,
+        "turnout_pct": 83.28,
+        "election_day_registrations": 348
+      }
+    },
+    {
+      "name": "Jefferson",
+      "presidential": {
+        "trump": {
+          "votes": 13481,
+          "pct": 85.21
+        },
+        "harris": {
+          "votes": 1891,
+          "pct": 11.95
+        },
+        "other": {
+          "votes": 448,
+          "pct": 2.83
+        },
+        "margin": {
+          "votes": 11590,
+          "pct": 73.26
+        },
+        "total_votes": 15820
+      },
+      "voter_registration": {
+        "registered_voters": 19080,
+        "ballots_cast": 16016,
+        "turnout_pct": 83.94,
+        "election_day_registrations": 2533
+      }
+    },
+    {
+      "name": "Jerome",
+      "presidential": {
+        "trump": {
+          "votes": 6012,
+          "pct": 75.66
+        },
+        "harris": {
+          "votes": 1742,
+          "pct": 21.92
+        },
+        "other": {
+          "votes": 192,
+          "pct": 2.42
+        },
+        "margin": {
+          "votes": 4270,
+          "pct": 53.74
+        },
+        "total_votes": 7946
+      },
+      "voter_registration": {
+        "registered_voters": 10576,
+        "ballots_cast": 8048,
+        "turnout_pct": 76.1,
+        "election_day_registrations": 1390
+      }
+    },
+    {
+      "name": "Kootenai",
+      "presidential": {
+        "trump": {
+          "votes": 72059,
+          "pct": 74.78
+        },
+        "harris": {
+          "votes": 22113,
+          "pct": 22.95
+        },
+        "other": {
+          "votes": 2193,
+          "pct": 2.28
+        },
+        "margin": {
+          "votes": 49946,
+          "pct": 51.83
+        },
+        "total_votes": 96365
+      },
+      "voter_registration": {
+        "registered_voters": 125242,
+        "ballots_cast": 97711,
+        "turnout_pct": 78.02,
+        "election_day_registrations": 12701
+      }
+    },
+    {
+      "name": "Latah",
+      "presidential": {
+        "trump": {
+          "votes": 10669,
+          "pct": 52.14
+        },
+        "harris": {
+          "votes": 9039,
+          "pct": 44.18
+        },
+        "other": {
+          "votes": 753,
+          "pct": 3.68
+        },
+        "margin": {
+          "votes": 1630,
+          "pct": 7.97
+        },
+        "total_votes": 20461
+      },
+      "voter_registration": {
+        "registered_voters": 27732,
+        "ballots_cast": 20832,
+        "turnout_pct": 75.12,
+        "election_day_registrations": 3565
+      }
+    },
+    {
+      "name": "Lemhi",
+      "presidential": {
+        "trump": {
+          "votes": 3716,
+          "pct": 76.24
+        },
+        "harris": {
+          "votes": 1038,
+          "pct": 21.3
+        },
+        "other": {
+          "votes": 120,
+          "pct": 2.46
+        },
+        "margin": {
+          "votes": 2678,
+          "pct": 54.94
+        },
+        "total_votes": 4874
+      },
+      "voter_registration": {
+        "registered_voters": 6198,
+        "ballots_cast": 4926,
+        "turnout_pct": 79.48,
+        "election_day_registrations": 348
+      }
+    },
+    {
+      "name": "Lewis",
+      "presidential": {
+        "trump": {
+          "votes": 1503,
+          "pct": 81.42
+        },
+        "harris": {
+          "votes": 305,
+          "pct": 16.52
+        },
+        "other": {
+          "votes": 38,
+          "pct": 2.06
+        },
+        "margin": {
+          "votes": 1198,
+          "pct": 64.9
+        },
+        "total_votes": 1846
+      },
+      "voter_registration": {
+        "registered_voters": 2507,
+        "ballots_cast": 1867,
+        "turnout_pct": 74.47,
+        "election_day_registrations": 201
+      }
+    },
+    {
+      "name": "Lincoln",
+      "presidential": {
+        "trump": {
+          "votes": 1466,
+          "pct": 76.47
+        },
+        "harris": {
+          "votes": 392,
+          "pct": 20.45
+        },
+        "other": {
+          "votes": 59,
+          "pct": 3.08
+        },
+        "margin": {
+          "votes": 1074,
+          "pct": 56.03
+        },
+        "total_votes": 1917
+      },
+      "voter_registration": {
+        "registered_voters": 2500,
+        "ballots_cast": 1939,
+        "turnout_pct": 77.56,
+        "election_day_registrations": 144
+      }
+    },
+    {
+      "name": "Madison",
+      "presidential": {
+        "trump": {
+          "votes": 13925,
+          "pct": 80.2
+        },
+        "harris": {
+          "votes": 2767,
+          "pct": 15.94
+        },
+        "other": {
+          "votes": 671,
+          "pct": 3.86
+        },
+        "margin": {
+          "votes": 11158,
+          "pct": 64.26
+        },
+        "total_votes": 17363
+      },
+      "voter_registration": {
+        "registered_voters": 25306,
+        "ballots_cast": 17676,
+        "turnout_pct": 69.85,
+        "election_day_registrations": 5197
+      }
+    },
+    {
+      "name": "Minidoka",
+      "presidential": {
+        "trump": {
+          "votes": 6401,
+          "pct": 80.54
+        },
+        "harris": {
+          "votes": 1373,
+          "pct": 17.27
+        },
+        "other": {
+          "votes": 174,
+          "pct": 2.19
+        },
+        "margin": {
+          "votes": 5028,
+          "pct": 63.26
+        },
+        "total_votes": 7948
+      },
+      "voter_registration": {
+        "registered_voters": 9995,
+        "ballots_cast": 8031,
+        "turnout_pct": 80.35,
+        "election_day_registrations": 1661
+      }
+    },
+    {
+      "name": "Nez Perce",
+      "presidential": {
+        "trump": {
+          "votes": 13707,
+          "pct": 68.08
+        },
+        "harris": {
+          "votes": 5928,
+          "pct": 29.44
+        },
+        "other": {
+          "votes": 500,
+          "pct": 2.48
+        },
+        "margin": {
+          "votes": 7779,
+          "pct": 38.63
+        },
+        "total_votes": 20135
+      },
+      "voter_registration": {
+        "registered_voters": 26591,
+        "ballots_cast": 20383,
+        "turnout_pct": 76.65,
+        "election_day_registrations": 3307
+      }
+    },
+    {
+      "name": "Oneida",
+      "presidential": {
+        "trump": {
+          "votes": 2119,
+          "pct": 86.24
+        },
+        "harris": {
+          "votes": 253,
+          "pct": 10.3
+        },
+        "other": {
+          "votes": 85,
+          "pct": 3.46
+        },
+        "margin": {
+          "votes": 1866,
+          "pct": 75.95
+        },
+        "total_votes": 2457
+      },
+      "voter_registration": {
+        "registered_voters": 3231,
+        "ballots_cast": 2476,
+        "turnout_pct": 76.63,
+        "election_day_registrations": 308
+      }
+    },
+    {
+      "name": "Owyhee",
+      "presidential": {
+        "trump": {
+          "votes": 4101,
+          "pct": 82.85
+        },
+        "harris": {
+          "votes": 756,
+          "pct": 15.27
+        },
+        "other": {
+          "votes": 93,
+          "pct": 1.88
+        },
+        "margin": {
+          "votes": 3345,
+          "pct": 67.58
+        },
+        "total_votes": 4950
+      },
+      "voter_registration": {
+        "registered_voters": 6073,
+        "ballots_cast": 4978,
+        "turnout_pct": 81.97,
+        "election_day_registrations": 185
+      }
+    },
+    {
+      "name": "Payette",
+      "presidential": {
+        "trump": {
+          "votes": 9458,
+          "pct": 80.42
+        },
+        "harris": {
+          "votes": 2064,
+          "pct": 17.55
+        },
+        "other": {
+          "votes": 239,
+          "pct": 2.03
+        },
+        "margin": {
+          "votes": 7394,
+          "pct": 62.87
+        },
+        "total_votes": 11761
+      },
+      "voter_registration": {
+        "registered_voters": 14591,
+        "ballots_cast": 11894,
+        "turnout_pct": 81.52,
+        "election_day_registrations": 1658
+      }
+    },
+    {
+      "name": "Power",
+      "presidential": {
+        "trump": {
+          "votes": 2146,
+          "pct": 71.04
+        },
+        "harris": {
+          "votes": 785,
+          "pct": 25.98
+        },
+        "other": {
+          "votes": 90,
+          "pct": 2.98
+        },
+        "margin": {
+          "votes": 1361,
+          "pct": 45.05
+        },
+        "total_votes": 3021
+      },
+      "voter_registration": {
+        "registered_voters": 4066,
+        "ballots_cast": 3062,
+        "turnout_pct": 75.31,
+        "election_day_registrations": 427
+      }
+    },
+    {
+      "name": "Shoshone",
+      "presidential": {
+        "trump": {
+          "votes": 4500,
+          "pct": 73.39
+        },
+        "harris": {
+          "votes": 1472,
+          "pct": 24.01
+        },
+        "other": {
+          "votes": 160,
+          "pct": 2.61
+        },
+        "margin": {
+          "votes": 3028,
+          "pct": 49.38
+        },
+        "total_votes": 6132
+      },
+      "voter_registration": {
+        "registered_voters": 8199,
+        "ballots_cast": 6214,
+        "turnout_pct": 75.79,
+        "election_day_registrations": 835
+      }
+    },
+    {
+      "name": "Teton",
+      "presidential": {
+        "trump": {
+          "votes": 3005,
+          "pct": 44.86
+        },
+        "harris": {
+          "votes": 3463,
+          "pct": 51.7
+        },
+        "other": {
+          "votes": 230,
+          "pct": 3.43
+        },
+        "margin": {
+          "votes": -458,
+          "pct": -6.84
+        },
+        "total_votes": 6698
+      },
+      "voter_registration": {
+        "registered_voters": 8698,
+        "ballots_cast": 6793,
+        "turnout_pct": 78.1,
+        "election_day_registrations": 951
+      }
+    },
+    {
+      "name": "Twin Falls",
+      "presidential": {
+        "trump": {
+          "votes": 27304,
+          "pct": 73.04
+        },
+        "harris": {
+          "votes": 9064,
+          "pct": 24.25
+        },
+        "other": {
+          "votes": 1015,
+          "pct": 2.72
+        },
+        "margin": {
+          "votes": 18240,
+          "pct": 48.79
+        },
+        "total_votes": 37383
+      },
+      "voter_registration": {
+        "registered_voters": 49842,
+        "ballots_cast": 37888,
+        "turnout_pct": 76.02,
+        "election_day_registrations": 6911
+      }
+    },
+    {
+      "name": "Valley",
+      "presidential": {
+        "trump": {
+          "votes": 4214,
+          "pct": 58.2
+        },
+        "harris": {
+          "votes": 2869,
+          "pct": 39.63
+        },
+        "other": {
+          "votes": 157,
+          "pct": 2.17
+        },
+        "margin": {
+          "votes": 1345,
+          "pct": 18.58
+        },
+        "total_votes": 7240
+      },
+      "voter_registration": {
+        "registered_voters": 9197,
+        "ballots_cast": 7356,
+        "turnout_pct": 79.98,
+        "election_day_registrations": 604
+      }
+    },
+    {
+      "name": "Washington",
+      "presidential": {
+        "trump": {
+          "votes": 4429,
+          "pct": 79.73
+        },
+        "harris": {
+          "votes": 1010,
+          "pct": 18.18
+        },
+        "other": {
+          "votes": 116,
+          "pct": 2.09
+        },
+        "margin": {
+          "votes": 3419,
+          "pct": 61.55
+        },
+        "total_votes": 5555
+      },
+      "voter_registration": {
+        "registered_voters": 7013,
+        "ballots_cast": 5617,
+        "turnout_pct": 80.09,
+        "election_day_registrations": 724
+      }
+    }
+  ]
+}

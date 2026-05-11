@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📊 US Criminal Activity — Census & Voting Dashboard</title>
+<style>
+:root{--bg:#0a0a10;--sf:#141420;--bd:#1e1e3a;--tx:#e0e0f0;--mu:#8888aa;--ac:#4fc3f7;--sc:#ff5252;--cf:#ffab40;--uc:#66bb6a;--pl:#ce93d8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,'Segoe UI',system-ui,sans-serif;line-height:1.6}
+header{background:linear-gradient(135deg,#0d1b2a,#1b2838,#0d1b2a);border-bottom:1px solid #1a1a3a;padding:2rem 2rem;text-align:center}
+header h1{font-size:1.8rem;color:var(--ac);margin-bottom:.25rem}
+header .sub{color:var(--mu);font-size:.8rem}
+.tabs{display:flex;justify-content:center;gap:.25rem;max-width:1200px;margin:1rem auto 0;padding:0 2rem}
+.tab{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.5rem 1.5rem;border-radius:6px 6px 0 0;font-size:.8rem;cursor:pointer;transition:all .15s;border-bottom:none}
+.tab:hover{color:var(--tx)} .tab.active{background:var(--ac);color:#000;border-color:var(--ac);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;max-width:1200px;margin:1.5rem auto;padding:0 2rem}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:12px;padding:1.5rem;transition:border-color .2s,box-shadow .2s}
+.card:hover{border-color:var(--ac);box-shadow:0 0 20px rgba(79,195,247,.06)}
+.card h2{font-size:.85rem;color:var(--ac);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.5px}
+.big-num{font-size:2.2rem;font-weight:700;color:var(--ac);font-family:'SF Mono','Cascadia Code',monospace;margin-bottom:.25rem}
+.big-label{font-size:.7rem;color:var(--mu);text-transform:uppercase;letter-spacing:.5px}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:.4rem 0;font-size:.82rem}
+.stat-label{color:var(--mu)} .stat-val{font-weight:600;font-family:'SF Mono',monospace}
+.bar-bg{height:5px;background:rgba(255,255,255,.05);border-radius:3px;margin:.3rem 0 .6rem;overflow:hidden}
+.bar-fill{height:100%;border-radius:3px;transition:width 1s}
+/* Race bars */
+.race-section{max-width:1200px;margin:1.5rem auto;padding:0 2rem}
+.race-bar-row{display:flex;align-items:center;margin-bottom:.45rem;gap:.75rem}
+.race-label{width:200px;font-size:.78rem;text-align:right;flex-shrink:0;color:var(--tx)}
+.race-bar-track{flex:1;height:26px;background:rgba(255,255,255,.03);border-radius:5px;overflow:hidden}
+.race-bar-fill{height:100%;border-radius:5px;transition:width 1s ease-out;display:flex;align-items:center;padding-left:.75rem;font-size:.68rem;font-weight:600;white-space:nowrap}
+.race-pct{width:60px;font-size:.8rem;font-weight:600;font-family:'SF Mono',monospace;flex-shrink:0}
+.race-count{width:80px;font-size:.7rem;color:var(--mu);flex-shrink:0;text-align:right}
+/* Voting table */
+.vote-table{max-width:1200px;margin:1.5rem auto;padding:0 2rem}
+.vote-table table{width:100%;border-collapse:collapse;font-size:.78rem}
+.vote-table th{color:var(--mu);text-transform:uppercase;font-size:.65rem;letter-spacing:.5px;padding:.6rem .8rem;text-align:center;border-bottom:1px solid var(--bd)}
+.vote-table td{padding:.45rem .6rem;text-align:center;border-bottom:1px solid rgba(255,255,255,.04);font-size:.75rem}
+.vote-table .race-col{text-align:left;color:var(--tx);font-weight:500}
+.vote-table .dem{color:#4fc3f7} .vote-table .gop{color:#ff5252} .vote-table .other{color:var(--mu)}
+.vote-table .highlight-row{background:rgba(79,195,247,.04)}
+.year-selector{display:flex;justify-content:center;gap:.5rem;margin-bottom:1rem}
+.year-btn{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.35rem 1.2rem;border-radius:5px;font-size:.78rem;cursor:pointer;transition:all .15s}
+.year-btn:hover{color:var(--tx)} .year-btn.active{background:var(--ac);color:#000;border-color:var(--ac);font-weight:600}
+/* City search dropdown */
+.city-search{position:relative}
+.city-search input{width:100%;background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:.5rem 1rem;border-radius:6px;font-size:.82rem;outline:none}
+.city-search input:focus{border-color:var(--ac)}
+.city-search input::placeholder{color:var(--mu)}
+.city-dropdown{display:none;position:absolute;top:100%;left:0;right:0;max-height:260px;overflow-y:auto;background:#12121e;border:1px solid var(--bd);border-top:none;border-radius:0 0 8px 8px;z-index:100}
+.city-dropdown.show{display:block}
+.city-dropdown .item{padding:.45rem .9rem;font-size:.78rem;cursor:pointer;transition:background .1s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.city-dropdown .item:hover,.city-dropdown .item.active{background:rgba(79,195,247,.12);color:var(--ac)}
+.city-dropdown .no-results,.city-dropdown .loading{padding:.5rem .9rem;font-size:.75rem;color:var(--mu);text-align:center}
+.export-btn{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.4rem .75rem;border-radius:5px;font-size:.72rem;cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
+.export-btn:hover{color:var(--ac);border-color:var(--ac);background:rgba(79,195,247,.08)}
+.map-back-btn{display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:var(--sf);border:1px solid var(--bd);color:var(--ac);border-radius:6px;font-size:1rem;text-decoration:none;cursor:pointer;transition:all .15s;flex-shrink:0}
+.map-back-btn:hover{border-color:var(--ac);background:rgba(79,195,247,.12)}
+footer{text-align:center;color:var(--mu);padding:2rem;font-size:.7rem;border-top:1px solid var(--bd);margin-top:2rem}
+@media(max-width:768px){.race-bar-row{flex-wrap:wrap}.race-label{width:100%;text-align:left;margin-bottom:.1rem}.grid{grid-template-columns:1fr!important;padding:0 1rem}.tabs{padding:0 .5rem;gap:.15rem}.tab{padding:.4rem .8rem;font-size:.72rem}.city-search{padding:0 .75rem}.map-back-btn{width:32px;height:32px;font-size:.9rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📊 US Criminal Activity — Census & Voting Dashboard</h1>
+  <div class="sub">US Census ACS 2023 · National Exit Polls 2016–2024</div>
+  <div class="tabs">
+    <div class="tab active" onclick="showTab('census')">🏙️ Census Demographics</div>
+    <div class="tab" onclick="showTab('crime')">🛡️ Crime & Safety</div>
+    <div class="tab" onclick="showTab('voting')">🗳️ Voting by Race (National)</div>
+  </div>
+  <div class="city-search" style="max-width:500px;margin:1rem auto 0;position:relative">
+    <div style="display:flex;gap:.5rem;align-items:center">
+      <a href="https://djlilbooduh.github.io/ufo-dashboard/map.html" class="map-back-btn" title="Back to Map">🗺️</a>
+      <input type="text" id="citySearch" placeholder="🔍 Search 467 CA cities…" autocomplete="off" style="flex:1"
+             onfocus="showCityDropdown()" oninput="filterCityDropdown()" onkeydown="handleCityKey(event)">
+      <button id="exportBtn" class="export-btn" onclick="exportCSV()" title="Download CSV for this city">📥 CSV</button>
+    </div>
+    <div class="city-dropdown" id="cityDropdown"></div>
+  </div>
+</header>
+
+<!-- CENSUS TAB -->
+<div id="tabCensus">
+  <div class="grid" id="popCards"></div>
+  <div class="race-section" id="raceSection"></div>
+  <div class="grid" style="grid-template-columns:1fr 1fr" id="detailGrid"></div>
+  <div id="sdVotingSection"></div>
+</div>
+
+<!-- VOTING TAB -->
+<div id="tabVoting" style="display:none">
+  <div class="vote-table" id="votingTable"></div>
+</div>
+
+<!-- CRIME TAB -->
+<div id="tabCrime" style="display:none">
+  <div id="crimeContent">
+    <div class="card" style="max-width:800px;margin:2rem auto;text-align:center;padding:3rem">
+      <p style="color:var(--ac);font-size:1.5rem">⏳</p>
+      <p style="color:var(--mu);margin-top:1rem">Select a crime data source to load</p>
+    </div>
+  </div>
+</div>
+
+<footer>Data: US Census Bureau · ACS 2023 | CNN/NEP National Exit Polls | Pew Research Center</footer>
+
+<script>
+// ══════════════ SAN DIEGO CENSUS DATA (embedded) ══════════════
+const DATA_URL = 'census_data.json';
+const COUNTY_URL = 'county_voting.json';
+let allCities = null;
+let allCityKeys = [];
+let countyData = null;
+let cityCountyMap = {};
+let activeIdx = -1;
+let currentCity = 'San Diego city, California';
+let currentData = null;
+
+// ══════════════ SAN DIEGO CENSUS DATA (default) ══════════════
+const SD = {
+  state:"CA", year:"2023",
+  population: {total:1385061, voting_age:1125769, voting_age_pct:81.3},
+  economics: {median_household_income:104321, poverty_count:29040, poverty_pct:2.1},
+  education: {bachelors_or_higher:487109, bachelors_only:281352, masters:132824, professional:35379, doctorate:37554},
+  race: [
+    {group:"White (non-Hispanic)", count:573281, pct:41.4, color:"#4fc3f7"},
+    {group:"Hispanic/Latino", count:409493, pct:29.6, color:"#ffab40"},
+    {group:"Asian (non-Hispanic)", count:238921, pct:17.2, color:"#66bb6a"},
+    {group:"Black/African American", count:74890, pct:5.4, color:"#ff5252"},
+    {group:"Two or More Races", count:72136, pct:5.2, color:"#ce93d8"},
+    {group:"Other Race", count:8113, pct:0.6, color:"#8888aa"},
+    {group:"Native Hawaiian/PI", count:5862, pct:0.4, color:"#80cbc4"},
+    {group:"American Indian/AK", count:2365, pct:0.2, color:"#a1887f"}
+  ]
+};
+
+// ══════════════ NATIONAL VOTING DATA ══════════════
+const VOTE = {
+  2016: {
+    popular: "Clinton 48.2% · Trump 46.1% · Other 5.7%",
+    total_votes: "136.7 million",
+    turnout: "60.1% of voting-eligible population",
+    race_vote: [
+      {race:"White", share:71, dem:37, gop:58, other:5, turnout:65.3},
+      {race:"Black", share:12, dem:88, gop:8, other:4, turnout:59.6},
+      {race:"Hispanic/Latino", share:11, dem:65, gop:29, other:6, turnout:47.6},
+      {race:"Asian", share:4, dem:65, gop:29, other:6, turnout:49.3},
+      {race:"Other", share:3, dem:56, gop:37, other:7, turnout:48.0}
+    ]
+  },
+  2020: {
+    popular: "Biden 51.3% · Trump 46.9% · Other 1.8%",
+    total_votes: "158.4 million",
+    turnout: "66.0% of voting-eligible population (highest since 1900)",
+    race_vote: [
+      {race:"White", share:67, dem:41, gop:58, other:1, turnout:70.9},
+      {race:"Black", share:13, dem:87, gop:12, other:1, turnout:62.6},
+      {race:"Hispanic/Latino", share:13, dem:65, gop:32, other:3, turnout:53.7},
+      {race:"Asian", share:4, dem:63, gop:31, other:6, turnout:59.5},
+      {race:"Other", share:4, dem:55, gop:41, other:4, turnout:55.0}
+    ]
+  },
+  2024: {
+    popular: "Trump 49.8% · Harris 48.3% · Other 1.9%",
+    total_votes: "155.2 million",
+    turnout: "63.7% of voting-eligible population",
+    race_vote: [
+      {race:"White", share:71, dem:39, gop:57, other:4, turnout:67.0},
+      {race:"Black", share:11, dem:85, gop:13, other:2, turnout:58.0},
+      {race:"Hispanic/Latino", share:12, dem:52, gop:46, other:2, turnout:50.0},
+      {race:"Asian", share:3, dem:54, gop:39, other:7, turnout:56.0},
+      {race:"Other", share:3, dem:50, gop:43, other:7, turnout:50.0}
+    ]
+  }
+};
+
+// ══════════════ SAN DIEGO COUNTY VOTING ══════════════
+const SD_VOTE = {
+  registered: {total:1920000, dem:39, gop:26, npp:28, other:7},
+  presidential: {
+    2024: {dem:"Harris", dem_pct:56.4, gop:"Trump", gop_pct:41.9, other_pct:1.7, turnout:78.5, total_votes:1504000},
+    2020: {dem:"Biden", dem_pct:60.2, gop:"Trump", gop_pct:37.5, other_pct:2.3, turnout:83.5, total_votes:1660000},
+    2016: {dem:"Clinton", dem_pct:56.3, gop:"Trump", gop_pct:36.1, other_pct:7.6, turnout:79.0, total_votes:1367000}
+  }
+};
+
+// ══════════════ RENDER ══════════════
+function fmt(n) { if (n == null) return '—'; return n.toLocaleString(); }
+
+function renderCensus() {
+  const d = currentData || SD;
+  // Population cards
+  const hasPop = d.population && d.population.total != null;
+  const hasEcon = d.economics && d.economics.median_household_income != null;
+  document.getElementById('popCards').innerHTML = `
+    <div class="card" style="text-align:center">
+      <div class="big-label">Total Population</div>
+      <div class="big-num">${hasPop ? fmt(d.population.total) : '—'}</div>
+      <div class="stat-sub">${cleanCityName(currentCity)} · ACS ${d.year}</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="big-label">Voting Age (18+)</div>
+      <div class="big-num">${hasPop && d.population.voting_age != null ? fmt(d.population.voting_age) : '—'}</div>
+      <div class="stat-sub">${hasPop && d.population.voting_age_pct != null ? d.population.voting_age_pct + '% of population' : ''}</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="big-label">Median Household Income</div>
+      <div class="big-num">${hasEcon ? '$' + fmt(d.economics.median_household_income) : '—'}</div>
+      <div class="stat-sub">${d.year} inflation-adjusted dollars</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="big-label">Poverty Rate</div>
+      <div class="big-num" style="color:var(--cf)">${hasEcon && d.economics.poverty_pct != null ? d.economics.poverty_pct + '%' : '—'}</div>
+      <div class="stat-sub">${hasEcon ? fmt(d.economics.poverty_count) + ' residents below poverty line' : ''}</div>
+    </div>`;
+
+  // Race bars
+  let raceHtml = '<div class="card"><h2>🧑 Race & Ethnicity — ' + cleanCityName(currentCity) + '</h2>';
+  d.race.forEach(r => {
+    raceHtml += `
+    <div class="race-bar-row">
+      <div class="race-label">${r.group}</div>
+      <div class="race-bar-track">
+        <div class="race-bar-fill" style="width:${r.pct}%;background:${r.color};color:${r.pct>10?'#fff':r.color}">${r.pct>=5?r.pct+'%':''}</div>
+      </div>
+      <div class="race-pct" style="color:${r.color}">${r.pct}%</div>
+      <div class="race-count">${fmt(r.count)}</div>
+    </div>`;
+  });
+  raceHtml += '</div>';
+  document.getElementById('raceSection').innerHTML = raceHtml;
+
+  // Economics + Education
+  const hasEdu = d.education && d.education.bachelors_or_higher != null;
+  const eduTotal = hasEdu ? d.education.bachelors_or_higher : 0;
+  const eduPct = hasEdu && d.population.total ? (eduTotal / (d.population.total * 0.75) * 100).toFixed(1) : 0;
+  document.getElementById('detailGrid').innerHTML = `
+    <div class="card">
+      <h2>💰 Economics</h2>
+      <div class="stat-row"><span class="stat-label">Median Household Income</span><span class="stat-val" style="color:var(--ac)">${hasEcon ? '$' + fmt(d.economics.median_household_income) : '—'}</span></div>
+      <div class="stat-row" style="margin-top:.75rem"><span class="stat-label">Below Poverty Line</span><span class="stat-val" style="color:var(--cf)">${hasEcon && d.economics.poverty_pct != null ? d.economics.poverty_pct + '%' : '—'}</span></div>
+      <div class="bar-bg"><div class="bar-fill" style="width:${hasEcon ? d.economics.poverty_pct*5 : 0}%;background:var(--cf)"></div></div>
+      <div class="stat-row"><span class="stat-label">Residents in poverty</span><span class="stat-val">${hasEcon ? fmt(d.economics.poverty_count) : '—'}</span></div>
+    </div>
+    <div class="card">
+      <h2>🎓 Education (Age 25+)</h2>
+      <div class="stat-row"><span class="stat-label">Bachelor's or Higher</span><span class="stat-val" style="color:var(--ac)">${hasEdu ? fmt(eduTotal) : '—'}</span></div>
+      <div class="bar-bg"><div class="bar-fill" style="width:${Math.min(100,eduPct)}%;background:var(--ac)"></div></div>
+      <div class="stat-row"><span class="stat-label">Bachelor's Degree</span><span class="stat-val">${hasEdu ? fmt(d.education.bachelors_only) : '—'}</span></div>
+      <div class="stat-row"><span class="stat-label">Master's Degree</span><span class="stat-val">${hasEdu ? fmt(d.education.masters) : '—'}</span></div>
+      <div class="stat-row"><span class="stat-label">Professional Degree</span><span class="stat-val">${hasEdu ? fmt(d.education.professional) : '—'}</span></div>
+      <div class="stat-row"><span class="stat-label">Doctorate</span><span class="stat-val">${hasEdu ? fmt(d.education.doctorate) : '—'}</span></div>
+    </div>`;
+  
+  renderAllSDVoting('2024');
+}
+
+function renderVoting(year) {
+  currentNationalYear = year;
+  const d = VOTE[year];
+  if (!d) return;
+  
+  let html = `<div class="year-selector">`;
+  Object.keys(VOTE).forEach(y => {
+    html += `<div class="year-btn${y==year?' active':''}" onclick="renderVoting('${y}')">${y} Election</div>`;
+  });
+  html += `</div>`;
+
+  // Election overview cards
+  html += `<div class="grid" style="margin-top:0">
+    <div class="card" style="text-align:center">
+      <div class="big-label">Popular Vote</div>
+      <div class="big-num" style="font-size:1.1rem">${d.popular}</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="big-label">Total Votes Cast</div>
+      <div class="big-num">${d.total_votes}</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="big-label">Voter Turnout</div>
+      <div class="big-num">${d.turnout}</div>
+    </div>
+  </div>`;
+
+  // Race x Party Table
+  html += `<div class="card"><h2>🗳️ Vote by Race & Ethnicity — ${year}</h2>`;
+  html += `<table>
+    <thead><tr>
+      <th style="text-align:left">Race/Ethnicity</th>
+      <th>Share of<br>Electorate</th>
+      <th>Democratic</th>
+      <th>Republican</th>
+      <th>Margin</th>
+      <th>Other</th>
+      <th>Turnout<br>Rate</th>
+    </tr></thead><tbody>`;
+
+  d.race_vote.forEach((r, i) => {
+    const cls = i % 2 === 0 ? ' highlight-row' : '';
+    const margin = r.dem - r.gop;
+    const marginColor = margin > 0 ? 'var(--ac)' : 'var(--sc)';
+    const marginSign = margin > 0 ? 'D+' : 'R+';
+    html += `<tr class="${cls}">
+      <td class="race-col"><strong>${r.race}</strong></td>
+      <td>${r.share}%</td>
+      <td class="dem"><strong>${r.dem}%</strong></td>
+      <td class="gop"><strong>${r.gop}%</strong></td>
+      <td style="color:${marginColor};font-weight:600">${marginSign}${Math.abs(margin)}</td>
+      <td class="other">${r.other}%</td>
+      <td>${r.turnout}%</td>
+    </tr>`;
+  });
+
+  html += `</tbody></table>`;
+  html += `<div style="margin-top:1rem;padding:.75rem;background:rgba(255,171,64,.06);border-radius:8px;font-size:.72rem;color:var(--mu)">
+    📋 <strong>Sources:</strong> CNN / National Election Pool exit polls (Edison Research). Turnout rates from US Census Bureau CPS Voting Supplement. 
+    Margins of error: ±2-3 pts for large groups, ±4-6 pts for smaller groups.
+  </div></div>`;
+
+  // Trend callouts
+  html += `<div class="grid" style="grid-template-columns:1fr 1fr">`;
+  html += `<div class="card"><h2>📈 Key Trends</h2>`;
+  html += `<div style="font-size:.78rem;line-height:1.7;color:var(--tx)">`;
+  html += `<p><span style="color:var(--cf);font-weight:600">Hispanic/Latino Realignment:</span> Democratic margin collapsed from <span class="dem">D+36</span> in 2016 to just <span class="dem">D+6</span> in 2024 — the single biggest demographic shift across all three elections.</p>`;
+  html += `<p style="margin-top:.5rem"><span style="color:var(--ac);font-weight:600">Black Voters:</span> Most consistently Democratic group. 85%+ Democratic in all three elections, though Republican share doubled from 8% (2016) to 13% (2024).</p>`;
+  html += `<p style="margin-top:.5rem"><span style="color:var(--ac);font-weight:600">White Voters:</span> Reliably Republican but steady — GOP margin hovered around R+20 across all three cycles.</p>`;
+  html += `</div></div>`;
+
+  html += `<div class="card"><h2>📊 Turnout by Race</h2>`;
+  d.race_vote.forEach(r => {
+    html += `<div class="stat-row"><span class="stat-label">${r.race}</span><span class="stat-val">${r.turnout}%</span></div>`;
+    html += `<div class="bar-bg"><div class="bar-fill" style="width:${r.turnout}%;background:var(--ac)"></div></div>`;
+  });
+  html += `<div style="margin-top:.5rem;font-size:.65rem;color:var(--mu)">Census CPS: self-reported turnout among citizen voting-age population</div>`;
+  html += `</div></div>`;
+
+  // City comparison section
+  html += renderCityComparison(year);
+
+  document.getElementById('votingTable').innerHTML = html;
+}
+
+function getCountyForCity() {
+  if (countyData && countyData.city_county_map && countyData.city_county_map[currentCity]) {
+    const fips = countyData.city_county_map[currentCity];
+    if (countyData.counties && countyData.counties[fips]) {
+      return { fips: fips, data: countyData.counties[fips] };
+    }
+  }
+  return null;
+}
+
+function renderSDVoting(year) {
+  const county = getCountyForCity();
+  const countyName = county ? county.data.name : 'San Diego County';
+  
+  let presData, regData;
+  if (county && county.data.presidential && county.data.presidential[year]) {
+    presData = county.data.presidential[year];
+    regData = county.data.registration || SD_VOTE.registered;
+  } else {
+    // Fallback to embedded San Diego
+    presData = SD_VOTE.presidential[year];
+    regData = SD_VOTE.registered;
+  }
+  if (!presData) return '';
+  
+  let h = `<div class="card" style="margin:1.5rem auto;max-width:1200px"><h2>🗳️ ${countyName} Presidential Results</h2>`;
+  h += `<div style="display:flex;gap:.5rem;justify-content:center;margin-bottom:1rem">`;
+  const years = county && county.data.presidential ? Object.keys(county.data.presidential) : Object.keys(SD_VOTE.presidential);
+  years.forEach(yr => {
+    h += `<div class="year-btn${yr==year?' active':''}" onclick="renderAllSDVoting('${yr}')">${yr}</div>`;
+  });
+  h += `</div>`;
+
+  const margin = presData.dem_pct - presData.gop_pct;
+  const marginColor = margin > 0 ? 'var(--ac)' : 'var(--sc)';
+  const marginLabel = margin > 0 ? 'D+' : 'R+';
+
+  h += `<div style="margin-bottom:.75rem">
+    <div class="stat-row"><span class="stat-label">Democratic</span><span class="stat-val" style="color:var(--ac)">${presData.dem_pct}%</span></div>
+    <div class="bar-bg"><div class="bar-fill" style="width:${presData.dem_pct}%;background:var(--ac)"></div></div>
+    <div class="stat-row" style="margin-top:.5rem"><span class="stat-label">Republican</span><span class="stat-val" style="color:var(--sc)">${presData.gop_pct}%</span></div>
+    <div class="bar-bg"><div class="bar-fill" style="width:${presData.gop_pct}%;background:var(--sc)"></div></div>
+  </div>`;
+
+  h += `<div class="grid" style="grid-template-columns:repeat(3,1fr);margin:1rem 0;padding:0">
+    <div style="text-align:center;padding:.5rem">
+      <div class="big-label">Margin</div>
+      <div class="big-num" style="font-size:1.3rem;color:${marginColor}">${marginLabel}${Math.abs(margin).toFixed(1)}</div>
+    </div>
+    <div style="text-align:center;padding:.5rem">
+      <div class="big-label">Total Votes</div>
+      <div class="big-num" style="font-size:1.3rem">${presData.total_votes ? (presData.total_votes/1e6).toFixed(2)+'M' : '—'}</div>
+    </div>
+    <div style="text-align:center;padding:.5rem">
+      <div class="big-label">Voter Turnout</div>
+      <div class="big-num" style="font-size:1.3rem;color:var(--uc)">${presData.turnout ? presData.turnout+'%' : '—'}</div>
+    </div>
+  </div>
+
+  <div style="font-size:.72rem;color:var(--mu);margin-top:.5rem">
+    📋 <strong>Source:</strong> California Secretary of State, Statement of Vote.
+  </div></div>`;
+
+  // Voter Registration
+  h += `<div class="card" style="margin:1rem auto;max-width:1200px"><h2>📋 ${countyName} Voter Registration (2024)</h2>`;
+  const regTotal = regData.total || (regData.total_registered || 0);
+  h += `<div class="stat-row"><span class="stat-label">Total Registered Voters</span><span class="stat-val" style="color:var(--ac)">${fmt(regTotal)}</span></div>`;
+  
+  const regParties = [
+    {label:"Democratic", pct:regData.dem_pct||regData.dem||0, color:"var(--ac)"},
+    {label:"No Party Preference", pct:regData.npp_pct||regData.npp||0, color:"var(--mu)"},
+    {label:"Republican", pct:regData.gop_pct||regData.gop||0, color:"var(--sc)"},
+    {label:"Other", pct:regData.other_pct||regData.other||0, color:"#8888aa"}
+  ];
+  regParties.forEach(p => {
+    h += `<div class="stat-row" style="margin-top:.4rem"><span class="stat-label">${p.label}</span><span class="stat-val" style="color:${p.color}">${p.pct}%</span></div>`;
+    h += `<div class="bar-bg"><div class="bar-fill" style="width:${p.pct}%;background:${p.color}"></div></div>`;
+  });
+  h += `<div style="font-size:.72rem;color:var(--mu);margin-top:.75rem">📋 <strong>Source:</strong> California Secretary of State, Report of Registration.</div>`;
+  h += `</div>`;
+
+  return h;
+}
+
+let currentVoteYear = '2024';
+let currentNationalYear = '2024';
+
+// ══════════════ CITY ESTIMATE (weighted national patterns) ══════════════
+function mapCityRaceToNational(cityRaceGroup) {
+  const m = {
+    'White (non-Hispanic)': 'White',
+    'Hispanic/Latino': 'Hispanic/Latino',
+    'Asian (non-Hispanic)': 'Asian',
+    'Black/African American': 'Black'
+  };
+  return m[cityRaceGroup] || 'Other';
+}
+
+function calculateCityEstimate(year) {
+  const d = currentData || SD;
+  const v = VOTE[year];
+  if (!d || !v || !d.race) return null;
+
+  // Group city race percentages into national categories
+  const grouped = {};
+  d.race.forEach(r => {
+    const nat = mapCityRaceToNational(r.group);
+    if (!grouped[nat]) grouped[nat] = { pct: 0, count: 0 };
+    grouped[nat].pct += r.pct;
+    grouped[nat].count += (r.count || 0);
+  });
+
+  let demTotal = 0, gopTotal = 0, totalWeight = 0;
+  const details = [];
+
+  v.race_vote.forEach(rv => {
+    const cg = grouped[rv.race] || { pct: 0 };
+    const cpct = cg.pct;
+    totalWeight += cpct;
+    const dContrib = (cpct / 100) * rv.dem;
+    const gContrib = (cpct / 100) * rv.gop;
+    demTotal += dContrib;
+    gopTotal += gContrib;
+    details.push({
+      race: rv.race,
+      cityPct: cpct,
+      natShare: rv.share,
+      demPct: rv.dem,
+      gopPct: rv.gop,
+      demContrib: dContrib,
+      gopContrib: gContrib
+    });
+  });
+
+  return {
+    demTotal: demTotal,
+    gopTotal: gopTotal,
+    margin: demTotal - gopTotal,
+    totalWeight: totalWeight,
+    details: details
+  };
+}
+
+function renderCityComparison(year) {
+  const est = calculateCityEstimate(year);
+  if (!est) return '';
+  const cityName = cleanCityName(currentCity);
+  const marginAbs = Math.abs(est.margin).toFixed(1);
+  const leanDir = est.margin > 0 ? 'Democratic' : 'Republican';
+  const leanLabel = est.margin > 0 ? 'D+' : 'R+';
+  const demColor = '#4fc3f7';
+  const gopColor = '#ff5252';
+
+  let h = `<div class="card" style="margin:1.5rem auto;max-width:1200px">
+    <h2>🏙️ How ${cityName} Compares — ${year} National Patterns</h2>
+    <p style="font-size:.75rem;color:var(--mu);margin-bottom:1rem">
+      Estimate based on ${cityName}'s racial demographics weighted by <strong>national</strong> exit poll voting patterns by race.
+      This is <em>not</em> actual local results — see the Census tab for county-level presidential data.
+    </p>`;
+
+  // Side-by-side table: city demographics vs national electorate
+  h += `<table style="width:100%;border-collapse:collapse;font-size:.75rem;margin-bottom:1.25rem">
+    <thead><tr>
+      <th style="text-align:left;padding:.4rem .6rem;border-bottom:1px solid var(--bd);color:var(--mu);font-size:.65rem">Race/Ethnicity</th>
+      <th style="padding:.4rem .6rem;border-bottom:1px solid var(--bd);color:var(--ac);font-size:.65rem">${cityName}<br>Population %</th>
+      <th style="padding:.4rem .6rem;border-bottom:1px solid var(--bd);color:var(--mu);font-size:.65rem">National<br>Electorate %</th>
+      <th style="padding:.4rem .6rem;border-bottom:1px solid var(--bd);color:${demColor};font-size:.65rem">National<br>Dem %</th>
+      <th style="padding:.4rem .6rem;border-bottom:1px solid var(--bd);color:${gopColor};font-size:.65rem">National<br>GOP %</th>
+      <th style="padding:.4rem .6rem;border-bottom:1px solid var(--bd);color:var(--mu);font-size:.65rem">Est. Impact</th>
+    </tr></thead><tbody>`;
+
+  est.details.forEach((d, i) => {
+    const impact = d.demContrib - d.gopContrib;
+    const impactSign = impact > 0 ? '+' : '';
+    const impactColor = impact > 0 ? demColor : gopColor;
+    const bg = i % 2 === 0 ? 'rgba(255,255,255,.01)' : 'transparent';
+    const highlight = d.cityPct > 10 ? 'font-weight:600;' : '';
+    h += `<tr style="background:${bg}">
+      <td style="padding:.35rem .6rem;${highlight}">${d.race}</td>
+      <td style="padding:.35rem .6rem;text-align:center;${highlight}color:var(--ac)">${d.cityPct.toFixed(1)}%</td>
+      <td style="padding:.35rem .6rem;text-align:center;color:var(--tx)">${d.natShare}%</td>
+      <td style="padding:.35rem .6rem;text-align:center;color:${demColor}">${d.demPct}%</td>
+      <td style="padding:.35rem .6rem;text-align:center;color:${gopColor}">${d.gopPct}%</td>
+      <td style="padding:.35rem .6rem;text-align:center;color:${impactColor};font-family:'SF Mono',monospace;font-size:.7rem">${impactSign}${impact.toFixed(1)}</td>
+    </tr>`;
+  });
+
+  h += `</tbody></table>`;
+
+  // Weighted result bar
+  const demPct = est.demTotal.toFixed(1);
+  const gopPct = est.gopTotal.toFixed(1);
+  const otherPct = (100 - est.demTotal - est.gopTotal).toFixed(1);
+  const demWidth = est.demTotal;
+  const gopWidth = est.gopTotal;
+
+  h += `<div style="background:rgba(79,195,247,.06);border-radius:10px;padding:1.25rem;margin-bottom:1rem">
+    <div style="font-size:.85rem;font-weight:600;color:var(--tx);margin-bottom:.75rem">
+      📊 Estimated Vote for ${cityName} (${year} National Patterns)
+    </div>
+    <div style="display:flex;height:32px;border-radius:6px;overflow:hidden;margin-bottom:.5rem">
+      <div style="width:${demWidth}%;background:${demColor};display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:700;color:#000;min-width:${demPct>8?'':'0'}">${demPct>8 ? demPct+'% Dem' : ''}</div>
+      <div style="width:${gopWidth}%;background:${gopColor};display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:700;color:#fff;min-width:${gopPct>8?'':'0'}">${gopPct>8 ? gopPct+'% GOP' : ''}</div>
+      <div style="width:${otherPct>0 ? otherPct : 0}%;background:#555;display:flex;align-items:center;justify-content:center;font-size:.68rem;color:#aaa">${otherPct>8 ? otherPct+'% Other' : ''}</div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:.7rem;color:var(--mu)">
+      <span style="color:${demColor};font-weight:600">Dem ${demPct}%</span>
+      <span style="color:${gopColor};font-weight:600">GOP ${gopPct}%</span>
+    </div>
+  </div>`;
+
+  // Key takeaway callout
+  h += `<div style="background:rgba(79,195,247,.04);border:1px solid rgba(79,195,247,.15);border-radius:8px;padding:1rem;font-size:.78rem;line-height:1.6">
+    <span style="font-size:.85rem">💡</span> <strong style="color:var(--tx)">Local Impact:</strong> 
+    Based on ${cityName}'s demographics and ${year} national voting patterns by race, this city would lean
+    <strong style="color:${est.margin>0?demColor:gopColor}">${leanDir} by approximately ${marginAbs} points</strong>
+    (${leanLabel}${marginAbs}).
+    <span style="color:var(--mu);font-size:.7rem;display:block;margin-top:.5rem">
+      ⚠️ This is a <em>demographic estimate only</em>. Actual local voting behavior can differ due to turnout gaps,
+      regional political culture, candidate effects, and other factors. For ${cityName}'s real county-level results, see the Census tab.
+    </span>
+  </div>`;
+
+  h += `</div>`;
+  return h;
+}
+
+function renderAllSDVoting(year) {
+  currentVoteYear = year || '2024';
+  document.getElementById('sdVotingSection').innerHTML = renderSDVoting(currentVoteYear);
+}
+
+// ── CITY SEARCH & LOADING ──
+function cleanCityName(key) {
+  return key.replace(/ (city|town), California$/, ', CA');
+}
+
+function filterCityDropdown() {
+  const q = document.getElementById('citySearch').value.toLowerCase();
+  const dd = document.getElementById('cityDropdown');
+  if (!allCityKeys.length) {
+    dd.innerHTML = '<div class="loading">Loading 467 cities…</div>';
+    dd.classList.add('show');
+    return;
+  }
+  const matches = allCityKeys.filter(k => cleanCityName(k).toLowerCase().includes(q));
+  if (!matches.length) {
+    dd.innerHTML = '<div class="no-results">No cities match</div>';
+  } else {
+    dd.innerHTML = matches.map((k, i) =>
+      `<div class="item${i===activeIdx?' active':''}" data-key="${k.replace(/"/g,'&quot;')}">📍 ${cleanCityName(k)}</div>`
+    ).join('');
+  }
+  dd.classList.add('show');
+}
+
+function showCityDropdown() { filterCityDropdown(); }
+
+function csvEscape(val) {
+  if (val == null) return '';
+  const s = String(val);
+  if (s.includes(',') || s.includes('"') || s.includes('\n') || s.includes('\r')) {
+    return '"' + s.replace(/"/g, '""') + '"';
+  }
+  return s;
+}
+
+function sanitizeFilename(name) {
+  return name.replace(/[^a-zA-Z0-9_ -]/g, '').replace(/\s+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '') || 'city';
+}
+
+function exportCSV() {
+  const d = currentData || SD;
+  const cityName = cleanCityName(currentCity);
+  const rows = [];
+  const push = (a) => rows.push(a);
+
+  // ═══════ Section 1: Census Demographics ═══════
+  push(['=== CENSUS DEMOGRAPHICS ===', '', '']);
+  push(['City', cityName, '']);
+  push(['Data Source', 'US Census Bureau ACS ' + (d.year || '2023'), '']);
+  push(['', '', '']);
+  push(['Metric', 'Value', 'Details']);
+  push(['Total Population', d.population.total, '']);
+  push(['Voting Age Population (18+)', d.population.voting_age, d.population.voting_age_pct + '% of total']);
+  push(['Median Household Income', '$' + d.economics.median_household_income.toLocaleString(), d.year + ' inflation-adjusted']);
+  push(['Poverty Rate', d.economics.poverty_pct + '%', d.economics.poverty_count.toLocaleString() + ' residents below poverty line']);
+  if (d.education) {
+    const eduTotal = d.education.bachelors_or_higher;
+    const eduPct = d.population.total ? ((eduTotal / (d.population.total * 0.75)) * 100).toFixed(1) : 'N/A';
+    push(['Bachelors or Higher (Age 25+)', eduTotal.toLocaleString(), eduPct + '% of 25+ population']);
+    push(['Bachelors Degree', d.education.bachelors_only.toLocaleString(), '']);
+    push(['Masters Degree', d.education.masters.toLocaleString(), '']);
+    push(['Professional Degree', d.education.professional.toLocaleString(), '']);
+    push(['Doctorate', d.education.doctorate.toLocaleString(), '']);
+  }
+  push(['', '', '']);
+  push(['Race/Ethnicity', 'Count', 'Percentage']);
+  if (d.race) {
+    d.race.forEach(r => {
+      push([r.group, r.count, r.pct + '%']);
+    });
+  }
+
+  // ═══════ Section 2: County Voting ═══════
+  push(['', '', '']);
+  push(['=== COUNTY VOTING RESULTS ===', '', '']);
+
+  let countyName = 'Unknown County';
+  let presYears = [];
+  let presDataByYear = {};
+  let regData = null;
+
+  if (countyData && countyData.city_county_map && countyData.city_county_map[currentCity]) {
+    const fips = countyData.city_county_map[currentCity];
+    if (countyData.counties && countyData.counties[fips]) {
+      const c = countyData.counties[fips];
+      countyName = c.name;
+      if (c.presidential) {
+        presYears = Object.keys(c.presidential).sort();
+        presDataByYear = c.presidential;
+      }
+      if (c.registration) regData = c.registration;
+    }
+  }
+
+  // Fallback to SD_VOTE
+  if (!presYears.length) {
+    countyName = 'San Diego County';
+    presYears = Object.keys(SD_VOTE.presidential).sort();
+    presDataByYear = SD_VOTE.presidential;
+    regData = SD_VOTE.registered;
+  }
+
+  push(['County', countyName, '']);
+  push(['Data Source', 'California Secretary of State, Statement of Vote', '']);
+  push(['', '', '']);
+
+  // Presidential table header
+  push(['Year', 'Democratic %', 'Republican %', 'Margin', 'Other %', 'Turnout %', 'Total Votes']);
+  presYears.forEach(yr => {
+    const p = presDataByYear[yr];
+    if (!p) return;
+    const margin = (p.dem_pct || 0) - (p.gop_pct || 0);
+    const marginLabel = margin > 0 ? 'D+' : 'R+';
+    const turnout = p.turnout_pct != null ? p.turnout_pct + '%' : (p.turnout != null ? p.turnout + '%' : 'N/A');
+    const totalVotes = p.total_votes ? p.total_votes.toLocaleString() : 'N/A';
+    push([
+      yr,
+      (p.dem_pct || 0) + '%',
+      (p.gop_pct || 0) + '%',
+      marginLabel + Math.abs(margin).toFixed(1),
+      (p.other_pct || 0) + '%',
+      turnout,
+      totalVotes
+    ]);
+  });
+
+  push(['', '', '']);
+  push(['=== VOTER REGISTRATION ===', '', '']);
+  push(['Total Registered Voters', regData ? (regData.total || regData.total_registered || 0).toLocaleString() : 'N/A', '']);
+  push(['Democratic', (regData ? (regData.dem_pct || regData.dem || 0) : 0) + '%', '']);
+  push(['Republican', (regData ? (regData.gop_pct || regData.gop || 0) : 0) + '%', '']);
+  push(['No Party Preference', (regData ? (regData.npp_pct || regData.npp || 0) : 0) + '%', '']);
+  push(['Other', (regData ? (regData.other_pct || regData.other || 0) : 0) + '%', '']);
+
+  // ═══════ Section 3: National Comparison ═══════
+  push(['', '', '']);
+  push(['=== NATIONAL COMPARISON (Weighted Estimate) ===', '', '']);
+  push(['Method', 'City racial demographics weighted by national exit poll voting patterns by race', '']);
+  push(['Note', 'This is a demographic estimate, NOT actual local results', '']);
+  push(['', '', '']);
+
+  ['2016', '2020', '2024'].forEach(year => {
+    const est = calculateCityEstimate(year);
+    if (!est) return;
+    const marginAbs = Math.abs(est.margin).toFixed(1);
+    const leanDir = est.margin > 0 ? 'Democratic' : 'Republican';
+    const leanLabel = est.margin > 0 ? 'D+' : 'R+';
+
+    push(['--- ' + year + ' National Exit Polls ---', '', '']);
+    push(['Estimated Democratic %', est.demTotal.toFixed(1) + '%', '']);
+    push(['Estimated Republican %', est.gopTotal.toFixed(1) + '%', '']);
+    push(['Estimated Other %', (100 - est.demTotal - est.gopTotal).toFixed(1) + '%', '']);
+    push(['Lean', leanDir + ' by ' + marginAbs + ' pts (' + leanLabel + marginAbs + ')', '']);
+    push(['', '', '']);
+    push(['Race/Ethnicity', 'City Pop %', 'National Electorate %', 'National Dem %', 'National GOP %', 'Net Impact (D-G)']);
+    est.details.forEach(detail => {
+      const impact = (detail.demContrib - detail.gopContrib).toFixed(1);
+      push([
+        detail.race,
+        detail.cityPct.toFixed(1) + '%',
+        detail.natShare + '%',
+        detail.demPct + '%',
+        detail.gopPct + '%',
+        (impact >= 0 ? '+' : '') + impact
+      ]);
+    });
+    push(['', '', '']);
+  });
+
+  // Build CSV string
+  const csv = rows.map(r => r.map(csvEscape).join(',')).join('\n');
+
+  // Download
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = sanitizeFilename(cityName) + '_census_data.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 100);
+
+  // Feedback
+  const btn = document.getElementById('exportBtn');
+  const orig = btn.textContent;
+  btn.textContent = '✅ Downloaded!';
+  btn.style.color = 'var(--uc)';
+  btn.style.borderColor = 'var(--uc)';
+  setTimeout(() => {
+    btn.textContent = orig;
+    btn.style.color = '';
+    btn.style.borderColor = '';
+  }, 1800);
+}
+
+function handleCityKey(e) {
+  const items = document.querySelectorAll('#cityDropdown .item');
+  if (e.key === 'ArrowDown') { activeIdx = Math.min(activeIdx+1, items.length-1); filterCityDropdown(); e.preventDefault(); }
+  else if (e.key === 'ArrowUp') { activeIdx = Math.max(activeIdx-1, 0); filterCityDropdown(); e.preventDefault(); }
+  else if (e.key === 'Enter') { if (activeIdx>=0 && items[activeIdx]) selectCity(items[activeIdx].dataset.key); e.preventDefault(); }
+  else if (e.key === 'Escape') { document.getElementById('cityDropdown').classList.remove('show'); }
+}
+
+function selectCity(key) {
+  if (!key) return;
+  currentCity = key;
+  currentData = (allCities && allCities[key]) ? allCities[key] : SD;
+  document.getElementById('citySearch').value = cleanCityName(key);
+  document.getElementById('cityDropdown').classList.remove('show');
+  renderCensus();
+  // Re-render visible tabs so they reflect the new city
+  if (document.getElementById('tabVoting').style.display !== 'none') {
+    renderVoting(currentNationalYear);
+  }
+  if (document.getElementById('tabCrime').style.display !== 'none' && typeof crimeData !== 'undefined' && crimeData) {
+    renderCrimeTab();
+  }
+}
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.city-search')) document.getElementById('cityDropdown').classList.remove('show');
+});
+
+// Add dropdown click delegation
+document.getElementById('cityDropdown').addEventListener('mousedown', function(e) {
+  const el = e.target.closest('.item');
+  if (el && el.dataset.key) selectCity(el.dataset.key);
+});
+
+async function loadAllCities() {
+  try {
+    const r = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    if (!data.cities) throw new Error('Missing cities');
+    allCities = data.cities;
+    allCityKeys = Object.keys(allCities).sort((a,b) => cleanCityName(a).localeCompare(cleanCityName(b)));
+    currentData = allCities['San Diego city, California'] || SD;
+    document.getElementById('citySearch').placeholder = '🔍 Search ' + allCityKeys.length + ' CA cities…';
+    
+    // ── URL deep-link: ?city=CityName%2C%20California ──
+    const urlParams = new URLSearchParams(window.location.search);
+    const cityParam = urlParams.get('city');
+    if (cityParam) {
+      const decoded = decodeURIComponent(cityParam);
+      // Find matching key
+      const match = allCityKeys.find(k => k === decoded);
+      if (match) {
+        currentCity = match;
+        currentData = allCities[match];
+        document.getElementById('citySearch').value = cleanCityName(match);
+        renderCensus();
+        return;
+      }
+      // Partial match: try to find by name portion
+      const partialMatch = allCityKeys.find(k => k.toLowerCase().includes(decoded.toLowerCase()));
+      if (partialMatch) {
+        currentCity = partialMatch;
+        currentData = allCities[partialMatch];
+        document.getElementById('citySearch').value = cleanCityName(partialMatch);
+        renderCensus();
+        return;
+      }
+    }
+  } catch(e) {
+    console.log('City data deferred, using embedded data:', e.message);
+    allCityKeys = [];
+    
+    // ── URL deep-link fallback (embedded data only has SD) ──
+    const urlParams = new URLSearchParams(window.location.search);
+    const cityParam = urlParams.get('city');
+    if (cityParam) {
+      const decoded = decodeURIComponent(cityParam);
+      if (decoded === 'San Diego city, California') {
+        currentCity = decoded;
+        currentData = SD;
+        document.getElementById('citySearch').value = 'San Diego, CA';
+      }
+    }
+  }
+}
+
+function showTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tabCensus').style.display = tab === 'census' ? '' : 'none';
+  document.getElementById('tabCrime').style.display = tab === 'crime' ? '' : 'none';
+  document.getElementById('tabVoting').style.display = tab === 'voting' ? '' : 'none';
+  document.querySelectorAll('.tab').forEach(t => {
+    if ((tab==='census' && t.textContent.includes('Census')) || 
+        (tab==='crime' && t.textContent.includes('Crime')) ||
+        (tab==='voting' && t.textContent.includes('Voting'))) t.classList.add('active');
+  });
+  if (tab === 'voting') renderVoting(currentNationalYear);
+  if (tab === 'crime') loadCrimeTab();
+}
+
+async function loadCountyData() {
+  try {
+    const r = await fetch(COUNTY_URL + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    countyData = await r.json();
+    // Refresh voting section if visible
+    if (document.getElementById('sdVotingSection').innerHTML.trim()) {
+      renderAllSDVoting(currentVoteYear);
+    }
+  } catch(e) {
+    console.log('County data deferred:', e.message);
+  }
+}
+
+// ── CRIME TAB ──
+let crimeData = null;
+let crimeLoading = false;
+
+async function loadCrimeTab() {
+  var el = document.getElementById('crimeContent');
+  if (!el) return;
+  
+  if (crimeLoading) return;
+  
+  if (!crimeData) {
+    el.innerHTML = '<div class="card" style="max-width:800px;margin:2rem auto;text-align:center;padding:3rem"><p style="color:var(--ac);font-size:1.5rem">⏳</p><p style="color:var(--mu);margin-top:1rem">Loading FBI arrest data for 450 cities…</p></div>';
+    crimeLoading = true;
+    try {
+      var r = await fetch('all_ca_arrests.json?t=' + Date.now());
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      crimeData = await r.json();
+    } catch(e) {
+      el.innerHTML = '<div class="card" style="max-width:800px;margin:2rem auto;text-align:center;padding:3rem"><p style="color:var(--sc);font-size:1.2rem">❌</p><p style="color:var(--mu);margin-top:1rem">Could not load crime data</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">' + e.message + '</p></div>';
+      crimeLoading = false;
+      return;
+    }
+    crimeLoading = false;
+  }
+  
+  renderCrimeTab();
+}
+
+function renderCrimeTab() {
+  var el = document.getElementById('crimeContent');
+  if (!el || !crimeData) return;
+  
+  var cityKey = currentCity || 'San Diego city, California';
+  var a = crimeData[cityKey];
+  
+  if (!a) {
+    el.innerHTML = '<div class="card" style="max-width:800px;margin:2rem auto;text-align:center;padding:3rem"><h2>🛡️ Crime &amp; Safety</h2><p style="color:var(--mu);margin-top:1rem">No FBI arrest data for ' + cleanCityName(cityKey) + '</p><p style="color:var(--mu);font-size:.72rem;margin-top:.5rem">Some cities contract with county sheriffs</p></div>';
+    return;
+  }
+  
+  var pop = (currentData || SD).population.total;
+  var rate = pop > 0 ? (a.total_arrests / pop * 1000).toFixed(1) : '0';
+  
+  var h = '';
+  h += '<div class="grid">';
+  h += '<div class="card" style="text-align:center"><div class="big-label">Total Arrests (FBI 2023)</div><div class="big-num">' + fmt(a.total_arrests) + '</div><div class="stat-sub">' + cleanCityName(cityKey) + '</div></div>';
+  h += '<div class="card" style="text-align:center"><div class="big-label">Arrest Rate per 1,000</div><div class="big-num" style="color:var(--cf)">' + rate + '</div><div class="stat-sub">' + fmt(a.total_arrests) + ' arrests / ' + fmt(pop) + ' residents</div></div>';
+  h += '</div>';
+  
+  // Race breakdown
+  if (a.arrests_by_race) {
+    h += '<div class="card" style="max-width:1200px;margin:1.5rem auto"><h2>🧑 Arrests by Race — ' + cleanCityName(cityKey) + '</h2>';
+    var races = a.arrests_by_race;
+    Object.keys(races).forEach(function(r) {
+      if (r === 'Unknown') return;
+      var pct = races[r].pct;
+      h += '<div class="stat-row"><span class="stat-label">' + r + '</span><span class="stat-val" style="color:var(--sc)">' + pct.toFixed(1) + '%</span></div>';
+      h += '<div class="bar-bg"><div class="bar-fill" style="width:' + Math.min(100, pct*4) + '%;background:var(--sc)"></div></div>';
+    });
+    h += '</div>';
+  }
+  
+  // Offense categories
+  if (a.offense_categories) {
+    h += '<div class="card" style="max-width:1200px;margin:1.5rem auto"><h2>📋 Top Offenses</h2>';
+    Object.entries(a.offense_categories).filter(function(e){return e[1]>0}).sort(function(x,y){return y[1]-x[1]}).slice(0,8).forEach(function(o){
+      h += '<div class="stat-row"><span class="stat-label">' + o[0] + '</span><span class="stat-val">' + fmt(o[1]) + '</span></div>';
+    });
+    h += '</div>';
+  }
+  
+  h += '<div class="card" style="max-width:1200px;margin:1.5rem auto;font-size:.72rem;color:var(--mu)"><strong>Source:</strong> FBI Crime Data Explorer — Arrest data for ' + cleanCityName(cityKey) + ' Police Department, 2023. Data for 450 of 467 CA cities.</div>';
+  
+  el.innerHTML = h;
+}
+
+// ── End crime tab ──
+
+// Boot
+currentData = SD;
+renderCensus();
+loadAllCities();
+loadCountyData();
+</script>
+</body>
+</html>

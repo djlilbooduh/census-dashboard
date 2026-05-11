@@ -1,0 +1,4359 @@
+{
+  "cities": {
+    "Sioux Falls city, South Dakota": {
+      "state": "SD",
+      "fips": "4659020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 197642,
+        "voting_age": 148440,
+        "voting_age_pct": 75.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 154375,
+          "pct": 78.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 13610,
+          "pct": 6.89
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3358,
+          "pct": 1.7
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4424,
+          "pct": 2.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 45,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 605,
+          "pct": 0.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 8503,
+          "pct": 4.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12722,
+          "pct": 6.44
+        }
+      ],
+      "economics": {
+        "median_household_income": 74714,
+        "poverty_count": 5238,
+        "poverty_pct": 2.65
+      },
+      "education": {
+        "bachelors_or_higher": 48724,
+        "bachelors_only": 33107,
+        "masters": 10737,
+        "professional": 3190,
+        "doctorate": 1690
+      }
+    },
+    "Rapid City city, South Dakota": {
+      "state": "SD",
+      "fips": "4652980",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 76836,
+        "voting_age": 60096,
+        "voting_age_pct": 78.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 59003,
+          "pct": 76.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1177,
+          "pct": 1.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5491,
+          "pct": 7.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 982,
+          "pct": 1.28
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 21,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 449,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5425,
+          "pct": 7.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4288,
+          "pct": 5.58
+        }
+      ],
+      "economics": {
+        "median_household_income": 65712,
+        "poverty_count": 2720,
+        "poverty_pct": 3.54
+      },
+      "education": {
+        "bachelors_or_higher": 19282,
+        "bachelors_only": 12175,
+        "masters": 4470,
+        "professional": 1577,
+        "doctorate": 1060
+      }
+    },
+    "Aberdeen city, South Dakota": {
+      "state": "SD",
+      "fips": "4600100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28297,
+        "voting_age": 21667,
+        "voting_age_pct": 76.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 23042,
+          "pct": 81.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 81,
+          "pct": 0.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1519,
+          "pct": 5.37
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1045,
+          "pct": 3.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 29,
+          "pct": 0.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 23,
+          "pct": 0.08
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1086,
+          "pct": 3.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1472,
+          "pct": 5.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 63715,
+        "poverty_count": 888,
+        "poverty_pct": 3.14
+      },
+      "education": {
+        "bachelors_or_higher": 6179,
+        "bachelors_only": 4646,
+        "masters": 1018,
+        "professional": 251,
+        "doctorate": 264
+      }
+    },
+    "Brookings city, South Dakota": {
+      "state": "SD",
+      "fips": "4607580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 23710,
+        "voting_age": 19230,
+        "voting_age_pct": 81.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20493,
+          "pct": 86.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 358,
+          "pct": 1.51
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 169,
+          "pct": 0.71
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1128,
+          "pct": 4.76
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 602,
+          "pct": 2.54
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 960,
+          "pct": 4.05
+        }
+      ],
+      "economics": {
+        "median_household_income": 61979,
+        "poverty_count": 385,
+        "poverty_pct": 1.62
+      },
+      "education": {
+        "bachelors_or_higher": 5755,
+        "bachelors_only": 3653,
+        "masters": 1211,
+        "professional": 443,
+        "doctorate": 448
+      }
+    },
+    "Watertown city, South Dakota": {
+      "state": "SD",
+      "fips": "4669300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 22859,
+        "voting_age": 17744,
+        "voting_age_pct": 77.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20556,
+          "pct": 89.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 195,
+          "pct": 0.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 528,
+          "pct": 2.31
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 145,
+          "pct": 0.63
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 119,
+          "pct": 0.52
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 547,
+          "pct": 2.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 769,
+          "pct": 3.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 62721,
+        "poverty_count": 460,
+        "poverty_pct": 2.01
+      },
+      "education": {
+        "bachelors_or_higher": 3316,
+        "bachelors_only": 2320,
+        "masters": 740,
+        "professional": 135,
+        "doctorate": 121
+      }
+    },
+    "Mitchell city, South Dakota": {
+      "state": "SD",
+      "fips": "4643100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15637,
+        "voting_age": 12158,
+        "voting_age_pct": 77.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13767,
+          "pct": 88.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 59,
+          "pct": 0.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 570,
+          "pct": 3.65
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 103,
+          "pct": 0.66
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 307,
+          "pct": 1.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 831,
+          "pct": 5.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 56374,
+        "poverty_count": 476,
+        "poverty_pct": 3.04
+      },
+      "education": {
+        "bachelors_or_higher": 2724,
+        "bachelors_only": 2034,
+        "masters": 514,
+        "professional": 126,
+        "doctorate": 50
+      }
+    },
+    "Yankton city, South Dakota": {
+      "state": "SD",
+      "fips": "4673060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15501,
+        "voting_age": 12409,
+        "voting_age_pct": 80.05
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13222,
+          "pct": 85.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 331,
+          "pct": 2.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 380,
+          "pct": 2.45
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 54,
+          "pct": 0.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 578,
+          "pct": 3.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 936,
+          "pct": 6.04
+        }
+      ],
+      "economics": {
+        "median_household_income": 69071,
+        "poverty_count": 287,
+        "poverty_pct": 1.85
+      },
+      "education": {
+        "bachelors_or_higher": 3236,
+        "bachelors_only": 2098,
+        "masters": 794,
+        "professional": 277,
+        "doctorate": 67
+      }
+    },
+    "Huron city, South Dakota": {
+      "state": "SD",
+      "fips": "4631060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14347,
+        "voting_age": 10055,
+        "voting_age_pct": 70.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8777,
+          "pct": 61.18
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 180,
+          "pct": 1.25
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 175,
+          "pct": 1.22
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1725,
+          "pct": 12.02
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 242,
+          "pct": 1.69
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 52,
+          "pct": 0.36
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 594,
+          "pct": 4.14
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2602,
+          "pct": 18.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 51556,
+        "poverty_count": 673,
+        "poverty_pct": 4.69
+      },
+      "education": {
+        "bachelors_or_higher": 2430,
+        "bachelors_only": 1644,
+        "masters": 558,
+        "professional": 85,
+        "doctorate": 143
+      }
+    },
+    "Pierre city, South Dakota": {
+      "state": "SD",
+      "fips": "4649600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14008,
+        "voting_age": 10850,
+        "voting_age_pct": 77.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11447,
+          "pct": 81.72
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1201,
+          "pct": 8.57
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 137,
+          "pct": 0.98
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 697,
+          "pct": 4.98
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 523,
+          "pct": 3.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 74053,
+        "poverty_count": 245,
+        "poverty_pct": 1.75
+      },
+      "education": {
+        "bachelors_or_higher": 3440,
+        "bachelors_only": 2345,
+        "masters": 593,
+        "professional": 304,
+        "doctorate": 198
+      }
+    },
+    "Spearfish city, South Dakota": {
+      "state": "SD",
+      "fips": "4660020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12551,
+        "voting_age": 10252,
+        "voting_age_pct": 81.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10929,
+          "pct": 87.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 52,
+          "pct": 0.41
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 414,
+          "pct": 3.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 67,
+          "pct": 0.53
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 22,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 73,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 608,
+          "pct": 4.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 386,
+          "pct": 3.08
+        }
+      ],
+      "economics": {
+        "median_household_income": 59731,
+        "poverty_count": 324,
+        "poverty_pct": 2.58
+      },
+      "education": {
+        "bachelors_or_higher": 3592,
+        "bachelors_only": 2411,
+        "masters": 771,
+        "professional": 228,
+        "doctorate": 182
+      }
+    },
+    "Box Elder city, South Dakota": {
+      "state": "SD",
+      "fips": "4606620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12457,
+        "voting_age": 8983,
+        "voting_age_pct": 72.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9058,
+          "pct": 72.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 214,
+          "pct": 1.72
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 945,
+          "pct": 7.59
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 178,
+          "pct": 1.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 44,
+          "pct": 0.35
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 24,
+          "pct": 0.19
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 759,
+          "pct": 6.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1235,
+          "pct": 9.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 73698,
+        "poverty_count": 218,
+        "poverty_pct": 1.75
+      },
+      "education": {
+        "bachelors_or_higher": 2097,
+        "bachelors_only": 1543,
+        "masters": 505,
+        "professional": 40,
+        "doctorate": 9
+      }
+    },
+    "Vermillion city, South Dakota": {
+      "state": "SD",
+      "fips": "4666700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11800,
+        "voting_age": 9842,
+        "voting_age_pct": 83.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10029,
+          "pct": 84.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 301,
+          "pct": 2.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 351,
+          "pct": 2.97
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 446,
+          "pct": 3.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 6,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.05
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 261,
+          "pct": 2.21
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 400,
+          "pct": 3.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 52815,
+        "poverty_count": 186,
+        "poverty_pct": 1.58
+      },
+      "education": {
+        "bachelors_or_higher": 2528,
+        "bachelors_only": 1244,
+        "masters": 744,
+        "professional": 96,
+        "doctorate": 444
+      }
+    },
+    "Brandon city, South Dakota": {
+      "state": "SD",
+      "fips": "4606840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10996,
+        "voting_age": 7613,
+        "voting_age_pct": 69.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9996,
+          "pct": 90.91
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 335,
+          "pct": 3.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 23,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 17,
+          "pct": 0.15
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 128,
+          "pct": 1.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 490,
+          "pct": 4.46
+        }
+      ],
+      "economics": {
+        "median_household_income": 104806,
+        "poverty_count": 43,
+        "poverty_pct": 0.39
+      },
+      "education": {
+        "bachelors_or_higher": 2937,
+        "bachelors_only": 1954,
+        "masters": 674,
+        "professional": 109,
+        "doctorate": 200
+      }
+    },
+    "Harrisburg city, South Dakota": {
+      "state": "SD",
+      "fips": "4627260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7790,
+        "voting_age": 5198,
+        "voting_age_pct": 66.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7022,
+          "pct": 90.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 66,
+          "pct": 0.85
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 352,
+          "pct": 4.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 340,
+          "pct": 4.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 101534,
+        "poverty_count": 46,
+        "poverty_pct": 0.59
+      },
+      "education": {
+        "bachelors_or_higher": 1910,
+        "bachelors_only": 1507,
+        "masters": 334,
+        "professional": 30,
+        "doctorate": 39
+      }
+    },
+    "Sturgis city, South Dakota": {
+      "state": "SD",
+      "fips": "4662100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7111,
+        "voting_age": 5588,
+        "voting_age_pct": 78.58
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6564,
+          "pct": 92.31
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 109,
+          "pct": 1.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 55,
+          "pct": 0.77
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 74,
+          "pct": 1.04
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 165,
+          "pct": 2.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 135,
+          "pct": 1.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 51101,
+        "poverty_count": 100,
+        "poverty_pct": 1.41
+      },
+      "education": {
+        "bachelors_or_higher": 1000,
+        "bachelors_only": 758,
+        "masters": 186,
+        "professional": 39,
+        "doctorate": 17
+      }
+    },
+    "Tea city, South Dakota": {
+      "state": "SD",
+      "fips": "4663100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6339,
+        "voting_age": 4057,
+        "voting_age_pct": 64
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5837,
+          "pct": 92.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 263,
+          "pct": 4.15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 55,
+          "pct": 0.87
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 170,
+          "pct": 2.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 14,
+          "pct": 0.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 104643,
+        "poverty_count": 144,
+        "poverty_pct": 2.27
+      },
+      "education": {
+        "bachelors_or_higher": 1479,
+        "bachelors_only": 1042,
+        "masters": 396,
+        "professional": 29,
+        "doctorate": 12
+      }
+    },
+    "Madison city, South Dakota": {
+      "state": "SD",
+      "fips": "4640220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6158,
+        "voting_age": 4928,
+        "voting_age_pct": 80.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5687,
+          "pct": 92.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 55,
+          "pct": 0.89
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 27,
+          "pct": 0.44
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26,
+          "pct": 0.42
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 6,
+          "pct": 0.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 28,
+          "pct": 0.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 329,
+          "pct": 5.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 62180,
+        "poverty_count": 171,
+        "poverty_pct": 2.78
+      },
+      "education": {
+        "bachelors_or_higher": 1429,
+        "bachelors_only": 1040,
+        "masters": 339,
+        "professional": 19,
+        "doctorate": 31
+      }
+    },
+    "Belle Fourche city, South Dakota": {
+      "state": "SD",
+      "fips": "4604380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5741,
+        "voting_age": 4318,
+        "voting_age_pct": 75.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5084,
+          "pct": 88.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 69,
+          "pct": 1.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 11,
+          "pct": 0.19
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 41,
+          "pct": 0.71
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 201,
+          "pct": 3.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 317,
+          "pct": 5.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 59920,
+        "poverty_count": 38,
+        "poverty_pct": 0.66
+      },
+      "education": {
+        "bachelors_or_higher": 586,
+        "bachelors_only": 449,
+        "masters": 97,
+        "professional": 35,
+        "doctorate": 5
+      }
+    },
+    "Dell Rapids city, South Dakota": {
+      "state": "SD",
+      "fips": "4615980",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3947,
+        "voting_age": 2934,
+        "voting_age_pct": 74.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3630,
+          "pct": 91.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 29,
+          "pct": 0.73
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 109,
+          "pct": 2.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 179,
+          "pct": 4.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 101250,
+        "poverty_count": 100,
+        "poverty_pct": 2.53
+      },
+      "education": {
+        "bachelors_or_higher": 1026,
+        "bachelors_only": 750,
+        "masters": 215,
+        "professional": 34,
+        "doctorate": 27
+      }
+    },
+    "Milbank city, South Dakota": {
+      "state": "SD",
+      "fips": "4642260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3513,
+        "voting_age": 2785,
+        "voting_age_pct": 79.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3028,
+          "pct": 86.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 74,
+          "pct": 2.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 411,
+          "pct": 11.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 58462,
+        "poverty_count": 70,
+        "poverty_pct": 1.99
+      },
+      "education": {
+        "bachelors_or_higher": 853,
+        "bachelors_only": 544,
+        "masters": 165,
+        "professional": 67,
+        "doctorate": 77
+      }
+    },
+    "Hot Springs city, South Dakota": {
+      "state": "SD",
+      "fips": "4630220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3506,
+        "voting_age": 3076,
+        "voting_age_pct": 87.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2851,
+          "pct": 81.32
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 423,
+          "pct": 12.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 37,
+          "pct": 1.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 154,
+          "pct": 4.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 1.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 49688,
+        "poverty_count": 197,
+        "poverty_pct": 5.62
+      },
+      "education": {
+        "bachelors_or_higher": 529,
+        "bachelors_only": 272,
+        "masters": 149,
+        "professional": 66,
+        "doctorate": 42
+      }
+    },
+    "Hartford city, South Dakota": {
+      "state": "SD",
+      "fips": "4627540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3412,
+        "voting_age": 2528,
+        "voting_age_pct": 74.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3076,
+          "pct": 90.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 22,
+          "pct": 0.64
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 245,
+          "pct": 7.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 69,
+          "pct": 2.02
+        }
+      ],
+      "economics": {
+        "median_household_income": 95426,
+        "poverty_count": 62,
+        "poverty_pct": 1.82
+      },
+      "education": {
+        "bachelors_or_higher": 736,
+        "bachelors_only": 585,
+        "masters": 75,
+        "professional": 32,
+        "doctorate": 44
+      }
+    },
+    "Canton city, South Dakota": {
+      "state": "SD",
+      "fips": "4609500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3060,
+        "voting_age": 2356,
+        "voting_age_pct": 76.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2864,
+          "pct": 93.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 50,
+          "pct": 1.63
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 127,
+          "pct": 4.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 13,
+          "pct": 0.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 65500,
+        "poverty_count": 33,
+        "poverty_pct": 1.08
+      },
+      "education": {
+        "bachelors_or_higher": 436,
+        "bachelors_only": 335,
+        "masters": 75,
+        "professional": 18,
+        "doctorate": 8
+      }
+    },
+    "North Sioux City city, South Dakota": {
+      "state": "SD",
+      "fips": "4645700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3018,
+        "voting_age": 2388,
+        "voting_age_pct": 79.13
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2446,
+          "pct": 81.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 114,
+          "pct": 3.78
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 53,
+          "pct": 1.76
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 40,
+          "pct": 1.33
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 12,
+          "pct": 0.4
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 144,
+          "pct": 4.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 209,
+          "pct": 6.93
+        }
+      ],
+      "economics": {
+        "median_household_income": 76481,
+        "poverty_count": 82,
+        "poverty_pct": 2.72
+      },
+      "education": {
+        "bachelors_or_higher": 566,
+        "bachelors_only": 301,
+        "masters": 219,
+        "professional": 26,
+        "doctorate": 20
+      }
+    },
+    "Lead city, South Dakota": {
+      "state": "SD",
+      "fips": "4636220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2997,
+        "voting_age": 2529,
+        "voting_age_pct": 84.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2854,
+          "pct": 95.23
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 26,
+          "pct": 0.87
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 16,
+          "pct": 0.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 49,
+          "pct": 1.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 52,
+          "pct": 1.74
+        }
+      ],
+      "economics": {
+        "median_household_income": 57348,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 475,
+        "bachelors_only": 364,
+        "masters": 81,
+        "professional": 13,
+        "doctorate": 17
+      }
+    },
+    "Summerset city, South Dakota": {
+      "state": "SD",
+      "fips": "4662155",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2978,
+        "voting_age": 2054,
+        "voting_age_pct": 68.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2780,
+          "pct": 93.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0.5
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 41,
+          "pct": 1.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 105,
+          "pct": 3.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 35,
+          "pct": 1.18
+        }
+      ],
+      "economics": {
+        "median_household_income": 115197,
+        "poverty_count": 144,
+        "poverty_pct": 4.84
+      },
+      "education": {
+        "bachelors_or_higher": 725,
+        "bachelors_only": 482,
+        "masters": 189,
+        "professional": 35,
+        "doctorate": 19
+      }
+    },
+    "Mobridge city, South Dakota": {
+      "state": "SD",
+      "fips": "4643180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2928,
+        "voting_age": 2300,
+        "voting_age_pct": 78.55
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2005,
+          "pct": 68.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 501,
+          "pct": 17.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 376,
+          "pct": 12.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 39,
+          "pct": 1.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 61556,
+        "poverty_count": 249,
+        "poverty_pct": 8.5
+      },
+      "education": {
+        "bachelors_or_higher": 700,
+        "bachelors_only": 538,
+        "masters": 137,
+        "professional": 11,
+        "doctorate": 14
+      }
+    },
+    "Winner city, South Dakota": {
+      "state": "SD",
+      "fips": "4672180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2900,
+        "voting_age": 2264,
+        "voting_age_pct": 78.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2141,
+          "pct": 73.83
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 36,
+          "pct": 1.24
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 481,
+          "pct": 16.59
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 32,
+          "pct": 1.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 118,
+          "pct": 4.07
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 92,
+          "pct": 3.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 47132,
+        "poverty_count": 263,
+        "poverty_pct": 9.07
+      },
+      "education": {
+        "bachelors_or_higher": 365,
+        "bachelors_only": 301,
+        "masters": 39,
+        "professional": 16,
+        "doctorate": 9
+      }
+    },
+    "Chamberlain city, South Dakota": {
+      "state": "SD",
+      "fips": "4611220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2621,
+        "voting_age": 1953,
+        "voting_age_pct": 74.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1815,
+          "pct": 69.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 49,
+          "pct": 1.87
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 514,
+          "pct": 19.61
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 174,
+          "pct": 6.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 69,
+          "pct": 2.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 75000,
+        "poverty_count": 42,
+        "poverty_pct": 1.6
+      },
+      "education": {
+        "bachelors_or_higher": 634,
+        "bachelors_only": 473,
+        "masters": 117,
+        "professional": 22,
+        "doctorate": 22
+      }
+    },
+    "Sisseton city, South Dakota": {
+      "state": "SD",
+      "fips": "4659260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2593,
+        "voting_age": 1827,
+        "voting_age_pct": 70.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1071,
+          "pct": 41.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15,
+          "pct": 0.58
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1333,
+          "pct": 51.41
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.66
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 31,
+          "pct": 1.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 120,
+          "pct": 4.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 44477,
+        "poverty_count": 185,
+        "poverty_pct": 7.13
+      },
+      "education": {
+        "bachelors_or_higher": 336,
+        "bachelors_only": 208,
+        "masters": 95,
+        "professional": 28,
+        "doctorate": 5
+      }
+    },
+    "Lennox city, South Dakota": {
+      "state": "SD",
+      "fips": "4636380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2587,
+        "voting_age": 1987,
+        "voting_age_pct": 76.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2238,
+          "pct": 86.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 38,
+          "pct": 1.47
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 14,
+          "pct": 0.54
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 102,
+          "pct": 3.94
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 64,
+          "pct": 2.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 131,
+          "pct": 5.06
+        }
+      ],
+      "economics": {
+        "median_household_income": 76477,
+        "poverty_count": 49,
+        "poverty_pct": 1.89
+      },
+      "education": {
+        "bachelors_or_higher": 394,
+        "bachelors_only": 278,
+        "masters": 108,
+        "professional": 4,
+        "doctorate": 4
+      }
+    },
+    "Fort Pierre city, South Dakota": {
+      "state": "SD",
+      "fips": "4622260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2534,
+        "voting_age": 1953,
+        "voting_age_pct": 77.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2316,
+          "pct": 91.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 72,
+          "pct": 2.84
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 21,
+          "pct": 0.83
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 93,
+          "pct": 3.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 32,
+          "pct": 1.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 74732,
+        "poverty_count": 4,
+        "poverty_pct": 0.16
+      },
+      "education": {
+        "bachelors_or_higher": 440,
+        "bachelors_only": 304,
+        "masters": 112,
+        "professional": 15,
+        "doctorate": 9
+      }
+    },
+    "Beresford city, South Dakota": {
+      "state": "SD",
+      "fips": "4604980",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2437,
+        "voting_age": 1771,
+        "voting_age_pct": 72.67
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2158,
+          "pct": 88.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9,
+          "pct": 0.37
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 26,
+          "pct": 1.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14,
+          "pct": 0.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4,
+          "pct": 0.16
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 81,
+          "pct": 3.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 145,
+          "pct": 5.95
+        }
+      ],
+      "economics": {
+        "median_household_income": 71017,
+        "poverty_count": 13,
+        "poverty_pct": 0.53
+      },
+      "education": {
+        "bachelors_or_higher": 417,
+        "bachelors_only": 312,
+        "masters": 94,
+        "professional": 6,
+        "doctorate": 5
+      }
+    },
+    "Elk Point city, South Dakota": {
+      "state": "SD",
+      "fips": "4618620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2391,
+        "voting_age": 1675,
+        "voting_age_pct": 70.05
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2235,
+          "pct": 93.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15,
+          "pct": 0.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 68,
+          "pct": 2.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 66,
+          "pct": 2.76
+        }
+      ],
+      "economics": {
+        "median_household_income": 83250,
+        "poverty_count": 46,
+        "poverty_pct": 1.92
+      },
+      "education": {
+        "bachelors_or_higher": 513,
+        "bachelors_only": 339,
+        "masters": 142,
+        "professional": 20,
+        "doctorate": 12
+      }
+    },
+    "Flandreau city, South Dakota": {
+      "state": "SD",
+      "fips": "4621540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2291,
+        "voting_age": 1551,
+        "voting_age_pct": 67.7
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1270,
+          "pct": 55.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 39,
+          "pct": 1.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 473,
+          "pct": 20.65
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 108,
+          "pct": 4.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.13
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 213,
+          "pct": 9.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 185,
+          "pct": 8.08
+        }
+      ],
+      "economics": {
+        "median_household_income": 56458,
+        "poverty_count": 138,
+        "poverty_pct": 6.02
+      },
+      "education": {
+        "bachelors_or_higher": 343,
+        "bachelors_only": 230,
+        "masters": 97,
+        "professional": 11,
+        "doctorate": 5
+      }
+    },
+    "Volga city, South Dakota": {
+      "state": "SD",
+      "fips": "4667700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2246,
+        "voting_age": 1663,
+        "voting_age_pct": 74.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2129,
+          "pct": 94.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.53
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26,
+          "pct": 1.16
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 33,
+          "pct": 1.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 46,
+          "pct": 2.05
+        }
+      ],
+      "economics": {
+        "median_household_income": 75417,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 566,
+        "bachelors_only": 374,
+        "masters": 176,
+        "professional": 12,
+        "doctorate": 4
+      }
+    },
+    "Redfield city, South Dakota": {
+      "state": "SD",
+      "fips": "4653460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2230,
+        "voting_age": 1711,
+        "voting_age_pct": 76.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2056,
+          "pct": 92.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6,
+          "pct": 0.27
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 85,
+          "pct": 3.81
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 83,
+          "pct": 3.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 60586,
+        "poverty_count": 34,
+        "poverty_pct": 1.52
+      },
+      "education": {
+        "bachelors_or_higher": 476,
+        "bachelors_only": 336,
+        "masters": 109,
+        "professional": 16,
+        "doctorate": 15
+      }
+    },
+    "Custer city, South Dakota": {
+      "state": "SD",
+      "fips": "4615140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2148,
+        "voting_age": 1863,
+        "voting_age_pct": 86.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1912,
+          "pct": 89.01
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 53,
+          "pct": 2.47
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 22,
+          "pct": 1.02
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 120,
+          "pct": 5.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 1.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 80188,
+        "poverty_count": 39,
+        "poverty_pct": 1.82
+      },
+      "education": {
+        "bachelors_or_higher": 523,
+        "bachelors_only": 335,
+        "masters": 117,
+        "professional": 45,
+        "doctorate": 26
+      }
+    },
+    "Springfield city, South Dakota": {
+      "state": "SD",
+      "fips": "4660660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2073,
+        "voting_age": 1965,
+        "voting_age_pct": 94.79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1286,
+          "pct": 62.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 124,
+          "pct": 5.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 408,
+          "pct": 19.68
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 110,
+          "pct": 5.31
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 140,
+          "pct": 6.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 59063,
+        "poverty_count": 26,
+        "poverty_pct": 1.25
+      },
+      "education": {
+        "bachelors_or_higher": 147,
+        "bachelors_only": 111,
+        "masters": 35,
+        "professional": 1,
+        "doctorate": 0
+      }
+    },
+    "Parkston city, South Dakota": {
+      "state": "SD",
+      "fips": "4648460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1981,
+        "voting_age": 1431,
+        "voting_age_pct": 72.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1860,
+          "pct": 93.89
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.5
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 5,
+          "pct": 0.25
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 56,
+          "pct": 2.83
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 50,
+          "pct": 2.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 71313,
+        "poverty_count": 5,
+        "poverty_pct": 0.25
+      },
+      "education": {
+        "bachelors_or_higher": 314,
+        "bachelors_only": 252,
+        "masters": 53,
+        "professional": 3,
+        "doctorate": 6
+      }
+    },
+    "Webster city, South Dakota": {
+      "state": "SD",
+      "fips": "4669780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1823,
+        "voting_age": 1471,
+        "voting_age_pct": 80.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1667,
+          "pct": 91.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 48,
+          "pct": 2.63
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 54,
+          "pct": 2.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 52,
+          "pct": 2.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 55074,
+        "poverty_count": 84,
+        "poverty_pct": 4.61
+      },
+      "education": {
+        "bachelors_or_higher": 216,
+        "bachelors_only": 157,
+        "masters": 59,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Groton city, South Dakota": {
+      "state": "SD",
+      "fips": "4626340",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1794,
+        "voting_age": 1265,
+        "voting_age_pct": 70.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1625,
+          "pct": 90.58
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 43,
+          "pct": 2.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 22,
+          "pct": 1.23
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 104,
+          "pct": 5.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 82083,
+        "poverty_count": 16,
+        "poverty_pct": 0.89
+      },
+      "education": {
+        "bachelors_or_higher": 376,
+        "bachelors_only": 257,
+        "masters": 44,
+        "professional": 21,
+        "doctorate": 54
+      }
+    },
+    "Freeman city, South Dakota": {
+      "state": "SD",
+      "fips": "4623020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1558,
+        "voting_age": 1051,
+        "voting_age_pct": 67.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1233,
+          "pct": 79.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.32
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 22,
+          "pct": 1.41
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 197,
+          "pct": 12.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 90,
+          "pct": 5.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 60114,
+        "poverty_count": 159,
+        "poverty_pct": 10.21
+      },
+      "education": {
+        "bachelors_or_higher": 192,
+        "bachelors_only": 137,
+        "masters": 42,
+        "professional": 13,
+        "doctorate": 0
+      }
+    },
+    "Wagner city, South Dakota": {
+      "state": "SD",
+      "fips": "4668020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1555,
+        "voting_age": 1112,
+        "voting_age_pct": 71.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 756,
+          "pct": 48.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 548,
+          "pct": 35.24
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 22,
+          "pct": 1.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5,
+          "pct": 0.32
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 5,
+          "pct": 0.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 108,
+          "pct": 6.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 107,
+          "pct": 6.88
+        }
+      ],
+      "economics": {
+        "median_household_income": 47137,
+        "poverty_count": 61,
+        "poverty_pct": 3.92
+      },
+      "education": {
+        "bachelors_or_higher": 192,
+        "bachelors_only": 131,
+        "masters": 47,
+        "professional": 5,
+        "doctorate": 9
+      }
+    },
+    "Baltic city, South Dakota": {
+      "state": "SD",
+      "fips": "4603380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1512,
+        "voting_age": 942,
+        "voting_age_pct": 62.3
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1417,
+          "pct": 93.72
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 16,
+          "pct": 1.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.66
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 59,
+          "pct": 3.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10,
+          "pct": 0.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 105132,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 215,
+        "bachelors_only": 162,
+        "masters": 50,
+        "professional": 0,
+        "doctorate": 3
+      }
+    },
+    "Eagle Butte city, South Dakota": {
+      "state": "SD",
+      "fips": "4617620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1492,
+        "voting_age": 930,
+        "voting_age_pct": 62.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 111,
+          "pct": 7.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14,
+          "pct": 0.94
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1267,
+          "pct": 84.92
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 33,
+          "pct": 2.21
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 67,
+          "pct": 4.49
+        }
+      ],
+      "economics": {
+        "median_household_income": 53558,
+        "poverty_count": 164,
+        "poverty_pct": 10.99
+      },
+      "education": {
+        "bachelors_or_higher": 107,
+        "bachelors_only": 87,
+        "masters": 16,
+        "professional": 4,
+        "doctorate": 0
+      }
+    },
+    "Aurora town, South Dakota": {
+      "state": "SD",
+      "fips": "4602780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1407,
+        "voting_age": 1069,
+        "voting_age_pct": 75.98
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1258,
+          "pct": 89.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.78
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 46,
+          "pct": 3.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 81,
+          "pct": 5.76
+        }
+      ],
+      "economics": {
+        "median_household_income": 90612,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 406,
+        "bachelors_only": 357,
+        "masters": 45,
+        "professional": 0,
+        "doctorate": 4
+      }
+    },
+    "Mission city, South Dakota": {
+      "state": "SD",
+      "fips": "4642940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1380,
+        "voting_age": 800,
+        "voting_age_pct": 57.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 154,
+          "pct": 11.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12,
+          "pct": 0.87
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1063,
+          "pct": 77.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4,
+          "pct": 0.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.43
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 110,
+          "pct": 7.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 20,
+          "pct": 1.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 34000,
+        "poverty_count": 313,
+        "poverty_pct": 22.68
+      },
+      "education": {
+        "bachelors_or_higher": 79,
+        "bachelors_only": 45,
+        "masters": 24,
+        "professional": 0,
+        "doctorate": 10
+      }
+    },
+    "Miller city, South Dakota": {
+      "state": "SD",
+      "fips": "4642460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1346,
+        "voting_age": 1023,
+        "voting_age_pct": 76
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1294,
+          "pct": 96.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.37
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 1.19
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 18,
+          "pct": 1.34
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 13,
+          "pct": 0.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 51774,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 242,
+        "bachelors_only": 194,
+        "masters": 35,
+        "professional": 10,
+        "doctorate": 3
+      }
+    },
+    "Gettysburg city, South Dakota": {
+      "state": "SD",
+      "fips": "4624260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1344,
+        "voting_age": 1038,
+        "voting_age_pct": 77.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1112,
+          "pct": 82.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 47,
+          "pct": 3.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 25,
+          "pct": 1.86
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 22,
+          "pct": 1.64
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 28,
+          "pct": 2.08
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 110,
+          "pct": 8.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 59667,
+        "poverty_count": 70,
+        "poverty_pct": 5.21
+      },
+      "education": {
+        "bachelors_or_higher": 268,
+        "bachelors_only": 203,
+        "masters": 50,
+        "professional": 5,
+        "doctorate": 10
+      }
+    },
+    "Clear Lake city, South Dakota": {
+      "state": "SD",
+      "fips": "4612540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1333,
+        "voting_age": 1026,
+        "voting_age_pct": 76.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1276,
+          "pct": 95.72
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.53
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 42,
+          "pct": 3.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 65398,
+        "poverty_count": 32,
+        "poverty_pct": 2.4
+      },
+      "education": {
+        "bachelors_or_higher": 239,
+        "bachelors_only": 164,
+        "masters": 66,
+        "professional": 8,
+        "doctorate": 1
+      }
+    },
+    "Gregory city, South Dakota": {
+      "state": "SD",
+      "fips": "4626180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1330,
+        "voting_age": 1000,
+        "voting_age_pct": 75.19
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1125,
+          "pct": 84.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 40,
+          "pct": 3.01
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 36,
+          "pct": 2.71
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 86,
+          "pct": 6.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 43,
+          "pct": 3.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 47629,
+        "poverty_count": 14,
+        "poverty_pct": 1.05
+      },
+      "education": {
+        "bachelors_or_higher": 173,
+        "bachelors_only": 117,
+        "masters": 53,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Deadwood city, South Dakota": {
+      "state": "SD",
+      "fips": "4615700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1319,
+        "voting_age": 1226,
+        "voting_age_pct": 92.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1221,
+          "pct": 92.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.61
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.53
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 20,
+          "pct": 1.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 54,
+          "pct": 4.09
+        }
+      ],
+      "economics": {
+        "median_household_income": 52679,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 247,
+        "bachelors_only": 157,
+        "masters": 75,
+        "professional": 2,
+        "doctorate": 13
+      }
+    },
+    "Platte city, South Dakota": {
+      "state": "SD",
+      "fips": "4650260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1310,
+        "voting_age": 947,
+        "voting_age_pct": 72.29
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1238,
+          "pct": 94.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 1.37
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 1.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 0.69
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 24,
+          "pct": 1.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 71641,
+        "poverty_count": 122,
+        "poverty_pct": 9.31
+      },
+      "education": {
+        "bachelors_or_higher": 253,
+        "bachelors_only": 208,
+        "masters": 28,
+        "professional": 11,
+        "doctorate": 6
+      }
+    },
+    "Parker city, South Dakota": {
+      "state": "SD",
+      "fips": "4648380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1247,
+        "voting_age": 927,
+        "voting_age_pct": 74.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1125,
+          "pct": 90.22
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 35,
+          "pct": 2.81
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 0.72
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 78,
+          "pct": 6.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 87632,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 156,
+        "bachelors_only": 109,
+        "masters": 20,
+        "professional": 18,
+        "doctorate": 9
+      }
+    },
+    "Crooks city, South Dakota": {
+      "state": "SD",
+      "fips": "4614740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1216,
+        "voting_age": 923,
+        "voting_age_pct": 75.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1164,
+          "pct": 95.72
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.16
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 45,
+          "pct": 3.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 104479,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 268,
+        "bachelors_only": 197,
+        "masters": 42,
+        "professional": 10,
+        "doctorate": 19
+      }
+    },
+    "Lemmon city, South Dakota": {
+      "state": "SD",
+      "fips": "4636340",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1214,
+        "voting_age": 972,
+        "voting_age_pct": 80.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1106,
+          "pct": 91.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 64,
+          "pct": 5.27
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.49
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 23,
+          "pct": 1.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 15,
+          "pct": 1.24
+        }
+      ],
+      "economics": {
+        "median_household_income": 42461,
+        "poverty_count": 68,
+        "poverty_pct": 5.6
+      },
+      "education": {
+        "bachelors_or_higher": 183,
+        "bachelors_only": 101,
+        "masters": 64,
+        "professional": 16,
+        "doctorate": 2
+      }
+    },
+    "Tyndall city, South Dakota": {
+      "state": "SD",
+      "fips": "4664860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1206,
+        "voting_age": 924,
+        "voting_age_pct": 76.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1149,
+          "pct": 95.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.66
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 29,
+          "pct": 2.4
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 11,
+          "pct": 0.91
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6,
+          "pct": 0.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 51719,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 242,
+        "bachelors_only": 154,
+        "masters": 67,
+        "professional": 10,
+        "doctorate": 11
+      }
+    },
+    "Salem city, South Dakota": {
+      "state": "SD",
+      "fips": "4657340",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1201,
+        "voting_age": 895,
+        "voting_age_pct": 74.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1080,
+          "pct": 89.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.92
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 43,
+          "pct": 3.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 67,
+          "pct": 5.58
+        }
+      ],
+      "economics": {
+        "median_household_income": 71655,
+        "poverty_count": 29,
+        "poverty_pct": 2.41
+      },
+      "education": {
+        "bachelors_or_higher": 216,
+        "bachelors_only": 144,
+        "masters": 46,
+        "professional": 6,
+        "doctorate": 20
+      }
+    },
+    "Clark city, South Dakota": {
+      "state": "SD",
+      "fips": "4612180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1181,
+        "voting_age": 1006,
+        "voting_age_pct": 85.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1050,
+          "pct": 88.91
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 0.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 114,
+          "pct": 9.65
+        }
+      ],
+      "economics": {
+        "median_household_income": 49464,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 121,
+        "bachelors_only": 96,
+        "masters": 20,
+        "professional": 0,
+        "doctorate": 5
+      }
+    },
+    "Garretson city, South Dakota": {
+      "state": "SD",
+      "fips": "4623820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1166,
+        "voting_age": 927,
+        "voting_age_pct": 79.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 993,
+          "pct": 85.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 148,
+          "pct": 12.69
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 16,
+          "pct": 1.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6,
+          "pct": 0.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 66375,
+        "poverty_count": 6,
+        "poverty_pct": 0.51
+      },
+      "education": {
+        "bachelors_or_higher": 212,
+        "bachelors_only": 170,
+        "masters": 14,
+        "professional": 18,
+        "doctorate": 10
+      }
+    },
+    "Ipswich city, South Dakota": {
+      "state": "SD",
+      "fips": "4631860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1126,
+        "voting_age": 836,
+        "voting_age_pct": 74.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1050,
+          "pct": 93.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.8
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.53
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7,
+          "pct": 0.62
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 52,
+          "pct": 4.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 79135,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 161,
+        "bachelors_only": 114,
+        "masters": 39,
+        "professional": 8,
+        "doctorate": 0
+      }
+    },
+    "Britton city, South Dakota": {
+      "state": "SD",
+      "fips": "4607380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1117,
+        "voting_age": 959,
+        "voting_age_pct": 85.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 974,
+          "pct": 87.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 58,
+          "pct": 5.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 28,
+          "pct": 2.51
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 53,
+          "pct": 4.74
+        }
+      ],
+      "economics": {
+        "median_household_income": 70156,
+        "poverty_count": 25,
+        "poverty_pct": 2.24
+      },
+      "education": {
+        "bachelors_or_higher": 195,
+        "bachelors_only": 168,
+        "masters": 4,
+        "professional": 4,
+        "doctorate": 19
+      }
+    },
+    "Worthing city, South Dakota": {
+      "state": "SD",
+      "fips": "4672820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1087,
+        "voting_age": 725,
+        "voting_age_pct": 66.7
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 930,
+          "pct": 85.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 17,
+          "pct": 1.56
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16,
+          "pct": 1.47
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 79,
+          "pct": 7.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 45,
+          "pct": 4.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 91250,
+        "poverty_count": 1,
+        "poverty_pct": 0.09
+      },
+      "education": {
+        "bachelors_or_higher": 141,
+        "bachelors_only": 110,
+        "masters": 28,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Martin city, South Dakota": {
+      "state": "SD",
+      "fips": "4641100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1054,
+        "voting_age": 691,
+        "voting_age_pct": 65.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 476,
+          "pct": 45.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 429,
+          "pct": 40.7
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 54,
+          "pct": 5.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 32,
+          "pct": 3.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 63,
+          "pct": 5.98
+        }
+      ],
+      "economics": {
+        "median_household_income": 49609,
+        "poverty_count": 59,
+        "poverty_pct": 5.6
+      },
+      "education": {
+        "bachelors_or_higher": 217,
+        "bachelors_only": 167,
+        "masters": 24,
+        "professional": 12,
+        "doctorate": 14
+      }
+    },
+    "Colman city, South Dakota": {
+      "state": "SD",
+      "fips": "4613220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1011,
+        "voting_age": 714,
+        "voting_age_pct": 70.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 896,
+          "pct": 88.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 41,
+          "pct": 4.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 72,
+          "pct": 7.12
+        }
+      ],
+      "economics": {
+        "median_household_income": 73000,
+        "poverty_count": 41,
+        "poverty_pct": 4.06
+      },
+      "education": {
+        "bachelors_or_higher": 231,
+        "bachelors_only": 132,
+        "masters": 90,
+        "professional": 0,
+        "doctorate": 9
+      }
+    },
+    "Marion city, South Dakota": {
+      "state": "SD",
+      "fips": "4640860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1004,
+        "voting_age": 776,
+        "voting_age_pct": 77.29
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 954,
+          "pct": 95.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 11,
+          "pct": 1.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 29,
+          "pct": 2.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10,
+          "pct": 1
+        }
+      ],
+      "economics": {
+        "median_household_income": 72969,
+        "poverty_count": 14,
+        "poverty_pct": 1.39
+      },
+      "education": {
+        "bachelors_or_higher": 119,
+        "bachelors_only": 82,
+        "masters": 37,
+        "professional": 0,
+        "doctorate": 0
+      }
+    }
+  }
+}

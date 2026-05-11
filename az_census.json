@@ -1,0 +1,6282 @@
+{
+  "cities": {
+    "Apache Junction city, Arizona": {
+      "state": "AZ",
+      "fips": "0402830",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39746,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 28937,
+          "pct": 72.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 7357,
+          "pct": 18.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 628,
+          "pct": 1.6,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 611,
+          "pct": 1.5,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 1955,
+          "pct": 4.9,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 53,
+          "pct": 0.1,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 16,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 189,
+          "pct": 0.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 58619,
+        "poverty_count": 659,
+        "poverty_pct": 1.7
+      },
+      "education": {
+        "bachelors_or_higher": 5421,
+        "bachelors_only": 3375,
+        "masters": 1788,
+        "professional": 133,
+        "doctorate": 125
+      }
+    },
+    "Avondale city, Arizona": {
+      "state": "AZ",
+      "fips": "0404720",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 90644,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 24948,
+          "pct": 27.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 49140,
+          "pct": 54.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2850,
+          "pct": 3.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 9204,
+          "pct": 10.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 2820,
+          "pct": 3.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 233,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 237,
+          "pct": 0.3,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1212,
+          "pct": 1.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 81260,
+        "poverty_count": 3342,
+        "poverty_pct": 3.7
+      },
+      "education": {
+        "bachelors_or_higher": 12002,
+        "bachelors_only": 8120,
+        "masters": 3056,
+        "professional": 486,
+        "doctorate": 340
+      }
+    },
+    "Buckeye city, Arizona": {
+      "state": "AZ",
+      "fips": "0407940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 99844,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 44383,
+          "pct": 44.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 42892,
+          "pct": 43.0,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1510,
+          "pct": 1.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 6379,
+          "pct": 6.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 3093,
+          "pct": 3.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 342,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 101,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1144,
+          "pct": 1.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 98778,
+        "poverty_count": 2134,
+        "poverty_pct": 2.1
+      },
+      "education": {
+        "bachelors_or_higher": 15855,
+        "bachelors_only": 10552,
+        "masters": 4392,
+        "professional": 565,
+        "doctorate": 346
+      }
+    },
+    "Bullhead City city, Arizona": {
+      "state": "AZ",
+      "fips": "0408220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 42193,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 29540,
+          "pct": 70.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 8578,
+          "pct": 20.3,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 650,
+          "pct": 1.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 996,
+          "pct": 2.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 2154,
+          "pct": 5.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 34,
+          "pct": 0.1,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 241,
+          "pct": 0.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 47717,
+        "poverty_count": 2065,
+        "poverty_pct": 4.9
+      },
+      "education": {
+        "bachelors_or_higher": 4839,
+        "bachelors_only": 3118,
+        "masters": 1236,
+        "professional": 317,
+        "doctorate": 168
+      }
+    },
+    "Camp Verde town, Arizona": {
+      "state": "AZ",
+      "fips": "0409690",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12282,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8806,
+          "pct": 71.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 2076,
+          "pct": 16.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 31,
+          "pct": 0.3,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 93,
+          "pct": 0.8,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 325,
+          "pct": 2.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 154,
+          "pct": 1.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 29,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 768,
+          "pct": 6.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 58383,
+        "poverty_count": 495,
+        "poverty_pct": 4.0
+      },
+      "education": {
+        "bachelors_or_higher": 1851,
+        "bachelors_only": 949,
+        "masters": 624,
+        "professional": 133,
+        "doctorate": 145
+      }
+    },
+    "Casa Grande city, Arizona": {
+      "state": "AZ",
+      "fips": "0410530",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 57590,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 24980,
+          "pct": 43.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 24839,
+          "pct": 43.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 970,
+          "pct": 1.7,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 2569,
+          "pct": 4.5,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 2563,
+          "pct": 4.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 213,
+          "pct": 0.4,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 146,
+          "pct": 0.3,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1310,
+          "pct": 2.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 66354,
+        "poverty_count": 2228,
+        "poverty_pct": 3.9
+      },
+      "education": {
+        "bachelors_or_higher": 8111,
+        "bachelors_only": 5117,
+        "masters": 2461,
+        "professional": 342,
+        "doctorate": 191
+      }
+    },
+    "Chandler city, Arizona": {
+      "state": "AZ",
+      "fips": "0412000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 278123,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 153743,
+          "pct": 55.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 59615,
+          "pct": 21.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 31357,
+          "pct": 11.3,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 14118,
+          "pct": 5.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 13482,
+          "pct": 4.8,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 1266,
+          "pct": 0.5,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 464,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 4078,
+          "pct": 1.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 103691,
+        "poverty_count": 5809,
+        "poverty_pct": 2.1
+      },
+      "education": {
+        "bachelors_or_higher": 89560,
+        "bachelors_only": 54735,
+        "masters": 26482,
+        "professional": 3884,
+        "doctorate": 4459
+      }
+    },
+    "Chino Valley town, Arizona": {
+      "state": "AZ",
+      "fips": "0412840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13372,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10663,
+          "pct": 79.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 2022,
+          "pct": 15.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 32,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 100,
+          "pct": 0.7,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 413,
+          "pct": 3.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 71,
+          "pct": 0.5,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 71,
+          "pct": 0.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 59733,
+        "poverty_count": 431,
+        "poverty_pct": 3.2
+      },
+      "education": {
+        "bachelors_or_higher": 2167,
+        "bachelors_only": 1425,
+        "masters": 613,
+        "professional": 65,
+        "doctorate": 64
+      }
+    },
+    "Coolidge city, Arizona": {
+      "state": "AZ",
+      "fips": "0415500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15300,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4897,
+          "pct": 32.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 8272,
+          "pct": 54.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 74,
+          "pct": 0.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 810,
+          "pct": 5.3,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 395,
+          "pct": 2.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 30,
+          "pct": 0.2,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 13,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 809,
+          "pct": 5.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 57161,
+        "poverty_count": 1196,
+        "poverty_pct": 7.8
+      },
+      "education": {
+        "bachelors_or_higher": 1308,
+        "bachelors_only": 1039,
+        "masters": 178,
+        "professional": 38,
+        "doctorate": 53
+      }
+    },
+    "Cottonwood city, Arizona": {
+      "state": "AZ",
+      "fips": "0416410",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12547,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8976,
+          "pct": 71.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 2882,
+          "pct": 23.0,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 28,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 26,
+          "pct": 0.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 484,
+          "pct": 3.9,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 151,
+          "pct": 1.2,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 47162,
+        "poverty_count": 283,
+        "poverty_pct": 2.3
+      },
+      "education": {
+        "bachelors_or_higher": 2654,
+        "bachelors_only": 1928,
+        "masters": 499,
+        "professional": 161,
+        "doctorate": 66
+      }
+    },
+    "Douglas city, Arizona": {
+      "state": "AZ",
+      "fips": "0420050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16118,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1748,
+          "pct": 10.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 13456,
+          "pct": 83.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 27,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 448,
+          "pct": 2.8,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 240,
+          "pct": 1.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 3,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 38,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 158,
+          "pct": 1.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 39350,
+        "poverty_count": 1480,
+        "poverty_pct": 9.2
+      },
+      "education": {
+        "bachelors_or_higher": 1206,
+        "bachelors_only": 740,
+        "masters": 434,
+        "professional": 14,
+        "doctorate": 18
+      }
+    },
+    "El Mirage city, Arizona": {
+      "state": "AZ",
+      "fips": "0422220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 35823,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12510,
+          "pct": 34.9,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 17893,
+          "pct": 49.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 253,
+          "pct": 0.7,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 2187,
+          "pct": 6.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 1947,
+          "pct": 5.4,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 384,
+          "pct": 1.1,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 386,
+          "pct": 1.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 263,
+          "pct": 0.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 74764,
+        "poverty_count": 1838,
+        "poverty_pct": 5.1
+      },
+      "education": {
+        "bachelors_or_higher": 3312,
+        "bachelors_only": 2134,
+        "masters": 912,
+        "professional": 129,
+        "doctorate": 137
+      }
+    },
+    "Eloy city, Arizona": {
+      "state": "AZ",
+      "fips": "0422360",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16671,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5801,
+          "pct": 34.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 7909,
+          "pct": 47.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 148,
+          "pct": 0.9,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 1315,
+          "pct": 7.9,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 430,
+          "pct": 2.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 45,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 253,
+          "pct": 1.5,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 770,
+          "pct": 4.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 54080,
+        "poverty_count": 486,
+        "poverty_pct": 2.9
+      },
+      "education": {
+        "bachelors_or_higher": 1653,
+        "bachelors_only": 1221,
+        "masters": 340,
+        "professional": 85,
+        "doctorate": 7
+      }
+    },
+    "Flagstaff city, Arizona": {
+      "state": "AZ",
+      "fips": "0423620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 76333,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 44318,
+          "pct": 58.1,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 15037,
+          "pct": 19.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1909,
+          "pct": 2.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 1451,
+          "pct": 1.9,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 3993,
+          "pct": 5.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 437,
+          "pct": 0.6,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 133,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 9055,
+          "pct": 11.9,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 68041,
+        "poverty_count": 2362,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 20508,
+        "bachelors_only": 12221,
+        "masters": 5392,
+        "professional": 1236,
+        "doctorate": 1659
+      }
+    },
+    "Florence town, Arizona": {
+      "state": "AZ",
+      "fips": "0423760",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 25961,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13718,
+          "pct": 52.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 8331,
+          "pct": 32.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 267,
+          "pct": 1.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 2391,
+          "pct": 9.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 387,
+          "pct": 1.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 23,
+          "pct": 0.1,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 141,
+          "pct": 0.5,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 703,
+          "pct": 2.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 76259,
+        "poverty_count": 64,
+        "poverty_pct": 0.2
+      },
+      "education": {
+        "bachelors_or_higher": 3682,
+        "bachelors_only": 2663,
+        "masters": 935,
+        "professional": 34,
+        "doctorate": 50
+      }
+    },
+    "Fountain Hills town, Arizona": {
+      "state": "AZ",
+      "fips": "0425300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 23768,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20926,
+          "pct": 88.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 880,
+          "pct": 3.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 443,
+          "pct": 1.9,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 615,
+          "pct": 2.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 771,
+          "pct": 3.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 78,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 24,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 31,
+          "pct": 0.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 104788,
+        "poverty_count": 158,
+        "poverty_pct": 0.7
+      },
+      "education": {
+        "bachelors_or_higher": 9877,
+        "bachelors_only": 5944,
+        "masters": 3082,
+        "professional": 541,
+        "doctorate": 310
+      }
+    },
+    "Gilbert town, Arizona": {
+      "state": "AZ",
+      "fips": "0427400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 271118,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 180082,
+          "pct": 66.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 47527,
+          "pct": 17.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17638,
+          "pct": 6.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 8716,
+          "pct": 3.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 14164,
+          "pct": 5.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 964,
+          "pct": 0.4,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 92,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1935,
+          "pct": 0.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 121351,
+        "poverty_count": 3596,
+        "poverty_pct": 1.3
+      },
+      "education": {
+        "bachelors_or_higher": 80985,
+        "bachelors_only": 52434,
+        "masters": 21710,
+        "professional": 3921,
+        "doctorate": 2920
+      }
+    },
+    "Glendale city, Arizona": {
+      "state": "AZ",
+      "fips": "0427820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 250193,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 108131,
+          "pct": 43.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 101405,
+          "pct": 40.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10062,
+          "pct": 4.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 16513,
+          "pct": 6.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 10675,
+          "pct": 4.3,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 638,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 119,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 2650,
+          "pct": 1.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 70139,
+        "poverty_count": 12167,
+        "poverty_pct": 4.9
+      },
+      "education": {
+        "bachelors_or_higher": 37823,
+        "bachelors_only": 24778,
+        "masters": 9740,
+        "professional": 1651,
+        "doctorate": 1654
+      }
+    },
+    "Globe city, Arizona": {
+      "state": "AZ",
+      "fips": "0428030",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7230,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3012,
+          "pct": 41.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 3378,
+          "pct": 46.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 211,
+          "pct": 2.9,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 187,
+          "pct": 2.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 100,
+          "pct": 1.4,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 9,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 333,
+          "pct": 4.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 66545,
+        "poverty_count": 156,
+        "poverty_pct": 2.2
+      },
+      "education": {
+        "bachelors_or_higher": 1016,
+        "bachelors_only": 672,
+        "masters": 286,
+        "professional": 45,
+        "doctorate": 13
+      }
+    },
+    "Goodyear city, Arizona": {
+      "state": "AZ",
+      "fips": "0428380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 102891,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 54557,
+          "pct": 53.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 33266,
+          "pct": 32.3,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3187,
+          "pct": 3.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 6199,
+          "pct": 6.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 3674,
+          "pct": 3.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 699,
+          "pct": 0.7,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 128,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1181,
+          "pct": 1.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 101814,
+        "poverty_count": 1592,
+        "poverty_pct": 1.5
+      },
+      "education": {
+        "bachelors_or_higher": 25619,
+        "bachelors_only": 16040,
+        "masters": 7324,
+        "professional": 1303,
+        "doctorate": 952
+      }
+    },
+    "Kingman city, Arizona": {
+      "state": "AZ",
+      "fips": "0437620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 33850,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25515,
+          "pct": 75.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 5682,
+          "pct": 16.8,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 529,
+          "pct": 1.6,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 595,
+          "pct": 1.8,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 975,
+          "pct": 2.9,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 153,
+          "pct": 0.5,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 161,
+          "pct": 0.5,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 240,
+          "pct": 0.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 60418,
+        "poverty_count": 1288,
+        "poverty_pct": 3.8
+      },
+      "education": {
+        "bachelors_or_higher": 4928,
+        "bachelors_only": 2499,
+        "masters": 1616,
+        "professional": 554,
+        "doctorate": 259
+      }
+    },
+    "Lake Havasu City city, Arizona": {
+      "state": "AZ",
+      "fips": "0439370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 58037,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 46246,
+          "pct": 79.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 8983,
+          "pct": 15.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 297,
+          "pct": 0.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 274,
+          "pct": 0.5,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 1696,
+          "pct": 2.9,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 135,
+          "pct": 0.2,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 160,
+          "pct": 0.3,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 246,
+          "pct": 0.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 66264,
+        "poverty_count": 1801,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 8451,
+        "bachelors_only": 5312,
+        "masters": 2183,
+        "professional": 580,
+        "doctorate": 376
+      }
+    },
+    "Marana town, Arizona": {
+      "state": "AZ",
+      "fips": "0444270",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 54487,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 33272,
+          "pct": 61.1,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 14250,
+          "pct": 26.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2262,
+          "pct": 4.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 1655,
+          "pct": 3.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 2211,
+          "pct": 4.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 305,
+          "pct": 0.6,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 532,
+          "pct": 1.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 108256,
+        "poverty_count": 652,
+        "poverty_pct": 1.2
+      },
+      "education": {
+        "bachelors_or_higher": 18159,
+        "bachelors_only": 11465,
+        "masters": 5036,
+        "professional": 873,
+        "doctorate": 785
+      }
+    },
+    "Maricopa city, Arizona": {
+      "state": "AZ",
+      "fips": "0444410",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 62986,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 28844,
+          "pct": 45.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 18045,
+          "pct": 28.6,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1808,
+          "pct": 2.9,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 8367,
+          "pct": 13.3,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 3339,
+          "pct": 5.3,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 553,
+          "pct": 0.9,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 795,
+          "pct": 1.3,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1235,
+          "pct": 2.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 94208,
+        "poverty_count": 1259,
+        "poverty_pct": 2.0
+      },
+      "education": {
+        "bachelors_or_higher": 9328,
+        "bachelors_only": 6293,
+        "masters": 2537,
+        "professional": 240,
+        "doctorate": 258
+      }
+    },
+    "Mesa city, Arizona": {
+      "state": "AZ",
+      "fips": "0446000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 507478,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 308277,
+          "pct": 60.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 134936,
+          "pct": 26.6,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11524,
+          "pct": 2.3,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 20842,
+          "pct": 4.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 21310,
+          "pct": 4.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 1690,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 1165,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 7734,
+          "pct": 1.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 78779,
+        "poverty_count": 14823,
+        "poverty_pct": 2.9
+      },
+      "education": {
+        "bachelors_or_higher": 108884,
+        "bachelors_only": 72421,
+        "masters": 27790,
+        "professional": 5085,
+        "doctorate": 3588
+      }
+    },
+    "Nogales city, Arizona": {
+      "state": "AZ",
+      "fips": "0449640",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 19753,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 681,
+          "pct": 3.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 18648,
+          "pct": 94.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 44,
+          "pct": 0.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 311,
+          "pct": 1.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 28,
+          "pct": 0.1,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 23,
+          "pct": 0.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 40745,
+        "poverty_count": 1619,
+        "poverty_pct": 8.2
+      },
+      "education": {
+        "bachelors_or_higher": 2372,
+        "bachelors_only": 1539,
+        "masters": 563,
+        "professional": 204,
+        "doctorate": 66
+      }
+    },
+    "Oro Valley town, Arizona": {
+      "state": "AZ",
+      "fips": "0451600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 47595,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 36302,
+          "pct": 76.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 6940,
+          "pct": 14.6,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1736,
+          "pct": 3.6,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 650,
+          "pct": 1.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 1719,
+          "pct": 3.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 166,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 46,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 36,
+          "pct": 0.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 105342,
+        "poverty_count": 734,
+        "poverty_pct": 1.5
+      },
+      "education": {
+        "bachelors_or_higher": 21149,
+        "bachelors_only": 11862,
+        "masters": 6169,
+        "professional": 1474,
+        "doctorate": 1644
+      }
+    },
+    "Page city, Arizona": {
+      "state": "AZ",
+      "fips": "0451810",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7407,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3192,
+          "pct": 43.1,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 582,
+          "pct": 7.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 55,
+          "pct": 0.7,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 402,
+          "pct": 5.4,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 3160,
+          "pct": 42.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 88452,
+        "poverty_count": 207,
+        "poverty_pct": 2.8
+      },
+      "education": {
+        "bachelors_or_higher": 1412,
+        "bachelors_only": 1177,
+        "masters": 144,
+        "professional": 29,
+        "doctorate": 62
+      }
+    },
+    "Paradise Valley town, Arizona": {
+      "state": "AZ",
+      "fips": "0452930",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12621,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9951,
+          "pct": 78.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1285,
+          "pct": 10.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 640,
+          "pct": 5.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 10,
+          "pct": 0.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 450,
+          "pct": 3.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 237,
+          "pct": 1.9,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 48,
+          "pct": 0.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 236250,
+        "poverty_count": 116,
+        "poverty_pct": 0.9
+      },
+      "education": {
+        "bachelors_or_higher": 7193,
+        "bachelors_only": 3801,
+        "masters": 1326,
+        "professional": 1658,
+        "doctorate": 408
+      }
+    },
+    "Payson town, Arizona": {
+      "state": "AZ",
+      "fips": "0453700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16494,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13810,
+          "pct": 83.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1892,
+          "pct": 11.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 119,
+          "pct": 0.7,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 59,
+          "pct": 0.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 424,
+          "pct": 2.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 51,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 139,
+          "pct": 0.8,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 65175,
+        "poverty_count": 125,
+        "poverty_pct": 0.8
+      },
+      "education": {
+        "bachelors_or_higher": 3444,
+        "bachelors_only": 2178,
+        "masters": 995,
+        "professional": 95,
+        "doctorate": 176
+      }
+    },
+    "Peoria city, Arizona": {
+      "state": "AZ",
+      "fips": "0454050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 194338,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 127818,
+          "pct": 65.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 38240,
+          "pct": 19.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10890,
+          "pct": 5.6,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 5958,
+          "pct": 3.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 9600,
+          "pct": 4.9,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 626,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 137,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1069,
+          "pct": 0.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 93403,
+        "poverty_count": 3800,
+        "poverty_pct": 2.0
+      },
+      "education": {
+        "bachelors_or_higher": 48733,
+        "bachelors_only": 29595,
+        "masters": 14487,
+        "professional": 2852,
+        "doctorate": 1799
+      }
+    },
+    "Phoenix city, Arizona": {
+      "state": "AZ",
+      "fips": "0455000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1624832,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 671373,
+          "pct": 41.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 678869,
+          "pct": 41.8,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 61460,
+          "pct": 3.8,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 120616,
+          "pct": 7.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 59204,
+          "pct": 3.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 6536,
+          "pct": 0.4,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 3218,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 23556,
+          "pct": 1.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 77041,
+        "poverty_count": 71534,
+        "poverty_pct": 4.4
+      },
+      "education": {
+        "bachelors_or_higher": 346744,
+        "bachelors_only": 212872,
+        "masters": 95692,
+        "professional": 24377,
+        "doctorate": 13803
+      }
+    },
+    "Prescott city, Arizona": {
+      "state": "AZ",
+      "fips": "0457380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 46744,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 39555,
+          "pct": 84.6,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 4318,
+          "pct": 9.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 924,
+          "pct": 2.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 270,
+          "pct": 0.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 1305,
+          "pct": 2.8,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 52,
+          "pct": 0.1,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 58,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 262,
+          "pct": 0.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 69151,
+        "poverty_count": 864,
+        "poverty_pct": 1.8
+      },
+      "education": {
+        "bachelors_or_higher": 15414,
+        "bachelors_only": 8620,
+        "masters": 4844,
+        "professional": 1133,
+        "doctorate": 817
+      }
+    },
+    "Prescott Valley town, Arizona": {
+      "state": "AZ",
+      "fips": "0457450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 48048,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 35176,
+          "pct": 73.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 9545,
+          "pct": 19.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 507,
+          "pct": 1.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 216,
+          "pct": 0.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 1902,
+          "pct": 4.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 128,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 88,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 486,
+          "pct": 1.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 70793,
+        "poverty_count": 1513,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 8414,
+        "bachelors_only": 4898,
+        "masters": 2784,
+        "professional": 397,
+        "doctorate": 335
+      }
+    },
+    "Queen Creek town, Arizona": {
+      "state": "AZ",
+      "fips": "0458150",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 66369,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 47769,
+          "pct": 72.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 11180,
+          "pct": 16.8,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1859,
+          "pct": 2.8,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 2002,
+          "pct": 3.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 2664,
+          "pct": 4.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 396,
+          "pct": 0.6,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 310,
+          "pct": 0.5,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 189,
+          "pct": 0.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 134719,
+        "poverty_count": 755,
+        "poverty_pct": 1.1
+      },
+      "education": {
+        "bachelors_or_higher": 18689,
+        "bachelors_only": 12514,
+        "masters": 4590,
+        "professional": 946,
+        "doctorate": 639
+      }
+    },
+    "Safford city, Arizona": {
+      "state": "AZ",
+      "fips": "0462000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10217,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5105,
+          "pct": 50.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 4772,
+          "pct": 46.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 67,
+          "pct": 0.7,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 22,
+          "pct": 0.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 222,
+          "pct": 2.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 25,
+          "pct": 0.2,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 4,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 65727,
+        "poverty_count": 180,
+        "poverty_pct": 1.8
+      },
+      "education": {
+        "bachelors_or_higher": 1182,
+        "bachelors_only": 841,
+        "masters": 311,
+        "professional": 30,
+        "doctorate": 0
+      }
+    },
+    "Sahuarita town, Arizona": {
+      "state": "AZ",
+      "fips": "0462140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 35012,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19591,
+          "pct": 56.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 12606,
+          "pct": 36.0,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 347,
+          "pct": 1.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 968,
+          "pct": 2.8,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 1129,
+          "pct": 3.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 296,
+          "pct": 0.8,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 48,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 27,
+          "pct": 0.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 100719,
+        "poverty_count": 793,
+        "poverty_pct": 2.3
+      },
+      "education": {
+        "bachelors_or_higher": 9527,
+        "bachelors_only": 5328,
+        "masters": 3272,
+        "professional": 502,
+        "doctorate": 425
+      }
+    },
+    "San Luis city, Arizona": {
+      "state": "AZ",
+      "fips": "0463470",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 35998,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1521,
+          "pct": 4.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 33473,
+          "pct": 93.0,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 27,
+          "pct": 0.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 578,
+          "pct": 1.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 138,
+          "pct": 0.4,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 261,
+          "pct": 0.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 57364,
+        "poverty_count": 2551,
+        "poverty_pct": 7.1
+      },
+      "education": {
+        "bachelors_or_higher": 2068,
+        "bachelors_only": 1700,
+        "masters": 264,
+        "professional": 104,
+        "doctorate": 0
+      }
+    },
+    "Scottsdale city, Arizona": {
+      "state": "AZ",
+      "fips": "0465000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 242169,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 190487,
+          "pct": 78.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 22777,
+          "pct": 9.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12258,
+          "pct": 5.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 4689,
+          "pct": 1.9,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 8698,
+          "pct": 3.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 1336,
+          "pct": 0.6,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 315,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1609,
+          "pct": 0.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 107372,
+        "poverty_count": 2899,
+        "poverty_pct": 1.2
+      },
+      "education": {
+        "bachelors_or_higher": 118132,
+        "bachelors_only": 71323,
+        "masters": 29873,
+        "professional": 11071,
+        "doctorate": 5865
+      }
+    },
+    "Sedona city, Arizona": {
+      "state": "AZ",
+      "fips": "0465350",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9770,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7168,
+          "pct": 73.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1940,
+          "pct": 19.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 283,
+          "pct": 2.9,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 77,
+          "pct": 0.8,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 199,
+          "pct": 2.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 48,
+          "pct": 0.5,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 55,
+          "pct": 0.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 67374,
+        "poverty_count": 169,
+        "poverty_pct": 1.7
+      },
+      "education": {
+        "bachelors_or_higher": 4344,
+        "bachelors_only": 2167,
+        "masters": 1313,
+        "professional": 574,
+        "doctorate": 290
+      }
+    },
+    "Show Low city, Arizona": {
+      "state": "AZ",
+      "fips": "0466470",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11913,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9114,
+          "pct": 76.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1783,
+          "pct": 15.0,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 112,
+          "pct": 0.9,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 55,
+          "pct": 0.5,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 600,
+          "pct": 5.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 249,
+          "pct": 2.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 63376,
+        "poverty_count": 291,
+        "poverty_pct": 2.4
+      },
+      "education": {
+        "bachelors_or_higher": 2492,
+        "bachelors_only": 1634,
+        "masters": 629,
+        "professional": 127,
+        "doctorate": 102
+      }
+    },
+    "Sierra Vista city, Arizona": {
+      "state": "AZ",
+      "fips": "0466820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 45203,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 26316,
+          "pct": 58.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 10099,
+          "pct": 22.3,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1740,
+          "pct": 3.8,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 3127,
+          "pct": 6.9,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 3259,
+          "pct": 7.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 238,
+          "pct": 0.5,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 259,
+          "pct": 0.6,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 165,
+          "pct": 0.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 69783,
+        "poverty_count": 1143,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 10836,
+        "bachelors_only": 6520,
+        "masters": 3315,
+        "professional": 473,
+        "doctorate": 528
+      }
+    },
+    "Somerton city, Arizona": {
+      "state": "AZ",
+      "fips": "0468080",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14383,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 539,
+          "pct": 3.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 13716,
+          "pct": 95.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 42,
+          "pct": 0.3,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 31,
+          "pct": 0.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 55,
+          "pct": 0.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 71825,
+        "poverty_count": 776,
+        "poverty_pct": 5.4
+      },
+      "education": {
+        "bachelors_or_higher": 1367,
+        "bachelors_only": 887,
+        "masters": 480,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Surprise city, Arizona": {
+      "state": "AZ",
+      "fips": "0471510",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 149519,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 100064,
+          "pct": 66.9,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 28767,
+          "pct": 19.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3678,
+          "pct": 2.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 6820,
+          "pct": 4.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 7473,
+          "pct": 5.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 1177,
+          "pct": 0.8,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 409,
+          "pct": 0.3,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1131,
+          "pct": 0.8,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 93371,
+        "poverty_count": 3208,
+        "poverty_pct": 2.1
+      },
+      "education": {
+        "bachelors_or_higher": 31964,
+        "bachelors_only": 20482,
+        "masters": 8694,
+        "professional": 1760,
+        "doctorate": 1028
+      }
+    },
+    "Tempe city, Arizona": {
+      "state": "AZ",
+      "fips": "0473000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 186419,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 97620,
+          "pct": 52.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 43081,
+          "pct": 23.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17339,
+          "pct": 9.3,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 13865,
+          "pct": 7.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 9258,
+          "pct": 5.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 1241,
+          "pct": 0.7,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 774,
+          "pct": 0.4,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 3241,
+          "pct": 1.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 77643,
+        "poverty_count": 4204,
+        "poverty_pct": 2.3
+      },
+      "education": {
+        "bachelors_or_higher": 58502,
+        "bachelors_only": 34164,
+        "masters": 16852,
+        "professional": 3120,
+        "doctorate": 4366
+      }
+    },
+    "Tolleson city, Arizona": {
+      "state": "AZ",
+      "fips": "0474190",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7233,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 690,
+          "pct": 9.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 5683,
+          "pct": 78.6,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 475,
+          "pct": 6.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 258,
+          "pct": 3.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 65,
+          "pct": 0.9,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 62,
+          "pct": 0.9,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 55015,
+        "poverty_count": 688,
+        "poverty_pct": 9.5
+      },
+      "education": {
+        "bachelors_or_higher": 441,
+        "bachelors_only": 416,
+        "masters": 25,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Tucson city, Arizona": {
+      "state": "AZ",
+      "fips": "0477000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 543348,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 237250,
+          "pct": 43.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 232048,
+          "pct": 42.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16418,
+          "pct": 3.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 25104,
+          "pct": 4.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 22145,
+          "pct": 4.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 1695,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 1232,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 7456,
+          "pct": 1.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 54546,
+        "poverty_count": 23854,
+        "poverty_pct": 4.4
+      },
+      "education": {
+        "bachelors_or_higher": 106699,
+        "bachelors_only": 62638,
+        "masters": 31660,
+        "professional": 5638,
+        "doctorate": 6763
+      }
+    },
+    "Wickenburg town, Arizona": {
+      "state": "AZ",
+      "fips": "0482740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7468,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6521,
+          "pct": 87.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 608,
+          "pct": 8.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 47,
+          "pct": 0.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 186,
+          "pct": 2.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 90,
+          "pct": 1.2,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 65253,
+        "poverty_count": 229,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 2316,
+        "bachelors_only": 1195,
+        "masters": 885,
+        "professional": 171,
+        "doctorate": 65
+      }
+    },
+    "Winslow city, Arizona": {
+      "state": "AZ",
+      "fips": "0483930",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8831,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1904,
+          "pct": 21.6,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 3127,
+          "pct": 35.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 34,
+          "pct": 0.4,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 328,
+          "pct": 3.7,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 284,
+          "pct": 3.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 1,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 31,
+          "pct": 0.4,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 3122,
+          "pct": 35.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 53114,
+        "poverty_count": 798,
+        "poverty_pct": 9.0
+      },
+      "education": {
+        "bachelors_or_higher": 501,
+        "bachelors_only": 291,
+        "masters": 136,
+        "professional": 47,
+        "doctorate": 27
+      }
+    },
+    "Yuma city, Arizona": {
+      "state": "AZ",
+      "fips": "0485540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 98461,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30906,
+          "pct": 31.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 60120,
+          "pct": 61.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1890,
+          "pct": 1.9,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 1627,
+          "pct": 1.7,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 2935,
+          "pct": 3.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 228,
+          "pct": 0.2,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 65,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 690,
+          "pct": 0.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 62546,
+        "poverty_count": 4859,
+        "poverty_pct": 4.9
+      },
+      "education": {
+        "bachelors_or_higher": 12492,
+        "bachelors_only": 7726,
+        "masters": 3766,
+        "professional": 686,
+        "doctorate": 314
+      }
+    },
+    "Benson city, Arizona": {
+      "state": "AZ",
+      "fips": "0405770",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5331,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4054,
+          "pct": 76.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 790,
+          "pct": 14.8,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.3,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 20,
+          "pct": 0.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 396,
+          "pct": 7.4,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 53,
+          "pct": 1.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 48854,
+        "poverty_count": 43,
+        "poverty_pct": 0.8
+      },
+      "education": {
+        "bachelors_or_higher": 1012,
+        "bachelors_only": 825,
+        "masters": 141,
+        "professional": 15,
+        "doctorate": 31
+      }
+    },
+    "Bisbee city, Arizona": {
+      "state": "AZ",
+      "fips": "0406260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4963,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3253,
+          "pct": 65.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1463,
+          "pct": 29.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 43,
+          "pct": 0.9,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 178,
+          "pct": 3.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 1,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 25,
+          "pct": 0.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 46689,
+        "poverty_count": 248,
+        "poverty_pct": 5.0
+      },
+      "education": {
+        "bachelors_or_higher": 1379,
+        "bachelors_only": 870,
+        "masters": 388,
+        "professional": 88,
+        "doctorate": 33
+      }
+    },
+    "Carefree town, Arizona": {
+      "state": "AZ",
+      "fips": "0410180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3672,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3543,
+          "pct": 96.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 38,
+          "pct": 1.0,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 64,
+          "pct": 1.7,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 24,
+          "pct": 0.7,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 3,
+          "pct": 0.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 141331,
+        "poverty_count": 0,
+        "poverty_pct": 0.0
+      },
+      "education": {
+        "bachelors_or_higher": 2113,
+        "bachelors_only": 1358,
+        "masters": 523,
+        "professional": 119,
+        "doctorate": 113
+      }
+    },
+    "Cave Creek town, Arizona": {
+      "state": "AZ",
+      "fips": "0411300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5033,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4489,
+          "pct": 89.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 116,
+          "pct": 2.3,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 70,
+          "pct": 1.4,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 76,
+          "pct": 1.5,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 211,
+          "pct": 4.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 51,
+          "pct": 1.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 20,
+          "pct": 0.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 102589,
+        "poverty_count": 0,
+        "poverty_pct": 0.0
+      },
+      "education": {
+        "bachelors_or_higher": 2133,
+        "bachelors_only": 1128,
+        "masters": 568,
+        "professional": 288,
+        "doctorate": 149
+      }
+    },
+    "Clarkdale town, Arizona": {
+      "state": "AZ",
+      "fips": "0413890",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4642,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3806,
+          "pct": 82.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 621,
+          "pct": 13.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 5,
+          "pct": 0.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 121,
+          "pct": 2.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 81,
+          "pct": 1.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 32607,
+        "poverty_count": 198,
+        "poverty_pct": 4.3
+      },
+      "education": {
+        "bachelors_or_higher": 994,
+        "bachelors_only": 611,
+        "masters": 334,
+        "professional": 36,
+        "doctorate": 13
+      }
+    },
+    "Clifton town, Arizona": {
+      "state": "AZ",
+      "fips": "0414380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3845,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1429,
+          "pct": 37.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 2100,
+          "pct": 54.6,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 31,
+          "pct": 0.8,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 5,
+          "pct": 0.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 5,
+          "pct": 0.1,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 275,
+          "pct": 7.2,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 84457,
+        "poverty_count": 165,
+        "poverty_pct": 4.3
+      },
+      "education": {
+        "bachelors_or_higher": 374,
+        "bachelors_only": 340,
+        "masters": 34,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Colorado City town, Arizona": {
+      "state": "AZ",
+      "fips": "0414870",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2598,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2582,
+          "pct": 99.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 16,
+          "pct": 0.6,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 75234,
+        "poverty_count": 378,
+        "poverty_pct": 14.5
+      },
+      "education": {
+        "bachelors_or_higher": 145,
+        "bachelors_only": 124,
+        "masters": 21,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Dewey-Humboldt town, Arizona": {
+      "state": "AZ",
+      "fips": "0419145",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4428,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3717,
+          "pct": 83.9,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 517,
+          "pct": 11.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 1,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 153,
+          "pct": 3.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 13,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 27,
+          "pct": 0.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 64183,
+        "poverty_count": 111,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 733,
+        "bachelors_only": 531,
+        "masters": 159,
+        "professional": 23,
+        "doctorate": 20
+      }
+    },
+    "Duncan town, Arizona": {
+      "state": "AZ",
+      "fips": "0420750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1063,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 638,
+          "pct": 60.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 354,
+          "pct": 33.3,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 54,
+          "pct": 5.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 17,
+          "pct": 1.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 38750,
+        "poverty_count": 134,
+        "poverty_pct": 12.6
+      },
+      "education": {
+        "bachelors_or_higher": 90,
+        "bachelors_only": 61,
+        "masters": 19,
+        "professional": 0,
+        "doctorate": 10
+      }
+    },
+    "Eagar town, Arizona": {
+      "state": "AZ",
+      "fips": "0420960",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4410,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3558,
+          "pct": 80.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 522,
+          "pct": 11.8,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 87,
+          "pct": 2.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 243,
+          "pct": 5.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 81667,
+        "poverty_count": 134,
+        "poverty_pct": 3.0
+      },
+      "education": {
+        "bachelors_or_higher": 843,
+        "bachelors_only": 460,
+        "masters": 333,
+        "professional": 50,
+        "doctorate": 0
+      }
+    },
+    "Fredonia town, Arizona": {
+      "state": "AZ",
+      "fips": "0425720",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1084,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 768,
+          "pct": 70.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 107,
+          "pct": 9.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 1.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 6,
+          "pct": 0.6,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 192,
+          "pct": 17.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 60476,
+        "poverty_count": 5,
+        "poverty_pct": 0.5
+      },
+      "education": {
+        "bachelors_or_higher": 55,
+        "bachelors_only": 37,
+        "masters": 18,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Gila Bend town, Arizona": {
+      "state": "AZ",
+      "fips": "0427050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1871,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 376,
+          "pct": 20.1,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1307,
+          "pct": 69.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 188,
+          "pct": 10.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 49786,
+        "poverty_count": 207,
+        "poverty_pct": 11.1
+      },
+      "education": {
+        "bachelors_or_higher": 85,
+        "bachelors_only": 61,
+        "masters": 24,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Guadalupe town, Arizona": {
+      "state": "AZ",
+      "fips": "0430270",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5293,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 133,
+          "pct": 2.5,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 4138,
+          "pct": 78.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 57,
+          "pct": 1.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 72,
+          "pct": 1.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 40,
+          "pct": 0.8,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 10,
+          "pct": 0.2,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 843,
+          "pct": 15.9,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 58507,
+        "poverty_count": 489,
+        "poverty_pct": 9.2
+      },
+      "education": {
+        "bachelors_or_higher": 374,
+        "bachelors_only": 214,
+        "masters": 148,
+        "professional": 12,
+        "doctorate": 0
+      }
+    },
+    "Holbrook city, Arizona": {
+      "state": "AZ",
+      "fips": "0433280",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4834,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1509,
+          "pct": 31.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1455,
+          "pct": 30.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 217,
+          "pct": 4.5,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 155,
+          "pct": 3.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 8,
+          "pct": 0.2,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 13,
+          "pct": 0.3,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 1474,
+          "pct": 30.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 61979,
+        "poverty_count": 278,
+        "poverty_pct": 5.8
+      },
+      "education": {
+        "bachelors_or_higher": 361,
+        "bachelors_only": 185,
+        "masters": 137,
+        "professional": 21,
+        "doctorate": 18
+      }
+    },
+    "Huachuca City town, Arizona": {
+      "state": "AZ",
+      "fips": "0434120",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1808,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1271,
+          "pct": 70.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 299,
+          "pct": 16.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 28,
+          "pct": 1.5,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 7,
+          "pct": 0.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 149,
+          "pct": 8.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 25,
+          "pct": 1.4,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 29,
+          "pct": 1.6,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 47621,
+        "poverty_count": 115,
+        "poverty_pct": 6.4
+      },
+      "education": {
+        "bachelors_or_higher": 188,
+        "bachelors_only": 123,
+        "masters": 48,
+        "professional": 0,
+        "doctorate": 17
+      }
+    },
+    "Kearny town, Arizona": {
+      "state": "AZ",
+      "fips": "0437200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2245,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1324,
+          "pct": 59.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 887,
+          "pct": 39.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 34,
+          "pct": 1.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 49688,
+        "poverty_count": 101,
+        "poverty_pct": 4.5
+      },
+      "education": {
+        "bachelors_or_higher": 92,
+        "bachelors_only": 66,
+        "masters": 26,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Litchfield Park city, Arizona": {
+      "state": "AZ",
+      "fips": "0441330",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6871,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4474,
+          "pct": 65.1,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1443,
+          "pct": 21.0,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 462,
+          "pct": 6.7,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 136,
+          "pct": 2.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 268,
+          "pct": 3.9,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 57,
+          "pct": 0.8,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 25,
+          "pct": 0.4,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 6,
+          "pct": 0.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 124973,
+        "poverty_count": 15,
+        "poverty_pct": 0.2
+      },
+      "education": {
+        "bachelors_or_higher": 2691,
+        "bachelors_only": 1514,
+        "masters": 951,
+        "professional": 162,
+        "doctorate": 64
+      }
+    },
+    "Mammoth town, Arizona": {
+      "state": "AZ",
+      "fips": "0443990",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1015,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 288,
+          "pct": 28.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 703,
+          "pct": 69.3,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 10,
+          "pct": 1.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 4,
+          "pct": 0.4,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 10,
+          "pct": 1.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 46719,
+        "poverty_count": 44,
+        "poverty_pct": 4.3
+      },
+      "education": {
+        "bachelors_or_higher": 79,
+        "bachelors_only": 27,
+        "masters": 29,
+        "professional": 0,
+        "doctorate": 23
+      }
+    },
+    "Miami town, Arizona": {
+      "state": "AZ",
+      "fips": "0446350",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1436,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 509,
+          "pct": 35.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 624,
+          "pct": 43.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.3,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 13,
+          "pct": 0.9,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 227,
+          "pct": 15.8,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 59,
+          "pct": 4.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 44286,
+        "poverty_count": 175,
+        "poverty_pct": 12.2
+      },
+      "education": {
+        "bachelors_or_higher": 166,
+        "bachelors_only": 138,
+        "masters": 28,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Parker town, Arizona": {
+      "state": "AZ",
+      "fips": "0453070",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3379,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1035,
+          "pct": 30.6,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1515,
+          "pct": 44.8,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 78,
+          "pct": 2.3,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 8,
+          "pct": 0.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 172,
+          "pct": 5.1,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 1,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 570,
+          "pct": 16.9,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 74643,
+        "poverty_count": 78,
+        "poverty_pct": 2.3
+      },
+      "education": {
+        "bachelors_or_higher": 508,
+        "bachelors_only": 349,
+        "masters": 132,
+        "professional": 16,
+        "doctorate": 11
+      }
+    },
+    "Pima town, Arizona": {
+      "state": "AZ",
+      "fips": "0455560",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2910,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2232,
+          "pct": 76.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 462,
+          "pct": 15.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 124,
+          "pct": 4.3,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 92,
+          "pct": 3.2,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 97238,
+        "poverty_count": 14,
+        "poverty_pct": 0.5
+      },
+      "education": {
+        "bachelors_or_higher": 309,
+        "bachelors_only": 236,
+        "masters": 65,
+        "professional": 0,
+        "doctorate": 8
+      }
+    },
+    "Pinetop-Lakeside town, Arizona": {
+      "state": "AZ",
+      "fips": "0455980",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4103,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3146,
+          "pct": 76.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 454,
+          "pct": 11.1,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 35,
+          "pct": 0.9,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 273,
+          "pct": 6.7,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 195,
+          "pct": 4.8,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 52207,
+        "poverty_count": 80,
+        "poverty_pct": 1.9
+      },
+      "education": {
+        "bachelors_or_higher": 1106,
+        "bachelors_only": 528,
+        "masters": 467,
+        "professional": 78,
+        "doctorate": 33
+      }
+    },
+    "Quartzsite town, Arizona": {
+      "state": "AZ",
+      "fips": "0458010",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1805,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1267,
+          "pct": 70.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 445,
+          "pct": 24.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 49,
+          "pct": 2.7,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 44,
+          "pct": 2.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 24359,
+        "poverty_count": 0,
+        "poverty_pct": 0.0
+      },
+      "education": {
+        "bachelors_or_higher": 448,
+        "bachelors_only": 304,
+        "masters": 144,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "St. Johns city, Arizona": {
+      "state": "AZ",
+      "fips": "0462350",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3409,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2351,
+          "pct": 69.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 741,
+          "pct": 21.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 226,
+          "pct": 6.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 68,
+          "pct": 2.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 8,
+          "pct": 0.2,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 15,
+          "pct": 0.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 128920,
+        "poverty_count": 100,
+        "poverty_pct": 2.9
+      },
+      "education": {
+        "bachelors_or_higher": 602,
+        "bachelors_only": 351,
+        "masters": 251,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Snowflake town, Arizona": {
+      "state": "AZ",
+      "fips": "0467800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6349,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5063,
+          "pct": 79.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 564,
+          "pct": 8.9,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 323,
+          "pct": 5.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 340,
+          "pct": 5.4,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 59,
+          "pct": 0.9,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 72753,
+        "poverty_count": 182,
+        "poverty_pct": 2.9
+      },
+      "education": {
+        "bachelors_or_higher": 865,
+        "bachelors_only": 504,
+        "masters": 303,
+        "professional": 58,
+        "doctorate": 0
+      }
+    },
+    "South Tucson city, Arizona": {
+      "state": "AZ",
+      "fips": "0468850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4601,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 388,
+          "pct": 8.4,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 3440,
+          "pct": 74.8,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 143,
+          "pct": 3.1,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 30,
+          "pct": 0.7,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 16,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 576,
+          "pct": 12.5,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 33734,
+        "poverty_count": 462,
+        "poverty_pct": 10.0
+      },
+      "education": {
+        "bachelors_or_higher": 231,
+        "bachelors_only": 129,
+        "masters": 58,
+        "professional": 28,
+        "doctorate": 16
+      }
+    },
+    "Springerville town, Arizona": {
+      "state": "AZ",
+      "fips": "0468990",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1847,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1243,
+          "pct": 67.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 524,
+          "pct": 28.4,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 4,
+          "pct": 0.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 44,
+          "pct": 2.4,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 31,
+          "pct": 1.7,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 49886,
+        "poverty_count": 27,
+        "poverty_pct": 1.5
+      },
+      "education": {
+        "bachelors_or_higher": 328,
+        "bachelors_only": 210,
+        "masters": 57,
+        "professional": 15,
+        "doctorate": 46
+      }
+    },
+    "Star Valley town, Arizona": {
+      "state": "AZ",
+      "fips": "0469480",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2517,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2355,
+          "pct": 93.6,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 82,
+          "pct": 3.3,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 1,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 44,
+          "pct": 1.7,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 35,
+          "pct": 1.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 66075,
+        "poverty_count": 0,
+        "poverty_pct": 0.0
+      },
+      "education": {
+        "bachelors_or_higher": 447,
+        "bachelors_only": 292,
+        "masters": 138,
+        "professional": 17,
+        "doctorate": 0
+      }
+    },
+    "Superior town, Arizona": {
+      "state": "AZ",
+      "fips": "0471300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2470,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 829,
+          "pct": 33.6,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1475,
+          "pct": 59.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 93,
+          "pct": 3.8,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 15,
+          "pct": 0.6,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 42,
+          "pct": 1.7,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 8,
+          "pct": 0.3,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 8,
+          "pct": 0.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 42050,
+        "poverty_count": 37,
+        "poverty_pct": 1.5
+      },
+      "education": {
+        "bachelors_or_higher": 406,
+        "bachelors_only": 276,
+        "masters": 116,
+        "professional": 8,
+        "doctorate": 6
+      }
+    },
+    "Taylor town, Arizona": {
+      "state": "AZ",
+      "fips": "0472420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4091,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3550,
+          "pct": 86.8,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 306,
+          "pct": 7.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 108,
+          "pct": 2.6,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 127,
+          "pct": 3.1,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 69945,
+        "poverty_count": 140,
+        "poverty_pct": 3.4
+      },
+      "education": {
+        "bachelors_or_higher": 573,
+        "bachelors_only": 440,
+        "masters": 133,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Thatcher town, Arizona": {
+      "state": "AZ",
+      "fips": "0473420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5354,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4134,
+          "pct": 77.2,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1080,
+          "pct": 20.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 44,
+          "pct": 0.8,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 9,
+          "pct": 0.2,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 25,
+          "pct": 0.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 32,
+          "pct": 0.6,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 6,
+          "pct": 0.1,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 24,
+          "pct": 0.4,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 77455,
+        "poverty_count": 118,
+        "poverty_pct": 2.2
+      },
+      "education": {
+        "bachelors_or_higher": 682,
+        "bachelors_only": 369,
+        "masters": 233,
+        "professional": 29,
+        "doctorate": 51
+      }
+    },
+    "Tombstone city, Arizona": {
+      "state": "AZ",
+      "fips": "0474400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1022,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 810,
+          "pct": 79.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 138,
+          "pct": 13.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 74,
+          "pct": 7.2,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 54792,
+        "poverty_count": 10,
+        "poverty_pct": 1.0
+      },
+      "education": {
+        "bachelors_or_higher": 144,
+        "bachelors_only": 95,
+        "masters": 44,
+        "professional": 5,
+        "doctorate": 0
+      }
+    },
+    "Wellton town, Arizona": {
+      "state": "AZ",
+      "fips": "0481480",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2470,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1877,
+          "pct": 76.0,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 412,
+          "pct": 16.7,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 18,
+          "pct": 0.7,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 155,
+          "pct": 6.3,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 8,
+          "pct": 0.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 51938,
+        "poverty_count": 0,
+        "poverty_pct": 0.0
+      },
+      "education": {
+        "bachelors_or_higher": 428,
+        "bachelors_only": 271,
+        "masters": 106,
+        "professional": 43,
+        "doctorate": 8
+      }
+    },
+    "Willcox city, Arizona": {
+      "state": "AZ",
+      "fips": "0483090",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3236,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1163,
+          "pct": 35.9,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1959,
+          "pct": 60.5,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.2,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 14,
+          "pct": 0.4,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 95,
+          "pct": 2.9,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 40750,
+        "poverty_count": 154,
+        "poverty_pct": 4.8
+      },
+      "education": {
+        "bachelors_or_higher": 205,
+        "bachelors_only": 152,
+        "masters": 16,
+        "professional": 33,
+        "doctorate": 4
+      }
+    },
+    "Williams city, Arizona": {
+      "state": "AZ",
+      "fips": "0483160",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3322,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1970,
+          "pct": 59.3,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 1116,
+          "pct": 33.6,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 1.1,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 43,
+          "pct": 1.3,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 132,
+          "pct": 4.0,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 26,
+          "pct": 0.8,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 66183,
+        "poverty_count": 103,
+        "poverty_pct": 3.1
+      },
+      "education": {
+        "bachelors_or_higher": 483,
+        "bachelors_only": 323,
+        "masters": 123,
+        "professional": 28,
+        "doctorate": 9
+      }
+    },
+    "Youngtown town, Arizona": {
+      "state": "AZ",
+      "fips": "0485400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6985,
+        "voting_age": 0,
+        "voting_age_pct": 0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3191,
+          "pct": 45.7,
+          "color": "#4fc3f7"
+        },
+        {
+          "group": "Hispanic/Latino",
+          "count": 3089,
+          "pct": 44.2,
+          "color": "#ffab40"
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 124,
+          "pct": 1.8,
+          "color": "#66bb6a"
+        },
+        {
+          "group": "Black/African American",
+          "count": 120,
+          "pct": 1.7,
+          "color": "#ff5252"
+        },
+        {
+          "group": "Two or More Races",
+          "count": 383,
+          "pct": 5.5,
+          "color": "#ce93d8"
+        },
+        {
+          "group": "Other Race",
+          "count": 0,
+          "pct": 0.0,
+          "color": "#8888aa"
+        },
+        {
+          "group": "Native Hawaiian/Pacific Islander",
+          "count": 58,
+          "pct": 0.8,
+          "color": "#80cbc4"
+        },
+        {
+          "group": "American Indian/Alaska Native",
+          "count": 20,
+          "pct": 0.3,
+          "color": "#a1887f"
+        }
+      ],
+      "economics": {
+        "median_household_income": 68472,
+        "poverty_count": 56,
+        "poverty_pct": 0.8
+      },
+      "education": {
+        "bachelors_or_higher": 696,
+        "bachelors_only": 472,
+        "masters": 197,
+        "professional": 4,
+        "doctorate": 23
+      }
+    }
+  }
+}

@@ -1,0 +1,3059 @@
+{
+  "cities": {
+    "Fargo city, North Dakota": {
+      "state": "ND",
+      "fips": "3825700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 129064,
+        "voting_age": 103727,
+        "voting_age_pct": 80.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 102854,
+          "pct": 79.69
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10673,
+          "pct": 8.27
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1126,
+          "pct": 0.87
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4941,
+          "pct": 3.83
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 387,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4323,
+          "pct": 3.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4756,
+          "pct": 3.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 66029,
+        "poverty_count": 3409,
+        "poverty_pct": 2.64
+      },
+      "education": {
+        "bachelors_or_higher": 35051,
+        "bachelors_only": 23527,
+        "masters": 8022,
+        "professional": 1632,
+        "doctorate": 1870
+      }
+    },
+    "Bismarck city, North Dakota": {
+      "state": "ND",
+      "fips": "3807200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 74146,
+        "voting_age": 57879,
+        "voting_age_pct": 78.06
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 62282,
+          "pct": 84
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1698,
+          "pct": 2.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3322,
+          "pct": 4.48
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 764,
+          "pct": 1.03
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 255,
+          "pct": 0.34
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 143,
+          "pct": 0.19
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3328,
+          "pct": 4.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2354,
+          "pct": 3.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 77608,
+        "poverty_count": 1356,
+        "poverty_pct": 1.83
+      },
+      "education": {
+        "bachelors_or_higher": 19821,
+        "bachelors_only": 13770,
+        "masters": 4645,
+        "professional": 1007,
+        "doctorate": 399
+      }
+    },
+    "Grand Forks city, North Dakota": {
+      "state": "ND",
+      "fips": "3832060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 58882,
+        "voting_age": 47422,
+        "voting_age_pct": 80.54
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 47466,
+          "pct": 80.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2342,
+          "pct": 3.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1144,
+          "pct": 1.94
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1872,
+          "pct": 3.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 360,
+          "pct": 0.61
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 129,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2420,
+          "pct": 4.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3149,
+          "pct": 5.35
+        }
+      ],
+      "economics": {
+        "median_household_income": 63838,
+        "poverty_count": 1378,
+        "poverty_pct": 2.34
+      },
+      "education": {
+        "bachelors_or_higher": 13405,
+        "bachelors_only": 8240,
+        "masters": 3004,
+        "professional": 828,
+        "doctorate": 1333
+      }
+    },
+    "Minot city, North Dakota": {
+      "state": "ND",
+      "fips": "3853380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 47922,
+        "voting_age": 37797,
+        "voting_age_pct": 78.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 38052,
+          "pct": 79.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2256,
+          "pct": 4.71
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 776,
+          "pct": 1.62
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 904,
+          "pct": 1.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 34,
+          "pct": 0.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 61,
+          "pct": 0.13
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2379,
+          "pct": 4.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3460,
+          "pct": 7.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 77431,
+        "poverty_count": 535,
+        "poverty_pct": 1.12
+      },
+      "education": {
+        "bachelors_or_higher": 9503,
+        "bachelors_only": 6615,
+        "masters": 2172,
+        "professional": 427,
+        "doctorate": 289
+      }
+    },
+    "West Fargo city, North Dakota": {
+      "state": "ND",
+      "fips": "3884780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39325,
+        "voting_age": 28782,
+        "voting_age_pct": 73.19
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 33795,
+          "pct": 85.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1423,
+          "pct": 3.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 357,
+          "pct": 0.91
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 838,
+          "pct": 2.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 79,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1942,
+          "pct": 4.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 891,
+          "pct": 2.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 96877,
+        "poverty_count": 413,
+        "poverty_pct": 1.05
+      },
+      "education": {
+        "bachelors_or_higher": 11186,
+        "bachelors_only": 7299,
+        "masters": 2695,
+        "professional": 584,
+        "doctorate": 608
+      }
+    },
+    "Williston city, North Dakota": {
+      "state": "ND",
+      "fips": "3886220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 27964,
+        "voting_age": 19793,
+        "voting_age_pct": 70.78
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20952,
+          "pct": 74.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1993,
+          "pct": 7.13
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 496,
+          "pct": 1.77
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 439,
+          "pct": 1.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 44,
+          "pct": 0.16
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1265,
+          "pct": 4.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2758,
+          "pct": 9.86
+        }
+      ],
+      "economics": {
+        "median_household_income": 84309,
+        "poverty_count": 818,
+        "poverty_pct": 2.93
+      },
+      "education": {
+        "bachelors_or_higher": 4513,
+        "bachelors_only": 2865,
+        "masters": 1405,
+        "professional": 142,
+        "doctorate": 101
+      }
+    },
+    "Dickinson city, North Dakota": {
+      "state": "ND",
+      "fips": "3819620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 25216,
+        "voting_age": 18427,
+        "voting_age_pct": 73.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20935,
+          "pct": 83.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 752,
+          "pct": 2.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 230,
+          "pct": 0.91
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 395,
+          "pct": 1.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 174,
+          "pct": 0.69
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 36,
+          "pct": 0.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 584,
+          "pct": 2.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2110,
+          "pct": 8.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 76964,
+        "poverty_count": 494,
+        "poverty_pct": 1.96
+      },
+      "education": {
+        "bachelors_or_higher": 4409,
+        "bachelors_only": 3385,
+        "masters": 796,
+        "professional": 115,
+        "doctorate": 113
+      }
+    },
+    "Mandan city, North Dakota": {
+      "state": "ND",
+      "fips": "3849900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 24293,
+        "voting_age": 18652,
+        "voting_age_pct": 76.78
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20638,
+          "pct": 84.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 580,
+          "pct": 2.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 971,
+          "pct": 4
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 65,
+          "pct": 0.27
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 26,
+          "pct": 0.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 130,
+          "pct": 0.54
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 583,
+          "pct": 2.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1300,
+          "pct": 5.35
+        }
+      ],
+      "economics": {
+        "median_household_income": 75966,
+        "poverty_count": 319,
+        "poverty_pct": 1.31
+      },
+      "education": {
+        "bachelors_or_higher": 5030,
+        "bachelors_only": 4001,
+        "masters": 766,
+        "professional": 183,
+        "doctorate": 80
+      }
+    },
+    "Jamestown city, North Dakota": {
+      "state": "ND",
+      "fips": "3840580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15774,
+        "voting_age": 12998,
+        "voting_age_pct": 82.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14134,
+          "pct": 89.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 435,
+          "pct": 2.76
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 218,
+          "pct": 1.38
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 107,
+          "pct": 0.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 19,
+          "pct": 0.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 269,
+          "pct": 1.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 589,
+          "pct": 3.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 54809,
+        "poverty_count": 168,
+        "poverty_pct": 1.07
+      },
+      "education": {
+        "bachelors_or_higher": 2428,
+        "bachelors_only": 1722,
+        "masters": 571,
+        "professional": 49,
+        "doctorate": 86
+      }
+    },
+    "Wahpeton city, North Dakota": {
+      "state": "ND",
+      "fips": "3882660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7996,
+        "voting_age": 6709,
+        "voting_age_pct": 83.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6918,
+          "pct": 86.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 146,
+          "pct": 1.83
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 210,
+          "pct": 2.63
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 19,
+          "pct": 0.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 41,
+          "pct": 0.51
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 262,
+          "pct": 3.28
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 400,
+          "pct": 5
+        }
+      ],
+      "economics": {
+        "median_household_income": 57417,
+        "poverty_count": 197,
+        "poverty_pct": 2.46
+      },
+      "education": {
+        "bachelors_or_higher": 1119,
+        "bachelors_only": 866,
+        "masters": 134,
+        "professional": 65,
+        "doctorate": 54
+      }
+    },
+    "Devils Lake city, North Dakota": {
+      "state": "ND",
+      "fips": "3819420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7170,
+        "voting_age": 5450,
+        "voting_age_pct": 76.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5557,
+          "pct": 77.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 84,
+          "pct": 1.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 948,
+          "pct": 13.22
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 93,
+          "pct": 1.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 13,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 228,
+          "pct": 3.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 247,
+          "pct": 3.44
+        }
+      ],
+      "economics": {
+        "median_household_income": 42755,
+        "poverty_count": 715,
+        "poverty_pct": 9.97
+      },
+      "education": {
+        "bachelors_or_higher": 1205,
+        "bachelors_only": 1047,
+        "masters": 111,
+        "professional": 47,
+        "doctorate": 0
+      }
+    },
+    "Valley City city, North Dakota": {
+      "state": "ND",
+      "fips": "3881180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6554,
+        "voting_age": 5103,
+        "voting_age_pct": 77.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5816,
+          "pct": 88.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 137,
+          "pct": 2.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 101,
+          "pct": 1.54
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 143,
+          "pct": 2.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 12,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 163,
+          "pct": 2.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 182,
+          "pct": 2.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 56471,
+        "poverty_count": 231,
+        "poverty_pct": 3.52
+      },
+      "education": {
+        "bachelors_or_higher": 1248,
+        "bachelors_only": 941,
+        "masters": 223,
+        "professional": 25,
+        "doctorate": 59
+      }
+    },
+    "Watford City city, North Dakota": {
+      "state": "ND",
+      "fips": "3883860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6016,
+        "voting_age": 4320,
+        "voting_age_pct": 71.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4083,
+          "pct": 67.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 145,
+          "pct": 2.41
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 180,
+          "pct": 2.99
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 56,
+          "pct": 0.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 183,
+          "pct": 3.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1369,
+          "pct": 22.76
+        }
+      ],
+      "economics": {
+        "median_household_income": 88351,
+        "poverty_count": 98,
+        "poverty_pct": 1.63
+      },
+      "education": {
+        "bachelors_or_higher": 1003,
+        "bachelors_only": 799,
+        "masters": 111,
+        "professional": 68,
+        "doctorate": 25
+      }
+    },
+    "Lincoln city, North Dakota": {
+      "state": "ND",
+      "fips": "3846640",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4309,
+        "voting_age": 2822,
+        "voting_age_pct": 65.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3566,
+          "pct": 82.76
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 140,
+          "pct": 3.25
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 244,
+          "pct": 5.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 359,
+          "pct": 8.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 83387,
+        "poverty_count": 72,
+        "poverty_pct": 1.67
+      },
+      "education": {
+        "bachelors_or_higher": 464,
+        "bachelors_only": 306,
+        "masters": 88,
+        "professional": 30,
+        "doctorate": 40
+      }
+    },
+    "Grafton city, North Dakota": {
+      "state": "ND",
+      "fips": "3831820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4128,
+        "voting_age": 3197,
+        "voting_age_pct": 77.45
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2896,
+          "pct": 70.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 31,
+          "pct": 0.75
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 42,
+          "pct": 1.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 69,
+          "pct": 1.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 122,
+          "pct": 2.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 968,
+          "pct": 23.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 60184,
+        "poverty_count": 45,
+        "poverty_pct": 1.09
+      },
+      "education": {
+        "bachelors_or_higher": 509,
+        "bachelors_only": 338,
+        "masters": 167,
+        "professional": 4,
+        "doctorate": 0
+      }
+    },
+    "Horace city, North Dakota": {
+      "state": "ND",
+      "fips": "3838900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3964,
+        "voting_age": 2500,
+        "voting_age_pct": 63.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3453,
+          "pct": 87.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 87,
+          "pct": 2.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 22,
+          "pct": 0.55
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 86,
+          "pct": 2.17
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 304,
+          "pct": 7.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 145801,
+        "poverty_count": 53,
+        "poverty_pct": 1.34
+      },
+      "education": {
+        "bachelors_or_higher": 1027,
+        "bachelors_only": 785,
+        "masters": 160,
+        "professional": 76,
+        "doctorate": 6
+      }
+    },
+    "Beulah city, North Dakota": {
+      "state": "ND",
+      "fips": "3806660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3058,
+        "voting_age": 2302,
+        "voting_age_pct": 75.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2701,
+          "pct": 88.33
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 60,
+          "pct": 1.96
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 31,
+          "pct": 1.01
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 102,
+          "pct": 3.34
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 164,
+          "pct": 5.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 84417,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 420,
+        "bachelors_only": 388,
+        "masters": 32,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "New Town city, North Dakota": {
+      "state": "ND",
+      "fips": "3856740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2725,
+        "voting_age": 1766,
+        "voting_age_pct": 64.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 342,
+          "pct": 12.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 131,
+          "pct": 4.81
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1776,
+          "pct": 65.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17,
+          "pct": 0.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 15,
+          "pct": 0.55
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 155,
+          "pct": 5.69
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 289,
+          "pct": 10.61
+        }
+      ],
+      "economics": {
+        "median_household_income": 50707,
+        "poverty_count": 137,
+        "poverty_pct": 5.03
+      },
+      "education": {
+        "bachelors_or_higher": 323,
+        "bachelors_only": 168,
+        "masters": 98,
+        "professional": 9,
+        "doctorate": 48
+      }
+    },
+    "Casselton city, North Dakota": {
+      "state": "ND",
+      "fips": "3812700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2640,
+        "voting_age": 1880,
+        "voting_age_pct": 71.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2427,
+          "pct": 91.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 39,
+          "pct": 1.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.38
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 27,
+          "pct": 1.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 137,
+          "pct": 5.19
+        }
+      ],
+      "economics": {
+        "median_household_income": 68472,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 601,
+        "bachelors_only": 389,
+        "masters": 161,
+        "professional": 4,
+        "doctorate": 47
+      }
+    },
+    "Rugby city, North Dakota": {
+      "state": "ND",
+      "fips": "3868860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2555,
+        "voting_age": 1982,
+        "voting_age_pct": 77.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2342,
+          "pct": 91.66
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11,
+          "pct": 0.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 115,
+          "pct": 4.5
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 54,
+          "pct": 2.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 23,
+          "pct": 0.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 50580,
+        "poverty_count": 108,
+        "poverty_pct": 4.23
+      },
+      "education": {
+        "bachelors_or_higher": 534,
+        "bachelors_only": 385,
+        "masters": 125,
+        "professional": 0,
+        "doctorate": 24
+      }
+    },
+    "Hazen city, North Dakota": {
+      "state": "ND",
+      "fips": "3836780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2509,
+        "voting_age": 1943,
+        "voting_age_pct": 77.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2270,
+          "pct": 90.47
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 49,
+          "pct": 1.95
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 1.32
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 95,
+          "pct": 3.79
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 11,
+          "pct": 0.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 51,
+          "pct": 2.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 72094,
+        "poverty_count": 162,
+        "poverty_pct": 6.46
+      },
+      "education": {
+        "bachelors_or_higher": 516,
+        "bachelors_only": 352,
+        "masters": 133,
+        "professional": 4,
+        "doctorate": 27
+      }
+    },
+    "Lisbon city, North Dakota": {
+      "state": "ND",
+      "fips": "3847100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2262,
+        "voting_age": 1725,
+        "voting_age_pct": 76.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2078,
+          "pct": 91.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 38,
+          "pct": 1.68
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 95,
+          "pct": 4.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 32,
+          "pct": 1.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 61953,
+        "poverty_count": 133,
+        "poverty_pct": 5.88
+      },
+      "education": {
+        "bachelors_or_higher": 315,
+        "bachelors_only": 233,
+        "masters": 75,
+        "professional": 4,
+        "doctorate": 3
+      }
+    },
+    "Carrington city, North Dakota": {
+      "state": "ND",
+      "fips": "3812340",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2171,
+        "voting_age": 1671,
+        "voting_age_pct": 76.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1978,
+          "pct": 91.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12,
+          "pct": 0.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.37
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 45,
+          "pct": 2.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 7,
+          "pct": 0.32
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 12,
+          "pct": 0.55
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 91,
+          "pct": 4.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 18,
+          "pct": 0.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 65469,
+        "poverty_count": 31,
+        "poverty_pct": 1.43
+      },
+      "education": {
+        "bachelors_or_higher": 480,
+        "bachelors_only": 380,
+        "masters": 76,
+        "professional": 16,
+        "doctorate": 8
+      }
+    },
+    "Stanley city, North Dakota": {
+      "state": "ND",
+      "fips": "3875380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2089,
+        "voting_age": 1635,
+        "voting_age_pct": 78.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1650,
+          "pct": 78.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 23,
+          "pct": 1.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 85,
+          "pct": 4.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 24,
+          "pct": 1.15
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 36,
+          "pct": 1.72
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 271,
+          "pct": 12.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 105893,
+        "poverty_count": 65,
+        "poverty_pct": 3.11
+      },
+      "education": {
+        "bachelors_or_higher": 332,
+        "bachelors_only": 254,
+        "masters": 60,
+        "professional": 18,
+        "doctorate": 0
+      }
+    },
+    "Bottineau city, North Dakota": {
+      "state": "ND",
+      "fips": "3808460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2063,
+        "voting_age": 1667,
+        "voting_age_pct": 80.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1737,
+          "pct": 84.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 1.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 195,
+          "pct": 9.45
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 32,
+          "pct": 1.55
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.29
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 40,
+          "pct": 1.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26,
+          "pct": 1.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 70882,
+        "poverty_count": 94,
+        "poverty_pct": 4.56
+      },
+      "education": {
+        "bachelors_or_higher": 393,
+        "bachelors_only": 307,
+        "masters": 28,
+        "professional": 28,
+        "doctorate": 30
+      }
+    },
+    "Mayville city, North Dakota": {
+      "state": "ND",
+      "fips": "3851500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2050,
+        "voting_age": 1638,
+        "voting_age_pct": 79.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1732,
+          "pct": 84.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 68,
+          "pct": 3.32
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 14,
+          "pct": 0.68
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.49
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 55,
+          "pct": 2.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 171,
+          "pct": 8.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 64044,
+        "poverty_count": 25,
+        "poverty_pct": 1.22
+      },
+      "education": {
+        "bachelors_or_higher": 300,
+        "bachelors_only": 219,
+        "masters": 68,
+        "professional": 0,
+        "doctorate": 13
+      }
+    },
+    "Oakes city, North Dakota": {
+      "state": "ND",
+      "fips": "3858740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2046,
+        "voting_age": 1552,
+        "voting_age_pct": 75.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1822,
+          "pct": 89.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 58,
+          "pct": 2.83
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 23,
+          "pct": 1.12
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 143,
+          "pct": 6.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 64750,
+        "poverty_count": 26,
+        "poverty_pct": 1.27
+      },
+      "education": {
+        "bachelors_or_higher": 316,
+        "bachelors_only": 243,
+        "masters": 41,
+        "professional": 12,
+        "doctorate": 20
+      }
+    },
+    "Langdon city, North Dakota": {
+      "state": "ND",
+      "fips": "3844780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1835,
+        "voting_age": 1373,
+        "voting_age_pct": 74.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1701,
+          "pct": 92.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 32,
+          "pct": 1.74
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 20,
+          "pct": 1.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 82,
+          "pct": 4.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 63664,
+        "poverty_count": 26,
+        "poverty_pct": 1.42
+      },
+      "education": {
+        "bachelors_or_higher": 328,
+        "bachelors_only": 288,
+        "masters": 28,
+        "professional": 4,
+        "doctorate": 8
+      }
+    },
+    "Harvey city, North Dakota": {
+      "state": "ND",
+      "fips": "3835900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1720,
+        "voting_age": 1335,
+        "voting_age_pct": 77.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1579,
+          "pct": 91.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 1.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 72,
+          "pct": 4.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 47,
+          "pct": 2.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 42368,
+        "poverty_count": 66,
+        "poverty_pct": 3.84
+      },
+      "education": {
+        "bachelors_or_higher": 249,
+        "bachelors_only": 207,
+        "masters": 36,
+        "professional": 6,
+        "doctorate": 0
+      }
+    },
+    "Surrey city, North Dakota": {
+      "state": "ND",
+      "fips": "3877180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1672,
+        "voting_age": 1100,
+        "voting_age_pct": 65.79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1554,
+          "pct": 92.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11,
+          "pct": 0.66
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.42
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 55,
+          "pct": 3.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 43,
+          "pct": 2.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 105125,
+        "poverty_count": 4,
+        "poverty_pct": 0.24
+      },
+      "education": {
+        "bachelors_or_higher": 305,
+        "bachelors_only": 199,
+        "masters": 85,
+        "professional": 11,
+        "doctorate": 10
+      }
+    },
+    "Hillsboro city, North Dakota": {
+      "state": "ND",
+      "fips": "3838100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1643,
+        "voting_age": 1224,
+        "voting_age_pct": 74.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1457,
+          "pct": 88.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.37
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14,
+          "pct": 0.85
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 99,
+          "pct": 6.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 66,
+          "pct": 4.02
+        }
+      ],
+      "economics": {
+        "median_household_income": 77844,
+        "poverty_count": 11,
+        "poverty_pct": 0.67
+      },
+      "education": {
+        "bachelors_or_higher": 421,
+        "bachelors_only": 332,
+        "masters": 77,
+        "professional": 10,
+        "doctorate": 2
+      }
+    },
+    "Tioga city, North Dakota": {
+      "state": "ND",
+      "fips": "3878940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1525,
+        "voting_age": 1193,
+        "voting_age_pct": 78.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 944,
+          "pct": 61.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 112,
+          "pct": 7.34
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 465,
+          "pct": 30.49
+        }
+      ],
+      "economics": {
+        "median_household_income": 62315,
+        "poverty_count": 22,
+        "poverty_pct": 1.44
+      },
+      "education": {
+        "bachelors_or_higher": 238,
+        "bachelors_only": 172,
+        "masters": 66,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Bowman city, North Dakota": {
+      "state": "ND",
+      "fips": "3808700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1523,
+        "voting_age": 1172,
+        "voting_age_pct": 76.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1364,
+          "pct": 89.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 1.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4,
+          "pct": 0.26
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 14,
+          "pct": 0.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 124,
+          "pct": 8.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 70859,
+        "poverty_count": 38,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 329,
+        "bachelors_only": 229,
+        "masters": 69,
+        "professional": 6,
+        "doctorate": 25
+      }
+    },
+    "Park River city, North Dakota": {
+      "state": "ND",
+      "fips": "3860900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1483,
+        "voting_age": 1171,
+        "voting_age_pct": 78.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1362,
+          "pct": 91.84
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 56,
+          "pct": 3.78
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 64,
+          "pct": 4.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 76080,
+        "poverty_count": 17,
+        "poverty_pct": 1.15
+      },
+      "education": {
+        "bachelors_or_higher": 223,
+        "bachelors_only": 177,
+        "masters": 34,
+        "professional": 3,
+        "doctorate": 9
+      }
+    },
+    "Garrison city, North Dakota": {
+      "state": "ND",
+      "fips": "3829460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1456,
+        "voting_age": 1124,
+        "voting_age_pct": 77.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1305,
+          "pct": 89.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 87,
+          "pct": 5.98
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14,
+          "pct": 0.96
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 11,
+          "pct": 0.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 39,
+          "pct": 2.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 68646,
+        "poverty_count": 46,
+        "poverty_pct": 3.16
+      },
+      "education": {
+        "bachelors_or_higher": 229,
+        "bachelors_only": 174,
+        "masters": 37,
+        "professional": 15,
+        "doctorate": 3
+      }
+    },
+    "Washburn city, North Dakota": {
+      "state": "ND",
+      "fips": "3883700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1434,
+        "voting_age": 1061,
+        "voting_age_pct": 73.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1396,
+          "pct": 97.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 28,
+          "pct": 1.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7,
+          "pct": 0.49
+        }
+      ],
+      "economics": {
+        "median_household_income": 75729,
+        "poverty_count": 40,
+        "poverty_pct": 2.79
+      },
+      "education": {
+        "bachelors_or_higher": 229,
+        "bachelors_only": 194,
+        "masters": 32,
+        "professional": 0,
+        "doctorate": 3
+      }
+    },
+    "New Rockford city, North Dakota": {
+      "state": "ND",
+      "fips": "3856620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1325,
+        "voting_age": 1045,
+        "voting_age_pct": 78.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1218,
+          "pct": 91.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 35,
+          "pct": 2.64
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 31,
+          "pct": 2.34
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 3.09
+        }
+      ],
+      "economics": {
+        "median_household_income": 47969,
+        "poverty_count": 26,
+        "poverty_pct": 1.96
+      },
+      "education": {
+        "bachelors_or_higher": 291,
+        "bachelors_only": 205,
+        "masters": 67,
+        "professional": 16,
+        "doctorate": 3
+      }
+    },
+    "Cavalier city, North Dakota": {
+      "state": "ND",
+      "fips": "3812940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1304,
+        "voting_age": 1085,
+        "voting_age_pct": 83.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1198,
+          "pct": 91.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 36,
+          "pct": 2.76
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 26,
+          "pct": 1.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 25,
+          "pct": 1.92
+        }
+      ],
+      "economics": {
+        "median_household_income": 57188,
+        "poverty_count": 13,
+        "poverty_pct": 1
+      },
+      "education": {
+        "bachelors_or_higher": 277,
+        "bachelors_only": 186,
+        "masters": 36,
+        "professional": 9,
+        "doctorate": 46
+      }
+    },
+    "Larimore city, North Dakota": {
+      "state": "ND",
+      "fips": "3845020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1262,
+        "voting_age": 1002,
+        "voting_age_pct": 79.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1142,
+          "pct": 90.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10,
+          "pct": 0.79
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.48
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 49,
+          "pct": 3.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 55,
+          "pct": 4.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 78846,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 163,
+        "bachelors_only": 137,
+        "masters": 15,
+        "professional": 11,
+        "doctorate": 0
+      }
+    },
+    "Mapleton city, North Dakota": {
+      "state": "ND",
+      "fips": "3850580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1243,
+        "voting_age": 840,
+        "voting_age_pct": 67.58
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1083,
+          "pct": 87.13
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.64
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 43,
+          "pct": 3.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 108,
+          "pct": 8.69
+        }
+      ],
+      "economics": {
+        "median_household_income": 116364,
+        "poverty_count": 16,
+        "poverty_pct": 1.29
+      },
+      "education": {
+        "bachelors_or_higher": 326,
+        "bachelors_only": 242,
+        "masters": 79,
+        "professional": 5,
+        "doctorate": 0
+      }
+    },
+    "Cando city, North Dakota": {
+      "state": "ND",
+      "fips": "3811860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1199,
+        "voting_age": 814,
+        "voting_age_pct": 67.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 954,
+          "pct": 79.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11,
+          "pct": 0.92
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 126,
+          "pct": 10.51
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 57,
+          "pct": 4.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 51,
+          "pct": 4.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 49375,
+        "poverty_count": 29,
+        "poverty_pct": 2.42
+      },
+      "education": {
+        "bachelors_or_higher": 158,
+        "bachelors_only": 131,
+        "masters": 20,
+        "professional": 4,
+        "doctorate": 3
+      }
+    },
+    "Burlington city, North Dakota": {
+      "state": "ND",
+      "fips": "3810940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1169,
+        "voting_age": 793,
+        "voting_age_pct": 67.84
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 985,
+          "pct": 84.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.77
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.68
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 114,
+          "pct": 9.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 45,
+          "pct": 3.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 95216,
+        "poverty_count": 7,
+        "poverty_pct": 0.6
+      },
+      "education": {
+        "bachelors_or_higher": 138,
+        "bachelors_only": 112,
+        "masters": 22,
+        "professional": 0,
+        "doctorate": 4
+      }
+    },
+    "Rolla city, North Dakota": {
+      "state": "ND",
+      "fips": "3867820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1164,
+        "voting_age": 736,
+        "voting_age_pct": 63.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 476,
+          "pct": 40.89
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 513,
+          "pct": 44.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.77
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 133,
+          "pct": 11.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 32,
+          "pct": 2.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 52841,
+        "poverty_count": 47,
+        "poverty_pct": 4.04
+      },
+      "education": {
+        "bachelors_or_higher": 158,
+        "bachelors_only": 102,
+        "masters": 44,
+        "professional": 6,
+        "doctorate": 6
+      }
+    },
+    "Hettinger city, North Dakota": {
+      "state": "ND",
+      "fips": "3837700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1141,
+        "voting_age": 917,
+        "voting_age_pct": 80.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 939,
+          "pct": 82.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15,
+          "pct": 1.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 24,
+          "pct": 2.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.61
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 65,
+          "pct": 5.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 91,
+          "pct": 7.98
+        }
+      ],
+      "economics": {
+        "median_household_income": 50750,
+        "poverty_count": 6,
+        "poverty_pct": 0.53
+      },
+      "education": {
+        "bachelors_or_higher": 144,
+        "bachelors_only": 83,
+        "masters": 30,
+        "professional": 25,
+        "doctorate": 6
+      }
+    },
+    "Crosby city, North Dakota": {
+      "state": "ND",
+      "fips": "3816940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1116,
+        "voting_age": 842,
+        "voting_age_pct": 75.45
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 879,
+          "pct": 78.76
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 73,
+          "pct": 6.54
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.45
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 46,
+          "pct": 4.12
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 113,
+          "pct": 10.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 80000,
+        "poverty_count": 11,
+        "poverty_pct": 0.99
+      },
+      "education": {
+        "bachelors_or_higher": 89,
+        "bachelors_only": 72,
+        "masters": 13,
+        "professional": 4,
+        "doctorate": 0
+      }
+    },
+    "Thompson city, North Dakota": {
+      "state": "ND",
+      "fips": "3878660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1092,
+        "voting_age": 752,
+        "voting_age_pct": 68.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1038,
+          "pct": 95.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.37
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 32,
+          "pct": 2.93
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 1.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 110909,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 290,
+        "bachelors_only": 220,
+        "masters": 49,
+        "professional": 11,
+        "doctorate": 10
+      }
+    },
+    "Kenmare city, North Dakota": {
+      "state": "ND",
+      "fips": "3842020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1027,
+        "voting_age": 836,
+        "voting_age_pct": 81.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 919,
+          "pct": 89.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.49
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 70,
+          "pct": 6.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 24,
+          "pct": 2.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 64167,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 150,
+        "bachelors_only": 115,
+        "masters": 28,
+        "professional": 4,
+        "doctorate": 3
+      }
+    }
+  }
+}

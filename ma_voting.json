@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "state": "Massachusetts",
+    "state_abbr": "MA",
+    "source_presidential": "Wikipedia - 2024 United States presidential election in Massachusetts",
+    "source_voter_registration": "Derived from MA Secretary of State total votes / Wikipedia turnout rate (68.31%); registration counts are estimated from total votes cast ÷ state turnout rate",
+    "note": "MA Secretary of State Enrollment Breakdown PDF (sec.state.ma.us) blocked by Incapsula; county-level registered voter counts are estimates based on total votes cast and state turnout rate. Actual registered voter counts from SOS would provide exact numbers.",
+    "state_total_votes": 3473668,
+    "state_turnout_pct": 68.31,
+    "state_estimated_registered": 5085000,
+    "electoral_votes": 11
+  },
+  "counties": {
+    "Barnstable": {
+      "fips": "25001",
+      "president_2024": {
+        "harris_dem": {"votes": 88129, "pct": 59.23},
+        "trump_rep": {"votes": 57451, "pct": 38.61},
+        "other": {"votes": 3205, "pct": 2.15},
+        "total": 148785,
+        "margin": 30678,
+        "margin_pct": 20.62,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 91994, "pct": 61.20},
+        "trump_rep": {"votes": 55311, "pct": 36.79},
+        "other": {"votes": 3020, "pct": 2.01},
+        "total": 150325,
+        "margin": 36683,
+        "margin_pct": 24.41,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 217817,
+        "estimation_method": "Total votes (148,785) ÷ state turnout (0.6831)"
+      }
+    },
+    "Berkshire": {
+      "fips": "25003",
+      "president_2024": {
+        "harris_dem": {"votes": 47094, "pct": 68.58},
+        "trump_rep": {"votes": 19805, "pct": 28.84},
+        "other": {"votes": 1775, "pct": 2.58},
+        "total": 68674,
+        "margin": 27289,
+        "margin_pct": 39.74,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 51705, "pct": 72.44},
+        "trump_rep": {"votes": 18064, "pct": 25.31},
+        "other": {"votes": 1606, "pct": 2.25},
+        "total": 71375,
+        "margin": 33641,
+        "margin_pct": 47.13,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 100535,
+        "estimation_method": "Total votes (68,674) ÷ state turnout (0.6831)"
+      }
+    },
+    "Bristol": {
+      "fips": "25005",
+      "president_2024": {
+        "harris_dem": {"votes": 137786, "pct": 49.56},
+        "trump_rep": {"votes": 134196, "pct": 48.27},
+        "other": {"votes": 6035, "pct": 2.17},
+        "total": 278017,
+        "margin": 3590,
+        "margin_pct": 1.29,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 153377, "pct": 54.92},
+        "trump_rep": {"votes": 119872, "pct": 42.92},
+        "other": {"votes": 6030, "pct": 2.16},
+        "total": 279279,
+        "margin": 33505,
+        "margin_pct": 12.00,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 407000,
+        "estimation_method": "Total votes (278,017) ÷ state turnout (0.6831)"
+      }
+    },
+    "Dukes": {
+      "fips": "25007",
+      "president_2024": {
+        "harris_dem": {"votes": 9137, "pct": 74.84},
+        "trump_rep": {"votes": 2745, "pct": 22.48},
+        "other": {"votes": 327, "pct": 2.68},
+        "total": 12209,
+        "margin": 6392,
+        "margin_pct": 52.36,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 9914, "pct": 77.47},
+        "trump_rep": {"votes": 2631, "pct": 20.56},
+        "other": {"votes": 253, "pct": 1.97},
+        "total": 12798,
+        "margin": 7283,
+        "margin_pct": 56.91,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 17873,
+        "estimation_method": "Total votes (12,209) ÷ state turnout (0.6831)"
+      }
+    },
+    "Essex": {
+      "fips": "25009",
+      "president_2024": {
+        "harris_dem": {"votes": 236624, "pct": 58.88},
+        "trump_rep": {"votes": 155336, "pct": 38.66},
+        "other": {"votes": 9891, "pct": 2.46},
+        "total": 401851,
+        "margin": 81288,
+        "margin_pct": 20.22,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 267198, "pct": 63.44},
+        "trump_rep": {"votes": 144837, "pct": 34.39},
+        "other": {"votes": 9175, "pct": 2.17},
+        "total": 421210,
+        "margin": 122361,
+        "margin_pct": 29.05,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 588280,
+        "estimation_method": "Total votes (401,851) ÷ state turnout (0.6831)"
+      }
+    },
+    "Franklin": {
+      "fips": "25011",
+      "president_2024": {
+        "harris_dem": {"votes": 28305, "pct": 67.00},
+        "trump_rep": {"votes": 12428, "pct": 29.42},
+        "other": {"votes": 1515, "pct": 3.59},
+        "total": 42248,
+        "margin": 15877,
+        "margin_pct": 37.58,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 30030, "pct": 70.73},
+        "trump_rep": {"votes": 11201, "pct": 26.38},
+        "other": {"votes": 1227, "pct": 2.89},
+        "total": 42458,
+        "margin": 18829,
+        "margin_pct": 44.35,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 61848,
+        "estimation_method": "Total votes (42,248) ÷ state turnout (0.6831)"
+      }
+    },
+    "Hampden": {
+      "fips": "25013",
+      "president_2024": {
+        "harris_dem": {"votes": 110937, "pct": 53.18},
+        "trump_rep": {"votes": 92474, "pct": 44.33},
+        "other": {"votes": 5193, "pct": 2.49},
+        "total": 208604,
+        "margin": 18463,
+        "margin_pct": 8.85,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 125948, "pct": 57.73},
+        "trump_rep": {"votes": 87318, "pct": 40.02},
+        "other": {"votes": 4911, "pct": 2.25},
+        "total": 218177,
+        "margin": 38630,
+        "margin_pct": 17.71,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 305380,
+        "estimation_method": "Total votes (208,604) ÷ state turnout (0.6831)"
+      }
+    },
+    "Hampshire": {
+      "fips": "25015",
+      "president_2024": {
+        "harris_dem": {"votes": 58617, "pct": 69.19},
+        "trump_rep": {"votes": 23256, "pct": 27.45},
+        "other": {"votes": 2847, "pct": 3.36},
+        "total": 84720,
+        "margin": 35361,
+        "margin_pct": 41.74,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 63362, "pct": 72.12},
+        "trump_rep": {"votes": 22281, "pct": 25.36},
+        "other": {"votes": 2211, "pct": 2.52},
+        "total": 87854,
+        "margin": 41081,
+        "margin_pct": 46.76,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 124024,
+        "estimation_method": "Total votes (84,720) ÷ state turnout (0.6831)"
+      }
+    },
+    "Middlesex": {
+      "fips": "25017",
+      "president_2024": {
+        "harris_dem": {"votes": 554471, "pct": 68.05},
+        "trump_rep": {"votes": 235118, "pct": 28.85},
+        "other": {"votes": 25243, "pct": 3.10},
+        "total": 814832,
+        "margin": 319353,
+        "margin_pct": 39.20,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 617196, "pct": 71.47},
+        "trump_rep": {"votes": 226956, "pct": 26.28},
+        "other": {"votes": 19425, "pct": 2.25},
+        "total": 863577,
+        "margin": 390240,
+        "margin_pct": 45.19,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 1192850,
+        "estimation_method": "Total votes (814,832) ÷ state turnout (0.6831)"
+      }
+    },
+    "Nantucket": {
+      "fips": "25019",
+      "president_2024": {
+        "harris_dem": {"votes": 4784, "pct": 67.21},
+        "trump_rep": {"votes": 2171, "pct": 30.50},
+        "other": {"votes": 163, "pct": 2.29},
+        "total": 7118,
+        "margin": 2613,
+        "margin_pct": 36.71,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 5241, "pct": 71.74},
+        "trump_rep": {"votes": 1914, "pct": 26.20},
+        "other": {"votes": 151, "pct": 2.06},
+        "total": 7306,
+        "margin": 3327,
+        "margin_pct": 45.54,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 10420,
+        "estimation_method": "Total votes (7,118) ÷ state turnout (0.6831)"
+      }
+    },
+    "Norfolk": {
+      "fips": "25021",
+      "president_2024": {
+        "harris_dem": {"votes": 242712, "pct": 62.81},
+        "trump_rep": {"votes": 132497, "pct": 34.29},
+        "other": {"votes": 11238, "pct": 2.91},
+        "total": 386447,
+        "margin": 110215,
+        "margin_pct": 28.52,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 273312, "pct": 67.03},
+        "trump_rep": {"votes": 125294, "pct": 30.73},
+        "other": {"votes": 9145, "pct": 2.24},
+        "total": 407751,
+        "margin": 148018,
+        "margin_pct": 36.30,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 565730,
+        "estimation_method": "Total votes (386,447) ÷ state turnout (0.6831)"
+      }
+    },
+    "Plymouth": {
+      "fips": "25023",
+      "president_2024": {
+        "harris_dem": {"votes": 159962, "pct": 53.30},
+        "trump_rep": {"votes": 133544, "pct": 44.50},
+        "other": {"votes": 6623, "pct": 2.21},
+        "total": 300129,
+        "margin": 26418,
+        "margin_pct": 8.80,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 173630, "pct": 57.53},
+        "trump_rep": {"votes": 121227, "pct": 40.17},
+        "other": {"votes": 6959, "pct": 2.30},
+        "total": 301816,
+        "margin": 52403,
+        "margin_pct": 17.36,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 439365,
+        "estimation_method": "Total votes (300,129) ÷ state turnout (0.6831)"
+      }
+    },
+    "Suffolk": {
+      "fips": "25025",
+      "president_2024": {
+        "harris_dem": {"votes": 222280, "pct": 74.29},
+        "trump_rep": {"votes": 66480, "pct": 22.22},
+        "other": {"votes": 10433, "pct": 3.49},
+        "total": 299193,
+        "margin": 155800,
+        "margin_pct": 52.07,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 270522, "pct": 80.64},
+        "trump_rep": {"votes": 58613, "pct": 17.47},
+        "other": {"votes": 6327, "pct": 1.89},
+        "total": 335462,
+        "margin": 211909,
+        "margin_pct": 63.17,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 437995,
+        "estimation_method": "Total votes (299,193) ÷ state turnout (0.6831)"
+      }
+    },
+    "Worcester": {
+      "fips": "25027",
+      "president_2024": {
+        "harris_dem": {"votes": 225680, "pct": 53.63},
+        "trump_rep": {"votes": 183802, "pct": 43.67},
+        "other": {"votes": 11359, "pct": 2.70},
+        "total": 420841,
+        "margin": 41878,
+        "margin_pct": 9.96,
+        "winner": "Harris"
+      },
+      "president_2020": {
+        "biden_dem": {"votes": 248773, "pct": 57.58},
+        "trump_rep": {"votes": 171683, "pct": 39.74},
+        "other": {"votes": 11558, "pct": 2.68},
+        "total": 432014,
+        "margin": 77090,
+        "margin_pct": 17.84,
+        "winner": "Biden"
+      },
+      "voter_registration": {
+        "estimated_registered": 616080,
+        "estimation_method": "Total votes (420,841) ÷ state turnout (0.6831)"
+      }
+    }
+  },
+  "validation": {
+    "suffolk_boston": {
+      "note": "Suffolk County contains Boston. 2024: Harris 74.29%, Trump 22.22%. Deep blue urban core.",
+      "total_votes": 299193,
+      "swing_from_2020": "Harris margin dropped from +63.17 to +52.07 (-11.1pt swing right)"
+    },
+    "middlesex": {
+      "note": "Middlesex County is the most populous. 2024: Harris 68.05%, Trump 28.85%. Cambridge, Lowell, Newton, Framingham.",
+      "total_votes": 814832,
+      "swing_from_2020": "Harris margin dropped from +45.19 to +39.20 (-5.99pt swing right)"
+    },
+    "worcester": {
+      "note": "Worcester County is the 2nd most populous. 2024: Harris 53.63%, Trump 43.67%. City of Worcester, Fitchburg, Leominster.",
+      "total_votes": 420841,
+      "swing_from_2020": "Harris margin dropped from +17.84 to +9.96 (-7.88pt swing right)"
+    },
+    "county_sum_check": {
+      "total_from_counties": 3473668,
+      "wikipedia_state_total": 3473668,
+      "match": true
+    }
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "state": "Arizona",
+  "election": "2024 General",
+  "source_presidential": "AZ Secretary of State Official Canvass, via Wikipedia",
+  "source_population": "US Census Bureau 2025 estimates, via Wikipedia / List of counties in Arizona",
+  "source_voter_registration": "Estimated from presidential turnout; official county-level party registration requires AZ SOS data (Cloudflare-blocked during collection)",
+  "statewide_totals": {
+    "trump_votes": 1770242,
+    "trump_pct": 52.22,
+    "harris_votes": 1582860,
+    "harris_pct": 46.69,
+    "other_votes": 37059,
+    "other_pct": 1.09,
+    "total_votes": 3390161,
+    "margin": 187382,
+    "margin_pct": 5.53
+  },
+  "statewide_turnout_pct": 78.49,
+  "counties": {
+    "Apache": {
+      "fips": "04001",
+      "seat": "St. Johns",
+      "population_2025_est": 64445,
+      "president_2024": {
+        "trump": {
+          "votes": 12795,
+          "pct": 39.96
+        },
+        "harris": {
+          "votes": 18872,
+          "pct": 58.93
+        },
+        "other": {
+          "votes": 356,
+          "pct": 1.11
+        },
+        "total": 32023,
+        "margin": -6077,
+        "margin_pct": -18.98,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "estimated_total": 40799,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Cochise": {
+      "fips": "04003",
+      "seat": "Bisbee",
+      "population_2025_est": 126332,
+      "president_2024": {
+        "trump": {
+          "votes": 35936,
+          "pct": 60.98
+        },
+        "harris": {
+          "votes": 22296,
+          "pct": 37.83
+        },
+        "other": {
+          "votes": 703,
+          "pct": 1.19
+        },
+        "total": 58935,
+        "margin": 13640,
+        "margin_pct": 23.14,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 75086,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Coconino": {
+      "fips": "04005",
+      "seat": "Flagstaff",
+      "population_2025_est": 144368,
+      "president_2024": {
+        "trump": {
+          "votes": 27576,
+          "pct": 39.34
+        },
+        "harris": {
+          "votes": 41504,
+          "pct": 59.21
+        },
+        "other": {
+          "votes": 1016,
+          "pct": 1.45
+        },
+        "total": 70096,
+        "margin": -13928,
+        "margin_pct": -19.87,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "estimated_total": 89306,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Gila": {
+      "fips": "04007",
+      "seat": "Globe",
+      "population_2025_est": 53801,
+      "president_2024": {
+        "trump": {
+          "votes": 18901,
+          "pct": 68.36
+        },
+        "harris": {
+          "votes": 8504,
+          "pct": 30.76
+        },
+        "other": {
+          "votes": 243,
+          "pct": 0.88
+        },
+        "total": 27648,
+        "margin": 10397,
+        "margin_pct": 37.6,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 35225,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Graham": {
+      "fips": "04009",
+      "seat": "Safford",
+      "population_2025_est": 40157,
+      "president_2024": {
+        "trump": {
+          "votes": 11177,
+          "pct": 73.62
+        },
+        "harris": {
+          "votes": 3867,
+          "pct": 25.47
+        },
+        "other": {
+          "votes": 139,
+          "pct": 0.92
+        },
+        "total": 15183,
+        "margin": 7310,
+        "margin_pct": 48.15,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 19344,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Greenlee": {
+      "fips": "04011",
+      "seat": "Clifton",
+      "population_2025_est": 9312,
+      "president_2024": {
+        "trump": {
+          "votes": 2308,
+          "pct": 69.77
+        },
+        "harris": {
+          "votes": 954,
+          "pct": 28.84
+        },
+        "other": {
+          "votes": 46,
+          "pct": 1.39
+        },
+        "total": 3308,
+        "margin": 1354,
+        "margin_pct": 40.93,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 4215,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "La Paz": {
+      "fips": "04012",
+      "seat": "Parker",
+      "population_2025_est": 16711,
+      "president_2024": {
+        "trump": {
+          "votes": 5470,
+          "pct": 71.73
+        },
+        "harris": {
+          "votes": 2101,
+          "pct": 27.55
+        },
+        "other": {
+          "votes": 55,
+          "pct": 0.72
+        },
+        "total": 7626,
+        "margin": 3369,
+        "margin_pct": 44.18,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 9716,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Maricopa": {
+      "fips": "04013",
+      "seat": "Phoenix",
+      "population_2025_est": 4689558,
+      "president_2024": {
+        "trump": {
+          "votes": 1051531,
+          "pct": 51.18
+        },
+        "harris": {
+          "votes": 980016,
+          "pct": 47.7
+        },
+        "other": {
+          "votes": 22868,
+          "pct": 1.11
+        },
+        "total": 2054415,
+        "margin": 71515,
+        "margin_pct": 3.48,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 2617423,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Mohave": {
+      "fips": "04015",
+      "seat": "Kingman",
+      "population_2025_est": 228102,
+      "president_2024": {
+        "trump": {
+          "votes": 85683,
+          "pct": 77.57
+        },
+        "harris": {
+          "votes": 24081,
+          "pct": 21.8
+        },
+        "other": {
+          "votes": 693,
+          "pct": 0.63
+        },
+        "total": 110457,
+        "margin": 61602,
+        "margin_pct": 55.77,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 140727,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Navajo": {
+      "fips": "04017",
+      "seat": "Holbrook",
+      "population_2025_est": 109946,
+      "president_2024": {
+        "trump": {
+          "votes": 29480,
+          "pct": 58.13
+        },
+        "harris": {
+          "votes": 20754,
+          "pct": 40.92
+        },
+        "other": {
+          "votes": 481,
+          "pct": 0.95
+        },
+        "total": 50715,
+        "margin": 8726,
+        "margin_pct": 17.21,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 64613,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Pima": {
+      "fips": "04019",
+      "seat": "Tucson",
+      "population_2025_est": 1074685,
+      "president_2024": {
+        "trump": {
+          "votes": 214669,
+          "pct": 41.81
+        },
+        "harris": {
+          "votes": 292450,
+          "pct": 56.96
+        },
+        "other": {
+          "votes": 6317,
+          "pct": 1.23
+        },
+        "total": 513436,
+        "margin": -77781,
+        "margin_pct": -15.15,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "estimated_total": 654142,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Pinal": {
+      "fips": "04021",
+      "seat": "Florence",
+      "population_2025_est": 539380,
+      "president_2024": {
+        "trump": {
+          "votes": 126926,
+          "pct": 60.57
+        },
+        "harris": {
+          "votes": 80656,
+          "pct": 38.49
+        },
+        "other": {
+          "votes": 1984,
+          "pct": 0.95
+        },
+        "total": 209566,
+        "margin": 46270,
+        "margin_pct": 22.08,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 266997,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Santa Cruz": {
+      "fips": "04023",
+      "seat": "Nogales",
+      "population_2025_est": 50020,
+      "president_2024": {
+        "trump": {
+          "votes": 7699,
+          "pct": 40.25
+        },
+        "harris": {
+          "votes": 11265,
+          "pct": 58.9
+        },
+        "other": {
+          "votes": 162,
+          "pct": 0.85
+        },
+        "total": 19126,
+        "margin": -3566,
+        "margin_pct": -18.64,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "estimated_total": 24367,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Yavapai": {
+      "fips": "04025",
+      "seat": "Prescott",
+      "population_2025_est": 252552,
+      "president_2024": {
+        "trump": {
+          "votes": 99346,
+          "pct": 66.48
+        },
+        "harris": {
+          "votes": 48717,
+          "pct": 32.6
+        },
+        "other": {
+          "votes": 1365,
+          "pct": 0.91
+        },
+        "total": 149428,
+        "margin": 50629,
+        "margin_pct": 33.88,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 190378,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    },
+    "Yuma": {
+      "fips": "04027",
+      "seat": "Yuma",
+      "population_2025_est": 224449,
+      "president_2024": {
+        "trump": {
+          "votes": 40745,
+          "pct": 59.74
+        },
+        "harris": {
+          "votes": 26823,
+          "pct": 39.33
+        },
+        "other": {
+          "votes": 631,
+          "pct": 0.93
+        },
+        "total": 68199,
+        "margin": 13922,
+        "margin_pct": 20.41,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "estimated_total": 86889,
+        "note": "Estimated from total presidential votes / statewide turnout (78.49%). Actual county turnout varies. Party breakdown estimated from statewide ratios."
+      }
+    }
+  },
+  "validation": {
+    "maricopa": {
+      "name": "Maricopa County (Phoenix metro)",
+      "population": 4689558,
+      "president_2024": "Trump 51.18% / Harris 47.70%",
+      "note": "Largest county. Trump flipped it back after Biden won it in 2020. Margin: Trump +3.48%"
+    },
+    "pima": {
+      "name": "Pima County (Tucson metro)",
+      "population": 1074685,
+      "president_2024": "Harris 56.96% / Trump 41.81%",
+      "note": "2nd largest & most Democratic county. Harris margin: +15.15%"
+    }
+  }
+}

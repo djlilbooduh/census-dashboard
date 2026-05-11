@@ -1,0 +1,2003 @@
+{
+  "state": "Nebraska",
+  "electoral_votes": 5,
+  "electoral_vote_allocation": "split_by_congressional_district",
+  "statewide_results": {
+    "trump": 564816,
+    "harris": 369995,
+    "oliver": 6399,
+    "stein": 2887,
+    "west": 3062,
+    "write_in": 5023,
+    "total_votes_for_president": 952182,
+    "total_ballots_cast": 965236
+  },
+  "electoral_votes_by_district": {
+    "statewide": {
+      "trump_ev": 2,
+      "harris_ev": 0
+    },
+    "district_1": {
+      "winner": "Trump",
+      "electoral_votes": 1,
+      "trump_pct": 55.5,
+      "harris_pct": 42.5
+    },
+    "district_2": {
+      "winner": "Harris",
+      "electoral_votes": 1,
+      "trump_pct": 46.7,
+      "harris_pct": 51.3
+    },
+    "district_3": {
+      "winner": "Trump",
+      "electoral_votes": 1,
+      "trump_pct": 76.0,
+      "harris_pct": 22.4
+    }
+  },
+  "notes": [
+    "NE allocates 5 electoral votes: 2 to statewide winner, 1 per congressional district",
+    "Trump won statewide (59.3%) + NE-1 + NE-3; Harris won NE-2 (Omaha metro, 51.3%)",
+    "NE-2 is the only electoral vote Trump won in 2016 that he lost in 2024",
+    "Statewide turnout: 76.39% of registered voters",
+    "Voter reg source: NE Secretary of State, November 1, 2024 VR Statistics Report",
+    "Presidential results source: NE Board of State Canvassers via Dave Leip's Atlas / tonmcg GitHub",
+    "Census context: ne_census.json (ACS 5-Year 2023)"
+  ],
+  "counties": [
+    {
+      "county": "Adams",
+      "presidential": {
+        "trump_votes": 10077,
+        "harris_votes": 4100,
+        "total_votes": 14364,
+        "trump_pct": 70.2,
+        "harris_pct": 28.5,
+        "margin_pct": 41.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 11585,
+        "democratic": 3767,
+        "libertarian": 241,
+        "legal_marijuana_now": 113,
+        "no_labels_nebraska": 6,
+        "nonpartisan": 3704,
+        "total_registered": 19416
+      }
+    },
+    {
+      "county": "Antelope",
+      "presidential": {
+        "trump_votes": 3032,
+        "harris_votes": 396,
+        "total_votes": 3447,
+        "trump_pct": 88.0,
+        "harris_pct": 11.5,
+        "margin_pct": 76.5,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3321,
+        "democratic": 502,
+        "libertarian": 24,
+        "legal_marijuana_now": 15,
+        "no_labels_nebraska": 5,
+        "nonpartisan": 535,
+        "total_registered": 4402
+      }
+    },
+    {
+      "county": "Arthur",
+      "presidential": {
+        "trump_votes": 264,
+        "harris_votes": 17,
+        "total_votes": 282,
+        "trump_pct": 93.6,
+        "harris_pct": 6.0,
+        "margin_pct": 87.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 298,
+        "democratic": 22,
+        "libertarian": 0,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 21,
+        "total_registered": 341
+      }
+    },
+    {
+      "county": "Banner",
+      "presidential": {
+        "trump_votes": 348,
+        "harris_votes": 34,
+        "total_votes": 386,
+        "trump_pct": 90.2,
+        "harris_pct": 8.8,
+        "margin_pct": 81.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 426,
+        "democratic": 29,
+        "libertarian": 7,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 59,
+        "total_registered": 521
+      }
+    },
+    {
+      "county": "Blaine",
+      "presidential": {
+        "trump_votes": 250,
+        "harris_votes": 37,
+        "total_votes": 291,
+        "trump_pct": 85.9,
+        "harris_pct": 12.7,
+        "margin_pct": 73.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 296,
+        "democratic": 24,
+        "libertarian": 4,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 30,
+        "total_registered": 354
+      }
+    },
+    {
+      "county": "Boone",
+      "presidential": {
+        "trump_votes": 2499,
+        "harris_votes": 496,
+        "total_votes": 3031,
+        "trump_pct": 82.4,
+        "harris_pct": 16.4,
+        "margin_pct": 66.1,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2672,
+        "democratic": 544,
+        "libertarian": 26,
+        "legal_marijuana_now": 9,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 409,
+        "total_registered": 3660
+      }
+    },
+    {
+      "county": "Box Butte",
+      "presidential": {
+        "trump_votes": 3827,
+        "harris_votes": 1043,
+        "total_votes": 4931,
+        "trump_pct": 77.6,
+        "harris_pct": 21.2,
+        "margin_pct": 56.5,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 4420,
+        "democratic": 1047,
+        "libertarian": 82,
+        "legal_marijuana_now": 38,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 1326,
+        "total_registered": 6915
+      }
+    },
+    {
+      "county": "Boyd",
+      "presidential": {
+        "trump_votes": 938,
+        "harris_votes": 132,
+        "total_votes": 1075,
+        "trump_pct": 87.3,
+        "harris_pct": 12.3,
+        "margin_pct": 75.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1014,
+        "democratic": 128,
+        "libertarian": 5,
+        "legal_marijuana_now": 1,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 141,
+        "total_registered": 1289
+      }
+    },
+    {
+      "county": "Brown",
+      "presidential": {
+        "trump_votes": 1428,
+        "harris_votes": 201,
+        "total_votes": 1642,
+        "trump_pct": 87.0,
+        "harris_pct": 12.2,
+        "margin_pct": 74.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1711,
+        "democratic": 140,
+        "libertarian": 10,
+        "legal_marijuana_now": 11,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 194,
+        "total_registered": 2066
+      }
+    },
+    {
+      "county": "Buffalo",
+      "presidential": {
+        "trump_votes": 17064,
+        "harris_votes": 6386,
+        "total_votes": 23759,
+        "trump_pct": 71.8,
+        "harris_pct": 26.9,
+        "margin_pct": 44.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 19384,
+        "democratic": 5477,
+        "libertarian": 526,
+        "legal_marijuana_now": 167,
+        "no_labels_nebraska": 26,
+        "nonpartisan": 5854,
+        "total_registered": 31434
+      }
+    },
+    {
+      "county": "Burt",
+      "presidential": {
+        "trump_votes": 2632,
+        "harris_votes": 983,
+        "total_votes": 3656,
+        "trump_pct": 72.0,
+        "harris_pct": 26.9,
+        "margin_pct": 45.1,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2885,
+        "democratic": 1026,
+        "libertarian": 57,
+        "legal_marijuana_now": 23,
+        "no_labels_nebraska": 5,
+        "nonpartisan": 889,
+        "total_registered": 4885
+      }
+    },
+    {
+      "county": "Butler",
+      "presidential": {
+        "trump_votes": 3642,
+        "harris_votes": 906,
+        "total_votes": 4587,
+        "trump_pct": 79.4,
+        "harris_pct": 19.8,
+        "margin_pct": 59.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3804,
+        "democratic": 984,
+        "libertarian": 39,
+        "legal_marijuana_now": 19,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 893,
+        "total_registered": 5741
+      }
+    },
+    {
+      "county": "Cass",
+      "presidential": {
+        "trump_votes": 10685,
+        "harris_votes": 4824,
+        "total_votes": 15755,
+        "trump_pct": 67.8,
+        "harris_pct": 30.6,
+        "margin_pct": 37.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 10684,
+        "democratic": 3851,
+        "libertarian": 357,
+        "legal_marijuana_now": 106,
+        "no_labels_nebraska": 13,
+        "nonpartisan": 4667,
+        "total_registered": 19678
+      }
+    },
+    {
+      "county": "Cedar",
+      "presidential": {
+        "trump_votes": 4141,
+        "harris_votes": 702,
+        "total_votes": 4912,
+        "trump_pct": 84.3,
+        "harris_pct": 14.3,
+        "margin_pct": 70.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 4072,
+        "democratic": 887,
+        "libertarian": 43,
+        "legal_marijuana_now": 13,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 768,
+        "total_registered": 5785
+      }
+    },
+    {
+      "county": "Chase",
+      "presidential": {
+        "trump_votes": 1648,
+        "harris_votes": 204,
+        "total_votes": 1866,
+        "trump_pct": 88.3,
+        "harris_pct": 10.9,
+        "margin_pct": 77.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1876,
+        "democratic": 224,
+        "libertarian": 21,
+        "legal_marijuana_now": 8,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 280,
+        "total_registered": 2409
+      }
+    },
+    {
+      "county": "Cherry",
+      "presidential": {
+        "trump_votes": 2687,
+        "harris_votes": 349,
+        "total_votes": 3069,
+        "trump_pct": 87.6,
+        "harris_pct": 11.4,
+        "margin_pct": 76.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2972,
+        "democratic": 311,
+        "libertarian": 26,
+        "legal_marijuana_now": 14,
+        "no_labels_nebraska": 3,
+        "nonpartisan": 370,
+        "total_registered": 3696
+      }
+    },
+    {
+      "county": "Cheyenne",
+      "presidential": {
+        "trump_votes": 3692,
+        "harris_votes": 787,
+        "total_votes": 4530,
+        "trump_pct": 81.5,
+        "harris_pct": 17.4,
+        "margin_pct": 64.1,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 4255,
+        "democratic": 761,
+        "libertarian": 93,
+        "legal_marijuana_now": 34,
+        "no_labels_nebraska": 8,
+        "nonpartisan": 1201,
+        "total_registered": 6352
+      }
+    },
+    {
+      "county": "Clay",
+      "presidential": {
+        "trump_votes": 2677,
+        "harris_votes": 577,
+        "total_votes": 3310,
+        "trump_pct": 80.9,
+        "harris_pct": 17.4,
+        "margin_pct": 63.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2975,
+        "democratic": 572,
+        "libertarian": 43,
+        "legal_marijuana_now": 12,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 575,
+        "total_registered": 4178
+      }
+    },
+    {
+      "county": "Colfax",
+      "presidential": {
+        "trump_votes": 2636,
+        "harris_votes": 845,
+        "total_votes": 3516,
+        "trump_pct": 75.0,
+        "harris_pct": 24.0,
+        "margin_pct": 50.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2802,
+        "democratic": 1476,
+        "libertarian": 55,
+        "legal_marijuana_now": 21,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 751,
+        "total_registered": 5107
+      }
+    },
+    {
+      "county": "Cuming",
+      "presidential": {
+        "trump_votes": 3536,
+        "harris_votes": 867,
+        "total_votes": 4445,
+        "trump_pct": 79.6,
+        "harris_pct": 19.5,
+        "margin_pct": 60.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3954,
+        "democratic": 870,
+        "libertarian": 46,
+        "legal_marijuana_now": 15,
+        "no_labels_nebraska": 13,
+        "nonpartisan": 946,
+        "total_registered": 5844
+      }
+    },
+    {
+      "county": "Custer",
+      "presidential": {
+        "trump_votes": 5042,
+        "harris_votes": 786,
+        "total_votes": 5886,
+        "trump_pct": 85.7,
+        "harris_pct": 13.4,
+        "margin_pct": 72.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 5848,
+        "democratic": 815,
+        "libertarian": 74,
+        "legal_marijuana_now": 21,
+        "no_labels_nebraska": 4,
+        "nonpartisan": 1052,
+        "total_registered": 7814
+      }
+    },
+    {
+      "county": "Dakota",
+      "presidential": {
+        "trump_votes": 3934,
+        "harris_votes": 2109,
+        "total_votes": 6120,
+        "trump_pct": 64.3,
+        "harris_pct": 34.5,
+        "margin_pct": 29.8,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3998,
+        "democratic": 3688,
+        "libertarian": 143,
+        "legal_marijuana_now": 56,
+        "no_labels_nebraska": 15,
+        "nonpartisan": 2650,
+        "total_registered": 10550
+      }
+    },
+    {
+      "county": "Dawes",
+      "presidential": {
+        "trump_votes": 2812,
+        "harris_votes": 992,
+        "total_votes": 3868,
+        "trump_pct": 72.7,
+        "harris_pct": 25.6,
+        "margin_pct": 47.1,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3173,
+        "democratic": 842,
+        "libertarian": 79,
+        "legal_marijuana_now": 23,
+        "no_labels_nebraska": 4,
+        "nonpartisan": 955,
+        "total_registered": 5076
+      }
+    },
+    {
+      "county": "Dawson",
+      "presidential": {
+        "trump_votes": 6312,
+        "harris_votes": 2101,
+        "total_votes": 8491,
+        "trump_pct": 74.3,
+        "harris_pct": 24.7,
+        "margin_pct": 49.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 7728,
+        "democratic": 2931,
+        "libertarian": 139,
+        "legal_marijuana_now": 52,
+        "no_labels_nebraska": 13,
+        "nonpartisan": 2249,
+        "total_registered": 13112
+      }
+    },
+    {
+      "county": "Deuel",
+      "presidential": {
+        "trump_votes": 843,
+        "harris_votes": 151,
+        "total_votes": 1012,
+        "trump_pct": 83.3,
+        "harris_pct": 14.9,
+        "margin_pct": 68.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1030,
+        "democratic": 129,
+        "libertarian": 12,
+        "legal_marijuana_now": 3,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 237,
+        "total_registered": 1412
+      }
+    },
+    {
+      "county": "Dixon",
+      "presidential": {
+        "trump_votes": 2271,
+        "harris_votes": 573,
+        "total_votes": 2895,
+        "trump_pct": 78.4,
+        "harris_pct": 19.8,
+        "margin_pct": 58.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2381,
+        "democratic": 638,
+        "libertarian": 36,
+        "legal_marijuana_now": 13,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 554,
+        "total_registered": 3622
+      }
+    },
+    {
+      "county": "Dodge",
+      "presidential": {
+        "trump_votes": 10795,
+        "harris_votes": 5434,
+        "total_votes": 16443,
+        "trump_pct": 65.7,
+        "harris_pct": 33.0,
+        "margin_pct": 32.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 12003,
+        "democratic": 5133,
+        "libertarian": 337,
+        "legal_marijuana_now": 166,
+        "no_labels_nebraska": 18,
+        "nonpartisan": 4920,
+        "total_registered": 22577
+      }
+    },
+    {
+      "county": "Douglas",
+      "presidential": {
+        "trump_votes": 120919,
+        "harris_votes": 148733,
+        "total_votes": 273403,
+        "trump_pct": 44.2,
+        "harris_pct": 54.4,
+        "margin_pct": 10.2,
+        "winner": "Harris"
+      },
+      "registration": {
+        "republican": 130958,
+        "democratic": 135207,
+        "libertarian": 5625,
+        "legal_marijuana_now": 3701,
+        "no_labels_nebraska": 754,
+        "nonpartisan": 92628,
+        "total_registered": 368873
+      }
+    },
+    {
+      "county": "Dundy",
+      "presidential": {
+        "trump_votes": 829,
+        "harris_votes": 96,
+        "total_votes": 929,
+        "trump_pct": 89.2,
+        "harris_pct": 10.3,
+        "margin_pct": 78.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 966,
+        "democratic": 89,
+        "libertarian": 15,
+        "legal_marijuana_now": 4,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 154,
+        "total_registered": 1228
+      }
+    },
+    {
+      "county": "Fillmore",
+      "presidential": {
+        "trump_votes": 2315,
+        "harris_votes": 662,
+        "total_votes": 3013,
+        "trump_pct": 76.8,
+        "harris_pct": 22.0,
+        "margin_pct": 54.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2682,
+        "democratic": 632,
+        "libertarian": 47,
+        "legal_marijuana_now": 14,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 607,
+        "total_registered": 3983
+      }
+    },
+    {
+      "county": "Franklin",
+      "presidential": {
+        "trump_votes": 1351,
+        "harris_votes": 236,
+        "total_votes": 1600,
+        "trump_pct": 84.4,
+        "harris_pct": 14.8,
+        "margin_pct": 69.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1542,
+        "democratic": 234,
+        "libertarian": 22,
+        "legal_marijuana_now": 3,
+        "no_labels_nebraska": 5,
+        "nonpartisan": 303,
+        "total_registered": 2109
+      }
+    },
+    {
+      "county": "Frontier",
+      "presidential": {
+        "trump_votes": 1213,
+        "harris_votes": 185,
+        "total_votes": 1410,
+        "trump_pct": 86.0,
+        "harris_pct": 13.1,
+        "margin_pct": 72.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1445,
+        "democratic": 169,
+        "libertarian": 10,
+        "legal_marijuana_now": 8,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 224,
+        "total_registered": 1856
+      }
+    },
+    {
+      "county": "Furnas",
+      "presidential": {
+        "trump_votes": 2043,
+        "harris_votes": 358,
+        "total_votes": 2413,
+        "trump_pct": 84.7,
+        "harris_pct": 14.8,
+        "margin_pct": 69.8,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2388,
+        "democratic": 398,
+        "libertarian": 42,
+        "legal_marijuana_now": 11,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 503,
+        "total_registered": 3344
+      }
+    },
+    {
+      "county": "Gage",
+      "presidential": {
+        "trump_votes": 7523,
+        "harris_votes": 3242,
+        "total_votes": 10916,
+        "trump_pct": 68.9,
+        "harris_pct": 29.7,
+        "margin_pct": 39.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 8328,
+        "democratic": 2976,
+        "libertarian": 178,
+        "legal_marijuana_now": 110,
+        "no_labels_nebraska": 14,
+        "nonpartisan": 3051,
+        "total_registered": 14657
+      }
+    },
+    {
+      "county": "Garden",
+      "presidential": {
+        "trump_votes": 949,
+        "harris_votes": 162,
+        "total_votes": 1117,
+        "trump_pct": 85.0,
+        "harris_pct": 14.5,
+        "margin_pct": 70.5,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1033,
+        "democratic": 124,
+        "libertarian": 13,
+        "legal_marijuana_now": 3,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 170,
+        "total_registered": 1343
+      }
+    },
+    {
+      "county": "Garfield",
+      "presidential": {
+        "trump_votes": 893,
+        "harris_votes": 116,
+        "total_votes": 1015,
+        "trump_pct": 88.0,
+        "harris_pct": 11.4,
+        "margin_pct": 76.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1102,
+        "democratic": 101,
+        "libertarian": 7,
+        "legal_marijuana_now": 2,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 92,
+        "total_registered": 1304
+      }
+    },
+    {
+      "county": "Gosper",
+      "presidential": {
+        "trump_votes": 907,
+        "harris_votes": 203,
+        "total_votes": 1118,
+        "trump_pct": 81.1,
+        "harris_pct": 18.2,
+        "margin_pct": 63.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1091,
+        "democratic": 136,
+        "libertarian": 9,
+        "legal_marijuana_now": 2,
+        "no_labels_nebraska": 4,
+        "nonpartisan": 189,
+        "total_registered": 1431
+      }
+    },
+    {
+      "county": "Grant",
+      "presidential": {
+        "trump_votes": 351,
+        "harris_votes": 15,
+        "total_votes": 366,
+        "trump_pct": 95.9,
+        "harris_pct": 4.1,
+        "margin_pct": 91.8,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 399,
+        "democratic": 20,
+        "libertarian": 1,
+        "legal_marijuana_now": 1,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 27,
+        "total_registered": 448
+      }
+    },
+    {
+      "county": "Greeley",
+      "presidential": {
+        "trump_votes": 1030,
+        "harris_votes": 192,
+        "total_votes": 1235,
+        "trump_pct": 83.4,
+        "harris_pct": 15.5,
+        "margin_pct": 67.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1079,
+        "democratic": 340,
+        "libertarian": 10,
+        "legal_marijuana_now": 2,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 144,
+        "total_registered": 1576
+      }
+    },
+    {
+      "county": "Hall",
+      "presidential": {
+        "trump_votes": 15566,
+        "harris_votes": 6956,
+        "total_votes": 22804,
+        "trump_pct": 68.3,
+        "harris_pct": 30.5,
+        "margin_pct": 37.8,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 17850,
+        "democratic": 7619,
+        "libertarian": 437,
+        "legal_marijuana_now": 206,
+        "no_labels_nebraska": 41,
+        "nonpartisan": 7298,
+        "total_registered": 33451
+      }
+    },
+    {
+      "county": "Hamilton",
+      "presidential": {
+        "trump_votes": 4416,
+        "harris_votes": 1067,
+        "total_votes": 5547,
+        "trump_pct": 79.6,
+        "harris_pct": 19.2,
+        "margin_pct": 60.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 4955,
+        "democratic": 880,
+        "libertarian": 71,
+        "legal_marijuana_now": 28,
+        "no_labels_nebraska": 3,
+        "nonpartisan": 1026,
+        "total_registered": 6963
+      }
+    },
+    {
+      "county": "Harlan",
+      "presidential": {
+        "trump_votes": 1506,
+        "harris_votes": 280,
+        "total_votes": 1802,
+        "trump_pct": 83.6,
+        "harris_pct": 15.5,
+        "margin_pct": 68.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1698,
+        "democratic": 309,
+        "libertarian": 14,
+        "legal_marijuana_now": 6,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 332,
+        "total_registered": 2360
+      }
+    },
+    {
+      "county": "Hayes",
+      "presidential": {
+        "trump_votes": 472,
+        "harris_votes": 19,
+        "total_votes": 494,
+        "trump_pct": 95.5,
+        "harris_pct": 3.8,
+        "margin_pct": 91.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 535,
+        "democratic": 27,
+        "libertarian": 7,
+        "legal_marijuana_now": 1,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 59,
+        "total_registered": 629
+      }
+    },
+    {
+      "county": "Hitchcock",
+      "presidential": {
+        "trump_votes": 1269,
+        "harris_votes": 152,
+        "total_votes": 1433,
+        "trump_pct": 88.6,
+        "harris_pct": 10.6,
+        "margin_pct": 77.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1400,
+        "democratic": 183,
+        "libertarian": 23,
+        "legal_marijuana_now": 2,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 267,
+        "total_registered": 1875
+      }
+    },
+    {
+      "county": "Holt",
+      "presidential": {
+        "trump_votes": 4708,
+        "harris_votes": 681,
+        "total_votes": 5442,
+        "trump_pct": 86.5,
+        "harris_pct": 12.5,
+        "margin_pct": 74.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 5520,
+        "democratic": 749,
+        "libertarian": 46,
+        "legal_marijuana_now": 20,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 726,
+        "total_registered": 7063
+      }
+    },
+    {
+      "county": "Hooker",
+      "presidential": {
+        "trump_votes": 369,
+        "harris_votes": 55,
+        "total_votes": 427,
+        "trump_pct": 86.4,
+        "harris_pct": 12.9,
+        "margin_pct": 73.5,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 429,
+        "democratic": 49,
+        "libertarian": 4,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 50,
+        "total_registered": 532
+      }
+    },
+    {
+      "county": "Howard",
+      "presidential": {
+        "trump_votes": 2868,
+        "harris_votes": 642,
+        "total_votes": 3550,
+        "trump_pct": 80.8,
+        "harris_pct": 18.1,
+        "margin_pct": 62.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3147,
+        "democratic": 801,
+        "libertarian": 64,
+        "legal_marijuana_now": 10,
+        "no_labels_nebraska": 8,
+        "nonpartisan": 638,
+        "total_registered": 4668
+      }
+    },
+    {
+      "county": "Jefferson",
+      "presidential": {
+        "trump_votes": 2614,
+        "harris_votes": 968,
+        "total_votes": 3631,
+        "trump_pct": 72.0,
+        "harris_pct": 26.7,
+        "margin_pct": 45.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3006,
+        "democratic": 882,
+        "libertarian": 51,
+        "legal_marijuana_now": 41,
+        "no_labels_nebraska": 5,
+        "nonpartisan": 826,
+        "total_registered": 4811
+      }
+    },
+    {
+      "county": "Johnson",
+      "presidential": {
+        "trump_votes": 1496,
+        "harris_votes": 625,
+        "total_votes": 2152,
+        "trump_pct": 69.5,
+        "harris_pct": 29.0,
+        "margin_pct": 40.5,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1718,
+        "democratic": 595,
+        "libertarian": 39,
+        "legal_marijuana_now": 7,
+        "no_labels_nebraska": 3,
+        "nonpartisan": 487,
+        "total_registered": 2849
+      }
+    },
+    {
+      "county": "Kearney",
+      "presidential": {
+        "trump_votes": 2828,
+        "harris_votes": 736,
+        "total_votes": 3604,
+        "trump_pct": 78.5,
+        "harris_pct": 20.4,
+        "margin_pct": 58.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3249,
+        "democratic": 646,
+        "libertarian": 69,
+        "legal_marijuana_now": 12,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 633,
+        "total_registered": 4611
+      }
+    },
+    {
+      "county": "Keith",
+      "presidential": {
+        "trump_votes": 3416,
+        "harris_votes": 731,
+        "total_votes": 4199,
+        "trump_pct": 81.4,
+        "harris_pct": 17.4,
+        "margin_pct": 63.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3925,
+        "democratic": 683,
+        "libertarian": 59,
+        "legal_marijuana_now": 21,
+        "no_labels_nebraska": 4,
+        "nonpartisan": 1050,
+        "total_registered": 5742
+      }
+    },
+    {
+      "county": "Keya Paha",
+      "presidential": {
+        "trump_votes": 500,
+        "harris_votes": 44,
+        "total_votes": 544,
+        "trump_pct": 91.9,
+        "harris_pct": 8.1,
+        "margin_pct": 83.8,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 556,
+        "democratic": 40,
+        "libertarian": 3,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 33,
+        "total_registered": 632
+      }
+    },
+    {
+      "county": "Kimball",
+      "presidential": {
+        "trump_votes": 1424,
+        "harris_votes": 272,
+        "total_votes": 1720,
+        "trump_pct": 82.8,
+        "harris_pct": 15.8,
+        "margin_pct": 67.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1854,
+        "democratic": 307,
+        "libertarian": 35,
+        "legal_marijuana_now": 7,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 404,
+        "total_registered": 2608
+      }
+    },
+    {
+      "county": "Knox",
+      "presidential": {
+        "trump_votes": 3593,
+        "harris_votes": 786,
+        "total_votes": 4436,
+        "trump_pct": 81.0,
+        "harris_pct": 17.7,
+        "margin_pct": 63.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3698,
+        "democratic": 976,
+        "libertarian": 41,
+        "legal_marijuana_now": 19,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 792,
+        "total_registered": 5527
+      }
+    },
+    {
+      "county": "Lancaster",
+      "presidential": {
+        "trump_votes": 74215,
+        "harris_votes": 81012,
+        "total_votes": 157633,
+        "trump_pct": 47.1,
+        "harris_pct": 51.4,
+        "margin_pct": 4.3,
+        "winner": "Harris"
+      },
+      "registration": {
+        "republican": 82914,
+        "democratic": 69595,
+        "libertarian": 3303,
+        "legal_marijuana_now": 1547,
+        "no_labels_nebraska": 193,
+        "nonpartisan": 49016,
+        "total_registered": 206568
+      }
+    },
+    {
+      "county": "Lincoln",
+      "presidential": {
+        "trump_votes": 12674,
+        "harris_votes": 3586,
+        "total_votes": 16464,
+        "trump_pct": 77.0,
+        "harris_pct": 21.8,
+        "margin_pct": 55.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 14745,
+        "democratic": 4078,
+        "libertarian": 339,
+        "legal_marijuana_now": 146,
+        "no_labels_nebraska": 18,
+        "nonpartisan": 4352,
+        "total_registered": 23678
+      }
+    },
+    {
+      "county": "Logan",
+      "presidential": {
+        "trump_votes": 409,
+        "harris_votes": 25,
+        "total_votes": 440,
+        "trump_pct": 93.0,
+        "harris_pct": 5.7,
+        "margin_pct": 87.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 446,
+        "democratic": 39,
+        "libertarian": 5,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 64,
+        "total_registered": 554
+      }
+    },
+    {
+      "county": "Loup",
+      "presidential": {
+        "trump_votes": 354,
+        "harris_votes": 73,
+        "total_votes": 428,
+        "trump_pct": 82.7,
+        "harris_pct": 17.1,
+        "margin_pct": 65.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 428,
+        "democratic": 59,
+        "libertarian": 2,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 30,
+        "total_registered": 519
+      }
+    },
+    {
+      "county": "Madison",
+      "presidential": {
+        "trump_votes": 12145,
+        "harris_votes": 3360,
+        "total_votes": 15690,
+        "trump_pct": 77.4,
+        "harris_pct": 21.4,
+        "margin_pct": 56.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 13989,
+        "democratic": 3801,
+        "libertarian": 274,
+        "legal_marijuana_now": 138,
+        "no_labels_nebraska": 12,
+        "nonpartisan": 4148,
+        "total_registered": 22362
+      }
+    },
+    {
+      "county": "McPherson",
+      "presidential": {
+        "trump_votes": 267,
+        "harris_votes": 12,
+        "total_votes": 283,
+        "trump_pct": 94.3,
+        "harris_pct": 4.2,
+        "margin_pct": 90.1,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 300,
+        "democratic": 22,
+        "libertarian": 5,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 17,
+        "total_registered": 344
+      }
+    },
+    {
+      "county": "Merrick",
+      "presidential": {
+        "trump_votes": 3551,
+        "harris_votes": 730,
+        "total_votes": 4342,
+        "trump_pct": 81.8,
+        "harris_pct": 16.8,
+        "margin_pct": 65.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3867,
+        "democratic": 658,
+        "libertarian": 39,
+        "legal_marijuana_now": 18,
+        "no_labels_nebraska": 5,
+        "nonpartisan": 715,
+        "total_registered": 5302
+      }
+    },
+    {
+      "county": "Morrill",
+      "presidential": {
+        "trump_votes": 2026,
+        "harris_votes": 366,
+        "total_votes": 2426,
+        "trump_pct": 83.5,
+        "harris_pct": 15.1,
+        "margin_pct": 68.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2168,
+        "democratic": 343,
+        "libertarian": 33,
+        "legal_marijuana_now": 10,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 417,
+        "total_registered": 2972
+      }
+    },
+    {
+      "county": "Nance",
+      "presidential": {
+        "trump_votes": 1462,
+        "harris_votes": 352,
+        "total_votes": 1837,
+        "trump_pct": 79.6,
+        "harris_pct": 19.2,
+        "margin_pct": 60.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1607,
+        "democratic": 468,
+        "libertarian": 26,
+        "legal_marijuana_now": 7,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 298,
+        "total_registered": 2407
+      }
+    },
+    {
+      "county": "Nemaha",
+      "presidential": {
+        "trump_votes": 2443,
+        "harris_votes": 915,
+        "total_votes": 3418,
+        "trump_pct": 71.5,
+        "harris_pct": 26.8,
+        "margin_pct": 44.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2656,
+        "democratic": 823,
+        "libertarian": 62,
+        "legal_marijuana_now": 16,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 907,
+        "total_registered": 4465
+      }
+    },
+    {
+      "county": "Nuckolls",
+      "presidential": {
+        "trump_votes": 1836,
+        "harris_votes": 399,
+        "total_votes": 2258,
+        "trump_pct": 81.3,
+        "harris_pct": 17.7,
+        "margin_pct": 63.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2138,
+        "democratic": 491,
+        "libertarian": 24,
+        "legal_marijuana_now": 17,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 449,
+        "total_registered": 3119
+      }
+    },
+    {
+      "county": "Otoe",
+      "presidential": {
+        "trump_votes": 5651,
+        "harris_votes": 2463,
+        "total_votes": 8198,
+        "trump_pct": 68.9,
+        "harris_pct": 30.0,
+        "margin_pct": 38.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 6215,
+        "democratic": 2148,
+        "libertarian": 142,
+        "legal_marijuana_now": 45,
+        "no_labels_nebraska": 9,
+        "nonpartisan": 2292,
+        "total_registered": 10851
+      }
+    },
+    {
+      "county": "Pawnee",
+      "presidential": {
+        "trump_votes": 1085,
+        "harris_votes": 284,
+        "total_votes": 1379,
+        "trump_pct": 78.7,
+        "harris_pct": 20.6,
+        "margin_pct": 58.1,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1197,
+        "democratic": 318,
+        "libertarian": 17,
+        "legal_marijuana_now": 12,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 254,
+        "total_registered": 1798
+      }
+    },
+    {
+      "county": "Perkins",
+      "presidential": {
+        "trump_votes": 1224,
+        "harris_votes": 187,
+        "total_votes": 1426,
+        "trump_pct": 85.8,
+        "harris_pct": 13.1,
+        "margin_pct": 72.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1392,
+        "democratic": 197,
+        "libertarian": 13,
+        "legal_marijuana_now": 4,
+        "no_labels_nebraska": 2,
+        "nonpartisan": 236,
+        "total_registered": 1844
+      }
+    },
+    {
+      "county": "Phelps",
+      "presidential": {
+        "trump_votes": 4158,
+        "harris_votes": 758,
+        "total_votes": 4965,
+        "trump_pct": 83.7,
+        "harris_pct": 15.3,
+        "margin_pct": 68.5,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 4629,
+        "democratic": 712,
+        "libertarian": 71,
+        "legal_marijuana_now": 23,
+        "no_labels_nebraska": 4,
+        "nonpartisan": 805,
+        "total_registered": 6244
+      }
+    },
+    {
+      "county": "Pierce",
+      "presidential": {
+        "trump_votes": 3420,
+        "harris_votes": 446,
+        "total_votes": 3897,
+        "trump_pct": 87.8,
+        "harris_pct": 11.4,
+        "margin_pct": 76.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3722,
+        "democratic": 469,
+        "libertarian": 39,
+        "legal_marijuana_now": 16,
+        "no_labels_nebraska": 3,
+        "nonpartisan": 695,
+        "total_registered": 4944
+      }
+    },
+    {
+      "county": "Platte",
+      "presidential": {
+        "trump_votes": 12326,
+        "harris_votes": 3191,
+        "total_votes": 15658,
+        "trump_pct": 78.7,
+        "harris_pct": 20.4,
+        "margin_pct": 58.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 13610,
+        "democratic": 3576,
+        "libertarian": 220,
+        "legal_marijuana_now": 101,
+        "no_labels_nebraska": 15,
+        "nonpartisan": 3301,
+        "total_registered": 20823
+      }
+    },
+    {
+      "county": "Polk",
+      "presidential": {
+        "trump_votes": 2296,
+        "harris_votes": 501,
+        "total_votes": 2819,
+        "trump_pct": 81.4,
+        "harris_pct": 17.8,
+        "margin_pct": 63.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2574,
+        "democratic": 509,
+        "libertarian": 39,
+        "legal_marijuana_now": 7,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 513,
+        "total_registered": 3643
+      }
+    },
+    {
+      "county": "Red Willow",
+      "presidential": {
+        "trump_votes": 4457,
+        "harris_votes": 815,
+        "total_votes": 5323,
+        "trump_pct": 83.7,
+        "harris_pct": 15.3,
+        "margin_pct": 68.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 4970,
+        "democratic": 825,
+        "libertarian": 84,
+        "legal_marijuana_now": 33,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 1166,
+        "total_registered": 7079
+      }
+    },
+    {
+      "county": "Richardson",
+      "presidential": {
+        "trump_votes": 2962,
+        "harris_votes": 934,
+        "total_votes": 3942,
+        "trump_pct": 75.1,
+        "harris_pct": 23.7,
+        "margin_pct": 51.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3230,
+        "democratic": 1083,
+        "libertarian": 36,
+        "legal_marijuana_now": 31,
+        "no_labels_nebraska": 5,
+        "nonpartisan": 851,
+        "total_registered": 5236
+      }
+    },
+    {
+      "county": "Rock",
+      "presidential": {
+        "trump_votes": 745,
+        "harris_votes": 85,
+        "total_votes": 834,
+        "trump_pct": 89.3,
+        "harris_pct": 10.2,
+        "margin_pct": 79.1,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 935,
+        "democratic": 69,
+        "libertarian": 6,
+        "legal_marijuana_now": 1,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 61,
+        "total_registered": 1073
+      }
+    },
+    {
+      "county": "Saline",
+      "presidential": {
+        "trump_votes": 3734,
+        "harris_votes": 1855,
+        "total_votes": 5655,
+        "trump_pct": 66.0,
+        "harris_pct": 32.8,
+        "margin_pct": 33.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3918,
+        "democratic": 2349,
+        "libertarian": 109,
+        "legal_marijuana_now": 37,
+        "no_labels_nebraska": 12,
+        "nonpartisan": 1527,
+        "total_registered": 7952
+      }
+    },
+    {
+      "county": "Sarpy",
+      "presidential": {
+        "trump_votes": 55567,
+        "harris_votes": 43825,
+        "total_votes": 100735,
+        "trump_pct": 55.2,
+        "harris_pct": 43.5,
+        "margin_pct": 11.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 57732,
+        "democratic": 33712,
+        "libertarian": 2321,
+        "legal_marijuana_now": 853,
+        "no_labels_nebraska": 205,
+        "nonpartisan": 35280,
+        "total_registered": 130103
+      }
+    },
+    {
+      "county": "Saunders",
+      "presidential": {
+        "trump_votes": 9854,
+        "harris_votes": 3558,
+        "total_votes": 13565,
+        "trump_pct": 72.6,
+        "harris_pct": 26.2,
+        "margin_pct": 46.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 10582,
+        "democratic": 2882,
+        "libertarian": 203,
+        "legal_marijuana_now": 72,
+        "no_labels_nebraska": 10,
+        "nonpartisan": 2956,
+        "total_registered": 16705
+      }
+    },
+    {
+      "county": "Scotts Bluff",
+      "presidential": {
+        "trump_votes": 11033,
+        "harris_votes": 3856,
+        "total_votes": 15040,
+        "trump_pct": 73.4,
+        "harris_pct": 25.6,
+        "margin_pct": 47.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 13157,
+        "democratic": 4518,
+        "libertarian": 327,
+        "legal_marijuana_now": 139,
+        "no_labels_nebraska": 24,
+        "nonpartisan": 4915,
+        "total_registered": 23080
+      }
+    },
+    {
+      "county": "Seward",
+      "presidential": {
+        "trump_votes": 6667,
+        "harris_votes": 2388,
+        "total_votes": 9184,
+        "trump_pct": 72.6,
+        "harris_pct": 26.0,
+        "margin_pct": 46.6,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 7147,
+        "democratic": 2056,
+        "libertarian": 150,
+        "legal_marijuana_now": 42,
+        "no_labels_nebraska": 9,
+        "nonpartisan": 2195,
+        "total_registered": 11599
+      }
+    },
+    {
+      "county": "Sheridan",
+      "presidential": {
+        "trump_votes": 2102,
+        "harris_votes": 362,
+        "total_votes": 2484,
+        "trump_pct": 84.6,
+        "harris_pct": 14.6,
+        "margin_pct": 70.0,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2522,
+        "democratic": 367,
+        "libertarian": 27,
+        "legal_marijuana_now": 10,
+        "no_labels_nebraska": 3,
+        "nonpartisan": 454,
+        "total_registered": 3383
+      }
+    },
+    {
+      "county": "Sherman",
+      "presidential": {
+        "trump_votes": 1344,
+        "harris_votes": 328,
+        "total_votes": 1687,
+        "trump_pct": 79.7,
+        "harris_pct": 19.4,
+        "margin_pct": 60.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1367,
+        "democratic": 487,
+        "libertarian": 16,
+        "legal_marijuana_now": 7,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 219,
+        "total_registered": 2097
+      }
+    },
+    {
+      "county": "Sioux",
+      "presidential": {
+        "trump_votes": 597,
+        "harris_votes": 77,
+        "total_votes": 678,
+        "trump_pct": 88.1,
+        "harris_pct": 11.4,
+        "margin_pct": 76.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 678,
+        "democratic": 69,
+        "libertarian": 6,
+        "legal_marijuana_now": 1,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 90,
+        "total_registered": 844
+      }
+    },
+    {
+      "county": "Stanton",
+      "presidential": {
+        "trump_votes": 2536,
+        "harris_votes": 492,
+        "total_votes": 3064,
+        "trump_pct": 82.8,
+        "harris_pct": 16.1,
+        "margin_pct": 66.7,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2745,
+        "democratic": 464,
+        "libertarian": 35,
+        "legal_marijuana_now": 15,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 490,
+        "total_registered": 3750
+      }
+    },
+    {
+      "county": "Thayer",
+      "presidential": {
+        "trump_votes": 2278,
+        "harris_votes": 544,
+        "total_votes": 2852,
+        "trump_pct": 79.9,
+        "harris_pct": 19.1,
+        "margin_pct": 60.8,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2482,
+        "democratic": 557,
+        "libertarian": 28,
+        "legal_marijuana_now": 9,
+        "no_labels_nebraska": 3,
+        "nonpartisan": 514,
+        "total_registered": 3593
+      }
+    },
+    {
+      "county": "Thomas",
+      "presidential": {
+        "trump_votes": 348,
+        "harris_votes": 44,
+        "total_votes": 393,
+        "trump_pct": 88.5,
+        "harris_pct": 11.2,
+        "margin_pct": 77.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 396,
+        "democratic": 38,
+        "libertarian": 4,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 54,
+        "total_registered": 492
+      }
+    },
+    {
+      "county": "Thurston",
+      "presidential": {
+        "trump_votes": 1125,
+        "harris_votes": 978,
+        "total_votes": 2123,
+        "trump_pct": 53.0,
+        "harris_pct": 46.1,
+        "margin_pct": 6.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1318,
+        "democratic": 1788,
+        "libertarian": 29,
+        "legal_marijuana_now": 35,
+        "no_labels_nebraska": 7,
+        "nonpartisan": 633,
+        "total_registered": 3810
+      }
+    },
+    {
+      "county": "Valley",
+      "presidential": {
+        "trump_votes": 1872,
+        "harris_votes": 403,
+        "total_votes": 2299,
+        "trump_pct": 81.4,
+        "harris_pct": 17.5,
+        "margin_pct": 63.9,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 2192,
+        "democratic": 417,
+        "libertarian": 18,
+        "legal_marijuana_now": 10,
+        "no_labels_nebraska": 1,
+        "nonpartisan": 338,
+        "total_registered": 2976
+      }
+    },
+    {
+      "county": "Washington",
+      "presidential": {
+        "trump_votes": 8855,
+        "harris_votes": 3538,
+        "total_votes": 12545,
+        "trump_pct": 70.6,
+        "harris_pct": 28.2,
+        "margin_pct": 42.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 9251,
+        "democratic": 2706,
+        "libertarian": 220,
+        "legal_marijuana_now": 81,
+        "no_labels_nebraska": 15,
+        "nonpartisan": 3259,
+        "total_registered": 15532
+      }
+    },
+    {
+      "county": "Wayne",
+      "presidential": {
+        "trump_votes": 3011,
+        "harris_votes": 1006,
+        "total_votes": 4073,
+        "trump_pct": 73.9,
+        "harris_pct": 24.7,
+        "margin_pct": 49.2,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 3432,
+        "democratic": 850,
+        "libertarian": 86,
+        "legal_marijuana_now": 12,
+        "no_labels_nebraska": 3,
+        "nonpartisan": 859,
+        "total_registered": 5242
+      }
+    },
+    {
+      "county": "Webster",
+      "presidential": {
+        "trump_votes": 1449,
+        "harris_votes": 296,
+        "total_votes": 1763,
+        "trump_pct": 82.2,
+        "harris_pct": 16.8,
+        "margin_pct": 65.4,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 1626,
+        "democratic": 313,
+        "libertarian": 30,
+        "legal_marijuana_now": 1,
+        "no_labels_nebraska": 4,
+        "nonpartisan": 339,
+        "total_registered": 2313
+      }
+    },
+    {
+      "county": "Wheeler",
+      "presidential": {
+        "trump_votes": 424,
+        "harris_votes": 57,
+        "total_votes": 486,
+        "trump_pct": 87.2,
+        "harris_pct": 11.7,
+        "margin_pct": 75.5,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 468,
+        "democratic": 69,
+        "libertarian": 6,
+        "legal_marijuana_now": 0,
+        "no_labels_nebraska": 0,
+        "nonpartisan": 45,
+        "total_registered": 588
+      }
+    },
+    {
+      "county": "York",
+      "presidential": {
+        "trump_votes": 5234,
+        "harris_votes": 1648,
+        "total_votes": 6984,
+        "trump_pct": 74.9,
+        "harris_pct": 23.6,
+        "margin_pct": 51.3,
+        "winner": "Trump"
+      },
+      "registration": {
+        "republican": 6364,
+        "democratic": 1374,
+        "libertarian": 106,
+        "legal_marijuana_now": 45,
+        "no_labels_nebraska": 8,
+        "nonpartisan": 1550,
+        "total_registered": 9447
+      }
+    }
+  ]
+}

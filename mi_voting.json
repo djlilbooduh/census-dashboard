@@ -1,0 +1,3089 @@
+{
+  "state": "Michigan",
+  "state_fips": "26",
+  "state_abbr": "MI",
+  "generated": "2026-05-10",
+  "source_presidential": {
+    "name": "US County Level Presidential Election Results 2008-2024",
+    "repo": "https://github.com/tonmcg/US_County_Level_Election_Results_08-24",
+    "doi": "10.5281/zenodo.14223604",
+    "notes": {
+      "2016": "Scraped from Townhall.com",
+      "2020": "Scraped from Fox News, Politico, and New York Times",
+      "2024": "Scraped from Fox News"
+    }
+  },
+  "voter_registration": {
+    "note": "Michigan does not have party registration. County-level total registered voter counts are published quarterly by the MI Secretary of State at mvic.sos.state.mi.us/VoterCount, but the site uses Cloudflare anti-bot protection that blocks automated access.",
+    "statewide_registered_2024_general": 8441208,
+    "statewide_registered_source": "Michigan Secretary of State, 2024 General Election"
+  },
+  "counties": {
+    "Alcona County": {
+      "fips": "26001",
+      "2016": {
+        "votes_dem": 1732,
+        "votes_gop": 4201,
+        "total_votes": 6179,
+        "per_dem": 28.03,
+        "per_gop": 67.99,
+        "gop_margin_raw": 2469,
+        "gop_margin_pct": 39.96,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2142,
+        "votes_gop": 4848,
+        "total_votes": 7064,
+        "per_dem": 30.32,
+        "per_gop": 68.63,
+        "gop_margin_raw": 2706,
+        "gop_margin_pct": 38.31,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 2140,
+        "votes_gop": 5257,
+        "total_votes": 7481,
+        "per_dem": 28.61,
+        "per_gop": 70.27,
+        "gop_margin_raw": 3117,
+        "gop_margin_pct": 41.67,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.65,
+      "shift_2020_to_2024": 3.36,
+      "shift_2016_to_2024": 1.71
+    },
+    "Alger County": {
+      "fips": "26003",
+      "2016": {
+        "votes_dem": 1663,
+        "votes_gop": 2585,
+        "total_votes": 4513,
+        "per_dem": 36.85,
+        "per_gop": 57.28,
+        "gop_margin_raw": 922,
+        "gop_margin_pct": 20.43,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2053,
+        "votes_gop": 3014,
+        "total_votes": 5128,
+        "per_dem": 40.04,
+        "per_gop": 58.78,
+        "gop_margin_raw": 961,
+        "gop_margin_pct": 18.74,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 2075,
+        "votes_gop": 3116,
+        "total_votes": 5258,
+        "per_dem": 39.46,
+        "per_gop": 59.26,
+        "gop_margin_raw": 1041,
+        "gop_margin_pct": 19.8,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.69,
+      "shift_2020_to_2024": 1.06,
+      "shift_2016_to_2024": -0.63
+    },
+    "Allegan County": {
+      "fips": "26005",
+      "2016": {
+        "votes_dem": 17932,
+        "votes_gop": 33812,
+        "total_votes": 55153,
+        "per_dem": 32.51,
+        "per_gop": 61.31,
+        "gop_margin_raw": 15880,
+        "gop_margin_pct": 28.79,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 24449,
+        "votes_gop": 41392,
+        "total_votes": 67094,
+        "per_dem": 36.44,
+        "per_gop": 61.69,
+        "gop_margin_raw": 16943,
+        "gop_margin_pct": 25.25,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 25637,
+        "votes_gop": 45206,
+        "total_votes": 71890,
+        "per_dem": 35.66,
+        "per_gop": 62.88,
+        "gop_margin_raw": 19569,
+        "gop_margin_pct": 27.22,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -3.54,
+      "shift_2020_to_2024": 1.97,
+      "shift_2016_to_2024": -1.57
+    },
+    "Alpena County": {
+      "fips": "26007",
+      "2016": {
+        "votes_dem": 4877,
+        "votes_gop": 9090,
+        "total_votes": 14688,
+        "per_dem": 33.2,
+        "per_gop": 61.89,
+        "gop_margin_raw": 4213,
+        "gop_margin_pct": 28.68,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 6000,
+        "votes_gop": 10686,
+        "total_votes": 16969,
+        "per_dem": 35.36,
+        "per_gop": 62.97,
+        "gop_margin_raw": 4686,
+        "gop_margin_pct": 27.62,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 6038,
+        "votes_gop": 10967,
+        "total_votes": 17210,
+        "per_dem": 35.08,
+        "per_gop": 63.72,
+        "gop_margin_raw": 4929,
+        "gop_margin_pct": 28.64,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.06,
+      "shift_2020_to_2024": 1.02,
+      "shift_2016_to_2024": -0.04
+    },
+    "Antrim County": {
+      "fips": "26009",
+      "2016": {
+        "votes_dem": 4448,
+        "votes_gop": 8469,
+        "total_votes": 13572,
+        "per_dem": 32.77,
+        "per_gop": 62.4,
+        "gop_margin_raw": 4021,
+        "gop_margin_pct": 29.63,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5960,
+        "votes_gop": 9748,
+        "total_votes": 15949,
+        "per_dem": 37.37,
+        "per_gop": 61.12,
+        "gop_margin_raw": 3788,
+        "gop_margin_pct": 23.75,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 6330,
+        "votes_gop": 10341,
+        "total_votes": 16882,
+        "per_dem": 37.5,
+        "per_gop": 61.25,
+        "gop_margin_raw": 4011,
+        "gop_margin_pct": 23.76,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -5.88,
+      "shift_2020_to_2024": 0.01,
+      "shift_2016_to_2024": -5.87
+    },
+    "Arenac County": {
+      "fips": "26011",
+      "2016": {
+        "votes_dem": 2238,
+        "votes_gop": 4704,
+        "total_votes": 7457,
+        "per_dem": 30.01,
+        "per_gop": 63.08,
+        "gop_margin_raw": 2466,
+        "gop_margin_pct": 33.07,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2774,
+        "votes_gop": 5928,
+        "total_votes": 8831,
+        "per_dem": 31.41,
+        "per_gop": 67.13,
+        "gop_margin_raw": 3154,
+        "gop_margin_pct": 35.72,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 2662,
+        "votes_gop": 6379,
+        "total_votes": 9158,
+        "per_dem": 29.07,
+        "per_gop": 69.65,
+        "gop_margin_raw": 3717,
+        "gop_margin_pct": 40.59,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 2.65,
+      "shift_2020_to_2024": 4.87,
+      "shift_2016_to_2024": 7.52
+    },
+    "Baraga County": {
+      "fips": "26013",
+      "2016": {
+        "votes_dem": 1156,
+        "votes_gop": 2158,
+        "total_votes": 3486,
+        "per_dem": 33.16,
+        "per_gop": 61.9,
+        "gop_margin_raw": 1002,
+        "gop_margin_pct": 28.74,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 1478,
+        "votes_gop": 2512,
+        "total_votes": 4038,
+        "per_dem": 36.6,
+        "per_gop": 62.21,
+        "gop_margin_raw": 1034,
+        "gop_margin_pct": 25.61,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 1488,
+        "votes_gop": 2779,
+        "total_votes": 4332,
+        "per_dem": 34.35,
+        "per_gop": 64.15,
+        "gop_margin_raw": 1291,
+        "gop_margin_pct": 29.8,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -3.13,
+      "shift_2020_to_2024": 4.19,
+      "shift_2016_to_2024": 1.06
+    },
+    "Barry County": {
+      "fips": "26015",
+      "2016": {
+        "votes_dem": 9109,
+        "votes_gop": 19197,
+        "total_votes": 30265,
+        "per_dem": 30.1,
+        "per_gop": 63.43,
+        "gop_margin_raw": 10088,
+        "gop_margin_pct": 33.33,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 11797,
+        "votes_gop": 23471,
+        "total_votes": 35905,
+        "per_dem": 32.86,
+        "per_gop": 65.37,
+        "gop_margin_raw": 11674,
+        "gop_margin_pct": 32.51,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 12391,
+        "votes_gop": 25650,
+        "total_votes": 38621,
+        "per_dem": 32.08,
+        "per_gop": 66.41,
+        "gop_margin_raw": 13259,
+        "gop_margin_pct": 34.33,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -0.82,
+      "shift_2020_to_2024": 1.82,
+      "shift_2016_to_2024": 1.0
+    },
+    "Bay County": {
+      "fips": "26017",
+      "2016": {
+        "votes_dem": 21641,
+        "votes_gop": 28327,
+        "total_votes": 52932,
+        "per_dem": 40.88,
+        "per_gop": 53.52,
+        "gop_margin_raw": 6686,
+        "gop_margin_pct": 12.63,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 26151,
+        "votes_gop": 33125,
+        "total_votes": 60255,
+        "per_dem": 43.4,
+        "per_gop": 54.97,
+        "gop_margin_raw": 6974,
+        "gop_margin_pct": 11.57,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 25767,
+        "votes_gop": 34792,
+        "total_votes": 61331,
+        "per_dem": 42.01,
+        "per_gop": 56.73,
+        "gop_margin_raw": 9025,
+        "gop_margin_pct": 14.72,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.06,
+      "shift_2020_to_2024": 3.15,
+      "shift_2016_to_2024": 2.09
+    },
+    "Benzie County": {
+      "fips": "26019",
+      "2016": {
+        "votes_dem": 4108,
+        "votes_gop": 5539,
+        "total_votes": 10221,
+        "per_dem": 40.19,
+        "per_gop": 54.19,
+        "gop_margin_raw": 1431,
+        "gop_margin_pct": 14.0,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5480,
+        "votes_gop": 6601,
+        "total_votes": 12262,
+        "per_dem": 44.69,
+        "per_gop": 53.83,
+        "gop_margin_raw": 1121,
+        "gop_margin_pct": 9.14,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5780,
+        "votes_gop": 6895,
+        "total_votes": 12845,
+        "per_dem": 45.0,
+        "per_gop": 53.68,
+        "gop_margin_raw": 1115,
+        "gop_margin_pct": 8.68,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -4.86,
+      "shift_2020_to_2024": -0.46,
+      "shift_2016_to_2024": -5.32
+    },
+    "Berrien County": {
+      "fips": "26021",
+      "2016": {
+        "votes_dem": 29496,
+        "votes_gop": 38646,
+        "total_votes": 71882,
+        "per_dem": 41.03,
+        "per_gop": 53.76,
+        "gop_margin_raw": 9150,
+        "gop_margin_pct": 12.73,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 37438,
+        "votes_gop": 43519,
+        "total_votes": 82391,
+        "per_dem": 45.44,
+        "per_gop": 52.82,
+        "gop_margin_raw": 6081,
+        "gop_margin_pct": 7.38,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 38323,
+        "votes_gop": 44975,
+        "total_votes": 84478,
+        "per_dem": 45.36,
+        "per_gop": 53.24,
+        "gop_margin_raw": 6652,
+        "gop_margin_pct": 7.87,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -5.35,
+      "shift_2020_to_2024": 0.49,
+      "shift_2016_to_2024": -4.86
+    },
+    "Branch County": {
+      "fips": "26023",
+      "2016": {
+        "votes_dem": 4740,
+        "votes_gop": 11025,
+        "total_votes": 16490,
+        "per_dem": 28.74,
+        "per_gop": 66.86,
+        "gop_margin_raw": 6285,
+        "gop_margin_pct": 38.11,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 6159,
+        "votes_gop": 14064,
+        "total_votes": 20536,
+        "per_dem": 29.99,
+        "per_gop": 68.48,
+        "gop_margin_raw": 7905,
+        "gop_margin_pct": 38.49,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5911,
+        "votes_gop": 14848,
+        "total_votes": 21088,
+        "per_dem": 28.03,
+        "per_gop": 70.41,
+        "gop_margin_raw": 8937,
+        "gop_margin_pct": 42.38,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.38,
+      "shift_2020_to_2024": 3.89,
+      "shift_2016_to_2024": 4.27
+    },
+    "Calhoun County": {
+      "fips": "26025",
+      "2016": {
+        "votes_dem": 24154,
+        "votes_gop": 31489,
+        "total_votes": 58786,
+        "per_dem": 41.09,
+        "per_gop": 53.57,
+        "gop_margin_raw": 7335,
+        "gop_margin_pct": 12.48,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 28877,
+        "votes_gop": 36221,
+        "total_votes": 66281,
+        "per_dem": 43.57,
+        "per_gop": 54.65,
+        "gop_margin_raw": 7344,
+        "gop_margin_pct": 11.08,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 28988,
+        "votes_gop": 38606,
+        "total_votes": 68490,
+        "per_dem": 42.32,
+        "per_gop": 56.37,
+        "gop_margin_raw": 9618,
+        "gop_margin_pct": 14.04,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.4,
+      "shift_2020_to_2024": 2.96,
+      "shift_2016_to_2024": 1.56
+    },
+    "Cass County": {
+      "fips": "26027",
+      "2016": {
+        "votes_dem": 7270,
+        "votes_gop": 14241,
+        "total_votes": 23272,
+        "per_dem": 31.24,
+        "per_gop": 61.19,
+        "gop_margin_raw": 6971,
+        "gop_margin_pct": 29.95,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 9130,
+        "votes_gop": 16699,
+        "total_votes": 26216,
+        "per_dem": 34.83,
+        "per_gop": 63.7,
+        "gop_margin_raw": 7569,
+        "gop_margin_pct": 28.87,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 9050,
+        "votes_gop": 18505,
+        "total_votes": 27869,
+        "per_dem": 32.47,
+        "per_gop": 66.4,
+        "gop_margin_raw": 9455,
+        "gop_margin_pct": 33.93,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.08,
+      "shift_2020_to_2024": 5.06,
+      "shift_2016_to_2024": 3.98
+    },
+    "Charlevoix County": {
+      "fips": "26029",
+      "2016": {
+        "votes_dem": 5137,
+        "votes_gop": 8674,
+        "total_votes": 14567,
+        "per_dem": 35.26,
+        "per_gop": 59.55,
+        "gop_margin_raw": 3537,
+        "gop_margin_pct": 24.28,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 6939,
+        "votes_gop": 9841,
+        "total_votes": 17000,
+        "per_dem": 40.82,
+        "per_gop": 57.89,
+        "gop_margin_raw": 2902,
+        "gop_margin_pct": 17.07,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 7197,
+        "votes_gop": 10183,
+        "total_votes": 17659,
+        "per_dem": 40.76,
+        "per_gop": 57.66,
+        "gop_margin_raw": 2986,
+        "gop_margin_pct": 16.91,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -7.21,
+      "shift_2020_to_2024": -0.16,
+      "shift_2016_to_2024": -7.37
+    },
+    "Cheboygan County": {
+      "fips": "26031",
+      "2016": {
+        "votes_dem": 4302,
+        "votes_gop": 8680,
+        "total_votes": 13647,
+        "per_dem": 31.52,
+        "per_gop": 63.6,
+        "gop_margin_raw": 4378,
+        "gop_margin_pct": 32.08,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5437,
+        "votes_gop": 10186,
+        "total_votes": 15868,
+        "per_dem": 34.26,
+        "per_gop": 64.19,
+        "gop_margin_raw": 4749,
+        "gop_margin_pct": 29.93,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5543,
+        "votes_gop": 10653,
+        "total_votes": 16423,
+        "per_dem": 33.75,
+        "per_gop": 64.87,
+        "gop_margin_raw": 5110,
+        "gop_margin_pct": 31.11,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.15,
+      "shift_2020_to_2024": 1.18,
+      "shift_2016_to_2024": -0.97
+    },
+    "Chippewa County": {
+      "fips": "26033",
+      "2016": {
+        "votes_dem": 5378,
+        "votes_gop": 9120,
+        "total_votes": 15434,
+        "per_dem": 34.85,
+        "per_gop": 59.09,
+        "gop_margin_raw": 3742,
+        "gop_margin_pct": 24.25,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 6648,
+        "votes_gop": 10681,
+        "total_votes": 17642,
+        "per_dem": 37.68,
+        "per_gop": 60.54,
+        "gop_margin_raw": 4033,
+        "gop_margin_pct": 22.86,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 6796,
+        "votes_gop": 11249,
+        "total_votes": 18363,
+        "per_dem": 37.01,
+        "per_gop": 61.26,
+        "gop_margin_raw": 4453,
+        "gop_margin_pct": 24.25,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.39,
+      "shift_2020_to_2024": 1.39,
+      "shift_2016_to_2024": 0.0
+    },
+    "Clare County": {
+      "fips": "26035",
+      "2016": {
+        "votes_dem": 4250,
+        "votes_gop": 8507,
+        "total_votes": 13385,
+        "per_dem": 31.75,
+        "per_gop": 63.56,
+        "gop_margin_raw": 4257,
+        "gop_margin_pct": 31.8,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5199,
+        "votes_gop": 10861,
+        "total_votes": 16281,
+        "per_dem": 31.93,
+        "per_gop": 66.71,
+        "gop_margin_raw": 5662,
+        "gop_margin_pct": 34.78,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5273,
+        "votes_gop": 11772,
+        "total_votes": 17288,
+        "per_dem": 30.5,
+        "per_gop": 68.09,
+        "gop_margin_raw": 6499,
+        "gop_margin_pct": 37.59,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 2.98,
+      "shift_2020_to_2024": 2.81,
+      "shift_2016_to_2024": 5.79
+    },
+    "Clinton County": {
+      "fips": "26037",
+      "2016": {
+        "votes_dem": 16490,
+        "votes_gop": 21635,
+        "total_votes": 40564,
+        "per_dem": 40.65,
+        "per_gop": 53.34,
+        "gop_margin_raw": 5145,
+        "gop_margin_pct": 12.68,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 21968,
+        "votes_gop": 25098,
+        "total_votes": 47927,
+        "per_dem": 45.84,
+        "per_gop": 52.37,
+        "gop_margin_raw": 3130,
+        "gop_margin_pct": 6.53,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 22450,
+        "votes_gop": 26751,
+        "total_votes": 49961,
+        "per_dem": 44.94,
+        "per_gop": 53.54,
+        "gop_margin_raw": 4301,
+        "gop_margin_pct": 8.61,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -6.15,
+      "shift_2020_to_2024": 2.08,
+      "shift_2016_to_2024": -4.07
+    },
+    "Crawford County": {
+      "fips": "26039",
+      "2016": {
+        "votes_dem": 2110,
+        "votes_gop": 4354,
+        "total_votes": 6833,
+        "per_dem": 30.88,
+        "per_gop": 63.72,
+        "gop_margin_raw": 2244,
+        "gop_margin_pct": 32.84,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2672,
+        "votes_gop": 5087,
+        "total_votes": 7861,
+        "per_dem": 33.99,
+        "per_gop": 64.71,
+        "gop_margin_raw": 2415,
+        "gop_margin_pct": 30.72,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 2752,
+        "votes_gop": 5613,
+        "total_votes": 8476,
+        "per_dem": 32.47,
+        "per_gop": 66.22,
+        "gop_margin_raw": 2861,
+        "gop_margin_pct": 33.75,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.12,
+      "shift_2020_to_2024": 3.03,
+      "shift_2016_to_2024": 0.91
+    },
+    "Delta County": {
+      "fips": "26041",
+      "2016": {
+        "votes_dem": 6431,
+        "votes_gop": 11112,
+        "total_votes": 18467,
+        "per_dem": 34.82,
+        "per_gop": 60.17,
+        "gop_margin_raw": 4681,
+        "gop_margin_pct": 25.35,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 7606,
+        "votes_gop": 13207,
+        "total_votes": 21151,
+        "per_dem": 35.96,
+        "per_gop": 62.44,
+        "gop_margin_raw": 5601,
+        "gop_margin_pct": 26.48,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 7462,
+        "votes_gop": 14109,
+        "total_votes": 21874,
+        "per_dem": 34.11,
+        "per_gop": 64.5,
+        "gop_margin_raw": 6647,
+        "gop_margin_pct": 30.39,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 1.13,
+      "shift_2020_to_2024": 3.91,
+      "shift_2016_to_2024": 5.04
+    },
+    "Dickinson County": {
+      "fips": "26043",
+      "2016": {
+        "votes_dem": 3923,
+        "votes_gop": 8580,
+        "total_votes": 13140,
+        "per_dem": 29.86,
+        "per_gop": 65.3,
+        "gop_margin_raw": 4657,
+        "gop_margin_pct": 35.44,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 4744,
+        "votes_gop": 9617,
+        "total_votes": 14589,
+        "per_dem": 32.52,
+        "per_gop": 65.92,
+        "gop_margin_raw": 4873,
+        "gop_margin_pct": 33.4,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 4763,
+        "votes_gop": 10324,
+        "total_votes": 15311,
+        "per_dem": 31.11,
+        "per_gop": 67.43,
+        "gop_margin_raw": 5561,
+        "gop_margin_pct": 36.32,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.04,
+      "shift_2020_to_2024": 2.92,
+      "shift_2016_to_2024": 0.88
+    },
+    "Eaton County": {
+      "fips": "26045",
+      "2016": {
+        "votes_dem": 24534,
+        "votes_gop": 27608,
+        "total_votes": 55686,
+        "per_dem": 44.06,
+        "per_gop": 49.58,
+        "gop_margin_raw": 3074,
+        "gop_margin_pct": 5.52,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 31299,
+        "votes_gop": 31798,
+        "total_votes": 64327,
+        "per_dem": 48.66,
+        "per_gop": 49.43,
+        "gop_margin_raw": 499,
+        "gop_margin_pct": 0.78,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 31056,
+        "votes_gop": 33102,
+        "total_votes": 65171,
+        "per_dem": 47.65,
+        "per_gop": 50.79,
+        "gop_margin_raw": 2046,
+        "gop_margin_pct": 3.14,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -4.74,
+      "shift_2020_to_2024": 2.36,
+      "shift_2016_to_2024": -2.38
+    },
+    "Emmet County": {
+      "fips": "26047",
+      "2016": {
+        "votes_dem": 6972,
+        "votes_gop": 10616,
+        "total_votes": 18774,
+        "per_dem": 37.14,
+        "per_gop": 56.55,
+        "gop_margin_raw": 3644,
+        "gop_margin_pct": 19.41,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 9662,
+        "votes_gop": 12135,
+        "total_votes": 22177,
+        "per_dem": 43.57,
+        "per_gop": 54.72,
+        "gop_margin_raw": 2473,
+        "gop_margin_pct": 11.15,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 10005,
+        "votes_gop": 12465,
+        "total_votes": 22848,
+        "per_dem": 43.79,
+        "per_gop": 54.56,
+        "gop_margin_raw": 2460,
+        "gop_margin_pct": 10.77,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -8.26,
+      "shift_2020_to_2024": -0.38,
+      "shift_2016_to_2024": -8.64
+    },
+    "Genesee County": {
+      "fips": "26049",
+      "2016": {
+        "votes_dem": 102744,
+        "votes_gop": 84174,
+        "total_votes": 196135,
+        "per_dem": 52.38,
+        "per_gop": 42.92,
+        "gop_margin_raw": -18570,
+        "gop_margin_pct": -9.47,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 119390,
+        "votes_gop": 98714,
+        "total_votes": 221360,
+        "per_dem": 53.93,
+        "per_gop": 44.59,
+        "gop_margin_raw": -20676,
+        "gop_margin_pct": -9.34,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 114670,
+        "votes_gop": 105303,
+        "total_votes": 223203,
+        "per_dem": 51.37,
+        "per_gop": 47.18,
+        "gop_margin_raw": -9367,
+        "gop_margin_pct": -4.2,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": 0.13,
+      "shift_2020_to_2024": 5.14,
+      "shift_2016_to_2024": 5.27
+    },
+    "Gladwin County": {
+      "fips": "26051",
+      "2016": {
+        "votes_dem": 3794,
+        "votes_gop": 8124,
+        "total_votes": 12472,
+        "per_dem": 30.42,
+        "per_gop": 65.14,
+        "gop_margin_raw": 4330,
+        "gop_margin_pct": 34.72,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 4524,
+        "votes_gop": 9893,
+        "total_votes": 14603,
+        "per_dem": 30.98,
+        "per_gop": 67.75,
+        "gop_margin_raw": 5369,
+        "gop_margin_pct": 36.77,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 4501,
+        "votes_gop": 10809,
+        "total_votes": 15488,
+        "per_dem": 29.06,
+        "per_gop": 69.79,
+        "gop_margin_raw": 6308,
+        "gop_margin_pct": 40.73,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 2.05,
+      "shift_2020_to_2024": 3.96,
+      "shift_2016_to_2024": 6.01
+    },
+    "Gogebic County": {
+      "fips": "26053",
+      "2016": {
+        "votes_dem": 2925,
+        "votes_gop": 4019,
+        "total_votes": 7313,
+        "per_dem": 40.0,
+        "per_gop": 54.96,
+        "gop_margin_raw": 1094,
+        "gop_margin_pct": 14.96,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 3570,
+        "votes_gop": 4600,
+        "total_votes": 8266,
+        "per_dem": 43.19,
+        "per_gop": 55.65,
+        "gop_margin_raw": 1030,
+        "gop_margin_pct": 12.46,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 3385,
+        "votes_gop": 4803,
+        "total_votes": 8292,
+        "per_dem": 40.82,
+        "per_gop": 57.92,
+        "gop_margin_raw": 1418,
+        "gop_margin_pct": 17.1,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.5,
+      "shift_2020_to_2024": 4.64,
+      "shift_2016_to_2024": 2.14
+    },
+    "Grand Traverse County": {
+      "fips": "26055",
+      "2016": {
+        "votes_dem": 20964,
+        "votes_gop": 27412,
+        "total_votes": 51460,
+        "per_dem": 40.74,
+        "per_gop": 53.27,
+        "gop_margin_raw": 6448,
+        "gop_margin_pct": 12.53,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 28683,
+        "votes_gop": 30502,
+        "total_votes": 60236,
+        "per_dem": 47.62,
+        "per_gop": 50.64,
+        "gop_margin_raw": 1819,
+        "gop_margin_pct": 3.02,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 30339,
+        "votes_gop": 31423,
+        "total_votes": 62760,
+        "per_dem": 48.34,
+        "per_gop": 50.07,
+        "gop_margin_raw": 1084,
+        "gop_margin_pct": 1.73,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -9.51,
+      "shift_2020_to_2024": -1.29,
+      "shift_2016_to_2024": -10.8
+    },
+    "Gratiot County": {
+      "fips": "26057",
+      "2016": {
+        "votes_dem": 5665,
+        "votes_gop": 9878,
+        "total_votes": 16442,
+        "per_dem": 34.45,
+        "per_gop": 60.08,
+        "gop_margin_raw": 4213,
+        "gop_margin_pct": 25.62,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 6693,
+        "votes_gop": 12102,
+        "total_votes": 19127,
+        "per_dem": 34.99,
+        "per_gop": 63.27,
+        "gop_margin_raw": 5409,
+        "gop_margin_pct": 28.28,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 6682,
+        "votes_gop": 12894,
+        "total_votes": 19848,
+        "per_dem": 33.67,
+        "per_gop": 64.96,
+        "gop_margin_raw": 6212,
+        "gop_margin_pct": 31.3,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 2.66,
+      "shift_2020_to_2024": 3.02,
+      "shift_2016_to_2024": 5.68
+    },
+    "Hillsdale County": {
+      "fips": "26059",
+      "2016": {
+        "votes_dem": 4799,
+        "votes_gop": 14094,
+        "total_votes": 19880,
+        "per_dem": 24.14,
+        "per_gop": 70.9,
+        "gop_margin_raw": 9295,
+        "gop_margin_pct": 46.76,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5883,
+        "votes_gop": 17037,
+        "total_votes": 23302,
+        "per_dem": 25.25,
+        "per_gop": 73.11,
+        "gop_margin_raw": 11154,
+        "gop_margin_pct": 47.87,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5875,
+        "votes_gop": 18631,
+        "total_votes": 24813,
+        "per_dem": 23.68,
+        "per_gop": 75.09,
+        "gop_margin_raw": 12756,
+        "gop_margin_pct": 51.41,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 1.11,
+      "shift_2020_to_2024": 3.54,
+      "shift_2016_to_2024": 4.65
+    },
+    "Houghton County": {
+      "fips": "26061",
+      "2016": {
+        "votes_dem": 6018,
+        "votes_gop": 8475,
+        "total_votes": 15623,
+        "per_dem": 38.52,
+        "per_gop": 54.25,
+        "gop_margin_raw": 2457,
+        "gop_margin_pct": 15.73,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 7750,
+        "votes_gop": 10378,
+        "total_votes": 18501,
+        "per_dem": 41.89,
+        "per_gop": 56.09,
+        "gop_margin_raw": 2628,
+        "gop_margin_pct": 14.2,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 7881,
+        "votes_gop": 11181,
+        "total_votes": 19364,
+        "per_dem": 40.7,
+        "per_gop": 57.74,
+        "gop_margin_raw": 3300,
+        "gop_margin_pct": 17.04,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.53,
+      "shift_2020_to_2024": 2.84,
+      "shift_2016_to_2024": 1.31
+    },
+    "Huron County": {
+      "fips": "26063",
+      "2016": {
+        "votes_dem": 4579,
+        "votes_gop": 10629,
+        "total_votes": 15848,
+        "per_dem": 28.89,
+        "per_gop": 67.07,
+        "gop_margin_raw": 6050,
+        "gop_margin_pct": 38.18,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5490,
+        "votes_gop": 12731,
+        "total_votes": 18437,
+        "per_dem": 29.78,
+        "per_gop": 69.05,
+        "gop_margin_raw": 7241,
+        "gop_margin_pct": 39.27,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5522,
+        "votes_gop": 13224,
+        "total_votes": 18969,
+        "per_dem": 29.11,
+        "per_gop": 69.71,
+        "gop_margin_raw": 7702,
+        "gop_margin_pct": 40.6,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 1.09,
+      "shift_2020_to_2024": 1.33,
+      "shift_2016_to_2024": 2.42
+    },
+    "Ingham County": {
+      "fips": "26065",
+      "2016": {
+        "votes_dem": 81266,
+        "votes_gop": 44354,
+        "total_votes": 133478,
+        "per_dem": 60.88,
+        "per_gop": 33.23,
+        "gop_margin_raw": -36912,
+        "gop_margin_pct": -27.65,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 94212,
+        "votes_gop": 47639,
+        "total_votes": 144550,
+        "per_dem": 65.18,
+        "per_gop": 32.96,
+        "gop_margin_raw": -46573,
+        "gop_margin_pct": -32.22,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 94542,
+        "votes_gop": 50564,
+        "total_votes": 148012,
+        "per_dem": 63.87,
+        "per_gop": 34.16,
+        "gop_margin_raw": -43978,
+        "gop_margin_pct": -29.71,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -4.57,
+      "shift_2020_to_2024": 2.51,
+      "shift_2016_to_2024": -2.06
+    },
+    "Ionia County": {
+      "fips": "26067",
+      "2016": {
+        "votes_dem": 8206,
+        "votes_gop": 16374,
+        "total_votes": 26364,
+        "per_dem": 31.13,
+        "per_gop": 62.11,
+        "gop_margin_raw": 8168,
+        "gop_margin_pct": 30.98,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 10901,
+        "votes_gop": 20657,
+        "total_votes": 32209,
+        "per_dem": 33.84,
+        "per_gop": 64.13,
+        "gop_margin_raw": 9756,
+        "gop_margin_pct": 30.29,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 11338,
+        "votes_gop": 22179,
+        "total_votes": 34013,
+        "per_dem": 33.33,
+        "per_gop": 65.21,
+        "gop_margin_raw": 10841,
+        "gop_margin_pct": 31.87,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -0.69,
+      "shift_2020_to_2024": 1.58,
+      "shift_2016_to_2024": 0.89
+    },
+    "Iosco County": {
+      "fips": "26069",
+      "2016": {
+        "votes_dem": 4344,
+        "votes_gop": 8344,
+        "total_votes": 13349,
+        "per_dem": 32.54,
+        "per_gop": 62.51,
+        "gop_margin_raw": 4000,
+        "gop_margin_pct": 29.96,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5373,
+        "votes_gop": 9759,
+        "total_votes": 15363,
+        "per_dem": 34.97,
+        "per_gop": 63.52,
+        "gop_margin_raw": 4386,
+        "gop_margin_pct": 28.55,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5344,
+        "votes_gop": 10155,
+        "total_votes": 15731,
+        "per_dem": 33.97,
+        "per_gop": 64.55,
+        "gop_margin_raw": 4811,
+        "gop_margin_pct": 30.58,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.41,
+      "shift_2020_to_2024": 2.03,
+      "shift_2016_to_2024": 0.62
+    },
+    "Iron County": {
+      "fips": "26071",
+      "2016": {
+        "votes_dem": 2004,
+        "votes_gop": 3675,
+        "total_votes": 5910,
+        "per_dem": 33.91,
+        "per_gop": 62.18,
+        "gop_margin_raw": 1671,
+        "gop_margin_pct": 28.27,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2493,
+        "votes_gop": 4216,
+        "total_votes": 6789,
+        "per_dem": 36.72,
+        "per_gop": 62.1,
+        "gop_margin_raw": 1723,
+        "gop_margin_pct": 25.38,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 2441,
+        "votes_gop": 4501,
+        "total_votes": 7027,
+        "per_dem": 34.74,
+        "per_gop": 64.05,
+        "gop_margin_raw": 2060,
+        "gop_margin_pct": 29.32,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.89,
+      "shift_2020_to_2024": 3.94,
+      "shift_2016_to_2024": 1.05
+    },
+    "Isabella County": {
+      "fips": "26073",
+      "2016": {
+        "votes_dem": 11404,
+        "votes_gop": 12338,
+        "total_votes": 25344,
+        "per_dem": 45.0,
+        "per_gop": 48.68,
+        "gop_margin_raw": 934,
+        "gop_margin_pct": 3.69,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 14072,
+        "votes_gop": 14815,
+        "total_votes": 29421,
+        "per_dem": 47.83,
+        "per_gop": 50.36,
+        "gop_margin_raw": 743,
+        "gop_margin_pct": 2.53,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 14011,
+        "votes_gop": 16320,
+        "total_votes": 30817,
+        "per_dem": 45.47,
+        "per_gop": 52.96,
+        "gop_margin_raw": 2309,
+        "gop_margin_pct": 7.49,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.16,
+      "shift_2020_to_2024": 4.96,
+      "shift_2016_to_2024": 3.8
+    },
+    "Jackson County": {
+      "fips": "26075",
+      "2016": {
+        "votes_dem": 25795,
+        "votes_gop": 39793,
+        "total_votes": 69567,
+        "per_dem": 37.08,
+        "per_gop": 57.2,
+        "gop_margin_raw": 13998,
+        "gop_margin_pct": 20.12,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 31995,
+        "votes_gop": 47372,
+        "total_votes": 80861,
+        "per_dem": 39.57,
+        "per_gop": 58.58,
+        "gop_margin_raw": 15377,
+        "gop_margin_pct": 19.02,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 32348,
+        "votes_gop": 50199,
+        "total_votes": 83803,
+        "per_dem": 38.6,
+        "per_gop": 59.9,
+        "gop_margin_raw": 17851,
+        "gop_margin_pct": 21.3,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.1,
+      "shift_2020_to_2024": 2.28,
+      "shift_2016_to_2024": 1.18
+    },
+    "Kalamazoo County": {
+      "fips": "26077",
+      "2016": {
+        "votes_dem": 67142,
+        "votes_gop": 51031,
+        "total_votes": 125966,
+        "per_dem": 53.3,
+        "per_gop": 40.51,
+        "gop_margin_raw": -16111,
+        "gop_margin_pct": -12.79,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 83686,
+        "votes_gop": 56823,
+        "total_votes": 143414,
+        "per_dem": 58.35,
+        "per_gop": 39.62,
+        "gop_margin_raw": -26863,
+        "gop_margin_pct": -18.73,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 84501,
+        "votes_gop": 58671,
+        "total_votes": 145646,
+        "per_dem": 58.02,
+        "per_gop": 40.28,
+        "gop_margin_raw": -25830,
+        "gop_margin_pct": -17.73,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -5.94,
+      "shift_2020_to_2024": 1.0,
+      "shift_2016_to_2024": -4.94
+    },
+    "Kalkaska County": {
+      "fips": "26079",
+      "2016": {
+        "votes_dem": 2279,
+        "votes_gop": 6213,
+        "total_votes": 8920,
+        "per_dem": 25.55,
+        "per_gop": 69.65,
+        "gop_margin_raw": 3934,
+        "gop_margin_pct": 44.1,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 3002,
+        "votes_gop": 7436,
+        "total_votes": 10631,
+        "per_dem": 28.24,
+        "per_gop": 69.95,
+        "gop_margin_raw": 4434,
+        "gop_margin_pct": 41.71,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 3206,
+        "votes_gop": 8149,
+        "total_votes": 11529,
+        "per_dem": 27.81,
+        "per_gop": 70.68,
+        "gop_margin_raw": 4943,
+        "gop_margin_pct": 42.87,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.39,
+      "shift_2020_to_2024": 1.16,
+      "shift_2016_to_2024": -1.23
+    },
+    "Kent County": {
+      "fips": "26081",
+      "2016": {
+        "votes_dem": 138567,
+        "votes_gop": 147959,
+        "total_votes": 306270,
+        "per_dem": 45.24,
+        "per_gop": 48.31,
+        "gop_margin_raw": 9392,
+        "gop_margin_pct": 3.07,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 187915,
+        "votes_gop": 165741,
+        "total_votes": 361048,
+        "per_dem": 52.05,
+        "per_gop": 45.91,
+        "gop_margin_raw": -22174,
+        "gop_margin_pct": -6.14,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 192668,
+        "votes_gop": 172720,
+        "total_votes": 371722,
+        "per_dem": 51.83,
+        "per_gop": 46.46,
+        "gop_margin_raw": -19948,
+        "gop_margin_pct": -5.37,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -9.21,
+      "shift_2020_to_2024": 0.77,
+      "shift_2016_to_2024": -8.44
+    },
+    "Keweenaw County": {
+      "fips": "26083",
+      "2016": {
+        "votes_dem": 527,
+        "votes_gop": 814,
+        "total_votes": 1429,
+        "per_dem": 36.88,
+        "per_gop": 56.96,
+        "gop_margin_raw": 287,
+        "gop_margin_pct": 20.08,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 672,
+        "votes_gop": 862,
+        "total_votes": 1557,
+        "per_dem": 43.16,
+        "per_gop": 55.36,
+        "gop_margin_raw": 190,
+        "gop_margin_pct": 12.2,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 690,
+        "votes_gop": 896,
+        "total_votes": 1611,
+        "per_dem": 42.83,
+        "per_gop": 55.62,
+        "gop_margin_raw": 206,
+        "gop_margin_pct": 12.79,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -7.88,
+      "shift_2020_to_2024": 0.59,
+      "shift_2016_to_2024": -7.29
+    },
+    "Lake County": {
+      "fips": "26085",
+      "2016": {
+        "votes_dem": 1939,
+        "votes_gop": 3159,
+        "total_votes": 5328,
+        "per_dem": 36.39,
+        "per_gop": 59.29,
+        "gop_margin_raw": 1220,
+        "gop_margin_pct": 22.9,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2288,
+        "votes_gop": 3946,
+        "total_votes": 6323,
+        "per_dem": 36.19,
+        "per_gop": 62.41,
+        "gop_margin_raw": 1658,
+        "gop_margin_pct": 26.22,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 2298,
+        "votes_gop": 4523,
+        "total_votes": 6915,
+        "per_dem": 33.23,
+        "per_gop": 65.41,
+        "gop_margin_raw": 2225,
+        "gop_margin_pct": 32.18,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 3.32,
+      "shift_2020_to_2024": 5.96,
+      "shift_2016_to_2024": 9.28
+    },
+    "Lapeer County": {
+      "fips": "26087",
+      "2016": {
+        "votes_dem": 12734,
+        "votes_gop": 30037,
+        "total_votes": 45126,
+        "per_dem": 28.22,
+        "per_gop": 66.56,
+        "gop_margin_raw": 17303,
+        "gop_margin_pct": 38.34,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 16367,
+        "votes_gop": 35482,
+        "total_votes": 52650,
+        "per_dem": 31.09,
+        "per_gop": 67.39,
+        "gop_margin_raw": 19115,
+        "gop_margin_pct": 36.31,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 16338,
+        "votes_gop": 38398,
+        "total_votes": 55435,
+        "per_dem": 29.47,
+        "per_gop": 69.27,
+        "gop_margin_raw": 22060,
+        "gop_margin_pct": 39.79,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.03,
+      "shift_2020_to_2024": 3.48,
+      "shift_2016_to_2024": 1.45
+    },
+    "Leelanau County": {
+      "fips": "26089",
+      "2016": {
+        "votes_dem": 6774,
+        "votes_gop": 7239,
+        "total_votes": 14757,
+        "per_dem": 45.9,
+        "per_gop": 49.05,
+        "gop_margin_raw": 465,
+        "gop_margin_pct": 3.15,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 8795,
+        "votes_gop": 7916,
+        "total_votes": 16900,
+        "per_dem": 52.04,
+        "per_gop": 46.84,
+        "gop_margin_raw": -879,
+        "gop_margin_pct": -5.2,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 9406,
+        "votes_gop": 8035,
+        "total_votes": 17680,
+        "per_dem": 53.2,
+        "per_gop": 45.45,
+        "gop_margin_raw": -1371,
+        "gop_margin_pct": -7.75,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -8.35,
+      "shift_2020_to_2024": -2.55,
+      "shift_2016_to_2024": -10.9
+    },
+    "Lenawee County": {
+      "fips": "26091",
+      "2016": {
+        "votes_dem": 16750,
+        "votes_gop": 26428,
+        "total_votes": 45895,
+        "per_dem": 36.5,
+        "per_gop": 57.58,
+        "gop_margin_raw": 9678,
+        "gop_margin_pct": 21.09,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 20918,
+        "votes_gop": 31541,
+        "total_votes": 53375,
+        "per_dem": 39.19,
+        "per_gop": 59.09,
+        "gop_margin_raw": 10623,
+        "gop_margin_pct": 19.9,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 20787,
+        "votes_gop": 33463,
+        "total_votes": 55012,
+        "per_dem": 37.79,
+        "per_gop": 60.83,
+        "gop_margin_raw": 12676,
+        "gop_margin_pct": 23.04,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.19,
+      "shift_2020_to_2024": 3.14,
+      "shift_2016_to_2024": 1.95
+    },
+    "Livingston County": {
+      "fips": "26093",
+      "2016": {
+        "votes_dem": 34378,
+        "votes_gop": 65665,
+        "total_votes": 105577,
+        "per_dem": 32.56,
+        "per_gop": 62.2,
+        "gop_margin_raw": 31287,
+        "gop_margin_pct": 29.63,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 48220,
+        "votes_gop": 76982,
+        "total_votes": 127197,
+        "per_dem": 37.91,
+        "per_gop": 60.52,
+        "gop_margin_raw": 28762,
+        "gop_margin_pct": 22.61,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 49503,
+        "votes_gop": 81217,
+        "total_votes": 132402,
+        "per_dem": 37.39,
+        "per_gop": 61.34,
+        "gop_margin_raw": 31714,
+        "gop_margin_pct": 23.95,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -7.02,
+      "shift_2020_to_2024": 1.34,
+      "shift_2016_to_2024": -5.68
+    },
+    "Luce County": {
+      "fips": "26095",
+      "2016": {
+        "votes_dem": 681,
+        "votes_gop": 1756,
+        "total_votes": 2576,
+        "per_dem": 26.44,
+        "per_gop": 68.17,
+        "gop_margin_raw": 1075,
+        "gop_margin_pct": 41.73,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 842,
+        "votes_gop": 2109,
+        "total_votes": 3001,
+        "per_dem": 28.06,
+        "per_gop": 70.28,
+        "gop_margin_raw": 1267,
+        "gop_margin_pct": 42.22,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 769,
+        "votes_gop": 2170,
+        "total_votes": 2985,
+        "per_dem": 25.76,
+        "per_gop": 72.7,
+        "gop_margin_raw": 1401,
+        "gop_margin_pct": 46.93,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.49,
+      "shift_2020_to_2024": 4.71,
+      "shift_2016_to_2024": 5.2
+    },
+    "Mackinac County": {
+      "fips": "26097",
+      "2016": {
+        "votes_dem": 2085,
+        "votes_gop": 3740,
+        "total_votes": 6088,
+        "per_dem": 34.25,
+        "per_gop": 61.43,
+        "gop_margin_raw": 1655,
+        "gop_margin_pct": 27.18,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2632,
+        "votes_gop": 4304,
+        "total_votes": 7015,
+        "per_dem": 37.52,
+        "per_gop": 61.35,
+        "gop_margin_raw": 1672,
+        "gop_margin_pct": 23.83,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 2675,
+        "votes_gop": 4476,
+        "total_votes": 7238,
+        "per_dem": 36.96,
+        "per_gop": 61.84,
+        "gop_margin_raw": 1801,
+        "gop_margin_pct": 24.88,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -3.35,
+      "shift_2020_to_2024": 1.05,
+      "shift_2016_to_2024": -2.3
+    },
+    "Macomb County": {
+      "fips": "26099",
+      "2016": {
+        "votes_dem": 176238,
+        "votes_gop": 224589,
+        "total_votes": 418773,
+        "per_dem": 42.08,
+        "per_gop": 53.63,
+        "gop_margin_raw": 48351,
+        "gop_margin_pct": 11.55,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 223952,
+        "votes_gop": 263863,
+        "total_votes": 494256,
+        "per_dem": 45.31,
+        "per_gop": 53.39,
+        "gop_margin_raw": 39911,
+        "gop_margin_pct": 8.07,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 214977,
+        "votes_gop": 284660,
+        "total_votes": 509056,
+        "per_dem": 42.23,
+        "per_gop": 55.92,
+        "gop_margin_raw": 69683,
+        "gop_margin_pct": 13.69,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -3.48,
+      "shift_2020_to_2024": 5.62,
+      "shift_2016_to_2024": 2.14
+    },
+    "Manistee County": {
+      "fips": "26101",
+      "2016": {
+        "votes_dem": 4979,
+        "votes_gop": 6915,
+        "total_votes": 12598,
+        "per_dem": 39.52,
+        "per_gop": 54.89,
+        "gop_margin_raw": 1936,
+        "gop_margin_pct": 15.37,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 6107,
+        "votes_gop": 8321,
+        "total_votes": 14655,
+        "per_dem": 41.67,
+        "per_gop": 56.78,
+        "gop_margin_raw": 2214,
+        "gop_margin_pct": 15.11,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 6309,
+        "votes_gop": 8748,
+        "total_votes": 15296,
+        "per_dem": 41.25,
+        "per_gop": 57.19,
+        "gop_margin_raw": 2439,
+        "gop_margin_pct": 15.95,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -0.26,
+      "shift_2020_to_2024": 0.84,
+      "shift_2016_to_2024": 0.58
+    },
+    "Marquette County": {
+      "fips": "26103",
+      "2016": {
+        "votes_dem": 16042,
+        "votes_gop": 14646,
+        "total_votes": 32897,
+        "per_dem": 48.76,
+        "per_gop": 44.52,
+        "gop_margin_raw": -1396,
+        "gop_margin_pct": -4.24,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 20465,
+        "votes_gop": 16286,
+        "total_votes": 37462,
+        "per_dem": 54.63,
+        "per_gop": 43.47,
+        "gop_margin_raw": -4179,
+        "gop_margin_pct": -11.16,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 20866,
+        "votes_gop": 17459,
+        "total_votes": 38992,
+        "per_dem": 53.51,
+        "per_gop": 44.78,
+        "gop_margin_raw": -3407,
+        "gop_margin_pct": -8.74,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -6.92,
+      "shift_2020_to_2024": 2.42,
+      "shift_2016_to_2024": -4.5
+    },
+    "Mason County": {
+      "fips": "26105",
+      "2016": {
+        "votes_dem": 5281,
+        "votes_gop": 8505,
+        "total_votes": 14658,
+        "per_dem": 36.03,
+        "per_gop": 58.02,
+        "gop_margin_raw": 3224,
+        "gop_margin_pct": 21.99,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 6802,
+        "votes_gop": 10207,
+        "total_votes": 17254,
+        "per_dem": 39.42,
+        "per_gop": 59.16,
+        "gop_margin_raw": 3405,
+        "gop_margin_pct": 19.73,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 6973,
+        "votes_gop": 10830,
+        "total_votes": 18056,
+        "per_dem": 38.62,
+        "per_gop": 59.98,
+        "gop_margin_raw": 3857,
+        "gop_margin_pct": 21.36,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.26,
+      "shift_2020_to_2024": 1.63,
+      "shift_2016_to_2024": -0.63
+    },
+    "Mecosta County": {
+      "fips": "26107",
+      "2016": {
+        "votes_dem": 5827,
+        "votes_gop": 10305,
+        "total_votes": 17149,
+        "per_dem": 33.98,
+        "per_gop": 60.09,
+        "gop_margin_raw": 4478,
+        "gop_margin_pct": 26.11,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 7375,
+        "votes_gop": 13267,
+        "total_votes": 21049,
+        "per_dem": 35.04,
+        "per_gop": 63.03,
+        "gop_margin_raw": 5892,
+        "gop_margin_pct": 27.99,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 7688,
+        "votes_gop": 14445,
+        "total_votes": 22489,
+        "per_dem": 34.19,
+        "per_gop": 64.23,
+        "gop_margin_raw": 6757,
+        "gop_margin_pct": 30.05,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 1.88,
+      "shift_2020_to_2024": 2.06,
+      "shift_2016_to_2024": 3.94
+    },
+    "Menominee County": {
+      "fips": "26109",
+      "2016": {
+        "votes_dem": 3539,
+        "votes_gop": 6704,
+        "total_votes": 10765,
+        "per_dem": 32.88,
+        "per_gop": 62.28,
+        "gop_margin_raw": 3165,
+        "gop_margin_pct": 29.4,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 4316,
+        "votes_gop": 8117,
+        "total_votes": 12607,
+        "per_dem": 34.23,
+        "per_gop": 64.38,
+        "gop_margin_raw": 3801,
+        "gop_margin_pct": 30.15,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 4256,
+        "votes_gop": 8647,
+        "total_votes": 13060,
+        "per_dem": 32.59,
+        "per_gop": 66.21,
+        "gop_margin_raw": 4391,
+        "gop_margin_pct": 33.62,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.75,
+      "shift_2020_to_2024": 3.47,
+      "shift_2016_to_2024": 4.22
+    },
+    "Midland County": {
+      "fips": "26111",
+      "2016": {
+        "votes_dem": 15655,
+        "votes_gop": 23877,
+        "total_votes": 42379,
+        "per_dem": 36.94,
+        "per_gop": 56.34,
+        "gop_margin_raw": 8222,
+        "gop_margin_pct": 19.4,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 20493,
+        "votes_gop": 27675,
+        "total_votes": 49088,
+        "per_dem": 41.75,
+        "per_gop": 56.38,
+        "gop_margin_raw": 7182,
+        "gop_margin_pct": 14.63,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 20926,
+        "votes_gop": 28571,
+        "total_votes": 50287,
+        "per_dem": 41.61,
+        "per_gop": 56.82,
+        "gop_margin_raw": 7645,
+        "gop_margin_pct": 15.2,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -4.77,
+      "shift_2020_to_2024": 0.57,
+      "shift_2016_to_2024": -4.2
+    },
+    "Missaukee County": {
+      "fips": "26113",
+      "2016": {
+        "votes_dem": 1565,
+        "votes_gop": 5386,
+        "total_votes": 7301,
+        "per_dem": 21.44,
+        "per_gop": 73.77,
+        "gop_margin_raw": 3821,
+        "gop_margin_pct": 52.34,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 1967,
+        "votes_gop": 6648,
+        "total_votes": 8755,
+        "per_dem": 22.47,
+        "per_gop": 75.93,
+        "gop_margin_raw": 4681,
+        "gop_margin_pct": 53.47,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 1945,
+        "votes_gop": 7066,
+        "total_votes": 9151,
+        "per_dem": 21.25,
+        "per_gop": 77.22,
+        "gop_margin_raw": 5121,
+        "gop_margin_pct": 55.96,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 1.13,
+      "shift_2020_to_2024": 2.49,
+      "shift_2016_to_2024": 3.62
+    },
+    "Monroe County": {
+      "fips": "26115",
+      "2016": {
+        "votes_dem": 26859,
+        "votes_gop": 43255,
+        "total_votes": 74101,
+        "per_dem": 36.25,
+        "per_gop": 58.37,
+        "gop_margin_raw": 16396,
+        "gop_margin_pct": 22.13,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 32975,
+        "votes_gop": 52710,
+        "total_votes": 87148,
+        "per_dem": 37.84,
+        "per_gop": 60.48,
+        "gop_margin_raw": 19735,
+        "gop_margin_pct": 22.65,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 32622,
+        "votes_gop": 57405,
+        "total_votes": 91338,
+        "per_dem": 35.72,
+        "per_gop": 62.85,
+        "gop_margin_raw": 24783,
+        "gop_margin_pct": 27.13,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.52,
+      "shift_2020_to_2024": 4.48,
+      "shift_2016_to_2024": 5.0
+    },
+    "Montcalm County": {
+      "fips": "26117",
+      "2016": {
+        "votes_dem": 7874,
+        "votes_gop": 16907,
+        "total_votes": 26556,
+        "per_dem": 29.65,
+        "per_gop": 63.67,
+        "gop_margin_raw": 9033,
+        "gop_margin_pct": 34.01,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 9703,
+        "votes_gop": 21815,
+        "total_votes": 32100,
+        "per_dem": 30.23,
+        "per_gop": 67.96,
+        "gop_margin_raw": 12112,
+        "gop_margin_pct": 37.73,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 10368,
+        "votes_gop": 23946,
+        "total_votes": 34835,
+        "per_dem": 29.76,
+        "per_gop": 68.74,
+        "gop_margin_raw": 13578,
+        "gop_margin_pct": 38.98,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 3.72,
+      "shift_2020_to_2024": 1.25,
+      "shift_2016_to_2024": 4.97
+    },
+    "Montmorency County": {
+      "fips": "26119",
+      "2016": {
+        "votes_dem": 1286,
+        "votes_gop": 3498,
+        "total_votes": 5008,
+        "per_dem": 25.68,
+        "per_gop": 69.85,
+        "gop_margin_raw": 2212,
+        "gop_margin_pct": 44.17,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 1628,
+        "votes_gop": 4171,
+        "total_votes": 5859,
+        "per_dem": 27.79,
+        "per_gop": 71.19,
+        "gop_margin_raw": 2543,
+        "gop_margin_pct": 43.4,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 1702,
+        "votes_gop": 4599,
+        "total_votes": 6391,
+        "per_dem": 26.63,
+        "per_gop": 71.96,
+        "gop_margin_raw": 2897,
+        "gop_margin_pct": 45.33,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -0.77,
+      "shift_2020_to_2024": 1.93,
+      "shift_2016_to_2024": 1.16
+    },
+    "Muskegon County": {
+      "fips": "26121",
+      "2016": {
+        "votes_dem": 36640,
+        "votes_gop": 35962,
+        "total_votes": 77114,
+        "per_dem": 47.51,
+        "per_gop": 46.63,
+        "gop_margin_raw": -678,
+        "gop_margin_pct": -0.88,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 45643,
+        "votes_gop": 45133,
+        "total_votes": 92444,
+        "per_dem": 49.37,
+        "per_gop": 48.82,
+        "gop_margin_raw": -510,
+        "gop_margin_pct": -0.55,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 46028,
+        "votes_gop": 47733,
+        "total_votes": 95160,
+        "per_dem": 48.37,
+        "per_gop": 50.16,
+        "gop_margin_raw": 1705,
+        "gop_margin_pct": 1.79,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.33,
+      "shift_2020_to_2024": 2.34,
+      "shift_2016_to_2024": 2.67
+    },
+    "Newaygo County": {
+      "fips": "26123",
+      "2016": {
+        "votes_dem": 6212,
+        "votes_gop": 15174,
+        "total_votes": 22605,
+        "per_dem": 27.48,
+        "per_gop": 67.13,
+        "gop_margin_raw": 8962,
+        "gop_margin_pct": 39.65,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 7873,
+        "votes_gop": 18857,
+        "total_votes": 27161,
+        "per_dem": 28.99,
+        "per_gop": 69.43,
+        "gop_margin_raw": 10984,
+        "gop_margin_pct": 40.44,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 8131,
+        "votes_gop": 20630,
+        "total_votes": 29197,
+        "per_dem": 27.85,
+        "per_gop": 70.66,
+        "gop_margin_raw": 12499,
+        "gop_margin_pct": 42.81,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.79,
+      "shift_2020_to_2024": 2.37,
+      "shift_2016_to_2024": 3.16
+    },
+    "Oakland County": {
+      "fips": "26125",
+      "2016": {
+        "votes_dem": 342976,
+        "votes_gop": 289127,
+        "total_votes": 663255,
+        "per_dem": 51.71,
+        "per_gop": 43.59,
+        "gop_margin_raw": -53849,
+        "gop_margin_pct": -8.12,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 434148,
+        "votes_gop": 325971,
+        "total_votes": 770351,
+        "per_dem": 56.36,
+        "per_gop": 42.31,
+        "gop_margin_raw": -108177,
+        "gop_margin_pct": -14.04,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 419519,
+        "votes_gop": 337791,
+        "total_votes": 771939,
+        "per_dem": 54.35,
+        "per_gop": 43.76,
+        "gop_margin_raw": -81728,
+        "gop_margin_pct": -10.59,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -5.92,
+      "shift_2020_to_2024": 3.45,
+      "shift_2016_to_2024": -2.47
+    },
+    "Oceana County": {
+      "fips": "26127",
+      "2016": {
+        "votes_dem": 3973,
+        "votes_gop": 7228,
+        "total_votes": 11903,
+        "per_dem": 33.38,
+        "per_gop": 60.72,
+        "gop_margin_raw": 3255,
+        "gop_margin_pct": 27.35,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 4944,
+        "votes_gop": 8892,
+        "total_votes": 14062,
+        "per_dem": 35.16,
+        "per_gop": 63.23,
+        "gop_margin_raw": 3948,
+        "gop_margin_pct": 28.08,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5085,
+        "votes_gop": 9547,
+        "total_votes": 14870,
+        "per_dem": 34.2,
+        "per_gop": 64.2,
+        "gop_margin_raw": 4462,
+        "gop_margin_pct": 30.01,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.73,
+      "shift_2020_to_2024": 1.93,
+      "shift_2016_to_2024": 2.66
+    },
+    "Ogemaw County": {
+      "fips": "26129",
+      "2016": {
+        "votes_dem": 3030,
+        "votes_gop": 6827,
+        "total_votes": 10386,
+        "per_dem": 29.17,
+        "per_gop": 65.73,
+        "gop_margin_raw": 3797,
+        "gop_margin_pct": 36.56,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 3475,
+        "votes_gop": 8253,
+        "total_votes": 11907,
+        "per_dem": 29.18,
+        "per_gop": 69.31,
+        "gop_margin_raw": 4778,
+        "gop_margin_pct": 40.13,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 3578,
+        "votes_gop": 8879,
+        "total_votes": 12620,
+        "per_dem": 28.35,
+        "per_gop": 70.36,
+        "gop_margin_raw": 5301,
+        "gop_margin_pct": 42.0,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 3.57,
+      "shift_2020_to_2024": 1.87,
+      "shift_2016_to_2024": 5.44
+    },
+    "Ontonagon County": {
+      "fips": "26131",
+      "2016": {
+        "votes_dem": 1175,
+        "votes_gop": 2069,
+        "total_votes": 3420,
+        "per_dem": 34.36,
+        "per_gop": 60.5,
+        "gop_margin_raw": 894,
+        "gop_margin_pct": 26.14,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 1391,
+        "votes_gop": 2358,
+        "total_votes": 3804,
+        "per_dem": 36.57,
+        "per_gop": 61.99,
+        "gop_margin_raw": 967,
+        "gop_margin_pct": 25.42,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 1313,
+        "votes_gop": 2479,
+        "total_votes": 3841,
+        "per_dem": 34.18,
+        "per_gop": 64.54,
+        "gop_margin_raw": 1166,
+        "gop_margin_pct": 30.36,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -0.72,
+      "shift_2020_to_2024": 4.94,
+      "shift_2016_to_2024": 4.22
+    },
+    "Osceola County": {
+      "fips": "26133",
+      "2016": {
+        "votes_dem": 2705,
+        "votes_gop": 7336,
+        "total_votes": 10597,
+        "per_dem": 25.53,
+        "per_gop": 69.23,
+        "gop_margin_raw": 4631,
+        "gop_margin_pct": 43.7,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 3214,
+        "votes_gop": 8928,
+        "total_votes": 12329,
+        "per_dem": 26.07,
+        "per_gop": 72.41,
+        "gop_margin_raw": 5714,
+        "gop_margin_pct": 46.35,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 3326,
+        "votes_gop": 9639,
+        "total_votes": 13184,
+        "per_dem": 25.23,
+        "per_gop": 73.11,
+        "gop_margin_raw": 6313,
+        "gop_margin_pct": 47.88,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 2.65,
+      "shift_2020_to_2024": 1.53,
+      "shift_2016_to_2024": 4.18
+    },
+    "Oscoda County": {
+      "fips": "26135",
+      "2016": {
+        "votes_dem": 1044,
+        "votes_gop": 2843,
+        "total_votes": 4062,
+        "per_dem": 25.7,
+        "per_gop": 69.99,
+        "gop_margin_raw": 1799,
+        "gop_margin_pct": 44.29,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 1342,
+        "votes_gop": 3466,
+        "total_votes": 4874,
+        "per_dem": 27.53,
+        "per_gop": 71.11,
+        "gop_margin_raw": 2124,
+        "gop_margin_pct": 43.58,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 1414,
+        "votes_gop": 3716,
+        "total_votes": 5192,
+        "per_dem": 27.23,
+        "per_gop": 71.57,
+        "gop_margin_raw": 2302,
+        "gop_margin_pct": 44.34,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -0.71,
+      "shift_2020_to_2024": 0.76,
+      "shift_2016_to_2024": 0.05
+    },
+    "Otsego County": {
+      "fips": "26137",
+      "2016": {
+        "votes_dem": 3556,
+        "votes_gop": 8266,
+        "total_votes": 12529,
+        "per_dem": 28.38,
+        "per_gop": 65.97,
+        "gop_margin_raw": 4710,
+        "gop_margin_pct": 37.59,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 4743,
+        "votes_gop": 9779,
+        "total_votes": 14757,
+        "per_dem": 32.14,
+        "per_gop": 66.27,
+        "gop_margin_raw": 5036,
+        "gop_margin_pct": 34.13,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5052,
+        "votes_gop": 10693,
+        "total_votes": 15971,
+        "per_dem": 31.63,
+        "per_gop": 66.95,
+        "gop_margin_raw": 5641,
+        "gop_margin_pct": 35.32,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -3.46,
+      "shift_2020_to_2024": 1.19,
+      "shift_2016_to_2024": -2.27
+    },
+    "Ottawa County": {
+      "fips": "26139",
+      "2016": {
+        "votes_dem": 46276,
+        "votes_gop": 90456,
+        "total_votes": 145405,
+        "per_dem": 31.83,
+        "per_gop": 62.21,
+        "gop_margin_raw": 44180,
+        "gop_margin_pct": 30.38,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 64705,
+        "votes_gop": 100913,
+        "total_votes": 168713,
+        "per_dem": 38.35,
+        "per_gop": 59.81,
+        "gop_margin_raw": 36208,
+        "gop_margin_pct": 21.46,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 69653,
+        "votes_gop": 106133,
+        "total_votes": 178402,
+        "per_dem": 39.04,
+        "per_gop": 59.49,
+        "gop_margin_raw": 36480,
+        "gop_margin_pct": 20.45,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -8.92,
+      "shift_2020_to_2024": -1.01,
+      "shift_2016_to_2024": -9.93
+    },
+    "Presque Isle County": {
+      "fips": "26141",
+      "2016": {
+        "votes_dem": 2400,
+        "votes_gop": 4486,
+        "total_votes": 7215,
+        "per_dem": 33.26,
+        "per_gop": 62.18,
+        "gop_margin_raw": 2086,
+        "gop_margin_pct": 28.91,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 2911,
+        "votes_gop": 5342,
+        "total_votes": 8344,
+        "per_dem": 34.89,
+        "per_gop": 64.02,
+        "gop_margin_raw": 2431,
+        "gop_margin_pct": 29.13,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 3036,
+        "votes_gop": 5568,
+        "total_votes": 8739,
+        "per_dem": 34.74,
+        "per_gop": 63.71,
+        "gop_margin_raw": 2532,
+        "gop_margin_pct": 28.97,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.22,
+      "shift_2020_to_2024": -0.16,
+      "shift_2016_to_2024": 0.06
+    },
+    "Roscommon County": {
+      "fips": "26143",
+      "2016": {
+        "votes_dem": 4287,
+        "votes_gop": 8141,
+        "total_votes": 13036,
+        "per_dem": 32.89,
+        "per_gop": 62.45,
+        "gop_margin_raw": 3854,
+        "gop_margin_pct": 29.56,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5166,
+        "votes_gop": 9670,
+        "total_votes": 15018,
+        "per_dem": 34.4,
+        "per_gop": 64.39,
+        "gop_margin_raw": 4504,
+        "gop_margin_pct": 29.99,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5290,
+        "votes_gop": 10582,
+        "total_votes": 16065,
+        "per_dem": 32.93,
+        "per_gop": 65.87,
+        "gop_margin_raw": 5292,
+        "gop_margin_pct": 32.94,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.43,
+      "shift_2020_to_2024": 2.95,
+      "shift_2016_to_2024": 3.38
+    },
+    "Saginaw County": {
+      "fips": "26145",
+      "2016": {
+        "votes_dem": 44395,
+        "votes_gop": 45469,
+        "total_votes": 94198,
+        "per_dem": 47.13,
+        "per_gop": 48.27,
+        "gop_margin_raw": 1074,
+        "gop_margin_pct": 1.14,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 51088,
+        "votes_gop": 50785,
+        "total_votes": 103349,
+        "per_dem": 49.43,
+        "per_gop": 49.14,
+        "gop_margin_raw": -303,
+        "gop_margin_pct": -0.29,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 49515,
+        "votes_gop": 52912,
+        "total_votes": 103838,
+        "per_dem": 47.68,
+        "per_gop": 50.96,
+        "gop_margin_raw": 3397,
+        "gop_margin_pct": 3.27,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.43,
+      "shift_2020_to_2024": 3.56,
+      "shift_2016_to_2024": 2.13
+    },
+    "St. Clair County": {
+      "fips": "26147",
+      "2016": {
+        "votes_dem": 24553,
+        "votes_gop": 49067,
+        "total_votes": 77994,
+        "per_dem": 31.48,
+        "per_gop": 62.91,
+        "gop_margin_raw": 24514,
+        "gop_margin_pct": 31.43,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 31363,
+        "votes_gop": 59185,
+        "total_votes": 92064,
+        "per_dem": 34.07,
+        "per_gop": 64.29,
+        "gop_margin_raw": 27822,
+        "gop_margin_pct": 30.22,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 30844,
+        "votes_gop": 64277,
+        "total_votes": 96519,
+        "per_dem": 31.96,
+        "per_gop": 66.6,
+        "gop_margin_raw": 33433,
+        "gop_margin_pct": 34.64,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.21,
+      "shift_2020_to_2024": 4.42,
+      "shift_2016_to_2024": 3.21
+    },
+    "St. Joseph County": {
+      "fips": "26149",
+      "2016": {
+        "votes_dem": 7529,
+        "votes_gop": 14886,
+        "total_votes": 23765,
+        "per_dem": 31.68,
+        "per_gop": 62.64,
+        "gop_margin_raw": 7357,
+        "gop_margin_pct": 30.96,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 9262,
+        "votes_gop": 18127,
+        "total_votes": 27936,
+        "per_dem": 33.15,
+        "per_gop": 64.89,
+        "gop_margin_raw": 8865,
+        "gop_margin_pct": 31.73,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 9452,
+        "votes_gop": 19403,
+        "total_votes": 29307,
+        "per_dem": 32.25,
+        "per_gop": 66.21,
+        "gop_margin_raw": 9951,
+        "gop_margin_pct": 33.95,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.77,
+      "shift_2020_to_2024": 2.22,
+      "shift_2016_to_2024": 2.99
+    },
+    "Sanilac County": {
+      "fips": "26151",
+      "2016": {
+        "votes_dem": 4873,
+        "votes_gop": 13446,
+        "total_votes": 19243,
+        "per_dem": 25.32,
+        "per_gop": 69.87,
+        "gop_margin_raw": 8573,
+        "gop_margin_pct": 44.55,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5966,
+        "votes_gop": 16194,
+        "total_votes": 22446,
+        "per_dem": 26.58,
+        "per_gop": 72.15,
+        "gop_margin_raw": 10228,
+        "gop_margin_pct": 45.57,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 5957,
+        "votes_gop": 17080,
+        "total_votes": 23339,
+        "per_dem": 25.52,
+        "per_gop": 73.18,
+        "gop_margin_raw": 11123,
+        "gop_margin_pct": 47.66,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 1.02,
+      "shift_2020_to_2024": 2.09,
+      "shift_2016_to_2024": 3.11
+    },
+    "Schoolcraft County": {
+      "fips": "26153",
+      "2016": {
+        "votes_dem": 1369,
+        "votes_gop": 2556,
+        "total_votes": 4151,
+        "per_dem": 32.98,
+        "per_gop": 61.58,
+        "gop_margin_raw": 1187,
+        "gop_margin_pct": 28.6,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 1589,
+        "votes_gop": 3090,
+        "total_votes": 4745,
+        "per_dem": 33.49,
+        "per_gop": 65.12,
+        "gop_margin_raw": 1501,
+        "gop_margin_pct": 31.63,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 1631,
+        "votes_gop": 3196,
+        "total_votes": 4897,
+        "per_dem": 33.31,
+        "per_gop": 65.26,
+        "gop_margin_raw": 1565,
+        "gop_margin_pct": 31.96,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 3.03,
+      "shift_2020_to_2024": 0.33,
+      "shift_2016_to_2024": 3.36
+    },
+    "Shiawassee County": {
+      "fips": "26155",
+      "2016": {
+        "votes_dem": 12547,
+        "votes_gop": 19232,
+        "total_votes": 34044,
+        "per_dem": 36.86,
+        "per_gop": 56.49,
+        "gop_margin_raw": 6685,
+        "gop_margin_pct": 19.64,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 15347,
+        "votes_gop": 23149,
+        "total_votes": 39224,
+        "per_dem": 39.13,
+        "per_gop": 59.02,
+        "gop_margin_raw": 7802,
+        "gop_margin_pct": 19.89,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 15335,
+        "votes_gop": 24718,
+        "total_votes": 40682,
+        "per_dem": 37.69,
+        "per_gop": 60.76,
+        "gop_margin_raw": 9383,
+        "gop_margin_pct": 23.06,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 0.25,
+      "shift_2020_to_2024": 3.17,
+      "shift_2016_to_2024": 3.42
+    },
+    "Tuscola County": {
+      "fips": "26157",
+      "2016": {
+        "votes_dem": 7493,
+        "votes_gop": 17421,
+        "total_votes": 26157,
+        "per_dem": 28.65,
+        "per_gop": 66.6,
+        "gop_margin_raw": 9928,
+        "gop_margin_pct": 37.96,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 8712,
+        "votes_gop": 20297,
+        "total_votes": 29445,
+        "per_dem": 29.59,
+        "per_gop": 68.93,
+        "gop_margin_raw": 11585,
+        "gop_margin_pct": 39.34,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 8562,
+        "votes_gop": 21764,
+        "total_votes": 30716,
+        "per_dem": 27.87,
+        "per_gop": 70.86,
+        "gop_margin_raw": 13202,
+        "gop_margin_pct": 42.98,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": 1.38,
+      "shift_2020_to_2024": 3.64,
+      "shift_2016_to_2024": 5.02
+    },
+    "Van Buren County": {
+      "fips": "26159",
+      "2016": {
+        "votes_dem": 13258,
+        "votes_gop": 17890,
+        "total_votes": 33213,
+        "per_dem": 39.92,
+        "per_gop": 53.86,
+        "gop_margin_raw": 4632,
+        "gop_margin_pct": 13.95,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 16803,
+        "votes_gop": 21591,
+        "total_votes": 39066,
+        "per_dem": 43.01,
+        "per_gop": 55.27,
+        "gop_margin_raw": 4788,
+        "gop_margin_pct": 12.26,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 17175,
+        "votes_gop": 23407,
+        "total_votes": 41162,
+        "per_dem": 41.73,
+        "per_gop": 56.87,
+        "gop_margin_raw": 6232,
+        "gop_margin_pct": 15.14,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -1.69,
+      "shift_2020_to_2024": 2.88,
+      "shift_2016_to_2024": 1.19
+    },
+    "Washtenaw County": {
+      "fips": "26161",
+      "2016": {
+        "votes_dem": 128025,
+        "votes_gop": 50335,
+        "total_votes": 187201,
+        "per_dem": 68.39,
+        "per_gop": 26.89,
+        "gop_margin_raw": -77690,
+        "gop_margin_pct": -41.5,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 157136,
+        "votes_gop": 56241,
+        "total_votes": 216418,
+        "per_dem": 72.61,
+        "per_gop": 25.99,
+        "gop_margin_raw": -100895,
+        "gop_margin_pct": -46.62,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 157152,
+        "votes_gop": 58844,
+        "total_votes": 221304,
+        "per_dem": 71.01,
+        "per_gop": 26.59,
+        "gop_margin_raw": -98308,
+        "gop_margin_pct": -44.42,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -5.12,
+      "shift_2020_to_2024": 2.2,
+      "shift_2016_to_2024": -2.92
+    },
+    "Wayne County": {
+      "fips": "26163",
+      "2016": {
+        "votes_dem": 517842,
+        "votes_gop": 228908,
+        "total_votes": 775450,
+        "per_dem": 66.78,
+        "per_gop": 29.52,
+        "gop_margin_raw": -288934,
+        "gop_margin_pct": -37.26,
+        "winner": "DEM"
+      },
+      "2020": {
+        "votes_dem": 597170,
+        "votes_gop": 264553,
+        "total_votes": 872469,
+        "per_dem": 68.45,
+        "per_gop": 30.32,
+        "gop_margin_raw": -332617,
+        "gop_margin_pct": -38.12,
+        "winner": "DEM"
+      },
+      "2024": {
+        "votes_dem": 537032,
+        "votes_gop": 288860,
+        "total_votes": 856511,
+        "per_dem": 62.7,
+        "per_gop": 33.73,
+        "gop_margin_raw": -248172,
+        "gop_margin_pct": -28.97,
+        "winner": "DEM"
+      },
+      "shift_2016_to_2020": -0.86,
+      "shift_2020_to_2024": 9.15,
+      "shift_2016_to_2024": 8.29
+    },
+    "Wexford County": {
+      "fips": "26165",
+      "2016": {
+        "votes_dem": 4436,
+        "votes_gop": 10000,
+        "total_votes": 15279,
+        "per_dem": 29.03,
+        "per_gop": 65.45,
+        "gop_margin_raw": 5564,
+        "gop_margin_pct": 36.42,
+        "winner": "GOP"
+      },
+      "2020": {
+        "votes_dem": 5838,
+        "votes_gop": 12102,
+        "total_votes": 18265,
+        "per_dem": 31.96,
+        "per_gop": 66.26,
+        "gop_margin_raw": 6264,
+        "gop_margin_pct": 34.3,
+        "winner": "GOP"
+      },
+      "2024": {
+        "votes_dem": 6224,
+        "votes_gop": 12968,
+        "total_votes": 19476,
+        "per_dem": 31.96,
+        "per_gop": 66.58,
+        "gop_margin_raw": 6744,
+        "gop_margin_pct": 34.63,
+        "winner": "GOP"
+      },
+      "shift_2016_to_2020": -2.12,
+      "shift_2020_to_2024": 0.33,
+      "shift_2016_to_2024": -1.79
+    }
+  },
+  "statewide_2016": {
+    "votes_dem": 2268193,
+    "votes_gop": 2279805,
+    "total_votes": 4790917,
+    "per_dem": 47.34,
+    "per_gop": 47.59,
+    "gop_margin_raw": 11612,
+    "gop_margin_pct": 0.24,
+    "winner": "GOP"
+  },
+  "statewide_2020": {
+    "votes_dem": 2804040,
+    "votes_gop": 2649852,
+    "total_votes": 5539302,
+    "per_dem": 50.62,
+    "per_gop": 47.84,
+    "gop_margin_raw": -154188,
+    "gop_margin_pct": -2.78,
+    "winner": "DEM"
+  },
+  "statewide_2024": {
+    "votes_dem": 2736533,
+    "votes_gop": 2816636,
+    "total_votes": 5662504,
+    "per_dem": 48.33,
+    "per_gop": 49.74,
+    "gop_margin_raw": 80103,
+    "gop_margin_pct": 1.41,
+    "winner": "GOP"
+  },
+  "county_win_counts": {
+    "2016": {
+      "GOP": 75,
+      "DEM": 8,
+      "total": 83
+    },
+    "2020": {
+      "GOP": 72,
+      "DEM": 11,
+      "total": 83
+    },
+    "2024": {
+      "GOP": 74,
+      "DEM": 9,
+      "total": 83
+    }
+  },
+  "flipped_counties": {
+    "2016_to_2020": [
+      {
+        "county": "Kent County",
+        "from": "GOP",
+        "to": "DEM"
+      },
+      {
+        "county": "Leelanau County",
+        "from": "GOP",
+        "to": "DEM"
+      },
+      {
+        "county": "Saginaw County",
+        "from": "GOP",
+        "to": "DEM"
+      }
+    ],
+    "2020_to_2024": [
+      {
+        "county": "Muskegon County",
+        "from": "DEM",
+        "to": "GOP"
+      },
+      {
+        "county": "Saginaw County",
+        "from": "DEM",
+        "to": "GOP"
+      }
+    ]
+  }
+}

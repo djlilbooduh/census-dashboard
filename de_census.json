@@ -1,0 +1,3514 @@
+{
+  "cities": {
+    "Bellefonte town, Delaware": {
+      "state": "DE",
+      "fips": "1004650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1507,
+        "voting_age": 1165,
+        "voting_age_pct": 77.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1092,
+          "pct": 72.46
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 269,
+          "pct": 17.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 27,
+          "pct": 1.79
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 81,
+          "pct": 5.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 38,
+          "pct": 2.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 86667,
+        "poverty_count": 102,
+        "poverty_pct": 6.79
+      },
+      "education": {
+        "bachelors_or_higher": 356,
+        "bachelors_only": 64,
+        "masters": 46,
+        "professional": 13,
+        "doctorate": 8
+      }
+    },
+    "Bethany Beach town, Delaware": {
+      "state": "DE",
+      "fips": "1005690",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 923,
+        "voting_age": 865,
+        "voting_age_pct": 93.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 882,
+          "pct": 95.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.33
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17,
+          "pct": 1.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 0.98
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12,
+          "pct": 1.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 105833,
+        "poverty_count": 26,
+        "poverty_pct": 2.82
+      },
+      "education": {
+        "bachelors_or_higher": 529,
+        "bachelors_only": 183,
+        "masters": 35,
+        "professional": 24,
+        "doctorate": 18
+      }
+    },
+    "Bethel town, Delaware": {
+      "state": "DE",
+      "fips": "1005820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 431,
+        "voting_age": 343,
+        "voting_age_pct": 79.58
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 349,
+          "pct": 80.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 16,
+          "pct": 3.71
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4,
+          "pct": 0.93
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 62,
+          "pct": 14.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 91111,
+        "poverty_count": 6,
+        "poverty_pct": 1.39
+      },
+      "education": {
+        "bachelors_or_higher": 114,
+        "bachelors_only": 48,
+        "masters": 10,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "Blades town, Delaware": {
+      "state": "DE",
+      "fips": "1006730",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1055,
+        "voting_age": 805,
+        "voting_age_pct": 76.3
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 713,
+          "pct": 67.58
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 89,
+          "pct": 8.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.85
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.85
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 70,
+          "pct": 6.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 165,
+          "pct": 15.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 62596,
+        "poverty_count": 105,
+        "poverty_pct": 10.03
+      },
+      "education": {
+        "bachelors_or_higher": 55,
+        "bachelors_only": 8,
+        "masters": 3,
+        "professional": 6,
+        "doctorate": 0
+      }
+    },
+    "Bowers town, Delaware": {
+      "state": "DE",
+      "fips": "1007250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 273,
+        "voting_age": 255,
+        "voting_age_pct": 93.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 246,
+          "pct": 90.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 5.86
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 3.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2,
+          "pct": 0.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 76406,
+        "poverty_count": 17,
+        "poverty_pct": 6.23
+      },
+      "education": {
+        "bachelors_or_higher": 96,
+        "bachelors_only": 23,
+        "masters": 11,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "Bridgeville town, Delaware": {
+      "state": "DE",
+      "fips": "1008680",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2661,
+        "voting_age": 2247,
+        "voting_age_pct": 84.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1617,
+          "pct": 60.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 603,
+          "pct": 22.66
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 24,
+          "pct": 0.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.26
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 32,
+          "pct": 1.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 378,
+          "pct": 14.21
+        }
+      ],
+      "economics": {
+        "median_household_income": 69631,
+        "poverty_count": 337,
+        "poverty_pct": 12.87
+      },
+      "education": {
+        "bachelors_or_higher": 774,
+        "bachelors_only": 189,
+        "masters": 83,
+        "professional": 10,
+        "doctorate": 17
+      }
+    },
+    "Camden town, Delaware": {
+      "state": "DE",
+      "fips": "1010760",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4011,
+        "voting_age": 3225,
+        "voting_age_pct": 80.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1931,
+          "pct": 48.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1534,
+          "pct": 38.24
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 108,
+          "pct": 2.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 138,
+          "pct": 3.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 300,
+          "pct": 7.48
+        }
+      ],
+      "economics": {
+        "median_household_income": 61895,
+        "poverty_count": 251,
+        "poverty_pct": 6.26
+      },
+      "education": {
+        "bachelors_or_higher": 998,
+        "bachelors_only": 338,
+        "masters": 152,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Cheswold town, Delaware": {
+      "state": "DE",
+      "fips": "1014660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1833,
+        "voting_age": 1489,
+        "voting_age_pct": 81.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 745,
+          "pct": 40.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 712,
+          "pct": 38.84
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 0.98
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 41,
+          "pct": 2.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4,
+          "pct": 0.22
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 29,
+          "pct": 1.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 59,
+          "pct": 3.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 225,
+          "pct": 12.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 75000,
+        "poverty_count": 143,
+        "poverty_pct": 7.8
+      },
+      "education": {
+        "bachelors_or_higher": 214,
+        "bachelors_only": 38,
+        "masters": 8,
+        "professional": 3,
+        "doctorate": 7
+      }
+    },
+    "Clayton town, Delaware": {
+      "state": "DE",
+      "fips": "1015440",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4086,
+        "voting_age": 2739,
+        "voting_age_pct": 67.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1683,
+          "pct": 41.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1814,
+          "pct": 44.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 110,
+          "pct": 2.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 88,
+          "pct": 2.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 391,
+          "pct": 9.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 103211,
+        "poverty_count": 221,
+        "poverty_pct": 5.43
+      },
+      "education": {
+        "bachelors_or_higher": 747,
+        "bachelors_only": 328,
+        "masters": 66,
+        "professional": 0,
+        "doctorate": 26
+      }
+    },
+    "Dagsboro town, Delaware": {
+      "state": "DE",
+      "fips": "1018950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1350,
+        "voting_age": 1036,
+        "voting_age_pct": 76.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 978,
+          "pct": 72.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 104,
+          "pct": 7.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.37
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 149,
+          "pct": 11.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 114,
+          "pct": 8.44
+        }
+      ],
+      "economics": {
+        "median_household_income": 64250,
+        "poverty_count": 100,
+        "poverty_pct": 7.49
+      },
+      "education": {
+        "bachelors_or_higher": 108,
+        "bachelors_only": 12,
+        "masters": 18,
+        "professional": 0,
+        "doctorate": 5
+      }
+    },
+    "Delaware City city, Delaware": {
+      "state": "DE",
+      "fips": "1019730",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1976,
+        "voting_age": 1500,
+        "voting_age_pct": 75.91
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1468,
+          "pct": 74.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 160,
+          "pct": 8.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 156,
+          "pct": 7.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 190,
+          "pct": 9.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 78333,
+        "poverty_count": 193,
+        "poverty_pct": 9.96
+      },
+      "education": {
+        "bachelors_or_higher": 278,
+        "bachelors_only": 162,
+        "masters": 5,
+        "professional": 0,
+        "doctorate": 8
+      }
+    },
+    "Delmar town, Delaware": {
+      "state": "DE",
+      "fips": "1020380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2386,
+        "voting_age": 1737,
+        "voting_age_pct": 72.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1414,
+          "pct": 59.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 610,
+          "pct": 25.57
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 64,
+          "pct": 2.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.25
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 101,
+          "pct": 4.23
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 191,
+          "pct": 8.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 61344,
+        "poverty_count": 291,
+        "poverty_pct": 12.69
+      },
+      "education": {
+        "bachelors_or_higher": 317,
+        "bachelors_only": 58,
+        "masters": 32,
+        "professional": 0,
+        "doctorate": 4
+      }
+    },
+    "Dewey Beach town, Delaware": {
+      "state": "DE",
+      "fips": "1020900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 328,
+        "voting_age": 314,
+        "voting_age_pct": 95.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 313,
+          "pct": 95.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.91
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 2.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3,
+          "pct": 0.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 107917,
+        "poverty_count": 24,
+        "poverty_pct": 7.32
+      },
+      "education": {
+        "bachelors_or_higher": 225,
+        "bachelors_only": 51,
+        "masters": 23,
+        "professional": 23,
+        "doctorate": 11
+      }
+    },
+    "Dover city, Delaware": {
+      "state": "DE",
+      "fips": "1021200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39491,
+        "voting_age": 31451,
+        "voting_age_pct": 79.64
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13819,
+          "pct": 34.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 17318,
+          "pct": 43.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 68,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1090,
+          "pct": 2.76
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 343,
+          "pct": 0.87
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2389,
+          "pct": 6.05
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4464,
+          "pct": 11.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 58336,
+        "poverty_count": 6232,
+        "poverty_pct": 17.51
+      },
+      "education": {
+        "bachelors_or_higher": 6801,
+        "bachelors_only": 1649,
+        "masters": 983,
+        "professional": 231,
+        "doctorate": 133
+      }
+    },
+    "Ellendale town, Delaware": {
+      "state": "DE",
+      "fips": "1024020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 675,
+        "voting_age": 311,
+        "voting_age_pct": 46.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 245,
+          "pct": 36.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 130,
+          "pct": 19.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 38,
+          "pct": 5.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 262,
+          "pct": 38.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 66875,
+        "poverty_count": 110,
+        "poverty_pct": 16.3
+      },
+      "education": {
+        "bachelors_or_higher": 39,
+        "bachelors_only": 15,
+        "masters": 1,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Elsmere town, Delaware": {
+      "state": "DE",
+      "fips": "1024540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6189,
+        "voting_age": 4413,
+        "voting_age_pct": 71.3
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3005,
+          "pct": 48.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1014,
+          "pct": 16.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 33,
+          "pct": 0.53
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 115,
+          "pct": 1.86
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2022,
+          "pct": 32.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 76378,
+        "poverty_count": 1165,
+        "poverty_pct": 18.82
+      },
+      "education": {
+        "bachelors_or_higher": 603,
+        "bachelors_only": 141,
+        "masters": 19,
+        "professional": 37,
+        "doctorate": 27
+      }
+    },
+    "Farmington town, Delaware": {
+      "state": "DE",
+      "fips": "1025840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 218,
+        "voting_age": 184,
+        "voting_age_pct": 84.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 131,
+          "pct": 60.09
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 84,
+          "pct": 38.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3,
+          "pct": 1.38
+        }
+      ],
+      "economics": {
+        "median_household_income": -666666666,
+        "poverty_count": 0,
+        "poverty_pct": 0.0
+      },
+      "education": {
+        "bachelors_or_higher": 61,
+        "bachelors_only": 0,
+        "masters": 0,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Felton town, Delaware": {
+      "state": "DE",
+      "fips": "1026620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1129,
+        "voting_age": 955,
+        "voting_age_pct": 84.59
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 835,
+          "pct": 73.96
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 176,
+          "pct": 15.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 5,
+          "pct": 0.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 76,
+          "pct": 6.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 35,
+          "pct": 3.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 62000,
+        "poverty_count": 83,
+        "poverty_pct": 7.35
+      },
+      "education": {
+        "bachelors_or_higher": 233,
+        "bachelors_only": 52,
+        "masters": 43,
+        "professional": 0,
+        "doctorate": 6
+      }
+    },
+    "Fenwick Island town, Delaware": {
+      "state": "DE",
+      "fips": "1026880",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 383,
+        "voting_age": 374,
+        "voting_age_pct": 97.65
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 377,
+          "pct": 98.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.26
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1,
+          "pct": 0.26
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4,
+          "pct": 1.04
+        }
+      ],
+      "economics": {
+        "median_household_income": 120625,
+        "poverty_count": 5,
+        "poverty_pct": 1.31
+      },
+      "education": {
+        "bachelors_or_higher": 212,
+        "bachelors_only": 57,
+        "masters": 42,
+        "professional": 12,
+        "doctorate": 6
+      }
+    },
+    "Frankford town, Delaware": {
+      "state": "DE",
+      "fips": "1028310",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 883,
+        "voting_age": 621,
+        "voting_age_pct": 70.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 160,
+          "pct": 18.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 269,
+          "pct": 30.46
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17,
+          "pct": 1.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 10,
+          "pct": 1.13
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 427,
+          "pct": 48.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 74583,
+        "poverty_count": 45,
+        "poverty_pct": 5.1
+      },
+      "education": {
+        "bachelors_or_higher": 89,
+        "bachelors_only": 8,
+        "masters": 14,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Frederica town, Delaware": {
+      "state": "DE",
+      "fips": "1028440",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 972,
+        "voting_age": 741,
+        "voting_age_pct": 76.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 450,
+          "pct": 46.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 164,
+          "pct": 16.87
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 274,
+          "pct": 28.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 81,
+          "pct": 8.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 70288,
+        "poverty_count": 77,
+        "poverty_pct": 7.92
+      },
+      "education": {
+        "bachelors_or_higher": 115,
+        "bachelors_only": 31,
+        "masters": 11,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Georgetown town, Delaware": {
+      "state": "DE",
+      "fips": "1029090",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7456,
+        "voting_age": 5205,
+        "voting_age_pct": 69.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2321,
+          "pct": 31.13
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 753,
+          "pct": 10.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 20,
+          "pct": 0.27
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 40,
+          "pct": 0.54
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 387,
+          "pct": 5.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3917,
+          "pct": 52.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 47423,
+        "poverty_count": 1145,
+        "poverty_pct": 15.9
+      },
+      "education": {
+        "bachelors_or_higher": 664,
+        "bachelors_only": 180,
+        "masters": 130,
+        "professional": 0,
+        "doctorate": 6
+      }
+    },
+    "Greenwood town, Delaware": {
+      "state": "DE",
+      "fips": "1031560",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1800,
+        "voting_age": 1276,
+        "voting_age_pct": 70.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 761,
+          "pct": 42.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 500,
+          "pct": 27.78
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.11
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 40,
+          "pct": 2.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 483,
+          "pct": 26.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 72063,
+        "poverty_count": 97,
+        "poverty_pct": 5.39
+      },
+      "education": {
+        "bachelors_or_higher": 153,
+        "bachelors_only": 46,
+        "masters": 2,
+        "professional": 0,
+        "doctorate": 5
+      }
+    },
+    "Harrington city, Delaware": {
+      "state": "DE",
+      "fips": "1033120",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3805,
+        "voting_age": 2571,
+        "voting_age_pct": 67.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2676,
+          "pct": 70.33
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 524,
+          "pct": 13.77
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 88,
+          "pct": 2.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 13,
+          "pct": 0.34
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 95,
+          "pct": 2.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 409,
+          "pct": 10.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 72606,
+        "poverty_count": 413,
+        "poverty_pct": 10.85
+      },
+      "education": {
+        "bachelors_or_higher": 541,
+        "bachelors_only": 80,
+        "masters": 99,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Houston town, Delaware": {
+      "state": "DE",
+      "fips": "1036760",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 456,
+        "voting_age": 380,
+        "voting_age_pct": 83.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 392,
+          "pct": 85.96
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 19,
+          "pct": 4.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 3.73
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 12,
+          "pct": 2.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 3.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 100208,
+        "poverty_count": 63,
+        "poverty_pct": 14.09
+      },
+      "education": {
+        "bachelors_or_higher": 18,
+        "bachelors_only": 5,
+        "masters": 4,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Kenton town, Delaware": {
+      "state": "DE",
+      "fips": "1039100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 362,
+        "voting_age": 138,
+        "voting_age_pct": 38.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 326,
+          "pct": 90.06
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.28
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 2.21
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5,
+          "pct": 1.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 22,
+          "pct": 6.08
+        }
+      ],
+      "economics": {
+        "median_household_income": 52589,
+        "poverty_count": 8,
+        "poverty_pct": 2.21
+      },
+      "education": {
+        "bachelors_or_higher": 46,
+        "bachelors_only": 0,
+        "masters": 0,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Laurel town, Delaware": {
+      "state": "DE",
+      "fips": "1041310",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4043,
+        "voting_age": 2637,
+        "voting_age_pct": 65.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 951,
+          "pct": 23.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1585,
+          "pct": 39.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.02
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 64,
+          "pct": 1.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1442,
+          "pct": 35.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 44593,
+        "poverty_count": 1438,
+        "poverty_pct": 35.72
+      },
+      "education": {
+        "bachelors_or_higher": 157,
+        "bachelors_only": 33,
+        "masters": 13,
+        "professional": 1,
+        "doctorate": 0
+      }
+    },
+    "Lewes city, Delaware": {
+      "state": "DE",
+      "fips": "1041830",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3415,
+        "voting_age": 3181,
+        "voting_age_pct": 93.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3204,
+          "pct": 93.82
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 33,
+          "pct": 0.97
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.53
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 100,
+          "pct": 2.93
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 49,
+          "pct": 1.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 92375,
+        "poverty_count": 187,
+        "poverty_pct": 5.76
+      },
+      "education": {
+        "bachelors_or_higher": 2039,
+        "bachelors_only": 347,
+        "masters": 194,
+        "professional": 204,
+        "doctorate": 235
+      }
+    },
+    "Little Creek town, Delaware": {
+      "state": "DE",
+      "fips": "1042870",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 231,
+        "voting_age": 162,
+        "voting_age_pct": 70.13
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 213,
+          "pct": 92.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 13,
+          "pct": 5.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5,
+          "pct": 2.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 70179,
+        "poverty_count": 61,
+        "poverty_pct": 27.35
+      },
+      "education": {
+        "bachelors_or_higher": 27,
+        "bachelors_only": 5,
+        "masters": 2,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Magnolia town, Delaware": {
+      "state": "DE",
+      "fips": "1044430",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 237,
+        "voting_age": 194,
+        "voting_age_pct": 81.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 137,
+          "pct": 57.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 72,
+          "pct": 30.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 13,
+          "pct": 5.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 15,
+          "pct": 6.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 116667,
+        "poverty_count": 27,
+        "poverty_pct": 11.49
+      },
+      "education": {
+        "bachelors_or_higher": 63,
+        "bachelors_only": 11,
+        "masters": 24,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Middletown town, Delaware": {
+      "state": "DE",
+      "fips": "1047030",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 24071,
+        "voting_age": 17217,
+        "voting_age_pct": 71.53
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13256,
+          "pct": 55.07
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6686,
+          "pct": 27.78
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1363,
+          "pct": 5.66
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 726,
+          "pct": 3.02
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 678,
+          "pct": 2.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1362,
+          "pct": 5.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 115252,
+        "poverty_count": 1652,
+        "poverty_pct": 6.98
+      },
+      "education": {
+        "bachelors_or_higher": 7091,
+        "bachelors_only": 1450,
+        "masters": 1050,
+        "professional": 200,
+        "doctorate": 384
+      }
+    },
+    "Milford city, Delaware": {
+      "state": "DE",
+      "fips": "1047420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12193,
+        "voting_age": 9451,
+        "voting_age_pct": 77.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6290,
+          "pct": 51.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3008,
+          "pct": 24.67
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 26,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 563,
+          "pct": 4.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 102,
+          "pct": 0.84
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 404,
+          "pct": 3.31
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1800,
+          "pct": 14.76
+        }
+      ],
+      "economics": {
+        "median_household_income": 55265,
+        "poverty_count": 2415,
+        "poverty_pct": 20.34
+      },
+      "education": {
+        "bachelors_or_higher": 2647,
+        "bachelors_only": 855,
+        "masters": 278,
+        "professional": 75,
+        "doctorate": 33
+      }
+    },
+    "Millsboro town, Delaware": {
+      "state": "DE",
+      "fips": "1047940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7152,
+        "voting_age": 5383,
+        "voting_age_pct": 75.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4636,
+          "pct": 64.82
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1212,
+          "pct": 16.95
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 27,
+          "pct": 0.38
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 87,
+          "pct": 1.22
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 477,
+          "pct": 6.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 713,
+          "pct": 9.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 77750,
+        "poverty_count": 662,
+        "poverty_pct": 9.59
+      },
+      "education": {
+        "bachelors_or_higher": 1889,
+        "bachelors_only": 456,
+        "masters": 250,
+        "professional": 20,
+        "doctorate": 12
+      }
+    },
+    "Millville town, Delaware": {
+      "state": "DE",
+      "fips": "1048200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2059,
+        "voting_age": 1963,
+        "voting_age_pct": 95.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1907,
+          "pct": 92.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 1.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15,
+          "pct": 0.73
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 45,
+          "pct": 2.19
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 21,
+          "pct": 1.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 44,
+          "pct": 2.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 93409,
+        "poverty_count": 142,
+        "poverty_pct": 6.9
+      },
+      "education": {
+        "bachelors_or_higher": 857,
+        "bachelors_only": 229,
+        "masters": 68,
+        "professional": 13,
+        "doctorate": 22
+      }
+    },
+    "Milton town, Delaware": {
+      "state": "DE",
+      "fips": "1048330",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3469,
+        "voting_age": 2769,
+        "voting_age_pct": 79.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2677,
+          "pct": 77.17
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 444,
+          "pct": 12.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 0.43
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 106,
+          "pct": 3.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 209,
+          "pct": 6.02
+        }
+      ],
+      "economics": {
+        "median_household_income": 64906,
+        "poverty_count": 240,
+        "poverty_pct": 6.94
+      },
+      "education": {
+        "bachelors_or_higher": 1006,
+        "bachelors_only": 293,
+        "masters": 103,
+        "professional": 54,
+        "doctorate": 71
+      }
+    },
+    "Newark city, Delaware": {
+      "state": "DE",
+      "fips": "1050670",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 30309,
+        "voting_age": 26789,
+        "voting_age_pct": 88.39
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19963,
+          "pct": 65.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3258,
+          "pct": 10.75
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2426,
+          "pct": 8.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 93,
+          "pct": 0.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1502,
+          "pct": 4.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3034,
+          "pct": 10.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 71373,
+        "poverty_count": 6071,
+        "poverty_pct": 27.09
+      },
+      "education": {
+        "bachelors_or_higher": 7405,
+        "bachelors_only": 1939,
+        "masters": 1008,
+        "professional": 67,
+        "doctorate": 1035
+      }
+    },
+    "New Castle city, Delaware": {
+      "state": "DE",
+      "fips": "1050800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5519,
+        "voting_age": 4609,
+        "voting_age_pct": 83.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3562,
+          "pct": 64.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1532,
+          "pct": 27.76
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 49,
+          "pct": 0.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 29,
+          "pct": 0.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 59,
+          "pct": 1.07
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 288,
+          "pct": 5.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 92565,
+        "poverty_count": 187,
+        "poverty_pct": 3.39
+      },
+      "education": {
+        "bachelors_or_higher": 1421,
+        "bachelors_only": 286,
+        "masters": 197,
+        "professional": 44,
+        "doctorate": 16
+      }
+    },
+    "Newport town, Delaware": {
+      "state": "DE",
+      "fips": "1051190",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1209,
+        "voting_age": 884,
+        "voting_age_pct": 73.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 523,
+          "pct": 43.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 292,
+          "pct": 24.15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 13,
+          "pct": 1.08
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 69,
+          "pct": 5.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 312,
+          "pct": 25.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 59833,
+        "poverty_count": 125,
+        "poverty_pct": 10.34
+      },
+      "education": {
+        "bachelors_or_higher": 81,
+        "bachelors_only": 10,
+        "masters": 16,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Ocean View town, Delaware": {
+      "state": "DE",
+      "fips": "1053920",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2760,
+        "voting_age": 2508,
+        "voting_age_pct": 90.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2501,
+          "pct": 90.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 48,
+          "pct": 1.74
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.36
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 63,
+          "pct": 2.28
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 0.54
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 21,
+          "pct": 0.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 102,
+          "pct": 3.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 88021,
+        "poverty_count": 290,
+        "poverty_pct": 10.51
+      },
+      "education": {
+        "bachelors_or_higher": 1180,
+        "bachelors_only": 329,
+        "masters": 165,
+        "professional": 23,
+        "doctorate": 6
+      }
+    },
+    "Odessa town, Delaware": {
+      "state": "DE",
+      "fips": "1054050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 392,
+        "voting_age": 276,
+        "voting_age_pct": 70.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 276,
+          "pct": 70.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 65,
+          "pct": 16.58
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 1.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 8,
+          "pct": 2.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 39,
+          "pct": 9.95
+        }
+      ],
+      "economics": {
+        "median_household_income": 86875,
+        "poverty_count": 6,
+        "poverty_pct": 1.53
+      },
+      "education": {
+        "bachelors_or_higher": 125,
+        "bachelors_only": 41,
+        "masters": 8,
+        "professional": 3,
+        "doctorate": 4
+      }
+    },
+    "Rehoboth Beach city, Delaware": {
+      "state": "DE",
+      "fips": "1060290",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1388,
+        "voting_age": 1308,
+        "voting_age_pct": 94.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1237,
+          "pct": 89.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26,
+          "pct": 1.87
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 1.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 22,
+          "pct": 1.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 82,
+          "pct": 5.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 141250,
+        "poverty_count": 96,
+        "poverty_pct": 6.98
+      },
+      "education": {
+        "bachelors_or_higher": 879,
+        "bachelors_only": 281,
+        "masters": 113,
+        "professional": 83,
+        "doctorate": 25
+      }
+    },
+    "Seaford city, Delaware": {
+      "state": "DE",
+      "fips": "1064320",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8255,
+        "voting_age": 6281,
+        "voting_age_pct": 76.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4172,
+          "pct": 50.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1990,
+          "pct": 24.11
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 178,
+          "pct": 2.16
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1027,
+          "pct": 12.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 865,
+          "pct": 10.48
+        }
+      ],
+      "economics": {
+        "median_household_income": 51120,
+        "poverty_count": 1442,
+        "poverty_pct": 18.16
+      },
+      "education": {
+        "bachelors_or_higher": 963,
+        "bachelors_only": 271,
+        "masters": 138,
+        "professional": 41,
+        "doctorate": 35
+      }
+    },
+    "Selbyville town, Delaware": {
+      "state": "DE",
+      "fips": "1064840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3005,
+        "voting_age": 2557,
+        "voting_age_pct": 85.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2187,
+          "pct": 72.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 233,
+          "pct": 7.75
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.37
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 19,
+          "pct": 0.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 555,
+          "pct": 18.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 81845,
+        "poverty_count": 114,
+        "poverty_pct": 3.83
+      },
+      "education": {
+        "bachelors_or_higher": 571,
+        "bachelors_only": 105,
+        "masters": 160,
+        "professional": 16,
+        "doctorate": 3
+      }
+    },
+    "Slaughter Beach town, Delaware": {
+      "state": "DE",
+      "fips": "1067050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 431,
+        "voting_age": 419,
+        "voting_age_pct": 97.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 286,
+          "pct": 66.36
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 125,
+          "pct": 29.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6,
+          "pct": 1.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10,
+          "pct": 2.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 96500,
+        "poverty_count": 61,
+        "poverty_pct": 14.15
+      },
+      "education": {
+        "bachelors_or_higher": 172,
+        "bachelors_only": 89,
+        "masters": 10,
+        "professional": 3,
+        "doctorate": 5
+      }
+    },
+    "Smyrna town, Delaware": {
+      "state": "DE",
+      "fips": "1067310",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13031,
+        "voting_age": 9600,
+        "voting_age_pct": 73.67
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7160,
+          "pct": 54.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3928,
+          "pct": 30.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 374,
+          "pct": 2.87
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 445,
+          "pct": 3.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1114,
+          "pct": 8.55
+        }
+      ],
+      "economics": {
+        "median_household_income": 70473,
+        "poverty_count": 1128,
+        "poverty_pct": 8.78
+      },
+      "education": {
+        "bachelors_or_higher": 1901,
+        "bachelors_only": 624,
+        "masters": 114,
+        "professional": 47,
+        "doctorate": 0
+      }
+    },
+    "South Bethany town, Delaware": {
+      "state": "DE",
+      "fips": "1067700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 503,
+        "voting_age": 501,
+        "voting_age_pct": 99.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 418,
+          "pct": 83.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 74,
+          "pct": 14.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9,
+          "pct": 1.79
+        }
+      ],
+      "economics": {
+        "median_household_income": 111667,
+        "poverty_count": 18,
+        "poverty_pct": 3.58
+      },
+      "education": {
+        "bachelors_or_higher": 380,
+        "bachelors_only": 77,
+        "masters": 121,
+        "professional": 29,
+        "doctorate": 10
+      }
+    },
+    "Townsend town, Delaware": {
+      "state": "DE",
+      "fips": "1072510",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2792,
+        "voting_age": 1953,
+        "voting_age_pct": 69.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1062,
+          "pct": 38.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1201,
+          "pct": 43.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 90,
+          "pct": 3.22
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 318,
+          "pct": 11.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 121,
+          "pct": 4.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 153083,
+        "poverty_count": 54,
+        "poverty_pct": 1.94
+      },
+      "education": {
+        "bachelors_or_higher": 764,
+        "bachelors_only": 146,
+        "masters": 59,
+        "professional": 8,
+        "doctorate": 5
+      }
+    },
+    "Wilmington city, Delaware": {
+      "state": "DE",
+      "fips": "1077580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 71124,
+        "voting_age": 56154,
+        "voting_age_pct": 78.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 21071,
+          "pct": 29.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 36709,
+          "pct": 51.61
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 52,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1120,
+          "pct": 1.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 21,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 794,
+          "pct": 1.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2928,
+          "pct": 4.12
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8429,
+          "pct": 11.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 55269,
+        "poverty_count": 16002,
+        "poverty_pct": 23.21
+      },
+      "education": {
+        "bachelors_or_higher": 16663,
+        "bachelors_only": 3951,
+        "masters": 1553,
+        "professional": 987,
+        "doctorate": 746
+      }
+    },
+    "Woodside town, Delaware": {
+      "state": "DE",
+      "fips": "1080830",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 309,
+        "voting_age": 174,
+        "voting_age_pct": 56.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 145,
+          "pct": 46.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 128,
+          "pct": 41.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 27,
+          "pct": 8.74
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9,
+          "pct": 2.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 77176,
+        "poverty_count": 9,
+        "poverty_pct": 2.91
+      },
+      "education": {
+        "bachelors_or_higher": 44,
+        "bachelors_only": 6,
+        "masters": 0,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Wyoming town, Delaware": {
+      "state": "DE",
+      "fips": "1081350",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1789,
+        "voting_age": 1427,
+        "voting_age_pct": 79.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1037,
+          "pct": 57.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 415,
+          "pct": 23.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 1.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 36,
+          "pct": 2.01
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 96,
+          "pct": 5.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 184,
+          "pct": 10.29
+        }
+      ],
+      "economics": {
+        "median_household_income": 66815,
+        "poverty_count": 257,
+        "poverty_pct": 14.45
+      },
+      "education": {
+        "bachelors_or_higher": 470,
+        "bachelors_only": 67,
+        "masters": 130,
+        "professional": 7,
+        "doctorate": 9
+      }
+    },
+    "Hartly town, Delaware": {
+      "state": "DE",
+      "fips": "1033250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 160,
+        "voting_age": 140,
+        "voting_age_pct": 87.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 153,
+          "pct": 95.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7,
+          "pct": 4.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0.0
+        }
+      ],
+      "economics": {
+        "median_household_income": 148153,
+        "poverty_count": 15,
+        "poverty_pct": 9.38
+      },
+      "education": {
+        "bachelors_or_higher": 1,
+        "bachelors_only": 0,
+        "masters": 0,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Henlopen Acres town, Delaware": {
+      "state": "DE",
+      "fips": "1033900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 191,
+        "voting_age": 179,
+        "voting_age_pct": 93.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 177,
+          "pct": 92.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 14,
+          "pct": 7.33
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0.0
+        }
+      ],
+      "economics": {
+        "median_household_income": -666666666,
+        "poverty_count": 0,
+        "poverty_pct": 0.0
+      },
+      "education": {
+        "bachelors_or_higher": 131,
+        "bachelors_only": 24,
+        "masters": 8,
+        "professional": 11,
+        "doctorate": 13
+      }
+    },
+    "Leipsic town, Delaware": {
+      "state": "DE",
+      "fips": "1041700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 182,
+        "voting_age": 133,
+        "voting_age_pct": 73.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 155,
+          "pct": 85.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 2.75
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 10,
+          "pct": 5.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12,
+          "pct": 6.59
+        }
+      ],
+      "economics": {
+        "median_household_income": 50833,
+        "poverty_count": 11,
+        "poverty_pct": 6.04
+      },
+      "education": {
+        "bachelors_or_higher": 20,
+        "bachelors_only": 8,
+        "masters": 0,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Viola town, Delaware": {
+      "state": "DE",
+      "fips": "1074330",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 102,
+        "voting_age": 87,
+        "voting_age_pct": 85.29
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 90,
+          "pct": 88.24
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7,
+          "pct": 6.86
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5,
+          "pct": 4.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 62361,
+        "poverty_count": 8,
+        "poverty_pct": 7.84
+      },
+      "education": {
+        "bachelors_or_higher": 13,
+        "bachelors_only": 5,
+        "masters": 1,
+        "professional": 0,
+        "doctorate": 0
+      }
+    }
+  }
+}

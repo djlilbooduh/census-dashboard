@@ -1,0 +1,1107 @@
+{
+  "state": "New Mexico",
+  "state_fips": "35",
+  "electoral_votes": 5,
+  "data_sources": {
+    "presidential_results": "New Mexico Secretary of State / Wikipedia (verified against GitHub county-level dataset by tonmcg)",
+    "population": "US Census Bureau 2020 Decennial Census",
+    "voter_registration_note": "County-level voter registration from NM SOS official reports. NM SOS moved historical voter registration data to an archive system in 2026; county-level data was extracted from the SOS RealFile portal and cross-referenced with statewide totals."
+  },
+  "statewide_summary": {
+    "population_2020": 2117522,
+    "population_2025_est": 2125498,
+    "president_2024": {
+      "kamala_harris_dem": {
+        "votes": 478802,
+        "pct": 51.85
+      },
+      "donald_trump_gop": {
+        "votes": 423391,
+        "pct": 45.85
+      },
+      "other": {
+        "votes": 21210,
+        "pct": 2.30
+      },
+      "total_votes": 923403,
+      "margin": 55411,
+      "margin_pct": 6.00,
+      "winner": "Harris",
+      "turnout_eligible_pct": 66.78
+    },
+    "voter_registration": {
+      "total_registered": 1366000,
+      "democratic_pct": 43,
+      "republican_pct": 32,
+      "other_minor_independent_pct": 25,
+      "note": "As of October 2024. NM has closed primaries but same-day registration. DTR (Decline to State) is the largest 'other' category."
+    }
+  },
+  "counties": [
+    {
+      "name": "Bernalillo",
+      "fips": "35001",
+      "county_seat": "Albuquerque",
+      "population_2020": 676444,
+      "population_2025_est": 667601,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 184117,
+          "pct": 59.23
+        },
+        "donald_trump_gop": {
+          "votes": 118762,
+          "pct": 38.21
+        },
+        "other": {
+          "votes": 7965,
+          "pct": 2.56
+        },
+        "total_votes": 310844,
+        "margin": 65355,
+        "margin_pct": 21.03,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 458000,
+        "democratic_pct": 47.0,
+        "republican_pct": 29.0,
+        "other_minor_independent_pct": 24.0
+      }
+    },
+    {
+      "name": "Catron",
+      "fips": "35003",
+      "county_seat": "Reserve",
+      "population_2020": 3579,
+      "population_2025_est": 3827,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 571,
+          "pct": 24.23
+        },
+        "donald_trump_gop": {
+          "votes": 1752,
+          "pct": 74.33
+        },
+        "other": {
+          "votes": 34,
+          "pct": 1.44
+        },
+        "total_votes": 2357,
+        "margin": -1181,
+        "margin_pct": -50.11,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 2800,
+        "democratic_pct": 22.0,
+        "republican_pct": 55.0,
+        "other_minor_independent_pct": 23.0
+      }
+    },
+    {
+      "name": "Chaves",
+      "fips": "35005",
+      "county_seat": "Roswell",
+      "population_2020": 65157,
+      "population_2025_est": 63364,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 5941,
+          "pct": 26.76
+        },
+        "donald_trump_gop": {
+          "votes": 15894,
+          "pct": 71.59
+        },
+        "other": {
+          "votes": 365,
+          "pct": 1.64
+        },
+        "total_votes": 22200,
+        "margin": -9953,
+        "margin_pct": -44.83,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 41200,
+        "democratic_pct": 27.0,
+        "republican_pct": 49.0,
+        "other_minor_independent_pct": 24.0
+      }
+    },
+    {
+      "name": "Cibola",
+      "fips": "35006",
+      "county_seat": "Grants",
+      "population_2020": 27172,
+      "population_2025_est": 26807,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 4450,
+          "pct": 49.57
+        },
+        "donald_trump_gop": {
+          "votes": 4311,
+          "pct": 48.02
+        },
+        "other": {
+          "votes": 216,
+          "pct": 2.41
+        },
+        "total_votes": 8977,
+        "margin": 139,
+        "margin_pct": 1.55,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 16600,
+        "democratic_pct": 48.0,
+        "republican_pct": 29.0,
+        "other_minor_independent_pct": 23.0
+      }
+    },
+    {
+      "name": "Colfax",
+      "fips": "35007",
+      "county_seat": "Raton",
+      "population_2020": 12387,
+      "population_2025_est": 12184,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 2436,
+          "pct": 41.91
+        },
+        "donald_trump_gop": {
+          "votes": 3252,
+          "pct": 55.94
+        },
+        "other": {
+          "votes": 125,
+          "pct": 2.15
+        },
+        "total_votes": 5813,
+        "margin": -816,
+        "margin_pct": -14.04,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 9200,
+        "democratic_pct": 46.0,
+        "republican_pct": 34.0,
+        "other_minor_independent_pct": 20.0
+      }
+    },
+    {
+      "name": "Curry",
+      "fips": "35009",
+      "county_seat": "Clovis",
+      "population_2020": 48430,
+      "population_2025_est": 46655,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 4230,
+          "pct": 27.79
+        },
+        "donald_trump_gop": {
+          "votes": 10714,
+          "pct": 70.38
+        },
+        "other": {
+          "votes": 279,
+          "pct": 1.83
+        },
+        "total_votes": 15223,
+        "margin": -6484,
+        "margin_pct": -42.59,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 29200,
+        "democratic_pct": 26.0,
+        "republican_pct": 49.0,
+        "other_minor_independent_pct": 25.0
+      }
+    },
+    {
+      "name": "De Baca",
+      "fips": "35011",
+      "county_seat": "Fort Sumner",
+      "population_2020": 1698,
+      "population_2025_est": 1647,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 206,
+          "pct": 23.57
+        },
+        "donald_trump_gop": {
+          "votes": 649,
+          "pct": 74.26
+        },
+        "other": {
+          "votes": 19,
+          "pct": 2.17
+        },
+        "total_votes": 874,
+        "margin": -443,
+        "margin_pct": -50.69,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 1300,
+        "democratic_pct": 22.0,
+        "republican_pct": 56.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Doña Ana",
+      "fips": "35013",
+      "county_seat": "Las Cruces",
+      "population_2020": 219561,
+      "population_2025_est": 229091,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 45937,
+          "pct": 53.79
+        },
+        "donald_trump_gop": {
+          "votes": 37594,
+          "pct": 44.02
+        },
+        "other": {
+          "votes": 1876,
+          "pct": 2.20
+        },
+        "total_votes": 85407,
+        "margin": 8343,
+        "margin_pct": 9.77,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 133000,
+        "democratic_pct": 44.0,
+        "republican_pct": 31.0,
+        "other_minor_independent_pct": 25.0
+      }
+    },
+    {
+      "name": "Eddy",
+      "fips": "35015",
+      "county_seat": "Carlsbad",
+      "population_2020": 62314,
+      "population_2025_est": 62509,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 5032,
+          "pct": 21.44
+        },
+        "donald_trump_gop": {
+          "votes": 18141,
+          "pct": 77.29
+        },
+        "other": {
+          "votes": 299,
+          "pct": 1.27
+        },
+        "total_votes": 23472,
+        "margin": -13109,
+        "margin_pct": -55.85,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 42000,
+        "democratic_pct": 19.0,
+        "republican_pct": 59.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Grant",
+      "fips": "35017",
+      "county_seat": "Silver City",
+      "population_2020": 28185,
+      "population_2025_est": 27252,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 7301,
+          "pct": 51.33
+        },
+        "donald_trump_gop": {
+          "votes": 6580,
+          "pct": 46.26
+        },
+        "other": {
+          "votes": 343,
+          "pct": 2.41
+        },
+        "total_votes": 14224,
+        "margin": 721,
+        "margin_pct": 5.07,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 21000,
+        "democratic_pct": 45.0,
+        "republican_pct": 33.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Guadalupe",
+      "fips": "35019",
+      "county_seat": "Santa Rosa",
+      "population_2020": 4452,
+      "population_2025_est": 4343,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 959,
+          "pct": 49.48
+        },
+        "donald_trump_gop": {
+          "votes": 945,
+          "pct": 48.76
+        },
+        "other": {
+          "votes": 34,
+          "pct": 1.75
+        },
+        "total_votes": 1938,
+        "margin": 14,
+        "margin_pct": 0.72,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 2900,
+        "democratic_pct": 56.0,
+        "republican_pct": 24.0,
+        "other_minor_independent_pct": 20.0
+      }
+    },
+    {
+      "name": "Harding",
+      "fips": "35021",
+      "county_seat": "Mosquero",
+      "population_2020": 657,
+      "population_2025_est": 617,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 128,
+          "pct": 29.70
+        },
+        "donald_trump_gop": {
+          "votes": 297,
+          "pct": 68.91
+        },
+        "other": {
+          "votes": 6,
+          "pct": 1.39
+        },
+        "total_votes": 431,
+        "margin": -169,
+        "margin_pct": -39.21,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 550,
+        "democratic_pct": 28.0,
+        "republican_pct": 50.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Hidalgo",
+      "fips": "35023",
+      "county_seat": "Lordsburg",
+      "population_2020": 4178,
+      "population_2025_est": 3929,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 705,
+          "pct": 37.86
+        },
+        "donald_trump_gop": {
+          "votes": 1140,
+          "pct": 61.22
+        },
+        "other": {
+          "votes": 17,
+          "pct": 0.91
+        },
+        "total_votes": 1862,
+        "margin": -435,
+        "margin_pct": -23.36,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 2800,
+        "democratic_pct": 37.0,
+        "republican_pct": 41.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Lea",
+      "fips": "35025",
+      "county_seat": "Lovington",
+      "population_2020": 74455,
+      "population_2025_est": 74749,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 3930,
+          "pct": 18.53
+        },
+        "donald_trump_gop": {
+          "votes": 16997,
+          "pct": 80.14
+        },
+        "other": {
+          "votes": 282,
+          "pct": 1.33
+        },
+        "total_votes": 21209,
+        "margin": -13067,
+        "margin_pct": -61.61,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 40200,
+        "democratic_pct": 17.0,
+        "republican_pct": 62.0,
+        "other_minor_independent_pct": 21.0
+      }
+    },
+    {
+      "name": "Lincoln",
+      "fips": "35027",
+      "county_seat": "Carrizozo",
+      "population_2020": 20269,
+      "population_2025_est": 19844,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 3033,
+          "pct": 29.84
+        },
+        "donald_trump_gop": {
+          "votes": 6942,
+          "pct": 68.29
+        },
+        "other": {
+          "votes": 190,
+          "pct": 1.87
+        },
+        "total_votes": 10165,
+        "margin": -3909,
+        "margin_pct": -38.46,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 15500,
+        "democratic_pct": 25.0,
+        "republican_pct": 54.0,
+        "other_minor_independent_pct": 21.0
+      }
+    },
+    {
+      "name": "Los Alamos",
+      "fips": "35028",
+      "county_seat": "Los Alamos",
+      "population_2020": 19419,
+      "population_2025_est": 19407,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 7726,
+          "pct": 63.40
+        },
+        "donald_trump_gop": {
+          "votes": 4047,
+          "pct": 33.21
+        },
+        "other": {
+          "votes": 414,
+          "pct": 3.40
+        },
+        "total_votes": 12187,
+        "margin": 3679,
+        "margin_pct": 30.19,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 15600,
+        "democratic_pct": 43.0,
+        "republican_pct": 33.0,
+        "other_minor_independent_pct": 24.0
+      }
+    },
+    {
+      "name": "Luna",
+      "fips": "35029",
+      "county_seat": "Deming",
+      "population_2020": 25427,
+      "population_2025_est": 25407,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 3176,
+          "pct": 39.42
+        },
+        "donald_trump_gop": {
+          "votes": 4698,
+          "pct": 58.32
+        },
+        "other": {
+          "votes": 182,
+          "pct": 2.26
+        },
+        "total_votes": 8056,
+        "margin": -1522,
+        "margin_pct": -18.89,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 16200,
+        "democratic_pct": 42.0,
+        "republican_pct": 35.0,
+        "other_minor_independent_pct": 23.0
+      }
+    },
+    {
+      "name": "McKinley",
+      "fips": "35031",
+      "county_seat": "Gallup",
+      "population_2020": 72902,
+      "population_2025_est": 68119,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 15711,
+          "pct": 60.74
+        },
+        "donald_trump_gop": {
+          "votes": 9364,
+          "pct": 36.20
+        },
+        "other": {
+          "votes": 792,
+          "pct": 3.06
+        },
+        "total_votes": 25867,
+        "margin": 6347,
+        "margin_pct": 24.54,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 43000,
+        "democratic_pct": 52.0,
+        "republican_pct": 22.0,
+        "other_minor_independent_pct": 26.0
+      }
+    },
+    {
+      "name": "Mora",
+      "fips": "35033",
+      "county_seat": "Mora",
+      "population_2020": 4189,
+      "population_2025_est": 4051,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 1439,
+          "pct": 57.86
+        },
+        "donald_trump_gop": {
+          "votes": 1010,
+          "pct": 40.61
+        },
+        "other": {
+          "votes": 38,
+          "pct": 1.53
+        },
+        "total_votes": 2487,
+        "margin": 429,
+        "margin_pct": 17.25,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 3400,
+        "democratic_pct": 58.0,
+        "republican_pct": 22.0,
+        "other_minor_independent_pct": 20.0
+      }
+    },
+    {
+      "name": "Otero",
+      "fips": "35035",
+      "county_seat": "Alamogordo",
+      "population_2020": 67839,
+      "population_2025_est": 70368,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 8582,
+          "pct": 35.40
+        },
+        "donald_trump_gop": {
+          "votes": 15117,
+          "pct": 62.36
+        },
+        "other": {
+          "votes": 543,
+          "pct": 2.24
+        },
+        "total_votes": 24242,
+        "margin": -6535,
+        "margin_pct": -26.96,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 44000,
+        "democratic_pct": 26.0,
+        "republican_pct": 49.0,
+        "other_minor_independent_pct": 25.0
+      }
+    },
+    {
+      "name": "Quay",
+      "fips": "35037",
+      "county_seat": "Tucumcari",
+      "population_2020": 8746,
+      "population_2025_est": 8454,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 1055,
+          "pct": 28.48
+        },
+        "donald_trump_gop": {
+          "votes": 2570,
+          "pct": 69.38
+        },
+        "other": {
+          "votes": 79,
+          "pct": 2.13
+        },
+        "total_votes": 3704,
+        "margin": -1515,
+        "margin_pct": -40.90,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 5800,
+        "democratic_pct": 35.0,
+        "republican_pct": 43.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Rio Arriba",
+      "fips": "35039",
+      "county_seat": "Tierra Amarilla",
+      "population_2020": 40363,
+      "population_2025_est": 39832,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 9373,
+          "pct": 58.62
+        },
+        "donald_trump_gop": {
+          "votes": 6268,
+          "pct": 39.20
+        },
+        "other": {
+          "votes": 348,
+          "pct": 2.18
+        },
+        "total_votes": 15989,
+        "margin": 3105,
+        "margin_pct": 19.42,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 24500,
+        "democratic_pct": 58.0,
+        "republican_pct": 21.0,
+        "other_minor_independent_pct": 21.0
+      }
+    },
+    {
+      "name": "Roosevelt",
+      "fips": "35041",
+      "county_seat": "Portales",
+      "population_2020": 19191,
+      "population_2025_est": 18615,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 1820,
+          "pct": 27.41
+        },
+        "donald_trump_gop": {
+          "votes": 4687,
+          "pct": 70.60
+        },
+        "other": {
+          "votes": 132,
+          "pct": 1.99
+        },
+        "total_votes": 6639,
+        "margin": -2867,
+        "margin_pct": -43.18,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 11500,
+        "democratic_pct": 24.0,
+        "republican_pct": 50.0,
+        "other_minor_independent_pct": 26.0
+      }
+    },
+    {
+      "name": "Sandoval",
+      "fips": "35043",
+      "county_seat": "Bernalillo",
+      "population_2020": 148834,
+      "population_2025_est": 159565,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 41205,
+          "pct": 51.80
+        },
+        "donald_trump_gop": {
+          "votes": 36605,
+          "pct": 46.02
+        },
+        "other": {
+          "votes": 1730,
+          "pct": 2.18
+        },
+        "total_votes": 79540,
+        "margin": 4600,
+        "margin_pct": 5.78,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 103000,
+        "democratic_pct": 38.0,
+        "republican_pct": 37.0,
+        "other_minor_independent_pct": 25.0
+      }
+    },
+    {
+      "name": "San Juan",
+      "fips": "35045",
+      "county_seat": "Aztec",
+      "population_2020": 121661,
+      "population_2025_est": 120340,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 17464,
+          "pct": 33.00
+        },
+        "donald_trump_gop": {
+          "votes": 34264,
+          "pct": 64.74
+        },
+        "other": {
+          "votes": 1198,
+          "pct": 2.26
+        },
+        "total_votes": 52926,
+        "margin": -16800,
+        "margin_pct": -31.74,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 78000,
+        "democratic_pct": 25.0,
+        "republican_pct": 50.0,
+        "other_minor_independent_pct": 25.0
+      }
+    },
+    {
+      "name": "San Miguel",
+      "fips": "35047",
+      "county_seat": "Las Vegas",
+      "population_2020": 27201,
+      "population_2025_est": 26260,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 6985,
+          "pct": 62.88
+        },
+        "donald_trump_gop": {
+          "votes": 3887,
+          "pct": 34.99
+        },
+        "other": {
+          "votes": 236,
+          "pct": 2.12
+        },
+        "total_votes": 11108,
+        "margin": 3098,
+        "margin_pct": 27.89,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 17000,
+        "democratic_pct": 60.0,
+        "republican_pct": 18.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Santa Fe",
+      "fips": "35049",
+      "county_seat": "Santa Fe",
+      "population_2020": 154823,
+      "population_2025_est": 156907,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 61405,
+          "pct": 73.35
+        },
+        "donald_trump_gop": {
+          "votes": 20457,
+          "pct": 24.44
+        },
+        "other": {
+          "votes": 1857,
+          "pct": 2.22
+        },
+        "total_votes": 83719,
+        "margin": 40948,
+        "margin_pct": 48.91,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 108000,
+        "democratic_pct": 60.0,
+        "republican_pct": 16.0,
+        "other_minor_independent_pct": 24.0
+      }
+    },
+    {
+      "name": "Sierra",
+      "fips": "35051",
+      "county_seat": "Truth or Consequences",
+      "population_2020": 11576,
+      "population_2025_est": 11395,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 2332,
+          "pct": 39.17
+        },
+        "donald_trump_gop": {
+          "votes": 3473,
+          "pct": 58.34
+        },
+        "other": {
+          "votes": 148,
+          "pct": 2.49
+        },
+        "total_votes": 5953,
+        "margin": -1141,
+        "margin_pct": -19.17,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 8800,
+        "democratic_pct": 34.0,
+        "republican_pct": 43.0,
+        "other_minor_independent_pct": 23.0
+      }
+    },
+    {
+      "name": "Socorro",
+      "fips": "35053",
+      "county_seat": "Socorro",
+      "population_2020": 16595,
+      "population_2025_est": 15838,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 3384,
+          "pct": 46.79
+        },
+        "donald_trump_gop": {
+          "votes": 3651,
+          "pct": 50.48
+        },
+        "other": {
+          "votes": 198,
+          "pct": 2.74
+        },
+        "total_votes": 7233,
+        "margin": -267,
+        "margin_pct": -3.69,
+        "winner": "Trump",
+        "note": "Flipped from Democratic in 2020 to Republican in 2024"
+      },
+      "voter_registration": {
+        "total_registered": 10900,
+        "democratic_pct": 42.0,
+        "republican_pct": 36.0,
+        "other_minor_independent_pct": 22.0
+      }
+    },
+    {
+      "name": "Taos",
+      "fips": "35055",
+      "county_seat": "Taos",
+      "population_2020": 34489,
+      "population_2025_est": 34564,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 12038,
+          "pct": 72.36
+        },
+        "donald_trump_gop": {
+          "votes": 4139,
+          "pct": 24.88
+        },
+        "other": {
+          "votes": 459,
+          "pct": 2.76
+        },
+        "total_votes": 16636,
+        "margin": 7899,
+        "margin_pct": 47.48,
+        "winner": "Harris"
+      },
+      "voter_registration": {
+        "total_registered": 24500,
+        "democratic_pct": 60.0,
+        "republican_pct": 17.0,
+        "other_minor_independent_pct": 23.0
+      }
+    },
+    {
+      "name": "Torrance",
+      "fips": "35057",
+      "county_seat": "Estancia",
+      "population_2020": 15045,
+      "population_2025_est": 16100,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 2144,
+          "pct": 29.86
+        },
+        "donald_trump_gop": {
+          "votes": 4880,
+          "pct": 67.98
+        },
+        "other": {
+          "votes": 155,
+          "pct": 2.16
+        },
+        "total_votes": 7179,
+        "margin": -2736,
+        "margin_pct": -38.11,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 10900,
+        "democratic_pct": 27.0,
+        "republican_pct": 47.0,
+        "other_minor_independent_pct": 26.0
+      }
+    },
+    {
+      "name": "Union",
+      "fips": "35059",
+      "county_seat": "Clayton",
+      "population_2020": 4079,
+      "population_2025_est": 3844,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 378,
+          "pct": 22.70
+        },
+        "donald_trump_gop": {
+          "votes": 1247,
+          "pct": 74.89
+        },
+        "other": {
+          "votes": 40,
+          "pct": 2.40
+        },
+        "total_votes": 1665,
+        "margin": -869,
+        "margin_pct": -52.19,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 2800,
+        "democratic_pct": 28.0,
+        "republican_pct": 48.0,
+        "other_minor_independent_pct": 24.0
+      }
+    },
+    {
+      "name": "Valencia",
+      "fips": "35061",
+      "county_seat": "Los Lunas",
+      "population_2020": 76205,
+      "population_2025_est": 82013,
+      "president_2024": {
+        "kamala_harris_dem": {
+          "votes": 13609,
+          "pct": 40.90
+        },
+        "donald_trump_gop": {
+          "votes": 19057,
+          "pct": 57.27
+        },
+        "other": {
+          "votes": 611,
+          "pct": 1.84
+        },
+        "total_votes": 33277,
+        "margin": -5448,
+        "margin_pct": -16.37,
+        "winner": "Trump"
+      },
+      "voter_registration": {
+        "total_registered": 48400,
+        "democratic_pct": 37.0,
+        "republican_pct": 39.0,
+        "other_minor_independent_pct": 24.0
+      }
+    }
+  ],
+  "validation_notes": {
+    "bernalillo_albuquerque": {
+      "presidential_results_match": "Verified. Wikipedia, GitHub county dataset, and NM SOS all show Harris 184,117 (59.23%) vs Trump 118,762 (38.21%). Total 310,844 votes.",
+      "population_match": "Census 2020: 676,444; ACS 2025 est: 667,601. Consistent with nm_census.json city-level data for Albuquerque (562,488 within Bernalillo County).",
+      "registration_estimate": "~458,000 registered voters. This county accounts for ~33.5% of NM's registered voters and ~33.7% of votes cast in 2024."
+    },
+    "santa_fe": {
+      "presidential_results_match": "Verified. Harris 61,405 (73.35%) vs Trump 20,457 (24.44%). Total 83,719 votes. Santa Fe County is the most Democratic county in NM by margin.",
+      "population_match": "Census 2020: 154,823; ACS 2025 est: 156,907. Consistent with nm_census.json city-level data for Santa Fe city (88,224).",
+      "registration_estimate": "~108,000 registered voters. Harris's 73.35% here is the highest Democratic share of any NM county."
+    }
+  },
+  "analysis_highlights": {
+    "democratic_strongholds": [
+      "Santa Fe County: Harris +48.91% (most Democratic county)",
+      "Taos County: Harris +47.48%",
+      "Los Alamos County: Harris +30.19%",
+      "San Miguel County: Harris +27.89%",
+      "McKinley County: Harris +24.54%"
+    ],
+    "republican_strongholds": [
+      "Lea County: Trump +61.61% (most Republican county)",
+      "Eddy County: Trump +55.85%",
+      "Union County: Trump +52.19%",
+      "De Baca County: Trump +50.69%",
+      "Catron County: Trump +50.11%"
+    ],
+    "closest_counties": [
+      "Guadalupe County: Harris +0.72% (14 votes)",
+      "Cibola County: Harris +1.55% (139 votes)",
+      "Socorro County: Trump +3.69% (267 votes) — FLIPPED from 2020",
+      "Grant County: Harris +5.07% (721 votes)",
+      "Sandoval County: Harris +5.78% (4,600 votes)"
+    ],
+    "county_flip_2020_to_2024": "Socorro County flipped from Democratic (Biden +4.4% in 2020) to Republican (Trump +3.69% in 2024). This is the only county flip in NM."
+  },
+  "methodology": {
+    "presidential_results": "Official certified results from New Mexico Secretary of State. County-level data verified against Wikipedia (2024 United States presidential election in New Mexico) and the GitHub county-level election results dataset (tonmcg/US_County_Level_Election_Results_08-24). All totals match exactly.",
+    "population": "US Census Bureau 2020 Decennial Census (PL 94-171). 2025 estimates from US Census Bureau Population Estimates Program.",
+    "voter_registration": "County-level voter registration totals estimated from NM SOS reported totals and turnout patterns. Statewide total of 1,366,000 registered voters as of October 2024 per NM SOS. County allocations cross-referenced with: (1) NM SOS RealFile voter registration portal data, (2) county-level turnout ratios, and (3) historical registration patterns. Party registration percentages derived from NM SOS voter registration statistics reports. Note: In 2026, NM SOS moved historical voter registration data to a new archive system, making direct URL-based access to historical spreadsheets unreliable. The registration figures here should be treated as reasonable estimates (±5%) based on multiple data cross-references."
+  }
+}

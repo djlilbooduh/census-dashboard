@@ -1,0 +1,152 @@
+{
+  "state": "Rhode Island",
+  "year": "2024",
+  "sources": {
+    "presidential_results": "Wikipedia - 2024 United States presidential election in Rhode Island; verified with Dave Leip's Atlas of U.S. Presidential Elections",
+    "voter_registration_state": "Independent Voter Project (independentvoterproject.org/voter-stats/ri); RI Secretary of State data",
+    "voter_registration_county_estimation": "Estimated from total votes cast per county divided by statewide turnout rate (63.5%). County-level registration not directly published by RI Board of Elections; RI does not maintain county-level voter rolls.",
+    "turnout": "Wikipedia (63.5%); Independent Voter Project says 63.3% for 523,402 voters. Discrepancy explained by different denominators (presidential votes vs. all ballots cast)."
+  },
+  "statewide": {
+    "registered_voters": 757856,
+    "registered_democratic": 264085,
+    "registered_democratic_pct": 34.85,
+    "registered_republican": 108915,
+    "registered_republican_pct": 14.37,
+    "registered_independent_other": 384856,
+    "registered_independent_other_pct": 50.78,
+    "total_presidential_votes_cast": 513386,
+    "turnout_pct": 63.5
+  },
+  "presidential": {
+    "note": "County totals exclude UOCAVA (military/overseas) ballots. UOCAVA totals: Harris 1,406, Trump 115, Other 49.",
+    "statewide_totals_including_uocava": {
+      "harris_votes": 285156,
+      "harris_pct": 55.54,
+      "trump_votes": 214406,
+      "trump_pct": 41.76,
+      "other_votes": 13824,
+      "other_pct": 2.69,
+      "total_votes": 513386
+    },
+    "counties": [
+      {
+        "name": "Bristol",
+        "fips": "44001",
+        "harris_votes": 17458,
+        "harris_pct": 61.61,
+        "trump_votes": 10048,
+        "trump_pct": 35.46,
+        "other_votes": 829,
+        "other_pct": 2.93,
+        "total_votes": 28335,
+        "margin": 7410,
+        "margin_pct": 26.15
+      },
+      {
+        "name": "Kent",
+        "fips": "44003",
+        "harris_votes": 46269,
+        "harris_pct": 49.67,
+        "trump_votes": 44526,
+        "trump_pct": 47.80,
+        "other_votes": 2353,
+        "other_pct": 2.53,
+        "total_votes": 93148,
+        "margin": 1743,
+        "margin_pct": 1.87
+      },
+      {
+        "name": "Newport",
+        "fips": "44005",
+        "harris_votes": 27332,
+        "harris_pct": 61.26,
+        "trump_votes": 16027,
+        "trump_pct": 35.92,
+        "other_votes": 1259,
+        "other_pct": 2.82,
+        "total_votes": 44618,
+        "margin": 11305,
+        "margin_pct": 25.34
+      },
+      {
+        "name": "Providence",
+        "fips": "44007",
+        "harris_votes": 150102,
+        "harris_pct": 55.66,
+        "trump_votes": 112443,
+        "trump_pct": 41.70,
+        "other_votes": 7134,
+        "other_pct": 2.64,
+        "total_votes": 269679,
+        "margin": 37659,
+        "margin_pct": 13.96
+      },
+      {
+        "name": "Washington",
+        "fips": "44009",
+        "harris_votes": 42589,
+        "harris_pct": 56.01,
+        "trump_votes": 31247,
+        "trump_pct": 41.10,
+        "other_votes": 2200,
+        "other_pct": 2.89,
+        "total_votes": 76036,
+        "margin": 11342,
+        "margin_pct": 14.91
+      }
+    ]
+  },
+  "voter_registration": {
+    "note": "RI does not publish county-level voter registration. The `estimated_registered` field is derived from total_presidential_votes / state_turnout_rate (0.635).",
+    "statewide_registered": 757856,
+    "counties": [
+      {
+        "name": "Bristol",
+        "fips": "44001",
+        "total_votes": 28335,
+        "estimated_registered": 44622,
+        "census_population_2023": 50001,
+        "census_voting_age_pop_pct": 79.8
+      },
+      {
+        "name": "Kent",
+        "fips": "44003",
+        "total_votes": 93148,
+        "estimated_registered": 146690,
+        "census_population_2023": 172643,
+        "census_voting_age_pop_pct": 80.7
+      },
+      {
+        "name": "Newport",
+        "fips": "44005",
+        "total_votes": 44618,
+        "estimated_registered": 70265,
+        "census_population_2023": 82319,
+        "census_voting_age_pop_pct": 82.9
+      },
+      {
+        "name": "Providence",
+        "fips": "44007",
+        "total_votes": 269679,
+        "estimated_registered": 424691,
+        "census_population_2023": 678179,
+        "census_voting_age_pop_pct": 79.2
+      },
+      {
+        "name": "Washington",
+        "fips": "44009",
+        "total_votes": 76036,
+        "estimated_registered": 119741,
+        "census_population_2023": 126259,
+        "census_voting_age_pop_pct": 82.1
+      }
+    ]
+  },
+  "validation": {
+    "providence_kent": {
+      "status": "VERIFIED",
+      "details": "Providence and Kent county presidential results match across Wikipedia, Dave Leip's Atlas, and the RI Board of Elections state data. Kent was the closest county (Harris +1.87%), Providence was the largest vote pool (269,679 votes)."
+    }
+  }
+}

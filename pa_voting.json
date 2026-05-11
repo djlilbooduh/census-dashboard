@@ -1,0 +1,1310 @@
+{
+  "state": "Pennsylvania",
+  "state_abbr": "PA",
+  "election": "2024 Presidential General Election",
+  "election_date": "2024-11-05",
+  "election_source": "Wikipedia / Pennsylvania Department of State Official Returns (ElectionID=105)",
+  "voter_registration_source": "PA Department of State currentvotestats.xlsx",
+  "voter_registration_as_of": "2026-05-04",
+  "voter_registration_note": "Registration data is current (May 2026), NOT November 2024 pre-election numbers. Total PA registration for Nov 2024 election was 9,175,132 per DOS. Current total is lower due to routine voter roll maintenance.",
+  "statewide_results": {
+    "donald_trump": {
+      "votes": 3543308,
+      "pct": 50.37
+    },
+    "kamala_harris": {
+      "votes": 3423042,
+      "pct": 48.66
+    },
+    "other": {
+      "votes": 67856,
+      "pct": 0.96
+    },
+    "total_votes": 7034249,
+    "margin": 120266,
+    "margin_pct": 1.71,
+    "turnout_of_vap_pct": 76.6
+  },
+  "statewide_voter_registration": {
+    "total": 8952839,
+    "democratic": 3830575,
+    "republican": 3642194,
+    "no_affiliation": 1164051,
+    "other": 316019
+  },
+  "counties": {
+    "Adams": {
+      "winner": "Donald Trump",
+      "trump_votes": 40248,
+      "trump_pct": 66.36,
+      "harris_votes": 19842,
+      "harris_pct": 32.72,
+      "other_votes": 560,
+      "other_pct": 0.92,
+      "margin": 20406,
+      "margin_pct": 33.64,
+      "total_votes": 60650,
+      "voter_registration": {
+        "dem": 19109,
+        "rep": 43979,
+        "no_affiliation": 10374,
+        "other": 2798,
+        "total": 76260
+      }
+    },
+    "Allegheny": {
+      "winner": "Kamala Harris",
+      "trump_votes": 283595,
+      "trump_pct": 39.36,
+      "harris_votes": 429916,
+      "harris_pct": 59.67,
+      "other_votes": 6993,
+      "other_pct": 0.97,
+      "margin": -146321,
+      "margin_pct": -20.31,
+      "total_votes": 720504,
+      "voter_registration": {
+        "dem": 502177,
+        "rep": 263946,
+        "no_affiliation": 112089,
+        "other": 37073,
+        "total": 915285
+      }
+    },
+    "Armstrong": {
+      "winner": "Donald Trump",
+      "trump_votes": 28296,
+      "trump_pct": 76.23,
+      "harris_votes": 8553,
+      "harris_pct": 23.04,
+      "other_votes": 270,
+      "other_pct": 0.73,
+      "margin": 19743,
+      "margin_pct": 53.19,
+      "total_votes": 37119,
+      "voter_registration": {
+        "dem": 10696,
+        "rep": 27643,
+        "no_affiliation": 3657,
+        "other": 1583,
+        "total": 43579
+      }
+    },
+    "Beaver": {
+      "winner": "Donald Trump",
+      "trump_votes": 56837,
+      "trump_pct": 59.93,
+      "harris_votes": 37196,
+      "harris_pct": 39.22,
+      "other_votes": 810,
+      "other_pct": 0.85,
+      "margin": 19641,
+      "margin_pct": 20.71,
+      "total_votes": 94843,
+      "voter_registration": {
+        "dem": 45832,
+        "rep": 51934,
+        "no_affiliation": 11695,
+        "other": 4745,
+        "total": 114206
+      }
+    },
+    "Bedford": {
+      "winner": "Donald Trump",
+      "trump_votes": 23658,
+      "trump_pct": 84.01,
+      "harris_votes": 4336,
+      "harris_pct": 15.4,
+      "other_votes": 166,
+      "other_pct": 0.59,
+      "margin": 19322,
+      "margin_pct": 68.61,
+      "total_votes": 28160,
+      "voter_registration": {
+        "dem": 5287,
+        "rep": 24580,
+        "no_affiliation": 2278,
+        "other": 891,
+        "total": 33036
+      }
+    },
+    "Berks": {
+      "winner": "Donald Trump",
+      "trump_votes": 116677,
+      "trump_pct": 55.6,
+      "harris_votes": 91125,
+      "harris_pct": 43.43,
+      "other_votes": 2036,
+      "other_pct": 0.97,
+      "margin": 25552,
+      "margin_pct": 12.17,
+      "total_votes": 209838,
+      "voter_registration": {
+        "dem": 104157,
+        "rep": 118149,
+        "no_affiliation": 40638,
+        "other": 10415,
+        "total": 273359
+      }
+    },
+    "Blair": {
+      "winner": "Donald Trump",
+      "trump_votes": 46352,
+      "trump_pct": 71.37,
+      "harris_votes": 18127,
+      "harris_pct": 27.91,
+      "other_votes": 470,
+      "other_pct": 0.72,
+      "margin": 28225,
+      "margin_pct": 43.46,
+      "total_votes": 64949,
+      "voter_registration": {
+        "dem": 19729,
+        "rep": 50727,
+        "no_affiliation": 8342,
+        "other": 2725,
+        "total": 81523
+      }
+    },
+    "Bradford": {
+      "winner": "Donald Trump",
+      "trump_votes": 22937,
+      "trump_pct": 73.53,
+      "harris_votes": 7990,
+      "harris_pct": 25.62,
+      "other_votes": 265,
+      "other_pct": 0.85,
+      "margin": 14947,
+      "margin_pct": 47.91,
+      "total_votes": 31192,
+      "voter_registration": {
+        "dem": 7801,
+        "rep": 25603,
+        "no_affiliation": 3806,
+        "other": 1539,
+        "total": 38749
+      }
+    },
+    "Bucks": {
+      "winner": "Donald Trump",
+      "trump_votes": 198722,
+      "trump_pct": 49.55,
+      "harris_votes": 198431,
+      "harris_pct": 49.48,
+      "other_votes": 3875,
+      "other_pct": 0.97,
+      "margin": 291,
+      "margin_pct": 0.07,
+      "total_votes": 401028,
+      "voter_registration": {
+        "dem": 193561,
+        "rep": 202424,
+        "no_affiliation": 69140,
+        "other": 18553,
+        "total": 483678
+      }
+    },
+    "Butler": {
+      "winner": "Donald Trump",
+      "trump_votes": 79773,
+      "trump_pct": 65.69,
+      "harris_votes": 40661,
+      "harris_pct": 33.48,
+      "other_votes": 1006,
+      "other_pct": 0.83,
+      "margin": 39112,
+      "margin_pct": 32.21,
+      "total_votes": 121440,
+      "voter_registration": {
+        "dem": 39027,
+        "rep": 82889,
+        "no_affiliation": 16084,
+        "other": 5167,
+        "total": 143167
+      }
+    },
+    "Cambria": {
+      "winner": "Donald Trump",
+      "trump_votes": 49408,
+      "trump_pct": 69.46,
+      "harris_votes": 21177,
+      "harris_pct": 29.77,
+      "other_votes": 551,
+      "other_pct": 0.77,
+      "margin": 28231,
+      "margin_pct": 39.69,
+      "total_votes": 71136,
+      "voter_registration": {
+        "dem": 29526,
+        "rep": 46566,
+        "no_affiliation": 7775,
+        "other": 2112,
+        "total": 85979
+      }
+    },
+    "Cameron": {
+      "winner": "Donald Trump",
+      "trump_votes": 1654,
+      "trump_pct": 74.54,
+      "harris_votes": 538,
+      "harris_pct": 24.25,
+      "other_votes": 27,
+      "other_pct": 1.21,
+      "margin": 1116,
+      "margin_pct": 50.29,
+      "total_votes": 2219,
+      "voter_registration": {
+        "dem": 667,
+        "rep": 1841,
+        "no_affiliation": 248,
+        "other": 124,
+        "total": 2880
+      }
+    },
+    "Carbon": {
+      "winner": "Donald Trump",
+      "trump_votes": 23708,
+      "trump_pct": 66.98,
+      "harris_votes": 11394,
+      "harris_pct": 32.19,
+      "other_votes": 293,
+      "other_pct": 0.83,
+      "margin": 12314,
+      "margin_pct": 34.79,
+      "total_votes": 35395,
+      "voter_registration": {
+        "dem": 14061,
+        "rep": 23870,
+        "no_affiliation": 5726,
+        "other": 1926,
+        "total": 45583
+      }
+    },
+    "Centre": {
+      "winner": "Kamala Harris",
+      "trump_votes": 38829,
+      "trump_pct": 48.06,
+      "harris_votes": 41119,
+      "harris_pct": 50.89,
+      "other_votes": 844,
+      "other_pct": 1.05,
+      "margin": -2290,
+      "margin_pct": -2.83,
+      "total_votes": 80792,
+      "voter_registration": {
+        "dem": 41457,
+        "rep": 41904,
+        "no_affiliation": 15991,
+        "other": 2707,
+        "total": 102059
+      }
+    },
+    "Chester": {
+      "winner": "Kamala Harris",
+      "trump_votes": 137299,
+      "trump_pct": 42.25,
+      "harris_votes": 184281,
+      "harris_pct": 56.71,
+      "other_votes": 3384,
+      "other_pct": 1.04,
+      "margin": -46982,
+      "margin_pct": -14.46,
+      "total_votes": 324964,
+      "voter_registration": {
+        "dem": 160290,
+        "rep": 152213,
+        "no_affiliation": 58108,
+        "other": 18043,
+        "total": 388654
+      }
+    },
+    "Clarion": {
+      "winner": "Donald Trump",
+      "trump_votes": 15036,
+      "trump_pct": 76.2,
+      "harris_votes": 4562,
+      "harris_pct": 23.12,
+      "other_votes": 135,
+      "other_pct": 0.68,
+      "margin": 10474,
+      "margin_pct": 53.08,
+      "total_votes": 19733,
+      "voter_registration": {
+        "dem": 5071,
+        "rep": 15583,
+        "no_affiliation": 2076,
+        "other": 647,
+        "total": 23377
+      }
+    },
+    "Clearfield": {
+      "winner": "Donald Trump",
+      "trump_votes": 30481,
+      "trump_pct": 75.39,
+      "harris_votes": 9647,
+      "harris_pct": 23.86,
+      "other_votes": 302,
+      "other_pct": 0.75,
+      "margin": 20834,
+      "margin_pct": 51.53,
+      "total_votes": 40430,
+      "voter_registration": {
+        "dem": 12070,
+        "rep": 31443,
+        "no_affiliation": 4272,
+        "other": 1789,
+        "total": 49574
+      }
+    },
+    "Clinton": {
+      "winner": "Donald Trump",
+      "trump_votes": 12965,
+      "trump_pct": 70.0,
+      "harris_votes": 5395,
+      "harris_pct": 29.13,
+      "other_votes": 162,
+      "other_pct": 0.87,
+      "margin": 7570,
+      "margin_pct": 40.87,
+      "total_votes": 18522,
+      "voter_registration": {
+        "dem": 6066,
+        "rep": 13315,
+        "no_affiliation": 2401,
+        "other": 740,
+        "total": 22522
+      }
+    },
+    "Columbia": {
+      "winner": "Donald Trump",
+      "trump_votes": 21190,
+      "trump_pct": 65.05,
+      "harris_votes": 11083,
+      "harris_pct": 34.02,
+      "other_votes": 303,
+      "other_pct": 0.93,
+      "margin": 10107,
+      "margin_pct": 31.03,
+      "total_votes": 32576,
+      "voter_registration": {
+        "dem": 11815,
+        "rep": 22458,
+        "no_affiliation": 4827,
+        "other": 1492,
+        "total": 40592
+      }
+    },
+    "Crawford": {
+      "winner": "Donald Trump",
+      "trump_votes": 29685,
+      "trump_pct": 69.24,
+      "harris_votes": 12858,
+      "harris_pct": 29.99,
+      "other_votes": 329,
+      "other_pct": 0.77,
+      "margin": 16827,
+      "margin_pct": 39.25,
+      "total_votes": 42872,
+      "voter_registration": {
+        "dem": 14474,
+        "rep": 31900,
+        "no_affiliation": 4913,
+        "other": 1850,
+        "total": 53137
+      }
+    },
+    "Cumberland": {
+      "winner": "Donald Trump",
+      "trump_votes": 80267,
+      "trump_pct": 54.09,
+      "harris_votes": 66255,
+      "harris_pct": 44.65,
+      "other_votes": 1874,
+      "other_pct": 1.26,
+      "margin": 14012,
+      "margin_pct": 9.44,
+      "total_votes": 148396,
+      "voter_registration": {
+        "dem": 61120,
+        "rep": 88470,
+        "no_affiliation": 26600,
+        "other": 6506,
+        "total": 182696
+      }
+    },
+    "Dauphin": {
+      "winner": "Kamala Harris",
+      "trump_votes": 69474,
+      "trump_pct": 46.46,
+      "harris_votes": 78327,
+      "harris_pct": 52.38,
+      "other_votes": 1725,
+      "other_pct": 1.16,
+      "margin": -8853,
+      "margin_pct": -5.92,
+      "total_votes": 149526,
+      "voter_registration": {
+        "dem": 85472,
+        "rep": 76278,
+        "no_affiliation": 30444,
+        "other": 7286,
+        "total": 199480
+      }
+    },
+    "Delaware": {
+      "winner": "Kamala Harris",
+      "trump_votes": 123421,
+      "trump_pct": 37.61,
+      "harris_votes": 201324,
+      "harris_pct": 61.35,
+      "other_votes": 3427,
+      "other_pct": 1.04,
+      "margin": -77903,
+      "margin_pct": -23.74,
+      "total_votes": 328172,
+      "voter_registration": {
+        "dem": 202314,
+        "rep": 143601,
+        "no_affiliation": 48419,
+        "other": 15776,
+        "total": 410110
+      }
+    },
+    "Elk": {
+      "winner": "Donald Trump",
+      "trump_votes": 12543,
+      "trump_pct": 73.12,
+      "harris_votes": 4483,
+      "harris_pct": 26.14,
+      "other_votes": 127,
+      "other_pct": 0.74,
+      "margin": 8060,
+      "margin_pct": 46.98,
+      "total_votes": 17153,
+      "voter_registration": {
+        "dem": 5813,
+        "rep": 12132,
+        "no_affiliation": 1752,
+        "other": 789,
+        "total": 20486
+      }
+    },
+    "Erie": {
+      "winner": "Donald Trump",
+      "trump_votes": 68866,
+      "trump_pct": 50.05,
+      "harris_votes": 67456,
+      "harris_pct": 49.03,
+      "other_votes": 1273,
+      "other_pct": 0.92,
+      "margin": 1410,
+      "margin_pct": 1.02,
+      "total_votes": 137595,
+      "voter_registration": {
+        "dem": 76592,
+        "rep": 71066,
+        "no_affiliation": 20649,
+        "other": 6673,
+        "total": 174980
+      }
+    },
+    "Fayette": {
+      "winner": "Donald Trump",
+      "trump_votes": 43633,
+      "trump_pct": 68.74,
+      "harris_votes": 19548,
+      "harris_pct": 30.8,
+      "other_votes": 291,
+      "other_pct": 0.46,
+      "margin": 24085,
+      "margin_pct": 37.94,
+      "total_votes": 63472,
+      "voter_registration": {
+        "dem": 29629,
+        "rep": 41290,
+        "no_affiliation": 6599,
+        "other": 2068,
+        "total": 79586
+      }
+    },
+    "Forest": {
+      "winner": "Donald Trump",
+      "trump_votes": 1902,
+      "trump_pct": 71.77,
+      "harris_votes": 724,
+      "harris_pct": 27.32,
+      "other_votes": 24,
+      "other_pct": 0.91,
+      "margin": 1178,
+      "margin_pct": 44.45,
+      "total_votes": 2650,
+      "voter_registration": {
+        "dem": 773,
+        "rep": 2032,
+        "no_affiliation": 267,
+        "other": 123,
+        "total": 3195
+      }
+    },
+    "Franklin": {
+      "winner": "Donald Trump",
+      "trump_votes": 59604,
+      "trump_pct": 71.06,
+      "harris_votes": 23543,
+      "harris_pct": 28.07,
+      "other_votes": 737,
+      "other_pct": 0.87,
+      "margin": 36061,
+      "margin_pct": 42.99,
+      "total_votes": 83884,
+      "voter_registration": {
+        "dem": 23385,
+        "rep": 64420,
+        "no_affiliation": 13698,
+        "other": 3426,
+        "total": 104929
+      }
+    },
+    "Fulton": {
+      "winner": "Donald Trump",
+      "trump_votes": 7039,
+      "trump_pct": 86.08,
+      "harris_votes": 1102,
+      "harris_pct": 13.48,
+      "other_votes": 36,
+      "other_pct": 0.44,
+      "margin": 5937,
+      "margin_pct": 72.6,
+      "total_votes": 8177,
+      "voter_registration": {
+        "dem": 1474,
+        "rep": 7489,
+        "no_affiliation": 891,
+        "other": 266,
+        "total": 10120
+      }
+    },
+    "Greene": {
+      "winner": "Donald Trump",
+      "trump_votes": 12319,
+      "trump_pct": 71.47,
+      "harris_votes": 4592,
+      "harris_pct": 26.64,
+      "other_votes": 325,
+      "other_pct": 1.89,
+      "margin": 7727,
+      "margin_pct": 44.83,
+      "total_votes": 17236,
+      "voter_registration": {
+        "dem": 7421,
+        "rep": 12120,
+        "no_affiliation": 1628,
+        "other": 600,
+        "total": 21769
+      }
+    },
+    "Huntingdon": {
+      "winner": "Donald Trump",
+      "trump_votes": 17627,
+      "trump_pct": 76.12,
+      "harris_votes": 5368,
+      "harris_pct": 23.18,
+      "other_votes": 161,
+      "other_pct": 0.7,
+      "margin": 12259,
+      "margin_pct": 52.94,
+      "total_votes": 23156,
+      "voter_registration": {
+        "dem": 6051,
+        "rep": 18947,
+        "no_affiliation": 2361,
+        "other": 592,
+        "total": 27951
+      }
+    },
+    "Indiana": {
+      "winner": "Donald Trump",
+      "trump_votes": 29215,
+      "trump_pct": 69.18,
+      "harris_votes": 12697,
+      "harris_pct": 30.07,
+      "other_votes": 317,
+      "other_pct": 0.75,
+      "margin": 16518,
+      "margin_pct": 39.11,
+      "total_votes": 42229,
+      "voter_registration": {
+        "dem": 13984,
+        "rep": 28901,
+        "no_affiliation": 4620,
+        "other": 1679,
+        "total": 49184
+      }
+    },
+    "Jefferson": {
+      "winner": "Donald Trump",
+      "trump_votes": 18235,
+      "trump_pct": 78.84,
+      "harris_votes": 4707,
+      "harris_pct": 20.35,
+      "other_votes": 187,
+      "other_pct": 0.81,
+      "margin": 13528,
+      "margin_pct": 58.49,
+      "total_votes": 23129,
+      "voter_registration": {
+        "dem": 5432,
+        "rep": 19461,
+        "no_affiliation": 2274,
+        "other": 929,
+        "total": 28096
+      }
+    },
+    "Juniata": {
+      "winner": "Donald Trump",
+      "trump_votes": 9721,
+      "trump_pct": 80.31,
+      "harris_votes": 2290,
+      "harris_pct": 18.92,
+      "other_votes": 93,
+      "other_pct": 0.77,
+      "margin": 7431,
+      "margin_pct": 61.39,
+      "total_votes": 12104,
+      "voter_registration": {
+        "dem": 2551,
+        "rep": 10037,
+        "no_affiliation": 1161,
+        "other": 332,
+        "total": 14081
+      }
+    },
+    "Lackawanna": {
+      "winner": "Kamala Harris",
+      "trump_votes": 56261,
+      "trump_pct": 48.26,
+      "harris_votes": 59510,
+      "harris_pct": 50.04,
+      "other_votes": 819,
+      "other_pct": 0.7,
+      "margin": -3249,
+      "margin_pct": -2.78,
+      "total_votes": 116590,
+      "voter_registration": {
+        "dem": 76219,
+        "rep": 52302,
+        "no_affiliation": 16995,
+        "other": 3453,
+        "total": 148969
+      }
+    },
+    "Lancaster": {
+      "winner": "Donald Trump",
+      "trump_votes": 166261,
+      "trump_pct": 57.48,
+      "harris_votes": 120119,
+      "harris_pct": 41.53,
+      "other_votes": 2877,
+      "other_pct": 0.99,
+      "margin": 46142,
+      "margin_pct": 15.95,
+      "total_votes": 289257,
+      "voter_registration": {
+        "dem": 112148,
+        "rep": 183911,
+        "no_affiliation": 50622,
+        "other": 16079,
+        "total": 362760
+      }
+    },
+    "Lawrence": {
+      "winner": "Donald Trump",
+      "trump_votes": 31347,
+      "trump_pct": 66.54,
+      "harris_votes": 15440,
+      "harris_pct": 32.77,
+      "other_votes": 323,
+      "other_pct": 0.69,
+      "margin": 15907,
+      "margin_pct": 33.77,
+      "total_votes": 47110,
+      "voter_registration": {
+        "dem": 19713,
+        "rep": 30148,
+        "no_affiliation": 5578,
+        "other": 1909,
+        "total": 57348
+      }
+    },
+    "Lebanon": {
+      "winner": "Donald Trump",
+      "trump_votes": 48282,
+      "trump_pct": 65.52,
+      "harris_votes": 24734,
+      "harris_pct": 33.56,
+      "other_votes": 676,
+      "other_pct": 0.92,
+      "margin": 23548,
+      "margin_pct": 31.96,
+      "total_votes": 73692,
+      "voter_registration": {
+        "dem": 25323,
+        "rep": 52672,
+        "no_affiliation": 12057,
+        "other": 3705,
+        "total": 93757
+      }
+    },
+    "Lehigh": {
+      "winner": "Kamala Harris",
+      "trump_votes": 91207,
+      "trump_pct": 48.05,
+      "harris_votes": 96317,
+      "harris_pct": 50.74,
+      "other_votes": 2286,
+      "other_pct": 1.21,
+      "margin": -5110,
+      "margin_pct": -2.69,
+      "total_votes": 189810,
+      "voter_registration": {
+        "dem": 110873,
+        "rep": 89815,
+        "no_affiliation": 45017,
+        "other": 7344,
+        "total": 253049
+      }
+    },
+    "Luzerne": {
+      "winner": "Donald Trump",
+      "trump_votes": 92444,
+      "trump_pct": 59.2,
+      "harris_votes": 62504,
+      "harris_pct": 40.03,
+      "other_votes": 1202,
+      "other_pct": 0.77,
+      "margin": 29940,
+      "margin_pct": 19.17,
+      "total_votes": 156150,
+      "voter_registration": {
+        "dem": 84116,
+        "rep": 91231,
+        "no_affiliation": 25253,
+        "other": 5683,
+        "total": 206283
+      }
+    },
+    "Lycoming": {
+      "winner": "Donald Trump",
+      "trump_votes": 41961,
+      "trump_pct": 70.3,
+      "harris_votes": 17216,
+      "harris_pct": 28.84,
+      "other_votes": 508,
+      "other_pct": 0.85,
+      "margin": 24745,
+      "margin_pct": 41.46,
+      "total_votes": 59685,
+      "voter_registration": {
+        "dem": 18135,
+        "rep": 43888,
+        "no_affiliation": 7778,
+        "other": 2733,
+        "total": 72534
+      }
+    },
+    "McKean": {
+      "winner": "Donald Trump",
+      "trump_votes": 14401,
+      "trump_pct": 73.17,
+      "harris_votes": 5115,
+      "harris_pct": 25.99,
+      "other_votes": 166,
+      "other_pct": 0.84,
+      "margin": 9286,
+      "margin_pct": 47.18,
+      "total_votes": 19682,
+      "voter_registration": {
+        "dem": 5280,
+        "rep": 16154,
+        "no_affiliation": 2690,
+        "other": 1024,
+        "total": 25148
+      }
+    },
+    "Mercer": {
+      "winner": "Donald Trump",
+      "trump_votes": 37761,
+      "trump_pct": 64.65,
+      "harris_votes": 20145,
+      "harris_pct": 34.49,
+      "other_votes": 504,
+      "other_pct": 0.86,
+      "margin": 17616,
+      "margin_pct": 30.16,
+      "total_votes": 58410,
+      "voter_registration": {
+        "dem": 23174,
+        "rep": 38335,
+        "no_affiliation": 8334,
+        "other": 2032,
+        "total": 71875
+      }
+    },
+    "Mifflin": {
+      "winner": "Donald Trump",
+      "trump_votes": 17184,
+      "trump_pct": 77.86,
+      "harris_votes": 4735,
+      "harris_pct": 21.45,
+      "other_votes": 152,
+      "other_pct": 0.69,
+      "margin": 12449,
+      "margin_pct": 56.41,
+      "total_votes": 22071,
+      "voter_registration": {
+        "dem": 5363,
+        "rep": 18637,
+        "no_affiliation": 2497,
+        "other": 620,
+        "total": 27117
+      }
+    },
+    "Monroe": {
+      "winner": "Donald Trump",
+      "trump_votes": 42676,
+      "trump_pct": 49.9,
+      "harris_votes": 42007,
+      "harris_pct": 49.12,
+      "other_votes": 842,
+      "other_pct": 0.98,
+      "margin": 669,
+      "margin_pct": 0.78,
+      "total_votes": 85525,
+      "voter_registration": {
+        "dem": 48293,
+        "rep": 43205,
+        "no_affiliation": 20267,
+        "other": 5023,
+        "total": 116788
+      }
+    },
+    "Montgomery": {
+      "winner": "Kamala Harris",
+      "trump_votes": 198311,
+      "trump_pct": 38.07,
+      "harris_votes": 317103,
+      "harris_pct": 60.88,
+      "other_votes": 5492,
+      "other_pct": 1.05,
+      "margin": -118792,
+      "margin_pct": -22.81,
+      "total_votes": 520906,
+      "voter_registration": {
+        "dem": 304393,
+        "rep": 208285,
+        "no_affiliation": 82967,
+        "other": 26253,
+        "total": 621898
+      }
+    },
+    "Montour": {
+      "winner": "Donald Trump",
+      "trump_votes": 5944,
+      "trump_pct": 59.99,
+      "harris_votes": 3862,
+      "harris_pct": 38.98,
+      "other_votes": 102,
+      "other_pct": 1.03,
+      "margin": 2082,
+      "margin_pct": 21.01,
+      "total_votes": 9908,
+      "voter_registration": {
+        "dem": 3745,
+        "rep": 6562,
+        "no_affiliation": 1594,
+        "other": 401,
+        "total": 12302
+      }
+    },
+    "Northampton": {
+      "winner": "Donald Trump",
+      "trump_votes": 89817,
+      "trump_pct": 50.4,
+      "harris_votes": 86655,
+      "harris_pct": 48.62,
+      "other_votes": 1743,
+      "other_pct": 0.98,
+      "margin": 3162,
+      "margin_pct": 1.78,
+      "total_votes": 178215,
+      "voter_registration": {
+        "dem": 95579,
+        "rep": 86947,
+        "no_affiliation": 39115,
+        "other": 9612,
+        "total": 231253
+      }
+    },
+    "Northumberland": {
+      "winner": "Donald Trump",
+      "trump_votes": 30240,
+      "trump_pct": 69.48,
+      "harris_votes": 12863,
+      "harris_pct": 29.56,
+      "other_votes": 419,
+      "other_pct": 0.96,
+      "margin": 17377,
+      "margin_pct": 39.92,
+      "total_votes": 43522,
+      "voter_registration": {
+        "dem": 15318,
+        "rep": 31949,
+        "no_affiliation": 5762,
+        "other": 2248,
+        "total": 55277
+      }
+    },
+    "Perry": {
+      "winner": "Donald Trump",
+      "trump_votes": 19073,
+      "trump_pct": 74.14,
+      "harris_votes": 6385,
+      "harris_pct": 24.82,
+      "other_votes": 267,
+      "other_pct": 1.04,
+      "margin": 12688,
+      "margin_pct": 49.32,
+      "total_votes": 25725,
+      "voter_registration": {
+        "dem": 5985,
+        "rep": 20977,
+        "no_affiliation": 3363,
+        "other": 849,
+        "total": 31174
+      }
+    },
+    "Philadelphia": {
+      "winner": "Kamala Harris",
+      "trump_votes": 144311,
+      "trump_pct": 20.0,
+      "harris_votes": 568571,
+      "harris_pct": 78.81,
+      "other_votes": 8559,
+      "other_pct": 1.19,
+      "margin": -424260,
+      "margin_pct": -58.81,
+      "total_votes": 721441,
+      "voter_registration": {
+        "dem": 772555,
+        "rep": 131282,
+        "no_affiliation": 148034,
+        "other": 26307,
+        "total": 1078178
+      }
+    },
+    "Pike": {
+      "winner": "Donald Trump",
+      "trump_votes": 21537,
+      "trump_pct": 61.62,
+      "harris_votes": 13132,
+      "harris_pct": 37.57,
+      "other_votes": 281,
+      "other_pct": 0.81,
+      "margin": 8405,
+      "margin_pct": 24.05,
+      "total_votes": 34950,
+      "voter_registration": {
+        "dem": 13547,
+        "rep": 22952,
+        "no_affiliation": 8355,
+        "other": 2163,
+        "total": 47017
+      }
+    },
+    "Potter": {
+      "winner": "Donald Trump",
+      "trump_votes": 7334,
+      "trump_pct": 80.73,
+      "harris_votes": 1675,
+      "harris_pct": 18.44,
+      "other_votes": 76,
+      "other_pct": 0.83,
+      "margin": 5659,
+      "margin_pct": 62.29,
+      "total_votes": 9085,
+      "voter_registration": {
+        "dem": 1738,
+        "rep": 8039,
+        "no_affiliation": 991,
+        "other": 276,
+        "total": 11044
+      }
+    },
+    "Schuylkill": {
+      "winner": "Donald Trump",
+      "trump_votes": 51665,
+      "trump_pct": 70.6,
+      "harris_votes": 20882,
+      "harris_pct": 28.53,
+      "other_votes": 637,
+      "other_pct": 0.87,
+      "margin": 30783,
+      "margin_pct": 41.97,
+      "total_votes": 73184,
+      "voter_registration": {
+        "dem": 25357,
+        "rep": 53200,
+        "no_affiliation": 9908,
+        "other": 3787,
+        "total": 92252
+      }
+    },
+    "Snyder": {
+      "winner": "Donald Trump",
+      "trump_votes": 14664,
+      "trump_pct": 73.18,
+      "harris_votes": 5239,
+      "harris_pct": 26.15,
+      "other_votes": 135,
+      "other_pct": 0.67,
+      "margin": 9425,
+      "margin_pct": 47.03,
+      "total_votes": 20038,
+      "voter_registration": {
+        "dem": 4891,
+        "rep": 15979,
+        "no_affiliation": 2342,
+        "other": 671,
+        "total": 23883
+      }
+    },
+    "Somerset": {
+      "winner": "Donald Trump",
+      "trump_votes": 31993,
+      "trump_pct": 78.26,
+      "harris_votes": 8596,
+      "harris_pct": 21.03,
+      "other_votes": 292,
+      "other_pct": 0.71,
+      "margin": 23397,
+      "margin_pct": 57.23,
+      "total_votes": 40881,
+      "voter_registration": {
+        "dem": 10515,
+        "rep": 32852,
+        "no_affiliation": 4349,
+        "other": 765,
+        "total": 48481
+      }
+    },
+    "Sullivan": {
+      "winner": "Donald Trump",
+      "trump_votes": 2721,
+      "trump_pct": 73.13,
+      "harris_votes": 976,
+      "harris_pct": 26.23,
+      "other_votes": 24,
+      "other_pct": 0.64,
+      "margin": 1745,
+      "margin_pct": 46.9,
+      "total_votes": 3721,
+      "voter_registration": {
+        "dem": 1062,
+        "rep": 2844,
+        "no_affiliation": 367,
+        "other": 161,
+        "total": 4434
+      }
+    },
+    "Susquehanna": {
+      "winner": "Donald Trump",
+      "trump_votes": 16114,
+      "trump_pct": 71.92,
+      "harris_votes": 6093,
+      "harris_pct": 27.2,
+      "other_votes": 197,
+      "other_pct": 0.88,
+      "margin": 10021,
+      "margin_pct": 44.72,
+      "total_votes": 22404,
+      "voter_registration": {
+        "dem": 6257,
+        "rep": 17584,
+        "no_affiliation": 2916,
+        "other": 1160,
+        "total": 27917
+      }
+    },
+    "Tioga": {
+      "winner": "Donald Trump",
+      "trump_votes": 16272,
+      "trump_pct": 75.38,
+      "harris_votes": 5100,
+      "harris_pct": 23.63,
+      "other_votes": 215,
+      "other_pct": 0.99,
+      "margin": 11172,
+      "margin_pct": 51.75,
+      "total_votes": 21587,
+      "voter_registration": {
+        "dem": 4917,
+        "rep": 18116,
+        "no_affiliation": 2918,
+        "other": 794,
+        "total": 26745
+      }
+    },
+    "Union": {
+      "winner": "Donald Trump",
+      "trump_votes": 12969,
+      "trump_pct": 61.21,
+      "harris_votes": 8015,
+      "harris_pct": 37.83,
+      "other_votes": 204,
+      "other_pct": 0.96,
+      "margin": 4954,
+      "margin_pct": 23.38,
+      "total_votes": 21188,
+      "voter_registration": {
+        "dem": 7760,
+        "rep": 14415,
+        "no_affiliation": 3208,
+        "other": 980,
+        "total": 26363
+      }
+    },
+    "Venango": {
+      "winner": "Donald Trump",
+      "trump_votes": 18883,
+      "trump_pct": 70.64,
+      "harris_votes": 7624,
+      "harris_pct": 28.52,
+      "other_votes": 225,
+      "other_pct": 0.84,
+      "margin": 11259,
+      "margin_pct": 42.12,
+      "total_votes": 26732,
+      "voter_registration": {
+        "dem": 8049,
+        "rep": 20173,
+        "no_affiliation": 3366,
+        "other": 1218,
+        "total": 32806
+      }
+    },
+    "Warren": {
+      "winner": "Donald Trump",
+      "trump_votes": 14345,
+      "trump_pct": 69.22,
+      "harris_votes": 6212,
+      "harris_pct": 29.98,
+      "other_votes": 166,
+      "other_pct": 0.8,
+      "margin": 8133,
+      "margin_pct": 39.24,
+      "total_votes": 20723,
+      "voter_registration": {
+        "dem": 6366,
+        "rep": 15264,
+        "no_affiliation": 2547,
+        "other": 1260,
+        "total": 25437
+      }
+    },
+    "Washington": {
+      "winner": "Donald Trump",
+      "trump_votes": 75929,
+      "trump_pct": 62.43,
+      "harris_votes": 44910,
+      "harris_pct": 36.93,
+      "other_votes": 778,
+      "other_pct": 0.64,
+      "margin": 31019,
+      "margin_pct": 25.5,
+      "total_votes": 121617,
+      "voter_registration": {
+        "dem": 52886,
+        "rep": 72955,
+        "no_affiliation": 15841,
+        "other": 3806,
+        "total": 145488
+      }
+    },
+    "Wayne": {
+      "winner": "Donald Trump",
+      "trump_votes": 20071,
+      "trump_pct": 68.17,
+      "harris_votes": 9150,
+      "harris_pct": 31.08,
+      "other_votes": 223,
+      "other_pct": 0.75,
+      "margin": 10921,
+      "margin_pct": 37.09,
+      "total_votes": 29444,
+      "voter_registration": {
+        "dem": 8670,
+        "rep": 21690,
+        "no_affiliation": 5089,
+        "other": 1058,
+        "total": 36507
+      }
+    },
+    "Westmoreland": {
+      "winner": "Donald Trump",
+      "trump_votes": 135008,
+      "trump_pct": 63.85,
+      "harris_votes": 74904,
+      "harris_pct": 35.42,
+      "other_votes": 1538,
+      "other_pct": 0.73,
+      "margin": 60104,
+      "margin_pct": 28.43,
+      "total_votes": 211450,
+      "voter_registration": {
+        "dem": 86917,
+        "rep": 130941,
+        "no_affiliation": 23602,
+        "other": 9235,
+        "total": 250695
+      }
+    },
+    "Wyoming": {
+      "winner": "Donald Trump",
+      "trump_votes": 10222,
+      "trump_pct": 67.91,
+      "harris_votes": 4680,
+      "harris_pct": 31.09,
+      "other_votes": 150,
+      "other_pct": 1.0,
+      "margin": 5542,
+      "margin_pct": 36.82,
+      "total_votes": 15095,
+      "voter_registration": {
+        "dem": 4690,
+        "rep": 11345,
+        "no_affiliation": 1766,
+        "other": 661,
+        "total": 18462
+      }
+    },
+    "York": {
+      "winner": "Donald Trump",
+      "trump_votes": 154884,
+      "trump_pct": 62.15,
+      "harris_votes": 91926,
+      "harris_pct": 36.89,
+      "other_votes": 2400,
+      "other_pct": 0.96,
+      "margin": 62958,
+      "margin_pct": 25.26,
+      "total_votes": 249210,
+      "voter_registration": {
+        "dem": 95857,
+        "rep": 168334,
+        "no_affiliation": 52760,
+        "other": 8785,
+        "total": 325736
+      }
+    }
+  }
+}

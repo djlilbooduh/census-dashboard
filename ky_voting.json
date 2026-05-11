@@ -1,0 +1,2522 @@
+[
+  {
+    "county": "Adair",
+    "presidential_2024": {
+      "trump_votes": 7643,
+      "trump_pct": 85.17,
+      "harris_votes": 1257,
+      "harris_pct": 14.01,
+      "other_votes": 74,
+      "other_pct": 0.82,
+      "margin_votes": 6386,
+      "margin_pct": 71.16,
+      "total_votes": 8974
+    },
+    "registration_nov2024": {
+      "dem_reg": 2912,
+      "rep_reg": 10162,
+      "other_reg": 512,
+      "ind_reg": 532,
+      "registered": 14183
+    }
+  },
+  {
+    "county": "Allen",
+    "presidential_2024": {
+      "trump_votes": 7824,
+      "trump_pct": 83.07,
+      "harris_votes": 1505,
+      "harris_pct": 15.98,
+      "other_votes": 89,
+      "other_pct": 0.95,
+      "margin_votes": 6319,
+      "margin_pct": 67.09,
+      "total_votes": 9418
+    },
+    "registration_nov2024": {
+      "dem_reg": 3701,
+      "rep_reg": 10502,
+      "other_reg": 791,
+      "ind_reg": 506,
+      "registered": 15588
+    }
+  },
+  {
+    "county": "Anderson",
+    "presidential_2024": {
+      "trump_votes": 9650,
+      "trump_pct": 73.69,
+      "harris_votes": 3226,
+      "harris_pct": 24.64,
+      "other_votes": 219,
+      "other_pct": 1.67,
+      "margin_votes": 6424,
+      "margin_pct": 49.05,
+      "total_votes": 13095
+    },
+    "registration_nov2024": {
+      "dem_reg": 7304,
+      "rep_reg": 10245,
+      "other_reg": 739,
+      "ind_reg": 781,
+      "registered": 19152
+    }
+  },
+  {
+    "county": "Ballard",
+    "presidential_2024": {
+      "trump_votes": 3331,
+      "trump_pct": 81.48,
+      "harris_votes": 697,
+      "harris_pct": 17.05,
+      "other_votes": 60,
+      "other_pct": 1.47,
+      "margin_votes": 2634,
+      "margin_pct": 64.43,
+      "total_votes": 4088
+    },
+    "registration_nov2024": {
+      "dem_reg": 3244,
+      "rep_reg": 2634,
+      "other_reg": 258,
+      "ind_reg": 160,
+      "registered": 6324
+    }
+  },
+  {
+    "county": "Barren",
+    "presidential_2024": {
+      "trump_votes": 15019,
+      "trump_pct": 75.85,
+      "harris_votes": 4565,
+      "harris_pct": 23.05,
+      "other_votes": 218,
+      "other_pct": 1.1,
+      "margin_votes": 10454,
+      "margin_pct": 52.8,
+      "total_votes": 19802
+    },
+    "registration_nov2024": {
+      "dem_reg": 12738,
+      "rep_reg": 17029,
+      "other_reg": 1228,
+      "ind_reg": 1450,
+      "registered": 32616
+    }
+  },
+  {
+    "county": "Bath",
+    "presidential_2024": {
+      "trump_votes": 4041,
+      "trump_pct": 74.99,
+      "harris_votes": 1278,
+      "harris_pct": 23.71,
+      "other_votes": 70,
+      "other_pct": 1.3,
+      "margin_votes": 2763,
+      "margin_pct": 51.28,
+      "total_votes": 5389
+    },
+    "registration_nov2024": {
+      "dem_reg": 5666,
+      "rep_reg": 3164,
+      "other_reg": 381,
+      "ind_reg": 247,
+      "registered": 9494
+    }
+  },
+  {
+    "county": "Bell",
+    "presidential_2024": {
+      "trump_votes": 7831,
+      "trump_pct": 83.84,
+      "harris_votes": 1419,
+      "harris_pct": 15.19,
+      "other_votes": 90,
+      "other_pct": 0.97,
+      "margin_votes": 6412,
+      "margin_pct": 68.65,
+      "total_votes": 9340
+    },
+    "registration_nov2024": {
+      "dem_reg": 6275,
+      "rep_reg": 11939,
+      "other_reg": 863,
+      "ind_reg": 438,
+      "registered": 19570
+    }
+  },
+  {
+    "county": "Boone",
+    "presidential_2024": {
+      "trump_votes": 45650,
+      "trump_pct": 67.71,
+      "harris_votes": 20601,
+      "harris_pct": 30.56,
+      "other_votes": 1170,
+      "other_pct": 1.73,
+      "margin_votes": 25049,
+      "margin_pct": 37.15,
+      "total_votes": 67421
+    },
+    "registration_nov2024": {
+      "dem_reg": 33270,
+      "rep_reg": 63687,
+      "other_reg": 9992,
+      "ind_reg": 7129,
+      "registered": 115023
+    }
+  },
+  {
+    "county": "Bourbon",
+    "presidential_2024": {
+      "trump_votes": 6284,
+      "trump_pct": 65.89,
+      "harris_votes": 3088,
+      "harris_pct": 32.38,
+      "other_votes": 165,
+      "other_pct": 1.73,
+      "margin_votes": 3196,
+      "margin_pct": 33.51,
+      "total_votes": 9537
+    },
+    "registration_nov2024": {
+      "dem_reg": 7047,
+      "rep_reg": 6563,
+      "other_reg": 672,
+      "ind_reg": 679,
+      "registered": 15048
+    }
+  },
+  {
+    "county": "Boyd",
+    "presidential_2024": {
+      "trump_votes": 14363,
+      "trump_pct": 68.56,
+      "harris_votes": 6291,
+      "harris_pct": 30.03,
+      "other_votes": 297,
+      "other_pct": 1.41,
+      "margin_votes": 8072,
+      "margin_pct": 38.53,
+      "total_votes": 20951
+    },
+    "registration_nov2024": {
+      "dem_reg": 17374,
+      "rep_reg": 18251,
+      "other_reg": 1631,
+      "ind_reg": 2713,
+      "registered": 40224
+    }
+  },
+  {
+    "county": "Boyle",
+    "presidential_2024": {
+      "trump_votes": 9159,
+      "trump_pct": 63.72,
+      "harris_votes": 4990,
+      "harris_pct": 34.72,
+      "other_votes": 224,
+      "other_pct": 1.56,
+      "margin_votes": 4169,
+      "margin_pct": 29.0,
+      "total_votes": 14373
+    },
+    "registration_nov2024": {
+      "dem_reg": 9895,
+      "rep_reg": 11035,
+      "other_reg": 1117,
+      "ind_reg": 1070,
+      "registered": 23258
+    }
+  },
+  {
+    "county": "Bracken",
+    "presidential_2024": {
+      "trump_votes": 3399,
+      "trump_pct": 81.84,
+      "harris_votes": 702,
+      "harris_pct": 16.9,
+      "other_votes": 52,
+      "other_pct": 1.26,
+      "margin_votes": 2697,
+      "margin_pct": 64.94,
+      "total_votes": 4153
+    },
+    "registration_nov2024": {
+      "dem_reg": 3333,
+      "rep_reg": 2857,
+      "other_reg": 255,
+      "ind_reg": 208,
+      "registered": 6678
+    }
+  },
+  {
+    "county": "Breathitt",
+    "presidential_2024": {
+      "trump_votes": 4036,
+      "trump_pct": 78.86,
+      "harris_votes": 1002,
+      "harris_pct": 19.58,
+      "other_votes": 80,
+      "other_pct": 1.56,
+      "margin_votes": 3034,
+      "margin_pct": 59.28,
+      "total_votes": 5118
+    },
+    "registration_nov2024": {
+      "dem_reg": 8034,
+      "rep_reg": 1806,
+      "other_reg": 238,
+      "ind_reg": 170,
+      "registered": 10270
+    }
+  },
+  {
+    "county": "Breckinridge",
+    "presidential_2024": {
+      "trump_votes": 7882,
+      "trump_pct": 78.44,
+      "harris_votes": 2038,
+      "harris_pct": 20.28,
+      "other_votes": 128,
+      "other_pct": 1.28,
+      "margin_votes": 5844,
+      "margin_pct": 58.16,
+      "total_votes": 10048
+    },
+    "registration_nov2024": {
+      "dem_reg": 5227,
+      "rep_reg": 9438,
+      "other_reg": 502,
+      "ind_reg": 658,
+      "registered": 15900
+    }
+  },
+  {
+    "county": "Bullitt",
+    "presidential_2024": {
+      "trump_votes": 32299,
+      "trump_pct": 74.75,
+      "harris_votes": 10280,
+      "harris_pct": 23.79,
+      "other_votes": 630,
+      "other_pct": 1.46,
+      "margin_votes": 22019,
+      "margin_pct": 50.96,
+      "total_votes": 43209
+    },
+    "registration_nov2024": {
+      "dem_reg": 22319,
+      "rep_reg": 35567,
+      "other_reg": 4117,
+      "ind_reg": 2869,
+      "registered": 65295
+    }
+  },
+  {
+    "county": "Butler",
+    "presidential_2024": {
+      "trump_votes": 4905,
+      "trump_pct": 82.53,
+      "harris_votes": 965,
+      "harris_pct": 16.24,
+      "other_votes": 73,
+      "other_pct": 1.23,
+      "margin_votes": 3940,
+      "margin_pct": 66.29,
+      "total_votes": 5943
+    },
+    "registration_nov2024": {
+      "dem_reg": 1683,
+      "rep_reg": 7052,
+      "other_reg": 267,
+      "ind_reg": 257,
+      "registered": 9316
+    }
+  },
+  {
+    "county": "Caldwell",
+    "presidential_2024": {
+      "trump_votes": 4860,
+      "trump_pct": 78.54,
+      "harris_votes": 1256,
+      "harris_pct": 20.3,
+      "other_votes": 72,
+      "other_pct": 1.16,
+      "margin_votes": 3604,
+      "margin_pct": 58.24,
+      "total_votes": 6188
+    },
+    "registration_nov2024": {
+      "dem_reg": 4588,
+      "rep_reg": 4660,
+      "other_reg": 432,
+      "ind_reg": 309,
+      "registered": 10031
+    }
+  },
+  {
+    "county": "Calloway",
+    "presidential_2024": {
+      "trump_votes": 11539,
+      "trump_pct": 68.1,
+      "harris_votes": 5111,
+      "harris_pct": 30.16,
+      "other_votes": 295,
+      "other_pct": 1.74,
+      "margin_votes": 6428,
+      "margin_pct": 37.94,
+      "total_votes": 16945
+    },
+    "registration_nov2024": {
+      "dem_reg": 13502,
+      "rep_reg": 13212,
+      "other_reg": 2084,
+      "ind_reg": 1505,
+      "registered": 30511
+    }
+  },
+  {
+    "county": "Campbell",
+    "presidential_2024": {
+      "trump_votes": 28450,
+      "trump_pct": 58.86,
+      "harris_votes": 18952,
+      "harris_pct": 39.21,
+      "other_votes": 932,
+      "other_pct": 1.93,
+      "margin_votes": 9498,
+      "margin_pct": 19.65,
+      "total_votes": 48334
+    },
+    "registration_nov2024": {
+      "dem_reg": 29831,
+      "rep_reg": 37877,
+      "other_reg": 5951,
+      "ind_reg": 5523,
+      "registered": 79868
+    }
+  },
+  {
+    "county": "Carlisle",
+    "presidential_2024": {
+      "trump_votes": 2182,
+      "trump_pct": 83.6,
+      "harris_votes": 408,
+      "harris_pct": 15.63,
+      "other_votes": 20,
+      "other_pct": 0.77,
+      "margin_votes": 1774,
+      "margin_pct": 67.97,
+      "total_votes": 2610
+    },
+    "registration_nov2024": {
+      "dem_reg": 1912,
+      "rep_reg": 1755,
+      "other_reg": 130,
+      "ind_reg": 71,
+      "registered": 3885
+    }
+  },
+  {
+    "county": "Carroll",
+    "presidential_2024": {
+      "trump_votes": 3014,
+      "trump_pct": 74.88,
+      "harris_votes": 963,
+      "harris_pct": 23.93,
+      "other_votes": 48,
+      "other_pct": 1.19,
+      "margin_votes": 2051,
+      "margin_pct": 50.95,
+      "total_votes": 4025
+    },
+    "registration_nov2024": {
+      "dem_reg": 4423,
+      "rep_reg": 2735,
+      "other_reg": 446,
+      "ind_reg": 207,
+      "registered": 7841
+    }
+  },
+  {
+    "county": "Carter",
+    "presidential_2024": {
+      "trump_votes": 8981,
+      "trump_pct": 78.63,
+      "harris_votes": 2305,
+      "harris_pct": 20.18,
+      "other_votes": 136,
+      "other_pct": 1.19,
+      "margin_votes": 6676,
+      "margin_pct": 58.45,
+      "total_votes": 11422
+    },
+    "registration_nov2024": {
+      "dem_reg": 8421,
+      "rep_reg": 9602,
+      "other_reg": 785,
+      "ind_reg": 775,
+      "registered": 19678
+    }
+  },
+  {
+    "county": "Casey",
+    "presidential_2024": {
+      "trump_votes": 6216,
+      "trump_pct": 87.8,
+      "harris_votes": 804,
+      "harris_pct": 11.36,
+      "other_votes": 60,
+      "other_pct": 0.84,
+      "margin_votes": 5412,
+      "margin_pct": 76.44,
+      "total_votes": 7080
+    },
+    "registration_nov2024": {
+      "dem_reg": 1578,
+      "rep_reg": 9071,
+      "other_reg": 199,
+      "ind_reg": 375,
+      "registered": 11275
+    }
+  },
+  {
+    "county": "Christian",
+    "presidential_2024": {
+      "trump_votes": 14332,
+      "trump_pct": 66.13,
+      "harris_votes": 7055,
+      "harris_pct": 32.56,
+      "other_votes": 284,
+      "other_pct": 1.31,
+      "margin_votes": 7277,
+      "margin_pct": 33.57,
+      "total_votes": 21671
+    },
+    "registration_nov2024": {
+      "dem_reg": 23417,
+      "rep_reg": 21867,
+      "other_reg": 3853,
+      "ind_reg": 2442,
+      "registered": 52121
+    }
+  },
+  {
+    "county": "Clark",
+    "presidential_2024": {
+      "trump_votes": 11950,
+      "trump_pct": 66.82,
+      "harris_votes": 5639,
+      "harris_pct": 31.53,
+      "other_votes": 296,
+      "other_pct": 1.65,
+      "margin_votes": 6311,
+      "margin_pct": 35.29,
+      "total_votes": 17885
+    },
+    "registration_nov2024": {
+      "dem_reg": 12573,
+      "rep_reg": 13968,
+      "other_reg": 1963,
+      "ind_reg": 1338,
+      "registered": 30041
+    }
+  },
+  {
+    "county": "Clay",
+    "presidential_2024": {
+      "trump_votes": 6729,
+      "trump_pct": 89.41,
+      "harris_votes": 692,
+      "harris_pct": 9.19,
+      "other_votes": 105,
+      "other_pct": 1.4,
+      "margin_votes": 6037,
+      "margin_pct": 80.22,
+      "total_votes": 7526
+    },
+    "registration_nov2024": {
+      "dem_reg": 1694,
+      "rep_reg": 11835,
+      "other_reg": 249,
+      "ind_reg": 293,
+      "registered": 14111
+    }
+  },
+  {
+    "county": "Clinton",
+    "presidential_2024": {
+      "trump_votes": 4276,
+      "trump_pct": 87.43,
+      "harris_votes": 549,
+      "harris_pct": 11.22,
+      "other_votes": 66,
+      "other_pct": 1.35,
+      "margin_votes": 3727,
+      "margin_pct": 76.21,
+      "total_votes": 4891
+    },
+    "registration_nov2024": {
+      "dem_reg": 867,
+      "rep_reg": 6331,
+      "other_reg": 96,
+      "ind_reg": 133,
+      "registered": 7448
+    }
+  },
+  {
+    "county": "Crittenden",
+    "presidential_2024": {
+      "trump_votes": 3349,
+      "trump_pct": 83.52,
+      "harris_votes": 608,
+      "harris_pct": 15.16,
+      "other_votes": 53,
+      "other_pct": 1.32,
+      "margin_votes": 2741,
+      "margin_pct": 68.36,
+      "total_votes": 4010
+    },
+    "registration_nov2024": {
+      "dem_reg": 1874,
+      "rep_reg": 3900,
+      "other_reg": 349,
+      "ind_reg": 227,
+      "registered": 6379
+    }
+  },
+  {
+    "county": "Cumberland",
+    "presidential_2024": {
+      "trump_votes": 2922,
+      "trump_pct": 84.89,
+      "harris_votes": 483,
+      "harris_pct": 14.03,
+      "other_votes": 37,
+      "other_pct": 1.08,
+      "margin_votes": 2439,
+      "margin_pct": 70.86,
+      "total_votes": 3442
+    },
+    "registration_nov2024": {
+      "dem_reg": 667,
+      "rep_reg": 4382,
+      "other_reg": 142,
+      "ind_reg": 168,
+      "registered": 5367
+    }
+  },
+  {
+    "county": "Daviess",
+    "presidential_2024": {
+      "trump_votes": 30705,
+      "trump_pct": 65.2,
+      "harris_votes": 15673,
+      "harris_pct": 33.28,
+      "other_votes": 719,
+      "other_pct": 1.52,
+      "margin_votes": 15032,
+      "margin_pct": 31.92,
+      "total_votes": 47097
+    },
+    "registration_nov2024": {
+      "dem_reg": 35113,
+      "rep_reg": 36125,
+      "other_reg": 4237,
+      "ind_reg": 3124,
+      "registered": 79094
+    }
+  },
+  {
+    "county": "Edmonson",
+    "presidential_2024": {
+      "trump_votes": 5048,
+      "trump_pct": 80.81,
+      "harris_votes": 1118,
+      "harris_pct": 17.9,
+      "other_votes": 81,
+      "other_pct": 1.29,
+      "margin_votes": 3930,
+      "margin_pct": 62.91,
+      "total_votes": 6247
+    },
+    "registration_nov2024": {
+      "dem_reg": 2355,
+      "rep_reg": 6877,
+      "other_reg": 392,
+      "ind_reg": 362,
+      "registered": 10038
+    }
+  },
+  {
+    "county": "Elliott",
+    "presidential_2024": {
+      "trump_votes": 2335,
+      "trump_pct": 80.13,
+      "harris_votes": 532,
+      "harris_pct": 18.26,
+      "other_votes": 47,
+      "other_pct": 1.61,
+      "margin_votes": 1803,
+      "margin_pct": 61.87,
+      "total_votes": 2914
+    },
+    "registration_nov2024": {
+      "dem_reg": 3466,
+      "rep_reg": 1221,
+      "other_reg": 176,
+      "ind_reg": 120,
+      "registered": 5007
+    }
+  },
+  {
+    "county": "Estill",
+    "presidential_2024": {
+      "trump_votes": 5091,
+      "trump_pct": 80.94,
+      "harris_votes": 1114,
+      "harris_pct": 17.71,
+      "other_votes": 85,
+      "other_pct": 1.35,
+      "margin_votes": 3977,
+      "margin_pct": 63.23,
+      "total_votes": 6290
+    },
+    "registration_nov2024": {
+      "dem_reg": 3256,
+      "rep_reg": 6467,
+      "other_reg": 434,
+      "ind_reg": 373,
+      "registered": 10582
+    }
+  },
+  {
+    "county": "Fayette",
+    "presidential_2024": {
+      "trump_votes": 57347,
+      "trump_pct": 39.84,
+      "harris_votes": 83387,
+      "harris_pct": 57.93,
+      "other_votes": 3201,
+      "other_pct": 2.22,
+      "margin_votes": -26040,
+      "margin_pct": -18.09,
+      "total_votes": 143935
+    },
+    "registration_nov2024": {
+      "dem_reg": 128939,
+      "rep_reg": 85395,
+      "other_reg": 15563,
+      "ind_reg": 16170,
+      "registered": 247942
+    }
+  },
+  {
+    "county": "Fleming",
+    "presidential_2024": {
+      "trump_votes": 5578,
+      "trump_pct": 79.69,
+      "harris_votes": 1334,
+      "harris_pct": 19.06,
+      "other_votes": 88,
+      "other_pct": 1.25,
+      "margin_votes": 4244,
+      "margin_pct": 60.63,
+      "total_votes": 7000
+    },
+    "registration_nov2024": {
+      "dem_reg": 4595,
+      "rep_reg": 5731,
+      "other_reg": 455,
+      "ind_reg": 318,
+      "registered": 11140
+    }
+  },
+  {
+    "county": "Floyd",
+    "presidential_2024": {
+      "trump_votes": 12326,
+      "trump_pct": 78.64,
+      "harris_votes": 3061,
+      "harris_pct": 19.53,
+      "other_votes": 286,
+      "other_pct": 1.83,
+      "margin_votes": 9265,
+      "margin_pct": 59.11,
+      "total_votes": 15673
+    },
+    "registration_nov2024": {
+      "dem_reg": 18553,
+      "rep_reg": 7766,
+      "other_reg": 491,
+      "ind_reg": 1116,
+      "registered": 28006
+    }
+  },
+  {
+    "county": "Franklin",
+    "presidential_2024": {
+      "trump_votes": 13246,
+      "trump_pct": 51.41,
+      "harris_votes": 11996,
+      "harris_pct": 46.56,
+      "other_votes": 521,
+      "other_pct": 2.03,
+      "margin_votes": 1250,
+      "margin_pct": 4.85,
+      "total_votes": 25763
+    },
+    "registration_nov2024": {
+      "dem_reg": 24160,
+      "rep_reg": 13263,
+      "other_reg": 1758,
+      "ind_reg": 1957,
+      "registered": 41376
+    }
+  },
+  {
+    "county": "Fulton",
+    "presidential_2024": {
+      "trump_votes": 1491,
+      "trump_pct": 69.51,
+      "harris_votes": 636,
+      "harris_pct": 29.65,
+      "other_votes": 18,
+      "other_pct": 0.84,
+      "margin_votes": 855,
+      "margin_pct": 39.86,
+      "total_votes": 2145
+    },
+    "registration_nov2024": {
+      "dem_reg": 2978,
+      "rep_reg": 1556,
+      "other_reg": 369,
+      "ind_reg": 120,
+      "registered": 5037
+    }
+  },
+  {
+    "county": "Gallatin",
+    "presidential_2024": {
+      "trump_votes": 3109,
+      "trump_pct": 79.37,
+      "harris_votes": 761,
+      "harris_pct": 19.43,
+      "other_votes": 47,
+      "other_pct": 1.2,
+      "margin_votes": 2348,
+      "margin_pct": 59.94,
+      "total_votes": 3917
+    },
+    "registration_nov2024": {
+      "dem_reg": 2768,
+      "rep_reg": 3188,
+      "other_reg": 396,
+      "ind_reg": 257,
+      "registered": 6649
+    }
+  },
+  {
+    "county": "Garrard",
+    "presidential_2024": {
+      "trump_votes": 7086,
+      "trump_pct": 79.47,
+      "harris_votes": 1719,
+      "harris_pct": 19.28,
+      "other_votes": 112,
+      "other_pct": 1.25,
+      "margin_votes": 5367,
+      "margin_pct": 60.19,
+      "total_votes": 8917
+    },
+    "registration_nov2024": {
+      "dem_reg": 3347,
+      "rep_reg": 9168,
+      "other_reg": 795,
+      "ind_reg": 533,
+      "registered": 13901
+    }
+  },
+  {
+    "county": "Grant",
+    "presidential_2024": {
+      "trump_votes": 9372,
+      "trump_pct": 81.72,
+      "harris_votes": 1944,
+      "harris_pct": 16.95,
+      "other_votes": 153,
+      "other_pct": 1.33,
+      "margin_votes": 7428,
+      "margin_pct": 64.77,
+      "total_votes": 11469
+    },
+    "registration_nov2024": {
+      "dem_reg": 5850,
+      "rep_reg": 10863,
+      "other_reg": 1367,
+      "ind_reg": 798,
+      "registered": 19000
+    }
+  },
+  {
+    "county": "Graves",
+    "presidential_2024": {
+      "trump_votes": 13378,
+      "trump_pct": 80.21,
+      "harris_votes": 3105,
+      "harris_pct": 18.62,
+      "other_votes": 195,
+      "other_pct": 1.17,
+      "margin_votes": 10273,
+      "margin_pct": 61.59,
+      "total_votes": 16678
+    },
+    "registration_nov2024": {
+      "dem_reg": 11960,
+      "rep_reg": 12438,
+      "other_reg": 1161,
+      "ind_reg": 756,
+      "registered": 26471
+    }
+  },
+  {
+    "county": "Grayson",
+    "presidential_2024": {
+      "trump_votes": 9710,
+      "trump_pct": 80.28,
+      "harris_votes": 2235,
+      "harris_pct": 18.48,
+      "other_votes": 150,
+      "other_pct": 1.24,
+      "margin_votes": 7475,
+      "margin_pct": 61.8,
+      "total_votes": 12095
+    },
+    "registration_nov2024": {
+      "dem_reg": 4632,
+      "rep_reg": 12991,
+      "other_reg": 817,
+      "ind_reg": 536,
+      "registered": 19053
+    }
+  },
+  {
+    "county": "Green",
+    "presidential_2024": {
+      "trump_votes": 5033,
+      "trump_pct": 85.93,
+      "harris_votes": 782,
+      "harris_pct": 13.35,
+      "other_votes": 42,
+      "other_pct": 0.72,
+      "margin_votes": 4251,
+      "margin_pct": 72.58,
+      "total_votes": 5857
+    },
+    "registration_nov2024": {
+      "dem_reg": 2057,
+      "rep_reg": 6072,
+      "other_reg": 292,
+      "ind_reg": 256,
+      "registered": 8721
+    }
+  },
+  {
+    "county": "Greenup",
+    "presidential_2024": {
+      "trump_votes": 12961,
+      "trump_pct": 74.6,
+      "harris_votes": 4181,
+      "harris_pct": 24.06,
+      "other_votes": 232,
+      "other_pct": 1.34,
+      "margin_votes": 8780,
+      "margin_pct": 50.54,
+      "total_votes": 17374
+    },
+    "registration_nov2024": {
+      "dem_reg": 11830,
+      "rep_reg": 15488,
+      "other_reg": 1323,
+      "ind_reg": 1527,
+      "registered": 30324
+    }
+  },
+  {
+    "county": "Hancock",
+    "presidential_2024": {
+      "trump_votes": 3375,
+      "trump_pct": 72.85,
+      "harris_votes": 1173,
+      "harris_pct": 25.32,
+      "other_votes": 85,
+      "other_pct": 1.83,
+      "margin_votes": 2202,
+      "margin_pct": 47.53,
+      "total_votes": 4633
+    },
+    "registration_nov2024": {
+      "dem_reg": 2861,
+      "rep_reg": 3574,
+      "other_reg": 282,
+      "ind_reg": 236,
+      "registered": 6995
+    }
+  },
+  {
+    "county": "Hardin",
+    "presidential_2024": {
+      "trump_votes": 30672,
+      "trump_pct": 63.79,
+      "harris_votes": 16572,
+      "harris_pct": 34.47,
+      "other_votes": 838,
+      "other_pct": 1.74,
+      "margin_votes": 14100,
+      "margin_pct": 29.32,
+      "total_votes": 48082
+    },
+    "registration_nov2024": {
+      "dem_reg": 36239,
+      "rep_reg": 41099,
+      "other_reg": 6671,
+      "ind_reg": 4853,
+      "registered": 89599
+    }
+  },
+  {
+    "county": "Harlan",
+    "presidential_2024": {
+      "trump_votes": 9109,
+      "trump_pct": 87.69,
+      "harris_votes": 1199,
+      "harris_pct": 11.54,
+      "other_votes": 80,
+      "other_pct": 0.77,
+      "margin_votes": 7910,
+      "margin_pct": 76.15,
+      "total_votes": 10388
+    },
+    "registration_nov2024": {
+      "dem_reg": 7143,
+      "rep_reg": 11023,
+      "other_reg": 403,
+      "ind_reg": 425,
+      "registered": 19086
+    }
+  },
+  {
+    "county": "Harrison",
+    "presidential_2024": {
+      "trump_votes": 6639,
+      "trump_pct": 73.62,
+      "harris_votes": 2265,
+      "harris_pct": 25.12,
+      "other_votes": 114,
+      "other_pct": 1.26,
+      "margin_votes": 4374,
+      "margin_pct": 48.5,
+      "total_votes": 9018
+    },
+    "registration_nov2024": {
+      "dem_reg": 6714,
+      "rep_reg": 6651,
+      "other_reg": 478,
+      "ind_reg": 500,
+      "registered": 14401
+    }
+  },
+  {
+    "county": "Hart",
+    "presidential_2024": {
+      "trump_votes": 6691,
+      "trump_pct": 79.57,
+      "harris_votes": 1642,
+      "harris_pct": 19.53,
+      "other_votes": 76,
+      "other_pct": 0.9,
+      "margin_votes": 5049,
+      "margin_pct": 60.04,
+      "total_votes": 8409
+    },
+    "registration_nov2024": {
+      "dem_reg": 5724,
+      "rep_reg": 7116,
+      "other_reg": 559,
+      "ind_reg": 437,
+      "registered": 13908
+    }
+  },
+  {
+    "county": "Henderson",
+    "presidential_2024": {
+      "trump_votes": 12592,
+      "trump_pct": 63.96,
+      "harris_votes": 6837,
+      "harris_pct": 34.73,
+      "other_votes": 259,
+      "other_pct": 1.31,
+      "margin_votes": 5755,
+      "margin_pct": 29.23,
+      "total_votes": 19688
+    },
+    "registration_nov2024": {
+      "dem_reg": 18740,
+      "rep_reg": 12704,
+      "other_reg": 1963,
+      "ind_reg": 1177,
+      "registered": 34772
+    }
+  },
+  {
+    "county": "Henry",
+    "presidential_2024": {
+      "trump_votes": 6093,
+      "trump_pct": 75.46,
+      "harris_votes": 1857,
+      "harris_pct": 23.0,
+      "other_votes": 124,
+      "other_pct": 1.54,
+      "margin_votes": 4236,
+      "margin_pct": 52.46,
+      "total_votes": 8074
+    },
+    "registration_nov2024": {
+      "dem_reg": 5161,
+      "rep_reg": 6368,
+      "other_reg": 503,
+      "ind_reg": 450,
+      "registered": 12569
+    }
+  },
+  {
+    "county": "Hickman",
+    "presidential_2024": {
+      "trump_votes": 1656,
+      "trump_pct": 80.04,
+      "harris_votes": 394,
+      "harris_pct": 19.04,
+      "other_votes": 19,
+      "other_pct": 0.92,
+      "margin_votes": 1262,
+      "margin_pct": 61.0,
+      "total_votes": 2069
+    },
+    "registration_nov2024": {
+      "dem_reg": 1614,
+      "rep_reg": 1535,
+      "other_reg": 156,
+      "ind_reg": 65,
+      "registered": 3381
+    }
+  },
+  {
+    "county": "Hopkins",
+    "presidential_2024": {
+      "trump_votes": 15361,
+      "trump_pct": 74.8,
+      "harris_votes": 4916,
+      "harris_pct": 23.94,
+      "other_votes": 260,
+      "other_pct": 1.27,
+      "margin_votes": 10445,
+      "margin_pct": 50.86,
+      "total_votes": 20537
+    },
+    "registration_nov2024": {
+      "dem_reg": 15585,
+      "rep_reg": 15665,
+      "other_reg": 1620,
+      "ind_reg": 1360,
+      "registered": 34401
+    }
+  },
+  {
+    "county": "Jackson",
+    "presidential_2024": {
+      "trump_votes": 5358,
+      "trump_pct": 90.14,
+      "harris_votes": 506,
+      "harris_pct": 8.51,
+      "other_votes": 80,
+      "other_pct": 1.35,
+      "margin_votes": 4852,
+      "margin_pct": 81.63,
+      "total_votes": 5944
+    },
+    "registration_nov2024": {
+      "dem_reg": 1080,
+      "rep_reg": 8378,
+      "other_reg": 309,
+      "ind_reg": 247,
+      "registered": 10039
+    }
+  },
+  {
+    "county": "Jefferson",
+    "presidential_2024": {
+      "trump_votes": 144553,
+      "trump_pct": 40.64,
+      "harris_votes": 203070,
+      "harris_pct": 57.09,
+      "other_votes": 8099,
+      "other_pct": 2.27,
+      "margin_votes": -58517,
+      "margin_pct": -16.45,
+      "total_votes": 355722
+    },
+    "registration_nov2024": {
+      "dem_reg": 352634,
+      "rep_reg": 203522,
+      "other_reg": 38234,
+      "ind_reg": 33007,
+      "registered": 631154
+    }
+  },
+  {
+    "county": "Jessamine",
+    "presidential_2024": {
+      "trump_votes": 17854,
+      "trump_pct": 66.91,
+      "harris_votes": 8303,
+      "harris_pct": 31.11,
+      "other_votes": 528,
+      "other_pct": 1.98,
+      "margin_votes": 9551,
+      "margin_pct": 35.8,
+      "total_votes": 26685
+    },
+    "registration_nov2024": {
+      "dem_reg": 14730,
+      "rep_reg": 23427,
+      "other_reg": 2533,
+      "ind_reg": 2358,
+      "registered": 43308
+    }
+  },
+  {
+    "county": "Johnson",
+    "presidential_2024": {
+      "trump_votes": 8150,
+      "trump_pct": 84.57,
+      "harris_votes": 1350,
+      "harris_pct": 14.01,
+      "other_votes": 137,
+      "other_pct": 1.42,
+      "margin_votes": 6800,
+      "margin_pct": 70.56,
+      "total_votes": 9637
+    },
+    "registration_nov2024": {
+      "dem_reg": 5004,
+      "rep_reg": 11492,
+      "other_reg": 526,
+      "ind_reg": 536,
+      "registered": 17624
+    }
+  },
+  {
+    "county": "Kenton",
+    "presidential_2024": {
+      "trump_votes": 48444,
+      "trump_pct": 59.63,
+      "harris_votes": 30859,
+      "harris_pct": 37.98,
+      "other_votes": 1938,
+      "other_pct": 2.39,
+      "margin_votes": 17585,
+      "margin_pct": 21.65,
+      "total_votes": 81241
+    },
+    "registration_nov2024": {
+      "dem_reg": 53574,
+      "rep_reg": 68613,
+      "other_reg": 13150,
+      "ind_reg": 9845,
+      "registered": 146425
+    }
+  },
+  {
+    "county": "Knott",
+    "presidential_2024": {
+      "trump_votes": 4732,
+      "trump_pct": 78.67,
+      "harris_votes": 1181,
+      "harris_pct": 19.63,
+      "other_votes": 102,
+      "other_pct": 1.7,
+      "margin_votes": 3551,
+      "margin_pct": 59.04,
+      "total_votes": 6015
+    },
+    "registration_nov2024": {
+      "dem_reg": 7553,
+      "rep_reg": 2613,
+      "other_reg": 179,
+      "ind_reg": 287,
+      "registered": 10648
+    }
+  },
+  {
+    "county": "Knox",
+    "presidential_2024": {
+      "trump_votes": 11178,
+      "trump_pct": 84.82,
+      "harris_votes": 1821,
+      "harris_pct": 13.82,
+      "other_votes": 180,
+      "other_pct": 1.36,
+      "margin_votes": 9357,
+      "margin_pct": 71.0,
+      "total_votes": 13179
+    },
+    "registration_nov2024": {
+      "dem_reg": 5366,
+      "rep_reg": 17199,
+      "other_reg": 692,
+      "ind_reg": 662,
+      "registered": 24012
+    }
+  },
+  {
+    "county": "LaRue",
+    "presidential_2024": {
+      "trump_votes": 5773,
+      "trump_pct": 79.53,
+      "harris_votes": 1389,
+      "harris_pct": 19.13,
+      "other_votes": 97,
+      "other_pct": 1.34,
+      "margin_votes": 4384,
+      "margin_pct": 60.4,
+      "total_votes": 7259
+    },
+    "registration_nov2024": {
+      "dem_reg": 4414,
+      "rep_reg": 6116,
+      "other_reg": 608,
+      "ind_reg": 360,
+      "registered": 11559
+    }
+  },
+  {
+    "county": "Laurel",
+    "presidential_2024": {
+      "trump_votes": 23516,
+      "trump_pct": 84.17,
+      "harris_votes": 4037,
+      "harris_pct": 14.45,
+      "other_votes": 385,
+      "other_pct": 1.38,
+      "margin_votes": 19479,
+      "margin_pct": 69.72,
+      "total_votes": 27938
+    },
+    "registration_nov2024": {
+      "dem_reg": 9387,
+      "rep_reg": 36243,
+      "other_reg": 1724,
+      "ind_reg": 1593,
+      "registered": 49181
+    }
+  },
+  {
+    "county": "Lawrence",
+    "presidential_2024": {
+      "trump_votes": 5464,
+      "trump_pct": 83.12,
+      "harris_votes": 1044,
+      "harris_pct": 15.88,
+      "other_votes": 66,
+      "other_pct": 1.0,
+      "margin_votes": 4420,
+      "margin_pct": 67.24,
+      "total_votes": 6574
+    },
+    "registration_nov2024": {
+      "dem_reg": 4274,
+      "rep_reg": 7074,
+      "other_reg": 501,
+      "ind_reg": 521,
+      "registered": 12420
+    }
+  },
+  {
+    "county": "Lee",
+    "presidential_2024": {
+      "trump_votes": 2227,
+      "trump_pct": 82.63,
+      "harris_votes": 406,
+      "harris_pct": 15.06,
+      "other_votes": 62,
+      "other_pct": 2.31,
+      "margin_votes": 1821,
+      "margin_pct": 67.57,
+      "total_votes": 2695
+    },
+    "registration_nov2024": {
+      "dem_reg": 1324,
+      "rep_reg": 3352,
+      "other_reg": 119,
+      "ind_reg": 145,
+      "registered": 4960
+    }
+  },
+  {
+    "county": "Leslie",
+    "presidential_2024": {
+      "trump_votes": 3908,
+      "trump_pct": 89.67,
+      "harris_votes": 382,
+      "harris_pct": 8.77,
+      "other_votes": 68,
+      "other_pct": 1.56,
+      "margin_votes": 3526,
+      "margin_pct": 80.9,
+      "total_votes": 4358
+    },
+    "registration_nov2024": {
+      "dem_reg": 727,
+      "rep_reg": 6426,
+      "other_reg": 130,
+      "ind_reg": 159,
+      "registered": 7454
+    }
+  },
+  {
+    "county": "Letcher",
+    "presidential_2024": {
+      "trump_votes": 6848,
+      "trump_pct": 81.22,
+      "harris_votes": 1457,
+      "harris_pct": 17.28,
+      "other_votes": 126,
+      "other_pct": 1.49,
+      "margin_votes": 5391,
+      "margin_pct": 63.94,
+      "total_votes": 8431
+    },
+    "registration_nov2024": {
+      "dem_reg": 8457,
+      "rep_reg": 6168,
+      "other_reg": 339,
+      "ind_reg": 386,
+      "registered": 15394
+    }
+  },
+  {
+    "county": "Lewis",
+    "presidential_2024": {
+      "trump_votes": 4997,
+      "trump_pct": 87.34,
+      "harris_votes": 666,
+      "harris_pct": 11.64,
+      "other_votes": 58,
+      "other_pct": 1.02,
+      "margin_votes": 4331,
+      "margin_pct": 75.7,
+      "total_votes": 5721
+    },
+    "registration_nov2024": {
+      "dem_reg": 1795,
+      "rep_reg": 7635,
+      "other_reg": 298,
+      "ind_reg": 289,
+      "registered": 10059
+    }
+  },
+  {
+    "county": "Lincoln",
+    "presidential_2024": {
+      "trump_votes": 8833,
+      "trump_pct": 80.05,
+      "harris_votes": 2080,
+      "harris_pct": 18.85,
+      "other_votes": 121,
+      "other_pct": 1.1,
+      "margin_votes": 6753,
+      "margin_pct": 61.2,
+      "total_votes": 11034
+    },
+    "registration_nov2024": {
+      "dem_reg": 6087,
+      "rep_reg": 10893,
+      "other_reg": 1052,
+      "ind_reg": 661,
+      "registered": 18796
+    }
+  },
+  {
+    "county": "Livingston",
+    "presidential_2024": {
+      "trump_votes": 4021,
+      "trump_pct": 80.87,
+      "harris_votes": 886,
+      "harris_pct": 17.82,
+      "other_votes": 65,
+      "other_pct": 1.31,
+      "margin_votes": 3135,
+      "margin_pct": 63.05,
+      "total_votes": 4972
+    },
+    "registration_nov2024": {
+      "dem_reg": 2981,
+      "rep_reg": 3924,
+      "other_reg": 322,
+      "ind_reg": 229,
+      "registered": 7486
+    }
+  },
+  {
+    "county": "Logan",
+    "presidential_2024": {
+      "trump_votes": 9620,
+      "trump_pct": 76.89,
+      "harris_votes": 2734,
+      "harris_pct": 21.85,
+      "other_votes": 157,
+      "other_pct": 1.26,
+      "margin_votes": 6886,
+      "margin_pct": 55.04,
+      "total_votes": 12511
+    },
+    "registration_nov2024": {
+      "dem_reg": 8425,
+      "rep_reg": 9275,
+      "other_reg": 1012,
+      "ind_reg": 718,
+      "registered": 19533
+    }
+  },
+  {
+    "county": "Lyon",
+    "presidential_2024": {
+      "trump_votes": 3187,
+      "trump_pct": 76.12,
+      "harris_votes": 950,
+      "harris_pct": 22.69,
+      "other_votes": 50,
+      "other_pct": 1.19,
+      "margin_votes": 2237,
+      "margin_pct": 53.43,
+      "total_votes": 4187
+    },
+    "registration_nov2024": {
+      "dem_reg": 2918,
+      "rep_reg": 3148,
+      "other_reg": 324,
+      "ind_reg": 225,
+      "registered": 6638
+    }
+  },
+  {
+    "county": "Madison",
+    "presidential_2024": {
+      "trump_votes": 29130,
+      "trump_pct": 64.26,
+      "harris_votes": 15180,
+      "harris_pct": 33.49,
+      "other_votes": 1019,
+      "other_pct": 2.25,
+      "margin_votes": 13950,
+      "margin_pct": 30.77,
+      "total_votes": 45329
+    },
+    "registration_nov2024": {
+      "dem_reg": 29518,
+      "rep_reg": 37603,
+      "other_reg": 4310,
+      "ind_reg": 4418,
+      "registered": 76486
+    }
+  },
+  {
+    "county": "Magoffin",
+    "presidential_2024": {
+      "trump_votes": 4288,
+      "trump_pct": 81.18,
+      "harris_votes": 909,
+      "harris_pct": 17.21,
+      "other_votes": 85,
+      "other_pct": 1.61,
+      "margin_votes": 3379,
+      "margin_pct": 63.97,
+      "total_votes": 5282
+    },
+    "registration_nov2024": {
+      "dem_reg": 5135,
+      "rep_reg": 4023,
+      "other_reg": 90,
+      "ind_reg": 183,
+      "registered": 9447
+    }
+  },
+  {
+    "county": "Marion",
+    "presidential_2024": {
+      "trump_votes": 6473,
+      "trump_pct": 71.12,
+      "harris_votes": 2513,
+      "harris_pct": 27.61,
+      "other_votes": 116,
+      "other_pct": 1.27,
+      "margin_votes": 3960,
+      "margin_pct": 43.51,
+      "total_votes": 9102
+    },
+    "registration_nov2024": {
+      "dem_reg": 8214,
+      "rep_reg": 4790,
+      "other_reg": 456,
+      "ind_reg": 360,
+      "registered": 13861
+    }
+  },
+  {
+    "county": "Marshall",
+    "presidential_2024": {
+      "trump_votes": 13677,
+      "trump_pct": 77.7,
+      "harris_votes": 3700,
+      "harris_pct": 21.02,
+      "other_votes": 225,
+      "other_pct": 1.28,
+      "margin_votes": 9977,
+      "margin_pct": 56.68,
+      "total_votes": 17602
+    },
+    "registration_nov2024": {
+      "dem_reg": 11082,
+      "rep_reg": 13125,
+      "other_reg": 1051,
+      "ind_reg": 965,
+      "registered": 26367
+    }
+  },
+  {
+    "county": "Martin",
+    "presidential_2024": {
+      "trump_votes": 3343,
+      "trump_pct": 91.39,
+      "harris_votes": 287,
+      "harris_pct": 7.85,
+      "other_votes": 28,
+      "other_pct": 0.76,
+      "margin_votes": 3056,
+      "margin_pct": 83.54,
+      "total_votes": 3658
+    },
+    "registration_nov2024": {
+      "dem_reg": 1339,
+      "rep_reg": 5858,
+      "other_reg": 142,
+      "ind_reg": 158,
+      "registered": 7510
+    }
+  },
+  {
+    "county": "Mason",
+    "presidential_2024": {
+      "trump_votes": 5621,
+      "trump_pct": 71.14,
+      "harris_votes": 2170,
+      "harris_pct": 27.46,
+      "other_votes": 110,
+      "other_pct": 1.4,
+      "margin_votes": 3451,
+      "margin_pct": 43.68,
+      "total_votes": 7901
+    },
+    "registration_nov2024": {
+      "dem_reg": 6200,
+      "rep_reg": 5824,
+      "other_reg": 739,
+      "ind_reg": 587,
+      "registered": 13425
+    }
+  },
+  {
+    "county": "McCracken",
+    "presidential_2024": {
+      "trump_votes": 21349,
+      "trump_pct": 66.83,
+      "harris_votes": 10191,
+      "harris_pct": 31.9,
+      "other_votes": 407,
+      "other_pct": 1.27,
+      "margin_votes": 11158,
+      "margin_pct": 34.93,
+      "total_votes": 31947
+    },
+    "registration_nov2024": {
+      "dem_reg": 25780,
+      "rep_reg": 26640,
+      "other_reg": 3604,
+      "ind_reg": 2694,
+      "registered": 59094
+    }
+  },
+  {
+    "county": "McCreary",
+    "presidential_2024": {
+      "trump_votes": 5531,
+      "trump_pct": 89.04,
+      "harris_votes": 641,
+      "harris_pct": 10.32,
+      "other_votes": 40,
+      "other_pct": 0.64,
+      "margin_votes": 4890,
+      "margin_pct": 78.72,
+      "total_votes": 6212
+    },
+    "registration_nov2024": {
+      "dem_reg": 1918,
+      "rep_reg": 8190,
+      "other_reg": 316,
+      "ind_reg": 424,
+      "registered": 10885
+    }
+  },
+  {
+    "county": "McLean",
+    "presidential_2024": {
+      "trump_votes": 3578,
+      "trump_pct": 77.21,
+      "harris_votes": 989,
+      "harris_pct": 21.34,
+      "other_votes": 67,
+      "other_pct": 1.45,
+      "margin_votes": 2589,
+      "margin_pct": 55.87,
+      "total_votes": 4634
+    },
+    "registration_nov2024": {
+      "dem_reg": 3123,
+      "rep_reg": 3292,
+      "other_reg": 276,
+      "ind_reg": 206,
+      "registered": 6916
+    }
+  },
+  {
+    "county": "Meade",
+    "presidential_2024": {
+      "trump_votes": 10630,
+      "trump_pct": 75.27,
+      "harris_votes": 3279,
+      "harris_pct": 23.22,
+      "other_votes": 214,
+      "other_pct": 1.51,
+      "margin_votes": 7351,
+      "margin_pct": 52.05,
+      "total_votes": 14123
+    },
+    "registration_nov2024": {
+      "dem_reg": 8694,
+      "rep_reg": 12238,
+      "other_reg": 1328,
+      "ind_reg": 1074,
+      "registered": 23511
+    }
+  },
+  {
+    "county": "Menifee",
+    "presidential_2024": {
+      "trump_votes": 2563,
+      "trump_pct": 77.67,
+      "harris_votes": 664,
+      "harris_pct": 20.12,
+      "other_votes": 73,
+      "other_pct": 2.21,
+      "margin_votes": 1899,
+      "margin_pct": 57.55,
+      "total_votes": 3300
+    },
+    "registration_nov2024": {
+      "dem_reg": 2903,
+      "rep_reg": 2056,
+      "other_reg": 255,
+      "ind_reg": 186,
+      "registered": 5426
+    }
+  },
+  {
+    "county": "Mercer",
+    "presidential_2024": {
+      "trump_votes": 8826,
+      "trump_pct": 74.47,
+      "harris_votes": 2838,
+      "harris_pct": 23.95,
+      "other_votes": 187,
+      "other_pct": 1.58,
+      "margin_votes": 5988,
+      "margin_pct": 50.52,
+      "total_votes": 11851
+    },
+    "registration_nov2024": {
+      "dem_reg": 7479,
+      "rep_reg": 9729,
+      "other_reg": 565,
+      "ind_reg": 1032,
+      "registered": 18949
+    }
+  },
+  {
+    "county": "Metcalfe",
+    "presidential_2024": {
+      "trump_votes": 4197,
+      "trump_pct": 81.86,
+      "harris_votes": 884,
+      "harris_pct": 17.24,
+      "other_votes": 46,
+      "other_pct": 0.9,
+      "margin_votes": 3313,
+      "margin_pct": 64.62,
+      "total_votes": 5127
+    },
+    "registration_nov2024": {
+      "dem_reg": 2885,
+      "rep_reg": 4561,
+      "other_reg": 295,
+      "ind_reg": 350,
+      "registered": 8130
+    }
+  },
+  {
+    "county": "Monroe",
+    "presidential_2024": {
+      "trump_votes": 4679,
+      "trump_pct": 88.15,
+      "harris_votes": 576,
+      "harris_pct": 10.85,
+      "other_votes": 53,
+      "other_pct": 1.0,
+      "margin_votes": 4103,
+      "margin_pct": 77.3,
+      "total_votes": 5308
+    },
+    "registration_nov2024": {
+      "dem_reg": 916,
+      "rep_reg": 6889,
+      "other_reg": 196,
+      "ind_reg": 163,
+      "registered": 8183
+    }
+  },
+  {
+    "county": "Montgomery",
+    "presidential_2024": {
+      "trump_votes": 9302,
+      "trump_pct": 72.55,
+      "harris_votes": 3329,
+      "harris_pct": 25.97,
+      "other_votes": 190,
+      "other_pct": 1.48,
+      "margin_votes": 5973,
+      "margin_pct": 46.58,
+      "total_votes": 12821
+    },
+    "registration_nov2024": {
+      "dem_reg": 10051,
+      "rep_reg": 9376,
+      "other_reg": 805,
+      "ind_reg": 849,
+      "registered": 21205
+    }
+  },
+  {
+    "county": "Morgan",
+    "presidential_2024": {
+      "trump_votes": 4353,
+      "trump_pct": 80.94,
+      "harris_votes": 939,
+      "harris_pct": 17.46,
+      "other_votes": 86,
+      "other_pct": 1.6,
+      "margin_votes": 3414,
+      "margin_pct": 63.48,
+      "total_votes": 5378
+    },
+    "registration_nov2024": {
+      "dem_reg": 5633,
+      "rep_reg": 2798,
+      "other_reg": 235,
+      "ind_reg": 230,
+      "registered": 8927
+    }
+  },
+  {
+    "county": "Muhlenberg",
+    "presidential_2024": {
+      "trump_votes": 10491,
+      "trump_pct": 76.62,
+      "harris_votes": 3048,
+      "harris_pct": 22.26,
+      "other_votes": 153,
+      "other_pct": 1.12,
+      "margin_votes": 7443,
+      "margin_pct": 54.36,
+      "total_votes": 13692
+    },
+    "registration_nov2024": {
+      "dem_reg": 11675,
+      "rep_reg": 9144,
+      "other_reg": 908,
+      "ind_reg": 608,
+      "registered": 22437
+    }
+  },
+  {
+    "county": "Nelson",
+    "presidential_2024": {
+      "trump_votes": 16052,
+      "trump_pct": 70.24,
+      "harris_votes": 6515,
+      "harris_pct": 28.51,
+      "other_votes": 285,
+      "other_pct": 1.25,
+      "margin_votes": 9537,
+      "margin_pct": 41.73,
+      "total_votes": 22852
+    },
+    "registration_nov2024": {
+      "dem_reg": 15712,
+      "rep_reg": 16837,
+      "other_reg": 2066,
+      "ind_reg": 1453,
+      "registered": 36260
+    }
+  },
+  {
+    "county": "Nicholas",
+    "presidential_2024": {
+      "trump_votes": 2451,
+      "trump_pct": 73.85,
+      "harris_votes": 824,
+      "harris_pct": 24.83,
+      "other_votes": 44,
+      "other_pct": 1.32,
+      "margin_votes": 1627,
+      "margin_pct": 49.02,
+      "total_votes": 3319
+    },
+    "registration_nov2024": {
+      "dem_reg": 3279,
+      "rep_reg": 1837,
+      "other_reg": 239,
+      "ind_reg": 137,
+      "registered": 5506
+    }
+  },
+  {
+    "county": "Ohio",
+    "presidential_2024": {
+      "trump_votes": 8679,
+      "trump_pct": 79.35,
+      "harris_votes": 2094,
+      "harris_pct": 19.15,
+      "other_votes": 164,
+      "other_pct": 1.5,
+      "margin_votes": 6585,
+      "margin_pct": 60.2,
+      "total_votes": 10937
+    },
+    "registration_nov2024": {
+      "dem_reg": 5527,
+      "rep_reg": 10507,
+      "other_reg": 863,
+      "ind_reg": 544,
+      "registered": 17523
+    }
+  },
+  {
+    "county": "Oldham",
+    "presidential_2024": {
+      "trump_votes": 23025,
+      "trump_pct": 60.26,
+      "harris_votes": 14402,
+      "harris_pct": 37.69,
+      "other_votes": 783,
+      "other_pct": 2.05,
+      "margin_votes": 8623,
+      "margin_pct": 22.57,
+      "total_votes": 38210
+    },
+    "registration_nov2024": {
+      "dem_reg": 18563,
+      "rep_reg": 32134,
+      "other_reg": 3397,
+      "ind_reg": 3534,
+      "registered": 58044
+    }
+  },
+  {
+    "county": "Owen",
+    "presidential_2024": {
+      "trump_votes": 4434,
+      "trump_pct": 80.62,
+      "harris_votes": 988,
+      "harris_pct": 17.96,
+      "other_votes": 78,
+      "other_pct": 1.42,
+      "margin_votes": 3446,
+      "margin_pct": 62.66,
+      "total_votes": 5500
+    },
+    "registration_nov2024": {
+      "dem_reg": 3365,
+      "rep_reg": 4515,
+      "other_reg": 323,
+      "ind_reg": 315,
+      "registered": 8546
+    }
+  },
+  {
+    "county": "Owsley",
+    "presidential_2024": {
+      "trump_votes": 1625,
+      "trump_pct": 88.36,
+      "harris_votes": 203,
+      "harris_pct": 11.04,
+      "other_votes": 11,
+      "other_pct": 0.6,
+      "margin_votes": 1422,
+      "margin_pct": 77.32,
+      "total_votes": 1839
+    },
+    "registration_nov2024": {
+      "dem_reg": 764,
+      "rep_reg": 2454,
+      "other_reg": 56,
+      "ind_reg": 67,
+      "registered": 3350
+    }
+  },
+  {
+    "county": "Pendleton",
+    "presidential_2024": {
+      "trump_votes": 5593,
+      "trump_pct": 81.06,
+      "harris_votes": 1210,
+      "harris_pct": 17.54,
+      "other_votes": 97,
+      "other_pct": 1.4,
+      "margin_votes": 4383,
+      "margin_pct": 63.52,
+      "total_votes": 6900
+    },
+    "registration_nov2024": {
+      "dem_reg": 3821,
+      "rep_reg": 6054,
+      "other_reg": 615,
+      "ind_reg": 414,
+      "registered": 10973
+    }
+  },
+  {
+    "county": "Perry",
+    "presidential_2024": {
+      "trump_votes": 7913,
+      "trump_pct": 79.19,
+      "harris_votes": 1966,
+      "harris_pct": 19.68,
+      "other_votes": 113,
+      "other_pct": 1.13,
+      "margin_votes": 5947,
+      "margin_pct": 59.51,
+      "total_votes": 9992
+    },
+    "registration_nov2024": {
+      "dem_reg": 11233,
+      "rep_reg": 6950,
+      "other_reg": 405,
+      "ind_reg": 535,
+      "registered": 19179
+    }
+  },
+  {
+    "county": "Pike",
+    "presidential_2024": {
+      "trump_votes": 19684,
+      "trump_pct": 82.19,
+      "harris_votes": 4025,
+      "harris_pct": 16.81,
+      "other_votes": 241,
+      "other_pct": 1.0,
+      "margin_votes": 15659,
+      "margin_pct": 65.38,
+      "total_votes": 23950
+    },
+    "registration_nov2024": {
+      "dem_reg": 22987,
+      "rep_reg": 18691,
+      "other_reg": 1798,
+      "ind_reg": 1406,
+      "registered": 45013
+    }
+  },
+  {
+    "county": "Powell",
+    "presidential_2024": {
+      "trump_votes": 4092,
+      "trump_pct": 76.22,
+      "harris_votes": 1174,
+      "harris_pct": 21.87,
+      "other_votes": 103,
+      "other_pct": 1.91,
+      "margin_votes": 2918,
+      "margin_pct": 54.35,
+      "total_votes": 5369
+    },
+    "registration_nov2024": {
+      "dem_reg": 4824,
+      "rep_reg": 4293,
+      "other_reg": 344,
+      "ind_reg": 324,
+      "registered": 9824
+    }
+  },
+  {
+    "county": "Pulaski",
+    "presidential_2024": {
+      "trump_votes": 26051,
+      "trump_pct": 82.09,
+      "harris_votes": 5351,
+      "harris_pct": 16.86,
+      "other_votes": 333,
+      "other_pct": 1.05,
+      "margin_votes": 20700,
+      "margin_pct": 65.23,
+      "total_votes": 31735
+    },
+    "registration_nov2024": {
+      "dem_reg": 10159,
+      "rep_reg": 37212,
+      "other_reg": 2392,
+      "ind_reg": 2159,
+      "registered": 52217
+    }
+  },
+  {
+    "county": "Robertson",
+    "presidential_2024": {
+      "trump_votes": 915,
+      "trump_pct": 79.98,
+      "harris_votes": 215,
+      "harris_pct": 18.79,
+      "other_votes": 14,
+      "other_pct": 1.23,
+      "margin_votes": 700,
+      "margin_pct": 61.19,
+      "total_votes": 1144
+    },
+    "registration_nov2024": {
+      "dem_reg": 1071,
+      "rep_reg": 624,
+      "other_reg": 52,
+      "ind_reg": 34,
+      "registered": 1785
+    }
+  },
+  {
+    "county": "Rockcastle",
+    "presidential_2024": {
+      "trump_votes": 6635,
+      "trump_pct": 85.76,
+      "harris_votes": 986,
+      "harris_pct": 12.74,
+      "other_votes": 116,
+      "other_pct": 1.5,
+      "margin_votes": 5649,
+      "margin_pct": 73.02,
+      "total_votes": 7737
+    },
+    "registration_nov2024": {
+      "dem_reg": 1864,
+      "rep_reg": 9909,
+      "other_reg": 380,
+      "ind_reg": 447,
+      "registered": 12642
+    }
+  },
+  {
+    "county": "Rowan",
+    "presidential_2024": {
+      "trump_votes": 6224,
+      "trump_pct": 63.04,
+      "harris_votes": 3484,
+      "harris_pct": 35.29,
+      "other_votes": 165,
+      "other_pct": 1.67,
+      "margin_votes": 2740,
+      "margin_pct": 27.75,
+      "total_votes": 9873
+    },
+    "registration_nov2024": {
+      "dem_reg": 8913,
+      "rep_reg": 6819,
+      "other_reg": 842,
+      "ind_reg": 889,
+      "registered": 17578
+    }
+  },
+  {
+    "county": "Russell",
+    "presidential_2024": {
+      "trump_votes": 7622,
+      "trump_pct": 85.71,
+      "harris_votes": 1200,
+      "harris_pct": 13.49,
+      "other_votes": 71,
+      "other_pct": 0.8,
+      "margin_votes": 6422,
+      "margin_pct": 72.22,
+      "total_votes": 8893
+    },
+    "registration_nov2024": {
+      "dem_reg": 2290,
+      "rep_reg": 11129,
+      "other_reg": 410,
+      "ind_reg": 494,
+      "registered": 14383
+    }
+  },
+  {
+    "county": "Scott",
+    "presidential_2024": {
+      "trump_votes": 18747,
+      "trump_pct": 62.97,
+      "harris_votes": 10501,
+      "harris_pct": 35.27,
+      "other_votes": 521,
+      "other_pct": 1.76,
+      "margin_votes": 8246,
+      "margin_pct": 27.7,
+      "total_votes": 29769
+    },
+    "registration_nov2024": {
+      "dem_reg": 18149,
+      "rep_reg": 23670,
+      "other_reg": 2401,
+      "ind_reg": 2308,
+      "registered": 46857
+    }
+  },
+  {
+    "county": "Shelby",
+    "presidential_2024": {
+      "trump_votes": 16356,
+      "trump_pct": 66.43,
+      "harris_votes": 7822,
+      "harris_pct": 31.77,
+      "other_votes": 442,
+      "other_pct": 1.8,
+      "margin_votes": 8534,
+      "margin_pct": 34.66,
+      "total_votes": 24620
+    },
+    "registration_nov2024": {
+      "dem_reg": 14332,
+      "rep_reg": 19988,
+      "other_reg": 1884,
+      "ind_reg": 2002,
+      "registered": 38438
+    }
+  },
+  {
+    "county": "Simpson",
+    "presidential_2024": {
+      "trump_votes": 6253,
+      "trump_pct": 71.25,
+      "harris_votes": 2403,
+      "harris_pct": 27.38,
+      "other_votes": 120,
+      "other_pct": 1.37,
+      "margin_votes": 3850,
+      "margin_pct": 43.87,
+      "total_votes": 8776
+    },
+    "registration_nov2024": {
+      "dem_reg": 6067,
+      "rep_reg": 7165,
+      "other_reg": 1018,
+      "ind_reg": 603,
+      "registered": 14970
+    }
+  },
+  {
+    "county": "Spencer",
+    "presidential_2024": {
+      "trump_votes": 8927,
+      "trump_pct": 77.76,
+      "harris_votes": 2415,
+      "harris_pct": 21.04,
+      "other_votes": 138,
+      "other_pct": 1.2,
+      "margin_votes": 6512,
+      "margin_pct": 56.72,
+      "total_votes": 11480
+    },
+    "registration_nov2024": {
+      "dem_reg": 5313,
+      "rep_reg": 10114,
+      "other_reg": 736,
+      "ind_reg": 755,
+      "registered": 17021
+    }
+  },
+  {
+    "county": "Taylor",
+    "presidential_2024": {
+      "trump_votes": 9523,
+      "trump_pct": 77.67,
+      "harris_votes": 2576,
+      "harris_pct": 21.01,
+      "other_votes": 162,
+      "other_pct": 1.32,
+      "margin_votes": 6947,
+      "margin_pct": 56.66,
+      "total_votes": 12261
+    },
+    "registration_nov2024": {
+      "dem_reg": 6202,
+      "rep_reg": 11409,
+      "other_reg": 753,
+      "ind_reg": 767,
+      "registered": 19244
+    }
+  },
+  {
+    "county": "Todd",
+    "presidential_2024": {
+      "trump_votes": 4009,
+      "trump_pct": 78.42,
+      "harris_votes": 1051,
+      "harris_pct": 20.56,
+      "other_votes": 52,
+      "other_pct": 1.02,
+      "margin_votes": 2958,
+      "margin_pct": 57.86,
+      "total_votes": 5112
+    },
+    "registration_nov2024": {
+      "dem_reg": 4336,
+      "rep_reg": 3461,
+      "other_reg": 413,
+      "ind_reg": 242,
+      "registered": 8512
+    }
+  },
+  {
+    "county": "Trigg",
+    "presidential_2024": {
+      "trump_votes": 5436,
+      "trump_pct": 75.54,
+      "harris_votes": 1667,
+      "harris_pct": 23.17,
+      "other_votes": 93,
+      "other_pct": 1.29,
+      "margin_votes": 3769,
+      "margin_pct": 52.37,
+      "total_votes": 7196
+    },
+    "registration_nov2024": {
+      "dem_reg": 4659,
+      "rep_reg": 6494,
+      "other_reg": 495,
+      "ind_reg": 537,
+      "registered": 12265
+    }
+  },
+  {
+    "county": "Trimble",
+    "presidential_2024": {
+      "trump_votes": 3283,
+      "trump_pct": 77.27,
+      "harris_votes": 923,
+      "harris_pct": 21.72,
+      "other_votes": 43,
+      "other_pct": 1.01,
+      "margin_votes": 2360,
+      "margin_pct": 55.55,
+      "total_votes": 4249
+    },
+    "registration_nov2024": {
+      "dem_reg": 3645,
+      "rep_reg": 2993,
+      "other_reg": 339,
+      "ind_reg": 231,
+      "registered": 7244
+    }
+  },
+  {
+    "county": "Union",
+    "presidential_2024": {
+      "trump_votes": 4758,
+      "trump_pct": 78.54,
+      "harris_votes": 1225,
+      "harris_pct": 20.22,
+      "other_votes": 75,
+      "other_pct": 1.24,
+      "margin_votes": 3533,
+      "margin_pct": 58.32,
+      "total_votes": 6058
+    },
+    "registration_nov2024": {
+      "dem_reg": 5247,
+      "rep_reg": 4121,
+      "other_reg": 403,
+      "ind_reg": 218,
+      "registered": 10027
+    }
+  },
+  {
+    "county": "Warren",
+    "presidential_2024": {
+      "trump_votes": 34862,
+      "trump_pct": 61.28,
+      "harris_votes": 21065,
+      "harris_pct": 37.03,
+      "other_votes": 964,
+      "other_pct": 1.69,
+      "margin_votes": 13797,
+      "margin_pct": 24.25,
+      "total_votes": 56891
+    },
+    "registration_nov2024": {
+      "dem_reg": 40361,
+      "rep_reg": 44264,
+      "other_reg": 5555,
+      "ind_reg": 5472,
+      "registered": 96425
+    }
+  },
+  {
+    "county": "Washington",
+    "presidential_2024": {
+      "trump_votes": 4720,
+      "trump_pct": 74.44,
+      "harris_votes": 1533,
+      "harris_pct": 24.18,
+      "other_votes": 88,
+      "other_pct": 1.38,
+      "margin_votes": 3187,
+      "margin_pct": 50.26,
+      "total_votes": 6341
+    },
+    "registration_nov2024": {
+      "dem_reg": 4144,
+      "rep_reg": 4721,
+      "other_reg": 351,
+      "ind_reg": 291,
+      "registered": 9560
+    }
+  },
+  {
+    "county": "Wayne",
+    "presidential_2024": {
+      "trump_votes": 7203,
+      "trump_pct": 82.48,
+      "harris_votes": 1444,
+      "harris_pct": 16.53,
+      "other_votes": 86,
+      "other_pct": 0.99,
+      "margin_votes": 5759,
+      "margin_pct": 65.95,
+      "total_votes": 8733
+    },
+    "registration_nov2024": {
+      "dem_reg": 3547,
+      "rep_reg": 10206,
+      "other_reg": 417,
+      "ind_reg": 522,
+      "registered": 14743
+    }
+  },
+  {
+    "county": "Webster",
+    "presidential_2024": {
+      "trump_votes": 4339,
+      "trump_pct": 78.1,
+      "harris_votes": 1153,
+      "harris_pct": 20.75,
+      "other_votes": 64,
+      "other_pct": 1.15,
+      "margin_votes": 3186,
+      "margin_pct": 57.35,
+      "total_votes": 5556
+    },
+    "registration_nov2024": {
+      "dem_reg": 4536,
+      "rep_reg": 3908,
+      "other_reg": 383,
+      "ind_reg": 223,
+      "registered": 9092
+    }
+  },
+  {
+    "county": "Whitley",
+    "presidential_2024": {
+      "trump_votes": 12687,
+      "trump_pct": 84.16,
+      "harris_votes": 2237,
+      "harris_pct": 14.84,
+      "other_votes": 151,
+      "other_pct": 1.0,
+      "margin_votes": 10450,
+      "margin_pct": 69.32,
+      "total_votes": 15075
+    },
+    "registration_nov2024": {
+      "dem_reg": 5076,
+      "rep_reg": 20487,
+      "other_reg": 978,
+      "ind_reg": 892,
+      "registered": 27567
+    }
+  },
+  {
+    "county": "Wolfe",
+    "presidential_2024": {
+      "trump_votes": 2163,
+      "trump_pct": 74.1,
+      "harris_votes": 689,
+      "harris_pct": 23.6,
+      "other_votes": 67,
+      "other_pct": 2.3,
+      "margin_votes": 1474,
+      "margin_pct": 50.5,
+      "total_votes": 2919
+    },
+    "registration_nov2024": {
+      "dem_reg": 4062,
+      "rep_reg": 1126,
+      "other_reg": 126,
+      "ind_reg": 109,
+      "registered": 5447
+    }
+  },
+  {
+    "county": "Woodford",
+    "presidential_2024": {
+      "trump_votes": 8419,
+      "trump_pct": 56.15,
+      "harris_votes": 6282,
+      "harris_pct": 41.9,
+      "other_votes": 292,
+      "other_pct": 1.95,
+      "margin_votes": 2137,
+      "margin_pct": 14.25,
+      "total_votes": 14993
+    },
+    "registration_nov2024": {
+      "dem_reg": 10285,
+      "rep_reg": 9892,
+      "other_reg": 949,
+      "ind_reg": 1227,
+      "registered": 22504
+    }
+  }
+]

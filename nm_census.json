@@ -1,0 +1,4164 @@
+{
+  "cities": {
+    "Albuquerque city, New Mexico": {
+      "state": "NM",
+      "fips": "3502000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 562488,
+        "voting_age": 446431,
+        "voting_age_pct": 79.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 214012,
+          "pct": 38.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15753,
+          "pct": 2.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 21629,
+          "pct": 3.85
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17242,
+          "pct": 3.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 333,
+          "pct": 0.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3861,
+          "pct": 0.69
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 20175,
+          "pct": 3.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 269483,
+          "pct": 47.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 65604,
+        "poverty_count": 21921,
+        "poverty_pct": 3.9
+      },
+      "education": {
+        "bachelors_or_higher": 152965,
+        "bachelors_only": 82650,
+        "masters": 47602,
+        "professional": 11064,
+        "doctorate": 11649
+      }
+    },
+    "Las Cruces city, New Mexico": {
+      "state": "NM",
+      "fips": "3539380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 112612,
+        "voting_age": 87790,
+        "voting_age_pct": 77.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37566,
+          "pct": 33.36
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2480,
+          "pct": 2.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 820,
+          "pct": 0.73
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2041,
+          "pct": 1.81
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 90,
+          "pct": 0.08
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 305,
+          "pct": 0.27
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2397,
+          "pct": 2.13
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 66913,
+          "pct": 59.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 55176,
+        "poverty_count": 5401,
+        "poverty_pct": 4.8
+      },
+      "education": {
+        "bachelors_or_higher": 26508,
+        "bachelors_only": 14352,
+        "masters": 8962,
+        "professional": 1631,
+        "doctorate": 1563
+      }
+    },
+    "Rio Rancho city, New Mexico": {
+      "state": "NM",
+      "fips": "3563460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 106533,
+        "voting_age": 81786,
+        "voting_age_pct": 76.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 48864,
+          "pct": 45.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2927,
+          "pct": 2.75
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3433,
+          "pct": 3.22
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1917,
+          "pct": 1.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 171,
+          "pct": 0.16
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 323,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4087,
+          "pct": 3.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 44811,
+          "pct": 42.06
+        }
+      ],
+      "economics": {
+        "median_household_income": 85755,
+        "poverty_count": 2165,
+        "poverty_pct": 2.03
+      },
+      "education": {
+        "bachelors_or_higher": 24599,
+        "bachelors_only": 15128,
+        "masters": 7096,
+        "professional": 1245,
+        "doctorate": 1130
+      }
+    },
+    "Santa Fe city, New Mexico": {
+      "state": "NM",
+      "fips": "3570500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 88224,
+        "voting_age": 73635,
+        "voting_age_pct": 83.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37220,
+          "pct": 42.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 932,
+          "pct": 1.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1446,
+          "pct": 1.64
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1605,
+          "pct": 1.82
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 54,
+          "pct": 0.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 447,
+          "pct": 0.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2508,
+          "pct": 2.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 44012,
+          "pct": 49.89
+        }
+      ],
+      "economics": {
+        "median_household_income": 70110,
+        "poverty_count": 3008,
+        "poverty_pct": 3.41
+      },
+      "education": {
+        "bachelors_or_higher": 30160,
+        "bachelors_only": 14288,
+        "masters": 10288,
+        "professional": 2934,
+        "doctorate": 2650
+      }
+    },
+    "Roswell city, New Mexico": {
+      "state": "NM",
+      "fips": "3564930",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 47823,
+        "voting_age": 35877,
+        "voting_age_pct": 75.02
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16078,
+          "pct": 33.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 797,
+          "pct": 1.67
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 200,
+          "pct": 0.42
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 693,
+          "pct": 1.45
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 49,
+          "pct": 0.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 152,
+          "pct": 0.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 652,
+          "pct": 1.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 29202,
+          "pct": 61.06
+        }
+      ],
+      "economics": {
+        "median_household_income": 50294,
+        "poverty_count": 3416,
+        "poverty_pct": 7.14
+      },
+      "education": {
+        "bachelors_or_higher": 6078,
+        "bachelors_only": 3650,
+        "masters": 1578,
+        "professional": 516,
+        "doctorate": 334
+      }
+    },
+    "Farmington city, New Mexico": {
+      "state": "NM",
+      "fips": "3525800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 46339,
+        "voting_age": 33565,
+        "voting_age_pct": 72.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19710,
+          "pct": 42.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 333,
+          "pct": 0.72
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12299,
+          "pct": 26.54
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 400,
+          "pct": 0.86
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 17,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 160,
+          "pct": 0.35
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2467,
+          "pct": 5.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10953,
+          "pct": 23.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 63745,
+        "poverty_count": 3081,
+        "poverty_pct": 6.65
+      },
+      "education": {
+        "bachelors_or_higher": 6766,
+        "bachelors_only": 3548,
+        "masters": 2385,
+        "professional": 458,
+        "doctorate": 375
+      }
+    },
+    "Hobbs city, New Mexico": {
+      "state": "NM",
+      "fips": "3532520",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39887,
+        "voting_age": 28383,
+        "voting_age_pct": 71.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11629,
+          "pct": 29.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2087,
+          "pct": 5.23
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 290,
+          "pct": 0.73
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 374,
+          "pct": 0.94
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 8,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 95,
+          "pct": 0.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 706,
+          "pct": 1.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 24698,
+          "pct": 61.92
+        }
+      ],
+      "economics": {
+        "median_household_income": 65691,
+        "poverty_count": 2959,
+        "poverty_pct": 7.42
+      },
+      "education": {
+        "bachelors_or_higher": 3973,
+        "bachelors_only": 2416,
+        "masters": 1280,
+        "professional": 225,
+        "doctorate": 52
+      }
+    },
+    "Clovis city, New Mexico": {
+      "state": "NM",
+      "fips": "3516420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 38153,
+        "voting_age": 27893,
+        "voting_age_pct": 73.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15184,
+          "pct": 39.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1932,
+          "pct": 5.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 159,
+          "pct": 0.42
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 537,
+          "pct": 1.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 36,
+          "pct": 0.09
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 28,
+          "pct": 0.07
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1531,
+          "pct": 4.01
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 18746,
+          "pct": 49.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 54029,
+        "poverty_count": 2568,
+        "poverty_pct": 6.73
+      },
+      "education": {
+        "bachelors_or_higher": 5063,
+        "bachelors_only": 2885,
+        "masters": 1760,
+        "professional": 195,
+        "doctorate": 223
+      }
+    },
+    "Carlsbad city, New Mexico": {
+      "state": "NM",
+      "fips": "3512150",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31813,
+        "voting_age": 24635,
+        "voting_age_pct": 77.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12680,
+          "pct": 39.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 689,
+          "pct": 2.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 175,
+          "pct": 0.55
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 283,
+          "pct": 0.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 402,
+          "pct": 1.26
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 589,
+          "pct": 1.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16995,
+          "pct": 53.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 78277,
+        "poverty_count": 929,
+        "poverty_pct": 2.92
+      },
+      "education": {
+        "bachelors_or_higher": 4374,
+        "bachelors_only": 2690,
+        "masters": 1377,
+        "professional": 149,
+        "doctorate": 158
+      }
+    },
+    "Alamogordo city, New Mexico": {
+      "state": "NM",
+      "fips": "3501780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31063,
+        "voting_age": 24540,
+        "voting_age_pct": 79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16882,
+          "pct": 54.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1727,
+          "pct": 5.56
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 406,
+          "pct": 1.31
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 798,
+          "pct": 2.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 79,
+          "pct": 0.25
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 68,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1222,
+          "pct": 3.93
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9881,
+          "pct": 31.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 52515,
+        "poverty_count": 1539,
+        "poverty_pct": 4.95
+      },
+      "education": {
+        "bachelors_or_higher": 5429,
+        "bachelors_only": 3286,
+        "masters": 1764,
+        "professional": 256,
+        "doctorate": 123
+      }
+    },
+    "Gallup city, New Mexico": {
+      "state": "NM",
+      "fips": "3528460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 21333,
+        "voting_age": 14739,
+        "voting_age_pct": 69.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3753,
+          "pct": 17.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 278,
+          "pct": 1.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10633,
+          "pct": 49.84
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 755,
+          "pct": 3.54
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 32,
+          "pct": 0.15
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 0.15
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 600,
+          "pct": 2.81
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5250,
+          "pct": 24.61
+        }
+      ],
+      "economics": {
+        "median_household_income": 57466,
+        "poverty_count": 2158,
+        "poverty_pct": 10.12
+      },
+      "education": {
+        "bachelors_or_higher": 3015,
+        "bachelors_only": 1666,
+        "masters": 909,
+        "professional": 276,
+        "doctorate": 164
+      }
+    },
+    "Los Lunas village, New Mexico": {
+      "state": "NM",
+      "fips": "3543370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17932,
+        "voting_age": 12960,
+        "voting_age_pct": 72.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5724,
+          "pct": 31.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 278,
+          "pct": 1.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 941,
+          "pct": 5.25
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 283,
+          "pct": 1.58
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 65,
+          "pct": 0.36
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 43,
+          "pct": 0.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 257,
+          "pct": 1.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10341,
+          "pct": 57.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 63696,
+        "poverty_count": 1210,
+        "poverty_pct": 6.75
+      },
+      "education": {
+        "bachelors_or_higher": 3216,
+        "bachelors_only": 1813,
+        "masters": 922,
+        "professional": 298,
+        "doctorate": 183
+      }
+    },
+    "Sunland Park city, New Mexico": {
+      "state": "NM",
+      "fips": "3575640",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17085,
+        "voting_age": 12169,
+        "voting_age_pct": 71.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 912,
+          "pct": 5.34
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 74,
+          "pct": 0.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 21,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 46,
+          "pct": 0.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16032,
+          "pct": 93.84
+        }
+      ],
+      "economics": {
+        "median_household_income": 52147,
+        "poverty_count": 1455,
+        "poverty_pct": 8.52
+      },
+      "education": {
+        "bachelors_or_higher": 2241,
+        "bachelors_only": 1554,
+        "masters": 588,
+        "professional": 37,
+        "doctorate": 62
+      }
+    },
+    "Deming city, New Mexico": {
+      "state": "NM",
+      "fips": "3520270",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14735,
+        "voting_age": 11090,
+        "voting_age_pct": 75.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3318,
+          "pct": 22.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 274,
+          "pct": 1.86
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 83,
+          "pct": 0.56
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 207,
+          "pct": 1.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 52,
+          "pct": 0.35
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 146,
+          "pct": 0.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10655,
+          "pct": 72.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 35920,
+        "poverty_count": 1241,
+        "poverty_pct": 8.42
+      },
+      "education": {
+        "bachelors_or_higher": 1444,
+        "bachelors_only": 1151,
+        "masters": 266,
+        "professional": 14,
+        "doctorate": 13
+      }
+    },
+    "Las Vegas city, New Mexico": {
+      "state": "NM",
+      "fips": "3539940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13120,
+        "voting_age": 10907,
+        "voting_age_pct": 83.13
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1935,
+          "pct": 14.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 164,
+          "pct": 1.25
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 265,
+          "pct": 2.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 41,
+          "pct": 0.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 189,
+          "pct": 1.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 328,
+          "pct": 2.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10198,
+          "pct": 77.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 42732,
+        "poverty_count": 450,
+        "poverty_pct": 3.43
+      },
+      "education": {
+        "bachelors_or_higher": 2475,
+        "bachelors_only": 1441,
+        "masters": 758,
+        "professional": 157,
+        "doctorate": 119
+      }
+    },
+    "Artesia city, New Mexico": {
+      "state": "NM",
+      "fips": "3505220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12555,
+        "voting_age": 8583,
+        "voting_age_pct": 68.36
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4427,
+          "pct": 35.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 368,
+          "pct": 2.93
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 98,
+          "pct": 0.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 312,
+          "pct": 2.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7350,
+          "pct": 58.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 77647,
+        "poverty_count": 626,
+        "poverty_pct": 4.99
+      },
+      "education": {
+        "bachelors_or_higher": 1553,
+        "bachelors_only": 981,
+        "masters": 486,
+        "professional": 15,
+        "doctorate": 71
+      }
+    },
+    "Portales city, New Mexico": {
+      "state": "NM",
+      "fips": "3559260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12023,
+        "voting_age": 8773,
+        "voting_age_pct": 72.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5468,
+          "pct": 45.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 164,
+          "pct": 1.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 59,
+          "pct": 0.49
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 67,
+          "pct": 0.56
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 33,
+          "pct": 0.27
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 653,
+          "pct": 5.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5562,
+          "pct": 46.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 51290,
+        "poverty_count": 1019,
+        "poverty_pct": 8.48
+      },
+      "education": {
+        "bachelors_or_higher": 1722,
+        "bachelors_only": 1019,
+        "masters": 569,
+        "professional": 49,
+        "doctorate": 85
+      }
+    },
+    "Lovington city, New Mexico": {
+      "state": "NM",
+      "fips": "3544490",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11444,
+        "voting_age": 7733,
+        "voting_age_pct": 67.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3168,
+          "pct": 27.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 364,
+          "pct": 3.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 76,
+          "pct": 0.66
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 10,
+          "pct": 0.09
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 97,
+          "pct": 0.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7714,
+          "pct": 67.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 67284,
+        "poverty_count": 792,
+        "poverty_pct": 6.92
+      },
+      "education": {
+        "bachelors_or_higher": 642,
+        "bachelors_only": 432,
+        "masters": 176,
+        "professional": 20,
+        "doctorate": 14
+      }
+    },
+    "Española city, New Mexico": {
+      "state": "NM",
+      "fips": "3525170",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10472,
+        "voting_age": 7950,
+        "voting_age_pct": 75.92
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1144,
+          "pct": 10.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 161,
+          "pct": 1.54
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 350,
+          "pct": 3.34
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 108,
+          "pct": 1.03
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 54,
+          "pct": 0.52
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 97,
+          "pct": 0.93
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8558,
+          "pct": 81.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 47664,
+        "poverty_count": 637,
+        "poverty_pct": 6.08
+      },
+      "education": {
+        "bachelors_or_higher": 1233,
+        "bachelors_only": 812,
+        "masters": 345,
+        "professional": 31,
+        "doctorate": 45
+      }
+    },
+    "Silver City town, New Mexico": {
+      "state": "NM",
+      "fips": "3573260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9574,
+        "voting_age": 7450,
+        "voting_age_pct": 77.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4463,
+          "pct": 46.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 66,
+          "pct": 0.69
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 82,
+          "pct": 0.86
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 225,
+          "pct": 2.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 282,
+          "pct": 2.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4456,
+          "pct": 46.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 39025,
+        "poverty_count": 444,
+        "poverty_pct": 4.64
+      },
+      "education": {
+        "bachelors_or_higher": 2210,
+        "bachelors_only": 1140,
+        "masters": 890,
+        "professional": 80,
+        "doctorate": 100
+      }
+    },
+    "Grants city, New Mexico": {
+      "state": "NM",
+      "fips": "3530490",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9106,
+        "voting_age": 6634,
+        "voting_age_pct": 72.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1919,
+          "pct": 21.07
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 147,
+          "pct": 1.61
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1202,
+          "pct": 13.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 72,
+          "pct": 0.79
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 6,
+          "pct": 0.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.19
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 261,
+          "pct": 2.87
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5482,
+          "pct": 60.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 49286,
+        "poverty_count": 1057,
+        "poverty_pct": 11.61
+      },
+      "education": {
+        "bachelors_or_higher": 1393,
+        "bachelors_only": 789,
+        "masters": 258,
+        "professional": 295,
+        "doctorate": 51
+      }
+    },
+    "Bernalillo town, New Mexico": {
+      "state": "NM",
+      "fips": "3506970",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9068,
+        "voting_age": 7509,
+        "voting_age_pct": 82.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2524,
+          "pct": 27.83
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 34,
+          "pct": 0.37
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 138,
+          "pct": 1.52
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 6,
+          "pct": 0.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 336,
+          "pct": 3.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6001,
+          "pct": 66.18
+        }
+      ],
+      "economics": {
+        "median_household_income": 61624,
+        "poverty_count": 273,
+        "poverty_pct": 3.01
+      },
+      "education": {
+        "bachelors_or_higher": 1631,
+        "bachelors_only": 831,
+        "masters": 665,
+        "professional": 51,
+        "doctorate": 84
+      }
+    },
+    "Anthony city, New Mexico": {
+      "state": "NM",
+      "fips": "3503820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8701,
+        "voting_age": 5968,
+        "voting_age_pct": 68.59
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 34,
+          "pct": 0.39
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.01
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8666,
+          "pct": 99.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 33141,
+        "poverty_count": 1092,
+        "poverty_pct": 12.55
+      },
+      "education": {
+        "bachelors_or_higher": 399,
+        "bachelors_only": 290,
+        "masters": 107,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "Corrales village, New Mexico": {
+      "state": "NM",
+      "fips": "3517960",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8557,
+        "voting_age": 7251,
+        "voting_age_pct": 84.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5605,
+          "pct": 65.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 97,
+          "pct": 1.13
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 212,
+          "pct": 2.48
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 86,
+          "pct": 1.01
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 26,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 181,
+          "pct": 2.12
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2350,
+          "pct": 27.46
+        }
+      ],
+      "economics": {
+        "median_household_income": 114207,
+        "poverty_count": 78,
+        "poverty_pct": 0.91
+      },
+      "education": {
+        "bachelors_or_higher": 3586,
+        "bachelors_only": 1801,
+        "masters": 1084,
+        "professional": 498,
+        "doctorate": 203
+      }
+    },
+    "Socorro city, New Mexico": {
+      "state": "NM",
+      "fips": "3573540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8540,
+        "voting_age": 7169,
+        "voting_age_pct": 83.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2957,
+          "pct": 34.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 30,
+          "pct": 0.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 447,
+          "pct": 5.23
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 282,
+          "pct": 3.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 39,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 394,
+          "pct": 4.61
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4391,
+          "pct": 51.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 51343,
+        "poverty_count": 398,
+        "poverty_pct": 4.66
+      },
+      "education": {
+        "bachelors_or_higher": 1491,
+        "bachelors_only": 737,
+        "masters": 350,
+        "professional": 21,
+        "doctorate": 383
+      }
+    },
+    "Ruidoso village, New Mexico": {
+      "state": "NM",
+      "fips": "3565210",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7701,
+        "voting_age": 6178,
+        "voting_age_pct": 80.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4949,
+          "pct": 64.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 98,
+          "pct": 1.27
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 114,
+          "pct": 1.48
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 81,
+          "pct": 1.05
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 21,
+          "pct": 0.27
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 260,
+          "pct": 3.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2178,
+          "pct": 28.28
+        }
+      ],
+      "economics": {
+        "median_household_income": 50259,
+        "poverty_count": 397,
+        "poverty_pct": 5.16
+      },
+      "education": {
+        "bachelors_or_higher": 1783,
+        "bachelors_only": 1246,
+        "masters": 406,
+        "professional": 121,
+        "doctorate": 10
+      }
+    },
+    "Belen city, New Mexico": {
+      "state": "NM",
+      "fips": "3506480",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7427,
+        "voting_age": 5911,
+        "voting_age_pct": 79.59
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2077,
+          "pct": 27.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 0.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.16
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 79,
+          "pct": 1.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5232,
+          "pct": 70.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 40354,
+        "poverty_count": 542,
+        "poverty_pct": 7.3
+      },
+      "education": {
+        "bachelors_or_higher": 739,
+        "bachelors_only": 452,
+        "masters": 217,
+        "professional": 0,
+        "doctorate": 70
+      }
+    },
+    "Bloomfield city, New Mexico": {
+      "state": "NM",
+      "fips": "3507880",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7391,
+        "voting_age": 5189,
+        "voting_age_pct": 70.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2958,
+          "pct": 40.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12,
+          "pct": 0.16
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1430,
+          "pct": 19.35
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 58,
+          "pct": 0.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.04
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 227,
+          "pct": 3.07
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2703,
+          "pct": 36.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 51212,
+        "poverty_count": 741,
+        "poverty_pct": 10.03
+      },
+      "education": {
+        "bachelors_or_higher": 628,
+        "bachelors_only": 370,
+        "masters": 232,
+        "professional": 26,
+        "doctorate": 0
+      }
+    },
+    "Taos town, New Mexico": {
+      "state": "NM",
+      "fips": "3576200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6468,
+        "voting_age": 5867,
+        "voting_age_pct": 90.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3318,
+          "pct": 51.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 41,
+          "pct": 0.63
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 119,
+          "pct": 1.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5,
+          "pct": 0.08
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 24,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 150,
+          "pct": 2.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2803,
+          "pct": 43.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 46579,
+        "poverty_count": 42,
+        "poverty_pct": 0.65
+      },
+      "education": {
+        "bachelors_or_higher": 1866,
+        "bachelors_only": 892,
+        "masters": 589,
+        "professional": 204,
+        "doctorate": 181
+      }
+    },
+    "Aztec city, New Mexico": {
+      "state": "NM",
+      "fips": "3505780",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6177,
+        "voting_age": 4632,
+        "voting_age_pct": 74.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3716,
+          "pct": 60.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 958,
+          "pct": 15.51
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8,
+          "pct": 0.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 124,
+          "pct": 2.01
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 249,
+          "pct": 4.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1120,
+          "pct": 18.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 42699,
+        "poverty_count": 512,
+        "poverty_pct": 8.29
+      },
+      "education": {
+        "bachelors_or_higher": 734,
+        "bachelors_only": 420,
+        "masters": 202,
+        "professional": 60,
+        "doctorate": 52
+      }
+    },
+    "Edgewood town, New Mexico": {
+      "state": "NM",
+      "fips": "3522380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6122,
+        "voting_age": 4705,
+        "voting_age_pct": 76.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3440,
+          "pct": 56.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12,
+          "pct": 0.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 77,
+          "pct": 1.26
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 0.34
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 402,
+          "pct": 6.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2170,
+          "pct": 35.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 81227,
+        "poverty_count": 164,
+        "poverty_pct": 2.68
+      },
+      "education": {
+        "bachelors_or_higher": 1742,
+        "bachelors_only": 1181,
+        "masters": 403,
+        "professional": 117,
+        "doctorate": 41
+      }
+    },
+    "Truth or Consequences city, New Mexico": {
+      "state": "NM",
+      "fips": "3579840",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6026,
+        "voting_age": 4442,
+        "voting_age_pct": 73.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3481,
+          "pct": 57.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 20,
+          "pct": 0.33
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 280,
+          "pct": 4.65
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 28,
+          "pct": 0.46
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 78,
+          "pct": 1.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2139,
+          "pct": 35.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 29142,
+        "poverty_count": 605,
+        "poverty_pct": 10.04
+      },
+      "education": {
+        "bachelors_or_higher": 813,
+        "bachelors_only": 497,
+        "masters": 253,
+        "professional": 44,
+        "doctorate": 19
+      }
+    },
+    "Raton city, New Mexico": {
+      "state": "NM",
+      "fips": "3562060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6013,
+        "voting_age": 4970,
+        "voting_age_pct": 82.65
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2450,
+          "pct": 40.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 21,
+          "pct": 0.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 73,
+          "pct": 1.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23,
+          "pct": 0.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 138,
+          "pct": 2.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3308,
+          "pct": 55.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 52007,
+        "poverty_count": 384,
+        "poverty_pct": 6.39
+      },
+      "education": {
+        "bachelors_or_higher": 846,
+        "bachelors_only": 458,
+        "masters": 310,
+        "professional": 35,
+        "doctorate": 43
+      }
+    },
+    "Los Ranchos de Albuquerque village, New Mexico": {
+      "state": "NM",
+      "fips": "3543930",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5869,
+        "voting_age": 4893,
+        "voting_age_pct": 83.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2823,
+          "pct": 48.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 73,
+          "pct": 1.24
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 22,
+          "pct": 0.37
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 192,
+          "pct": 3.27
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 290,
+          "pct": 4.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2469,
+          "pct": 42.07
+        }
+      ],
+      "economics": {
+        "median_household_income": 70801,
+        "poverty_count": 78,
+        "poverty_pct": 1.33
+      },
+      "education": {
+        "bachelors_or_higher": 2237,
+        "bachelors_only": 1069,
+        "masters": 712,
+        "professional": 231,
+        "doctorate": 225
+      }
+    },
+    "Tucumcari city, New Mexico": {
+      "state": "NM",
+      "fips": "3579910",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5197,
+        "voting_age": 3991,
+        "voting_age_pct": 76.79
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1581,
+          "pct": 30.42
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 96,
+          "pct": 1.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.25
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 196,
+          "pct": 3.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3311,
+          "pct": 63.71
+        }
+      ],
+      "economics": {
+        "median_household_income": 39915,
+        "poverty_count": 309,
+        "poverty_pct": 5.95
+      },
+      "education": {
+        "bachelors_or_higher": 734,
+        "bachelors_only": 394,
+        "masters": 340,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Rio Communities city, New Mexico": {
+      "state": "NM",
+      "fips": "3563145",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4924,
+        "voting_age": 4236,
+        "voting_age_pct": 86.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1842,
+          "pct": 37.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 178,
+          "pct": 3.61
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 21,
+          "pct": 0.43
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 85,
+          "pct": 1.73
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 198,
+          "pct": 4.02
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 184,
+          "pct": 3.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2416,
+          "pct": 49.07
+        }
+      ],
+      "economics": {
+        "median_household_income": 46223,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 687,
+        "bachelors_only": 528,
+        "masters": 137,
+        "professional": 6,
+        "doctorate": 16
+      }
+    },
+    "Bosque Farms village, New Mexico": {
+      "state": "NM",
+      "fips": "3508580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4042,
+        "voting_age": 3329,
+        "voting_age_pct": 82.36
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1656,
+          "pct": 40.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 150,
+          "pct": 3.71
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 51,
+          "pct": 1.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 22,
+          "pct": 0.54
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 25,
+          "pct": 0.62
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2138,
+          "pct": 52.89
+        }
+      ],
+      "economics": {
+        "median_household_income": 63889,
+        "poverty_count": 318,
+        "poverty_pct": 7.87
+      },
+      "education": {
+        "bachelors_or_higher": 854,
+        "bachelors_only": 651,
+        "masters": 154,
+        "professional": 7,
+        "doctorate": 42
+      }
+    },
+    "Peralta town, New Mexico": {
+      "state": "NM",
+      "fips": "3556180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3385,
+        "voting_age": 2514,
+        "voting_age_pct": 74.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1464,
+          "pct": 43.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 57,
+          "pct": 1.68
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 29,
+          "pct": 0.86
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 257,
+          "pct": 7.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1578,
+          "pct": 46.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 67703,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 580,
+        "bachelors_only": 318,
+        "masters": 226,
+        "professional": 22,
+        "doctorate": 14
+      }
+    },
+    "Eunice city, New Mexico": {
+      "state": "NM",
+      "fips": "3525450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2989,
+        "voting_age": 1950,
+        "voting_age_pct": 65.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1242,
+          "pct": 41.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 23,
+          "pct": 0.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1724,
+          "pct": 57.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 49795,
+        "poverty_count": 195,
+        "poverty_pct": 6.52
+      },
+      "education": {
+        "bachelors_or_higher": 58,
+        "bachelors_only": 42,
+        "masters": 16,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Clayton town, New Mexico": {
+      "state": "NM",
+      "fips": "3515720",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2680,
+        "voting_age": 2111,
+        "voting_age_pct": 78.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1061,
+          "pct": 39.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 30,
+          "pct": 1.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 81,
+          "pct": 3.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 33,
+          "pct": 1.23
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 68,
+          "pct": 2.54
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1407,
+          "pct": 52.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 40192,
+        "poverty_count": 234,
+        "poverty_pct": 8.73
+      },
+      "education": {
+        "bachelors_or_higher": 249,
+        "bachelors_only": 148,
+        "masters": 55,
+        "professional": 0,
+        "doctorate": 46
+      }
+    },
+    "Ruidoso Downs city, New Mexico": {
+      "state": "NM",
+      "fips": "3565280",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2629,
+        "voting_age": 2059,
+        "voting_age_pct": 78.32
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 934,
+          "pct": 35.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 71,
+          "pct": 2.7
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.19
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 27,
+          "pct": 1.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1587,
+          "pct": 60.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 31413,
+        "poverty_count": 337,
+        "poverty_pct": 12.82
+      },
+      "education": {
+        "bachelors_or_higher": 190,
+        "bachelors_only": 54,
+        "masters": 136,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Tularosa village, New Mexico": {
+      "state": "NM",
+      "fips": "3579980",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2584,
+        "voting_age": 1660,
+        "voting_age_pct": 64.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 834,
+          "pct": 32.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 173,
+          "pct": 6.7
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4,
+          "pct": 0.15
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 61,
+          "pct": 2.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1512,
+          "pct": 58.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 45147,
+        "poverty_count": 144,
+        "poverty_pct": 5.57
+      },
+      "education": {
+        "bachelors_or_higher": 336,
+        "bachelors_only": 269,
+        "masters": 58,
+        "professional": 0,
+        "doctorate": 9
+      }
+    },
+    "Milan village, New Mexico": {
+      "state": "NM",
+      "fips": "3548620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2473,
+        "voting_age": 2034,
+        "voting_age_pct": 82.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 339,
+          "pct": 13.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 22,
+          "pct": 0.89
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 682,
+          "pct": 27.58
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 60,
+          "pct": 2.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 69,
+          "pct": 2.79
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1301,
+          "pct": 52.61
+        }
+      ],
+      "economics": {
+        "median_household_income": 37551,
+        "poverty_count": 58,
+        "poverty_pct": 2.35
+      },
+      "education": {
+        "bachelors_or_higher": 171,
+        "bachelors_only": 129,
+        "masters": 12,
+        "professional": 0,
+        "doctorate": 30
+      }
+    },
+    "Santa Rosa city, New Mexico": {
+      "state": "NM",
+      "fips": "3570670",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2447,
+        "voting_age": 1856,
+        "voting_age_pct": 75.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 342,
+          "pct": 13.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 47,
+          "pct": 1.92
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 125,
+          "pct": 5.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 64,
+          "pct": 2.62
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1859,
+          "pct": 75.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 41995,
+        "poverty_count": 132,
+        "poverty_pct": 5.39
+      },
+      "education": {
+        "bachelors_or_higher": 273,
+        "bachelors_only": 209,
+        "masters": 53,
+        "professional": 11,
+        "doctorate": 0
+      }
+    },
+    "Bayard city, New Mexico": {
+      "state": "NM",
+      "fips": "3506270",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2370,
+        "voting_age": 1661,
+        "voting_age_pct": 70.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 495,
+          "pct": 20.89
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1875,
+          "pct": 79.11
+        }
+      ],
+      "economics": {
+        "median_household_income": 33269,
+        "poverty_count": 283,
+        "poverty_pct": 11.94
+      },
+      "education": {
+        "bachelors_or_higher": 262,
+        "bachelors_only": 161,
+        "masters": 101,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Lordsburg city, New Mexico": {
+      "state": "NM",
+      "fips": "3542180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2139,
+        "voting_age": 1636,
+        "voting_age_pct": 76.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 530,
+          "pct": 24.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 24,
+          "pct": 1.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 14,
+          "pct": 0.65
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1571,
+          "pct": 73.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 33899,
+        "poverty_count": 167,
+        "poverty_pct": 7.81
+      },
+      "education": {
+        "bachelors_or_higher": 147,
+        "bachelors_only": 98,
+        "masters": 28,
+        "professional": 0,
+        "doctorate": 21
+      }
+    },
+    "Questa village, New Mexico": {
+      "state": "NM",
+      "fips": "3560870",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2112,
+        "voting_age": 1774,
+        "voting_age_pct": 84
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 341,
+          "pct": 16.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.57
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 38,
+          "pct": 1.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1717,
+          "pct": 81.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 41071,
+        "poverty_count": 29,
+        "poverty_pct": 1.37
+      },
+      "education": {
+        "bachelors_or_higher": 279,
+        "bachelors_only": 173,
+        "masters": 90,
+        "professional": 0,
+        "doctorate": 16
+      }
+    },
+    "Moriarty city, New Mexico": {
+      "state": "NM",
+      "fips": "3550160",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2074,
+        "voting_age": 1573,
+        "voting_age_pct": 75.84
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 850,
+          "pct": 40.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 39,
+          "pct": 1.88
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 99,
+          "pct": 4.77
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.39
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 31,
+          "pct": 1.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1047,
+          "pct": 50.48
+        }
+      ],
+      "economics": {
+        "median_household_income": 27446,
+        "poverty_count": 229,
+        "poverty_pct": 11.04
+      },
+      "education": {
+        "bachelors_or_higher": 42,
+        "bachelors_only": 31,
+        "masters": 5,
+        "professional": 0,
+        "doctorate": 6
+      }
+    },
+    "Jal city, New Mexico": {
+      "state": "NM",
+      "fips": "3535040",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2069,
+        "voting_age": 1578,
+        "voting_age_pct": 76.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 816,
+          "pct": 39.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 24,
+          "pct": 1.16
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 0.87
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1211,
+          "pct": 58.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 60703,
+        "poverty_count": 166,
+        "poverty_pct": 8.02
+      },
+      "education": {
+        "bachelors_or_higher": 262,
+        "bachelors_only": 74,
+        "masters": 188,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Mesilla town, New Mexico": {
+      "state": "NM",
+      "fips": "3548060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1850,
+        "voting_age": 1661,
+        "voting_age_pct": 89.78
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1009,
+          "pct": 54.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.11
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 72,
+          "pct": 3.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 767,
+          "pct": 41.46
+        }
+      ],
+      "economics": {
+        "median_household_income": 73681,
+        "poverty_count": 44,
+        "poverty_pct": 2.38
+      },
+      "education": {
+        "bachelors_or_higher": 627,
+        "bachelors_only": 319,
+        "masters": 144,
+        "professional": 126,
+        "doctorate": 38
+      }
+    },
+    "Santa Clara village, New Mexico": {
+      "state": "NM",
+      "fips": "3570270",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1751,
+        "voting_age": 1401,
+        "voting_age_pct": 80.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 419,
+          "pct": 23.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 17,
+          "pct": 0.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1315,
+          "pct": 75.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 46094,
+        "poverty_count": 170,
+        "poverty_pct": 9.71
+      },
+      "education": {
+        "bachelors_or_higher": 207,
+        "bachelors_only": 101,
+        "masters": 106,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Hatch village, New Mexico": {
+      "state": "NM",
+      "fips": "3531820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1663,
+        "voting_age": 1101,
+        "voting_age_pct": 66.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 254,
+          "pct": 15.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1409,
+          "pct": 84.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 40625,
+        "poverty_count": 224,
+        "poverty_pct": 13.47
+      },
+      "education": {
+        "bachelors_or_higher": 117,
+        "bachelors_only": 68,
+        "masters": 49,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Elephant Butte city, New Mexico": {
+      "state": "NM",
+      "fips": "3522720",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1586,
+        "voting_age": 1482,
+        "voting_age_pct": 93.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1277,
+          "pct": 80.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 34,
+          "pct": 2.14
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 275,
+          "pct": 17.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 45179,
+        "poverty_count": 32,
+        "poverty_pct": 2.02
+      },
+      "education": {
+        "bachelors_or_higher": 281,
+        "bachelors_only": 185,
+        "masters": 66,
+        "professional": 12,
+        "doctorate": 18
+      }
+    },
+    "Estancia town, New Mexico": {
+      "state": "NM",
+      "fips": "3525380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1399,
+        "voting_age": 1160,
+        "voting_age_pct": 82.92
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 440,
+          "pct": 31.45
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7,
+          "pct": 0.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 70,
+          "pct": 5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 875,
+          "pct": 62.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 34559,
+        "poverty_count": 35,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 90,
+        "bachelors_only": 56,
+        "masters": 34,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Loving village, New Mexico": {
+      "state": "NM",
+      "fips": "3544420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1317,
+        "voting_age": 947,
+        "voting_age_pct": 71.91
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 205,
+          "pct": 15.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1112,
+          "pct": 84.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 60203,
+        "poverty_count": 22,
+        "poverty_pct": 1.67
+      },
+      "education": {
+        "bachelors_or_higher": 26,
+        "bachelors_only": 0,
+        "masters": 8,
+        "professional": 3,
+        "doctorate": 15
+      }
+    },
+    "Mountainair town, New Mexico": {
+      "state": "NM",
+      "fips": "3550370",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1308,
+        "voting_age": 946,
+        "voting_age_pct": 72.32
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 465,
+          "pct": 35.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 97,
+          "pct": 7.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 45,
+          "pct": 3.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 701,
+          "pct": 53.59
+        }
+      ],
+      "economics": {
+        "median_household_income": 41678,
+        "poverty_count": 44,
+        "poverty_pct": 3.36
+      },
+      "education": {
+        "bachelors_or_higher": 68,
+        "bachelors_only": 60,
+        "masters": 8,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Cloudcroft village, New Mexico": {
+      "state": "NM",
+      "fips": "3516280",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1275,
+        "voting_age": 646,
+        "voting_age_pct": 50.67
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 988,
+          "pct": 77.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1,
+          "pct": 0.08
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 286,
+          "pct": 22.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 38428,
+        "poverty_count": 564,
+        "poverty_pct": 44.24
+      },
+      "education": {
+        "bachelors_or_higher": 188,
+        "bachelors_only": 146,
+        "masters": 22,
+        "professional": 5,
+        "doctorate": 15
+      }
+    },
+    "Capitan village, New Mexico": {
+      "state": "NM",
+      "fips": "3511800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1262,
+        "voting_age": 984,
+        "voting_age_pct": 77.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 801,
+          "pct": 63.47
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16,
+          "pct": 1.27
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 22,
+          "pct": 1.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 423,
+          "pct": 33.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 50299,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 186,
+        "bachelors_only": 106,
+        "masters": 80,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Columbus village, New Mexico": {
+      "state": "NM",
+      "fips": "3517050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1147,
+        "voting_age": 741,
+        "voting_age_pct": 64.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 148,
+          "pct": 12.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 999,
+          "pct": 87.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 24554,
+        "poverty_count": 143,
+        "poverty_pct": 12.47
+      },
+      "education": {
+        "bachelors_or_higher": 109,
+        "bachelors_only": 67,
+        "masters": 42,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Pecos village, New Mexico": {
+      "state": "NM",
+      "fips": "3555620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1145,
+        "voting_age": 876,
+        "voting_age_pct": 76.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 56,
+          "pct": 4.89
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 1.14
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 70,
+          "pct": 6.11
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 12,
+          "pct": 1.05
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 994,
+          "pct": 86.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 69327,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 222,
+        "bachelors_only": 148,
+        "masters": 74,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Dexter town, New Mexico": {
+      "state": "NM",
+      "fips": "3520620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1144,
+        "voting_age": 757,
+        "voting_age_pct": 66.17
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 102,
+          "pct": 8.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5,
+          "pct": 0.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1035,
+          "pct": 90.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 61118,
+        "poverty_count": 102,
+        "poverty_pct": 8.92
+      },
+      "education": {
+        "bachelors_or_higher": 68,
+        "bachelors_only": 38,
+        "masters": 27,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Hurley town, New Mexico": {
+      "state": "NM",
+      "fips": "3533850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1137,
+        "voting_age": 906,
+        "voting_age_pct": 79.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 250,
+          "pct": 21.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 5,
+          "pct": 0.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 18,
+          "pct": 1.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 864,
+          "pct": 75.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 41167,
+        "poverty_count": 9,
+        "poverty_pct": 0.79
+      },
+      "education": {
+        "bachelors_or_higher": 107,
+        "bachelors_only": 86,
+        "masters": 13,
+        "professional": 8,
+        "doctorate": 0
+      }
+    },
+    "Springer town, New Mexico": {
+      "state": "NM",
+      "fips": "3574800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1098,
+        "voting_age": 894,
+        "voting_age_pct": 81.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 386,
+          "pct": 35.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.55
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 706,
+          "pct": 64.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 48188,
+        "poverty_count": 35,
+        "poverty_pct": 3.19
+      },
+      "education": {
+        "bachelors_or_higher": 115,
+        "bachelors_only": 59,
+        "masters": 56,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Angel Fire village, New Mexico": {
+      "state": "NM",
+      "fips": "3503400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1089,
+        "voting_age": 905,
+        "voting_age_pct": 83.1
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 740,
+          "pct": 67.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14,
+          "pct": 1.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.92
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 94,
+          "pct": 8.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 229,
+          "pct": 21.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 79821,
+        "poverty_count": 52,
+        "poverty_pct": 4.78
+      },
+      "education": {
+        "bachelors_or_higher": 351,
+        "bachelors_only": 160,
+        "masters": 141,
+        "professional": 8,
+        "doctorate": 42
+      }
+    }
+  }
+}

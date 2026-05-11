@@ -1,0 +1,1659 @@
+{
+  "state": "Mississippi",
+  "state_fips": "28",
+  "election": "2024 General Election",
+  "source_presidential": "MIT Election Data Lab / County Presidential Returns 2000-2024 (via tonmcg GitHub)",
+  "source_voter_registration": "Mississippi Secretary of State - Active Voter Count Report, November 2024",
+  "statewide_summary": {
+    "trump": 747744,
+    "harris": 466668,
+    "total_votes": 1228008,
+    "pct_trump": 60.89,
+    "pct_harris": 38.0,
+    "margin": 281076,
+    "pct_margin": 22.89,
+    "turnout_pct": 57.5
+  },
+  "counties": [
+    {
+      "name": "Adams",
+      "fips": "28001",
+      "county_number": 1,
+      "voter_registration": {
+        "active_voters_nov2024": 18249,
+        "cvap_2020_estimate": 22555,
+        "registration_vs_cvap_pct": 80.909
+      },
+      "results_2024": {
+        "trump": 5081,
+        "harris": 6743,
+        "total_votes": 11928,
+        "margin": -1662,
+        "pct_trump": 42.6,
+        "pct_harris": 56.53,
+        "pct_margin": -13.93,
+        "turnout_vs_active_pct": 65.36
+      }
+    },
+    {
+      "name": "Alcorn",
+      "fips": "28003",
+      "county_number": 2,
+      "voter_registration": {
+        "active_voters_nov2024": 24213,
+        "cvap_2020_estimate": 28305,
+        "registration_vs_cvap_pct": 85.543
+      },
+      "results_2024": {
+        "trump": 12657,
+        "harris": 2328,
+        "total_votes": 15112,
+        "margin": 10329,
+        "pct_trump": 83.75,
+        "pct_harris": 15.4,
+        "pct_margin": 68.35,
+        "turnout_vs_active_pct": 62.41
+      }
+    },
+    {
+      "name": "Amite",
+      "fips": "28005",
+      "county_number": 3,
+      "voter_registration": {
+        "active_voters_nov2024": 9695,
+        "cvap_2020_estimate": 9765,
+        "registration_vs_cvap_pct": 99.283
+      },
+      "results_2024": {
+        "trump": 4484,
+        "harris": 2246,
+        "total_votes": 6815,
+        "margin": 2238,
+        "pct_trump": 65.8,
+        "pct_harris": 32.96,
+        "pct_margin": 32.84,
+        "turnout_vs_active_pct": 70.29
+      }
+    },
+    {
+      "name": "Attala",
+      "fips": "28007",
+      "county_number": 4,
+      "voter_registration": {
+        "active_voters_nov2024": 11326,
+        "cvap_2020_estimate": 13625,
+        "registration_vs_cvap_pct": 83.127
+      },
+      "results_2024": {
+        "trump": 4723,
+        "harris": 2930,
+        "total_votes": 7703,
+        "margin": 1793,
+        "pct_trump": 61.31,
+        "pct_harris": 38.04,
+        "pct_margin": 23.28,
+        "turnout_vs_active_pct": 68.01
+      }
+    },
+    {
+      "name": "Benton",
+      "fips": "28009",
+      "county_number": 5,
+      "voter_registration": {
+        "active_voters_nov2024": 6057,
+        "cvap_2020_estimate": 6215,
+        "registration_vs_cvap_pct": 97.458
+      },
+      "results_2024": {
+        "trump": 2535,
+        "harris": 1318,
+        "total_votes": 3880,
+        "margin": 1217,
+        "pct_trump": 65.34,
+        "pct_harris": 33.97,
+        "pct_margin": 31.37,
+        "turnout_vs_active_pct": 64.06
+      }
+    },
+    {
+      "name": "Bolivar",
+      "fips": "28011",
+      "county_number": 6,
+      "voter_registration": {
+        "active_voters_nov2024": 19289,
+        "cvap_2020_estimate": 23160,
+        "registration_vs_cvap_pct": 83.286
+      },
+      "results_2024": {
+        "trump": 3943,
+        "harris": 6419,
+        "total_votes": 10435,
+        "margin": -2476,
+        "pct_trump": 37.79,
+        "pct_harris": 61.51,
+        "pct_margin": -23.73,
+        "turnout_vs_active_pct": 54.1
+      }
+    },
+    {
+      "name": "Calhoun",
+      "fips": "28013",
+      "county_number": 7,
+      "voter_registration": {
+        "active_voters_nov2024": 9087,
+        "cvap_2020_estimate": 10690,
+        "registration_vs_cvap_pct": 85.005
+      },
+      "results_2024": {
+        "trump": 4443,
+        "harris": 1547,
+        "total_votes": 6034,
+        "margin": 2896,
+        "pct_trump": 73.63,
+        "pct_harris": 25.64,
+        "pct_margin": 47.99,
+        "turnout_vs_active_pct": 66.4
+      }
+    },
+    {
+      "name": "Carroll",
+      "fips": "28015",
+      "county_number": 8,
+      "voter_registration": {
+        "active_voters_nov2024": 7366,
+        "cvap_2020_estimate": 8085,
+        "registration_vs_cvap_pct": 91.107
+      },
+      "results_2024": {
+        "trump": 3730,
+        "harris": 1431,
+        "total_votes": 5194,
+        "margin": 2299,
+        "pct_trump": 71.81,
+        "pct_harris": 27.55,
+        "pct_margin": 44.26,
+        "turnout_vs_active_pct": 70.51
+      }
+    },
+    {
+      "name": "Chickasaw",
+      "fips": "28017",
+      "county_number": 9,
+      "voter_registration": {
+        "active_voters_nov2024": 11272,
+        "cvap_2020_estimate": 12600,
+        "registration_vs_cvap_pct": 89.46
+      },
+      "results_2024": {
+        "trump": 4079,
+        "harris": 3090,
+        "total_votes": 7234,
+        "margin": 989,
+        "pct_trump": 56.39,
+        "pct_harris": 42.71,
+        "pct_margin": 13.67,
+        "turnout_vs_active_pct": 64.18
+      }
+    },
+    {
+      "name": "Choctaw",
+      "fips": "28019",
+      "county_number": 10,
+      "voter_registration": {
+        "active_voters_nov2024": 5064,
+        "cvap_2020_estimate": 6420,
+        "registration_vs_cvap_pct": 78.879
+      },
+      "results_2024": {
+        "trump": 2881,
+        "harris": 965,
+        "total_votes": 3890,
+        "margin": 1916,
+        "pct_trump": 74.06,
+        "pct_harris": 24.81,
+        "pct_margin": 49.25,
+        "turnout_vs_active_pct": 76.82
+      }
+    },
+    {
+      "name": "Claiborne",
+      "fips": "28021",
+      "county_number": 11,
+      "voter_registration": {
+        "active_voters_nov2024": 6314,
+        "cvap_2020_estimate": 7020,
+        "registration_vs_cvap_pct": 89.943
+      },
+      "results_2024": {
+        "trump": 558,
+        "harris": 2950,
+        "total_votes": 3541,
+        "margin": -2392,
+        "pct_trump": 15.76,
+        "pct_harris": 83.31,
+        "pct_margin": -67.55,
+        "turnout_vs_active_pct": 56.08
+      }
+    },
+    {
+      "name": "Clarke",
+      "fips": "28023",
+      "county_number": 12,
+      "voter_registration": {
+        "active_voters_nov2024": 11190,
+        "cvap_2020_estimate": 12125,
+        "registration_vs_cvap_pct": 92.289
+      },
+      "results_2024": {
+        "trump": 5093,
+        "harris": 2430,
+        "total_votes": 7571,
+        "margin": 2663,
+        "pct_trump": 67.27,
+        "pct_harris": 32.1,
+        "pct_margin": 35.17,
+        "turnout_vs_active_pct": 67.66
+      }
+    },
+    {
+      "name": "Clay",
+      "fips": "28025",
+      "county_number": 13,
+      "voter_registration": {
+        "active_voters_nov2024": 13568,
+        "cvap_2020_estimate": 14985,
+        "registration_vs_cvap_pct": 90.544
+      },
+      "results_2024": {
+        "trump": 4017,
+        "harris": 4960,
+        "total_votes": 9057,
+        "margin": -943,
+        "pct_trump": 44.35,
+        "pct_harris": 54.76,
+        "pct_margin": -10.41,
+        "turnout_vs_active_pct": 66.75
+      }
+    },
+    {
+      "name": "Coahoma",
+      "fips": "28027",
+      "county_number": 14,
+      "voter_registration": {
+        "active_voters_nov2024": 13486,
+        "cvap_2020_estimate": 16500,
+        "registration_vs_cvap_pct": 81.733
+      },
+      "results_2024": {
+        "trump": 2008,
+        "harris": 4711,
+        "total_votes": 6790,
+        "margin": -2703,
+        "pct_trump": 29.57,
+        "pct_harris": 69.38,
+        "pct_margin": -39.81,
+        "turnout_vs_active_pct": 50.35
+      }
+    },
+    {
+      "name": "Copiah",
+      "fips": "28029",
+      "county_number": 15,
+      "voter_registration": {
+        "active_voters_nov2024": 18638,
+        "cvap_2020_estimate": 21615,
+        "registration_vs_cvap_pct": 86.227
+      },
+      "results_2024": {
+        "trump": 6134,
+        "harris": 5426,
+        "total_votes": 11665,
+        "margin": 708,
+        "pct_trump": 52.58,
+        "pct_harris": 46.52,
+        "pct_margin": 6.07,
+        "turnout_vs_active_pct": 62.59
+      }
+    },
+    {
+      "name": "Covington",
+      "fips": "28031",
+      "county_number": 16,
+      "voter_registration": {
+        "active_voters_nov2024": 14243,
+        "cvap_2020_estimate": 14135,
+        "registration_vs_cvap_pct": 100.764
+      },
+      "results_2024": {
+        "trump": 5869,
+        "harris": 2921,
+        "total_votes": 8861,
+        "margin": 2948,
+        "pct_trump": 66.23,
+        "pct_harris": 32.96,
+        "pct_margin": 33.27,
+        "turnout_vs_active_pct": 62.21
+      }
+    },
+    {
+      "name": "DeSoto",
+      "fips": "28033",
+      "county_number": 17,
+      "voter_registration": {
+        "active_voters_nov2024": 132609,
+        "cvap_2020_estimate": 131955,
+        "registration_vs_cvap_pct": 100.496
+      },
+      "results_2024": {
+        "trump": 48064,
+        "harris": 29023,
+        "total_votes": 79082,
+        "margin": 19041,
+        "pct_trump": 60.78,
+        "pct_harris": 36.7,
+        "pct_margin": 24.08,
+        "turnout_vs_active_pct": 59.64
+      }
+    },
+    {
+      "name": "Forrest",
+      "fips": "28035",
+      "county_number": 18,
+      "voter_registration": {
+        "active_voters_nov2024": 45098,
+        "cvap_2020_estimate": 56540,
+        "registration_vs_cvap_pct": 79.763
+      },
+      "results_2024": {
+        "trump": 16579,
+        "harris": 11475,
+        "total_votes": 28466,
+        "margin": 5104,
+        "pct_trump": 58.24,
+        "pct_harris": 40.31,
+        "pct_margin": 17.93,
+        "turnout_vs_active_pct": 63.12
+      }
+    },
+    {
+      "name": "Franklin",
+      "fips": "28037",
+      "county_number": 19,
+      "voter_registration": {
+        "active_voters_nov2024": 5890,
+        "cvap_2020_estimate": 5905,
+        "registration_vs_cvap_pct": 99.746
+      },
+      "results_2024": {
+        "trump": 2831,
+        "harris": 1213,
+        "total_votes": 4066,
+        "margin": 1618,
+        "pct_trump": 69.63,
+        "pct_harris": 29.83,
+        "pct_margin": 39.79,
+        "turnout_vs_active_pct": 69.03
+      }
+    },
+    {
+      "name": "George",
+      "fips": "28039",
+      "county_number": 20,
+      "voter_registration": {
+        "active_voters_nov2024": 16110,
+        "cvap_2020_estimate": 17430,
+        "registration_vs_cvap_pct": 92.427
+      },
+      "results_2024": {
+        "trump": 9858,
+        "harris": 1138,
+        "total_votes": 11069,
+        "margin": 8720,
+        "pct_trump": 89.06,
+        "pct_harris": 10.28,
+        "pct_margin": 78.78,
+        "turnout_vs_active_pct": 68.71
+      }
+    },
+    {
+      "name": "Greene",
+      "fips": "28041",
+      "county_number": 21,
+      "voter_registration": {
+        "active_voters_nov2024": 7869,
+        "cvap_2020_estimate": 10820,
+        "registration_vs_cvap_pct": 72.726
+      },
+      "results_2024": {
+        "trump": 4776,
+        "harris": 835,
+        "total_votes": 5649,
+        "margin": 3941,
+        "pct_trump": 84.55,
+        "pct_harris": 14.78,
+        "pct_margin": 69.76,
+        "turnout_vs_active_pct": 71.79
+      }
+    },
+    {
+      "name": "Grenada",
+      "fips": "28043",
+      "county_number": 22,
+      "voter_registration": {
+        "active_voters_nov2024": 13838,
+        "cvap_2020_estimate": 15795,
+        "registration_vs_cvap_pct": 87.61
+      },
+      "results_2024": {
+        "trump": 5651,
+        "harris": 4060,
+        "total_votes": 9766,
+        "margin": 1591,
+        "pct_trump": 57.86,
+        "pct_harris": 41.57,
+        "pct_margin": 16.29,
+        "turnout_vs_active_pct": 70.57
+      }
+    },
+    {
+      "name": "Hancock",
+      "fips": "28045",
+      "county_number": 23,
+      "voter_registration": {
+        "active_voters_nov2024": 36674,
+        "cvap_2020_estimate": 37430,
+        "registration_vs_cvap_pct": 97.98
+      },
+      "results_2024": {
+        "trump": 16684,
+        "harris": 4262,
+        "total_votes": 21175,
+        "margin": 12422,
+        "pct_trump": 78.79,
+        "pct_harris": 20.13,
+        "pct_margin": 58.66,
+        "turnout_vs_active_pct": 57.74
+      }
+    },
+    {
+      "name": "Harrison",
+      "fips": "28047",
+      "county_number": 24,
+      "voter_registration": {
+        "active_voters_nov2024": 151545,
+        "cvap_2020_estimate": 153470,
+        "registration_vs_cvap_pct": 98.746
+      },
+      "results_2024": {
+        "trump": 48497,
+        "harris": 26555,
+        "total_votes": 75923,
+        "margin": 21942,
+        "pct_trump": 63.88,
+        "pct_harris": 34.98,
+        "pct_margin": 28.9,
+        "turnout_vs_active_pct": 50.1
+      }
+    },
+    {
+      "name": "Hinds",
+      "fips": "28049",
+      "county_number": 25,
+      "voter_registration": {
+        "active_voters_nov2024": 168702,
+        "cvap_2020_estimate": 176420,
+        "registration_vs_cvap_pct": 95.625
+      },
+      "results_2024": {
+        "trump": 22816,
+        "harris": 62840,
+        "total_votes": 86830,
+        "margin": -40024,
+        "pct_trump": 26.28,
+        "pct_harris": 72.37,
+        "pct_margin": -46.09,
+        "turnout_vs_active_pct": 51.47
+      }
+    },
+    {
+      "name": "Holmes",
+      "fips": "28051",
+      "county_number": 26,
+      "voter_registration": {
+        "active_voters_nov2024": 12954,
+        "cvap_2020_estimate": 12970,
+        "registration_vs_cvap_pct": 99.877
+      },
+      "results_2024": {
+        "trump": 1243,
+        "harris": 5420,
+        "total_votes": 6730,
+        "margin": -4177,
+        "pct_trump": 18.47,
+        "pct_harris": 80.53,
+        "pct_margin": -62.07,
+        "turnout_vs_active_pct": 51.95
+      }
+    },
+    {
+      "name": "Humphreys",
+      "fips": "28053",
+      "county_number": 27,
+      "voter_registration": {
+        "active_voters_nov2024": 6445,
+        "cvap_2020_estimate": 5970,
+        "registration_vs_cvap_pct": 107.956
+      },
+      "results_2024": {
+        "trump": 990,
+        "harris": 2443,
+        "total_votes": 3468,
+        "margin": -1453,
+        "pct_trump": 28.55,
+        "pct_harris": 70.44,
+        "pct_margin": -41.9,
+        "turnout_vs_active_pct": 53.81
+      }
+    },
+    {
+      "name": "Issaquena",
+      "fips": "28055",
+      "county_number": 28,
+      "voter_registration": {
+        "active_voters_nov2024": 822,
+        "cvap_2020_estimate": 1055,
+        "registration_vs_cvap_pct": 77.915
+      },
+      "results_2024": {
+        "trump": 296,
+        "harris": 287,
+        "total_votes": 622,
+        "margin": 9,
+        "pct_trump": 47.59,
+        "pct_harris": 46.14,
+        "pct_margin": 1.45,
+        "turnout_vs_active_pct": 75.67
+      }
+    },
+    {
+      "name": "Itawamba",
+      "fips": "28057",
+      "county_number": 29,
+      "voter_registration": {
+        "active_voters_nov2024": 15120,
+        "cvap_2020_estimate": 18295,
+        "registration_vs_cvap_pct": 82.646
+      },
+      "results_2024": {
+        "trump": 9523,
+        "harris": 1027,
+        "total_votes": 10621,
+        "margin": 8496,
+        "pct_trump": 89.66,
+        "pct_harris": 9.67,
+        "pct_margin": 79.99,
+        "turnout_vs_active_pct": 70.24
+      }
+    },
+    {
+      "name": "Jackson",
+      "fips": "28059",
+      "county_number": 30,
+      "voter_registration": {
+        "active_voters_nov2024": 91341,
+        "cvap_2020_estimate": 107970,
+        "registration_vs_cvap_pct": 84.598
+      },
+      "results_2024": {
+        "trump": 36376,
+        "harris": 15469,
+        "total_votes": 52410,
+        "margin": 20907,
+        "pct_trump": 69.41,
+        "pct_harris": 29.52,
+        "pct_margin": 39.89,
+        "turnout_vs_active_pct": 57.38
+      }
+    },
+    {
+      "name": "Jasper",
+      "fips": "28061",
+      "county_number": 31,
+      "voter_registration": {
+        "active_voters_nov2024": 11028,
+        "cvap_2020_estimate": 12735,
+        "registration_vs_cvap_pct": 86.596
+      },
+      "results_2024": {
+        "trump": 4118,
+        "harris": 3722,
+        "total_votes": 7890,
+        "margin": 396,
+        "pct_trump": 52.19,
+        "pct_harris": 47.17,
+        "pct_margin": 5.02,
+        "turnout_vs_active_pct": 71.55
+      }
+    },
+    {
+      "name": "Jeff Davis",
+      "fips": "28065",
+      "county_number": 33,
+      "voter_registration": {
+        "active_voters_nov2024": 8413,
+        "cvap_2020_estimate": 8945,
+        "registration_vs_cvap_pct": 94.053
+      },
+      "results_2024": {
+        "trump": 2302,
+        "harris": 3041,
+        "total_votes": 5378,
+        "margin": -739,
+        "pct_trump": 42.8,
+        "pct_harris": 56.55,
+        "pct_margin": -13.74,
+        "turnout_vs_active_pct": 63.92
+      }
+    },
+    {
+      "name": "Jefferson",
+      "fips": "28063",
+      "county_number": 32,
+      "voter_registration": {
+        "active_voters_nov2024": 5255,
+        "cvap_2020_estimate": 5515,
+        "registration_vs_cvap_pct": 95.286
+      },
+      "results_2024": {
+        "trump": 541,
+        "harris": 2727,
+        "total_votes": 3299,
+        "margin": -2186,
+        "pct_trump": 16.4,
+        "pct_harris": 82.66,
+        "pct_margin": -66.26,
+        "turnout_vs_active_pct": 62.78
+      }
+    },
+    {
+      "name": "Jones",
+      "fips": "28067",
+      "county_number": 34,
+      "voter_registration": {
+        "active_voters_nov2024": 45407,
+        "cvap_2020_estimate": 49800,
+        "registration_vs_cvap_pct": 91.179
+      },
+      "results_2024": {
+        "trump": 20265,
+        "harris": 7272,
+        "total_votes": 27755,
+        "margin": 12993,
+        "pct_trump": 73.01,
+        "pct_harris": 26.2,
+        "pct_margin": 46.81,
+        "turnout_vs_active_pct": 61.12
+      }
+    },
+    {
+      "name": "Kemper",
+      "fips": "28069",
+      "county_number": 35,
+      "voter_registration": {
+        "active_voters_nov2024": 7042,
+        "cvap_2020_estimate": 7985,
+        "registration_vs_cvap_pct": 88.19
+      },
+      "results_2024": {
+        "trump": 1691,
+        "harris": 2381,
+        "total_votes": 4086,
+        "margin": -690,
+        "pct_trump": 41.39,
+        "pct_harris": 58.27,
+        "pct_margin": -16.89,
+        "turnout_vs_active_pct": 58.02
+      }
+    },
+    {
+      "name": "Lafayette",
+      "fips": "28071",
+      "county_number": 36,
+      "voter_registration": {
+        "active_voters_nov2024": 33665,
+        "cvap_2020_estimate": 42820,
+        "registration_vs_cvap_pct": 78.62
+      },
+      "results_2024": {
+        "trump": 14050,
+        "harris": 8956,
+        "total_votes": 23409,
+        "margin": 5094,
+        "pct_trump": 60.02,
+        "pct_harris": 38.26,
+        "pct_margin": 21.76,
+        "turnout_vs_active_pct": 69.54
+      }
+    },
+    {
+      "name": "Lamar",
+      "fips": "28073",
+      "county_number": 37,
+      "voter_registration": {
+        "active_voters_nov2024": 39440,
+        "cvap_2020_estimate": 46410,
+        "registration_vs_cvap_pct": 84.982
+      },
+      "results_2024": {
+        "trump": 20775,
+        "harris": 7038,
+        "total_votes": 28171,
+        "margin": 13737,
+        "pct_trump": 73.75,
+        "pct_harris": 24.98,
+        "pct_margin": 48.76,
+        "turnout_vs_active_pct": 71.43
+      }
+    },
+    {
+      "name": "Lauderdale",
+      "fips": "28075",
+      "county_number": 38,
+      "voter_registration": {
+        "active_voters_nov2024": 41969,
+        "cvap_2020_estimate": 57070,
+        "registration_vs_cvap_pct": 73.54
+      },
+      "results_2024": {
+        "trump": 16487,
+        "harris": 10677,
+        "total_votes": 27407,
+        "margin": 5810,
+        "pct_trump": 60.16,
+        "pct_harris": 38.96,
+        "pct_margin": 21.2,
+        "turnout_vs_active_pct": 65.3
+      }
+    },
+    {
+      "name": "Lawrence",
+      "fips": "28077",
+      "county_number": 39,
+      "voter_registration": {
+        "active_voters_nov2024": 8189,
+        "cvap_2020_estimate": 9470,
+        "registration_vs_cvap_pct": 86.473
+      },
+      "results_2024": {
+        "trump": 4113,
+        "harris": 1899,
+        "total_votes": 6053,
+        "margin": 2214,
+        "pct_trump": 67.95,
+        "pct_harris": 31.37,
+        "pct_margin": 36.58,
+        "turnout_vs_active_pct": 73.92
+      }
+    },
+    {
+      "name": "Leake",
+      "fips": "28079",
+      "county_number": 40,
+      "voter_registration": {
+        "active_voters_nov2024": 13151,
+        "cvap_2020_estimate": 16615,
+        "registration_vs_cvap_pct": 79.151
+      },
+      "results_2024": {
+        "trump": 5143,
+        "harris": 3182,
+        "total_votes": 8380,
+        "margin": 1961,
+        "pct_trump": 61.37,
+        "pct_harris": 37.97,
+        "pct_margin": 23.4,
+        "turnout_vs_active_pct": 63.72
+      }
+    },
+    {
+      "name": "Lee",
+      "fips": "28081",
+      "county_number": 41,
+      "voter_registration": {
+        "active_voters_nov2024": 52417,
+        "cvap_2020_estimate": 62660,
+        "registration_vs_cvap_pct": 83.653
+      },
+      "results_2024": {
+        "trump": 24339,
+        "harris": 10616,
+        "total_votes": 35338,
+        "margin": 13723,
+        "pct_trump": 68.87,
+        "pct_harris": 30.04,
+        "pct_margin": 38.83,
+        "turnout_vs_active_pct": 67.42
+      }
+    },
+    {
+      "name": "Leflore",
+      "fips": "28083",
+      "county_number": 42,
+      "voter_registration": {
+        "active_voters_nov2024": 19505,
+        "cvap_2020_estimate": 20625,
+        "registration_vs_cvap_pct": 94.57
+      },
+      "results_2024": {
+        "trump": 2854,
+        "harris": 6476,
+        "total_votes": 9421,
+        "margin": -3622,
+        "pct_trump": 30.29,
+        "pct_harris": 68.74,
+        "pct_margin": -38.45,
+        "turnout_vs_active_pct": 48.3
+      }
+    },
+    {
+      "name": "Lincoln",
+      "fips": "28085",
+      "county_number": 43,
+      "voter_registration": {
+        "active_voters_nov2024": 21804,
+        "cvap_2020_estimate": 26010,
+        "registration_vs_cvap_pct": 83.829
+      },
+      "results_2024": {
+        "trump": 11432,
+        "harris": 4262,
+        "total_votes": 15802,
+        "margin": 7170,
+        "pct_trump": 72.35,
+        "pct_harris": 26.97,
+        "pct_margin": 45.37,
+        "turnout_vs_active_pct": 72.47
+      }
+    },
+    {
+      "name": "Lowndes",
+      "fips": "28087",
+      "county_number": 44,
+      "voter_registration": {
+        "active_voters_nov2024": 38625,
+        "cvap_2020_estimate": 44350,
+        "registration_vs_cvap_pct": 87.091
+      },
+      "results_2024": {
+        "trump": 13087,
+        "harris": 11096,
+        "total_votes": 24426,
+        "margin": 1991,
+        "pct_trump": 53.58,
+        "pct_harris": 45.43,
+        "pct_margin": 8.15,
+        "turnout_vs_active_pct": 63.24
+      }
+    },
+    {
+      "name": "Madison",
+      "fips": "28089",
+      "county_number": 45,
+      "voter_registration": {
+        "active_voters_nov2024": 78232,
+        "cvap_2020_estimate": 77025,
+        "registration_vs_cvap_pct": 101.567
+      },
+      "results_2024": {
+        "trump": 32333,
+        "harris": 22700,
+        "total_votes": 55710,
+        "margin": 9633,
+        "pct_trump": 58.04,
+        "pct_harris": 40.75,
+        "pct_margin": 17.29,
+        "turnout_vs_active_pct": 71.21
+      }
+    },
+    {
+      "name": "Marion",
+      "fips": "28091",
+      "county_number": 46,
+      "voter_registration": {
+        "active_voters_nov2024": 16445,
+        "cvap_2020_estimate": 18910,
+        "registration_vs_cvap_pct": 86.965
+      },
+      "results_2024": {
+        "trump": 7874,
+        "harris": 3215,
+        "total_votes": 11188,
+        "margin": 4659,
+        "pct_trump": 70.38,
+        "pct_harris": 28.74,
+        "pct_margin": 41.64,
+        "turnout_vs_active_pct": 68.03
+      }
+    },
+    {
+      "name": "Marshall",
+      "fips": "28093",
+      "county_number": 47,
+      "voter_registration": {
+        "active_voters_nov2024": 25629,
+        "cvap_2020_estimate": 27615,
+        "registration_vs_cvap_pct": 92.808
+      },
+      "results_2024": {
+        "trump": 7977,
+        "harris": 6888,
+        "total_votes": 14983,
+        "margin": 1089,
+        "pct_trump": 53.24,
+        "pct_harris": 45.97,
+        "pct_margin": 7.27,
+        "turnout_vs_active_pct": 58.46
+      }
+    },
+    {
+      "name": "Monroe",
+      "fips": "28095",
+      "county_number": 48,
+      "voter_registration": {
+        "active_voters_nov2024": 23534,
+        "cvap_2020_estimate": 27470,
+        "registration_vs_cvap_pct": 85.672
+      },
+      "results_2024": {
+        "trump": 10861,
+        "harris": 5090,
+        "total_votes": 16069,
+        "margin": 5771,
+        "pct_trump": 67.59,
+        "pct_harris": 31.68,
+        "pct_margin": 35.91,
+        "turnout_vs_active_pct": 68.28
+      }
+    },
+    {
+      "name": "Montgomery",
+      "fips": "28097",
+      "county_number": 49,
+      "voter_registration": {
+        "active_voters_nov2024": 6296,
+        "cvap_2020_estimate": 7625,
+        "registration_vs_cvap_pct": 82.57
+      },
+      "results_2024": {
+        "trump": 2658,
+        "harris": 1737,
+        "total_votes": 4424,
+        "margin": 921,
+        "pct_trump": 60.08,
+        "pct_harris": 39.26,
+        "pct_margin": 20.82,
+        "turnout_vs_active_pct": 70.27
+      }
+    },
+    {
+      "name": "Neshoba",
+      "fips": "28099",
+      "county_number": 50,
+      "voter_registration": {
+        "active_voters_nov2024": 17335,
+        "cvap_2020_estimate": 20895,
+        "registration_vs_cvap_pct": 82.962
+      },
+      "results_2024": {
+        "trump": 8154,
+        "harris": 2622,
+        "total_votes": 10861,
+        "margin": 5532,
+        "pct_trump": 75.08,
+        "pct_harris": 24.14,
+        "pct_margin": 50.93,
+        "turnout_vs_active_pct": 62.65
+      }
+    },
+    {
+      "name": "Newton",
+      "fips": "28101",
+      "county_number": 51,
+      "voter_registration": {
+        "active_voters_nov2024": 13287,
+        "cvap_2020_estimate": 15920,
+        "registration_vs_cvap_pct": 83.461
+      },
+      "results_2024": {
+        "trump": 6641,
+        "harris": 2603,
+        "total_votes": 9323,
+        "margin": 4038,
+        "pct_trump": 71.23,
+        "pct_harris": 27.92,
+        "pct_margin": 43.31,
+        "turnout_vs_active_pct": 70.17
+      }
+    },
+    {
+      "name": "Noxubee",
+      "fips": "28103",
+      "county_number": 52,
+      "voter_registration": {
+        "active_voters_nov2024": 7338,
+        "cvap_2020_estimate": 7885,
+        "registration_vs_cvap_pct": 93.063
+      },
+      "results_2024": {
+        "trump": 1151,
+        "harris": 3269,
+        "total_votes": 4449,
+        "margin": -2118,
+        "pct_trump": 25.87,
+        "pct_harris": 73.48,
+        "pct_margin": -47.61,
+        "turnout_vs_active_pct": 60.63
+      }
+    },
+    {
+      "name": "Oktibbeha",
+      "fips": "28105",
+      "county_number": 53,
+      "voter_registration": {
+        "active_voters_nov2024": 28402,
+        "cvap_2020_estimate": 39355,
+        "registration_vs_cvap_pct": 72.169
+      },
+      "results_2024": {
+        "trump": 8901,
+        "harris": 8851,
+        "total_votes": 18051,
+        "margin": 50,
+        "pct_trump": 49.31,
+        "pct_harris": 49.03,
+        "pct_margin": 0.28,
+        "turnout_vs_active_pct": 63.56
+      }
+    },
+    {
+      "name": "Panola",
+      "fips": "28107",
+      "county_number": 54,
+      "voter_registration": {
+        "active_voters_nov2024": 22919,
+        "cvap_2020_estimate": 25300,
+        "registration_vs_cvap_pct": 90.589
+      },
+      "results_2024": {
+        "trump": 8202,
+        "harris": 6061,
+        "total_votes": 14422,
+        "margin": 2141,
+        "pct_trump": 56.87,
+        "pct_harris": 42.03,
+        "pct_margin": 14.85,
+        "turnout_vs_active_pct": 62.93
+      }
+    },
+    {
+      "name": "Pearl River",
+      "fips": "28109",
+      "county_number": 55,
+      "voter_registration": {
+        "active_voters_nov2024": 37812,
+        "cvap_2020_estimate": 42760,
+        "registration_vs_cvap_pct": 88.428
+      },
+      "results_2024": {
+        "trump": 20438,
+        "harris": 3982,
+        "total_votes": 24671,
+        "margin": 16456,
+        "pct_trump": 82.84,
+        "pct_harris": 16.14,
+        "pct_margin": 66.7,
+        "turnout_vs_active_pct": 65.25
+      }
+    },
+    {
+      "name": "Perry",
+      "fips": "28111",
+      "county_number": 56,
+      "voter_registration": {
+        "active_voters_nov2024": 8520,
+        "cvap_2020_estimate": 9225,
+        "registration_vs_cvap_pct": 92.358
+      },
+      "results_2024": {
+        "trump": 4425,
+        "harris": 1078,
+        "total_votes": 5539,
+        "margin": 3347,
+        "pct_trump": 79.89,
+        "pct_harris": 19.46,
+        "pct_margin": 60.43,
+        "turnout_vs_active_pct": 65.01
+      }
+    },
+    {
+      "name": "Pike",
+      "fips": "28113",
+      "county_number": 57,
+      "voter_registration": {
+        "active_voters_nov2024": 24877,
+        "cvap_2020_estimate": 28970,
+        "registration_vs_cvap_pct": 85.872
+      },
+      "results_2024": {
+        "trump": 7943,
+        "harris": 7402,
+        "total_votes": 15485,
+        "margin": 541,
+        "pct_trump": 51.29,
+        "pct_harris": 47.8,
+        "pct_margin": 3.49,
+        "turnout_vs_active_pct": 62.25
+      }
+    },
+    {
+      "name": "Pontotoc",
+      "fips": "28115",
+      "county_number": 58,
+      "voter_registration": {
+        "active_voters_nov2024": 21055,
+        "cvap_2020_estimate": 22655,
+        "registration_vs_cvap_pct": 92.938
+      },
+      "results_2024": {
+        "trump": 11740,
+        "harris": 2214,
+        "total_votes": 14068,
+        "margin": 9526,
+        "pct_trump": 83.45,
+        "pct_harris": 15.74,
+        "pct_margin": 67.71,
+        "turnout_vs_active_pct": 66.82
+      }
+    },
+    {
+      "name": "Prentiss",
+      "fips": "28117",
+      "county_number": 59,
+      "voter_registration": {
+        "active_voters_nov2024": 14657,
+        "cvap_2020_estimate": 19105,
+        "registration_vs_cvap_pct": 76.718
+      },
+      "results_2024": {
+        "trump": 8581,
+        "harris": 1727,
+        "total_votes": 10381,
+        "margin": 6854,
+        "pct_trump": 82.66,
+        "pct_harris": 16.64,
+        "pct_margin": 66.02,
+        "turnout_vs_active_pct": 70.83
+      }
+    },
+    {
+      "name": "Quitman",
+      "fips": "28119",
+      "county_number": 60,
+      "voter_registration": {
+        "active_voters_nov2024": 4573,
+        "cvap_2020_estimate": 5390,
+        "registration_vs_cvap_pct": 84.842
+      },
+      "results_2024": {
+        "trump": 902,
+        "harris": 1725,
+        "total_votes": 2677,
+        "margin": -823,
+        "pct_trump": 33.69,
+        "pct_harris": 64.44,
+        "pct_margin": -30.74,
+        "turnout_vs_active_pct": 58.54
+      }
+    },
+    {
+      "name": "Rankin",
+      "fips": "28121",
+      "county_number": 61,
+      "voter_registration": {
+        "active_voters_nov2024": 102098,
+        "cvap_2020_estimate": 116660,
+        "registration_vs_cvap_pct": 87.518
+      },
+      "results_2024": {
+        "trump": 50896,
+        "harris": 18060,
+        "total_votes": 69678,
+        "margin": 32836,
+        "pct_trump": 73.04,
+        "pct_harris": 25.92,
+        "pct_margin": 47.13,
+        "turnout_vs_active_pct": 68.25
+      }
+    },
+    {
+      "name": "Scott",
+      "fips": "28123",
+      "county_number": 62,
+      "voter_registration": {
+        "active_voters_nov2024": 14998,
+        "cvap_2020_estimate": 19590,
+        "registration_vs_cvap_pct": 76.559
+      },
+      "results_2024": {
+        "trump": 6098,
+        "harris": 3729,
+        "total_votes": 9891,
+        "margin": 2369,
+        "pct_trump": 61.65,
+        "pct_harris": 37.7,
+        "pct_margin": 23.95,
+        "turnout_vs_active_pct": 65.95
+      }
+    },
+    {
+      "name": "Sharkey",
+      "fips": "28125",
+      "county_number": 63,
+      "voter_registration": {
+        "active_voters_nov2024": 2983,
+        "cvap_2020_estimate": 3365,
+        "registration_vs_cvap_pct": 88.648
+      },
+      "results_2024": {
+        "trump": 551,
+        "harris": 1201,
+        "total_votes": 1766,
+        "margin": -650,
+        "pct_trump": 31.2,
+        "pct_harris": 68.01,
+        "pct_margin": -36.81,
+        "turnout_vs_active_pct": 59.2
+      }
+    },
+    {
+      "name": "Simpson",
+      "fips": "28127",
+      "county_number": 64,
+      "voter_registration": {
+        "active_voters_nov2024": 17079,
+        "cvap_2020_estimate": 20430,
+        "registration_vs_cvap_pct": 83.598
+      },
+      "results_2024": {
+        "trump": 7552,
+        "harris": 3479,
+        "total_votes": 11094,
+        "margin": 4073,
+        "pct_trump": 68.07,
+        "pct_harris": 31.36,
+        "pct_margin": 36.71,
+        "turnout_vs_active_pct": 64.96
+      }
+    },
+    {
+      "name": "Smith",
+      "fips": "28129",
+      "county_number": 65,
+      "voter_registration": {
+        "active_voters_nov2024": 11242,
+        "cvap_2020_estimate": 12155,
+        "registration_vs_cvap_pct": 92.489
+      },
+      "results_2024": {
+        "trump": 6146,
+        "harris": 1486,
+        "total_votes": 7676,
+        "margin": 4660,
+        "pct_trump": 80.07,
+        "pct_harris": 19.36,
+        "pct_margin": 60.71,
+        "turnout_vs_active_pct": 68.28
+      }
+    },
+    {
+      "name": "Stone",
+      "fips": "28131",
+      "county_number": 66,
+      "voter_registration": {
+        "active_voters_nov2024": 11479,
+        "cvap_2020_estimate": 14270,
+        "registration_vs_cvap_pct": 80.441
+      },
+      "results_2024": {
+        "trump": 6214,
+        "harris": 1620,
+        "total_votes": 7919,
+        "margin": 4594,
+        "pct_trump": 78.47,
+        "pct_harris": 20.46,
+        "pct_margin": 58.01,
+        "turnout_vs_active_pct": 68.99
+      }
+    },
+    {
+      "name": "Sunflower",
+      "fips": "28133",
+      "county_number": 67,
+      "voter_registration": {
+        "active_voters_nov2024": 12021,
+        "cvap_2020_estimate": 20040,
+        "registration_vs_cvap_pct": 59.985
+      },
+      "results_2024": {
+        "trump": 2515,
+        "harris": 5312,
+        "total_votes": 7876,
+        "margin": -2797,
+        "pct_trump": 31.93,
+        "pct_harris": 67.45,
+        "pct_margin": -35.51,
+        "turnout_vs_active_pct": 65.52
+      }
+    },
+    {
+      "name": "Tallahatchie",
+      "fips": "28135",
+      "county_number": 68,
+      "voter_registration": {
+        "active_voters_nov2024": 9681,
+        "cvap_2020_estimate": 11060,
+        "registration_vs_cvap_pct": 87.532
+      },
+      "results_2024": {
+        "trump": 2333,
+        "harris": 2630,
+        "total_votes": 5012,
+        "margin": -297,
+        "pct_trump": 46.55,
+        "pct_harris": 52.47,
+        "pct_margin": -5.93,
+        "turnout_vs_active_pct": 51.77
+      }
+    },
+    {
+      "name": "Tate",
+      "fips": "28137",
+      "county_number": 69,
+      "voter_registration": {
+        "active_voters_nov2024": 18930,
+        "cvap_2020_estimate": 21645,
+        "registration_vs_cvap_pct": 87.457
+      },
+      "results_2024": {
+        "trump": 9185,
+        "harris": 3555,
+        "total_votes": 12861,
+        "margin": 5630,
+        "pct_trump": 71.42,
+        "pct_harris": 27.64,
+        "pct_margin": 43.78,
+        "turnout_vs_active_pct": 67.94
+      }
+    },
+    {
+      "name": "Tippah",
+      "fips": "28139",
+      "county_number": 70,
+      "voter_registration": {
+        "active_voters_nov2024": 13973,
+        "cvap_2020_estimate": 16465,
+        "registration_vs_cvap_pct": 84.865
+      },
+      "results_2024": {
+        "trump": 7984,
+        "harris": 1547,
+        "total_votes": 9591,
+        "margin": 6437,
+        "pct_trump": 83.24,
+        "pct_harris": 16.13,
+        "pct_margin": 67.12,
+        "turnout_vs_active_pct": 68.64
+      }
+    },
+    {
+      "name": "Tishomingo",
+      "fips": "28141",
+      "county_number": 71,
+      "voter_registration": {
+        "active_voters_nov2024": 13407,
+        "cvap_2020_estimate": 14930,
+        "registration_vs_cvap_pct": 89.799
+      },
+      "results_2024": {
+        "trump": 8064,
+        "harris": 921,
+        "total_votes": 9050,
+        "margin": 7143,
+        "pct_trump": 89.1,
+        "pct_harris": 10.18,
+        "pct_margin": 78.93,
+        "turnout_vs_active_pct": 67.5
+      }
+    },
+    {
+      "name": "Tunica",
+      "fips": "28143",
+      "county_number": 72,
+      "voter_registration": {
+        "active_voters_nov2024": 5913,
+        "cvap_2020_estimate": 6920,
+        "registration_vs_cvap_pct": 85.448
+      },
+      "results_2024": {
+        "trump": 799,
+        "harris": 1837,
+        "total_votes": 2668,
+        "margin": -1038,
+        "pct_trump": 29.95,
+        "pct_harris": 68.85,
+        "pct_margin": -38.91,
+        "turnout_vs_active_pct": 45.12
+      }
+    },
+    {
+      "name": "Union",
+      "fips": "28145",
+      "county_number": 73,
+      "voter_registration": {
+        "active_voters_nov2024": 17253,
+        "cvap_2020_estimate": 20855,
+        "registration_vs_cvap_pct": 82.728
+      },
+      "results_2024": {
+        "trump": 10559,
+        "harris": 1807,
+        "total_votes": 12478,
+        "margin": 8752,
+        "pct_trump": 84.62,
+        "pct_harris": 14.48,
+        "pct_margin": 70.14,
+        "turnout_vs_active_pct": 72.32
+      }
+    },
+    {
+      "name": "Walthall",
+      "fips": "28147",
+      "county_number": 74,
+      "voter_registration": {
+        "active_voters_nov2024": 10389,
+        "cvap_2020_estimate": 11030,
+        "registration_vs_cvap_pct": 94.189
+      },
+      "results_2024": {
+        "trump": 4114,
+        "harris": 2355,
+        "total_votes": 6529,
+        "margin": 1759,
+        "pct_trump": 63.01,
+        "pct_harris": 36.07,
+        "pct_margin": 26.94,
+        "turnout_vs_active_pct": 62.85
+      }
+    },
+    {
+      "name": "Warren",
+      "fips": "28149",
+      "county_number": 75,
+      "voter_registration": {
+        "active_voters_nov2024": 25886,
+        "cvap_2020_estimate": 34695,
+        "registration_vs_cvap_pct": 74.61
+      },
+      "results_2024": {
+        "trump": 9407,
+        "harris": 8683,
+        "total_votes": 18298,
+        "margin": 724,
+        "pct_trump": 51.41,
+        "pct_harris": 47.45,
+        "pct_margin": 3.96,
+        "turnout_vs_active_pct": 70.69
+      }
+    },
+    {
+      "name": "Washington",
+      "fips": "28151",
+      "county_number": 76,
+      "voter_registration": {
+        "active_voters_nov2024": 27226,
+        "cvap_2020_estimate": 33330,
+        "registration_vs_cvap_pct": 81.686
+      },
+      "results_2024": {
+        "trump": 4649,
+        "harris": 9735,
+        "total_votes": 14540,
+        "margin": -5086,
+        "pct_trump": 31.97,
+        "pct_harris": 66.95,
+        "pct_margin": -34.98,
+        "turnout_vs_active_pct": 53.4
+      }
+    },
+    {
+      "name": "Wayne",
+      "fips": "28153",
+      "county_number": 77,
+      "voter_registration": {
+        "active_voters_nov2024": 13449,
+        "cvap_2020_estimate": 15120,
+        "registration_vs_cvap_pct": 88.948
+      },
+      "results_2024": {
+        "trump": 6013,
+        "harris": 3028,
+        "total_votes": 9119,
+        "margin": 2985,
+        "pct_trump": 65.94,
+        "pct_harris": 33.21,
+        "pct_margin": 32.73,
+        "turnout_vs_active_pct": 67.8
+      }
+    },
+    {
+      "name": "Webster",
+      "fips": "28155",
+      "county_number": 78,
+      "voter_registration": {
+        "active_voters_nov2024": 6593,
+        "cvap_2020_estimate": 7420,
+        "registration_vs_cvap_pct": 88.854
+      },
+      "results_2024": {
+        "trump": 4195,
+        "harris": 872,
+        "total_votes": 5095,
+        "margin": 3323,
+        "pct_trump": 82.34,
+        "pct_harris": 17.11,
+        "pct_margin": 65.22,
+        "turnout_vs_active_pct": 77.28
+      }
+    },
+    {
+      "name": "Wilkinson",
+      "fips": "28157",
+      "county_number": 79,
+      "voter_registration": {
+        "active_voters_nov2024": 6339,
+        "cvap_2020_estimate": 6875,
+        "registration_vs_cvap_pct": 92.204
+      },
+      "results_2024": {
+        "trump": 1075,
+        "harris": 1817,
+        "total_votes": 2931,
+        "margin": -742,
+        "pct_trump": 36.68,
+        "pct_harris": 61.99,
+        "pct_margin": -25.32,
+        "turnout_vs_active_pct": 46.24
+      }
+    },
+    {
+      "name": "Winston",
+      "fips": "28159",
+      "county_number": 80,
+      "voter_registration": {
+        "active_voters_nov2024": 11638,
+        "cvap_2020_estimate": 13990,
+        "registration_vs_cvap_pct": 83.188
+      },
+      "results_2024": {
+        "trump": 4922,
+        "harris": 3392,
+        "total_votes": 8384,
+        "margin": 1530,
+        "pct_trump": 58.71,
+        "pct_harris": 40.46,
+        "pct_margin": 18.25,
+        "turnout_vs_active_pct": 72.04
+      }
+    },
+    {
+      "name": "Yalobusha",
+      "fips": "28161",
+      "county_number": 81,
+      "voter_registration": {
+        "active_voters_nov2024": 8279,
+        "cvap_2020_estimate": 9520,
+        "registration_vs_cvap_pct": 86.964
+      },
+      "results_2024": {
+        "trump": 3518,
+        "harris": 2289,
+        "total_votes": 5878,
+        "margin": 1229,
+        "pct_trump": 59.85,
+        "pct_harris": 38.94,
+        "pct_margin": 20.91,
+        "turnout_vs_active_pct": 71.0
+      }
+    },
+    {
+      "name": "Yazoo",
+      "fips": "28163",
+      "county_number": 82,
+      "voter_registration": {
+        "active_voters_nov2024": 19000,
+        "cvap_2020_estimate": 20830,
+        "registration_vs_cvap_pct": 91.215
+      },
+      "results_2024": {
+        "trump": 4558,
+        "harris": 4342,
+        "total_votes": 8971,
+        "margin": 216,
+        "pct_trump": 50.81,
+        "pct_harris": 48.4,
+        "pct_margin": 2.41,
+        "turnout_vs_active_pct": 47.22
+      }
+    }
+  ]
+}

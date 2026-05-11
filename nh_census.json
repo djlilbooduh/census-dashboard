@@ -1,0 +1,849 @@
+{
+  "cities": {
+    "Manchester city, New Hampshire": {
+      "state": "NH",
+      "fips": "3345140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 115415,
+        "voting_age": 94864,
+        "voting_age_pct": 82.19
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 84014,
+          "pct": 72.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5396,
+          "pct": 4.68
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 75,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5265,
+          "pct": 4.56
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 24,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 534,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4585,
+          "pct": 3.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 15522,
+          "pct": 13.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 77415,
+        "poverty_count": 2759,
+        "poverty_pct": 2.39
+      },
+      "education": {
+        "bachelors_or_higher": 27972,
+        "bachelors_only": 18837,
+        "masters": 7352,
+        "professional": 1063,
+        "doctorate": 720
+      }
+    },
+    "Nashua city, New Hampshire": {
+      "state": "NH",
+      "fips": "3350260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 91131,
+        "voting_age": 73866,
+        "voting_age_pct": 81.05
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 65072,
+          "pct": 71.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2207,
+          "pct": 2.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 75,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6925,
+          "pct": 7.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 254,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3813,
+          "pct": 4.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12785,
+          "pct": 14.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 92457,
+        "poverty_count": 1340,
+        "poverty_pct": 1.47
+      },
+      "education": {
+        "bachelors_or_higher": 26892,
+        "bachelors_only": 17081,
+        "masters": 7934,
+        "professional": 879,
+        "doctorate": 998
+      }
+    },
+    "Concord city, New Hampshire": {
+      "state": "NH",
+      "fips": "3314200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 44219,
+        "voting_age": 36462,
+        "voting_age_pct": 82.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37859,
+          "pct": 85.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1577,
+          "pct": 3.57
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 91,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1436,
+          "pct": 3.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 130,
+          "pct": 0.29
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1439,
+          "pct": 3.25
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1687,
+          "pct": 3.82
+        }
+      ],
+      "economics": {
+        "median_household_income": 83701,
+        "poverty_count": 734,
+        "poverty_pct": 1.66
+      },
+      "education": {
+        "bachelors_or_higher": 13347,
+        "bachelors_only": 7540,
+        "masters": 4247,
+        "professional": 1081,
+        "doctorate": 479
+      }
+    },
+    "Dover city, New Hampshire": {
+      "state": "NH",
+      "fips": "3318820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 33070,
+        "voting_age": 27531,
+        "voting_age_pct": 83.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 28360,
+          "pct": 85.76
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 381,
+          "pct": 1.15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1100,
+          "pct": 3.33
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 232,
+          "pct": 0.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1768,
+          "pct": 5.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1229,
+          "pct": 3.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 92748,
+        "poverty_count": 262,
+        "poverty_pct": 0.79
+      },
+      "education": {
+        "bachelors_or_higher": 11718,
+        "bachelors_only": 7463,
+        "masters": 3600,
+        "professional": 395,
+        "doctorate": 260
+      }
+    },
+    "Rochester city, New Hampshire": {
+      "state": "NH",
+      "fips": "3365140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 32866,
+        "voting_age": 26780,
+        "voting_age_pct": 81.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30322,
+          "pct": 92.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 270,
+          "pct": 0.82
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 584,
+          "pct": 1.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 26,
+          "pct": 0.08
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1109,
+          "pct": 3.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 555,
+          "pct": 1.69
+        }
+      ],
+      "economics": {
+        "median_household_income": 79388,
+        "poverty_count": 305,
+        "poverty_pct": 0.93
+      },
+      "education": {
+        "bachelors_or_higher": 6384,
+        "bachelors_only": 4641,
+        "masters": 1357,
+        "professional": 224,
+        "doctorate": 162
+      }
+    },
+    "Keene city, New Hampshire": {
+      "state": "NH",
+      "fips": "3339300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 22923,
+        "voting_age": 19563,
+        "voting_age_pct": 85.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 21015,
+          "pct": 91.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 350,
+          "pct": 1.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 22,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 125,
+          "pct": 0.55
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 65,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 805,
+          "pct": 3.51
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 536,
+          "pct": 2.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 78183,
+        "poverty_count": 167,
+        "poverty_pct": 0.73
+      },
+      "education": {
+        "bachelors_or_higher": 6694,
+        "bachelors_only": 4264,
+        "masters": 1848,
+        "professional": 266,
+        "doctorate": 316
+      }
+    },
+    "Portsmouth city, New Hampshire": {
+      "state": "NH",
+      "fips": "3362900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 22332,
+        "voting_age": 19017,
+        "voting_age_pct": 85.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19357,
+          "pct": 86.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 164,
+          "pct": 0.73
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 875,
+          "pct": 3.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 11,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 367,
+          "pct": 1.64
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 765,
+          "pct": 3.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 785,
+          "pct": 3.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 105756,
+        "poverty_count": 225,
+        "poverty_pct": 1.01
+      },
+      "education": {
+        "bachelors_or_higher": 10997,
+        "bachelors_only": 7237,
+        "masters": 2803,
+        "professional": 529,
+        "doctorate": 428
+      }
+    },
+    "Laconia city, New Hampshire": {
+      "state": "NH",
+      "fips": "3340180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16982,
+        "voting_age": 13953,
+        "voting_age_pct": 82.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15356,
+          "pct": 90.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 249,
+          "pct": 1.47
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 265,
+          "pct": 1.56
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 557,
+          "pct": 3.28
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 541,
+          "pct": 3.19
+        }
+      ],
+      "economics": {
+        "median_household_income": 68427,
+        "poverty_count": 420,
+        "poverty_pct": 2.47
+      },
+      "education": {
+        "bachelors_or_higher": 3267,
+        "bachelors_only": 2192,
+        "masters": 856,
+        "professional": 182,
+        "doctorate": 37
+      }
+    },
+    "Lebanon city, New Hampshire": {
+      "state": "NH",
+      "fips": "3341300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14759,
+        "voting_age": 12685,
+        "voting_age_pct": 85.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12548,
+          "pct": 85.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 95,
+          "pct": 0.64
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1090,
+          "pct": 7.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 130,
+          "pct": 0.88
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 546,
+          "pct": 3.7
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 345,
+          "pct": 2.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 92288,
+        "poverty_count": 160,
+        "poverty_pct": 1.08
+      },
+      "education": {
+        "bachelors_or_higher": 6358,
+        "bachelors_only": 2906,
+        "masters": 1849,
+        "professional": 578,
+        "doctorate": 1025
+      }
+    },
+    "Claremont city, New Hampshire": {
+      "state": "NH",
+      "fips": "3312900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13054,
+        "voting_age": 10535,
+        "voting_age_pct": 80.7
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11365,
+          "pct": 87.06
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 175,
+          "pct": 1.34
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 46,
+          "pct": 0.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 799,
+          "pct": 6.12
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 669,
+          "pct": 5.12
+        }
+      ],
+      "economics": {
+        "median_household_income": 54520,
+        "poverty_count": 578,
+        "poverty_pct": 4.43
+      },
+      "education": {
+        "bachelors_or_higher": 1923,
+        "bachelors_only": 1360,
+        "masters": 466,
+        "professional": 38,
+        "doctorate": 59
+      }
+    },
+    "Somersworth city, New Hampshire": {
+      "state": "NH",
+      "fips": "3369940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12060,
+        "voting_age": 9769,
+        "voting_age_pct": 81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9947,
+          "pct": 82.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 319,
+          "pct": 2.65
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 345,
+          "pct": 2.86
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 55,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 691,
+          "pct": 5.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 697,
+          "pct": 5.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 79677,
+        "poverty_count": 303,
+        "poverty_pct": 2.51
+      },
+      "education": {
+        "bachelors_or_higher": 2585,
+        "bachelors_only": 1784,
+        "masters": 715,
+        "professional": 30,
+        "doctorate": 56
+      }
+    },
+    "Berlin city, New Hampshire": {
+      "state": "NH",
+      "fips": "3305140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9473,
+        "voting_age": 7839,
+        "voting_age_pct": 82.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8142,
+          "pct": 85.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 424,
+          "pct": 4.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 19,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 22,
+          "pct": 0.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.08
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 368,
+          "pct": 3.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 490,
+          "pct": 5.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 43972,
+        "poverty_count": 272,
+        "poverty_pct": 2.87
+      },
+      "education": {
+        "bachelors_or_higher": 1034,
+        "bachelors_only": 664,
+        "masters": 230,
+        "professional": 80,
+        "doctorate": 60
+      }
+    },
+    "Franklin city, New Hampshire": {
+      "state": "NH",
+      "fips": "3327380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8757,
+        "voting_age": 7224,
+        "voting_age_pct": 82.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8252,
+          "pct": 94.23
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 0.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 0.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 61,
+          "pct": 0.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 396,
+          "pct": 4.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 69870,
+        "poverty_count": 93,
+        "poverty_pct": 1.06
+      },
+      "education": {
+        "bachelors_or_higher": 1252,
+        "bachelors_only": 630,
+        "masters": 570,
+        "professional": 33,
+        "doctorate": 19
+      }
+    }
+  }
+}

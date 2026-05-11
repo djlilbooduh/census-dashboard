@@ -1,0 +1,160 @@
+{
+  "state": "Delaware",
+  "state_fips": "10",
+  "electoral_votes": 3,
+  "source_presidential": "Wikipedia - 2024 United States presidential election in Delaware",
+  "source_registration": "Delaware Department of Elections - Voter Registration Totals by Political Party (Nov 1, 2024)",
+  "source_date_registration": "2024-11-01",
+  "statewide": {
+    "presidential": {
+      "harris": 289758,
+      "harris_pct": 56.49,
+      "trump": 214351,
+      "trump_pct": 41.79,
+      "other": 8803,
+      "other_pct": 1.72,
+      "total_votes": 512912
+    },
+    "registration": {
+      "democratic": 354417,
+      "republican": 208948,
+      "other": 227590,
+      "total": 790955
+    },
+    "registered_turnout_pct": 64.85,
+    "wikipedia_turnout_pct": 65.74,
+    "note": "Wikipedia turnout likely uses VEP (voting-eligible population) rather than registered voters"
+  },
+  "counties": {
+    "New Castle": {
+      "name": "New Castle",
+      "fips": "10003",
+      "seat": "Wilmington",
+      "seat_fips": "1077580",
+      "registration": {
+        "democratic": 225905,
+        "republican": 88140,
+        "other": 124920,
+        "total": 438965,
+        "dem_pct": 51.46,
+        "rep_pct": 20.08,
+        "other_pct": 28.46
+      },
+      "presidential": {
+        "harris": 180700,
+        "harris_pct": 65.27,
+        "trump": 90868,
+        "trump_pct": 32.82,
+        "other": 5291,
+        "other_pct": 1.91,
+        "total_votes": 276859
+      },
+      "turnout_pct": 63.07,
+      "margin": {
+        "winner": "Harris",
+        "margin_votes": 89832,
+        "margin_pct": 32.45
+      }
+    },
+    "Kent": {
+      "name": "Kent",
+      "fips": "10001",
+      "seat": "Dover",
+      "seat_fips": "1021200",
+      "registration": {
+        "democratic": 58330,
+        "republican": 40642,
+        "other": 44750,
+        "total": 143722,
+        "dem_pct": 40.59,
+        "rep_pct": 28.28,
+        "other_pct": 31.14
+      },
+      "presidential": {
+        "harris": 44222,
+        "harris_pct": 50.09,
+        "trump": 42458,
+        "trump_pct": 48.09,
+        "other": 1609,
+        "other_pct": 1.82,
+        "total_votes": 88289
+      },
+      "turnout_pct": 61.43,
+      "margin": {
+        "winner": "Harris",
+        "margin_votes": 1764,
+        "margin_pct": 2.0
+      }
+    },
+    "Sussex": {
+      "name": "Sussex",
+      "fips": "10005",
+      "seat": "Georgetown",
+      "seat_fips": "1029090",
+      "registration": {
+        "democratic": 70182,
+        "republican": 80166,
+        "other": 57920,
+        "total": 208268,
+        "dem_pct": 33.7,
+        "rep_pct": 38.49,
+        "other_pct": 27.81
+      },
+      "presidential": {
+        "harris": 64836,
+        "harris_pct": 43.88,
+        "trump": 81025,
+        "trump_pct": 54.83,
+        "other": 1903,
+        "other_pct": 1.29,
+        "total_votes": 147764
+      },
+      "turnout_pct": 70.95,
+      "margin": {
+        "winner": "Trump",
+        "margin_votes": 16189,
+        "margin_pct": 10.95
+      }
+    }
+  },
+  "validation_cities": {
+    "New Castle (Wilmington)": {
+      "seat": "Wilmington",
+      "seat_population_2023": 71124,
+      "county_population_2025_est": 588026,
+      "county_population_2020": 570719,
+      "demographic_note": "Majority-minority county. 51.6% Black plurality in Wilmington city. Highest population & density in DE.",
+      "presidential": {
+        "winner": "Harris (D)",
+        "margin": "D+32.45",
+        "turnout_vs_reg": 63.07,
+        "note": "Solidly Democratic urban/suburban county"
+      },
+      "registration": {
+        "democratic": 225905,
+        "republican": 88140,
+        "other": 124920,
+        "total": 438965,
+        "dem_advantage": 31.38
+      }
+    },
+    "Kent (Dover)": {
+      "seat": "Dover",
+      "seat_population_2023": 39491,
+      "population_note": "Dover is state capital. County is bellwether - last voted for losing candidate in 1924.",
+      "presidential": {
+        "winner": "Harris (D)",
+        "margin": "D+2.00",
+        "turnout_vs_reg": 61.43,
+        "note": "Bellwether county. Harris won by only 1,764 votes despite losing nationally. First time since 1992 Kent voted for losing candidate."
+      },
+      "registration": {
+        "democratic": 58330,
+        "republican": 40642,
+        "other": 44750,
+        "total": 143722,
+        "dem_advantage": 12.31
+      }
+    }
+  }
+}

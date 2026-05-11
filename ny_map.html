@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📍 US Census — New York City Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {--bg:#0a0a10;--sf:#141420;--bd:#1e1e3a;--tx:#e0e0f0;--mu:#8888aa;--ac:#4fc3f7;--sc:#ff5252;--cf:#ffab40;--uc:#66bb6a;--pl:#ce93d8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden}
+body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--tx);display:flex;flex-direction:column}
+#topbar{background:linear-gradient(135deg,#0d1b2a,#1b2838,#0d1b2a);border-bottom:1px solid #1a1a3a;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:space-between;z-index:1000;flex-shrink:0}
+#topbar h1{font-size:1.2rem;color:var(--ac);display:flex;align-items:center;gap:0.4rem}
+#topbar .nav-link{color:var(--mu);text-decoration:none;font-size:0.78rem;padding:0.35rem 0.9rem;border:1px solid var(--bd);border-radius:5px;transition:all 0.15s;background:var(--sf)}
+#topbar .nav-link:hover{color:var(--ac);border-color:var(--ac);background:rgba(79,195,247,0.08)}
+#map{flex:1;width:100%;background:var(--bg)}
+#legend{position:absolute;bottom:28px;right:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:12px 16px;z-index:900;font-size:0.72rem;backdrop-filter:blur(8px)}
+#legend h3{color:var(--ac);font-size:0.72rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.legend-label{color:var(--mu)}
+#info-panel{position:absolute;bottom:28px;left:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;z-index:900;font-size:0.7rem;color:var(--mu);backdrop-filter:blur(8px)}
+.leaflet-popup-content-wrapper{background:rgba(20,20,32,0.96)!important;border:1px solid var(--bd)!important;border-radius:10px!important;color:var(--tx)!important;backdrop-filter:blur(10px)}
+.leaflet-popup-content{margin:0;min-width:220px}
+.leaflet-popup-tip{background:rgba(20,20,32,0.96)!important}
+.popup-card{padding:10px 0}
+.popup-header{font-size:0.95rem;font-weight:700;color:var(--ac);margin-bottom:2px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.popup-stat{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:0.74rem;padding:3px 0}
+.popup-stat-label{color:var(--mu);font-size:0.7rem}
+.popup-stat-val{font-weight:600;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-vote-bar{margin-top:6px}
+.popup-vote-labels{display:flex;justify-content:space-between;font-size:0.66rem;margin-bottom:3px}
+.popup-vote-labels .dem-label{color:#4fc3f7}
+.popup-vote-labels .gop-label{color:#ff5252}
+.popup-bar-track{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden;display:flex;margin-bottom:2px}
+.popup-bar-dem{background:#4fc3f7;height:100%;border-radius:3px 0 0 3px}
+.popup-bar-gop{background:#ff5252;height:100%;border-radius:0 3px 3px 0}
+.popup-lean{text-align:right;font-size:0.7rem;font-weight:700;margin-top:4px;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-lean.lean-D{color:#4fc3f7}.popup-lean.lean-R{color:#ff5252}
+.popup-lean.lean-lean-D{color:#81d4fa}.popup-lean.lean-lean-R{color:#ff8a80}
+.popup-link-btn{display:block;text-align:center;margin-top:8px;padding:6px 10px;background:rgba(79,195,247,0.12);border:1px solid rgba(79,195,247,0.3);border-radius:6px;color:var(--ac);text-decoration:none;font-size:0.72rem;font-weight:600;transition:all 0.15s}
+.popup-link-btn:hover{background:rgba(79,195,247,0.22);border-color:var(--ac);color:#fff}
+#map-search{background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:0.3rem 0.7rem;border-radius:5px;font-size:0.72rem;outline:none;width:160px;transition:border-color 0.15s}
+#map-search:focus{border-color:var(--ac)}
+#map-search::placeholder{color:var(--mu)}
+#map-search-clear{background:none;border:none;color:var(--mu);cursor:pointer;font-size:0.85rem;padding:0 2px 0 6px;display:none}
+#map-search-clear.visible{display:inline}
+#map-search-clear:hover{color:var(--sc)}
+#filter-toggle{position:absolute;top:12px;right:12px;z-index:950;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:8px;color:var(--ac);padding:0.45rem 0.85rem;font-size:0.72rem;font-family:inherit;cursor:pointer;backdrop-filter:blur(8px);transition:all 0.15s;display:flex;align-items:center;gap:6px;font-weight:600}
+#filter-toggle:hover{background:rgba(20,20,40,0.95);border-color:var(--ac)}
+#filter-toggle .arrow{transition:transform 0.2s;font-size:0.6rem}
+#filter-panel{position:absolute;top:52px;right:12px;z-index:940;background:rgba(10,10,16,0.94);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;backdrop-filter:blur(10px);font-size:0.7rem;color:var(--tx);width:270px;transition:all 0.25s ease;overflow:hidden}
+#filter-panel.collapsed{opacity:0;pointer-events:none;transform:translateX(20px);max-height:0;padding-top:0;padding-bottom:0;margin:0;border-width:0}
+#filter-panel h3{font-size:0.72rem;color:var(--ac);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.filter-group{margin-bottom:12px}
+.filter-group:last-of-type{margin-bottom:10px}
+.filter-label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.filter-label .name{font-weight:600;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.3px;color:var(--mu)}
+.filter-label .range-val{font-family:'SF Mono','Cascadia Code',monospace;font-size:0.68rem;color:var(--ac);font-weight:600}
+.dual-range{position:relative;height:24px;margin:2px 0}
+.dual-range .track-bg{position:absolute;top:10px;left:0;right:0;height:4px;background:rgba(255,255,255,0.08);border-radius:2px}
+.dual-range .track-active{position:absolute;top:10px;height:4px;background:var(--ac);border-radius:2px}
+.dual-range input[type=range]{position:absolute;top:0;width:100%;height:24px;-webkit-appearance:none;background:transparent;pointer-events:none;margin:0}
+.dual-range input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--ac);border:2px solid var(--sf);cursor:pointer;pointer-events:auto;box-shadow:0 0 6px rgba(79,195,247,0.4)}
+.filter-btn{display:block;width:100%;margin-top:8px;padding:6px;background:rgba(79,195,247,0.15);border:1px solid var(--bd);border-radius:5px;color:var(--mu);font-size:0.68rem;cursor:pointer;transition:all 0.15s}
+.filter-btn:hover{color:var(--ac);border-color:var(--ac)}
+</style>
+</head>
+<body>
+<div id="topbar">
+<h1>📍 New York</h1>
+<div style="display:flex;align-items:center;gap:10px">
+<input type="text" id="map-search" placeholder="🔍 Search cities..."/>
+<button id="map-search-clear">✕</button>
+<a class="nav-link" href="census_dashboard.html">📊 Census Dashboard</a>
+</div>
+</div>
+<div id="map"></div>
+<div id="legend">
+<h3>Political Lean</h3>
+<div class="legend-row"><div class="legend-dot" style="background:#4fc3f7"></div><span class="legend-label">Democrat</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#81d4fa"></div><span class="legend-label">Lean Dem</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ce93d8"></div><span class="legend-label">Swing</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff8a80"></div><span class="legend-label">Lean GOP</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff5252"></div><span class="legend-label">Republican</span></div>
+</div>
+<div id="info-panel">
+<span id="city-count">62 cities</span>
+<span style="margin:0 6px;opacity:0.3">|</span>
+<span id="visible-count">62 visible</span>
+</div>
+<button id="filter-toggle">⚙ Filters <span class="arrow">▼</span></button>
+<div id="filter-panel" class="collapsed">
+<h3>Filters <span id="filter-reset" style="cursor:pointer;font-size:0.65rem;color:var(--mu)">Reset</span></h3>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Population</span><span class="range-val" id="pop-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="pop-track"></div>
+<input type="range" id="pop-min" min="0" max="100" value="0" step="1">
+<input type="range" id="pop-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Income</span><span class="range-val" id="income-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="income-track"></div>
+<input type="range" id="income-min" min="0" max="100" value="0" step="1">
+<input type="range" id="income-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Lean (D+ / R+)</span><span class="range-val" id="lean-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="lean-track"></div>
+<input type="range" id="lean-min" min="-100" max="100" value="-100" step="1">
+<input type="range" id="lean-max" min="-100" max="100" value="100" step="1">
+</div></div>
+<button class="filter-btn" id="filter-reset-btn">↺ Reset All Filters</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CITIES=[{"name":"New York city, New York, NY","lat":40.662712,"lng":-73.938677,"population":8516202,"income":79713,"county":"Kings","lean":"D","dem_pct_2024":70.4,"gop_pct_2024":27.4,"county_fips":"36047"},{"name":"Buffalo city, New York, NY","lat":42.892492,"lng":-78.859686,"population":276397,"income":48050,"county":"Erie","lean":"lean-D","dem_pct_2024":54.1,"gop_pct_2024":44.5,"county_fips":"36029"},{"name":"Rochester city, New York, NY","lat":43.169927,"lng":-77.616891,"population":209720,"income":46628,"county":"Monroe","lean":"D","dem_pct_2024":58.9,"gop_pct_2024":40.0,"county_fips":"36055"},{"name":"Yonkers city, New York, NY","lat":40.945862,"lng":-73.867446,"population":209529,"income":81816,"county":"Bronx","lean":"D","dem_pct_2024":71.9,"gop_pct_2024":27.0,"county_fips":"36005"},{"name":"Syracuse city, New York, NY","lat":43.040998,"lng":-76.143554,"population":146211,"income":45845,"county":"Onondaga","lean":"D","dem_pct_2024":57.9,"gop_pct_2024":40.8,"county_fips":"36067"},{"name":"Albany city, New York, NY","lat":42.665745,"lng":-73.798353,"population":100081,"income":59485,"county":"Albany","lean":"D","dem_pct_2024":61.9,"gop_pct_2024":36.5,"county_fips":"36001"},{"name":"New Rochelle city, New York, NY","lat":40.923243,"lng":-73.779344,"population":81591,"income":103813,"county":"Bronx","lean":"D","dem_pct_2024":71.9,"gop_pct_2024":27.0,"county_fips":"36005"},{"name":"Mount Vernon city, New York, NY","lat":40.913105,"lng":-73.829317,"population":72528,"income":77171,"county":"Bronx","lean":"D","dem_pct_2024":71.9,"gop_pct_2024":27.0,"county_fips":"36005"},{"name":"Schenectady city, New York, NY","lat":42.802641,"lng":-73.9272,"population":68521,"income":56398,"county":"Schenectady","lean":"lean-D","dem_pct_2024":54.7,"gop_pct_2024":44.0,"county_fips":"36093"},{"name":"Utica city, New York, NY","lat":43.096382,"lng":-75.225983,"population":64440,"income":51513,"county":"Oneida","lean":"R","dem_pct_2024":39.1,"gop_pct_2024":60.2,"county_fips":"36065"},{"name":"White Plains city, New York, NY","lat":41.0238,"lng":-73.751048,"population":59818,"income":115586,"county":"Westchester","lean":"D","dem_pct_2024":62.8,"gop_pct_2024":36.6,"county_fips":"36119"},{"name":"Troy city, New York, NY","lat":42.735812,"lng":-73.675321,"population":51054,"income":57688,"county":"Rensselaer","lean":"swing","dem_pct_2024":50.1,"gop_pct_2024":48.8,"county_fips":"36083"},{"name":"Niagara Falls city, New York, NY","lat":43.092841,"lng":-79.014743,"population":48198,"income":48535,"county":"Niagara","lean":"lean-R","dem_pct_2024":42.2,"gop_pct_2024":57.0,"county_fips":"36063"},{"name":"Binghamton city, New York, NY","lat":42.101331,"lng":-75.909369,"population":47357,"income":44331,"county":"Broome","lean":"swing","dem_pct_2024":49.6,"gop_pct_2024":49.2,"county_fips":"36007"},{"name":"Long Beach city, New York, NY","lat":40.585835,"lng":-73.665403,"population":34741,"income":130795,"county":"Queens","lean":"D","dem_pct_2024":61.1,"gop_pct_2024":37.0,"county_fips":"36081"},{"name":"Rome city, New York, NY","lat":43.226002,"lng":-75.489523,"population":31795,"income":58857,"county":"Oneida","lean":"R","dem_pct_2024":39.1,"gop_pct_2024":60.2,"county_fips":"36065"},{"name":"Ithaca city, New York, NY","lat":42.443937,"lng":-76.503055,"population":31792,"income":48617,"county":"Tompkins","lean":"D","dem_pct_2024":73.8,"gop_pct_2024":24.2,"county_fips":"36109"},{"name":"Poughkeepsie city, New York, NY","lat":41.694595,"lng":-73.919869,"population":31778,"income":60050,"county":"Dutchess","lean":"lean-D","dem_pct_2024":52.1,"gop_pct_2024":46.8,"county_fips":"36027"},{"name":"North Tonawanda city, New York, NY","lat":43.049157,"lng":-78.871224,"population":30338,"income":66774,"county":"Niagara","lean":"lean-R","dem_pct_2024":42.2,"gop_pct_2024":57.0,"county_fips":"36063"},{"name":"Middletown city, New York, NY","lat":41.444922,"lng":-74.423573,"population":30227,"income":77174,"county":"Orange","lean":"lean-R","dem_pct_2024":45.7,"gop_pct_2024":54.0,"county_fips":"36071"},{"name":"Newburgh city, New York, NY","lat":41.503249,"lng":-74.01964,"population":28649,"income":51006,"county":"Putnam","lean":"lean-R","dem_pct_2024":42.8,"gop_pct_2024":56.3,"county_fips":"36079"},{"name":"Saratoga Springs city, New York, NY","lat":43.067704,"lng":-73.778142,"population":28542,"income":100485,"county":"Saratoga","lean":"swing","dem_pct_2024":50.7,"gop_pct_2024":48.9,"county_fips":"36091"},{"name":"Jamestown city, New York, NY","lat":42.097603,"lng":-79.236135,"population":28401,"income":44878,"county":"Chautauqua","lean":"R","dem_pct_2024":38.7,"gop_pct_2024":60.5,"county_fips":"36013"},{"name":"Glen Cove city, New York, NY","lat":40.884756,"lng":-73.644781,"population":28101,"income":91355,"county":"Nassau","lean":"swing","dem_pct_2024":47.3,"gop_pct_2024":51.4,"county_fips":"36059"},{"name":"Auburn city, New York, NY","lat":42.9338,"lng":-76.567181,"population":26475,"income":49377,"county":"Cayuga","lean":"lean-R","dem_pct_2024":43.2,"gop_pct_2024":56.1,"county_fips":"36011"},{"name":"Elmira city, New York, NY","lat":42.093388,"lng":-76.80961,"population":26349,"income":43089,"county":"Chemung","lean":"R","dem_pct_2024":41.5,"gop_pct_2024":58.2,"county_fips":"36015"},{"name":"Peekskill city, New York, NY","lat":41.287396,"lng":-73.923597,"population":25484,"income":91042,"county":"Rockland","lean":"lean-R","dem_pct_2024":43.7,"gop_pct_2024":55.4,"county_fips":"36087"},{"name":"Watertown city, New York, NY","lat":43.973292,"lng":-75.910039,"population":24574,"income":49692,"county":"Jefferson","lean":"R","dem_pct_2024":37.9,"gop_pct_2024":61.3,"county_fips":"36045"},{"name":"Kingston city, New York, NY","lat":41.930124,"lng":-73.996782,"population":23942,"income":65413,"county":"Ulster","lean":"D","dem_pct_2024":58.5,"gop_pct_2024":40.1,"county_fips":"36111"},{"name":"Lockport city, New York, NY","lat":43.16946,"lng":-78.695807,"population":20699,"income":59153,"county":"Niagara","lean":"lean-R","dem_pct_2024":42.2,"gop_pct_2024":57.0,"county_fips":"36063"},{"name":"Plattsburgh city, New York, NY","lat":44.692025,"lng":-73.458276,"population":19878,"income":53962,"county":"Clinton","lean":"swing","dem_pct_2024":48.8,"gop_pct_2024":50.9,"county_fips":"36019"},{"name":"Lackawanna city, New York, NY","lat":42.818424,"lng":-78.832769,"population":19779,"income":48185,"county":"Erie","lean":"lean-D","dem_pct_2024":54.1,"gop_pct_2024":44.5,"county_fips":"36029"},{"name":"Amsterdam city, New York, NY","lat":42.941628,"lng":-74.190566,"population":18162,"income":50193,"county":"Schenectady","lean":"lean-D","dem_pct_2024":54.7,"gop_pct_2024":44.0,"county_fips":"36093"},{"name":"Cohoes city, New York, NY","lat":42.772867,"lng":-73.707759,"population":18043,"income":62111,"county":"Rensselaer","lean":"swing","dem_pct_2024":50.1,"gop_pct_2024":48.8,"county_fips":"36083"},{"name":"Cortland city, New York, NY","lat":42.600866,"lng":-76.179127,"population":17465,"income":55368,"county":"Cortland","lean":"lean-R","dem_pct_2024":46.6,"gop_pct_2024":53.1,"county_fips":"36023"},{"name":"Oswego city, New York, NY","lat":43.458052,"lng":-76.503689,"population":17028,"income":53286,"county":"Oswego","lean":"R","dem_pct_2024":37.8,"gop_pct_2024":61.9,"county_fips":"36075"},{"name":"Rye city, New York, NY","lat":40.944738,"lng":-73.686374,"population":16410,"income":237727,"county":"Bronx","lean":"D","dem_pct_2024":71.9,"gop_pct_2024":27.0,"county_fips":"36005"},{"name":"Batavia city, New York, NY","lat":42.998558,"lng":-78.180806,"population":15494,"income":57150,"county":"Genesee","lean":"R","dem_pct_2024":32.9,"gop_pct_2024":66.8,"county_fips":"36037"},{"name":"Tonawanda city, New York, NY","lat":43.011935,"lng":-78.883443,"population":15044,"income":61619,"county":"Niagara","lean":"lean-R","dem_pct_2024":42.2,"gop_pct_2024":57.0,"county_fips":"36063"},{"name":"Gloversville city, New York, NY","lat":43.049244,"lng":-74.345815,"population":15010,"income":49155,"county":"Fulton","lean":"R","dem_pct_2024":31.9,"gop_pct_2024":67.5,"county_fips":"36035"},{"name":"Glens Falls city, New York, NY","lat":43.31116,"lng":-73.645286,"population":14678,"income":70089,"county":"Washington","lean":"R","dem_pct_2024":39.1,"gop_pct_2024":60.1,"county_fips":"36115"},{"name":"Beacon city, New York, NY","lat":41.50324,"lng":-73.964735,"population":14629,"income":93347,"county":"Putnam","lean":"lean-R","dem_pct_2024":42.8,"gop_pct_2024":56.3,"county_fips":"36079"},{"name":"Oneonta city, New York, NY","lat":42.454818,"lng":-75.066884,"population":14467,"income":65031,"county":"Otsego","lean":"lean-R","dem_pct_2024":45.6,"gop_pct_2024":53.4,"county_fips":"36077"},{"name":"Olean city, New York, NY","lat":42.083943,"lng":-78.435119,"population":13798,"income":47553,"county":"Cattaraugus","lean":"R","dem_pct_2024":33.5,"gop_pct_2024":66.2,"county_fips":"36009"},{"name":"Dunkirk city, New York, NY","lat":42.480551,"lng":-79.332898,"population":12597,"income":49003,"county":"Chautauqua","lean":"R","dem_pct_2024":38.7,"gop_pct_2024":60.5,"county_fips":"36013"},{"name":"Geneva city, New York, NY","lat":42.863488,"lng":-76.982722,"population":12573,"income":68242,"county":"Seneca","lean":"lean-R","dem_pct_2024":43.8,"gop_pct_2024":55.5,"county_fips":"36099"},{"name":"Fulton city, New York, NY","lat":43.319164,"lng":-76.419739,"population":11339,"income":52123,"county":"Oswego","lean":"R","dem_pct_2024":37.8,"gop_pct_2024":61.9,"county_fips":"36075"},{"name":"Corning city, New York, NY","lat":42.148195,"lng":-77.056401,"population":10666,"income":61017,"county":"Chemung","lean":"R","dem_pct_2024":41.5,"gop_pct_2024":58.2,"county_fips":"36015"},{"name":"Canandaigua city, New York, NY","lat":42.888999,"lng":-77.280321,"population":10542,"income":63268,"county":"Ontario","lean":"swing","dem_pct_2024":48.9,"gop_pct_2024":50.1,"county_fips":"36069"},{"name":"Watervliet city, New York, NY","lat":42.724883,"lng":-73.707011,"population":10285,"income":55897,"county":"Rensselaer","lean":"swing","dem_pct_2024":50.1,"gop_pct_2024":48.8,"county_fips":"36083"},{"name":"Oneida city, New York, NY","lat":43.070448,"lng":-75.673561,"population":10240,"income":60380,"county":"Madison","lean":"lean-R","dem_pct_2024":43.0,"gop_pct_2024":55.9,"county_fips":"36053"},{"name":"Ogdensburg city, New York, NY","lat":44.70918,"lng":-75.463271,"population":9600,"income":59306,"county":"St. Lawrence","lean":"R","dem_pct_2024":40.8,"gop_pct_2024":58.7,"county_fips":"36089"},{"name":"Rensselaer city, New York, NY","lat":42.64574,"lng":-73.732513,"population":9247,"income":66046,"county":"Rensselaer","lean":"swing","dem_pct_2024":50.1,"gop_pct_2024":48.8,"county_fips":"36083"},{"name":"Port Jervis city, New York, NY","lat":41.378021,"lng":-74.690802,"population":8709,"income":50721,"county":"Orange","lean":"lean-R","dem_pct_2024":45.7,"gop_pct_2024":54.0,"county_fips":"36071"},{"name":"Hornell city, New York, NY","lat":42.333044,"lng":-77.663215,"population":8173,"income":46321,"county":"Steuben","lean":"R","dem_pct_2024":33.8,"gop_pct_2024":65.3,"county_fips":"36101"},{"name":"Johnstown city, New York, NY","lat":43.007335,"lng":-74.375065,"population":8153,"income":62333,"county":"Fulton","lean":"R","dem_pct_2024":31.9,"gop_pct_2024":67.5,"county_fips":"36035"},{"name":"Norwich city, New York, NY","lat":42.533322,"lng":-75.522758,"population":6880,"income":51713,"county":"Chenango","lean":"R","dem_pct_2024":36.1,"gop_pct_2024":63.1,"county_fips":"36017"},{"name":"Hudson city, New York, NY","lat":42.251905,"lng":-73.786028,"population":5900,"income":55394,"county":"Columbia","lean":"lean-D","dem_pct_2024":56.8,"gop_pct_2024":42.3,"county_fips":"36021"},{"name":"Salamanca city, New York, NY","lat":42.164734,"lng":-78.741263,"population":5878,"income":39871,"county":"Cattaraugus","lean":"R","dem_pct_2024":33.5,"gop_pct_2024":66.2,"county_fips":"36009"},{"name":"Mechanicville city, New York, NY","lat":42.904141,"lng":-73.688888,"population":5143,"income":47331,"county":"Rensselaer","lean":"swing","dem_pct_2024":50.1,"gop_pct_2024":48.8,"county_fips":"36083"},{"name":"Little Falls city, New York, NY","lat":43.044835,"lng":-74.856688,"population":4567,"income":51763,"county":"Fulton","lean":"R","dem_pct_2024":31.9,"gop_pct_2024":67.5,"county_fips":"36035"},{"name":"Sherrill city, New York, NY","lat":43.070439,"lng":-75.599216,"population":3041,"income":88233,"county":"Madison","lean":"lean-R","dem_pct_2024":43.0,"gop_pct_2024":55.9,"county_fips":"36053"}];
+const map=L.map('map',{center:[39.8,-98.5],zoom:5,zoomControl:false,attributionControl:false});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:18,attribution:'&copy;<a href="https://carto.com/">CartoDB</a>'}).addTo(map);
+L.control.zoom({position:'bottomleft'}).addTo(map);
+function leanColor(l){return l==='D'?'#4fc3f7':l==='lean-D'?'#81d4fa':l==='swing'?'#ce93d8':l==='lean-R'?'#ff8a80':l==='R'?'#ff5252':'#888'}
+function popRadius(p){const m=CITIES.length>0?CITIES[0].population:2300000;return 3+12*Math.sqrt(p/Math.max(m,1))}
+const markers=[];
+CITIES.forEach(c=>{const color=leanColor(c.lean);const radius=popRadius(c.population);
+const m=L.circleMarker([c.lat,c.lng],{radius,fillColor:color,color:'rgba(255,255,255,0.15)',weight:1,fillOpacity:0.85}).addTo(map);
+m._cityData=c;
+const cityEnc=encodeURIComponent(c.name);
+const demPct=c.dem_pct_2024||50,gopPct=c.gop_pct_2024||50;
+const margin=demPct-gopPct;
+const leanVal=margin>0?'D+'+margin.toFixed(1):'R+'+Math.abs(margin).toFixed(1);
+const lcc=c.lean==='D'?'lean-D':c.lean==='R'?'lean-R':c.lean==='lean-D'?'lean-lean-D':c.lean==='lean-R'?'lean-lean-R':'';
+const tv=demPct+gopPct,dbw=tv>0?(demPct/tv)*100:50,gbw=tv>0?(gopPct/tv)*100:50;
+m.bindPopup(`<div class="popup-card"><div class="popup-header">${c.name}</div>
+<div class="popup-stat"><span class="popup-stat-label">Population</span><span class="popup-stat-val">${c.population.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">Median Income</span><span class="popup-stat-val">$${c.income.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">County</span><span class="popup-stat-val">${c.county}</span></div>
+<div class="popup-vote-bar"><div class="popup-vote-labels"><span class="dem-label">🟦 Dem ${demPct.toFixed(1)}%</span><span class="gop-label">🟥 GOP ${gopPct.toFixed(1)}%</span></div>
+<div class="popup-bar-track"><div class="popup-bar-dem" style="width:${dbw}%"></div><div class="popup-bar-gop" style="width:${gbw}%"></div></div></div>
+<div class="popup-lean ${lcc}">${leanVal} • ${c.lean.replace('lean-','lean ')}</div>
+<a class="popup-link-btn" href="census_dashboard.html?city=${cityEnc}" target="_blank">📊 View Full Report →</a></div>`,{maxWidth:280,className:'dark-popup'});
+markers.push(m);});
+function updateInfo(){const t=markers.length,v=markers.filter(m=>!m._filtered).length;document.getElementById('city-count').textContent=t+' cities';document.getElementById('visible-count').textContent=v+' visible'}
+updateInfo();
+const fs={sq:'',pMin:0,pMax:Infinity,iMin:0,iMax:Infinity,lMin:-100,lMax:100};
+function applyFilters(){markers.forEach(m=>{const c=m._cityData;const nm=!fs.sq||c.name.toLowerCase().includes(fs.sq);const pm=c.population>=fs.pMin&&c.population<=fs.pMax;const im=c.income>=fs.iMin&&c.income<=fs.iMax;const mg=(c.dem_pct_2024||50)-(c.gop_pct_2024||50);const lm=mg>=fs.lMin&&mg<=fs.lMax;if(nm&&pm&&im&&lm){if(m._filtered){m.addTo(map);m._filtered=false}}else{if(!m._filtered){m.remove();m._filtered=true}}});updateInfo()}
+const si=document.getElementById('map-search'),sc=document.getElementById('map-search-clear');
+si.addEventListener('input',()=>{fs.sq=si.value.toLowerCase().trim();sc.classList.toggle('visible',fs.sq.length>0);applyFilters()});
+sc.addEventListener('click',()=>{si.value='';fs.sq='';sc.classList.remove('visible');applyFilters();si.focus()});
+const ft=document.getElementById('filter-toggle'),fp=document.getElementById('filter-panel'),fa=ft.querySelector('.arrow');
+ft.addEventListener('click',()=>{const s=fp.classList.toggle('collapsed');fa.textContent=s?'▼':'▲'});
+const pmin=document.getElementById('pop-min'),pmax=document.getElementById('pop-max'),plab=document.getElementById('pop-range-label'),ptrack=document.getElementById('pop-track');
+function upf(){let mn=parseInt(pmin.value),mx=parseInt(pmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mp=mn===0?0:Math.round(Math.pow(10,2+(mn/100)*5));const xp=mx===100?Infinity:Math.round(Math.pow(10,2+(mx/100)*5));fs.pMin=mp;fs.pMax=xp;plab.textContent=mp===0&&xp===Infinity?'All':mp.toLocaleString()+' - '+(xp===Infinity?'∞':xp.toLocaleString());ptrack.style.left=mn+'%';ptrack.style.right=(100-mx)+'%';applyFilters()}
+[pmin,pmax].forEach(e=>e.addEventListener('input',upf));upf();
+const imin=document.getElementById('income-min'),imax=document.getElementById('income-max'),ilab=document.getElementById('income-range-label'),itrack=document.getElementById('income-track');
+function uif(){let mn=parseInt(imin.value),mx=parseInt(imax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mi=Math.round((mn/100)*250000);const xi=mx===100?Infinity:Math.round((mx/100)*250000);fs.iMin=mi;fs.iMax=xi;ilab.textContent=mi===0&&xi===Infinity?'All':'$'+mi.toLocaleString()+' - '+(xi===Infinity?'∞':'$'+xi.toLocaleString());itrack.style.left=mn+'%';itrack.style.right=(100-mx)+'%';applyFilters()}
+[imin,imax].forEach(e=>e.addEventListener('input',uif));uif();
+const lmin=document.getElementById('lean-min'),lmax=document.getElementById('lean-max'),llab=document.getElementById('lean-range-label'),ltrack=document.getElementById('lean-track');
+function ulf(){let mn=parseInt(lmin.value),mx=parseInt(lmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};fs.lMin=mn;fs.lMax=mx;llab.textContent=(mn<=-100&&mx>=100)?'All':(mn>=0?'D+'+mn:'R+'+Math.abs(mn))+' to '+(mx>=0?'D+'+mx:'R+'+Math.abs(mx));ltrack.style.left=((mn+100)/200*100)+'%';ltrack.style.right=(100-(mx+100)/200*100)+'%';applyFilters()}
+[lmin,lmax].forEach(e=>e.addEventListener('input',ulf));ulf();
+function rf(){fs.sq='';si.value='';sc.classList.remove('visible');pmin.value=0;pmax.value=100;upf();imin.value=0;imax.value=100;uif();lmin.value=-100;lmax.value=100;ulf()}
+document.getElementById('filter-reset').addEventListener('click',rf);
+document.getElementById('filter-reset-btn').addEventListener('click',rf);
+</script>
+</body>
+</html>

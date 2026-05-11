@@ -1,0 +1,2336 @@
+{
+  "state": "Kansas",
+  "source_presidential": "Wikipedia - 2024 United States presidential election in Kansas",
+  "source_voter_registration": "Kansas Secretary of State - November 2024 Voter Registration by County",
+  "statewide_presidential_2024": {
+    "trump": 758802,
+    "trump_pct": 57.16,
+    "harris": 544853,
+    "harris_pct": 41.04,
+    "other": 23936,
+    "other_pct": 1.8,
+    "total": 1327591
+  },
+  "statewide_voter_registration_nov_2024": {
+    "democratic": 518966,
+    "libertarian": 24568,
+    "no_labels_kan": 3563,
+    "republican": 908890,
+    "united_kansas": 414,
+    "unaffiliated": 574730,
+    "other": 1,
+    "total": 2031132
+  },
+  "counties": {
+    "Allen": {
+      "presidential_2024": {
+        "trump": 4029,
+        "trump_pct": 71.95,
+        "harris": 1445,
+        "harris_pct": 25.8,
+        "other": 126,
+        "other_pct": 2.25,
+        "total": 5600
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1350,
+        "libertarian": 102,
+        "no_labels_kan": 7,
+        "republican": 4817,
+        "united_kansas": 1,
+        "unaffiliated": 2660,
+        "other": 0,
+        "total": 8937
+      },
+      "turnout_pct": 62.66
+    },
+    "Anderson": {
+      "presidential_2024": {
+        "trump": 2998,
+        "trump_pct": 79.08,
+        "harris": 732,
+        "harris_pct": 19.31,
+        "other": 61,
+        "other_pct": 1.61,
+        "total": 3791
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 894,
+        "libertarian": 61,
+        "no_labels_kan": 6,
+        "republican": 3199,
+        "united_kansas": 1,
+        "unaffiliated": 1606,
+        "other": 0,
+        "total": 5767
+      },
+      "turnout_pct": 65.74
+    },
+    "Atchison": {
+      "presidential_2024": {
+        "trump": 4911,
+        "trump_pct": 67.69,
+        "harris": 2201,
+        "harris_pct": 30.34,
+        "other": 143,
+        "other_pct": 1.97,
+        "total": 7255
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2536,
+        "libertarian": 82,
+        "no_labels_kan": 11,
+        "republican": 5179,
+        "united_kansas": 1,
+        "unaffiliated": 4137,
+        "other": 0,
+        "total": 11946
+      },
+      "turnout_pct": 60.73
+    },
+    "Barber": {
+      "presidential_2024": {
+        "trump": 1854,
+        "trump_pct": 85.44,
+        "harris": 288,
+        "harris_pct": 13.27,
+        "other": 28,
+        "other_pct": 1.29,
+        "total": 2170
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 287,
+        "libertarian": 23,
+        "no_labels_kan": 0,
+        "republican": 2340,
+        "united_kansas": 0,
+        "unaffiliated": 338,
+        "other": 0,
+        "total": 2988
+      },
+      "turnout_pct": 72.62
+    },
+    "Barton": {
+      "presidential_2024": {
+        "trump": 8205,
+        "trump_pct": 77.63,
+        "harris": 2207,
+        "harris_pct": 20.88,
+        "other": 158,
+        "other_pct": 1.49,
+        "total": 10570
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2222,
+        "libertarian": 138,
+        "no_labels_kan": 36,
+        "republican": 10275,
+        "united_kansas": 5,
+        "unaffiliated": 4178,
+        "other": 0,
+        "total": 16854
+      },
+      "turnout_pct": 62.72
+    },
+    "Bourbon": {
+      "presidential_2024": {
+        "trump": 5003,
+        "trump_pct": 76.13,
+        "harris": 1444,
+        "harris_pct": 21.97,
+        "other": 125,
+        "other_pct": 1.9,
+        "total": 6572
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2260,
+        "libertarian": 111,
+        "no_labels_kan": 9,
+        "republican": 6307,
+        "united_kansas": 1,
+        "unaffiliated": 3973,
+        "other": 0,
+        "total": 12661
+      },
+      "turnout_pct": 51.91
+    },
+    "Brown": {
+      "presidential_2024": {
+        "trump": 3106,
+        "trump_pct": 72.95,
+        "harris": 1065,
+        "harris_pct": 25.01,
+        "other": 87,
+        "other_pct": 2.04,
+        "total": 4258
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1002,
+        "libertarian": 71,
+        "no_labels_kan": 12,
+        "republican": 3901,
+        "united_kansas": 3,
+        "unaffiliated": 1695,
+        "other": 0,
+        "total": 6684
+      },
+      "turnout_pct": 63.7
+    },
+    "Butler": {
+      "presidential_2024": {
+        "trump": 22426,
+        "trump_pct": 69.57,
+        "harris": 9150,
+        "harris_pct": 28.38,
+        "other": 660,
+        "other_pct": 2.05,
+        "total": 32236
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 7705,
+        "libertarian": 691,
+        "no_labels_kan": 69,
+        "republican": 26646,
+        "united_kansas": 9,
+        "unaffiliated": 13779,
+        "other": 0,
+        "total": 48899
+      },
+      "turnout_pct": 65.92
+    },
+    "Chase": {
+      "presidential_2024": {
+        "trump": 1090,
+        "trump_pct": 74.56,
+        "harris": 348,
+        "harris_pct": 23.8,
+        "other": 24,
+        "other_pct": 1.64,
+        "total": 1462
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 259,
+        "libertarian": 15,
+        "no_labels_kan": 2,
+        "republican": 1343,
+        "united_kansas": 0,
+        "unaffiliated": 253,
+        "other": 0,
+        "total": 1872
+      },
+      "turnout_pct": 78.1
+    },
+    "Chautauqua": {
+      "presidential_2024": {
+        "trump": 1299,
+        "trump_pct": 85.07,
+        "harris": 211,
+        "harris_pct": 13.82,
+        "other": 17,
+        "other_pct": 1.11,
+        "total": 1527
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 224,
+        "libertarian": 19,
+        "no_labels_kan": 1,
+        "republican": 1827,
+        "united_kansas": 0,
+        "unaffiliated": 503,
+        "other": 0,
+        "total": 2574
+      },
+      "turnout_pct": 59.32
+    },
+    "Cherokee": {
+      "presidential_2024": {
+        "trump": 6584,
+        "trump_pct": 75.53,
+        "harris": 1970,
+        "harris_pct": 22.6,
+        "other": 163,
+        "other_pct": 1.87,
+        "total": 8717
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2977,
+        "libertarian": 159,
+        "no_labels_kan": 14,
+        "republican": 7645,
+        "united_kansas": 3,
+        "unaffiliated": 4723,
+        "other": 0,
+        "total": 15521
+      },
+      "turnout_pct": 56.16
+    },
+    "Cheyenne": {
+      "presidential_2024": {
+        "trump": 1185,
+        "trump_pct": 83.33,
+        "harris": 206,
+        "harris_pct": 14.49,
+        "other": 31,
+        "other_pct": 2.18,
+        "total": 1422
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 172,
+        "libertarian": 15,
+        "no_labels_kan": 0,
+        "republican": 1500,
+        "united_kansas": 0,
+        "unaffiliated": 349,
+        "other": 0,
+        "total": 2036
+      },
+      "turnout_pct": 69.84
+    },
+    "Clark": {
+      "presidential_2024": {
+        "trump": 867,
+        "trump_pct": 85.5,
+        "harris": 129,
+        "harris_pct": 12.72,
+        "other": 18,
+        "other_pct": 1.78,
+        "total": 1014
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 177,
+        "libertarian": 12,
+        "no_labels_kan": 1,
+        "republican": 1120,
+        "united_kansas": 1,
+        "unaffiliated": 259,
+        "other": 0,
+        "total": 1570
+      },
+      "turnout_pct": 64.59
+    },
+    "Clay": {
+      "presidential_2024": {
+        "trump": 3150,
+        "trump_pct": 76.59,
+        "harris": 867,
+        "harris_pct": 21.08,
+        "other": 96,
+        "other_pct": 2.33,
+        "total": 4113
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 631,
+        "libertarian": 57,
+        "no_labels_kan": 7,
+        "republican": 4141,
+        "united_kansas": 0,
+        "unaffiliated": 1140,
+        "other": 0,
+        "total": 5976
+      },
+      "turnout_pct": 68.83
+    },
+    "Cloud": {
+      "presidential_2024": {
+        "trump": 3218,
+        "trump_pct": 79.52,
+        "harris": 767,
+        "harris_pct": 18.95,
+        "other": 62,
+        "other_pct": 1.53,
+        "total": 4047
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 773,
+        "libertarian": 60,
+        "no_labels_kan": 10,
+        "republican": 3940,
+        "united_kansas": 2,
+        "unaffiliated": 1298,
+        "other": 0,
+        "total": 6083
+      },
+      "turnout_pct": 66.53
+    },
+    "Coffey": {
+      "presidential_2024": {
+        "trump": 3371,
+        "trump_pct": 77.02,
+        "harris": 934,
+        "harris_pct": 21.34,
+        "other": 72,
+        "other_pct": 1.64,
+        "total": 4377
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 793,
+        "libertarian": 73,
+        "no_labels_kan": 9,
+        "republican": 4083,
+        "united_kansas": 1,
+        "unaffiliated": 1274,
+        "other": 0,
+        "total": 6233
+      },
+      "turnout_pct": 70.22
+    },
+    "Comanche": {
+      "presidential_2024": {
+        "trump": 727,
+        "trump_pct": 83.18,
+        "harris": 130,
+        "harris_pct": 14.87,
+        "other": 17,
+        "other_pct": 1.95,
+        "total": 874
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 107,
+        "libertarian": 13,
+        "no_labels_kan": 1,
+        "republican": 861,
+        "united_kansas": 0,
+        "unaffiliated": 127,
+        "other": 0,
+        "total": 1109
+      },
+      "turnout_pct": 78.81
+    },
+    "Cowley": {
+      "presidential_2024": {
+        "trump": 9360,
+        "trump_pct": 69.31,
+        "harris": 3919,
+        "harris_pct": 29.02,
+        "other": 226,
+        "other_pct": 1.67,
+        "total": 13505
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 4014,
+        "libertarian": 229,
+        "no_labels_kan": 41,
+        "republican": 10700,
+        "united_kansas": 3,
+        "unaffiliated": 5830,
+        "other": 0,
+        "total": 20817
+      },
+      "turnout_pct": 64.87
+    },
+    "Crawford": {
+      "presidential_2024": {
+        "trump": 10084,
+        "trump_pct": 61.74,
+        "harris": 5956,
+        "harris_pct": 36.46,
+        "other": 294,
+        "other_pct": 1.8,
+        "total": 16334
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 7154,
+        "libertarian": 291,
+        "no_labels_kan": 27,
+        "republican": 10354,
+        "united_kansas": 5,
+        "unaffiliated": 9900,
+        "other": 0,
+        "total": 27731
+      },
+      "turnout_pct": 58.9
+    },
+    "Decatur": {
+      "presidential_2024": {
+        "trump": 1217,
+        "trump_pct": 83.82,
+        "harris": 215,
+        "harris_pct": 14.81,
+        "other": 20,
+        "other_pct": 1.38,
+        "total": 1452
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 197,
+        "libertarian": 21,
+        "no_labels_kan": 7,
+        "republican": 1459,
+        "united_kansas": 0,
+        "unaffiliated": 340,
+        "other": 0,
+        "total": 2024
+      },
+      "turnout_pct": 71.74
+    },
+    "Dickinson": {
+      "presidential_2024": {
+        "trump": 7014,
+        "trump_pct": 76.71,
+        "harris": 1989,
+        "harris_pct": 21.75,
+        "other": 141,
+        "other_pct": 1.54,
+        "total": 9144
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1700,
+        "libertarian": 136,
+        "no_labels_kan": 29,
+        "republican": 8550,
+        "united_kansas": 3,
+        "unaffiliated": 3381,
+        "other": 0,
+        "total": 13799
+      },
+      "turnout_pct": 66.27
+    },
+    "Doniphan": {
+      "presidential_2024": {
+        "trump": 2899,
+        "trump_pct": 81.05,
+        "harris": 626,
+        "harris_pct": 17.5,
+        "other": 52,
+        "other_pct": 1.45,
+        "total": 3577
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 544,
+        "libertarian": 25,
+        "no_labels_kan": 4,
+        "republican": 3228,
+        "united_kansas": 0,
+        "unaffiliated": 1232,
+        "other": 0,
+        "total": 5033
+      },
+      "turnout_pct": 71.07
+    },
+    "Douglas": {
+      "presidential_2024": {
+        "trump": 17523,
+        "trump_pct": 30.19,
+        "harris": 39582,
+        "harris_pct": 68.2,
+        "other": 936,
+        "other_pct": 1.61,
+        "total": 58041
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 37764,
+        "libertarian": 1048,
+        "no_labels_kan": 173,
+        "republican": 20944,
+        "united_kansas": 14,
+        "unaffiliated": 23215,
+        "other": 0,
+        "total": 83158
+      },
+      "turnout_pct": 69.8
+    },
+    "Edwards": {
+      "presidential_2024": {
+        "trump": 1042,
+        "trump_pct": 82.11,
+        "harris": 213,
+        "harris_pct": 16.78,
+        "other": 14,
+        "other_pct": 1.1,
+        "total": 1269
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 259,
+        "libertarian": 11,
+        "no_labels_kan": 4,
+        "republican": 1248,
+        "united_kansas": 0,
+        "unaffiliated": 342,
+        "other": 0,
+        "total": 1864
+      },
+      "turnout_pct": 68.08
+    },
+    "Elk": {
+      "presidential_2024": {
+        "trump": 1123,
+        "trump_pct": 83.93,
+        "harris": 191,
+        "harris_pct": 14.28,
+        "other": 24,
+        "other_pct": 1.79,
+        "total": 1338
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 198,
+        "libertarian": 19,
+        "no_labels_kan": 3,
+        "republican": 1359,
+        "united_kansas": 0,
+        "unaffiliated": 321,
+        "other": 0,
+        "total": 1900
+      },
+      "turnout_pct": 70.42
+    },
+    "Ellis": {
+      "presidential_2024": {
+        "trump": 9743,
+        "trump_pct": 72.11,
+        "harris": 3511,
+        "harris_pct": 25.99,
+        "other": 257,
+        "other_pct": 1.9,
+        "total": 13511
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 3664,
+        "libertarian": 237,
+        "no_labels_kan": 18,
+        "republican": 10888,
+        "united_kansas": 7,
+        "unaffiliated": 5618,
+        "other": 0,
+        "total": 20432
+      },
+      "turnout_pct": 66.13
+    },
+    "Ellsworth": {
+      "presidential_2024": {
+        "trump": 2078,
+        "trump_pct": 75.34,
+        "harris": 636,
+        "harris_pct": 23.06,
+        "other": 44,
+        "other_pct": 1.6,
+        "total": 2758
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 622,
+        "libertarian": 21,
+        "no_labels_kan": 5,
+        "republican": 2401,
+        "united_kansas": 0,
+        "unaffiliated": 835,
+        "other": 0,
+        "total": 3884
+      },
+      "turnout_pct": 71.01
+    },
+    "Finney": {
+      "presidential_2024": {
+        "trump": 7166,
+        "trump_pct": 66.46,
+        "harris": 3425,
+        "harris_pct": 31.77,
+        "other": 191,
+        "other_pct": 1.77,
+        "total": 10782
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 4829,
+        "libertarian": 262,
+        "no_labels_kan": 27,
+        "republican": 9227,
+        "united_kansas": 5,
+        "unaffiliated": 7865,
+        "other": 0,
+        "total": 22215
+      },
+      "turnout_pct": 48.53
+    },
+    "Ford": {
+      "presidential_2024": {
+        "trump": 5616,
+        "trump_pct": 68.29,
+        "harris": 2461,
+        "harris_pct": 29.92,
+        "other": 147,
+        "other_pct": 1.79,
+        "total": 8224
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 3828,
+        "libertarian": 211,
+        "no_labels_kan": 53,
+        "republican": 6937,
+        "united_kansas": 3,
+        "unaffiliated": 5621,
+        "other": 0,
+        "total": 16653
+      },
+      "turnout_pct": 49.38
+    },
+    "Franklin": {
+      "presidential_2024": {
+        "trump": 8773,
+        "trump_pct": 69.04,
+        "harris": 3676,
+        "harris_pct": 28.93,
+        "other": 259,
+        "other_pct": 2.04,
+        "total": 12708
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 3394,
+        "libertarian": 253,
+        "no_labels_kan": 34,
+        "republican": 10508,
+        "united_kansas": 1,
+        "unaffiliated": 5020,
+        "other": 0,
+        "total": 19210
+      },
+      "turnout_pct": 66.15
+    },
+    "Geary": {
+      "presidential_2024": {
+        "trump": 5288,
+        "trump_pct": 57.71,
+        "harris": 3674,
+        "harris_pct": 40.1,
+        "other": 201,
+        "other_pct": 2.19,
+        "total": 9163
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 4749,
+        "libertarian": 330,
+        "no_labels_kan": 51,
+        "republican": 7670,
+        "united_kansas": 3,
+        "unaffiliated": 7589,
+        "other": 0,
+        "total": 20392
+      },
+      "turnout_pct": 44.93
+    },
+    "Gove": {
+      "presidential_2024": {
+        "trump": 1227,
+        "trump_pct": 87.89,
+        "harris": 150,
+        "harris_pct": 10.74,
+        "other": 19,
+        "other_pct": 1.36,
+        "total": 1396
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 156,
+        "libertarian": 6,
+        "no_labels_kan": 0,
+        "republican": 1404,
+        "united_kansas": 0,
+        "unaffiliated": 357,
+        "other": 0,
+        "total": 1923
+      },
+      "turnout_pct": 72.59
+    },
+    "Graham": {
+      "presidential_2024": {
+        "trump": 1055,
+        "trump_pct": 81.97,
+        "harris": 210,
+        "harris_pct": 16.32,
+        "other": 22,
+        "other_pct": 1.71,
+        "total": 1287
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 180,
+        "libertarian": 11,
+        "no_labels_kan": 0,
+        "republican": 1374,
+        "united_kansas": 1,
+        "unaffiliated": 242,
+        "other": 0,
+        "total": 1808
+      },
+      "turnout_pct": 71.18
+    },
+    "Grant": {
+      "presidential_2024": {
+        "trump": 1793,
+        "trump_pct": 80.77,
+        "harris": 395,
+        "harris_pct": 17.79,
+        "other": 32,
+        "other_pct": 1.44,
+        "total": 2220
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 469,
+        "libertarian": 38,
+        "no_labels_kan": 4,
+        "republican": 2390,
+        "united_kansas": 0,
+        "unaffiliated": 886,
+        "other": 0,
+        "total": 3787
+      },
+      "turnout_pct": 58.62
+    },
+    "Gray": {
+      "presidential_2024": {
+        "trump": 1837,
+        "trump_pct": 83.77,
+        "harris": 324,
+        "harris_pct": 14.77,
+        "other": 32,
+        "other_pct": 1.46,
+        "total": 2193
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 406,
+        "libertarian": 36,
+        "no_labels_kan": 5,
+        "republican": 2236,
+        "united_kansas": 0,
+        "unaffiliated": 715,
+        "other": 0,
+        "total": 3398
+      },
+      "turnout_pct": 64.54
+    },
+    "Greeley": {
+      "presidential_2024": {
+        "trump": 510,
+        "trump_pct": 86.0,
+        "harris": 75,
+        "harris_pct": 12.65,
+        "other": 8,
+        "other_pct": 1.35,
+        "total": 593
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 45,
+        "libertarian": 3,
+        "no_labels_kan": 1,
+        "republican": 718,
+        "united_kansas": 0,
+        "unaffiliated": 122,
+        "other": 0,
+        "total": 889
+      },
+      "turnout_pct": 66.7
+    },
+    "Greenwood": {
+      "presidential_2024": {
+        "trump": 2299,
+        "trump_pct": 79.72,
+        "harris": 541,
+        "harris_pct": 18.76,
+        "other": 44,
+        "other_pct": 1.53,
+        "total": 2884
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 513,
+        "libertarian": 35,
+        "no_labels_kan": 8,
+        "republican": 2865,
+        "united_kansas": 1,
+        "unaffiliated": 1212,
+        "other": 0,
+        "total": 4634
+      },
+      "turnout_pct": 62.24
+    },
+    "Hamilton": {
+      "presidential_2024": {
+        "trump": 671,
+        "trump_pct": 82.33,
+        "harris": 131,
+        "harris_pct": 16.07,
+        "other": 13,
+        "other_pct": 1.6,
+        "total": 815
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 135,
+        "libertarian": 11,
+        "no_labels_kan": 2,
+        "republican": 918,
+        "united_kansas": 0,
+        "unaffiliated": 270,
+        "other": 0,
+        "total": 1336
+      },
+      "turnout_pct": 61.0
+    },
+    "Harper": {
+      "presidential_2024": {
+        "trump": 2072,
+        "trump_pct": 81.1,
+        "harris": 437,
+        "harris_pct": 17.1,
+        "other": 46,
+        "other_pct": 1.8,
+        "total": 2555
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 487,
+        "libertarian": 40,
+        "no_labels_kan": 4,
+        "republican": 2567,
+        "united_kansas": 2,
+        "unaffiliated": 770,
+        "other": 0,
+        "total": 3870
+      },
+      "turnout_pct": 66.02
+    },
+    "Harvey": {
+      "presidential_2024": {
+        "trump": 9591,
+        "trump_pct": 59.62,
+        "harris": 6202,
+        "harris_pct": 38.56,
+        "other": 293,
+        "other_pct": 1.82,
+        "total": 16086
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 5554,
+        "libertarian": 237,
+        "no_labels_kan": 36,
+        "republican": 11820,
+        "united_kansas": 8,
+        "unaffiliated": 5821,
+        "other": 0,
+        "total": 23476
+      },
+      "turnout_pct": 68.52
+    },
+    "Haskell": {
+      "presidential_2024": {
+        "trump": 1045,
+        "trump_pct": 81.77,
+        "harris": 221,
+        "harris_pct": 17.29,
+        "other": 12,
+        "other_pct": 0.94,
+        "total": 1278
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 212,
+        "libertarian": 10,
+        "no_labels_kan": 2,
+        "republican": 1490,
+        "united_kansas": 0,
+        "unaffiliated": 482,
+        "other": 0,
+        "total": 2196
+      },
+      "turnout_pct": 58.2
+    },
+    "Hodgeman": {
+      "presidential_2024": {
+        "trump": 817,
+        "trump_pct": 84.58,
+        "harris": 136,
+        "harris_pct": 14.08,
+        "other": 13,
+        "other_pct": 1.35,
+        "total": 966
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 132,
+        "libertarian": 4,
+        "no_labels_kan": 0,
+        "republican": 948,
+        "united_kansas": 0,
+        "unaffiliated": 211,
+        "other": 0,
+        "total": 1295
+      },
+      "turnout_pct": 74.59
+    },
+    "Jackson": {
+      "presidential_2024": {
+        "trump": 4557,
+        "trump_pct": 70.39,
+        "harris": 1799,
+        "harris_pct": 27.79,
+        "other": 118,
+        "other_pct": 1.82,
+        "total": 6474
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1725,
+        "libertarian": 81,
+        "no_labels_kan": 9,
+        "republican": 5124,
+        "united_kansas": 1,
+        "unaffiliated": 2487,
+        "other": 0,
+        "total": 9427
+      },
+      "turnout_pct": 68.68
+    },
+    "Jefferson": {
+      "presidential_2024": {
+        "trump": 6694,
+        "trump_pct": 67.43,
+        "harris": 3030,
+        "harris_pct": 30.52,
+        "other": 203,
+        "other_pct": 2.04,
+        "total": 9927
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2581,
+        "libertarian": 171,
+        "no_labels_kan": 36,
+        "republican": 7120,
+        "united_kansas": 2,
+        "unaffiliated": 3970,
+        "other": 0,
+        "total": 13880
+      },
+      "turnout_pct": 71.52
+    },
+    "Jewell": {
+      "presidential_2024": {
+        "trump": 1370,
+        "trump_pct": 87.04,
+        "harris": 176,
+        "harris_pct": 11.18,
+        "other": 28,
+        "other_pct": 1.78,
+        "total": 1574
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 173,
+        "libertarian": 24,
+        "no_labels_kan": 1,
+        "republican": 1589,
+        "united_kansas": 0,
+        "unaffiliated": 388,
+        "other": 0,
+        "total": 2175
+      },
+      "turnout_pct": 72.37
+    },
+    "Johnson": {
+      "presidential_2024": {
+        "trump": 154247,
+        "trump_pct": 44.87,
+        "harris": 183451,
+        "harris_pct": 53.36,
+        "other": 6082,
+        "other_pct": 1.77,
+        "total": 343780
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 154656,
+        "libertarian": 5883,
+        "no_labels_kan": 805,
+        "republican": 194504,
+        "united_kansas": 54,
+        "unaffiliated": 122989,
+        "other": 0,
+        "total": 478891
+      },
+      "turnout_pct": 71.79
+    },
+    "Kearny": {
+      "presidential_2024": {
+        "trump": 1082,
+        "trump_pct": 83.17,
+        "harris": 192,
+        "harris_pct": 14.76,
+        "other": 27,
+        "other_pct": 2.08,
+        "total": 1301
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 266,
+        "libertarian": 18,
+        "no_labels_kan": 3,
+        "republican": 1456,
+        "united_kansas": 1,
+        "unaffiliated": 532,
+        "other": 0,
+        "total": 2276
+      },
+      "turnout_pct": 57.16
+    },
+    "Kingman": {
+      "presidential_2024": {
+        "trump": 3119,
+        "trump_pct": 79.02,
+        "harris": 753,
+        "harris_pct": 19.08,
+        "other": 75,
+        "other_pct": 1.9,
+        "total": 3947
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 665,
+        "libertarian": 50,
+        "no_labels_kan": 5,
+        "republican": 3668,
+        "united_kansas": 0,
+        "unaffiliated": 1195,
+        "other": 0,
+        "total": 5583
+      },
+      "turnout_pct": 70.7
+    },
+    "Kiowa": {
+      "presidential_2024": {
+        "trump": 941,
+        "trump_pct": 85.0,
+        "harris": 151,
+        "harris_pct": 13.64,
+        "other": 15,
+        "other_pct": 1.36,
+        "total": 1107
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 136,
+        "libertarian": 11,
+        "no_labels_kan": 1,
+        "republican": 1200,
+        "united_kansas": 0,
+        "unaffiliated": 216,
+        "other": 0,
+        "total": 1564
+      },
+      "turnout_pct": 70.78
+    },
+    "Labette": {
+      "presidential_2024": {
+        "trump": 5410,
+        "trump_pct": 68.3,
+        "harris": 2385,
+        "harris_pct": 30.11,
+        "other": 126,
+        "other_pct": 1.59,
+        "total": 7921
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2718,
+        "libertarian": 119,
+        "no_labels_kan": 22,
+        "republican": 6324,
+        "united_kansas": 1,
+        "unaffiliated": 4471,
+        "other": 0,
+        "total": 13655
+      },
+      "turnout_pct": 58.01
+    },
+    "Lane": {
+      "presidential_2024": {
+        "trump": 709,
+        "trump_pct": 84.1,
+        "harris": 111,
+        "harris_pct": 13.17,
+        "other": 23,
+        "other_pct": 2.73,
+        "total": 843
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 87,
+        "libertarian": 9,
+        "no_labels_kan": 0,
+        "republican": 872,
+        "united_kansas": 0,
+        "unaffiliated": 162,
+        "other": 0,
+        "total": 1130
+      },
+      "turnout_pct": 74.6
+    },
+    "Leavenworth": {
+      "presidential_2024": {
+        "trump": 22055,
+        "trump_pct": 60.35,
+        "harris": 13732,
+        "harris_pct": 37.57,
+        "other": 760,
+        "other_pct": 2.08,
+        "total": 36547
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 13409,
+        "libertarian": 733,
+        "no_labels_kan": 105,
+        "republican": 24717,
+        "united_kansas": 21,
+        "unaffiliated": 17689,
+        "other": 0,
+        "total": 56674
+      },
+      "turnout_pct": 64.49
+    },
+    "Lincoln": {
+      "presidential_2024": {
+        "trump": 1233,
+        "trump_pct": 81.82,
+        "harris": 250,
+        "harris_pct": 16.59,
+        "other": 24,
+        "other_pct": 1.59,
+        "total": 1507
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 225,
+        "libertarian": 38,
+        "no_labels_kan": 1,
+        "republican": 1539,
+        "united_kansas": 0,
+        "unaffiliated": 350,
+        "other": 0,
+        "total": 2153
+      },
+      "turnout_pct": 70.0
+    },
+    "Linn": {
+      "presidential_2024": {
+        "trump": 4093,
+        "trump_pct": 81.6,
+        "harris": 854,
+        "harris_pct": 17.03,
+        "other": 69,
+        "other_pct": 1.38,
+        "total": 5016
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 968,
+        "libertarian": 57,
+        "no_labels_kan": 12,
+        "republican": 4791,
+        "united_kansas": 0,
+        "unaffiliated": 1877,
+        "other": 0,
+        "total": 7705
+      },
+      "turnout_pct": 65.1
+    },
+    "Logan": {
+      "presidential_2024": {
+        "trump": 1186,
+        "trump_pct": 84.71,
+        "harris": 183,
+        "harris_pct": 13.07,
+        "other": 31,
+        "other_pct": 2.21,
+        "total": 1400
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 151,
+        "libertarian": 10,
+        "no_labels_kan": 1,
+        "republican": 1413,
+        "united_kansas": 0,
+        "unaffiliated": 358,
+        "other": 0,
+        "total": 1933
+      },
+      "turnout_pct": 72.43
+    },
+    "Lyon": {
+      "presidential_2024": {
+        "trump": 7462,
+        "trump_pct": 56.29,
+        "harris": 5515,
+        "harris_pct": 41.6,
+        "other": 279,
+        "other_pct": 2.1,
+        "total": 13256
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 4995,
+        "libertarian": 222,
+        "no_labels_kan": 80,
+        "republican": 8412,
+        "united_kansas": 6,
+        "unaffiliated": 6978,
+        "other": 0,
+        "total": 20693
+      },
+      "turnout_pct": 64.06
+    },
+    "Marion": {
+      "presidential_2024": {
+        "trump": 4312,
+        "trump_pct": 73.46,
+        "harris": 1429,
+        "harris_pct": 24.34,
+        "other": 129,
+        "other_pct": 2.2,
+        "total": 5870
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1038,
+        "libertarian": 71,
+        "no_labels_kan": 5,
+        "republican": 5343,
+        "united_kansas": 1,
+        "unaffiliated": 1831,
+        "other": 0,
+        "total": 8289
+      },
+      "turnout_pct": 70.82
+    },
+    "Marshall": {
+      "presidential_2024": {
+        "trump": 3644,
+        "trump_pct": 73.35,
+        "harris": 1205,
+        "harris_pct": 24.26,
+        "other": 119,
+        "other_pct": 2.4,
+        "total": 4968
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1236,
+        "libertarian": 45,
+        "no_labels_kan": 16,
+        "republican": 4069,
+        "united_kansas": 0,
+        "unaffiliated": 1870,
+        "other": 0,
+        "total": 7236
+      },
+      "turnout_pct": 68.66
+    },
+    "McPherson": {
+      "presidential_2024": {
+        "trump": 9816,
+        "trump_pct": 69.6,
+        "harris": 4021,
+        "harris_pct": 28.51,
+        "other": 267,
+        "other_pct": 1.89,
+        "total": 14104
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2834,
+        "libertarian": 238,
+        "no_labels_kan": 55,
+        "republican": 11569,
+        "united_kansas": 5,
+        "unaffiliated": 4744,
+        "other": 0,
+        "total": 19445
+      },
+      "turnout_pct": 72.53
+    },
+    "Meade": {
+      "presidential_2024": {
+        "trump": 1427,
+        "trump_pct": 84.19,
+        "harris": 247,
+        "harris_pct": 14.57,
+        "other": 21,
+        "other_pct": 1.24,
+        "total": 1695
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 339,
+        "libertarian": 21,
+        "no_labels_kan": 1,
+        "republican": 2317,
+        "united_kansas": 0,
+        "unaffiliated": 797,
+        "other": 0,
+        "total": 3475
+      },
+      "turnout_pct": 48.78
+    },
+    "Miami": {
+      "presidential_2024": {
+        "trump": 12854,
+        "trump_pct": 68.79,
+        "harris": 5472,
+        "harris_pct": 29.29,
+        "other": 359,
+        "other_pct": 1.92,
+        "total": 18685
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 4769,
+        "libertarian": 345,
+        "no_labels_kan": 34,
+        "republican": 14469,
+        "united_kansas": 5,
+        "unaffiliated": 7345,
+        "other": 0,
+        "total": 26967
+      },
+      "turnout_pct": 69.29
+    },
+    "Mitchell": {
+      "presidential_2024": {
+        "trump": 2608,
+        "trump_pct": 82.22,
+        "harris": 528,
+        "harris_pct": 16.65,
+        "other": 36,
+        "other_pct": 1.13,
+        "total": 3172
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 452,
+        "libertarian": 29,
+        "no_labels_kan": 5,
+        "republican": 3060,
+        "united_kansas": 0,
+        "unaffiliated": 720,
+        "other": 0,
+        "total": 4266
+      },
+      "turnout_pct": 74.36
+    },
+    "Montgomery": {
+      "presidential_2024": {
+        "trump": 9287,
+        "trump_pct": 74.65,
+        "harris": 2934,
+        "harris_pct": 23.58,
+        "other": 220,
+        "other_pct": 1.77,
+        "total": 12441
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 3786,
+        "libertarian": 242,
+        "no_labels_kan": 38,
+        "republican": 11990,
+        "united_kansas": 0,
+        "unaffiliated": 5187,
+        "other": 0,
+        "total": 21243
+      },
+      "turnout_pct": 58.57
+    },
+    "Morris": {
+      "presidential_2024": {
+        "trump": 2021,
+        "trump_pct": 72.39,
+        "harris": 721,
+        "harris_pct": 25.82,
+        "other": 50,
+        "other_pct": 1.79,
+        "total": 2792
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 579,
+        "libertarian": 36,
+        "no_labels_kan": 4,
+        "republican": 2509,
+        "united_kansas": 3,
+        "unaffiliated": 876,
+        "other": 0,
+        "total": 4007
+      },
+      "turnout_pct": 69.68
+    },
+    "Morton": {
+      "presidential_2024": {
+        "trump": 909,
+        "trump_pct": 85.75,
+        "harris": 131,
+        "harris_pct": 12.36,
+        "other": 20,
+        "other_pct": 1.89,
+        "total": 1060
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 209,
+        "libertarian": 13,
+        "no_labels_kan": 1,
+        "republican": 1428,
+        "united_kansas": 0,
+        "unaffiliated": 374,
+        "other": 0,
+        "total": 2025
+      },
+      "turnout_pct": 52.35
+    },
+    "Nemaha": {
+      "presidential_2024": {
+        "trump": 4655,
+        "trump_pct": 82.83,
+        "harris": 888,
+        "harris_pct": 15.8,
+        "other": 77,
+        "other_pct": 1.37,
+        "total": 5620
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 992,
+        "libertarian": 44,
+        "no_labels_kan": 9,
+        "republican": 4942,
+        "united_kansas": 1,
+        "unaffiliated": 1522,
+        "other": 0,
+        "total": 7510
+      },
+      "turnout_pct": 74.83
+    },
+    "Neosho": {
+      "presidential_2024": {
+        "trump": 4961,
+        "trump_pct": 73.13,
+        "harris": 1696,
+        "harris_pct": 25.0,
+        "other": 127,
+        "other_pct": 1.87,
+        "total": 6784
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1902,
+        "libertarian": 136,
+        "no_labels_kan": 14,
+        "republican": 5961,
+        "united_kansas": 1,
+        "unaffiliated": 3597,
+        "other": 0,
+        "total": 11611
+      },
+      "turnout_pct": 58.43
+    },
+    "Ness": {
+      "presidential_2024": {
+        "trump": 1205,
+        "trump_pct": 88.41,
+        "harris": 129,
+        "harris_pct": 9.46,
+        "other": 29,
+        "other_pct": 2.13,
+        "total": 1363
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 184,
+        "libertarian": 10,
+        "no_labels_kan": 2,
+        "republican": 1434,
+        "united_kansas": 0,
+        "unaffiliated": 316,
+        "other": 0,
+        "total": 1946
+      },
+      "turnout_pct": 70.04
+    },
+    "Norton": {
+      "presidential_2024": {
+        "trump": 1882,
+        "trump_pct": 82.91,
+        "harris": 346,
+        "harris_pct": 15.24,
+        "other": 42,
+        "other_pct": 1.85,
+        "total": 2270
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 312,
+        "libertarian": 25,
+        "no_labels_kan": 1,
+        "republican": 2419,
+        "united_kansas": 1,
+        "unaffiliated": 683,
+        "other": 0,
+        "total": 3441
+      },
+      "turnout_pct": 65.97
+    },
+    "Osage": {
+      "presidential_2024": {
+        "trump": 5736,
+        "trump_pct": 72.68,
+        "harris": 1946,
+        "harris_pct": 24.66,
+        "other": 210,
+        "other_pct": 2.66,
+        "total": 7892
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 1965,
+        "libertarian": 142,
+        "no_labels_kan": 18,
+        "republican": 6795,
+        "united_kansas": 0,
+        "unaffiliated": 3640,
+        "other": 1,
+        "total": 12561
+      },
+      "turnout_pct": 62.83
+    },
+    "Osborne": {
+      "presidential_2024": {
+        "trump": 1477,
+        "trump_pct": 83.26,
+        "harris": 261,
+        "harris_pct": 14.71,
+        "other": 36,
+        "other_pct": 2.03,
+        "total": 1774
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 315,
+        "libertarian": 20,
+        "no_labels_kan": 2,
+        "republican": 1722,
+        "united_kansas": 1,
+        "unaffiliated": 600,
+        "other": 0,
+        "total": 2660
+      },
+      "turnout_pct": 66.69
+    },
+    "Ottawa": {
+      "presidential_2024": {
+        "trump": 2475,
+        "trump_pct": 82.42,
+        "harris": 476,
+        "harris_pct": 15.85,
+        "other": 52,
+        "other_pct": 1.73,
+        "total": 3003
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 370,
+        "libertarian": 37,
+        "no_labels_kan": 5,
+        "republican": 2830,
+        "united_kansas": 1,
+        "unaffiliated": 639,
+        "other": 0,
+        "total": 3882
+      },
+      "turnout_pct": 77.36
+    },
+    "Pawnee": {
+      "presidential_2024": {
+        "trump": 2003,
+        "trump_pct": 74.88,
+        "harris": 625,
+        "harris_pct": 23.36,
+        "other": 47,
+        "other_pct": 1.76,
+        "total": 2675
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 529,
+        "libertarian": 35,
+        "no_labels_kan": 6,
+        "republican": 2549,
+        "united_kansas": 0,
+        "unaffiliated": 814,
+        "other": 0,
+        "total": 3933
+      },
+      "turnout_pct": 68.01
+    },
+    "Phillips": {
+      "presidential_2024": {
+        "trump": 2356,
+        "trump_pct": 85.77,
+        "harris": 331,
+        "harris_pct": 12.05,
+        "other": 60,
+        "other_pct": 2.18,
+        "total": 2747
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 260,
+        "libertarian": 26,
+        "no_labels_kan": 3,
+        "republican": 3000,
+        "united_kansas": 0,
+        "unaffiliated": 712,
+        "other": 0,
+        "total": 4001
+      },
+      "turnout_pct": 68.66
+    },
+    "Pottawatomie": {
+      "presidential_2024": {
+        "trump": 9811,
+        "trump_pct": 72.83,
+        "harris": 3394,
+        "harris_pct": 25.19,
+        "other": 267,
+        "other_pct": 1.98,
+        "total": 13472
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2560,
+        "libertarian": 197,
+        "no_labels_kan": 32,
+        "republican": 11859,
+        "united_kansas": 6,
+        "unaffiliated": 3701,
+        "other": 0,
+        "total": 18355
+      },
+      "turnout_pct": 73.4
+    },
+    "Pratt": {
+      "presidential_2024": {
+        "trump": 3054,
+        "trump_pct": 74.82,
+        "harris": 954,
+        "harris_pct": 23.37,
+        "other": 74,
+        "other_pct": 1.81,
+        "total": 4082
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 761,
+        "libertarian": 60,
+        "no_labels_kan": 3,
+        "republican": 3905,
+        "united_kansas": 1,
+        "unaffiliated": 966,
+        "other": 0,
+        "total": 5696
+      },
+      "turnout_pct": 71.66
+    },
+    "Rawlins": {
+      "presidential_2024": {
+        "trump": 1194,
+        "trump_pct": 85.1,
+        "harris": 176,
+        "harris_pct": 12.54,
+        "other": 33,
+        "other_pct": 2.35,
+        "total": 1403
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 162,
+        "libertarian": 15,
+        "no_labels_kan": 3,
+        "republican": 1492,
+        "united_kansas": 0,
+        "unaffiliated": 328,
+        "other": 0,
+        "total": 2000
+      },
+      "turnout_pct": 70.15
+    },
+    "Reno": {
+      "presidential_2024": {
+        "trump": 17847,
+        "trump_pct": 66.25,
+        "harris": 8554,
+        "harris_pct": 31.75,
+        "other": 539,
+        "other_pct": 2.0,
+        "total": 26940
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 8243,
+        "libertarian": 523,
+        "no_labels_kan": 113,
+        "republican": 22138,
+        "united_kansas": 16,
+        "unaffiliated": 12182,
+        "other": 0,
+        "total": 43215
+      },
+      "turnout_pct": 62.34
+    },
+    "Republic": {
+      "presidential_2024": {
+        "trump": 2001,
+        "trump_pct": 81.91,
+        "harris": 396,
+        "harris_pct": 16.21,
+        "other": 46,
+        "other_pct": 1.88,
+        "total": 2443
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 369,
+        "libertarian": 26,
+        "no_labels_kan": 3,
+        "republican": 2520,
+        "united_kansas": 0,
+        "unaffiliated": 616,
+        "other": 0,
+        "total": 3534
+      },
+      "turnout_pct": 69.13
+    },
+    "Rice": {
+      "presidential_2024": {
+        "trump": 3073,
+        "trump_pct": 77.48,
+        "harris": 825,
+        "harris_pct": 20.8,
+        "other": 68,
+        "other_pct": 1.71,
+        "total": 3966
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 879,
+        "libertarian": 120,
+        "no_labels_kan": 11,
+        "republican": 4032,
+        "united_kansas": 0,
+        "unaffiliated": 1599,
+        "other": 0,
+        "total": 6641
+      },
+      "turnout_pct": 59.72
+    },
+    "Riley": {
+      "presidential_2024": {
+        "trump": 11630,
+        "trump_pct": 47.83,
+        "harris": 12063,
+        "harris_pct": 49.62,
+        "other": 620,
+        "other_pct": 2.55,
+        "total": 24313
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 11152,
+        "libertarian": 772,
+        "no_labels_kan": 135,
+        "republican": 16000,
+        "united_kansas": 8,
+        "unaffiliated": 12341,
+        "other": 0,
+        "total": 40408
+      },
+      "turnout_pct": 60.17
+    },
+    "Rooks": {
+      "presidential_2024": {
+        "trump": 2153,
+        "trump_pct": 84.96,
+        "harris": 349,
+        "harris_pct": 13.77,
+        "other": 32,
+        "other_pct": 1.26,
+        "total": 2534
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 315,
+        "libertarian": 25,
+        "no_labels_kan": 0,
+        "republican": 2735,
+        "united_kansas": 1,
+        "unaffiliated": 622,
+        "other": 0,
+        "total": 3698
+      },
+      "turnout_pct": 68.52
+    },
+    "Rush": {
+      "presidential_2024": {
+        "trump": 1315,
+        "trump_pct": 81.88,
+        "harris": 264,
+        "harris_pct": 16.44,
+        "other": 27,
+        "other_pct": 1.68,
+        "total": 1606
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 218,
+        "libertarian": 17,
+        "no_labels_kan": 3,
+        "republican": 1553,
+        "united_kansas": 0,
+        "unaffiliated": 424,
+        "other": 0,
+        "total": 2215
+      },
+      "turnout_pct": 72.51
+    },
+    "Russell": {
+      "presidential_2024": {
+        "trump": 2632,
+        "trump_pct": 79.73,
+        "harris": 608,
+        "harris_pct": 18.42,
+        "other": 61,
+        "other_pct": 1.85,
+        "total": 3301
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 538,
+        "libertarian": 36,
+        "no_labels_kan": 5,
+        "republican": 3167,
+        "united_kansas": 1,
+        "unaffiliated": 943,
+        "other": 0,
+        "total": 4690
+      },
+      "turnout_pct": 70.38
+    },
+    "Saline": {
+      "presidential_2024": {
+        "trump": 15069,
+        "trump_pct": 64.88,
+        "harris": 7734,
+        "harris_pct": 33.3,
+        "other": 423,
+        "other_pct": 1.82,
+        "total": 23226
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 7032,
+        "libertarian": 542,
+        "no_labels_kan": 92,
+        "republican": 18041,
+        "united_kansas": 9,
+        "unaffiliated": 11621,
+        "other": 0,
+        "total": 37337
+      },
+      "turnout_pct": 62.21
+    },
+    "Scott": {
+      "presidential_2024": {
+        "trump": 1843,
+        "trump_pct": 86.32,
+        "harris": 248,
+        "harris_pct": 11.62,
+        "other": 44,
+        "other_pct": 2.06,
+        "total": 2135
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 261,
+        "libertarian": 28,
+        "no_labels_kan": 1,
+        "republican": 2429,
+        "united_kansas": 0,
+        "unaffiliated": 788,
+        "other": 0,
+        "total": 3507
+      },
+      "turnout_pct": 60.88
+    },
+    "Sedgwick": {
+      "presidential_2024": {
+        "trump": 120118,
+        "trump_pct": 56.09,
+        "harris": 90506,
+        "harris_pct": 42.26,
+        "other": 3528,
+        "other_pct": 1.65,
+        "total": 214152
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 87192,
+        "libertarian": 4960,
+        "no_labels_kan": 697,
+        "republican": 138243,
+        "united_kansas": 111,
+        "unaffiliated": 113482,
+        "other": 0,
+        "total": 344685
+      },
+      "turnout_pct": 62.13
+    },
+    "Seward": {
+      "presidential_2024": {
+        "trump": 3133,
+        "trump_pct": 68.63,
+        "harris": 1354,
+        "harris_pct": 29.66,
+        "other": 78,
+        "other_pct": 1.71,
+        "total": 4565
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2436,
+        "libertarian": 164,
+        "no_labels_kan": 10,
+        "republican": 4510,
+        "united_kansas": 5,
+        "unaffiliated": 3999,
+        "other": 0,
+        "total": 11124
+      },
+      "turnout_pct": 41.04
+    },
+    "Shawnee": {
+      "presidential_2024": {
+        "trump": 39901,
+        "trump_pct": 48.77,
+        "harris": 40308,
+        "harris_pct": 49.26,
+        "other": 1610,
+        "other_pct": 1.97,
+        "total": 81819
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 36171,
+        "libertarian": 1399,
+        "no_labels_kan": 196,
+        "republican": 44467,
+        "united_kansas": 26,
+        "unaffiliated": 36471,
+        "other": 0,
+        "total": 118730
+      },
+      "turnout_pct": 68.91
+    },
+    "Sheridan": {
+      "presidential_2024": {
+        "trump": 1229,
+        "trump_pct": 89.51,
+        "harris": 126,
+        "harris_pct": 9.18,
+        "other": 18,
+        "other_pct": 1.31,
+        "total": 1373
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 155,
+        "libertarian": 6,
+        "no_labels_kan": 2,
+        "republican": 1404,
+        "united_kansas": 0,
+        "unaffiliated": 291,
+        "other": 0,
+        "total": 1858
+      },
+      "turnout_pct": 73.9
+    },
+    "Sherman": {
+      "presidential_2024": {
+        "trump": 2161,
+        "trump_pct": 83.34,
+        "harris": 379,
+        "harris_pct": 14.62,
+        "other": 53,
+        "other_pct": 2.04,
+        "total": 2593
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 340,
+        "libertarian": 35,
+        "no_labels_kan": 4,
+        "republican": 2698,
+        "united_kansas": 2,
+        "unaffiliated": 808,
+        "other": 0,
+        "total": 3887
+      },
+      "turnout_pct": 66.71
+    },
+    "Smith": {
+      "presidential_2024": {
+        "trump": 1675,
+        "trump_pct": 83.5,
+        "harris": 300,
+        "harris_pct": 14.96,
+        "other": 31,
+        "other_pct": 1.55,
+        "total": 2006
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 277,
+        "libertarian": 12,
+        "no_labels_kan": 0,
+        "republican": 2087,
+        "united_kansas": 0,
+        "unaffiliated": 450,
+        "other": 0,
+        "total": 2826
+      },
+      "turnout_pct": 70.98
+    },
+    "Stafford": {
+      "presidential_2024": {
+        "trump": 1548,
+        "trump_pct": 81.09,
+        "harris": 326,
+        "harris_pct": 17.08,
+        "other": 35,
+        "other_pct": 1.83,
+        "total": 1909
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 271,
+        "libertarian": 23,
+        "no_labels_kan": 3,
+        "republican": 1896,
+        "united_kansas": 2,
+        "unaffiliated": 466,
+        "other": 0,
+        "total": 2661
+      },
+      "turnout_pct": 71.74
+    },
+    "Stanton": {
+      "presidential_2024": {
+        "trump": 537,
+        "trump_pct": 80.87,
+        "harris": 115,
+        "harris_pct": 17.32,
+        "other": 12,
+        "other_pct": 1.81,
+        "total": 664
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 127,
+        "libertarian": 13,
+        "no_labels_kan": 1,
+        "republican": 750,
+        "united_kansas": 0,
+        "unaffiliated": 174,
+        "other": 0,
+        "total": 1065
+      },
+      "turnout_pct": 62.35
+    },
+    "Stevens": {
+      "presidential_2024": {
+        "trump": 1595,
+        "trump_pct": 86.92,
+        "harris": 210,
+        "harris_pct": 11.44,
+        "other": 30,
+        "other_pct": 1.63,
+        "total": 1835
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 297,
+        "libertarian": 34,
+        "no_labels_kan": 0,
+        "republican": 2446,
+        "united_kansas": 0,
+        "unaffiliated": 573,
+        "other": 0,
+        "total": 3350
+      },
+      "turnout_pct": 54.78
+    },
+    "Sumner": {
+      "presidential_2024": {
+        "trump": 7810,
+        "trump_pct": 74.04,
+        "harris": 2527,
+        "harris_pct": 23.95,
+        "other": 212,
+        "other_pct": 2.01,
+        "total": 10549
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 2807,
+        "libertarian": 202,
+        "no_labels_kan": 21,
+        "republican": 9341,
+        "united_kansas": 1,
+        "unaffiliated": 4895,
+        "other": 0,
+        "total": 17267
+      },
+      "turnout_pct": 61.09
+    },
+    "Thomas": {
+      "presidential_2024": {
+        "trump": 3007,
+        "trump_pct": 82.07,
+        "harris": 597,
+        "harris_pct": 16.29,
+        "other": 60,
+        "other_pct": 1.64,
+        "total": 3664
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 533,
+        "libertarian": 38,
+        "no_labels_kan": 2,
+        "republican": 3702,
+        "united_kansas": 1,
+        "unaffiliated": 1163,
+        "other": 0,
+        "total": 5439
+      },
+      "turnout_pct": 67.37
+    },
+    "Trego": {
+      "presidential_2024": {
+        "trump": 1343,
+        "trump_pct": 84.63,
+        "harris": 216,
+        "harris_pct": 13.61,
+        "other": 28,
+        "other_pct": 1.76,
+        "total": 1587
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 271,
+        "libertarian": 12,
+        "no_labels_kan": 0,
+        "republican": 1430,
+        "united_kansas": 0,
+        "unaffiliated": 378,
+        "other": 0,
+        "total": 2091
+      },
+      "turnout_pct": 75.9
+    },
+    "Wabaunsee": {
+      "presidential_2024": {
+        "trump": 2816,
+        "trump_pct": 73.41,
+        "harris": 944,
+        "harris_pct": 24.61,
+        "other": 76,
+        "other_pct": 1.98,
+        "total": 3836
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 744,
+        "libertarian": 52,
+        "no_labels_kan": 4,
+        "republican": 3405,
+        "united_kansas": 0,
+        "unaffiliated": 1144,
+        "other": 0,
+        "total": 5349
+      },
+      "turnout_pct": 71.71
+    },
+    "Wallace": {
+      "presidential_2024": {
+        "trump": 686,
+        "trump_pct": 91.71,
+        "harris": 52,
+        "harris_pct": 6.95,
+        "other": 10,
+        "other_pct": 1.34,
+        "total": 748
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 55,
+        "libertarian": 5,
+        "no_labels_kan": 0,
+        "republican": 911,
+        "united_kansas": 0,
+        "unaffiliated": 162,
+        "other": 0,
+        "total": 1133
+      },
+      "turnout_pct": 66.02
+    },
+    "Washington": {
+      "presidential_2024": {
+        "trump": 2263,
+        "trump_pct": 83.81,
+        "harris": 396,
+        "harris_pct": 14.67,
+        "other": 41,
+        "other_pct": 1.52,
+        "total": 2700
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 285,
+        "libertarian": 20,
+        "no_labels_kan": 3,
+        "republican": 2913,
+        "united_kansas": 0,
+        "unaffiliated": 404,
+        "other": 0,
+        "total": 3625
+      },
+      "turnout_pct": 74.48
+    },
+    "Wichita": {
+      "presidential_2024": {
+        "trump": 740,
+        "trump_pct": 86.05,
+        "harris": 107,
+        "harris_pct": 12.44,
+        "other": 13,
+        "other_pct": 1.51,
+        "total": 860
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 126,
+        "libertarian": 11,
+        "no_labels_kan": 0,
+        "republican": 918,
+        "united_kansas": 0,
+        "unaffiliated": 309,
+        "other": 0,
+        "total": 1364
+      },
+      "turnout_pct": 63.05
+    },
+    "Wilson": {
+      "presidential_2024": {
+        "trump": 2894,
+        "trump_pct": 80.32,
+        "harris": 647,
+        "harris_pct": 17.96,
+        "other": 62,
+        "other_pct": 1.72,
+        "total": 3603
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 541,
+        "libertarian": 49,
+        "no_labels_kan": 5,
+        "republican": 3455,
+        "united_kansas": 1,
+        "unaffiliated": 1018,
+        "other": 0,
+        "total": 5069
+      },
+      "turnout_pct": 71.08
+    },
+    "Woodson": {
+      "presidential_2024": {
+        "trump": 1205,
+        "trump_pct": 80.01,
+        "harris": 282,
+        "harris_pct": 18.73,
+        "other": 19,
+        "other_pct": 1.26,
+        "total": 1506
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 230,
+        "libertarian": 27,
+        "no_labels_kan": 3,
+        "republican": 1488,
+        "united_kansas": 0,
+        "unaffiliated": 487,
+        "other": 0,
+        "total": 2235
+      },
+      "turnout_pct": 67.38
+    },
+    "Wyandotte": {
+      "presidential_2024": {
+        "trump": 18867,
+        "trump_pct": 37.29,
+        "harris": 30938,
+        "harris_pct": 61.14,
+        "other": 797,
+        "other_pct": 1.58,
+        "total": 50602
+      },
+      "voter_registration_nov_2024": {
+        "democratic": 43218,
+        "libertarian": 977,
+        "no_labels_kan": 178,
+        "republican": 18493,
+        "united_kansas": 34,
+        "unaffiliated": 31507,
+        "other": 0,
+        "total": 94407
+      },
+      "turnout_pct": 53.6
+    }
+  }
+}

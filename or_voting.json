@@ -1,0 +1,995 @@
+{
+  "source": {
+    "presidential": "Wikipedia - 2024 United States presidential election in Oregon",
+    "voter_registration": "data.oregon.gov - Voter Registration Data (Nov 6, 2024 snapshot)",
+    "generated": "2026-05-10"
+  },
+  "state_totals": {
+    "presidential": {
+      "harris": 1240600,
+      "harris_pct": 55.27,
+      "trump": 919480,
+      "trump_pct": 40.97,
+      "other": 84413,
+      "other_pct": 3.76,
+      "total": 2244493
+    },
+    "voter_registration": {
+      "total": 3084789
+    }
+  },
+  "counties": {
+    "Baker": {
+      "presidential_2024": {
+        "harris": 2343,
+        "harris_pct": 24.17,
+        "trump": 7060,
+        "trump_pct": 72.83,
+        "other": 291,
+        "other_pct": 3.0,
+        "total": 9694
+      },
+      "voter_registration_nov2024": {
+        "democrat": 1842,
+        "republican": 5978,
+        "nonaffiliated": 4419,
+        "independent": 766,
+        "libertarian": 80,
+        "pacific_green": 20,
+        "progressive": 5,
+        "constitution": 26,
+        "working_families": 28,
+        "we_the_people": 0,
+        "no_labels": 15,
+        "other": 32,
+        "total": 13211
+      },
+      "turnout_pct": 73.4
+    },
+    "Benton": {
+      "presidential_2024": {
+        "harris": 33909,
+        "harris_pct": 67.5,
+        "trump": 14187,
+        "trump_pct": 28.24,
+        "other": 2136,
+        "other_pct": 4.25,
+        "total": 50232
+      },
+      "voter_registration_nov2024": {
+        "democrat": 26146,
+        "republican": 12390,
+        "nonaffiliated": 19583,
+        "independent": 2932,
+        "libertarian": 391,
+        "pacific_green": 287,
+        "progressive": 89,
+        "constitution": 53,
+        "working_families": 82,
+        "we_the_people": 5,
+        "no_labels": 92,
+        "other": 183,
+        "total": 62233
+      },
+      "turnout_pct": 80.7
+    },
+    "Clackamas": {
+      "presidential_2024": {
+        "harris": 130580,
+        "harris_pct": 53.03,
+        "trump": 106387,
+        "trump_pct": 43.2,
+        "other": 9273,
+        "other_pct": 3.77,
+        "total": 246240
+      },
+      "voter_registration_nov2024": {
+        "democrat": 104521,
+        "republican": 85167,
+        "nonaffiliated": 108153,
+        "independent": 17368,
+        "libertarian": 2060,
+        "pacific_green": 627,
+        "progressive": 308,
+        "constitution": 343,
+        "working_families": 739,
+        "we_the_people": 27,
+        "no_labels": 293,
+        "other": 1705,
+        "total": 321311
+      },
+      "turnout_pct": 76.6
+    },
+    "Clatsop": {
+      "presidential_2024": {
+        "harris": 12533,
+        "harris_pct": 53.81,
+        "trump": 9913,
+        "trump_pct": 42.56,
+        "other": 844,
+        "other_pct": 3.62,
+        "total": 23290
+      },
+      "voter_registration_nov2024": {
+        "democrat": 10182,
+        "republican": 7576,
+        "nonaffiliated": 11854,
+        "independent": 1771,
+        "libertarian": 229,
+        "pacific_green": 97,
+        "progressive": 35,
+        "constitution": 45,
+        "working_families": 64,
+        "we_the_people": 1,
+        "no_labels": 80,
+        "other": 112,
+        "total": 32046
+      },
+      "turnout_pct": 72.7
+    },
+    "Columbia": {
+      "presidential_2024": {
+        "harris": 12895,
+        "harris_pct": 41.15,
+        "trump": 17227,
+        "trump_pct": 54.98,
+        "other": 1212,
+        "other_pct": 3.87,
+        "total": 31334
+      },
+      "voter_registration_nov2024": {
+        "democrat": 11492,
+        "republican": 12014,
+        "nonaffiliated": 15866,
+        "independent": 2182,
+        "libertarian": 363,
+        "pacific_green": 98,
+        "progressive": 34,
+        "constitution": 85,
+        "working_families": 130,
+        "we_the_people": 5,
+        "no_labels": 50,
+        "other": 220,
+        "total": 42539
+      },
+      "turnout_pct": 73.7
+    },
+    "Coos": {
+      "presidential_2024": {
+        "harris": 13731,
+        "harris_pct": 38.42,
+        "trump": 20849,
+        "trump_pct": 58.34,
+        "other": 1155,
+        "other_pct": 3.23,
+        "total": 35735
+      },
+      "voter_registration_nov2024": {
+        "democrat": 11339,
+        "republican": 16041,
+        "nonaffiliated": 19139,
+        "independent": 2801,
+        "libertarian": 332,
+        "pacific_green": 112,
+        "progressive": 39,
+        "constitution": 97,
+        "working_families": 103,
+        "we_the_people": 6,
+        "no_labels": 91,
+        "other": 220,
+        "total": 50320
+      },
+      "turnout_pct": 71.0
+    },
+    "Crook": {
+      "presidential_2024": {
+        "harris": 3836,
+        "harris_pct": 23.54,
+        "trump": 12012,
+        "trump_pct": 73.71,
+        "other": 449,
+        "other_pct": 2.76,
+        "total": 16297
+      },
+      "voter_registration_nov2024": {
+        "democrat": 3143,
+        "republican": 9783,
+        "nonaffiliated": 7440,
+        "independent": 1184,
+        "libertarian": 134,
+        "pacific_green": 20,
+        "progressive": 7,
+        "constitution": 53,
+        "working_families": 39,
+        "we_the_people": 4,
+        "no_labels": 32,
+        "other": 111,
+        "total": 21950
+      },
+      "turnout_pct": 74.2
+    },
+    "Curry": {
+      "presidential_2024": {
+        "harris": 5737,
+        "harris_pct": 40.4,
+        "trump": 8000,
+        "trump_pct": 56.34,
+        "other": 463,
+        "other_pct": 3.26,
+        "total": 14200
+      },
+      "voter_registration_nov2024": {
+        "democrat": 4219,
+        "republican": 6307,
+        "nonaffiliated": 7316,
+        "independent": 1249,
+        "libertarian": 138,
+        "pacific_green": 36,
+        "progressive": 16,
+        "constitution": 37,
+        "working_families": 19,
+        "we_the_people": 4,
+        "no_labels": 35,
+        "other": 65,
+        "total": 19441
+      },
+      "turnout_pct": 73.0
+    },
+    "Deschutes": {
+      "presidential_2024": {
+        "harris": 68108,
+        "harris_pct": 53.47,
+        "trump": 54850,
+        "trump_pct": 43.06,
+        "other": 4417,
+        "other_pct": 3.47,
+        "total": 127375
+      },
+      "voter_registration_nov2024": {
+        "democrat": 50316,
+        "republican": 45961,
+        "nonaffiliated": 56936,
+        "independent": 10341,
+        "libertarian": 1218,
+        "pacific_green": 332,
+        "progressive": 158,
+        "constitution": 167,
+        "working_families": 185,
+        "we_the_people": 26,
+        "no_labels": 280,
+        "other": 728,
+        "total": 166648
+      },
+      "turnout_pct": 76.4
+    },
+    "Douglas": {
+      "presidential_2024": {
+        "harris": 18386,
+        "harris_pct": 29.75,
+        "trump": 41561,
+        "trump_pct": 67.24,
+        "other": 1860,
+        "other_pct": 3.01,
+        "total": 61807
+      },
+      "voter_registration_nov2024": {
+        "democrat": 15892,
+        "republican": 34958,
+        "nonaffiliated": 32473,
+        "independent": 4849,
+        "libertarian": 627,
+        "pacific_green": 139,
+        "progressive": 95,
+        "constitution": 185,
+        "working_families": 203,
+        "we_the_people": 9,
+        "no_labels": 144,
+        "other": 474,
+        "total": 90048
+      },
+      "turnout_pct": 68.6
+    },
+    "Gilliam": {
+      "presidential_2024": {
+        "harris": 291,
+        "harris_pct": 25.66,
+        "trump": 805,
+        "trump_pct": 70.99,
+        "other": 38,
+        "other_pct": 3.35,
+        "total": 1134
+      },
+      "voter_registration_nov2024": {
+        "democrat": 225,
+        "republican": 609,
+        "nonaffiliated": 499,
+        "independent": 73,
+        "libertarian": 12,
+        "pacific_green": 0,
+        "progressive": 1,
+        "constitution": 4,
+        "working_families": 6,
+        "we_the_people": 0,
+        "no_labels": 5,
+        "other": 10,
+        "total": 1444
+      },
+      "turnout_pct": 78.5
+    },
+    "Grant": {
+      "presidential_2024": {
+        "harris": 816,
+        "harris_pct": 18.31,
+        "trump": 3490,
+        "trump_pct": 78.32,
+        "other": 150,
+        "other_pct": 3.37,
+        "total": 4456
+      },
+      "voter_registration_nov2024": {
+        "democrat": 749,
+        "republican": 2801,
+        "nonaffiliated": 1662,
+        "independent": 297,
+        "libertarian": 35,
+        "pacific_green": 5,
+        "progressive": 3,
+        "constitution": 10,
+        "working_families": 7,
+        "we_the_people": 2,
+        "no_labels": 8,
+        "other": 15,
+        "total": 5594
+      },
+      "turnout_pct": 79.7
+    },
+    "Harney": {
+      "presidential_2024": {
+        "harris": 797,
+        "harris_pct": 18.73,
+        "trump": 3307,
+        "trump_pct": 77.72,
+        "other": 151,
+        "other_pct": 3.55,
+        "total": 4255
+      },
+      "voter_registration_nov2024": {
+        "democrat": 722,
+        "republican": 2819,
+        "nonaffiliated": 1767,
+        "independent": 278,
+        "libertarian": 40,
+        "pacific_green": 7,
+        "progressive": 3,
+        "constitution": 15,
+        "working_families": 13,
+        "we_the_people": 0,
+        "no_labels": 5,
+        "other": 14,
+        "total": 5683
+      },
+      "turnout_pct": 74.9
+    },
+    "Hood River": {
+      "presidential_2024": {
+        "harris": 8364,
+        "harris_pct": 65.82,
+        "trump": 3854,
+        "trump_pct": 30.33,
+        "other": 489,
+        "other_pct": 3.85,
+        "total": 12707
+      },
+      "voter_registration_nov2024": {
+        "democrat": 6546,
+        "republican": 3067,
+        "nonaffiliated": 6093,
+        "independent": 814,
+        "libertarian": 87,
+        "pacific_green": 55,
+        "progressive": 11,
+        "constitution": 16,
+        "working_families": 31,
+        "we_the_people": 1,
+        "no_labels": 27,
+        "other": 65,
+        "total": 16813
+      },
+      "turnout_pct": 75.6
+    },
+    "Jackson": {
+      "presidential_2024": {
+        "harris": 54065,
+        "harris_pct": 45.22,
+        "trump": 61743,
+        "trump_pct": 51.64,
+        "other": 3764,
+        "other_pct": 3.15,
+        "total": 119572
+      },
+      "voter_registration_nov2024": {
+        "democrat": 43823,
+        "republican": 50547,
+        "nonaffiliated": 58547,
+        "independent": 8990,
+        "libertarian": 1164,
+        "pacific_green": 408,
+        "progressive": 148,
+        "constitution": 253,
+        "working_families": 311,
+        "we_the_people": 36,
+        "no_labels": 264,
+        "other": 844,
+        "total": 165335
+      },
+      "turnout_pct": 72.3
+    },
+    "Jefferson": {
+      "presidential_2024": {
+        "harris": 3941,
+        "harris_pct": 33.54,
+        "trump": 7454,
+        "trump_pct": 63.44,
+        "other": 355,
+        "other_pct": 3.02,
+        "total": 11750
+      },
+      "voter_registration_nov2024": {
+        "democrat": 3225,
+        "republican": 5936,
+        "nonaffiliated": 7145,
+        "independent": 895,
+        "libertarian": 106,
+        "pacific_green": 30,
+        "progressive": 13,
+        "constitution": 43,
+        "working_families": 41,
+        "we_the_people": 1,
+        "no_labels": 16,
+        "other": 113,
+        "total": 17564
+      },
+      "turnout_pct": 66.9
+    },
+    "Josephine": {
+      "presidential_2024": {
+        "harris": 16928,
+        "harris_pct": 34.11,
+        "trump": 31129,
+        "trump_pct": 62.72,
+        "other": 1571,
+        "other_pct": 3.17,
+        "total": 49628
+      },
+      "voter_registration_nov2024": {
+        "democrat": 13591,
+        "republican": 25573,
+        "nonaffiliated": 26010,
+        "independent": 3757,
+        "libertarian": 519,
+        "pacific_green": 157,
+        "progressive": 32,
+        "constitution": 187,
+        "working_families": 121,
+        "we_the_people": 9,
+        "no_labels": 107,
+        "other": 530,
+        "total": 70593
+      },
+      "turnout_pct": 70.3
+    },
+    "Klamath": {
+      "presidential_2024": {
+        "harris": 9856,
+        "harris_pct": 27.75,
+        "trump": 24675,
+        "trump_pct": 69.48,
+        "other": 984,
+        "other_pct": 2.77,
+        "total": 35515
+      },
+      "voter_registration_nov2024": {
+        "democrat": 7939,
+        "republican": 20362,
+        "nonaffiliated": 19506,
+        "independent": 2776,
+        "libertarian": 356,
+        "pacific_green": 75,
+        "progressive": 43,
+        "constitution": 140,
+        "working_families": 110,
+        "we_the_people": 3,
+        "no_labels": 84,
+        "other": 170,
+        "total": 51564
+      },
+      "turnout_pct": 68.9
+    },
+    "Lake": {
+      "presidential_2024": {
+        "harris": 681,
+        "harris_pct": 16.16,
+        "trump": 3421,
+        "trump_pct": 81.2,
+        "other": 111,
+        "other_pct": 2.63,
+        "total": 4213
+      },
+      "voter_registration_nov2024": {
+        "democrat": 586,
+        "republican": 2876,
+        "nonaffiliated": 1895,
+        "independent": 276,
+        "libertarian": 36,
+        "pacific_green": 7,
+        "progressive": 3,
+        "constitution": 15,
+        "working_families": 6,
+        "we_the_people": 2,
+        "no_labels": 4,
+        "other": 17,
+        "total": 5723
+      },
+      "turnout_pct": 73.6
+    },
+    "Lane": {
+      "presidential_2024": {
+        "harris": 125775,
+        "harris_pct": 59.53,
+        "trump": 77376,
+        "trump_pct": 36.62,
+        "other": 8134,
+        "other_pct": 3.85,
+        "total": 211285
+      },
+      "voter_registration_nov2024": {
+        "democrat": 103144,
+        "republican": 61861,
+        "nonaffiliated": 95402,
+        "independent": 14382,
+        "libertarian": 1885,
+        "pacific_green": 1034,
+        "progressive": 464,
+        "constitution": 336,
+        "working_families": 623,
+        "we_the_people": 35,
+        "no_labels": 456,
+        "other": 1562,
+        "total": 281184
+      },
+      "turnout_pct": 75.1
+    },
+    "Lincoln": {
+      "presidential_2024": {
+        "harris": 17112,
+        "harris_pct": 57.42,
+        "trump": 11645,
+        "trump_pct": 39.07,
+        "other": 1047,
+        "other_pct": 3.51,
+        "total": 29804
+      },
+      "voter_registration_nov2024": {
+        "democrat": 13660,
+        "republican": 8863,
+        "nonaffiliated": 15474,
+        "independent": 2391,
+        "libertarian": 283,
+        "pacific_green": 123,
+        "progressive": 50,
+        "constitution": 70,
+        "working_families": 86,
+        "we_the_people": 9,
+        "no_labels": 119,
+        "other": 135,
+        "total": 41263
+      },
+      "turnout_pct": 72.2
+    },
+    "Linn": {
+      "presidential_2024": {
+        "harris": 25749,
+        "harris_pct": 36.05,
+        "trump": 43078,
+        "trump_pct": 60.31,
+        "other": 2602,
+        "other_pct": 3.64,
+        "total": 71429
+      },
+      "voter_registration_nov2024": {
+        "democrat": 21952,
+        "republican": 34359,
+        "nonaffiliated": 37027,
+        "independent": 5461,
+        "libertarian": 750,
+        "pacific_green": 196,
+        "progressive": 108,
+        "constitution": 157,
+        "working_families": 207,
+        "we_the_people": 10,
+        "no_labels": 147,
+        "other": 487,
+        "total": 100861
+      },
+      "turnout_pct": 70.8
+    },
+    "Malheur": {
+      "presidential_2024": {
+        "harris": 2884,
+        "harris_pct": 26.35,
+        "trump": 7710,
+        "trump_pct": 70.44,
+        "other": 351,
+        "other_pct": 3.21,
+        "total": 10945
+      },
+      "voter_registration_nov2024": {
+        "democrat": 2289,
+        "republican": 6439,
+        "nonaffiliated": 8851,
+        "independent": 651,
+        "libertarian": 87,
+        "pacific_green": 12,
+        "progressive": 15,
+        "constitution": 43,
+        "working_families": 50,
+        "we_the_people": 3,
+        "no_labels": 33,
+        "other": 50,
+        "total": 18523
+      },
+      "turnout_pct": 59.1
+    },
+    "Marion": {
+      "presidential_2024": {
+        "harris": 73970,
+        "harris_pct": 47.21,
+        "trump": 77089,
+        "trump_pct": 49.2,
+        "other": 5632,
+        "other_pct": 3.59,
+        "total": 156691
+      },
+      "voter_registration_nov2024": {
+        "democrat": 61920,
+        "republican": 63084,
+        "nonaffiliated": 88601,
+        "independent": 10814,
+        "libertarian": 1459,
+        "pacific_green": 403,
+        "progressive": 253,
+        "constitution": 311,
+        "working_families": 454,
+        "we_the_people": 26,
+        "no_labels": 273,
+        "other": 417,
+        "total": 228015
+      },
+      "turnout_pct": 68.7
+    },
+    "Morrow": {
+      "presidential_2024": {
+        "harris": 1138,
+        "harris_pct": 24.05,
+        "trump": 3408,
+        "trump_pct": 72.02,
+        "other": 186,
+        "other_pct": 3.93,
+        "total": 4732
+      },
+      "voter_registration_nov2024": {
+        "democrat": 1060,
+        "republican": 2572,
+        "nonaffiliated": 3213,
+        "independent": 305,
+        "libertarian": 59,
+        "pacific_green": 4,
+        "progressive": 4,
+        "constitution": 10,
+        "working_families": 24,
+        "we_the_people": 1,
+        "no_labels": 9,
+        "other": 44,
+        "total": 7305
+      },
+      "turnout_pct": 64.8
+    },
+    "Multnomah": {
+      "presidential_2024": {
+        "harris": 325927,
+        "harris_pct": 78.68,
+        "trump": 70759,
+        "trump_pct": 17.08,
+        "other": 17564,
+        "other_pct": 4.24,
+        "total": 414250
+      },
+      "voter_registration_nov2024": {
+        "democrat": 290927,
+        "republican": 57937,
+        "nonaffiliated": 196396,
+        "independent": 21519,
+        "libertarian": 2898,
+        "pacific_green": 2567,
+        "progressive": 1284,
+        "constitution": 409,
+        "working_families": 3212,
+        "we_the_people": 46,
+        "no_labels": 807,
+        "other": 3535,
+        "total": 581537
+      },
+      "turnout_pct": 71.2
+    },
+    "Polk": {
+      "presidential_2024": {
+        "harris": 22034,
+        "harris_pct": 46.3,
+        "trump": 23768,
+        "trump_pct": 49.94,
+        "other": 1791,
+        "other_pct": 3.76,
+        "total": 47593
+      },
+      "voter_registration_nov2024": {
+        "democrat": 17521,
+        "republican": 19546,
+        "nonaffiliated": 22954,
+        "independent": 3444,
+        "libertarian": 456,
+        "pacific_green": 136,
+        "progressive": 69,
+        "constitution": 99,
+        "working_families": 103,
+        "we_the_people": 7,
+        "no_labels": 69,
+        "other": 160,
+        "total": 64564
+      },
+      "turnout_pct": 73.7
+    },
+    "Sherman": {
+      "presidential_2024": {
+        "harris": 233,
+        "harris_pct": 20.03,
+        "trump": 890,
+        "trump_pct": 76.53,
+        "other": 40,
+        "other_pct": 3.44,
+        "total": 1163
+      },
+      "voter_registration_nov2024": {
+        "democrat": 216,
+        "republican": 727,
+        "nonaffiliated": 460,
+        "independent": 62,
+        "libertarian": 18,
+        "pacific_green": 2,
+        "progressive": 1,
+        "constitution": 1,
+        "working_families": 4,
+        "we_the_people": 0,
+        "no_labels": 3,
+        "other": 7,
+        "total": 1501
+      },
+      "turnout_pct": 77.5
+    },
+    "Tillamook": {
+      "presidential_2024": {
+        "harris": 7747,
+        "harris_pct": 47.67,
+        "trump": 7971,
+        "trump_pct": 49.05,
+        "other": 534,
+        "other_pct": 3.29,
+        "total": 16252
+      },
+      "voter_registration_nov2024": {
+        "democrat": 6208,
+        "republican": 6064,
+        "nonaffiliated": 7918,
+        "independent": 1102,
+        "libertarian": 136,
+        "pacific_green": 52,
+        "progressive": 18,
+        "constitution": 29,
+        "working_families": 45,
+        "we_the_people": 1,
+        "no_labels": 23,
+        "other": 107,
+        "total": 21703
+      },
+      "turnout_pct": 74.9
+    },
+    "Umatilla": {
+      "presidential_2024": {
+        "harris": 9251,
+        "harris_pct": 29.63,
+        "trump": 20973,
+        "trump_pct": 67.17,
+        "other": 1001,
+        "other_pct": 3.21,
+        "total": 31225
+      },
+      "voter_registration_nov2024": {
+        "democrat": 8303,
+        "republican": 16539,
+        "nonaffiliated": 23191,
+        "independent": 2228,
+        "libertarian": 369,
+        "pacific_green": 57,
+        "progressive": 34,
+        "constitution": 103,
+        "working_families": 148,
+        "we_the_people": 4,
+        "no_labels": 89,
+        "other": 320,
+        "total": 51385
+      },
+      "turnout_pct": 60.8
+    },
+    "Union": {
+      "presidential_2024": {
+        "harris": 4107,
+        "harris_pct": 28.18,
+        "trump": 9942,
+        "trump_pct": 68.22,
+        "other": 525,
+        "other_pct": 3.6,
+        "total": 14574
+      },
+      "voter_registration_nov2024": {
+        "democrat": 3327,
+        "republican": 8352,
+        "nonaffiliated": 6628,
+        "independent": 1025,
+        "libertarian": 124,
+        "pacific_green": 14,
+        "progressive": 15,
+        "constitution": 29,
+        "working_families": 33,
+        "we_the_people": 2,
+        "no_labels": 24,
+        "other": 82,
+        "total": 19655
+      },
+      "turnout_pct": 74.1
+    },
+    "Wallowa": {
+      "presidential_2024": {
+        "harris": 1573,
+        "harris_pct": 30.79,
+        "trump": 3366,
+        "trump_pct": 65.9,
+        "other": 169,
+        "other_pct": 3.31,
+        "total": 5108
+      },
+      "voter_registration_nov2024": {
+        "democrat": 1168,
+        "republican": 2974,
+        "nonaffiliated": 1815,
+        "independent": 303,
+        "libertarian": 42,
+        "pacific_green": 5,
+        "progressive": 3,
+        "constitution": 11,
+        "working_families": 6,
+        "we_the_people": 1,
+        "no_labels": 18,
+        "other": 21,
+        "total": 6367
+      },
+      "turnout_pct": 80.2
+    },
+    "Wasco": {
+      "presidential_2024": {
+        "harris": 6069,
+        "harris_pct": 45.32,
+        "trump": 6837,
+        "trump_pct": 51.06,
+        "other": 485,
+        "other_pct": 3.62,
+        "total": 13391
+      },
+      "voter_registration_nov2024": {
+        "democrat": 4978,
+        "republican": 5206,
+        "nonaffiliated": 7408,
+        "independent": 938,
+        "libertarian": 141,
+        "pacific_green": 38,
+        "progressive": 17,
+        "constitution": 37,
+        "working_families": 37,
+        "we_the_people": 3,
+        "no_labels": 29,
+        "other": 137,
+        "total": 18969
+      },
+      "turnout_pct": 70.6
+    },
+    "Washington": {
+      "presidential_2024": {
+        "harris": 193013,
+        "harris_pct": 64.78,
+        "trump": 92590,
+        "trump_pct": 31.08,
+        "other": 12346,
+        "other_pct": 4.14,
+        "total": 297949
+      },
+      "voter_registration_nov2024": {
+        "democrat": 146361,
+        "republican": 75427,
+        "nonaffiliated": 155959,
+        "independent": 18804,
+        "libertarian": 2642,
+        "pacific_green": 876,
+        "progressive": 499,
+        "constitution": 301,
+        "working_families": 784,
+        "we_the_people": 22,
+        "no_labels": 402,
+        "other": 1029,
+        "total": 403106
+      },
+      "turnout_pct": 73.9
+    },
+    "Wheeler": {
+      "presidential_2024": {
+        "harris": 210,
+        "harris_pct": 24.19,
+        "trump": 618,
+        "trump_pct": 71.2,
+        "other": 40,
+        "other_pct": 4.61,
+        "total": 868
+      },
+      "voter_registration_nov2024": {
+        "democrat": 176,
+        "republican": 516,
+        "nonaffiliated": 276,
+        "independent": 46,
+        "libertarian": 7,
+        "pacific_green": 2,
+        "progressive": 1,
+        "constitution": 1,
+        "working_families": 2,
+        "we_the_people": 0,
+        "no_labels": 1,
+        "other": 6,
+        "total": 1034
+      },
+      "turnout_pct": 83.9
+    },
+    "Yamhill": {
+      "presidential_2024": {
+        "harris": 26011,
+        "harris_pct": 45.0,
+        "trump": 29536,
+        "trump_pct": 51.1,
+        "other": 2253,
+        "other_pct": 3.9,
+        "total": 57800
+      },
+      "voter_registration_nov2024": {
+        "democrat": 20352,
+        "republican": 23646,
+        "nonaffiliated": 27926,
+        "independent": 4219,
+        "libertarian": 637,
+        "pacific_green": 176,
+        "progressive": 66,
+        "constitution": 115,
+        "working_families": 159,
+        "we_the_people": 6,
+        "no_labels": 80,
+        "other": 375,
+        "total": 77757
+      },
+      "turnout_pct": 74.3
+    }
+  }
+}

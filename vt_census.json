@@ -1,0 +1,1239 @@
+{
+  "cities": {
+    "Burlington city, Vermont": {
+      "state": "VT",
+      "fips": "5010675",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 44649,
+        "voting_age": 39751,
+        "voting_age_pct": 89.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 37727,
+          "pct": 84.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1622,
+          "pct": 3.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1649,
+          "pct": 3.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 95,
+          "pct": 0.21
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2063,
+          "pct": 4.62
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1484,
+          "pct": 3.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 68854,
+        "poverty_count": 636,
+        "poverty_pct": 1.42
+      },
+      "education": {
+        "bachelors_or_higher": 14468,
+        "bachelors_only": 7889,
+        "masters": 4367,
+        "professional": 1220,
+        "doctorate": 992
+      }
+    },
+    "South Burlington city, Vermont": {
+      "state": "VT",
+      "fips": "5066175",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 20488,
+        "voting_age": 16742,
+        "voting_age_pct": 81.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16565,
+          "pct": 80.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 320,
+          "pct": 1.56
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 78,
+          "pct": 0.38
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1782,
+          "pct": 8.7
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 19,
+          "pct": 0.09
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 85,
+          "pct": 0.41
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 920,
+          "pct": 4.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 719,
+          "pct": 3.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 97229,
+        "poverty_count": 254,
+        "poverty_pct": 1.24
+      },
+      "education": {
+        "bachelors_or_higher": 9674,
+        "bachelors_only": 5577,
+        "masters": 2719,
+        "professional": 572,
+        "doctorate": 806
+      }
+    },
+    "Rutland city, Vermont": {
+      "state": "VT",
+      "fips": "5061225",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15747,
+        "voting_age": 13440,
+        "voting_age_pct": 85.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14773,
+          "pct": 93.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 105,
+          "pct": 0.67
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 103,
+          "pct": 0.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.02
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 373,
+          "pct": 2.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 388,
+          "pct": 2.46
+        }
+      ],
+      "economics": {
+        "median_household_income": 55000,
+        "poverty_count": 301,
+        "poverty_pct": 1.91
+      },
+      "education": {
+        "bachelors_or_higher": 3983,
+        "bachelors_only": 2382,
+        "masters": 1233,
+        "professional": 202,
+        "doctorate": 166
+      }
+    },
+    "Essex Junction city, Vermont": {
+      "state": "VT",
+      "fips": "5024400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10720,
+        "voting_age": 8636,
+        "voting_age_pct": 80.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8888,
+          "pct": 82.91
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 359,
+          "pct": 3.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 599,
+          "pct": 5.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 689,
+          "pct": 6.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 185,
+          "pct": 1.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 94423,
+        "poverty_count": 122,
+        "poverty_pct": 1.14
+      },
+      "education": {
+        "bachelors_or_higher": 4005,
+        "bachelors_only": 2455,
+        "masters": 1169,
+        "professional": 159,
+        "doctorate": 222
+      }
+    },
+    "Barre city, Vermont": {
+      "state": "VT",
+      "fips": "5003175",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8461,
+        "voting_age": 7037,
+        "voting_age_pct": 83.17
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7857,
+          "pct": 92.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 26,
+          "pct": 0.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 72,
+          "pct": 0.85
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.13
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 288,
+          "pct": 3.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 207,
+          "pct": 2.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 53288,
+        "poverty_count": 464,
+        "poverty_pct": 5.48
+      },
+      "education": {
+        "bachelors_or_higher": 2139,
+        "bachelors_only": 1643,
+        "masters": 437,
+        "professional": 45,
+        "doctorate": 14
+      }
+    },
+    "Winooski city, Vermont": {
+      "state": "VT",
+      "fips": "5085150",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8198,
+        "voting_age": 6906,
+        "voting_age_pct": 84.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6321,
+          "pct": 77.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 373,
+          "pct": 4.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 932,
+          "pct": 11.37
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 114,
+          "pct": 1.39
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 201,
+          "pct": 2.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 248,
+          "pct": 3.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 77020,
+        "poverty_count": 310,
+        "poverty_pct": 3.78
+      },
+      "education": {
+        "bachelors_or_higher": 3127,
+        "bachelors_only": 2023,
+        "masters": 737,
+        "professional": 245,
+        "doctorate": 122
+      }
+    },
+    "Montpelier city, Vermont": {
+      "state": "VT",
+      "fips": "5046000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8038,
+        "voting_age": 6623,
+        "voting_age_pct": 82.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7048,
+          "pct": 87.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 86,
+          "pct": 1.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 134,
+          "pct": 1.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.04
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 438,
+          "pct": 5.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 329,
+          "pct": 4.09
+        }
+      ],
+      "economics": {
+        "median_household_income": 79175,
+        "poverty_count": 22,
+        "poverty_pct": 0.27
+      },
+      "education": {
+        "bachelors_or_higher": 4039,
+        "bachelors_only": 2126,
+        "masters": 1486,
+        "professional": 330,
+        "doctorate": 97
+      }
+    },
+    "St. Albans city, Vermont": {
+      "state": "VT",
+      "fips": "5061675",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6910,
+        "voting_age": 5591,
+        "voting_age_pct": 80.91
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6322,
+          "pct": 91.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 37,
+          "pct": 0.54
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 89,
+          "pct": 1.29
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 359,
+          "pct": 5.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 71,
+          "pct": 1.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 53370,
+        "poverty_count": 308,
+        "poverty_pct": 4.46
+      },
+      "education": {
+        "bachelors_or_higher": 1424,
+        "bachelors_only": 1007,
+        "masters": 315,
+        "professional": 42,
+        "doctorate": 60
+      }
+    },
+    "Newport city, Vermont": {
+      "state": "VT",
+      "fips": "5048850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4413,
+        "voting_age": 3832,
+        "voting_age_pct": 86.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4025,
+          "pct": 91.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 70,
+          "pct": 1.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 24,
+          "pct": 0.54
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2,
+          "pct": 0.05
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 0.41
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 223,
+          "pct": 5.05
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 51,
+          "pct": 1.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 48194,
+        "poverty_count": 228,
+        "poverty_pct": 5.17
+      },
+      "education": {
+        "bachelors_or_higher": 713,
+        "bachelors_only": 454,
+        "masters": 238,
+        "professional": 20,
+        "doctorate": 1
+      }
+    },
+    "Bellows Falls village, Vermont": {
+      "state": "VT",
+      "fips": "5004225",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2851,
+        "voting_age": 2287,
+        "voting_age_pct": 80.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2505,
+          "pct": 87.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 21,
+          "pct": 0.74
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 116,
+          "pct": 4.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 136,
+          "pct": 4.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 73,
+          "pct": 2.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 54836,
+        "poverty_count": 205,
+        "poverty_pct": 7.19
+      },
+      "education": {
+        "bachelors_or_higher": 592,
+        "bachelors_only": 336,
+        "masters": 222,
+        "professional": 0,
+        "doctorate": 34
+      }
+    },
+    "Swanton village, Vermont": {
+      "state": "VT",
+      "fips": "5071650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2732,
+        "voting_age": 2039,
+        "voting_age_pct": 74.63
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2495,
+          "pct": 91.33
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 17,
+          "pct": 0.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.4
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 127,
+          "pct": 4.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 51,
+          "pct": 1.87
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 31,
+          "pct": 1.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 71307,
+        "poverty_count": 115,
+        "poverty_pct": 4.21
+      },
+      "education": {
+        "bachelors_or_higher": 229,
+        "bachelors_only": 133,
+        "masters": 90,
+        "professional": 6,
+        "doctorate": 0
+      }
+    },
+    "Vergennes city, Vermont": {
+      "state": "VT",
+      "fips": "5074650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2571,
+        "voting_age": 2139,
+        "voting_age_pct": 83.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2425,
+          "pct": 94.32
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 52,
+          "pct": 2.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 13,
+          "pct": 0.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 37,
+          "pct": 1.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 1.59
+        }
+      ],
+      "economics": {
+        "median_household_income": 85417,
+        "poverty_count": 17,
+        "poverty_pct": 0.66
+      },
+      "education": {
+        "bachelors_or_higher": 673,
+        "bachelors_only": 419,
+        "masters": 223,
+        "professional": 23,
+        "doctorate": 8
+      }
+    },
+    "Morrisville village, Vermont": {
+      "state": "VT",
+      "fips": "5046825",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2527,
+        "voting_age": 2136,
+        "voting_age_pct": 84.53
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2226,
+          "pct": 88.09
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.24
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 48,
+          "pct": 1.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 26,
+          "pct": 1.03
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 131,
+          "pct": 5.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 90,
+          "pct": 3.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 66792,
+        "poverty_count": 41,
+        "poverty_pct": 1.62
+      },
+      "education": {
+        "bachelors_or_higher": 598,
+        "bachelors_only": 323,
+        "masters": 246,
+        "professional": 18,
+        "doctorate": 11
+      }
+    },
+    "Johnson village, Vermont": {
+      "state": "VT",
+      "fips": "5037000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1668,
+        "voting_age": 1278,
+        "voting_age_pct": 76.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1492,
+          "pct": 89.45
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 43,
+          "pct": 2.58
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.66
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 67,
+          "pct": 4.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 55,
+          "pct": 3.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 48355,
+        "poverty_count": 21,
+        "poverty_pct": 1.26
+      },
+      "education": {
+        "bachelors_or_higher": 224,
+        "bachelors_only": 152,
+        "masters": 56,
+        "professional": 0,
+        "doctorate": 16
+      }
+    },
+    "Enosburg Falls village, Vermont": {
+      "state": "VT",
+      "fips": "5024025",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1595,
+        "voting_age": 1207,
+        "voting_age_pct": 75.67
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1300,
+          "pct": 81.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.25
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15,
+          "pct": 0.94
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4,
+          "pct": 0.25
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 271,
+          "pct": 16.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 54583,
+        "poverty_count": 82,
+        "poverty_pct": 5.14
+      },
+      "education": {
+        "bachelors_or_higher": 143,
+        "bachelors_only": 107,
+        "masters": 15,
+        "professional": 16,
+        "doctorate": 5
+      }
+    },
+    "North Bennington village, Vermont": {
+      "state": "VT",
+      "fips": "5049075",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1342,
+        "voting_age": 1182,
+        "voting_age_pct": 88.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1161,
+          "pct": 86.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 18,
+          "pct": 1.34
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 63,
+          "pct": 4.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.45
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 73,
+          "pct": 5.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 21,
+          "pct": 1.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 67500,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 320,
+        "bachelors_only": 115,
+        "masters": 151,
+        "professional": 27,
+        "doctorate": 27
+      }
+    },
+    "Jericho village, Vermont": {
+      "state": "VT",
+      "fips": "5036625",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1230,
+        "voting_age": 952,
+        "voting_age_pct": 77.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1050,
+          "pct": 85.37
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 26,
+          "pct": 2.11
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 145,
+          "pct": 11.79
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9,
+          "pct": 0.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 94063,
+        "poverty_count": 14,
+        "poverty_pct": 1.14
+      },
+      "education": {
+        "bachelors_or_higher": 577,
+        "bachelors_only": 492,
+        "masters": 60,
+        "professional": 25,
+        "doctorate": 0
+      }
+    },
+    "Lyndonville village, Vermont": {
+      "state": "VT",
+      "fips": "5041950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1229,
+        "voting_age": 1020,
+        "voting_age_pct": 82.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1008,
+          "pct": 82.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.9
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 13,
+          "pct": 1.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 68,
+          "pct": 5.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 129,
+          "pct": 10.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 43693,
+        "poverty_count": 102,
+        "poverty_pct": 8.3
+      },
+      "education": {
+        "bachelors_or_higher": 217,
+        "bachelors_only": 176,
+        "masters": 41,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Poultney village, Vermont": {
+      "state": "VT",
+      "fips": "5056800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1105,
+        "voting_age": 950,
+        "voting_age_pct": 85.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 971,
+          "pct": 87.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 17,
+          "pct": 1.54
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 50,
+          "pct": 4.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 65,
+          "pct": 5.88
+        }
+      ],
+      "economics": {
+        "median_household_income": 61597,
+        "poverty_count": 23,
+        "poverty_pct": 2.08
+      },
+      "education": {
+        "bachelors_or_higher": 241,
+        "bachelors_only": 98,
+        "masters": 115,
+        "professional": 6,
+        "doctorate": 22
+      }
+    }
+  }
+}

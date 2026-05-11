@@ -1,0 +1,1931 @@
+{
+  "meta": {
+    "state": "Indiana",
+    "sourcePresidential2024": "Wikipedia: 2024 United States presidential election in Indiana",
+    "sourceVoterRegistration": "Indiana Secretary of State: Statewide Voter Counts by County and Status (11/21/2025)",
+    "note": "Voter registration as of 11/01/2025 (post-2024 general election). Registration data is ~1 year newer than election results."
+  },
+  "statewide": {
+    "president2024": {
+      "trump": 1720347,
+      "harris": 1163603,
+      "other": 60386,
+      "total": 2944336,
+      "turnoutPct": 62.93
+    },
+    "voterRegistration": {
+      "active": 4200779,
+      "inactive": 477680,
+      "total": 4678459
+    }
+  },
+  "counties": [
+    {
+      "county": "Adams",
+      "president2024": {
+        "trump": 10528,
+        "harris": 3179,
+        "other": 279,
+        "total": 13986,
+        "trumpPct": 75.28,
+        "harrisPct": 22.73,
+        "otherPct": 1.99,
+        "margin": 7349,
+        "marginPct": 52.55
+      },
+      "voterRegistration": {
+        "active": 18351,
+        "inactive": 1291,
+        "total": 19642,
+        "pending": 26
+      }
+    },
+    {
+      "county": "Allen",
+      "president2024": {
+        "trump": 90283,
+        "harris": 69960,
+        "other": 3407,
+        "total": 163650,
+        "trumpPct": 55.17,
+        "harrisPct": 42.75,
+        "otherPct": 2.08,
+        "margin": 20323,
+        "marginPct": 12.42
+      },
+      "voterRegistration": {
+        "active": 238295,
+        "inactive": 27181,
+        "total": 265476,
+        "pending": 324
+      },
+      "_validated": true
+    },
+    {
+      "county": "Bartholomew",
+      "president2024": {
+        "trump": 22220,
+        "harris": 12525,
+        "other": 843,
+        "total": 35588,
+        "trumpPct": 62.44,
+        "harrisPct": 35.19,
+        "otherPct": 2.37,
+        "margin": 9695,
+        "marginPct": 27.25
+      },
+      "voterRegistration": {
+        "active": 47527,
+        "inactive": 5830,
+        "total": 53357,
+        "pending": 78
+      }
+    },
+    {
+      "county": "Benton",
+      "president2024": {
+        "trump": 2873,
+        "harris": 1010,
+        "other": 71,
+        "total": 3954,
+        "trumpPct": 72.66,
+        "harrisPct": 25.54,
+        "otherPct": 1.8,
+        "margin": 1863,
+        "marginPct": 47.12
+      },
+      "voterRegistration": {
+        "active": 5566,
+        "inactive": 438,
+        "total": 6004,
+        "pending": 7
+      }
+    },
+    {
+      "county": "Blackford",
+      "president2024": {
+        "trump": 3811,
+        "harris": 1227,
+        "other": 98,
+        "total": 5136,
+        "trumpPct": 74.2,
+        "harrisPct": 23.89,
+        "otherPct": 1.91,
+        "margin": 2584,
+        "marginPct": 50.31
+      },
+      "voterRegistration": {
+        "active": 7131,
+        "inactive": 755,
+        "total": 7886,
+        "pending": 4
+      }
+    },
+    {
+      "county": "Boone",
+      "president2024": {
+        "trump": 22840,
+        "harris": 16426,
+        "other": 1017,
+        "total": 40283,
+        "trumpPct": 56.7,
+        "harrisPct": 40.78,
+        "otherPct": 2.52,
+        "margin": 6414,
+        "marginPct": 15.92
+      },
+      "voterRegistration": {
+        "active": 52988,
+        "inactive": 5244,
+        "total": 58232,
+        "pending": 107
+      }
+    },
+    {
+      "county": "Brown",
+      "president2024": {
+        "trump": 5647,
+        "harris": 2832,
+        "other": 148,
+        "total": 8627,
+        "trumpPct": 65.46,
+        "harrisPct": 32.83,
+        "otherPct": 1.71,
+        "margin": 2815,
+        "marginPct": 32.63
+      },
+      "voterRegistration": {
+        "active": 12000,
+        "inactive": 577,
+        "total": 12577,
+        "pending": 8
+      }
+    },
+    {
+      "county": "Carroll",
+      "president2024": {
+        "trump": 6902,
+        "harris": 2120,
+        "other": 162,
+        "total": 9184,
+        "trumpPct": 75.15,
+        "harrisPct": 23.08,
+        "otherPct": 1.77,
+        "margin": 4782,
+        "marginPct": 52.07
+      },
+      "voterRegistration": {
+        "active": 12975,
+        "inactive": 1152,
+        "total": 14127,
+        "pending": 15
+      }
+    },
+    {
+      "county": "Cass",
+      "president2024": {
+        "trump": 10285,
+        "harris": 3722,
+        "other": 206,
+        "total": 14213,
+        "trumpPct": 72.36,
+        "harrisPct": 26.19,
+        "otherPct": 1.45,
+        "margin": 6563,
+        "marginPct": 46.17
+      },
+      "voterRegistration": {
+        "active": 21032,
+        "inactive": 1550,
+        "total": 22582,
+        "pending": 17
+      }
+    },
+    {
+      "county": "Clark",
+      "president2024": {
+        "trump": 34734,
+        "harris": 22810,
+        "other": 1260,
+        "total": 58804,
+        "trumpPct": 59.07,
+        "harrisPct": 38.79,
+        "otherPct": 2.14,
+        "margin": 11924,
+        "marginPct": 20.28
+      },
+      "voterRegistration": {
+        "active": 84885,
+        "inactive": 9879,
+        "total": 94764,
+        "pending": 161
+      }
+    },
+    {
+      "county": "Clay",
+      "president2024": {
+        "trump": 9354,
+        "harris": 2495,
+        "other": 224,
+        "total": 12073,
+        "trumpPct": 77.48,
+        "harrisPct": 20.67,
+        "otherPct": 1.85,
+        "margin": 6859,
+        "marginPct": 56.81
+      },
+      "voterRegistration": {
+        "active": 16582,
+        "inactive": 1881,
+        "total": 18463,
+        "pending": 38
+      }
+    },
+    {
+      "county": "Clinton",
+      "president2024": {
+        "trump": 9108,
+        "harris": 3135,
+        "other": 207,
+        "total": 12450,
+        "trumpPct": 73.16,
+        "harrisPct": 25.18,
+        "otherPct": 1.66,
+        "margin": 5973,
+        "marginPct": 47.98
+      },
+      "voterRegistration": {
+        "active": 18459,
+        "inactive": 1629,
+        "total": 20088,
+        "pending": 32
+      }
+    },
+    {
+      "county": "Crawford",
+      "president2024": {
+        "trump": 3668,
+        "harris": 1235,
+        "other": 108,
+        "total": 5011,
+        "trumpPct": 73.2,
+        "harrisPct": 24.65,
+        "otherPct": 2.15,
+        "margin": 2433,
+        "marginPct": 48.55
+      },
+      "voterRegistration": {
+        "active": 6975,
+        "inactive": 411,
+        "total": 7386,
+        "pending": 9
+      }
+    },
+    {
+      "county": "Daviess",
+      "president2024": {
+        "trump": 9322,
+        "harris": 1963,
+        "other": 164,
+        "total": 11449,
+        "trumpPct": 81.42,
+        "harrisPct": 17.15,
+        "otherPct": 1.43,
+        "margin": 7359,
+        "marginPct": 64.27
+      },
+      "voterRegistration": {
+        "active": 15844,
+        "inactive": 1293,
+        "total": 17137,
+        "pending": 13
+      }
+    },
+    {
+      "county": "Dearborn",
+      "president2024": {
+        "trump": 20844,
+        "harris": 5335,
+        "other": 421,
+        "total": 26600,
+        "trumpPct": 78.36,
+        "harrisPct": 20.06,
+        "otherPct": 1.58,
+        "margin": 15509,
+        "marginPct": 58.3
+      },
+      "voterRegistration": {
+        "active": 36378,
+        "inactive": 3299,
+        "total": 39677,
+        "pending": 43
+      }
+    },
+    {
+      "county": "Decatur",
+      "president2024": {
+        "trump": 9491,
+        "harris": 2406,
+        "other": 238,
+        "total": 12135,
+        "trumpPct": 78.21,
+        "harrisPct": 19.83,
+        "otherPct": 1.96,
+        "margin": 7085,
+        "marginPct": 58.38
+      },
+      "voterRegistration": {
+        "active": 15966,
+        "inactive": 1622,
+        "total": 17588,
+        "pending": 16
+      }
+    },
+    {
+      "county": "Dekalb",
+      "president2024": {
+        "trump": 14377,
+        "harris": 5064,
+        "other": 390,
+        "total": 19831,
+        "trumpPct": 72.5,
+        "harrisPct": 25.54,
+        "otherPct": 1.96,
+        "margin": 9313,
+        "marginPct": 46.96
+      },
+      "voterRegistration": {
+        "active": 27241,
+        "inactive": 2538,
+        "total": 29779,
+        "pending": 42
+      }
+    },
+    {
+      "county": "Delaware",
+      "president2024": {
+        "trump": 26067,
+        "harris": 18848,
+        "other": 966,
+        "total": 45881,
+        "trumpPct": 56.81,
+        "harrisPct": 41.08,
+        "otherPct": 2.11,
+        "margin": 7219,
+        "marginPct": 15.73
+      },
+      "voterRegistration": {
+        "active": 65516,
+        "inactive": 8672,
+        "total": 74188,
+        "pending": 102
+      }
+    },
+    {
+      "county": "Dubois",
+      "president2024": {
+        "trump": 14983,
+        "harris": 5944,
+        "other": 537,
+        "total": 21464,
+        "trumpPct": 69.81,
+        "harrisPct": 27.69,
+        "otherPct": 2.5,
+        "margin": 9039,
+        "marginPct": 42.12
+      },
+      "voterRegistration": {
+        "active": 28708,
+        "inactive": 1670,
+        "total": 30378,
+        "pending": 34
+      }
+    },
+    {
+      "county": "Elkhart",
+      "president2024": {
+        "trump": 45652,
+        "harris": 23082,
+        "other": 1359,
+        "total": 70093,
+        "trumpPct": 65.13,
+        "harrisPct": 32.93,
+        "otherPct": 1.94,
+        "margin": 22570,
+        "marginPct": 32.2
+      },
+      "voterRegistration": {
+        "active": 110976,
+        "inactive": 12964,
+        "total": 123940,
+        "pending": 177
+      }
+    },
+    {
+      "county": "Fayette",
+      "president2024": {
+        "trump": 7625,
+        "harris": 2084,
+        "other": 153,
+        "total": 9862,
+        "trumpPct": 77.32,
+        "harrisPct": 21.13,
+        "otherPct": 1.55,
+        "margin": 5541,
+        "marginPct": 56.19
+      },
+      "voterRegistration": {
+        "active": 14100,
+        "inactive": 1395,
+        "total": 15495,
+        "pending": 21
+      }
+    },
+    {
+      "county": "Floyd",
+      "president2024": {
+        "trump": 23408,
+        "harris": 17025,
+        "other": 748,
+        "total": 41181,
+        "trumpPct": 56.84,
+        "harrisPct": 41.34,
+        "otherPct": 1.82,
+        "margin": 6383,
+        "marginPct": 15.5
+      },
+      "voterRegistration": {
+        "active": 55734,
+        "inactive": 6247,
+        "total": 61981,
+        "pending": 88
+      }
+    },
+    {
+      "county": "Fountain",
+      "president2024": {
+        "trump": 6311,
+        "harris": 1526,
+        "other": 145,
+        "total": 7982,
+        "trumpPct": 79.07,
+        "harrisPct": 19.12,
+        "otherPct": 1.81,
+        "margin": 4785,
+        "marginPct": 59.95
+      },
+      "voterRegistration": {
+        "active": 10772,
+        "inactive": 957,
+        "total": 11729,
+        "pending": 9
+      }
+    },
+    {
+      "county": "Franklin",
+      "president2024": {
+        "trump": 9810,
+        "harris": 2061,
+        "other": 163,
+        "total": 12034,
+        "trumpPct": 81.52,
+        "harrisPct": 17.13,
+        "otherPct": 1.35,
+        "margin": 7749,
+        "marginPct": 64.39
+      },
+      "voterRegistration": {
+        "active": 15978,
+        "inactive": 1230,
+        "total": 17208,
+        "pending": 11
+      }
+    },
+    {
+      "county": "Fulton",
+      "president2024": {
+        "trump": 6633,
+        "harris": 2097,
+        "other": 146,
+        "total": 8876,
+        "trumpPct": 74.73,
+        "harrisPct": 23.63,
+        "otherPct": 1.64,
+        "margin": 4536,
+        "marginPct": 51.1
+      },
+      "voterRegistration": {
+        "active": 12202,
+        "inactive": 1004,
+        "total": 13206,
+        "pending": 25
+      }
+    },
+    {
+      "county": "Gibson",
+      "president2024": {
+        "trump": 11896,
+        "harris": 3722,
+        "other": 283,
+        "total": 15901,
+        "trumpPct": 74.81,
+        "harrisPct": 23.41,
+        "otherPct": 1.78,
+        "margin": 8174,
+        "marginPct": 51.4
+      },
+      "voterRegistration": {
+        "active": 21817,
+        "inactive": 1504,
+        "total": 23321,
+        "pending": 25
+      }
+    },
+    {
+      "county": "Grant",
+      "president2024": {
+        "trump": 17580,
+        "harris": 7083,
+        "other": 563,
+        "total": 25226,
+        "trumpPct": 69.69,
+        "harrisPct": 28.08,
+        "otherPct": 2.23,
+        "margin": 10497,
+        "marginPct": 41.61
+      },
+      "voterRegistration": {
+        "active": 39164,
+        "inactive": 3313,
+        "total": 42477,
+        "pending": 70
+      }
+    },
+    {
+      "county": "Greene",
+      "president2024": {
+        "trump": 11132,
+        "harris": 3270,
+        "other": 251,
+        "total": 14653,
+        "trumpPct": 75.97,
+        "harrisPct": 22.32,
+        "otherPct": 1.71,
+        "margin": 7862,
+        "marginPct": 53.65
+      },
+      "voterRegistration": {
+        "active": 19674,
+        "inactive": 1700,
+        "total": 21374,
+        "pending": 21
+      }
+    },
+    {
+      "county": "Hamilton",
+      "president2024": {
+        "trump": 102318,
+        "harris": 90394,
+        "other": 5055,
+        "total": 197767,
+        "trumpPct": 51.74,
+        "harrisPct": 45.71,
+        "otherPct": 2.55,
+        "margin": 11924,
+        "marginPct": 6.03
+      },
+      "voterRegistration": {
+        "active": 255936,
+        "inactive": 25222,
+        "total": 281158,
+        "pending": 431
+      },
+      "_validated": true
+    },
+    {
+      "county": "Hancock",
+      "president2024": {
+        "trump": 29288,
+        "harris": 14312,
+        "other": 984,
+        "total": 44584,
+        "trumpPct": 65.69,
+        "harrisPct": 32.1,
+        "otherPct": 2.21,
+        "margin": 14976,
+        "marginPct": 33.59
+      },
+      "voterRegistration": {
+        "active": 60857,
+        "inactive": 5705,
+        "total": 66562,
+        "pending": 91
+      }
+    },
+    {
+      "county": "Harrison",
+      "president2024": {
+        "trump": 14830,
+        "harris": 5233,
+        "other": 385,
+        "total": 20448,
+        "trumpPct": 72.53,
+        "harrisPct": 25.59,
+        "otherPct": 1.88,
+        "margin": 9597,
+        "marginPct": 46.94
+      },
+      "voterRegistration": {
+        "active": 27524,
+        "inactive": 2307,
+        "total": 29831,
+        "pending": 15
+      }
+    },
+    {
+      "county": "Hendricks",
+      "president2024": {
+        "trump": 49783,
+        "harris": 31917,
+        "other": 1753,
+        "total": 83453,
+        "trumpPct": 59.65,
+        "harrisPct": 38.25,
+        "otherPct": 2.1,
+        "margin": 17866,
+        "marginPct": 21.4
+      },
+      "voterRegistration": {
+        "active": 119125,
+        "inactive": 11807,
+        "total": 130932,
+        "pending": 86
+      }
+    },
+    {
+      "county": "Henry",
+      "president2024": {
+        "trump": 15033,
+        "harris": 5208,
+        "other": 419,
+        "total": 20660,
+        "trumpPct": 72.76,
+        "harrisPct": 25.21,
+        "otherPct": 2.03,
+        "margin": 9825,
+        "marginPct": 47.55
+      },
+      "voterRegistration": {
+        "active": 28872,
+        "inactive": 2359,
+        "total": 31231,
+        "pending": 20
+      }
+    },
+    {
+      "county": "Howard",
+      "president2024": {
+        "trump": 25871,
+        "harris": 12197,
+        "other": 829,
+        "total": 38897,
+        "trumpPct": 66.51,
+        "harrisPct": 31.36,
+        "otherPct": 2.13,
+        "margin": 13674,
+        "marginPct": 35.15
+      },
+      "voterRegistration": {
+        "active": 54622,
+        "inactive": 5613,
+        "total": 60235,
+        "pending": 89
+      }
+    },
+    {
+      "county": "Huntington",
+      "president2024": {
+        "trump": 12990,
+        "harris": 4416,
+        "other": 377,
+        "total": 17783,
+        "trumpPct": 73.05,
+        "harrisPct": 24.83,
+        "otherPct": 2.12,
+        "margin": 8574,
+        "marginPct": 48.22
+      },
+      "voterRegistration": {
+        "active": 23031,
+        "inactive": 2122,
+        "total": 25153,
+        "pending": 27
+      }
+    },
+    {
+      "county": "Jackson",
+      "president2024": {
+        "trump": 14323,
+        "harris": 4015,
+        "other": 316,
+        "total": 18654,
+        "trumpPct": 76.78,
+        "harrisPct": 21.52,
+        "otherPct": 1.7,
+        "margin": 10308,
+        "marginPct": 55.26
+      },
+      "voterRegistration": {
+        "active": 25274,
+        "inactive": 2536,
+        "total": 27810,
+        "pending": 40
+      }
+    },
+    {
+      "county": "Jasper",
+      "president2024": {
+        "trump": 12082,
+        "harris": 3489,
+        "other": 275,
+        "total": 15846,
+        "trumpPct": 76.25,
+        "harrisPct": 22.02,
+        "otherPct": 1.73,
+        "margin": 8593,
+        "marginPct": 54.23
+      },
+      "voterRegistration": {
+        "active": 21821,
+        "inactive": 1680,
+        "total": 23501,
+        "pending": 35
+      }
+    },
+    {
+      "county": "Jay",
+      "president2024": {
+        "trump": 6217,
+        "harris": 1747,
+        "other": 151,
+        "total": 8115,
+        "trumpPct": 76.61,
+        "harrisPct": 21.53,
+        "otherPct": 1.86,
+        "margin": 4470,
+        "marginPct": 55.08
+      },
+      "voterRegistration": {
+        "active": 10909,
+        "inactive": 919,
+        "total": 11828,
+        "pending": 15
+      }
+    },
+    {
+      "county": "Jefferson",
+      "president2024": {
+        "trump": 9614,
+        "harris": 4442,
+        "other": 299,
+        "total": 14355,
+        "trumpPct": 66.97,
+        "harrisPct": 30.94,
+        "otherPct": 2.09,
+        "margin": 5172,
+        "marginPct": 36.03
+      },
+      "voterRegistration": {
+        "active": 19910,
+        "inactive": 2014,
+        "total": 21924,
+        "pending": 173
+      }
+    },
+    {
+      "county": "Jennings",
+      "president2024": {
+        "trump": 9273,
+        "harris": 2328,
+        "other": 208,
+        "total": 11809,
+        "trumpPct": 78.52,
+        "harrisPct": 19.71,
+        "otherPct": 1.77,
+        "margin": 6945,
+        "marginPct": 58.81
+      },
+      "voterRegistration": {
+        "active": 16447,
+        "inactive": 1726,
+        "total": 18173,
+        "pending": 20
+      }
+    },
+    {
+      "county": "Johnson",
+      "president2024": {
+        "trump": 51588,
+        "harris": 24880,
+        "other": 1591,
+        "total": 78059,
+        "trumpPct": 66.09,
+        "harrisPct": 31.87,
+        "otherPct": 2.04,
+        "margin": 26708,
+        "marginPct": 34.22
+      },
+      "voterRegistration": {
+        "active": 106313,
+        "inactive": 12179,
+        "total": 118492,
+        "pending": 197
+      }
+    },
+    {
+      "county": "Knox",
+      "president2024": {
+        "trump": 11236,
+        "harris": 3625,
+        "other": 262,
+        "total": 15123,
+        "trumpPct": 74.3,
+        "harrisPct": 23.97,
+        "otherPct": 1.73,
+        "margin": 7611,
+        "marginPct": 50.33
+      },
+      "voterRegistration": {
+        "active": 20358,
+        "inactive": 2360,
+        "total": 22718,
+        "pending": 33
+      }
+    },
+    {
+      "county": "Kosciusko",
+      "president2024": {
+        "trump": 26213,
+        "harris": 7995,
+        "other": 798,
+        "total": 35006,
+        "trumpPct": 74.88,
+        "harrisPct": 22.84,
+        "otherPct": 2.28,
+        "margin": 18218,
+        "marginPct": 52.04
+      },
+      "voterRegistration": {
+        "active": 48134,
+        "inactive": 5302,
+        "total": 53436,
+        "pending": 53
+      }
+    },
+    {
+      "county": "Lagrange",
+      "president2024": {
+        "trump": 8073,
+        "harris": 2162,
+        "other": 204,
+        "total": 10439,
+        "trumpPct": 77.33,
+        "harrisPct": 20.71,
+        "otherPct": 1.96,
+        "margin": 5911,
+        "marginPct": 56.62
+      },
+      "voterRegistration": {
+        "active": 14892,
+        "inactive": 1538,
+        "total": 16430,
+        "pending": 19
+      }
+    },
+    {
+      "county": "Lake",
+      "president2024": {
+        "trump": 97270,
+        "harris": 109086,
+        "other": 3746,
+        "total": 210102,
+        "trumpPct": 46.3,
+        "harrisPct": 51.92,
+        "otherPct": 1.78,
+        "margin": -11816,
+        "marginPct": -5.62
+      },
+      "voterRegistration": {
+        "active": 328108,
+        "inactive": 35581,
+        "total": 363689,
+        "pending": 401
+      }
+    },
+    {
+      "county": "Laporte",
+      "president2024": {
+        "trump": 26726,
+        "harris": 20007,
+        "other": 914,
+        "total": 47647,
+        "trumpPct": 56.09,
+        "harrisPct": 41.99,
+        "otherPct": 1.92,
+        "margin": 6719,
+        "marginPct": 14.1
+      },
+      "voterRegistration": {
+        "active": 69522,
+        "inactive": 8195,
+        "total": 77717,
+        "pending": 97
+      }
+    },
+    {
+      "county": "Lawrence",
+      "president2024": {
+        "trump": 15830,
+        "harris": 5010,
+        "other": 380,
+        "total": 21220,
+        "trumpPct": 74.6,
+        "harrisPct": 23.61,
+        "otherPct": 1.79,
+        "margin": 10820,
+        "marginPct": 50.99
+      },
+      "voterRegistration": {
+        "active": 30490,
+        "inactive": 1847,
+        "total": 32337,
+        "pending": 60
+      }
+    },
+    {
+      "county": "Madison",
+      "president2024": {
+        "trump": 34837,
+        "harris": 19824,
+        "other": 1211,
+        "total": 55872,
+        "trumpPct": 62.35,
+        "harrisPct": 35.48,
+        "otherPct": 2.17,
+        "margin": 15013,
+        "marginPct": 26.87
+      },
+      "voterRegistration": {
+        "active": 80966,
+        "inactive": 9734,
+        "total": 90700,
+        "pending": 132
+      }
+    },
+    {
+      "county": "Marion",
+      "president2024": {
+        "trump": 124327,
+        "harris": 221719,
+        "other": 8322,
+        "total": 354368,
+        "trumpPct": 35.08,
+        "harrisPct": 62.57,
+        "otherPct": 2.35,
+        "margin": -97392,
+        "marginPct": -27.49
+      },
+      "voterRegistration": {
+        "active": 539843,
+        "inactive": 87385,
+        "total": 627228,
+        "pending": 831
+      },
+      "_validated": true
+    },
+    {
+      "county": "Marshall",
+      "president2024": {
+        "trump": 13837,
+        "harris": 5356,
+        "other": 423,
+        "total": 19616,
+        "trumpPct": 70.54,
+        "harrisPct": 27.3,
+        "otherPct": 2.16,
+        "margin": 8481,
+        "marginPct": 43.24
+      },
+      "voterRegistration": {
+        "active": 27114,
+        "inactive": 2570,
+        "total": 29684,
+        "pending": 43
+      }
+    },
+    {
+      "county": "Martin",
+      "president2024": {
+        "trump": 3961,
+        "harris": 933,
+        "other": 98,
+        "total": 4992,
+        "trumpPct": 79.35,
+        "harrisPct": 18.69,
+        "otherPct": 1.96,
+        "margin": 3028,
+        "marginPct": 60.66
+      },
+      "voterRegistration": {
+        "active": 6390,
+        "inactive": 497,
+        "total": 6887,
+        "pending": 4
+      }
+    },
+    {
+      "county": "Miami",
+      "president2024": {
+        "trump": 10670,
+        "harris": 3046,
+        "other": 282,
+        "total": 13998,
+        "trumpPct": 76.23,
+        "harrisPct": 21.76,
+        "otherPct": 2.01,
+        "margin": 7624,
+        "marginPct": 54.47
+      },
+      "voterRegistration": {
+        "active": 19797,
+        "inactive": 1576,
+        "total": 21373,
+        "pending": 38
+      }
+    },
+    {
+      "county": "Monroe",
+      "president2024": {
+        "trump": 21004,
+        "harris": 37213,
+        "other": 1385,
+        "total": 59602,
+        "trumpPct": 35.24,
+        "harrisPct": 62.44,
+        "otherPct": 2.32,
+        "margin": -16209,
+        "marginPct": -27.2
+      },
+      "voterRegistration": {
+        "active": 76658,
+        "inactive": 12810,
+        "total": 89468,
+        "pending": 124
+      }
+    },
+    {
+      "county": "Montgomery",
+      "president2024": {
+        "trump": 12122,
+        "harris": 4134,
+        "other": 371,
+        "total": 16627,
+        "trumpPct": 72.91,
+        "harrisPct": 24.86,
+        "otherPct": 2.23,
+        "margin": 7988,
+        "marginPct": 48.05
+      },
+      "voterRegistration": {
+        "active": 22310,
+        "inactive": 2660,
+        "total": 24970,
+        "pending": 21
+      }
+    },
+    {
+      "county": "Morgan",
+      "president2024": {
+        "trump": 26965,
+        "harris": 7765,
+        "other": 693,
+        "total": 35423,
+        "trumpPct": 76.12,
+        "harrisPct": 21.92,
+        "otherPct": 1.96,
+        "margin": 19200,
+        "marginPct": 54.2
+      },
+      "voterRegistration": {
+        "active": 49268,
+        "inactive": 4216,
+        "total": 53484,
+        "pending": 77
+      }
+    },
+    {
+      "county": "Newton",
+      "president2024": {
+        "trump": 5131,
+        "harris": 1370,
+        "other": 100,
+        "total": 6601,
+        "trumpPct": 77.73,
+        "harrisPct": 20.75,
+        "otherPct": 1.52,
+        "margin": 3761,
+        "marginPct": 56.98
+      },
+      "voterRegistration": {
+        "active": 9409,
+        "inactive": 774,
+        "total": 10183,
+        "pending": 15
+      }
+    },
+    {
+      "county": "Noble",
+      "president2024": {
+        "trump": 14209,
+        "harris": 4462,
+        "other": 321,
+        "total": 18992,
+        "trumpPct": 74.82,
+        "harrisPct": 23.49,
+        "otherPct": 1.69,
+        "margin": 9747,
+        "marginPct": 51.33
+      },
+      "voterRegistration": {
+        "active": 27926,
+        "inactive": 2657,
+        "total": 30583,
+        "pending": 36
+      }
+    },
+    {
+      "county": "Ohio",
+      "president2024": {
+        "trump": 2381,
+        "harris": 666,
+        "other": 44,
+        "total": 3091,
+        "trumpPct": 77.03,
+        "harrisPct": 21.55,
+        "otherPct": 1.42,
+        "margin": 1715,
+        "marginPct": 55.48
+      },
+      "voterRegistration": {
+        "active": 4206,
+        "inactive": 448,
+        "total": 4654,
+        "pending": 6
+      }
+    },
+    {
+      "county": "Orange",
+      "president2024": {
+        "trump": 6467,
+        "harris": 1988,
+        "other": 140,
+        "total": 8595,
+        "trumpPct": 75.24,
+        "harrisPct": 23.13,
+        "otherPct": 1.63,
+        "margin": 4479,
+        "marginPct": 52.11
+      },
+      "voterRegistration": {
+        "active": 11886,
+        "inactive": 1308,
+        "total": 13194,
+        "pending": 25
+      }
+    },
+    {
+      "county": "Owen",
+      "president2024": {
+        "trump": 7360,
+        "harris": 2354,
+        "other": 162,
+        "total": 9876,
+        "trumpPct": 74.52,
+        "harrisPct": 23.84,
+        "otherPct": 1.64,
+        "margin": 5006,
+        "marginPct": 50.68
+      },
+      "voterRegistration": {
+        "active": 14280,
+        "inactive": 778,
+        "total": 15058,
+        "pending": 17
+      }
+    },
+    {
+      "county": "Parke",
+      "president2024": {
+        "trump": 5158,
+        "harris": 1371,
+        "other": 125,
+        "total": 6654,
+        "trumpPct": 77.52,
+        "harrisPct": 20.6,
+        "otherPct": 1.88,
+        "margin": 3787,
+        "marginPct": 56.92
+      },
+      "voterRegistration": {
+        "active": 8440,
+        "inactive": 942,
+        "total": 9382,
+        "pending": 6
+      }
+    },
+    {
+      "county": "Perry",
+      "president2024": {
+        "trump": 5549,
+        "harris": 2970,
+        "other": 164,
+        "total": 8683,
+        "trumpPct": 63.91,
+        "harrisPct": 34.2,
+        "otherPct": 1.89,
+        "margin": 2579,
+        "marginPct": 29.71
+      },
+      "voterRegistration": {
+        "active": 11600,
+        "inactive": 1176,
+        "total": 12776,
+        "pending": 15
+      }
+    },
+    {
+      "county": "Pike",
+      "president2024": {
+        "trump": 4610,
+        "harris": 1314,
+        "other": 89,
+        "total": 6013,
+        "trumpPct": 76.67,
+        "harrisPct": 21.85,
+        "otherPct": 1.48,
+        "margin": 3296,
+        "marginPct": 54.82
+      },
+      "voterRegistration": {
+        "active": 8077,
+        "inactive": 600,
+        "total": 8677,
+        "pending": 10
+      }
+    },
+    {
+      "county": "Porter",
+      "president2024": {
+        "trump": 46109,
+        "harris": 37213,
+        "other": 1647,
+        "total": 84969,
+        "trumpPct": 54.27,
+        "harrisPct": 43.8,
+        "otherPct": 1.93,
+        "margin": 8896,
+        "marginPct": 10.47
+      },
+      "voterRegistration": {
+        "active": 121442,
+        "inactive": 10046,
+        "total": 131488,
+        "pending": 108
+      }
+    },
+    {
+      "county": "Posey",
+      "president2024": {
+        "trump": 9206,
+        "harris": 3572,
+        "other": 201,
+        "total": 12979,
+        "trumpPct": 70.93,
+        "harrisPct": 27.52,
+        "otherPct": 1.55,
+        "margin": 5634,
+        "marginPct": 43.41
+      },
+      "voterRegistration": {
+        "active": 17246,
+        "inactive": 899,
+        "total": 18145,
+        "pending": 15
+      }
+    },
+    {
+      "county": "Pulaski",
+      "president2024": {
+        "trump": 4372,
+        "harris": 1280,
+        "other": 111,
+        "total": 5763,
+        "trumpPct": 75.86,
+        "harrisPct": 22.21,
+        "otherPct": 1.93,
+        "margin": 3092,
+        "marginPct": 53.65
+      },
+      "voterRegistration": {
+        "active": 7861,
+        "inactive": 694,
+        "total": 8555,
+        "pending": 7
+      }
+    },
+    {
+      "county": "Putnam",
+      "president2024": {
+        "trump": 12566,
+        "harris": 3871,
+        "other": 329,
+        "total": 16766,
+        "trumpPct": 74.95,
+        "harrisPct": 23.09,
+        "otherPct": 1.96,
+        "margin": 8695,
+        "marginPct": 51.86
+      },
+      "voterRegistration": {
+        "active": 22925,
+        "inactive": 2105,
+        "total": 25030,
+        "pending": 36
+      }
+    },
+    {
+      "county": "Randolph",
+      "president2024": {
+        "trump": 8008,
+        "harris": 2349,
+        "other": 208,
+        "total": 10565,
+        "trumpPct": 75.8,
+        "harrisPct": 22.23,
+        "otherPct": 1.97,
+        "margin": 5659,
+        "marginPct": 53.57
+      },
+      "voterRegistration": {
+        "active": 14435,
+        "inactive": 1510,
+        "total": 15945,
+        "pending": 24
+      }
+    },
+    {
+      "county": "Ripley",
+      "president2024": {
+        "trump": 11526,
+        "harris": 2682,
+        "other": 197,
+        "total": 14405,
+        "trumpPct": 80.01,
+        "harrisPct": 18.62,
+        "otherPct": 1.37,
+        "margin": 8844,
+        "marginPct": 61.39
+      },
+      "voterRegistration": {
+        "active": 19250,
+        "inactive": 1735,
+        "total": 20985,
+        "pending": 23
+      }
+    },
+    {
+      "county": "Rush",
+      "president2024": {
+        "trump": 5812,
+        "harris": 1675,
+        "other": 169,
+        "total": 7656,
+        "trumpPct": 75.91,
+        "harrisPct": 21.88,
+        "otherPct": 2.21,
+        "margin": 4137,
+        "marginPct": 54.03
+      },
+      "voterRegistration": {
+        "active": 10382,
+        "inactive": 907,
+        "total": 11289,
+        "pending": 39
+      }
+    },
+    {
+      "county": "Scott",
+      "president2024": {
+        "trump": 7633,
+        "harris": 2389,
+        "other": 165,
+        "total": 10187,
+        "trumpPct": 74.93,
+        "harrisPct": 23.45,
+        "otherPct": 1.62,
+        "margin": 5244,
+        "marginPct": 51.48
+      },
+      "voterRegistration": {
+        "active": 15270,
+        "inactive": 1719,
+        "total": 16989,
+        "pending": 28
+      }
+    },
+    {
+      "county": "Shelby",
+      "president2024": {
+        "trump": 14438,
+        "harris": 4955,
+        "other": 361,
+        "total": 19754,
+        "trumpPct": 73.09,
+        "harrisPct": 25.08,
+        "otherPct": 1.83,
+        "margin": 9483,
+        "marginPct": 48.01
+      },
+      "voterRegistration": {
+        "active": 28026,
+        "inactive": 2434,
+        "total": 30460,
+        "pending": 29
+      }
+    },
+    {
+      "county": "Spencer",
+      "president2024": {
+        "trump": 7364,
+        "harris": 2853,
+        "other": 225,
+        "total": 10442,
+        "trumpPct": 70.52,
+        "harrisPct": 27.32,
+        "otherPct": 2.16,
+        "margin": 4511,
+        "marginPct": 43.2
+      },
+      "voterRegistration": {
+        "active": 13754,
+        "inactive": 1168,
+        "total": 14922,
+        "pending": 18
+      }
+    },
+    {
+      "county": "St. Joseph",
+      "president2024": {
+        "trump": 53585,
+        "harris": 55215,
+        "other": 2024,
+        "total": 110824,
+        "trumpPct": 48.35,
+        "harrisPct": 49.82,
+        "otherPct": 1.83,
+        "margin": -1630,
+        "marginPct": -1.47
+      },
+      "voterRegistration": {
+        "active": 166475,
+        "inactive": 23686,
+        "total": 190161,
+        "pending": 260
+      }
+    },
+    {
+      "county": "Starke",
+      "president2024": {
+        "trump": 7889,
+        "harris": 2436,
+        "other": 153,
+        "total": 10478,
+        "trumpPct": 75.29,
+        "harrisPct": 23.25,
+        "otherPct": 1.46,
+        "margin": 5453,
+        "marginPct": 52.04
+      },
+      "voterRegistration": {
+        "active": 15417,
+        "inactive": 1421,
+        "total": 16838,
+        "pending": 16
+      }
+    },
+    {
+      "county": "Steuben",
+      "president2024": {
+        "trump": 11487,
+        "harris": 4598,
+        "other": 324,
+        "total": 16409,
+        "trumpPct": 70.0,
+        "harrisPct": 28.02,
+        "otherPct": 1.98,
+        "margin": 6889,
+        "marginPct": 41.98
+      },
+      "voterRegistration": {
+        "active": 22473,
+        "inactive": 2229,
+        "total": 24702,
+        "pending": 41
+      }
+    },
+    {
+      "county": "Sullivan",
+      "president2024": {
+        "trump": 6639,
+        "harris": 2006,
+        "other": 150,
+        "total": 8795,
+        "trumpPct": 75.49,
+        "harrisPct": 22.81,
+        "otherPct": 1.7,
+        "margin": 4633,
+        "marginPct": 52.68
+      },
+      "voterRegistration": {
+        "active": 12067,
+        "inactive": 1183,
+        "total": 13250,
+        "pending": 17
+      }
+    },
+    {
+      "county": "Switzerland",
+      "president2024": {
+        "trump": 3319,
+        "harris": 873,
+        "other": 66,
+        "total": 4258,
+        "trumpPct": 77.95,
+        "harrisPct": 20.5,
+        "otherPct": 1.55,
+        "margin": 2446,
+        "marginPct": 57.45
+      },
+      "voterRegistration": {
+        "active": 6228,
+        "inactive": 771,
+        "total": 6999,
+        "pending": 5
+      }
+    },
+    {
+      "county": "Tippecanoe",
+      "president2024": {
+        "trump": 32783,
+        "harris": 32683,
+        "other": 1728,
+        "total": 67194,
+        "trumpPct": 48.79,
+        "harrisPct": 48.64,
+        "otherPct": 2.57,
+        "margin": 100,
+        "marginPct": 0.15
+      },
+      "voterRegistration": {
+        "active": 98966,
+        "inactive": 16551,
+        "total": 115517,
+        "pending": 302
+      }
+    },
+    {
+      "county": "Tipton",
+      "president2024": {
+        "trump": 5946,
+        "harris": 1893,
+        "other": 159,
+        "total": 7998,
+        "trumpPct": 74.34,
+        "harrisPct": 23.67,
+        "otherPct": 1.99,
+        "margin": 4053,
+        "marginPct": 50.67
+      },
+      "voterRegistration": {
+        "active": 10407,
+        "inactive": 726,
+        "total": 11133,
+        "pending": 14
+      }
+    },
+    {
+      "county": "Union",
+      "president2024": {
+        "trump": 2698,
+        "harris": 746,
+        "other": 50,
+        "total": 3494,
+        "trumpPct": 77.22,
+        "harrisPct": 21.35,
+        "otherPct": 1.43,
+        "margin": 1952,
+        "marginPct": 55.87
+      },
+      "voterRegistration": {
+        "active": 4474,
+        "inactive": 457,
+        "total": 4931,
+        "pending": 16
+      }
+    },
+    {
+      "county": "Vanderburgh",
+      "president2024": {
+        "trump": 41056,
+        "harris": 31727,
+        "other": 1049,
+        "total": 73832,
+        "trumpPct": 55.61,
+        "harrisPct": 42.97,
+        "otherPct": 1.42,
+        "margin": 9329,
+        "marginPct": 12.64
+      },
+      "voterRegistration": {
+        "active": 108473,
+        "inactive": 14335,
+        "total": 122808,
+        "pending": 145
+      }
+    },
+    {
+      "county": "Vermillion",
+      "president2024": {
+        "trump": 5174,
+        "harris": 1928,
+        "other": 164,
+        "total": 7266,
+        "trumpPct": 71.21,
+        "harrisPct": 26.53,
+        "otherPct": 2.26,
+        "margin": 3246,
+        "marginPct": 44.68
+      },
+      "voterRegistration": {
+        "active": 9693,
+        "inactive": 950,
+        "total": 10643,
+        "pending": 14
+      }
+    },
+    {
+      "county": "Vigo",
+      "president2024": {
+        "trump": 23738,
+        "harris": 16338,
+        "other": 947,
+        "total": 41023,
+        "trumpPct": 57.87,
+        "harrisPct": 39.83,
+        "otherPct": 2.3,
+        "margin": 7400,
+        "marginPct": 18.04
+      },
+      "voterRegistration": {
+        "active": 61081,
+        "inactive": 7899,
+        "total": 68980,
+        "pending": 89
+      }
+    },
+    {
+      "county": "Wabash",
+      "president2024": {
+        "trump": 10425,
+        "harris": 3335,
+        "other": 220,
+        "total": 13980,
+        "trumpPct": 74.57,
+        "harrisPct": 23.86,
+        "otherPct": 1.57,
+        "margin": 7090,
+        "marginPct": 50.71
+      },
+      "voterRegistration": {
+        "active": 19029,
+        "inactive": 1644,
+        "total": 20673,
+        "pending": 35
+      }
+    },
+    {
+      "county": "Warren",
+      "president2024": {
+        "trump": 3402,
+        "harris": 898,
+        "other": 70,
+        "total": 4370,
+        "trumpPct": 77.85,
+        "harrisPct": 20.55,
+        "otherPct": 1.6,
+        "margin": 2504,
+        "marginPct": 57.3
+      },
+      "voterRegistration": {
+        "active": 5785,
+        "inactive": 404,
+        "total": 6189,
+        "pending": 11
+      }
+    },
+    {
+      "county": "Warrick",
+      "president2024": {
+        "trump": 21280,
+        "harris": 11292,
+        "other": 624,
+        "total": 33196,
+        "trumpPct": 64.1,
+        "harrisPct": 34.02,
+        "otherPct": 1.88,
+        "margin": 9988,
+        "marginPct": 30.08
+      },
+      "voterRegistration": {
+        "active": 44096,
+        "inactive": 4042,
+        "total": 48138,
+        "pending": 66
+      }
+    },
+    {
+      "county": "Washington",
+      "president2024": {
+        "trump": 9739,
+        "harris": 2764,
+        "other": 220,
+        "total": 12723,
+        "trumpPct": 76.55,
+        "harrisPct": 21.72,
+        "otherPct": 1.73,
+        "margin": 6975,
+        "marginPct": 54.83
+      },
+      "voterRegistration": {
+        "active": 18027,
+        "inactive": 1365,
+        "total": 19392,
+        "pending": 18
+      }
+    },
+    {
+      "county": "Wayne",
+      "president2024": {
+        "trump": 17526,
+        "harris": 8828,
+        "other": 473,
+        "total": 26827,
+        "trumpPct": 65.33,
+        "harrisPct": 32.91,
+        "otherPct": 1.76,
+        "margin": 8698,
+        "marginPct": 32.42
+      },
+      "voterRegistration": {
+        "active": 37494,
+        "inactive": 4457,
+        "total": 41951,
+        "pending": 28
+      }
+    },
+    {
+      "county": "Wells",
+      "president2024": {
+        "trump": 11006,
+        "harris": 2850,
+        "other": 280,
+        "total": 14136,
+        "trumpPct": 77.86,
+        "harrisPct": 20.16,
+        "otherPct": 1.98,
+        "margin": 8156,
+        "marginPct": 57.7
+      },
+      "voterRegistration": {
+        "active": 18380,
+        "inactive": 1264,
+        "total": 19644,
+        "pending": 29
+      }
+    },
+    {
+      "county": "White",
+      "president2024": {
+        "trump": 7969,
+        "harris": 2945,
+        "other": 262,
+        "total": 11176,
+        "trumpPct": 71.3,
+        "harrisPct": 26.35,
+        "otherPct": 2.35,
+        "margin": 5024,
+        "marginPct": 44.95
+      },
+      "voterRegistration": {
+        "active": 15404,
+        "inactive": 1378,
+        "total": 16782,
+        "pending": 17
+      }
+    },
+    {
+      "county": "Whitley",
+      "president2024": {
+        "trump": 13122,
+        "harris": 4275,
+        "other": 377,
+        "total": 17774,
+        "trumpPct": 73.83,
+        "harrisPct": 24.05,
+        "otherPct": 2.12,
+        "margin": 8847,
+        "marginPct": 49.78
+      },
+      "voterRegistration": {
+        "active": 23068,
+        "inactive": 1332,
+        "total": 24400,
+        "pending": 31
+      }
+    }
+  ],
+  "validation": {
+    "countiesValidated": [
+      "Marion",
+      "Allen",
+      "Hamilton"
+    ],
+    "marion": {
+      "president2024": {
+        "trump": 124327,
+        "harris": 221719,
+        "other": 8322,
+        "total": 354368,
+        "trumpPct": 35.08,
+        "harrisPct": 62.57,
+        "otherPct": 2.35,
+        "margin": -97392,
+        "marginPct": -27.49
+      },
+      "voterRegistration": {
+        "active": 539843,
+        "inactive": 87385,
+        "total": 627228,
+        "pending": 831
+      }
+    },
+    "allen": {
+      "president2024": {
+        "trump": 90283,
+        "harris": 69960,
+        "other": 3407,
+        "total": 163650,
+        "trumpPct": 55.17,
+        "harrisPct": 42.75,
+        "otherPct": 2.08,
+        "margin": 20323,
+        "marginPct": 12.42
+      },
+      "voterRegistration": {
+        "active": 238295,
+        "inactive": 27181,
+        "total": 265476,
+        "pending": 324
+      }
+    },
+    "hamilton": {
+      "president2024": {
+        "trump": 102318,
+        "harris": 90394,
+        "other": 5055,
+        "total": 197767,
+        "trumpPct": 51.74,
+        "harrisPct": 45.71,
+        "otherPct": 2.55,
+        "margin": 11924,
+        "marginPct": 6.03
+      },
+      "voterRegistration": {
+        "active": 255936,
+        "inactive": 25222,
+        "total": 281158,
+        "pending": 431
+      }
+    }
+  }
+}

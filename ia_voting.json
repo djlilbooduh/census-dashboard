@@ -1,0 +1,3209 @@
+{
+  "state": "Iowa",
+  "election": "2024 Presidential General Election",
+  "election_date": "2024-11-05",
+  "voter_registration_date": "2024-11-01",
+  "source_election": "Wikipedia: 2024 United States presidential election in Iowa",
+  "source_voter_registration": "Iowa Secretary of State - Voter Registration Totals by County (November 2024)",
+  "statewide": {
+    "trump_votes": 927019,
+    "trump_pct": 55.73,
+    "harris_votes": 707278,
+    "harris_pct": 42.52,
+    "other_votes": 29209,
+    "other_pct": 1.76,
+    "margin_votes": 219741,
+    "margin_pct": 13.21,
+    "total_votes": 1663506,
+    "turnout_pct": 74.18
+  },
+  "voter_registration_statewide": {
+    "active": {
+      "democratic": 495751,
+      "republican": 669053,
+      "libertarian": 11346,
+      "no_party": 502243,
+      "other": 2410,
+      "total": 1680803
+    },
+    "inactive": {
+      "democratic": 158301,
+      "republican": 128489,
+      "libertarian": 6008,
+      "no_party": 277388,
+      "other": 1970,
+      "total": 572156
+    },
+    "grand_total": 2252959
+  },
+  "counties": {
+    "Adair": {
+      "presidential": {
+        "trump_votes": 2916,
+        "trump_pct": 71.47,
+        "harris_votes": 1086,
+        "harris_pct": 26.62,
+        "other_votes": 78,
+        "other_pct": 1.91,
+        "margin_votes": 1830,
+        "margin_pct": 44.85,
+        "total_votes": 4080
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 738,
+          "republican": 2151,
+          "libertarian": 25,
+          "no_party": 1288,
+          "other": 3,
+          "total": 4205
+        },
+        "inactive": {
+          "democratic": 179,
+          "republican": 336,
+          "libertarian": 10,
+          "no_party": 686,
+          "other": 3,
+          "total": 1214
+        },
+        "grand_total": 5419
+      }
+    },
+    "Adams": {
+      "presidential": {
+        "trump_votes": 1517,
+        "trump_pct": 71.05,
+        "harris_votes": 576,
+        "harris_pct": 26.98,
+        "other_votes": 42,
+        "other_pct": 1.97,
+        "margin_votes": 941,
+        "margin_pct": 44.07,
+        "total_votes": 2135
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 394,
+          "republican": 1114,
+          "libertarian": 8,
+          "no_party": 697,
+          "other": 2,
+          "total": 2215
+        },
+        "inactive": {
+          "democratic": 73,
+          "republican": 172,
+          "libertarian": 0,
+          "no_party": 392,
+          "other": 0,
+          "total": 637
+        },
+        "grand_total": 2852
+      }
+    },
+    "Allamakee": {
+      "presidential": {
+        "trump_votes": 4857,
+        "trump_pct": 66.37,
+        "harris_votes": 2350,
+        "harris_pct": 32.11,
+        "other_votes": 111,
+        "other_pct": 1.52,
+        "margin_votes": 2507,
+        "margin_pct": 34.26,
+        "total_votes": 7318
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1536,
+          "republican": 4277,
+          "libertarian": 39,
+          "no_party": 1889,
+          "other": 10,
+          "total": 7751
+        },
+        "inactive": {
+          "democratic": 411,
+          "republican": 689,
+          "libertarian": 17,
+          "no_party": 1185,
+          "other": 3,
+          "total": 2305
+        },
+        "grand_total": 10056
+      }
+    },
+    "Appanoose": {
+      "presidential": {
+        "trump_votes": 4704,
+        "trump_pct": 72.55,
+        "harris_votes": 1686,
+        "harris_pct": 26.0,
+        "other_votes": 94,
+        "other_pct": 1.45,
+        "margin_votes": 3018,
+        "margin_pct": 46.55,
+        "total_votes": 6484
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1341,
+          "republican": 3417,
+          "libertarian": 40,
+          "no_party": 1785,
+          "other": 7,
+          "total": 6590
+        },
+        "inactive": {
+          "democratic": 440,
+          "republican": 680,
+          "libertarian": 14,
+          "no_party": 1175,
+          "other": 7,
+          "total": 2316
+        },
+        "grand_total": 8906
+      }
+    },
+    "Audubon": {
+      "presidential": {
+        "trump_votes": 2214,
+        "trump_pct": 68.14,
+        "harris_votes": 970,
+        "harris_pct": 29.86,
+        "other_votes": 65,
+        "other_pct": 2.0,
+        "margin_votes": 1244,
+        "margin_pct": 38.28,
+        "total_votes": 3249
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 751,
+          "republican": 1797,
+          "libertarian": 18,
+          "no_party": 798,
+          "other": 3,
+          "total": 3367
+        },
+        "inactive": {
+          "democratic": 144,
+          "republican": 282,
+          "libertarian": 9,
+          "no_party": 395,
+          "other": 1,
+          "total": 831
+        },
+        "grand_total": 4198
+      }
+    },
+    "Benton": {
+      "presidential": {
+        "trump_votes": 9549,
+        "trump_pct": 65.81,
+        "harris_votes": 4739,
+        "harris_pct": 32.66,
+        "other_votes": 221,
+        "other_pct": 1.52,
+        "margin_votes": 4810,
+        "margin_pct": 33.15,
+        "total_votes": 14509
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 3056,
+          "republican": 6591,
+          "libertarian": 78,
+          "no_party": 5222,
+          "other": 14,
+          "total": 14961
+        },
+        "inactive": {
+          "democratic": 638,
+          "republican": 814,
+          "libertarian": 43,
+          "no_party": 2254,
+          "other": 12,
+          "total": 3761
+        },
+        "grand_total": 18722
+      }
+    },
+    "Black Hawk": {
+      "presidential": {
+        "trump_votes": 30572,
+        "trump_pct": 48.6,
+        "harris_votes": 31299,
+        "harris_pct": 49.76,
+        "other_votes": 1035,
+        "other_pct": 1.65,
+        "margin_votes": -727,
+        "margin_pct": -1.16,
+        "total_votes": 62906
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 22453,
+          "republican": 19809,
+          "libertarian": 503,
+          "no_party": 19239,
+          "other": 102,
+          "total": 62106
+        },
+        "inactive": {
+          "democratic": 8866,
+          "republican": 4032,
+          "libertarian": 210,
+          "no_party": 11391,
+          "other": 99,
+          "total": 24598
+        },
+        "grand_total": 86704
+      }
+    },
+    "Boone": {
+      "presidential": {
+        "trump_votes": 9199,
+        "trump_pct": 59.72,
+        "harris_votes": 5895,
+        "harris_pct": 38.27,
+        "other_votes": 309,
+        "other_pct": 2.01,
+        "margin_votes": 3304,
+        "margin_pct": 21.45,
+        "total_votes": 15403
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 4137,
+          "republican": 6175,
+          "libertarian": 105,
+          "no_party": 5367,
+          "other": 15,
+          "total": 15799
+        },
+        "inactive": {
+          "democratic": 871,
+          "republican": 1085,
+          "libertarian": 49,
+          "no_party": 2568,
+          "other": 11,
+          "total": 4584
+        },
+        "grand_total": 20383
+      }
+    },
+    "Bremer": {
+      "presidential": {
+        "trump_votes": 8799,
+        "trump_pct": 60.24,
+        "harris_votes": 5571,
+        "harris_pct": 38.14,
+        "other_votes": 237,
+        "other_pct": 1.62,
+        "margin_votes": 3228,
+        "margin_pct": 22.1,
+        "total_votes": 14607
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 3384,
+          "republican": 5493,
+          "libertarian": 57,
+          "no_party": 5559,
+          "other": 12,
+          "total": 14505
+        },
+        "inactive": {
+          "democratic": 794,
+          "republican": 841,
+          "libertarian": 24,
+          "no_party": 2126,
+          "other": 6,
+          "total": 3791
+        },
+        "grand_total": 18296
+      }
+    },
+    "Buchanan": {
+      "presidential": {
+        "trump_votes": 6790,
+        "trump_pct": 63.16,
+        "harris_votes": 3766,
+        "harris_pct": 35.03,
+        "other_votes": 194,
+        "other_pct": 1.8,
+        "margin_votes": 3024,
+        "margin_pct": 28.13,
+        "total_votes": 10750
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2836,
+          "republican": 3882,
+          "libertarian": 60,
+          "no_party": 4101,
+          "other": 5,
+          "total": 10884
+        },
+        "inactive": {
+          "democratic": 567,
+          "republican": 572,
+          "libertarian": 22,
+          "no_party": 2147,
+          "other": 3,
+          "total": 3311
+        },
+        "grand_total": 14195
+      }
+    },
+    "Buena Vista": {
+      "presidential": {
+        "trump_votes": 4962,
+        "trump_pct": 65.84,
+        "harris_votes": 2462,
+        "harris_pct": 32.67,
+        "other_votes": 113,
+        "other_pct": 1.5,
+        "margin_votes": 2500,
+        "margin_pct": 33.17,
+        "total_votes": 7537
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1743,
+          "republican": 3756,
+          "libertarian": 36,
+          "no_party": 2240,
+          "other": 14,
+          "total": 7789
+        },
+        "inactive": {
+          "democratic": 1289,
+          "republican": 968,
+          "libertarian": 28,
+          "no_party": 1973,
+          "other": 13,
+          "total": 4271
+        },
+        "grand_total": 12060
+      }
+    },
+    "Butler": {
+      "presidential": {
+        "trump_votes": 5784,
+        "trump_pct": 71.89,
+        "harris_votes": 2144,
+        "harris_pct": 26.65,
+        "other_votes": 118,
+        "other_pct": 1.47,
+        "margin_votes": 3640,
+        "margin_pct": 45.24,
+        "total_votes": 8046
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1432,
+          "republican": 4388,
+          "libertarian": 35,
+          "no_party": 2228,
+          "other": 8,
+          "total": 8091
+        },
+        "inactive": {
+          "democratic": 332,
+          "republican": 665,
+          "libertarian": 23,
+          "no_party": 1161,
+          "other": 5,
+          "total": 2186
+        },
+        "grand_total": 10277
+      }
+    },
+    "Calhoun": {
+      "presidential": {
+        "trump_votes": 3708,
+        "trump_pct": 72.75,
+        "harris_votes": 1328,
+        "harris_pct": 26.05,
+        "other_votes": 61,
+        "other_pct": 1.2,
+        "margin_votes": 2380,
+        "margin_pct": 46.7,
+        "total_votes": 5097
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 883,
+          "republican": 2843,
+          "libertarian": 28,
+          "no_party": 1568,
+          "other": 2,
+          "total": 5324
+        },
+        "inactive": {
+          "democratic": 222,
+          "republican": 429,
+          "libertarian": 11,
+          "no_party": 727,
+          "other": 4,
+          "total": 1393
+        },
+        "grand_total": 6717
+      }
+    },
+    "Carroll": {
+      "presidential": {
+        "trump_votes": 7814,
+        "trump_pct": 70.14,
+        "harris_votes": 3153,
+        "harris_pct": 28.3,
+        "other_votes": 173,
+        "other_pct": 1.55,
+        "margin_votes": 4661,
+        "margin_pct": 41.84,
+        "total_votes": 11140
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2422,
+          "republican": 5396,
+          "libertarian": 98,
+          "no_party": 3938,
+          "other": 14,
+          "total": 11868
+        },
+        "inactive": {
+          "democratic": 593,
+          "republican": 810,
+          "libertarian": 27,
+          "no_party": 1697,
+          "other": 7,
+          "total": 3134
+        },
+        "grand_total": 15002
+      }
+    },
+    "Cass": {
+      "presidential": {
+        "trump_votes": 5007,
+        "trump_pct": 69.38,
+        "harris_votes": 2077,
+        "harris_pct": 28.78,
+        "other_votes": 133,
+        "other_pct": 1.84,
+        "margin_votes": 2930,
+        "margin_pct": 40.6,
+        "total_votes": 7217
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1200,
+          "republican": 4242,
+          "libertarian": 32,
+          "no_party": 1782,
+          "other": 11,
+          "total": 7267
+        },
+        "inactive": {
+          "democratic": 325,
+          "republican": 813,
+          "libertarian": 21,
+          "no_party": 1202,
+          "other": 6,
+          "total": 2367
+        },
+        "grand_total": 9634
+      }
+    },
+    "Cedar": {
+      "presidential": {
+        "trump_votes": 6390,
+        "trump_pct": 60.03,
+        "harris_votes": 4075,
+        "harris_pct": 38.28,
+        "other_votes": 179,
+        "other_pct": 1.68,
+        "margin_votes": 2315,
+        "margin_pct": 21.75,
+        "total_votes": 10644
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2629,
+          "republican": 4498,
+          "libertarian": 75,
+          "no_party": 3461,
+          "other": 10,
+          "total": 10673
+        },
+        "inactive": {
+          "democratic": 545,
+          "republican": 629,
+          "libertarian": 21,
+          "no_party": 1426,
+          "other": 13,
+          "total": 2634
+        },
+        "grand_total": 13307
+      }
+    },
+    "Cerro Gordo": {
+      "presidential": {
+        "trump_votes": 12627,
+        "trump_pct": 54.85,
+        "harris_votes": 9955,
+        "harris_pct": 43.25,
+        "other_votes": 438,
+        "other_pct": 1.9,
+        "margin_votes": 2672,
+        "margin_pct": 11.6,
+        "total_votes": 23020
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 6699,
+          "republican": 8826,
+          "libertarian": 149,
+          "no_party": 7763,
+          "other": 29,
+          "total": 23466
+        },
+        "inactive": {
+          "democratic": 1929,
+          "republican": 1476,
+          "libertarian": 56,
+          "no_party": 4553,
+          "other": 32,
+          "total": 8046
+        },
+        "grand_total": 31512
+      }
+    },
+    "Cherokee": {
+      "presidential": {
+        "trump_votes": 4398,
+        "trump_pct": 72.04,
+        "harris_votes": 1611,
+        "harris_pct": 26.39,
+        "other_votes": 96,
+        "other_pct": 1.57,
+        "margin_votes": 2787,
+        "margin_pct": 45.65,
+        "total_votes": 6105
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 890,
+          "republican": 3991,
+          "libertarian": 36,
+          "no_party": 1377,
+          "other": 4,
+          "total": 6298
+        },
+        "inactive": {
+          "democratic": 336,
+          "republican": 576,
+          "libertarian": 11,
+          "no_party": 969,
+          "other": 5,
+          "total": 1897
+        },
+        "grand_total": 8195
+      }
+    },
+    "Chickasaw": {
+      "presidential": {
+        "trump_votes": 4234,
+        "trump_pct": 67.86,
+        "harris_votes": 1919,
+        "harris_pct": 30.76,
+        "other_votes": 86,
+        "other_pct": 1.38,
+        "margin_votes": 2315,
+        "margin_pct": 37.1,
+        "total_votes": 6239
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1632,
+          "republican": 2753,
+          "libertarian": 21,
+          "no_party": 2089,
+          "other": 1,
+          "total": 6496
+        },
+        "inactive": {
+          "democratic": 327,
+          "republican": 401,
+          "libertarian": 15,
+          "no_party": 1053,
+          "other": 6,
+          "total": 1802
+        },
+        "grand_total": 8298
+      }
+    },
+    "Clarke": {
+      "presidential": {
+        "trump_votes": 3140,
+        "trump_pct": 70.1,
+        "harris_votes": 1265,
+        "harris_pct": 28.24,
+        "other_votes": 74,
+        "other_pct": 1.65,
+        "margin_votes": 1875,
+        "margin_pct": 41.86,
+        "total_votes": 4479
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 953,
+          "republican": 2344,
+          "libertarian": 39,
+          "no_party": 1212,
+          "other": 5,
+          "total": 4553
+        },
+        "inactive": {
+          "democratic": 356,
+          "republican": 398,
+          "libertarian": 17,
+          "no_party": 902,
+          "other": 10,
+          "total": 1683
+        },
+        "grand_total": 6236
+      }
+    },
+    "Clay": {
+      "presidential": {
+        "trump_votes": 6047,
+        "trump_pct": 70.8,
+        "harris_votes": 2367,
+        "harris_pct": 27.71,
+        "other_votes": 127,
+        "other_pct": 1.49,
+        "margin_votes": 3680,
+        "margin_pct": 43.09,
+        "total_votes": 8541
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1529,
+          "republican": 4979,
+          "libertarian": 58,
+          "no_party": 2242,
+          "other": 12,
+          "total": 8820
+        },
+        "inactive": {
+          "democratic": 484,
+          "republican": 1026,
+          "libertarian": 37,
+          "no_party": 1389,
+          "other": 6,
+          "total": 2942
+        },
+        "grand_total": 11762
+      }
+    },
+    "Clayton": {
+      "presidential": {
+        "trump_votes": 6255,
+        "trump_pct": 66.54,
+        "harris_votes": 3017,
+        "harris_pct": 32.1,
+        "other_votes": 128,
+        "other_pct": 1.36,
+        "margin_votes": 3238,
+        "margin_pct": 34.44,
+        "total_votes": 9400
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2204,
+          "republican": 4716,
+          "libertarian": 46,
+          "no_party": 2812,
+          "other": 8,
+          "total": 9786
+        },
+        "inactive": {
+          "democratic": 546,
+          "republican": 757,
+          "libertarian": 21,
+          "no_party": 1322,
+          "other": 9,
+          "total": 2655
+        },
+        "grand_total": 12441
+      }
+    },
+    "Clinton": {
+      "presidential": {
+        "trump_votes": 13964,
+        "trump_pct": 58.48,
+        "harris_votes": 9472,
+        "harris_pct": 39.67,
+        "other_votes": 442,
+        "other_pct": 1.85,
+        "margin_votes": 4492,
+        "margin_pct": 18.81,
+        "total_votes": 23878
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 6811,
+          "republican": 9094,
+          "libertarian": 126,
+          "no_party": 8923,
+          "other": 41,
+          "total": 24995
+        },
+        "inactive": {
+          "democratic": 2226,
+          "republican": 1650,
+          "libertarian": 76,
+          "no_party": 5194,
+          "other": 30,
+          "total": 9176
+        },
+        "grand_total": 34171
+      }
+    },
+    "Crawford": {
+      "presidential": {
+        "trump_votes": 4651,
+        "trump_pct": 71.06,
+        "harris_votes": 1812,
+        "harris_pct": 27.69,
+        "other_votes": 82,
+        "other_pct": 1.25,
+        "margin_votes": 2839,
+        "margin_pct": 43.37,
+        "total_votes": 6545
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1265,
+          "republican": 3610,
+          "libertarian": 39,
+          "no_party": 1672,
+          "other": 6,
+          "total": 6592
+        },
+        "inactive": {
+          "democratic": 864,
+          "republican": 772,
+          "libertarian": 22,
+          "no_party": 1580,
+          "other": 16,
+          "total": 3254
+        },
+        "grand_total": 9846
+      }
+    },
+    "Dallas": {
+      "presidential": {
+        "trump_votes": 32374,
+        "trump_pct": 51.42,
+        "harris_votes": 29402,
+        "harris_pct": 46.7,
+        "other_votes": 1185,
+        "other_pct": 1.88,
+        "margin_votes": 2972,
+        "margin_pct": 4.72,
+        "total_votes": 62961
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 17797,
+          "republican": 23502,
+          "libertarian": 462,
+          "no_party": 21084,
+          "other": 69,
+          "total": 62914
+        },
+        "inactive": {
+          "democratic": 3519,
+          "republican": 3664,
+          "libertarian": 183,
+          "no_party": 8086,
+          "other": 37,
+          "total": 15489
+        },
+        "grand_total": 78403
+      }
+    },
+    "Davis": {
+      "presidential": {
+        "trump_votes": 3027,
+        "trump_pct": 76.56,
+        "harris_votes": 878,
+        "harris_pct": 22.21,
+        "other_votes": 49,
+        "other_pct": 1.24,
+        "margin_votes": 2149,
+        "margin_pct": 54.35,
+        "total_votes": 3954
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 833,
+          "republican": 2417,
+          "libertarian": 22,
+          "no_party": 754,
+          "other": 3,
+          "total": 4029
+        },
+        "inactive": {
+          "democratic": 223,
+          "republican": 351,
+          "libertarian": 9,
+          "no_party": 536,
+          "other": 4,
+          "total": 1123
+        },
+        "grand_total": 5152
+      }
+    },
+    "Decatur": {
+      "presidential": {
+        "trump_votes": 2711,
+        "trump_pct": 72.51,
+        "harris_votes": 957,
+        "harris_pct": 25.6,
+        "other_votes": 71,
+        "other_pct": 1.9,
+        "margin_votes": 1754,
+        "margin_pct": 46.91,
+        "total_votes": 3739
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 740,
+          "republican": 1994,
+          "libertarian": 28,
+          "no_party": 783,
+          "other": 4,
+          "total": 3549
+        },
+        "inactive": {
+          "democratic": 360,
+          "republican": 385,
+          "libertarian": 8,
+          "no_party": 613,
+          "other": 5,
+          "total": 1371
+        },
+        "grand_total": 4920
+      }
+    },
+    "Delaware": {
+      "presidential": {
+        "trump_votes": 6984,
+        "trump_pct": 68.89,
+        "harris_votes": 2978,
+        "harris_pct": 29.37,
+        "other_votes": 176,
+        "other_pct": 1.74,
+        "margin_votes": 4006,
+        "margin_pct": 39.52,
+        "total_votes": 10138
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2005,
+          "republican": 4648,
+          "libertarian": 42,
+          "no_party": 3451,
+          "other": 9,
+          "total": 10155
+        },
+        "inactive": {
+          "democratic": 380,
+          "republican": 585,
+          "libertarian": 14,
+          "no_party": 1333,
+          "other": 6,
+          "total": 2318
+        },
+        "grand_total": 12473
+      }
+    },
+    "Des Moines": {
+      "presidential": {
+        "trump_votes": 10794,
+        "trump_pct": 56.65,
+        "harris_votes": 7935,
+        "harris_pct": 41.64,
+        "other_votes": 325,
+        "other_pct": 1.71,
+        "margin_votes": 2859,
+        "margin_pct": 15.01,
+        "total_votes": 19054
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 6463,
+          "republican": 6965,
+          "libertarian": 150,
+          "no_party": 6203,
+          "other": 33,
+          "total": 19814
+        },
+        "inactive": {
+          "democratic": 2556,
+          "republican": 1567,
+          "libertarian": 81,
+          "no_party": 3921,
+          "other": 22,
+          "total": 8147
+        },
+        "grand_total": 27961
+      }
+    },
+    "Dickinson": {
+      "presidential": {
+        "trump_votes": 7775,
+        "trump_pct": 69.21,
+        "harris_votes": 3297,
+        "harris_pct": 29.35,
+        "other_votes": 162,
+        "other_pct": 1.44,
+        "margin_votes": 4478,
+        "margin_pct": 39.86,
+        "total_votes": 11234
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2100,
+          "republican": 6377,
+          "libertarian": 63,
+          "no_party": 3368,
+          "other": 11,
+          "total": 11919
+        },
+        "inactive": {
+          "democratic": 534,
+          "republican": 1021,
+          "libertarian": 43,
+          "no_party": 1381,
+          "other": 7,
+          "total": 2986
+        },
+        "grand_total": 14905
+      }
+    },
+    "Dubuque": {
+      "presidential": {
+        "trump_votes": 28224,
+        "trump_pct": 53.48,
+        "harris_votes": 23705,
+        "harris_pct": 44.92,
+        "other_votes": 841,
+        "other_pct": 1.59,
+        "margin_votes": 4519,
+        "margin_pct": 8.56,
+        "total_votes": 52770
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 19643,
+          "republican": 18815,
+          "libertarian": 415,
+          "no_party": 15049,
+          "other": 74,
+          "total": 53996
+        },
+        "inactive": {
+          "democratic": 5480,
+          "republican": 3692,
+          "libertarian": 205,
+          "no_party": 8194,
+          "other": 60,
+          "total": 17631
+        },
+        "grand_total": 71627
+      }
+    },
+    "Emmet": {
+      "presidential": {
+        "trump_votes": 3422,
+        "trump_pct": 71.32,
+        "harris_votes": 1315,
+        "harris_pct": 27.41,
+        "other_votes": 61,
+        "other_pct": 1.27,
+        "margin_votes": 2107,
+        "margin_pct": 43.91,
+        "total_votes": 4798
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1054,
+          "republican": 2304,
+          "libertarian": 22,
+          "no_party": 1464,
+          "other": 8,
+          "total": 4852
+        },
+        "inactive": {
+          "democratic": 370,
+          "republican": 424,
+          "libertarian": 17,
+          "no_party": 1045,
+          "other": 0,
+          "total": 1856
+        },
+        "grand_total": 6708
+      }
+    },
+    "Fayette": {
+      "presidential": {
+        "trump_votes": 6325,
+        "trump_pct": 64.23,
+        "harris_votes": 3334,
+        "harris_pct": 33.85,
+        "other_votes": 189,
+        "other_pct": 1.92,
+        "margin_votes": 2991,
+        "margin_pct": 30.38,
+        "total_votes": 9848
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2323,
+          "republican": 4585,
+          "libertarian": 45,
+          "no_party": 3021,
+          "other": 14,
+          "total": 9988
+        },
+        "inactive": {
+          "democratic": 614,
+          "republican": 635,
+          "libertarian": 24,
+          "no_party": 1362,
+          "other": 10,
+          "total": 2645
+        },
+        "grand_total": 12633
+      }
+    },
+    "Floyd": {
+      "presidential": {
+        "trump_votes": 4744,
+        "trump_pct": 62.01,
+        "harris_votes": 2782,
+        "harris_pct": 36.37,
+        "other_votes": 124,
+        "other_pct": 1.62,
+        "margin_votes": 1962,
+        "margin_pct": 25.64,
+        "total_votes": 7650
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1999,
+          "republican": 2854,
+          "libertarian": 31,
+          "no_party": 2975,
+          "other": 7,
+          "total": 7866
+        },
+        "inactive": {
+          "democratic": 658,
+          "republican": 511,
+          "libertarian": 24,
+          "no_party": 1699,
+          "other": 11,
+          "total": 2903
+        },
+        "grand_total": 10769
+      }
+    },
+    "Franklin": {
+      "presidential": {
+        "trump_votes": 3431,
+        "trump_pct": 70.02,
+        "harris_votes": 1393,
+        "harris_pct": 28.43,
+        "other_votes": 76,
+        "other_pct": 1.55,
+        "margin_votes": 2038,
+        "margin_pct": 41.59,
+        "total_votes": 4900
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 851,
+          "republican": 2713,
+          "libertarian": 15,
+          "no_party": 1260,
+          "other": 4,
+          "total": 4843
+        },
+        "inactive": {
+          "democratic": 296,
+          "republican": 487,
+          "libertarian": 18,
+          "no_party": 955,
+          "other": 6,
+          "total": 1762
+        },
+        "grand_total": 6605
+      }
+    },
+    "Fremont": {
+      "presidential": {
+        "trump_votes": 2711,
+        "trump_pct": 71.44,
+        "harris_votes": 1023,
+        "harris_pct": 26.96,
+        "other_votes": 61,
+        "other_pct": 1.61,
+        "margin_votes": 1688,
+        "margin_pct": 44.48,
+        "total_votes": 3795
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 658,
+          "republican": 2376,
+          "libertarian": 22,
+          "no_party": 785,
+          "other": 5,
+          "total": 3846
+        },
+        "inactive": {
+          "democratic": 237,
+          "republican": 580,
+          "libertarian": 20,
+          "no_party": 510,
+          "other": 7,
+          "total": 1354
+        },
+        "grand_total": 5200
+      }
+    },
+    "Greene": {
+      "presidential": {
+        "trump_votes": 3211,
+        "trump_pct": 65.79,
+        "harris_votes": 1603,
+        "harris_pct": 32.84,
+        "other_votes": 67,
+        "other_pct": 1.37,
+        "margin_votes": 1608,
+        "margin_pct": 32.95,
+        "total_votes": 4881
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1100,
+          "republican": 2422,
+          "libertarian": 36,
+          "no_party": 1475,
+          "other": 11,
+          "total": 5044
+        },
+        "inactive": {
+          "democratic": 298,
+          "republican": 407,
+          "libertarian": 15,
+          "no_party": 726,
+          "other": 3,
+          "total": 1449
+        },
+        "grand_total": 6493
+      }
+    },
+    "Grundy": {
+      "presidential": {
+        "trump_votes": 4998,
+        "trump_pct": 69.94,
+        "harris_votes": 2019,
+        "harris_pct": 28.25,
+        "other_votes": 129,
+        "other_pct": 1.81,
+        "margin_votes": 2979,
+        "margin_pct": 41.69,
+        "total_votes": 7146
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1195,
+          "republican": 4122,
+          "libertarian": 43,
+          "no_party": 1947,
+          "other": 9,
+          "total": 7316
+        },
+        "inactive": {
+          "democratic": 301,
+          "republican": 577,
+          "libertarian": 16,
+          "no_party": 922,
+          "other": 2,
+          "total": 1818
+        },
+        "grand_total": 9134
+      }
+    },
+    "Guthrie": {
+      "presidential": {
+        "trump_votes": 4446,
+        "trump_pct": 67.95,
+        "harris_votes": 1974,
+        "harris_pct": 30.17,
+        "other_votes": 123,
+        "other_pct": 1.88,
+        "margin_votes": 2472,
+        "margin_pct": 37.78,
+        "total_votes": 6543
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1347,
+          "republican": 3221,
+          "libertarian": 46,
+          "no_party": 2101,
+          "other": 3,
+          "total": 6718
+        },
+        "inactive": {
+          "democratic": 276,
+          "republican": 465,
+          "libertarian": 15,
+          "no_party": 975,
+          "other": 0,
+          "total": 1731
+        },
+        "grand_total": 8449
+      }
+    },
+    "Hamilton": {
+      "presidential": {
+        "trump_votes": 5004,
+        "trump_pct": 65.87,
+        "harris_votes": 2482,
+        "harris_pct": 32.67,
+        "other_votes": 111,
+        "other_pct": 1.46,
+        "margin_votes": 2522,
+        "margin_pct": 33.2,
+        "total_votes": 7597
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1654,
+          "republican": 4049,
+          "libertarian": 33,
+          "no_party": 2153,
+          "other": 4,
+          "total": 7893
+        },
+        "inactive": {
+          "democratic": 486,
+          "republican": 622,
+          "libertarian": 20,
+          "no_party": 1181,
+          "other": 8,
+          "total": 2317
+        },
+        "grand_total": 10210
+      }
+    },
+    "Hancock": {
+      "presidential": {
+        "trump_votes": 4336,
+        "trump_pct": 73.01,
+        "harris_votes": 1523,
+        "harris_pct": 25.64,
+        "other_votes": 80,
+        "other_pct": 1.35,
+        "margin_votes": 2813,
+        "margin_pct": 47.37,
+        "total_votes": 5939
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1047,
+          "republican": 3392,
+          "libertarian": 42,
+          "no_party": 1470,
+          "other": 4,
+          "total": 5955
+        },
+        "inactive": {
+          "democratic": 301,
+          "republican": 588,
+          "libertarian": 13,
+          "no_party": 973,
+          "other": 7,
+          "total": 1882
+        },
+        "grand_total": 7837
+      }
+    },
+    "Hardin": {
+      "presidential": {
+        "trump_votes": 5790,
+        "trump_pct": 68.44,
+        "harris_votes": 2553,
+        "harris_pct": 30.18,
+        "other_votes": 117,
+        "other_pct": 1.38,
+        "margin_votes": 3237,
+        "margin_pct": 38.26,
+        "total_votes": 8460
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1864,
+          "republican": 4475,
+          "libertarian": 46,
+          "no_party": 2163,
+          "other": 13,
+          "total": 8561
+        },
+        "inactive": {
+          "democratic": 567,
+          "republican": 959,
+          "libertarian": 25,
+          "no_party": 1410,
+          "other": 7,
+          "total": 2968
+        },
+        "grand_total": 11529
+      }
+    },
+    "Harrison": {
+      "presidential": {
+        "trump_votes": 5566,
+        "trump_pct": 69.93,
+        "harris_votes": 2245,
+        "harris_pct": 28.21,
+        "other_votes": 148,
+        "other_pct": 1.86,
+        "margin_votes": 3321,
+        "margin_pct": 41.72,
+        "total_votes": 7959
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1449,
+          "republican": 4470,
+          "libertarian": 62,
+          "no_party": 1746,
+          "other": 10,
+          "total": 7737
+        },
+        "inactive": {
+          "democratic": 346,
+          "republican": 639,
+          "libertarian": 20,
+          "no_party": 701,
+          "other": 9,
+          "total": 1715
+        },
+        "grand_total": 9452
+      }
+    },
+    "Henry": {
+      "presidential": {
+        "trump_votes": 6439,
+        "trump_pct": 67.07,
+        "harris_votes": 2995,
+        "harris_pct": 31.2,
+        "other_votes": 166,
+        "other_pct": 1.73,
+        "margin_votes": 3444,
+        "margin_pct": 35.87,
+        "total_votes": 9600
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1925,
+          "republican": 4870,
+          "libertarian": 63,
+          "no_party": 2969,
+          "other": 13,
+          "total": 9840
+        },
+        "inactive": {
+          "democratic": 607,
+          "republican": 971,
+          "libertarian": 34,
+          "no_party": 2075,
+          "other": 8,
+          "total": 3695
+        },
+        "grand_total": 13535
+      }
+    },
+    "Howard": {
+      "presidential": {
+        "trump_votes": 3157,
+        "trump_pct": 65.09,
+        "harris_votes": 1619,
+        "harris_pct": 33.38,
+        "other_votes": 74,
+        "other_pct": 1.53,
+        "margin_votes": 1538,
+        "margin_pct": 31.71,
+        "total_votes": 4850
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1194,
+          "republican": 1691,
+          "libertarian": 22,
+          "no_party": 2027,
+          "other": 3,
+          "total": 4937
+        },
+        "inactive": {
+          "democratic": 256,
+          "republican": 309,
+          "libertarian": 13,
+          "no_party": 921,
+          "other": 3,
+          "total": 1502
+        },
+        "grand_total": 6439
+      }
+    },
+    "Humboldt": {
+      "presidential": {
+        "trump_votes": 3770,
+        "trump_pct": 74.17,
+        "harris_votes": 1236,
+        "harris_pct": 24.32,
+        "other_votes": 77,
+        "other_pct": 1.51,
+        "margin_votes": 2534,
+        "margin_pct": 49.85,
+        "total_votes": 5083
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 806,
+          "republican": 2761,
+          "libertarian": 22,
+          "no_party": 1611,
+          "other": 4,
+          "total": 5204
+        },
+        "inactive": {
+          "democratic": 209,
+          "republican": 465,
+          "libertarian": 12,
+          "no_party": 835,
+          "other": 3,
+          "total": 1524
+        },
+        "grand_total": 6728
+      }
+    },
+    "Ida": {
+      "presidential": {
+        "trump_votes": 2771,
+        "trump_pct": 75.81,
+        "harris_votes": 826,
+        "harris_pct": 22.6,
+        "other_votes": 58,
+        "other_pct": 1.59,
+        "margin_votes": 1945,
+        "margin_pct": 53.21,
+        "total_votes": 3655
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 522,
+          "republican": 2123,
+          "libertarian": 12,
+          "no_party": 1061,
+          "other": 1,
+          "total": 3719
+        },
+        "inactive": {
+          "democratic": 154,
+          "republican": 378,
+          "libertarian": 5,
+          "no_party": 636,
+          "other": 3,
+          "total": 1176
+        },
+        "grand_total": 4895
+      }
+    },
+    "Iowa": {
+      "presidential": {
+        "trump_votes": 6068,
+        "trump_pct": 62.95,
+        "harris_votes": 3400,
+        "harris_pct": 35.27,
+        "other_votes": 171,
+        "other_pct": 1.77,
+        "margin_votes": 2668,
+        "margin_pct": 27.68,
+        "total_votes": 9639
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2065,
+          "republican": 4584,
+          "libertarian": 64,
+          "no_party": 3132,
+          "other": 6,
+          "total": 9851
+        },
+        "inactive": {
+          "democratic": 488,
+          "republican": 659,
+          "libertarian": 27,
+          "no_party": 1519,
+          "other": 9,
+          "total": 2702
+        },
+        "grand_total": 12553
+      }
+    },
+    "Jackson": {
+      "presidential": {
+        "trump_votes": 7074,
+        "trump_pct": 65.49,
+        "harris_votes": 3567,
+        "harris_pct": 33.02,
+        "other_votes": 160,
+        "other_pct": 1.48,
+        "margin_votes": 3507,
+        "margin_pct": 32.47,
+        "total_votes": 10801
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 3137,
+          "republican": 4713,
+          "libertarian": 45,
+          "no_party": 3232,
+          "other": 11,
+          "total": 11138
+        },
+        "inactive": {
+          "democratic": 808,
+          "republican": 633,
+          "libertarian": 12,
+          "no_party": 2137,
+          "other": 7,
+          "total": 3597
+        },
+        "grand_total": 14735
+      }
+    },
+    "Jasper": {
+      "presidential": {
+        "trump_votes": 12701,
+        "trump_pct": 62.88,
+        "harris_votes": 7141,
+        "harris_pct": 35.35,
+        "other_votes": 356,
+        "other_pct": 1.76,
+        "margin_votes": 5560,
+        "margin_pct": 27.53,
+        "total_votes": 20198
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 5586,
+          "republican": 8646,
+          "libertarian": 117,
+          "no_party": 6060,
+          "other": 19,
+          "total": 20428
+        },
+        "inactive": {
+          "democratic": 1558,
+          "republican": 1416,
+          "libertarian": 52,
+          "no_party": 3484,
+          "other": 12,
+          "total": 6522
+        },
+        "grand_total": 26950
+      }
+    },
+    "Jefferson": {
+      "presidential": {
+        "trump_votes": 4353,
+        "trump_pct": 52.16,
+        "harris_votes": 3788,
+        "harris_pct": 45.39,
+        "other_votes": 205,
+        "other_pct": 2.46,
+        "margin_votes": 565,
+        "margin_pct": 6.77,
+        "total_votes": 8346
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 3117,
+          "republican": 3276,
+          "libertarian": 67,
+          "no_party": 2061,
+          "other": 15,
+          "total": 8536
+        },
+        "inactive": {
+          "democratic": 968,
+          "republican": 590,
+          "libertarian": 27,
+          "no_party": 1291,
+          "other": 15,
+          "total": 2891
+        },
+        "grand_total": 11427
+      }
+    },
+    "Johnson": {
+      "presidential": {
+        "trump_votes": 26087,
+        "trump_pct": 30.11,
+        "harris_votes": 58846,
+        "harris_pct": 67.92,
+        "other_votes": 1711,
+        "other_pct": 1.97,
+        "margin_votes": -32759,
+        "margin_pct": -37.81,
+        "total_votes": 86644
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 42902,
+          "republican": 16518,
+          "libertarian": 541,
+          "no_party": 26448,
+          "other": 186,
+          "total": 86595
+        },
+        "inactive": {
+          "democratic": 11697,
+          "republican": 4238,
+          "libertarian": 282,
+          "no_party": 12324,
+          "other": 113,
+          "total": 28654
+        },
+        "grand_total": 115249
+      }
+    },
+    "Jones": {
+      "presidential": {
+        "trump_votes": 6820,
+        "trump_pct": 62.11,
+        "harris_votes": 3942,
+        "harris_pct": 35.9,
+        "other_votes": 218,
+        "other_pct": 1.99,
+        "margin_votes": 2878,
+        "margin_pct": 26.21,
+        "total_votes": 10980
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2488,
+          "republican": 4633,
+          "libertarian": 48,
+          "no_party": 3905,
+          "other": 5,
+          "total": 11079
+        },
+        "inactive": {
+          "democratic": 506,
+          "republican": 683,
+          "libertarian": 23,
+          "no_party": 1995,
+          "other": 6,
+          "total": 3213
+        },
+        "grand_total": 14292
+      }
+    },
+    "Keokuk": {
+      "presidential": {
+        "trump_votes": 3869,
+        "trump_pct": 75.13,
+        "harris_votes": 1219,
+        "harris_pct": 23.67,
+        "other_votes": 62,
+        "other_pct": 1.2,
+        "margin_votes": 2650,
+        "margin_pct": 51.46,
+        "total_votes": 5150
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1013,
+          "republican": 2839,
+          "libertarian": 27,
+          "no_party": 1255,
+          "other": 5,
+          "total": 5139
+        },
+        "inactive": {
+          "democratic": 339,
+          "republican": 485,
+          "libertarian": 10,
+          "no_party": 788,
+          "other": 1,
+          "total": 1623
+        },
+        "grand_total": 6762
+      }
+    },
+    "Kossuth": {
+      "presidential": {
+        "trump_votes": 5983,
+        "trump_pct": 71.25,
+        "harris_votes": 2284,
+        "harris_pct": 27.2,
+        "other_votes": 130,
+        "other_pct": 1.55,
+        "margin_votes": 3699,
+        "margin_pct": 44.05,
+        "total_votes": 8397
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1721,
+          "republican": 4547,
+          "libertarian": 50,
+          "no_party": 2271,
+          "other": 9,
+          "total": 8598
+        },
+        "inactive": {
+          "democratic": 406,
+          "republican": 661,
+          "libertarian": 20,
+          "no_party": 1306,
+          "other": 4,
+          "total": 2397
+        },
+        "grand_total": 10995
+      }
+    },
+    "Lee": {
+      "presidential": {
+        "trump_votes": 10152,
+        "trump_pct": 62.67,
+        "harris_votes": 5659,
+        "harris_pct": 34.94,
+        "other_votes": 387,
+        "other_pct": 2.39,
+        "margin_votes": 4493,
+        "margin_pct": 27.73,
+        "total_votes": 16198
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 5368,
+          "republican": 6007,
+          "libertarian": 97,
+          "no_party": 4989,
+          "other": 15,
+          "total": 16476
+        },
+        "inactive": {
+          "democratic": 1870,
+          "republican": 1254,
+          "libertarian": 56,
+          "no_party": 3369,
+          "other": 25,
+          "total": 6574
+        },
+        "grand_total": 23050
+      }
+    },
+    "Linn": {
+      "presidential": {
+        "trump_votes": 54237,
+        "trump_pct": 44.11,
+        "harris_votes": 66358,
+        "harris_pct": 53.97,
+        "other_votes": 2364,
+        "other_pct": 1.92,
+        "margin_votes": -12121,
+        "margin_pct": -9.86,
+        "total_votes": 122959
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 45258,
+          "republican": 37204,
+          "libertarian": 998,
+          "no_party": 40986,
+          "other": 222,
+          "total": 124668
+        },
+        "inactive": {
+          "democratic": 12782,
+          "republican": 7232,
+          "libertarian": 510,
+          "no_party": 18680,
+          "other": 174,
+          "total": 39378
+        },
+        "grand_total": 164046
+      }
+    },
+    "Louisa": {
+      "presidential": {
+        "trump_votes": 3584,
+        "trump_pct": 69.7,
+        "harris_votes": 1480,
+        "harris_pct": 28.78,
+        "other_votes": 78,
+        "other_pct": 1.52,
+        "margin_votes": 2104,
+        "margin_pct": 40.92,
+        "total_votes": 5142
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1021,
+          "republican": 2522,
+          "libertarian": 29,
+          "no_party": 1650,
+          "other": 3,
+          "total": 5225
+        },
+        "inactive": {
+          "democratic": 509,
+          "republican": 495,
+          "libertarian": 13,
+          "no_party": 1157,
+          "other": 4,
+          "total": 2178
+        },
+        "grand_total": 7403
+      }
+    },
+    "Lucas": {
+      "presidential": {
+        "trump_votes": 3400,
+        "trump_pct": 73.18,
+        "harris_votes": 1169,
+        "harris_pct": 25.16,
+        "other_votes": 77,
+        "other_pct": 1.66,
+        "margin_votes": 2231,
+        "margin_pct": 48.02,
+        "total_votes": 4646
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 823,
+          "republican": 2612,
+          "libertarian": 22,
+          "no_party": 1221,
+          "other": 5,
+          "total": 4683
+        },
+        "inactive": {
+          "democratic": 225,
+          "republican": 497,
+          "libertarian": 8,
+          "no_party": 726,
+          "other": 2,
+          "total": 1458
+        },
+        "grand_total": 6141
+      }
+    },
+    "Lyon": {
+      "presidential": {
+        "trump_votes": 5899,
+        "trump_pct": 84.25,
+        "harris_votes": 1023,
+        "harris_pct": 14.61,
+        "other_votes": 80,
+        "other_pct": 1.14,
+        "margin_votes": 4876,
+        "margin_pct": 69.64,
+        "total_votes": 7002
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 527,
+          "republican": 5811,
+          "libertarian": 12,
+          "no_party": 854,
+          "other": 2,
+          "total": 7206
+        },
+        "inactive": {
+          "democratic": 214,
+          "republican": 900,
+          "libertarian": 9,
+          "no_party": 556,
+          "other": 3,
+          "total": 1682
+        },
+        "grand_total": 8888
+      }
+    },
+    "Madison": {
+      "presidential": {
+        "trump_votes": 6864,
+        "trump_pct": 68.45,
+        "harris_votes": 3008,
+        "harris_pct": 30.0,
+        "other_votes": 156,
+        "other_pct": 1.56,
+        "margin_votes": 3856,
+        "margin_pct": 38.45,
+        "total_votes": 10028
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2053,
+          "republican": 4908,
+          "libertarian": 85,
+          "no_party": 2972,
+          "other": 7,
+          "total": 10025
+        },
+        "inactive": {
+          "democratic": 448,
+          "republican": 823,
+          "libertarian": 26,
+          "no_party": 1325,
+          "other": 6,
+          "total": 2628
+        },
+        "grand_total": 12653
+      }
+    },
+    "Mahaska": {
+      "presidential": {
+        "trump_votes": 8207,
+        "trump_pct": 74.98,
+        "harris_votes": 2577,
+        "harris_pct": 23.54,
+        "other_votes": 162,
+        "other_pct": 1.48,
+        "margin_votes": 5630,
+        "margin_pct": 51.44,
+        "total_votes": 10946
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1677,
+          "republican": 6309,
+          "libertarian": 80,
+          "no_party": 2477,
+          "other": 11,
+          "total": 10554
+        },
+        "inactive": {
+          "democratic": 751,
+          "republican": 1379,
+          "libertarian": 48,
+          "no_party": 1982,
+          "other": 10,
+          "total": 4170
+        },
+        "grand_total": 14724
+      }
+    },
+    "Marion": {
+      "presidential": {
+        "trump_votes": 13289,
+        "trump_pct": 67.92,
+        "harris_votes": 5928,
+        "harris_pct": 30.3,
+        "other_votes": 349,
+        "other_pct": 1.78,
+        "margin_votes": 7361,
+        "margin_pct": 37.62,
+        "total_votes": 19566
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 3804,
+          "republican": 10170,
+          "libertarian": 108,
+          "no_party": 5778,
+          "other": 22,
+          "total": 19882
+        },
+        "inactive": {
+          "democratic": 989,
+          "republican": 1637,
+          "libertarian": 50,
+          "no_party": 2702,
+          "other": 15,
+          "total": 5393
+        },
+        "grand_total": 25275
+      }
+    },
+    "Marshall": {
+      "presidential": {
+        "trump_votes": 9815,
+        "trump_pct": 56.83,
+        "harris_votes": 7134,
+        "harris_pct": 41.31,
+        "other_votes": 321,
+        "other_pct": 1.86,
+        "margin_votes": 2681,
+        "margin_pct": 15.52,
+        "total_votes": 17270
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 5041,
+          "republican": 7135,
+          "libertarian": 111,
+          "no_party": 5286,
+          "other": 24,
+          "total": 17597
+        },
+        "inactive": {
+          "democratic": 2206,
+          "republican": 1318,
+          "libertarian": 62,
+          "no_party": 3524,
+          "other": 22,
+          "total": 7132
+        },
+        "grand_total": 24729
+      }
+    },
+    "Mills": {
+      "presidential": {
+        "trump_votes": 5671,
+        "trump_pct": 68.71,
+        "harris_votes": 2456,
+        "harris_pct": 29.76,
+        "other_votes": 126,
+        "other_pct": 1.53,
+        "margin_votes": 3215,
+        "margin_pct": 38.95,
+        "total_votes": 8253
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1510,
+          "republican": 5164,
+          "libertarian": 110,
+          "no_party": 1700,
+          "other": 18,
+          "total": 8502
+        },
+        "inactive": {
+          "democratic": 562,
+          "republican": 1211,
+          "libertarian": 55,
+          "no_party": 1343,
+          "other": 9,
+          "total": 3180
+        },
+        "grand_total": 11682
+      }
+    },
+    "Mitchell": {
+      "presidential": {
+        "trump_votes": 3736,
+        "trump_pct": 64.74,
+        "harris_votes": 1943,
+        "harris_pct": 33.67,
+        "other_votes": 92,
+        "other_pct": 1.59,
+        "margin_votes": 1793,
+        "margin_pct": 31.07,
+        "total_votes": 5771
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1254,
+          "republican": 2686,
+          "libertarian": 28,
+          "no_party": 1770,
+          "other": 3,
+          "total": 5741
+        },
+        "inactive": {
+          "democratic": 302,
+          "republican": 454,
+          "libertarian": 21,
+          "no_party": 843,
+          "other": 9,
+          "total": 1629
+        },
+        "grand_total": 7370
+      }
+    },
+    "Monona": {
+      "presidential": {
+        "trump_votes": 3331,
+        "trump_pct": 71.84,
+        "harris_votes": 1236,
+        "harris_pct": 26.66,
+        "other_votes": 70,
+        "other_pct": 1.51,
+        "margin_votes": 2095,
+        "margin_pct": 45.18,
+        "total_votes": 4637
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1044,
+          "republican": 2523,
+          "libertarian": 35,
+          "no_party": 1130,
+          "other": 4,
+          "total": 4736
+        },
+        "inactive": {
+          "democratic": 216,
+          "republican": 350,
+          "libertarian": 13,
+          "no_party": 465,
+          "other": 4,
+          "total": 1048
+        },
+        "grand_total": 5784
+      }
+    },
+    "Monroe": {
+      "presidential": {
+        "trump_votes": 3104,
+        "trump_pct": 74.65,
+        "harris_votes": 1002,
+        "harris_pct": 24.1,
+        "other_votes": 52,
+        "other_pct": 1.25,
+        "margin_votes": 2102,
+        "margin_pct": 50.55,
+        "total_votes": 4158
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 826,
+          "republican": 2276,
+          "libertarian": 22,
+          "no_party": 1095,
+          "other": 1,
+          "total": 4220
+        },
+        "inactive": {
+          "democratic": 240,
+          "republican": 357,
+          "libertarian": 10,
+          "no_party": 560,
+          "other": 3,
+          "total": 1170
+        },
+        "grand_total": 5390
+      }
+    },
+    "Montgomery": {
+      "presidential": {
+        "trump_votes": 3486,
+        "trump_pct": 68.7,
+        "harris_votes": 1508,
+        "harris_pct": 29.72,
+        "other_votes": 80,
+        "other_pct": 1.58,
+        "margin_votes": 1978,
+        "margin_pct": 38.98,
+        "total_votes": 5074
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 851,
+          "republican": 3026,
+          "libertarian": 33,
+          "no_party": 1057,
+          "other": 4,
+          "total": 4971
+        },
+        "inactive": {
+          "democratic": 330,
+          "republican": 810,
+          "libertarian": 19,
+          "no_party": 1128,
+          "other": 12,
+          "total": 2299
+        },
+        "grand_total": 7270
+      }
+    },
+    "Muscatine": {
+      "presidential": {
+        "trump_votes": 11152,
+        "trump_pct": 56.46,
+        "harris_votes": 8212,
+        "harris_pct": 41.58,
+        "other_votes": 388,
+        "other_pct": 1.96,
+        "margin_votes": 2940,
+        "margin_pct": 14.88,
+        "total_votes": 19752
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 5326,
+          "republican": 7718,
+          "libertarian": 135,
+          "no_party": 6438,
+          "other": 49,
+          "total": 19666
+        },
+        "inactive": {
+          "democratic": 2647,
+          "republican": 1909,
+          "libertarian": 98,
+          "no_party": 4826,
+          "other": 48,
+          "total": 9528
+        },
+        "grand_total": 29194
+      }
+    },
+    "O'Brien": {
+      "presidential": {
+        "trump_votes": 5998,
+        "trump_pct": 79.71,
+        "harris_votes": 1428,
+        "harris_pct": 18.98,
+        "other_votes": 99,
+        "other_pct": 1.32,
+        "margin_votes": 4570,
+        "margin_pct": 60.73,
+        "total_votes": 7525
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 851,
+          "republican": 5234,
+          "libertarian": 44,
+          "no_party": 1348,
+          "other": 10,
+          "total": 7487
+        },
+        "inactive": {
+          "democratic": 361,
+          "republican": 909,
+          "libertarian": 25,
+          "no_party": 946,
+          "other": 4,
+          "total": 2245
+        },
+        "grand_total": 9732
+      }
+    },
+    "Osceola": {
+      "presidential": {
+        "trump_votes": 2623,
+        "trump_pct": 81.23,
+        "harris_votes": 555,
+        "harris_pct": 17.19,
+        "other_votes": 51,
+        "other_pct": 1.58,
+        "margin_votes": 2068,
+        "margin_pct": 64.04,
+        "total_votes": 3229
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 292,
+          "republican": 2217,
+          "libertarian": 12,
+          "no_party": 642,
+          "other": 0,
+          "total": 3163
+        },
+        "inactive": {
+          "democratic": 120,
+          "republican": 449,
+          "libertarian": 5,
+          "no_party": 488,
+          "other": 2,
+          "total": 1064
+        },
+        "grand_total": 4227
+      }
+    },
+    "Page": {
+      "presidential": {
+        "trump_votes": 5153,
+        "trump_pct": 70.38,
+        "harris_votes": 2060,
+        "harris_pct": 28.13,
+        "other_votes": 109,
+        "other_pct": 1.49,
+        "margin_votes": 3093,
+        "margin_pct": 42.25,
+        "total_votes": 7322
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1096,
+          "republican": 5074,
+          "libertarian": 44,
+          "no_party": 1612,
+          "other": 8,
+          "total": 7834
+        },
+        "inactive": {
+          "democratic": 456,
+          "republican": 1029,
+          "libertarian": 32,
+          "no_party": 1207,
+          "other": 5,
+          "total": 2729
+        },
+        "grand_total": 10563
+      }
+    },
+    "Palo Alto": {
+      "presidential": {
+        "trump_votes": 3576,
+        "trump_pct": 71.78,
+        "harris_votes": 1338,
+        "harris_pct": 26.86,
+        "other_votes": 68,
+        "other_pct": 1.36,
+        "margin_votes": 2238,
+        "margin_pct": 44.92,
+        "total_votes": 4982
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1278,
+          "republican": 2289,
+          "libertarian": 25,
+          "no_party": 1288,
+          "other": 4,
+          "total": 4884
+        },
+        "inactive": {
+          "democratic": 351,
+          "republican": 370,
+          "libertarian": 8,
+          "no_party": 783,
+          "other": 4,
+          "total": 1516
+        },
+        "grand_total": 6400
+      }
+    },
+    "Plymouth": {
+      "presidential": {
+        "trump_votes": 10661,
+        "trump_pct": 76.31,
+        "harris_votes": 3104,
+        "harris_pct": 22.22,
+        "other_votes": 206,
+        "other_pct": 1.47,
+        "margin_votes": 7557,
+        "margin_pct": 54.09,
+        "total_votes": 13971
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2120,
+          "republican": 8184,
+          "libertarian": 53,
+          "no_party": 3701,
+          "other": 12,
+          "total": 14070
+        },
+        "inactive": {
+          "democratic": 776,
+          "republican": 1550,
+          "libertarian": 42,
+          "no_party": 1984,
+          "other": 15,
+          "total": 4367
+        },
+        "grand_total": 18437
+      }
+    },
+    "Pocahontas": {
+      "presidential": {
+        "trump_votes": 2727,
+        "trump_pct": 76.13,
+        "harris_votes": 796,
+        "harris_pct": 22.22,
+        "other_votes": 59,
+        "other_pct": 1.65,
+        "margin_votes": 1931,
+        "margin_pct": 53.91,
+        "total_votes": 3582
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 626,
+          "republican": 2126,
+          "libertarian": 32,
+          "no_party": 1006,
+          "other": 4,
+          "total": 3794
+        },
+        "inactive": {
+          "democratic": 188,
+          "republican": 320,
+          "libertarian": 7,
+          "no_party": 543,
+          "other": 6,
+          "total": 1064
+        },
+        "grand_total": 4858
+      }
+    },
+    "Polk": {
+      "presidential": {
+        "trump_votes": 112240,
+        "trump_pct": 43.7,
+        "harris_votes": 140075,
+        "harris_pct": 54.54,
+        "other_votes": 4523,
+        "other_pct": 1.76,
+        "margin_votes": -27835,
+        "margin_pct": -10.84,
+        "total_votes": 256838
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 100740,
+          "republican": 79114,
+          "libertarian": 2077,
+          "no_party": 75376,
+          "other": 430,
+          "total": 257737
+        },
+        "inactive": {
+          "democratic": 29836,
+          "republican": 15422,
+          "libertarian": 1019,
+          "no_party": 35193,
+          "other": 329,
+          "total": 81799
+        },
+        "grand_total": 339536
+      }
+    },
+    "Pottawattamie": {
+      "presidential": {
+        "trump_votes": 26335,
+        "trump_pct": 59.1,
+        "harris_votes": 17468,
+        "harris_pct": 39.2,
+        "other_votes": 756,
+        "other_pct": 1.7,
+        "margin_votes": 8867,
+        "margin_pct": 19.9,
+        "total_votes": 44559
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 11856,
+          "republican": 20841,
+          "libertarian": 427,
+          "no_party": 12075,
+          "other": 102,
+          "total": 45301
+        },
+        "inactive": {
+          "democratic": 5058,
+          "republican": 5555,
+          "libertarian": 330,
+          "no_party": 9161,
+          "other": 117,
+          "total": 20221
+        },
+        "grand_total": 65522
+      }
+    },
+    "Poweshiek": {
+      "presidential": {
+        "trump_votes": 5758,
+        "trump_pct": 57.51,
+        "harris_votes": 4067,
+        "harris_pct": 40.62,
+        "other_votes": 188,
+        "other_pct": 1.88,
+        "margin_votes": 1691,
+        "margin_pct": 16.89,
+        "total_votes": 10013
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 3028,
+          "republican": 3743,
+          "libertarian": 42,
+          "no_party": 3726,
+          "other": 15,
+          "total": 10554
+        },
+        "inactive": {
+          "democratic": 1603,
+          "republican": 645,
+          "libertarian": 30,
+          "no_party": 1807,
+          "other": 3,
+          "total": 4088
+        },
+        "grand_total": 14642
+      }
+    },
+    "Ringgold": {
+      "presidential": {
+        "trump_votes": 2015,
+        "trump_pct": 75.02,
+        "harris_votes": 638,
+        "harris_pct": 23.75,
+        "other_votes": 33,
+        "other_pct": 1.23,
+        "margin_votes": 1377,
+        "margin_pct": 51.27,
+        "total_votes": 2686
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 445,
+          "republican": 1800,
+          "libertarian": 11,
+          "no_party": 463,
+          "other": 2,
+          "total": 2721
+        },
+        "inactive": {
+          "democratic": 104,
+          "republican": 272,
+          "libertarian": 2,
+          "no_party": 243,
+          "other": 2,
+          "total": 623
+        },
+        "grand_total": 3344
+      }
+    },
+    "Sac": {
+      "presidential": {
+        "trump_votes": 4100,
+        "trump_pct": 75.09,
+        "harris_votes": 1289,
+        "harris_pct": 23.61,
+        "other_votes": 71,
+        "other_pct": 1.3,
+        "margin_votes": 2811,
+        "margin_pct": 51.48,
+        "total_votes": 5460
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 791,
+          "republican": 3296,
+          "libertarian": 15,
+          "no_party": 1469,
+          "other": 5,
+          "total": 5576
+        },
+        "inactive": {
+          "democratic": 224,
+          "republican": 576,
+          "libertarian": 9,
+          "no_party": 874,
+          "other": 5,
+          "total": 1688
+        },
+        "grand_total": 7264
+      }
+    },
+    "Scott": {
+      "presidential": {
+        "trump_votes": 45976,
+        "trump_pct": 51.01,
+        "harris_votes": 42479,
+        "harris_pct": 47.13,
+        "other_votes": 1678,
+        "other_pct": 1.86,
+        "margin_votes": 3497,
+        "margin_pct": 3.88,
+        "total_votes": 90133
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 28414,
+          "republican": 31340,
+          "libertarian": 659,
+          "no_party": 32084,
+          "other": 163,
+          "total": 92660
+        },
+        "inactive": {
+          "democratic": 11442,
+          "republican": 6778,
+          "libertarian": 421,
+          "no_party": 20134,
+          "other": 126,
+          "total": 38901
+        },
+        "grand_total": 131561
+      }
+    },
+    "Shelby": {
+      "presidential": {
+        "trump_votes": 4600,
+        "trump_pct": 70.71,
+        "harris_votes": 1811,
+        "harris_pct": 27.84,
+        "other_votes": 94,
+        "other_pct": 1.45,
+        "margin_votes": 2789,
+        "margin_pct": 42.87,
+        "total_votes": 6505
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1192,
+          "republican": 3842,
+          "libertarian": 40,
+          "no_party": 1558,
+          "other": 5,
+          "total": 6637
+        },
+        "inactive": {
+          "democratic": 369,
+          "republican": 696,
+          "libertarian": 19,
+          "no_party": 958,
+          "other": 6,
+          "total": 2048
+        },
+        "grand_total": 8685
+      }
+    },
+    "Sioux": {
+      "presidential": {
+        "trump_votes": 16053,
+        "trump_pct": 84.49,
+        "harris_votes": 2626,
+        "harris_pct": 13.82,
+        "other_votes": 322,
+        "other_pct": 1.69,
+        "margin_votes": 13427,
+        "margin_pct": 70.67,
+        "total_votes": 19001
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1396,
+          "republican": 14502,
+          "libertarian": 59,
+          "no_party": 3099,
+          "other": 12,
+          "total": 19068
+        },
+        "inactive": {
+          "democratic": 599,
+          "republican": 2238,
+          "libertarian": 37,
+          "no_party": 1808,
+          "other": 10,
+          "total": 4692
+        },
+        "grand_total": 23760
+      }
+    },
+    "Story": {
+      "presidential": {
+        "trump_votes": 21665,
+        "trump_pct": 43.74,
+        "harris_votes": 26765,
+        "harris_pct": 54.04,
+        "other_votes": 1096,
+        "other_pct": 2.21,
+        "margin_votes": -5100,
+        "margin_pct": -10.3,
+        "total_votes": 49526
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 16529,
+          "republican": 14744,
+          "libertarian": 399,
+          "no_party": 16092,
+          "other": 104,
+          "total": 47868
+        },
+        "inactive": {
+          "democratic": 6702,
+          "republican": 4625,
+          "libertarian": 340,
+          "no_party": 10242,
+          "other": 90,
+          "total": 21999
+        },
+        "grand_total": 69867
+      }
+    },
+    "Tama": {
+      "presidential": {
+        "trump_votes": 5379,
+        "trump_pct": 62.43,
+        "harris_votes": 3070,
+        "harris_pct": 35.63,
+        "other_votes": 167,
+        "other_pct": 1.94,
+        "margin_votes": 2309,
+        "margin_pct": 26.8,
+        "total_votes": 8616
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2010,
+          "republican": 3943,
+          "libertarian": 41,
+          "no_party": 2424,
+          "other": 16,
+          "total": 8434
+        },
+        "inactive": {
+          "democratic": 710,
+          "republican": 557,
+          "libertarian": 17,
+          "no_party": 1675,
+          "other": 4,
+          "total": 2963
+        },
+        "grand_total": 11397
+      }
+    },
+    "Taylor": {
+      "presidential": {
+        "trump_votes": 2381,
+        "trump_pct": 77.28,
+        "harris_votes": 666,
+        "harris_pct": 21.62,
+        "other_votes": 34,
+        "other_pct": 1.1,
+        "margin_votes": 1715,
+        "margin_pct": 55.66,
+        "total_votes": 3081
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 439,
+          "republican": 1894,
+          "libertarian": 19,
+          "no_party": 653,
+          "other": 5,
+          "total": 3010
+        },
+        "inactive": {
+          "democratic": 139,
+          "republican": 362,
+          "libertarian": 16,
+          "no_party": 476,
+          "other": 2,
+          "total": 995
+        },
+        "grand_total": 4005
+      }
+    },
+    "Union": {
+      "presidential": {
+        "trump_votes": 4044,
+        "trump_pct": 67.25,
+        "harris_votes": 1874,
+        "harris_pct": 31.17,
+        "other_votes": 95,
+        "other_pct": 1.58,
+        "margin_votes": 2170,
+        "margin_pct": 36.08,
+        "total_votes": 6013
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1152,
+          "republican": 3116,
+          "libertarian": 36,
+          "no_party": 1954,
+          "other": 4,
+          "total": 6262
+        },
+        "inactive": {
+          "democratic": 341,
+          "republican": 508,
+          "libertarian": 23,
+          "no_party": 1236,
+          "other": 4,
+          "total": 2112
+        },
+        "grand_total": 8374
+      }
+    },
+    "Van Buren": {
+      "presidential": {
+        "trump_votes": 2785,
+        "trump_pct": 76.83,
+        "harris_votes": 778,
+        "harris_pct": 21.46,
+        "other_votes": 62,
+        "other_pct": 1.71,
+        "margin_votes": 2007,
+        "margin_pct": 55.37,
+        "total_votes": 3625
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 550,
+          "republican": 2261,
+          "libertarian": 23,
+          "no_party": 983,
+          "other": 8,
+          "total": 3825
+        },
+        "inactive": {
+          "democratic": 155,
+          "republican": 379,
+          "libertarian": 9,
+          "no_party": 588,
+          "other": 2,
+          "total": 1133
+        },
+        "grand_total": 4958
+      }
+    },
+    "Wapello": {
+      "presidential": {
+        "trump_votes": 9479,
+        "trump_pct": 65.0,
+        "harris_votes": 4896,
+        "harris_pct": 33.57,
+        "other_votes": 208,
+        "other_pct": 1.43,
+        "margin_votes": 4583,
+        "margin_pct": 31.43,
+        "total_votes": 14583
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 4512,
+          "republican": 5743,
+          "libertarian": 84,
+          "no_party": 4429,
+          "other": 20,
+          "total": 14788
+        },
+        "inactive": {
+          "democratic": 2006,
+          "republican": 1415,
+          "libertarian": 50,
+          "no_party": 3200,
+          "other": 28,
+          "total": 6699
+        },
+        "grand_total": 21487
+      }
+    },
+    "Warren": {
+      "presidential": {
+        "trump_votes": 19486,
+        "trump_pct": 59.4,
+        "harris_votes": 12712,
+        "harris_pct": 38.75,
+        "other_votes": 606,
+        "other_pct": 1.85,
+        "margin_votes": 6774,
+        "margin_pct": 20.65,
+        "total_votes": 32804
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 8752,
+          "republican": 13652,
+          "libertarian": 218,
+          "no_party": 9403,
+          "other": 38,
+          "total": 32063
+        },
+        "inactive": {
+          "democratic": 1965,
+          "republican": 2446,
+          "libertarian": 120,
+          "no_party": 4316,
+          "other": 23,
+          "total": 8870
+        },
+        "grand_total": 40933
+      }
+    },
+    "Washington": {
+      "presidential": {
+        "trump_votes": 7119,
+        "trump_pct": 61.43,
+        "harris_votes": 4297,
+        "harris_pct": 37.08,
+        "other_votes": 172,
+        "other_pct": 1.48,
+        "margin_votes": 2822,
+        "margin_pct": 24.35,
+        "total_votes": 11588
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 2679,
+          "republican": 5760,
+          "libertarian": 64,
+          "no_party": 3372,
+          "other": 17,
+          "total": 11892
+        },
+        "inactive": {
+          "democratic": 628,
+          "republican": 1047,
+          "libertarian": 47,
+          "no_party": 1953,
+          "other": 9,
+          "total": 3684
+        },
+        "grand_total": 15576
+      }
+    },
+    "Wayne": {
+      "presidential": {
+        "trump_votes": 2426,
+        "trump_pct": 77.66,
+        "harris_votes": 643,
+        "harris_pct": 20.58,
+        "other_votes": 55,
+        "other_pct": 1.76,
+        "margin_votes": 1783,
+        "margin_pct": 57.08,
+        "total_votes": 3124
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 499,
+          "republican": 1975,
+          "libertarian": 21,
+          "no_party": 676,
+          "other": 2,
+          "total": 3173
+        },
+        "inactive": {
+          "democratic": 150,
+          "republican": 263,
+          "libertarian": 6,
+          "no_party": 366,
+          "other": 1,
+          "total": 786
+        },
+        "grand_total": 3959
+      }
+    },
+    "Webster": {
+      "presidential": {
+        "trump_votes": 10850,
+        "trump_pct": 64.78,
+        "harris_votes": 5641,
+        "harris_pct": 33.68,
+        "other_votes": 257,
+        "other_pct": 1.53,
+        "margin_votes": 5209,
+        "margin_pct": 31.1,
+        "total_votes": 16748
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 4522,
+          "republican": 8023,
+          "libertarian": 124,
+          "no_party": 4828,
+          "other": 24,
+          "total": 17521
+        },
+        "inactive": {
+          "democratic": 1837,
+          "republican": 1629,
+          "libertarian": 65,
+          "no_party": 3770,
+          "other": 29,
+          "total": 7330
+        },
+        "grand_total": 24851
+      }
+    },
+    "Winnebago": {
+      "presidential": {
+        "trump_votes": 3636,
+        "trump_pct": 64.45,
+        "harris_votes": 1909,
+        "harris_pct": 33.84,
+        "other_votes": 97,
+        "other_pct": 1.72,
+        "margin_votes": 1727,
+        "margin_pct": 30.61,
+        "total_votes": 5642
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1153,
+          "republican": 2772,
+          "libertarian": 23,
+          "no_party": 1837,
+          "other": 2,
+          "total": 5787
+        },
+        "inactive": {
+          "democratic": 430,
+          "republican": 496,
+          "libertarian": 19,
+          "no_party": 1210,
+          "other": 3,
+          "total": 2158
+        },
+        "grand_total": 7945
+      }
+    },
+    "Winneshiek": {
+      "presidential": {
+        "trump_votes": 6427,
+        "trump_pct": 53.65,
+        "harris_votes": 5321,
+        "harris_pct": 44.42,
+        "other_votes": 231,
+        "other_pct": 1.93,
+        "margin_votes": 1106,
+        "margin_pct": 9.23,
+        "total_votes": 11979
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 3765,
+          "republican": 4547,
+          "libertarian": 39,
+          "no_party": 4089,
+          "other": 18,
+          "total": 12458
+        },
+        "inactive": {
+          "democratic": 901,
+          "republican": 486,
+          "libertarian": 25,
+          "no_party": 1369,
+          "other": 13,
+          "total": 2794
+        },
+        "grand_total": 15252
+      }
+    },
+    "Woodbury": {
+      "presidential": {
+        "trump_votes": 25969,
+        "trump_pct": 60.5,
+        "harris_votes": 16145,
+        "harris_pct": 37.62,
+        "other_votes": 807,
+        "other_pct": 1.88,
+        "margin_votes": 9824,
+        "margin_pct": 22.88,
+        "total_votes": 42921
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 11076,
+          "republican": 18666,
+          "libertarian": 300,
+          "no_party": 11261,
+          "other": 69,
+          "total": 41372
+        },
+        "inactive": {
+          "democratic": 6755,
+          "republican": 5458,
+          "libertarian": 194,
+          "no_party": 10668,
+          "other": 73,
+          "total": 23148
+        },
+        "grand_total": 64520
+      }
+    },
+    "Worth": {
+      "presidential": {
+        "trump_votes": 2715,
+        "trump_pct": 63.33,
+        "harris_votes": 1508,
+        "harris_pct": 35.18,
+        "other_votes": 64,
+        "other_pct": 1.49,
+        "margin_votes": 1207,
+        "margin_pct": 28.15,
+        "total_votes": 4287
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 960,
+          "republican": 2046,
+          "libertarian": 23,
+          "no_party": 1224,
+          "other": 4,
+          "total": 4257
+        },
+        "inactive": {
+          "democratic": 248,
+          "republican": 309,
+          "libertarian": 10,
+          "no_party": 733,
+          "other": 1,
+          "total": 1301
+        },
+        "grand_total": 5558
+      }
+    },
+    "Wright": {
+      "presidential": {
+        "trump_votes": 3853,
+        "trump_pct": 67.32,
+        "harris_votes": 1770,
+        "harris_pct": 30.93,
+        "other_votes": 100,
+        "other_pct": 1.75,
+        "margin_votes": 2083,
+        "margin_pct": 36.39,
+        "total_votes": 5723
+      },
+      "voter_registration": {
+        "active": {
+          "democratic": 1129,
+          "republican": 3194,
+          "libertarian": 33,
+          "no_party": 1632,
+          "other": 7,
+          "total": 5995
+        },
+        "inactive": {
+          "democratic": 401,
+          "republican": 554,
+          "libertarian": 12,
+          "no_party": 970,
+          "other": 6,
+          "total": 1943
+        },
+        "grand_total": 7938
+      }
+    }
+  }
+}

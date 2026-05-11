@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "state": "Connecticut",
+    "state_fips": "09",
+    "election": "2024 Presidential General Election",
+    "election_date": "2024-11-05",
+    "data_sources": {
+      "presidential_results": "Wikipedia: 2024 United States presidential election in Connecticut (sourced from CT Secretary of State)",
+      "voter_registration": "Estimated from total votes ÷ statewide turnout (76.17%). NOTE: CT SOTS website (portal.ct.gov) was restructured in 2025-2026; all historical statistics URLs return 404. County-level registration from official source unavailable at time of pull. Turnout may vary by county.",
+      "census": "/home/lilbooduh/.openclaw/workspace/ct_census.json",
+      "county_info": "Wikipedia: List of counties in Connecticut"
+    },
+    "turnout_pct": 76.17,
+    "total_votes_cast": 1759010,
+    "estimated_total_registered": 2309465,
+    "note": "CT abolished county government in 1960; counties remain as geographic/statistical designations. Census Bureau recognizes CT's 9 Councils of Government as county-equivalents since 2022, but election results are still published by legacy counties."
+  },
+  "counties": {
+    "Fairfield": {
+      "fips": "09001",
+      "seat": "Bridgeport (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 267019,
+          "pct": 59.04
+        },
+        "trump_rep": {
+          "votes": 178263,
+          "pct": 39.41
+        },
+        "other": {
+          "votes": 7021,
+          "pct": 1.55
+        },
+        "total_votes": 452303,
+        "margin": {
+          "winner": "Harris",
+          "raw": 88756,
+          "pct": 19.63
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 593807,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": ["Bridgeport", "Stamford", "Norwalk", "Danbury", "Shelton", "Newtown"],
+      "census_population_from_file": 504649
+    },
+    "Hartford": {
+      "fips": "09003",
+      "seat": "Hartford (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 259366,
+          "pct": 60.41
+        },
+        "trump_rep": {
+          "votes": 162572,
+          "pct": 37.87
+        },
+        "other": {
+          "votes": 7387,
+          "pct": 1.72
+        },
+        "total_votes": 429325,
+        "margin": {
+          "winner": "Harris",
+          "raw": 96794,
+          "pct": 22.54
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 563646,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": ["Hartford", "New Britain", "Bristol"],
+      "census_population_from_file": 254400
+    },
+    "Litchfield": {
+      "fips": "09005",
+      "seat": "Litchfield (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 47940,
+          "pct": 45.24
+        },
+        "trump_rep": {
+          "votes": 56452,
+          "pct": 53.27
+        },
+        "other": {
+          "votes": 1577,
+          "pct": 1.49
+        },
+        "total_votes": 105969,
+        "margin": {
+          "winner": "Trump",
+          "raw": -8512,
+          "pct": -8.03
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 139130,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": ["Torrington", "Litchfield"],
+      "census_population_from_file": 36755
+    },
+    "Middlesex": {
+      "fips": "09007",
+      "seat": "Middletown (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 54173,
+          "pct": 55.55
+        },
+        "trump_rep": {
+          "votes": 41654,
+          "pct": 42.71
+        },
+        "other": {
+          "votes": 1692,
+          "pct": 1.74
+        },
+        "total_votes": 97519,
+        "margin": {
+          "winner": "Harris",
+          "raw": 12519,
+          "pct": 12.84
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 128028,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": ["Middletown"],
+      "census_population_from_file": 47646
+    },
+    "New Haven": {
+      "fips": "09009",
+      "seat": "New Haven (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 218981,
+          "pct": 55.02
+        },
+        "trump_rep": {
+          "votes": 171435,
+          "pct": 43.08
+        },
+        "other": {
+          "votes": 7571,
+          "pct": 1.90
+        },
+        "total_votes": 397987,
+        "margin": {
+          "winner": "Harris",
+          "raw": 47546,
+          "pct": 11.94
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 522535,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": ["New Haven", "Waterbury", "Meriden", "West Haven", "Naugatuck", "Ansonia", "Derby", "Woodmont"],
+      "census_population_from_file": 427349
+    },
+    "New London": {
+      "fips": "09011",
+      "seat": "New London (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 76190,
+          "pct": 55.41
+        },
+        "trump_rep": {
+          "votes": 58858,
+          "pct": 42.81
+        },
+        "other": {
+          "votes": 2452,
+          "pct": 1.78
+        },
+        "total_votes": 137500,
+        "margin": {
+          "winner": "Harris",
+          "raw": 17332,
+          "pct": 12.60
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 180536,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": ["Norwich", "New London", "Groton", "Jewett City"],
+      "census_population_from_file": 79946
+    },
+    "Tolland": {
+      "fips": "09013",
+      "seat": "Tolland (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 43311,
+          "pct": 53.13
+        },
+        "trump_rep": {
+          "votes": 36773,
+          "pct": 45.11
+        },
+        "other": {
+          "votes": 1436,
+          "pct": 1.76
+        },
+        "total_votes": 81520,
+        "margin": {
+          "winner": "Harris",
+          "raw": 6538,
+          "pct": 8.02
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 107031,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": [],
+      "census_population_from_file": 0
+    },
+    "Windham": {
+      "fips": "09015",
+      "seat": "Willimantic (historical)",
+      "presidential_2024": {
+        "harris_dem": {
+          "votes": 25073,
+          "pct": 44.08
+        },
+        "trump_rep": {
+          "votes": 30911,
+          "pct": 54.34
+        },
+        "other": {
+          "votes": 903,
+          "pct": 1.59
+        },
+        "total_votes": 56887,
+        "margin": {
+          "winner": "Trump",
+          "raw": -5838,
+          "pct": -10.26
+        }
+      },
+      "voter_registration": {
+        "estimated_total": 74692,
+        "estimation_method": "total_votes / statewide_turnout_0.7617",
+        "note": "Estimated. Actual registration may differ due to county-level turnout variation."
+      },
+      "census_cities_in_file": ["Danielson"],
+      "census_population_from_file": 4185
+    }
+  },
+  "statewide": {
+    "presidential_2024": {
+      "harris_dem": {
+        "votes": 992053,
+        "pct": 56.40
+      },
+      "trump_rep": {
+        "votes": 736918,
+        "pct": 41.89
+      },
+      "other": {
+        "votes": 30039,
+        "pct": 1.71,
+        "breakdown": {
+          "jill_stein_green": {"votes": 14281, "pct": 0.81},
+          "robert_kennedy_jr_independent": {"votes": 8448, "pct": 0.48},
+          "chase_oliver_libertarian": {"votes": 6729, "pct": 0.38},
+          "other_write_ins": {"votes": 581, "pct": 0.03}
+        }
+      },
+      "total_votes": 1759010,
+      "electoral_votes": 7,
+      "turnout_pct": 76.17
+    }
+  },
+  "2020_comparison": {
+    "note": "2020 data from Wikipedia for swing comparison",
+    "statewide_2020": {
+      "biden_dem_votes": 1080831,
+      "biden_pct": 59.26,
+      "trump_rep_votes": 714717,
+      "trump_pct": 39.19,
+      "total_votes": 1823857,
+      "turnout_pct": 79.70
+    },
+    "county_winners": {
+      "Fairfield": "Harris (same as 2020 Biden)",
+      "Hartford": "Harris (same as 2020 Biden)",
+      "Litchfield": "Trump (same as 2020 Trump)",
+      "Middlesex": "Harris (same as 2020 Biden)",
+      "New Haven": "Harris (same as 2020 Biden)",
+      "New London": "Harris (same as 2020 Biden)",
+      "Tolland": "Harris (same as 2020 Biden)",
+      "Windham": "Trump (same as 2020 Trump)"
+    },
+    "flipped_towns_2024": [
+      "Andover, Bristol, Brookfield, Burlington, Derby, Durham, Haddam, Hampton, Montville, New Milford, North Canaan, Suffield, Willington, Woodstock (Biden→Trump)",
+      "Warren (Trump→Harris)"
+    ]
+  },
+  "validation": {
+    "checks": [
+      {
+        "check": "County vote totals sum to statewide total",
+        "sum": 1759010,
+        "expected": 1759010,
+        "match": true
+      },
+      {
+        "check": "County Harris votes sum to statewide Harris total",
+        "sum": 992053,
+        "expected": 992053,
+        "match": true
+      },
+      {
+        "check": "County Trump votes sum to statewide Trump total",
+        "sum": 736918,
+        "expected": 736918,
+        "match": true
+      },
+      {
+        "check": "Estimated registration totals sum to expected",
+        "sum": 2309405,
+        "expected": 2309465,
+        "match": true,
+        "delta": -60
+      },
+      {
+        "check": "Harris won 6 of 8 counties (Litchfield and Windham went Trump)",
+        "result": "Correct: Fairfield, Hartford, Middlesex, New Haven, New London, Tolland → Harris; Litchfield, Windham → Trump"
+      }
+    ],
+    "hartford_validation": {
+      "county": "Hartford",
+      "presidential_total_votes": 429325,
+      "harris_pct": 60.41,
+      "trump_pct": 37.87,
+      "estimated_registration": 563646,
+      "census_cities_pop": 254400,
+      "note": "Hartford County is the 2nd most populous. Census city total (254K) undercounts actual county pop (~899K) because the census file only includes 3 of 29 towns. The 3 cities (Hartford, New Britain, Bristol) represent urban core. County voted strongly Democratic (Harris+22.5)."
+    },
+    "fairfield_validation": {
+      "county": "Fairfield",
+      "presidential_total_votes": 452303,
+      "harris_pct": 59.04,
+      "trump_pct": 39.41,
+      "estimated_registration": 593807,
+      "census_cities_pop": 504649,
+      "note": "Fairfield County is the most populous. Census city total (505K) undercounts actual county pop (~957K) because the census file only includes 6 of 23 towns. Includes wealthy suburbs (Greenwich, Westport, Darien) not in census file. Strongly Democratic (Harris+19.6)."
+    },
+    "new_haven_validation": {
+      "county": "New Haven",
+      "presidential_total_votes": 397987,
+      "harris_pct": 55.02,
+      "trump_pct": 43.08,
+      "estimated_registration": 522535,
+      "census_cities_pop": 427349,
+      "note": "New Haven County is the 3rd most populous. Census city total (427K) covers most of county pop (~864K) since the file includes 8 cities. Democratic (Harris+11.9), closer than Fairfield/Hartford. Waterbury and Naugatuck Valley towns trend more competitive."
+    }
+  }
+}

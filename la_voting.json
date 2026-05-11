@@ -1,0 +1,605 @@
+{
+  "state": "Louisiana",
+  "state_fips": "22",
+  "year": "2024",
+  "source_presidential": "Louisiana Secretary of State / Wikipedia (2024 United States presidential election in Louisiana)",
+  "source_registration": "Louisiana Secretary of State - Registration Statistics by Parish (sos.la.gov)",
+  "note": "LA uses parishes instead of counties. 64 parishes total.",
+  "statewide": {
+    "total_votes_cast": 2006975,
+    "total_ballots_cast": 2021164,
+    "turnout_pct": 66.3,
+    "results": {
+      "trump_vance_r": { "votes": 1208505, "pct": 60.22 },
+      "harris_walz_d": { "votes": 766870, "pct": 38.21 },
+      "stein_baraka_g": { "votes": 7138, "pct": 0.36 },
+      "oliver_terMaat_l": { "votes": 6835, "pct": 0.34 },
+      "kennedy_shanahan_wtp": { "votes": 6641, "pct": 0.33 },
+      "other": { "votes": 10986, "pct": 0.55 }
+    }
+  },
+  "parishes": {
+    "Acadia": {
+      "fips": "22001",
+      "total_votes": 26720,
+      "winner": "Trump",
+      "trump": { "votes": 21783, "pct": 81.52 },
+      "harris": { "votes": 4695, "pct": 17.57 },
+      "other": { "votes": 242, "pct": 0.91 },
+      "margin": { "votes": 17088, "pct": 63.95 }
+    },
+    "Allen": {
+      "fips": "22003",
+      "total_votes": 8751,
+      "winner": "Trump",
+      "trump": { "votes": 7003, "pct": 80.03 },
+      "harris": { "votes": 1661, "pct": 18.98 },
+      "other": { "votes": 87, "pct": 0.99 },
+      "margin": { "votes": 5342, "pct": 61.05 }
+    },
+    "Ascension": {
+      "fips": "22005",
+      "total_votes": 62473,
+      "winner": "Trump",
+      "trump": { "votes": 41319, "pct": 66.14 },
+      "harris": { "votes": 20113, "pct": 32.19 },
+      "other": { "votes": 1041, "pct": 1.67 },
+      "margin": { "votes": 21206, "pct": 33.95 }
+    },
+    "Assumption": {
+      "fips": "22007",
+      "total_votes": 10367,
+      "winner": "Trump",
+      "trump": { "votes": 6963, "pct": 67.17 },
+      "harris": { "votes": 3273, "pct": 31.57 },
+      "other": { "votes": 131, "pct": 1.26 },
+      "margin": { "votes": 3690, "pct": 35.60 }
+    },
+    "Avoyelles": {
+      "fips": "22009",
+      "total_votes": 16037,
+      "winner": "Trump",
+      "trump": { "votes": 11379, "pct": 70.95 },
+      "harris": { "votes": 4460, "pct": 27.81 },
+      "other": { "votes": 198, "pct": 1.23 },
+      "margin": { "votes": 6919, "pct": 43.14 }
+    },
+    "Beauregard": {
+      "fips": "22011",
+      "total_votes": 15874,
+      "winner": "Trump",
+      "trump": { "votes": 13504, "pct": 85.07 },
+      "harris": { "votes": 2192, "pct": 13.81 },
+      "other": { "votes": 178, "pct": 1.12 },
+      "margin": { "votes": 11312, "pct": 71.26 }
+    },
+    "Bienville": {
+      "fips": "22013",
+      "total_votes": 6256,
+      "winner": "Trump",
+      "trump": { "votes": 3660, "pct": 58.50 },
+      "harris": { "votes": 2531, "pct": 40.46 },
+      "other": { "votes": 65, "pct": 1.04 },
+      "margin": { "votes": 1129, "pct": 18.04 }
+    },
+    "Bossier": {
+      "fips": "22015",
+      "total_votes": 52232,
+      "winner": "Trump",
+      "trump": { "votes": 37105, "pct": 71.04 },
+      "harris": { "votes": 14467, "pct": 27.70 },
+      "other": { "votes": 660, "pct": 1.26 },
+      "margin": { "votes": 22638, "pct": 43.34 }
+    },
+    "Caddo": {
+      "fips": "22017",
+      "total_votes": 94699,
+      "winner": "Harris",
+      "trump": { "votes": 44471, "pct": 46.96 },
+      "harris": { "votes": 48864, "pct": 51.60 },
+      "other": { "votes": 1364, "pct": 1.44 },
+      "margin": { "votes": -4393, "pct": -4.64 }
+    },
+    "Calcasieu": {
+      "fips": "22019",
+      "total_votes": 81201,
+      "winner": "Trump",
+      "trump": { "votes": 56064, "pct": 69.04 },
+      "harris": { "votes": 23918, "pct": 29.46 },
+      "other": { "votes": 1219, "pct": 1.50 },
+      "margin": { "votes": 32146, "pct": 39.58 }
+    },
+    "Caldwell": {
+      "fips": "22021",
+      "total_votes": 4334,
+      "winner": "Trump",
+      "trump": { "votes": 3724, "pct": 85.93 },
+      "harris": { "votes": 580, "pct": 13.38 },
+      "other": { "votes": 30, "pct": 0.69 },
+      "margin": { "votes": 3144, "pct": 72.55 }
+    },
+    "Cameron": {
+      "fips": "22023",
+      "total_votes": 3362,
+      "winner": "Trump",
+      "trump": { "votes": 3120, "pct": 92.80 },
+      "harris": { "votes": 219, "pct": 6.51 },
+      "other": { "votes": 23, "pct": 0.68 },
+      "margin": { "votes": 2901, "pct": 86.29 }
+    },
+    "Catahoula": {
+      "fips": "22025",
+      "total_votes": 4348,
+      "winner": "Trump",
+      "trump": { "votes": 3258, "pct": 74.93 },
+      "harris": { "votes": 1060, "pct": 24.38 },
+      "other": { "votes": 30, "pct": 0.69 },
+      "margin": { "votes": 2198, "pct": 50.55 }
+    },
+    "Claiborne": {
+      "fips": "22027",
+      "total_votes": 5816,
+      "winner": "Trump",
+      "trump": { "votes": 3522, "pct": 60.56 },
+      "harris": { "votes": 2239, "pct": 38.50 },
+      "other": { "votes": 55, "pct": 0.95 },
+      "margin": { "votes": 1283, "pct": 22.06 }
+    },
+    "Concordia": {
+      "fips": "22029",
+      "total_votes": 7755,
+      "winner": "Trump",
+      "trump": { "votes": 4974, "pct": 64.14 },
+      "harris": { "votes": 2698, "pct": 34.79 },
+      "other": { "votes": 83, "pct": 1.07 },
+      "margin": { "votes": 2276, "pct": 29.35 }
+    },
+    "DeSoto": {
+      "fips": "22031",
+      "total_votes": 13913,
+      "winner": "Trump",
+      "trump": { "votes": 9359, "pct": 67.27 },
+      "harris": { "votes": 4426, "pct": 31.81 },
+      "other": { "votes": 128, "pct": 0.92 },
+      "margin": { "votes": 4933, "pct": 35.46 }
+    },
+    "East Baton Rouge": {
+      "fips": "22033",
+      "total_votes": 190643,
+      "winner": "Harris",
+      "trump": { "votes": 82720, "pct": 43.39 },
+      "harris": { "votes": 103820, "pct": 54.46 },
+      "other": { "votes": 4103, "pct": 2.15 },
+      "margin": { "votes": -21100, "pct": -11.07 },
+      "note": "VALIDATED - Baton Rouge is the parish seat. Largest parish by vote total."
+    },
+    "East Carroll": {
+      "fips": "22035",
+      "total_votes": 2306,
+      "winner": "Harris",
+      "trump": { "votes": 931, "pct": 40.37 },
+      "harris": { "votes": 1338, "pct": 58.02 },
+      "other": { "votes": 37, "pct": 1.60 },
+      "margin": { "votes": -407, "pct": -17.65 }
+    },
+    "East Feliciana": {
+      "fips": "22037",
+      "total_votes": 9947,
+      "winner": "Trump",
+      "trump": { "votes": 6020, "pct": 60.52 },
+      "harris": { "votes": 3809, "pct": 38.29 },
+      "other": { "votes": 118, "pct": 1.19 },
+      "margin": { "votes": 2211, "pct": 22.23 }
+    },
+    "Evangeline": {
+      "fips": "22039",
+      "total_votes": 14176,
+      "winner": "Trump",
+      "trump": { "votes": 10483, "pct": 73.95 },
+      "harris": { "votes": 3526, "pct": 24.87 },
+      "other": { "votes": 167, "pct": 1.18 },
+      "margin": { "votes": 6957, "pct": 49.08 }
+    },
+    "Franklin": {
+      "fips": "22041",
+      "total_votes": 8798,
+      "winner": "Trump",
+      "trump": { "votes": 6524, "pct": 74.15 },
+      "harris": { "votes": 2196, "pct": 24.96 },
+      "other": { "votes": 78, "pct": 0.89 },
+      "margin": { "votes": 4328, "pct": 49.19 }
+    },
+    "Grant": {
+      "fips": "22043",
+      "total_votes": 9018,
+      "winner": "Trump",
+      "trump": { "votes": 7925, "pct": 87.88 },
+      "harris": { "votes": 996, "pct": 11.04 },
+      "other": { "votes": 97, "pct": 1.08 },
+      "margin": { "votes": 6929, "pct": 76.84 }
+    },
+    "Iberia": {
+      "fips": "22045",
+      "total_votes": 29331,
+      "winner": "Trump",
+      "trump": { "votes": 19511, "pct": 66.52 },
+      "harris": { "votes": 9504, "pct": 32.40 },
+      "other": { "votes": 316, "pct": 1.08 },
+      "margin": { "votes": 10007, "pct": 34.12 }
+    },
+    "Iberville": {
+      "fips": "22047",
+      "total_votes": 15354,
+      "winner": "Trump",
+      "trump": { "votes": 7616, "pct": 49.60 },
+      "harris": { "votes": 7503, "pct": 48.87 },
+      "other": { "votes": 235, "pct": 1.53 },
+      "margin": { "votes": 113, "pct": 0.73 },
+      "note": "Flipped from Democratic to Republican in 2024"
+    },
+    "Jackson": {
+      "fips": "22049",
+      "total_votes": 7226,
+      "winner": "Trump",
+      "trump": { "votes": 5291, "pct": 73.22 },
+      "harris": { "votes": 1852, "pct": 25.63 },
+      "other": { "votes": 83, "pct": 1.15 },
+      "margin": { "votes": 3439, "pct": 47.59 }
+    },
+    "Jefferson": {
+      "fips": "22051",
+      "total_votes": 178205,
+      "winner": "Trump",
+      "trump": { "votes": 98810, "pct": 55.45 },
+      "harris": { "votes": 75731, "pct": 42.50 },
+      "other": { "votes": 3664, "pct": 2.06 },
+      "margin": { "votes": 23079, "pct": 12.95 }
+    },
+    "Jefferson Davis": {
+      "fips": "22053",
+      "total_votes": 14358,
+      "winner": "Trump",
+      "trump": { "votes": 11478, "pct": 79.94 },
+      "harris": { "votes": 2699, "pct": 18.80 },
+      "other": { "votes": 181, "pct": 1.26 },
+      "margin": { "votes": 8779, "pct": 61.14 }
+    },
+    "Lafayette": {
+      "fips": "22055",
+      "total_votes": 111086,
+      "winner": "Trump",
+      "trump": { "votes": 72007, "pct": 64.82 },
+      "harris": { "votes": 37170, "pct": 33.46 },
+      "other": { "votes": 1909, "pct": 1.72 },
+      "margin": { "votes": 34837, "pct": 31.36 }
+    },
+    "Lafourche": {
+      "fips": "22057",
+      "total_votes": 42845,
+      "winner": "Trump",
+      "trump": { "votes": 34461, "pct": 80.43 },
+      "harris": { "votes": 7864, "pct": 18.35 },
+      "other": { "votes": 520, "pct": 1.21 },
+      "margin": { "votes": 26597, "pct": 62.08 }
+    },
+    "LaSalle": {
+      "fips": "22059",
+      "total_votes": 6620,
+      "winner": "Trump",
+      "trump": { "votes": 6023, "pct": 90.98 },
+      "harris": { "votes": 546, "pct": 8.25 },
+      "other": { "votes": 51, "pct": 0.77 },
+      "margin": { "votes": 5477, "pct": 82.73 }
+    },
+    "Lincoln": {
+      "fips": "22061",
+      "total_votes": 18157,
+      "winner": "Trump",
+      "trump": { "votes": 11248, "pct": 61.95 },
+      "harris": { "votes": 6627, "pct": 36.50 },
+      "other": { "votes": 282, "pct": 1.55 },
+      "margin": { "votes": 4621, "pct": 25.45 }
+    },
+    "Livingston": {
+      "fips": "22063",
+      "total_votes": 65906,
+      "winner": "Trump",
+      "trump": { "votes": 55101, "pct": 83.61 },
+      "harris": { "votes": 9965, "pct": 15.12 },
+      "other": { "votes": 840, "pct": 1.27 },
+      "margin": { "votes": 45136, "pct": 68.49 }
+    },
+    "Madison": {
+      "fips": "22065",
+      "total_votes": 3992,
+      "winner": "Harris",
+      "trump": { "votes": 1846, "pct": 46.24 },
+      "harris": { "votes": 2094, "pct": 52.45 },
+      "other": { "votes": 52, "pct": 1.30 },
+      "margin": { "votes": -248, "pct": -6.21 }
+    },
+    "Morehouse": {
+      "fips": "22067",
+      "total_votes": 10097,
+      "winner": "Trump",
+      "trump": { "votes": 5961, "pct": 59.04 },
+      "harris": { "votes": 4008, "pct": 39.69 },
+      "other": { "votes": 128, "pct": 1.27 },
+      "margin": { "votes": 1953, "pct": 19.35 }
+    },
+    "Natchitoches": {
+      "fips": "22069",
+      "total_votes": 15040,
+      "winner": "Trump",
+      "trump": { "votes": 9100, "pct": 60.51 },
+      "harris": { "votes": 5740, "pct": 38.16 },
+      "other": { "votes": 200, "pct": 1.33 },
+      "margin": { "votes": 3360, "pct": 22.35 }
+    },
+    "Orleans": {
+      "fips": "22071",
+      "total_votes": 159130,
+      "winner": "Harris",
+      "trump": { "votes": 24119, "pct": 15.16 },
+      "harris": { "votes": 130749, "pct": 82.16 },
+      "other": { "votes": 4262, "pct": 2.68 },
+      "margin": { "votes": -106630, "pct": -67.00 },
+      "note": "VALIDATED - New Orleans. Most Democratic parish in LA (82% Harris)."
+    },
+    "Ouachita": {
+      "fips": "22073",
+      "total_votes": 64436,
+      "winner": "Trump",
+      "trump": { "votes": 40808, "pct": 63.33 },
+      "harris": { "votes": 22845, "pct": 35.45 },
+      "other": { "votes": 783, "pct": 1.22 },
+      "margin": { "votes": 17963, "pct": 27.88 }
+    },
+    "Plaquemines": {
+      "fips": "22075",
+      "total_votes": 9945,
+      "winner": "Trump",
+      "trump": { "votes": 6803, "pct": 68.41 },
+      "harris": { "votes": 3023, "pct": 30.40 },
+      "other": { "votes": 119, "pct": 1.20 },
+      "margin": { "votes": 3780, "pct": 38.01 }
+    },
+    "Pointe Coupee": {
+      "fips": "22077",
+      "total_votes": 11570,
+      "winner": "Trump",
+      "trump": { "votes": 7319, "pct": 63.26 },
+      "harris": { "votes": 4132, "pct": 35.71 },
+      "other": { "votes": 119, "pct": 1.03 },
+      "margin": { "votes": 3187, "pct": 27.55 }
+    },
+    "Rapides": {
+      "fips": "22079",
+      "total_votes": 53395,
+      "winner": "Trump",
+      "trump": { "votes": 36171, "pct": 67.74 },
+      "harris": { "votes": 16537, "pct": 30.97 },
+      "other": { "votes": 687, "pct": 1.29 },
+      "margin": { "votes": 19634, "pct": 36.77 }
+    },
+    "Red River": {
+      "fips": "22081",
+      "total_votes": 3725,
+      "winner": "Trump",
+      "trump": { "votes": 2337, "pct": 62.74 },
+      "harris": { "votes": 1321, "pct": 35.46 },
+      "other": { "votes": 67, "pct": 1.80 },
+      "margin": { "votes": 1016, "pct": 27.28 }
+    },
+    "Richland": {
+      "fips": "22083",
+      "total_votes": 9193,
+      "winner": "Trump",
+      "trump": { "votes": 6354, "pct": 69.12 },
+      "harris": { "votes": 2732, "pct": 29.72 },
+      "other": { "votes": 107, "pct": 1.16 },
+      "margin": { "votes": 3622, "pct": 39.40 }
+    },
+    "Sabine": {
+      "fips": "22085",
+      "total_votes": 10170,
+      "winner": "Trump",
+      "trump": { "votes": 8613, "pct": 84.69 },
+      "harris": { "votes": 1488, "pct": 14.63 },
+      "other": { "votes": 69, "pct": 0.68 },
+      "margin": { "votes": 7125, "pct": 70.06 }
+    },
+    "St. Bernard": {
+      "fips": "22087",
+      "total_votes": 17292,
+      "winner": "Trump",
+      "trump": { "votes": 11033, "pct": 63.80 },
+      "harris": { "votes": 5967, "pct": 34.51 },
+      "other": { "votes": 292, "pct": 1.69 },
+      "margin": { "votes": 5066, "pct": 29.29 }
+    },
+    "St. Charles": {
+      "fips": "22089",
+      "total_votes": 26685,
+      "winner": "Trump",
+      "trump": { "votes": 17443, "pct": 65.37 },
+      "harris": { "votes": 8812, "pct": 33.02 },
+      "other": { "votes": 430, "pct": 1.61 },
+      "margin": { "votes": 8631, "pct": 32.35 }
+    },
+    "St. Helena": {
+      "fips": "22091",
+      "total_votes": 5745,
+      "winner": "Harris",
+      "trump": { "votes": 2804, "pct": 48.81 },
+      "harris": { "votes": 2848, "pct": 49.57 },
+      "other": { "votes": 93, "pct": 1.62 },
+      "margin": { "votes": -44, "pct": -0.76 }
+    },
+    "St. James": {
+      "fips": "22093",
+      "total_votes": 11789,
+      "winner": "Trump",
+      "trump": { "votes": 5902, "pct": 50.06 },
+      "harris": { "votes": 5792, "pct": 49.13 },
+      "other": { "votes": 95, "pct": 0.81 },
+      "margin": { "votes": 110, "pct": 0.93 },
+      "note": "Flipped from Democratic to Republican in 2024. Closest parish margin."
+    },
+    "St. John the Baptist": {
+      "fips": "22095",
+      "total_votes": 18827,
+      "winner": "Harris",
+      "trump": { "votes": 6557, "pct": 34.83 },
+      "harris": { "votes": 12043, "pct": 63.97 },
+      "other": { "votes": 227, "pct": 1.21 },
+      "margin": { "votes": -5486, "pct": -29.14 }
+    },
+    "St. Landry": {
+      "fips": "22097",
+      "total_votes": 37043,
+      "winner": "Trump",
+      "trump": { "votes": 21812, "pct": 58.88 },
+      "harris": { "votes": 14833, "pct": 40.04 },
+      "other": { "votes": 398, "pct": 1.07 },
+      "margin": { "votes": 6979, "pct": 18.84 }
+    },
+    "St. Martin": {
+      "fips": "22099",
+      "total_votes": 25006,
+      "winner": "Trump",
+      "trump": { "votes": 17466, "pct": 69.85 },
+      "harris": { "votes": 7284, "pct": 29.13 },
+      "other": { "votes": 256, "pct": 1.02 },
+      "margin": { "votes": 10182, "pct": 40.72 }
+    },
+    "St. Mary": {
+      "fips": "22101",
+      "total_votes": 20897,
+      "winner": "Trump",
+      "trump": { "votes": 13671, "pct": 65.42 },
+      "harris": { "votes": 7011, "pct": 33.55 },
+      "other": { "votes": 215, "pct": 1.03 },
+      "margin": { "votes": 6660, "pct": 31.87 }
+    },
+    "St. Tammany": {
+      "fips": "22103",
+      "total_votes": 138384,
+      "winner": "Trump",
+      "trump": { "votes": 98377, "pct": 71.09 },
+      "harris": { "votes": 37777, "pct": 27.30 },
+      "other": { "votes": 2230, "pct": 1.61 },
+      "margin": { "votes": 60600, "pct": 43.79 }
+    },
+    "Tangipahoa": {
+      "fips": "22105",
+      "total_votes": 55104,
+      "winner": "Trump",
+      "trump": { "votes": 37500, "pct": 68.05 },
+      "harris": { "votes": 16886, "pct": 30.64 },
+      "other": { "votes": 718, "pct": 1.30 },
+      "margin": { "votes": 20614, "pct": 37.41 }
+    },
+    "Tensas": {
+      "fips": "22107",
+      "total_votes": 2128,
+      "winner": "Trump",
+      "trump": { "votes": 1093, "pct": 51.36 },
+      "harris": { "votes": 1002, "pct": 47.09 },
+      "other": { "votes": 33, "pct": 1.55 },
+      "margin": { "votes": 91, "pct": 4.27 },
+      "note": "Flipped from Democratic to Republican in 2024. First GOP win since 1988."
+    },
+    "Terrebonne": {
+      "fips": "22109",
+      "total_votes": 41327,
+      "winner": "Trump",
+      "trump": { "votes": 31115, "pct": 75.29 },
+      "harris": { "votes": 9702, "pct": 23.48 },
+      "other": { "votes": 510, "pct": 1.23 },
+      "margin": { "votes": 21413, "pct": 51.81 }
+    },
+    "Union": {
+      "fips": "22111",
+      "total_votes": 10475,
+      "winner": "Trump",
+      "trump": { "votes": 8176, "pct": 78.05 },
+      "harris": { "votes": 2206, "pct": 21.06 },
+      "other": { "votes": 93, "pct": 0.89 },
+      "margin": { "votes": 5970, "pct": 56.99 }
+    },
+    "Vermilion": {
+      "fips": "22113",
+      "total_votes": 26429,
+      "winner": "Trump",
+      "trump": { "votes": 21510, "pct": 81.39 },
+      "harris": { "votes": 4637, "pct": 17.55 },
+      "other": { "votes": 282, "pct": 1.07 },
+      "margin": { "votes": 16873, "pct": 63.84 }
+    },
+    "Vernon": {
+      "fips": "22115",
+      "total_votes": 16149,
+      "winner": "Trump",
+      "trump": { "votes": 13474, "pct": 83.44 },
+      "harris": { "votes": 2513, "pct": 15.56 },
+      "other": { "votes": 162, "pct": 1.00 },
+      "margin": { "votes": 10961, "pct": 67.88 }
+    },
+    "Washington": {
+      "fips": "22117",
+      "total_votes": 18455,
+      "winner": "Trump",
+      "trump": { "votes": 12846, "pct": 69.61 },
+      "harris": { "votes": 5411, "pct": 29.32 },
+      "other": { "votes": 198, "pct": 1.07 },
+      "margin": { "votes": 7435, "pct": 40.29 }
+    },
+    "Webster": {
+      "fips": "22119",
+      "total_votes": 16205,
+      "winner": "Trump",
+      "trump": { "votes": 10965, "pct": 67.66 },
+      "harris": { "votes": 5053, "pct": 31.18 },
+      "other": { "votes": 187, "pct": 1.15 },
+      "margin": { "votes": 5912, "pct": 36.48 }
+    },
+    "West Baton Rouge": {
+      "fips": "22121",
+      "total_votes": 13836,
+      "winner": "Trump",
+      "trump": { "votes": 7627, "pct": 55.12 },
+      "harris": { "votes": 6008, "pct": 43.42 },
+      "other": { "votes": 201, "pct": 1.45 },
+      "margin": { "votes": 1619, "pct": 11.70 }
+    },
+    "West Carroll": {
+      "fips": "22123",
+      "total_votes": 4603,
+      "winner": "Trump",
+      "trump": { "votes": 3986, "pct": 86.60 },
+      "harris": { "votes": 578, "pct": 12.56 },
+      "other": { "votes": 39, "pct": 0.85 },
+      "margin": { "votes": 3408, "pct": 74.04 }
+    },
+    "West Feliciana": {
+      "fips": "22125",
+      "total_votes": 6008,
+      "winner": "Trump",
+      "trump": { "votes": 3923, "pct": 65.30 },
+      "harris": { "votes": 2004, "pct": 33.36 },
+      "other": { "votes": 81, "pct": 1.35 },
+      "margin": { "votes": 1919, "pct": 31.94 }
+    },
+    "Winn": {
+      "fips": "22127",
+      "total_votes": 5781,
+      "winner": "Trump",
+      "trump": { "votes": 4437, "pct": 76.75 },
+      "harris": { "votes": 1292, "pct": 22.35 },
+      "other": { "votes": 52, "pct": 0.90 },
+      "margin": { "votes": 3145, "pct": 54.40 }
+    }
+  },
+  "registration_note": "LA Secretary of State parish-level voter registration (Dem/Rep/Other breakdown) is published at https://www.sos.la.gov/ElectionsAndVoting/Pages/RegistrationStatisticsParish.aspx but requires JavaScript/SharePoint to view. Total ballots cast (presidential turnout) per parish serves as a proxy for active voter engagement. Statewide turnout: 66.3%."
+}

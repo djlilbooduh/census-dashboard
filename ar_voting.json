@@ -1,0 +1,1485 @@
+{
+  "state": "Arkansas",
+  "state_fips": "05",
+  "presidential_election": {
+    "year": 2024,
+    "source": "Wikipedia / Arkansas Secretary of State certified results",
+    "statewide": {
+      "trump_votes": 759241,
+      "trump_pct": 64.2,
+      "harris_votes": 396905,
+      "harris_pct": 33.56,
+      "other_votes": 26530,
+      "other_pct": 2.24,
+      "total_votes": 1182676
+    },
+    "counties": {
+      "Arkansas": {
+        "trump_votes": 3951,
+        "trump_pct": 71.23,
+        "harris_votes": 1503,
+        "harris_pct": 27.1,
+        "other_votes": 93,
+        "other_pct": 1.68,
+        "total_votes": 5547,
+        "winner": "Trump",
+        "margin_pct": 44.13
+      },
+      "Ashley": {
+        "trump_votes": 5145,
+        "trump_pct": 73.19,
+        "harris_votes": 1774,
+        "harris_pct": 25.23,
+        "other_votes": 111,
+        "other_pct": 1.58,
+        "total_votes": 7030,
+        "winner": "Trump",
+        "margin_pct": 47.96
+      },
+      "Baxter": {
+        "trump_votes": 16253,
+        "trump_pct": 77.57,
+        "harris_votes": 4341,
+        "harris_pct": 20.72,
+        "other_votes": 360,
+        "other_pct": 1.72,
+        "total_votes": 20954,
+        "winner": "Trump",
+        "margin_pct": 56.85
+      },
+      "Benton": {
+        "trump_votes": 79907,
+        "trump_pct": 62.14,
+        "harris_votes": 45231,
+        "harris_pct": 35.17,
+        "other_votes": 3457,
+        "other_pct": 2.69,
+        "total_votes": 128595,
+        "winner": "Trump",
+        "margin_pct": 26.97
+      },
+      "Boone": {
+        "trump_votes": 13968,
+        "trump_pct": 81.63,
+        "harris_votes": 2854,
+        "harris_pct": 16.68,
+        "other_votes": 290,
+        "other_pct": 1.69,
+        "total_votes": 17112,
+        "winner": "Trump",
+        "margin_pct": 64.95
+      },
+      "Bradley": {
+        "trump_votes": 2213,
+        "trump_pct": 68.96,
+        "harris_votes": 961,
+        "harris_pct": 29.95,
+        "other_votes": 35,
+        "other_pct": 1.09,
+        "total_votes": 3209,
+        "winner": "Trump",
+        "margin_pct": 39.01
+      },
+      "Calhoun": {
+        "trump_votes": 1674,
+        "trump_pct": 80.02,
+        "harris_votes": 379,
+        "harris_pct": 18.12,
+        "other_votes": 39,
+        "other_pct": 1.86,
+        "total_votes": 2092,
+        "winner": "Trump",
+        "margin_pct": 61.9
+      },
+      "Carroll": {
+        "trump_votes": 7470,
+        "trump_pct": 64.74,
+        "harris_votes": 3812,
+        "harris_pct": 33.04,
+        "other_votes": 256,
+        "other_pct": 2.22,
+        "total_votes": 11538,
+        "winner": "Trump",
+        "margin_pct": 31.7
+      },
+      "Chicot": {
+        "trump_votes": 1658,
+        "trump_pct": 47.51,
+        "harris_votes": 1796,
+        "harris_pct": 51.46,
+        "other_votes": 36,
+        "other_pct": 1.03,
+        "total_votes": 3490,
+        "winner": "Harris",
+        "margin_pct": 3.95
+      },
+      "Clark": {
+        "trump_votes": 4526,
+        "trump_pct": 59.11,
+        "harris_votes": 2959,
+        "harris_pct": 38.64,
+        "other_votes": 172,
+        "other_pct": 2.25,
+        "total_votes": 7657,
+        "winner": "Trump",
+        "margin_pct": 20.47
+      },
+      "Clay": {
+        "trump_votes": 3968,
+        "trump_pct": 79.89,
+        "harris_votes": 907,
+        "harris_pct": 18.26,
+        "other_votes": 92,
+        "other_pct": 1.85,
+        "total_votes": 4967,
+        "winner": "Trump",
+        "margin_pct": 61.63
+      },
+      "Cleburne": {
+        "trump_votes": 10595,
+        "trump_pct": 83.17,
+        "harris_votes": 1941,
+        "harris_pct": 15.24,
+        "other_votes": 203,
+        "other_pct": 1.59,
+        "total_votes": 12739,
+        "winner": "Trump",
+        "margin_pct": 67.93
+      },
+      "Cleveland": {
+        "trump_votes": 2804,
+        "trump_pct": 83.11,
+        "harris_votes": 524,
+        "harris_pct": 15.53,
+        "other_votes": 46,
+        "other_pct": 1.36,
+        "total_votes": 3374,
+        "winner": "Trump",
+        "margin_pct": 67.58
+      },
+      "Columbia": {
+        "trump_votes": 5367,
+        "trump_pct": 67.59,
+        "harris_votes": 2466,
+        "harris_pct": 31.06,
+        "other_votes": 107,
+        "other_pct": 1.35,
+        "total_votes": 7940,
+        "winner": "Trump",
+        "margin_pct": 36.53
+      },
+      "Conway": {
+        "trump_votes": 5893,
+        "trump_pct": 69.0,
+        "harris_votes": 2449,
+        "harris_pct": 28.67,
+        "other_votes": 199,
+        "other_pct": 2.33,
+        "total_votes": 8541,
+        "winner": "Trump",
+        "margin_pct": 40.33
+      },
+      "Craighead": {
+        "trump_votes": 25152,
+        "trump_pct": 67.54,
+        "harris_votes": 11210,
+        "harris_pct": 30.1,
+        "other_votes": 880,
+        "other_pct": 2.36,
+        "total_votes": 37242,
+        "winner": "Trump",
+        "margin_pct": 37.44
+      },
+      "Crawford": {
+        "trump_votes": 18615,
+        "trump_pct": 78.1,
+        "harris_votes": 4753,
+        "harris_pct": 19.94,
+        "other_votes": 466,
+        "other_pct": 1.96,
+        "total_votes": 23834,
+        "winner": "Trump",
+        "margin_pct": 58.16
+      },
+      "Crittenden": {
+        "trump_votes": 7028,
+        "trump_pct": 47.87,
+        "harris_votes": 7362,
+        "harris_pct": 50.15,
+        "other_votes": 291,
+        "other_pct": 1.98,
+        "total_votes": 14681,
+        "winner": "Harris",
+        "margin_pct": 2.28
+      },
+      "Cross": {
+        "trump_votes": 4753,
+        "trump_pct": 72.74,
+        "harris_votes": 1642,
+        "harris_pct": 25.13,
+        "other_votes": 139,
+        "other_pct": 2.13,
+        "total_votes": 6534,
+        "winner": "Trump",
+        "margin_pct": 47.61
+      },
+      "Dallas": {
+        "trump_votes": 1482,
+        "trump_pct": 63.77,
+        "harris_votes": 798,
+        "harris_pct": 34.34,
+        "other_votes": 44,
+        "other_pct": 1.89,
+        "total_votes": 2324,
+        "winner": "Trump",
+        "margin_pct": 29.43
+      },
+      "Desha": {
+        "trump_votes": 1805,
+        "trump_pct": 51.5,
+        "harris_votes": 1638,
+        "harris_pct": 46.73,
+        "other_votes": 62,
+        "other_pct": 1.77,
+        "total_votes": 3505,
+        "winner": "Trump",
+        "margin_pct": 4.77
+      },
+      "Drew": {
+        "trump_votes": 4203,
+        "trump_pct": 66.03,
+        "harris_votes": 2050,
+        "harris_pct": 32.21,
+        "other_votes": 112,
+        "other_pct": 1.76,
+        "total_votes": 6365,
+        "winner": "Trump",
+        "margin_pct": 33.82
+      },
+      "Faulkner": {
+        "trump_votes": 35357,
+        "trump_pct": 64.92,
+        "harris_votes": 17752,
+        "harris_pct": 32.59,
+        "other_votes": 1356,
+        "other_pct": 2.49,
+        "total_votes": 54465,
+        "winner": "Trump",
+        "margin_pct": 32.33
+      },
+      "Franklin": {
+        "trump_votes": 5582,
+        "trump_pct": 80.07,
+        "harris_votes": 1232,
+        "harris_pct": 17.67,
+        "other_votes": 157,
+        "other_pct": 2.25,
+        "total_votes": 6971,
+        "winner": "Trump",
+        "margin_pct": 62.4
+      },
+      "Fulton": {
+        "trump_votes": 4040,
+        "trump_pct": 80.11,
+        "harris_votes": 906,
+        "harris_pct": 17.97,
+        "other_votes": 97,
+        "other_pct": 1.92,
+        "total_votes": 5043,
+        "winner": "Trump",
+        "margin_pct": 62.14
+      },
+      "Garland": {
+        "trump_votes": 28359,
+        "trump_pct": 67.0,
+        "harris_votes": 13015,
+        "harris_pct": 30.75,
+        "other_votes": 953,
+        "other_pct": 2.25,
+        "total_votes": 42327,
+        "winner": "Trump",
+        "margin_pct": 36.25
+      },
+      "Grant": {
+        "trump_votes": 6755,
+        "trump_pct": 83.62,
+        "harris_votes": 1192,
+        "harris_pct": 14.76,
+        "other_votes": 131,
+        "other_pct": 1.62,
+        "total_votes": 8078,
+        "winner": "Trump",
+        "margin_pct": 68.86
+      },
+      "Greene": {
+        "trump_votes": 12617,
+        "trump_pct": 79.75,
+        "harris_votes": 2935,
+        "harris_pct": 18.55,
+        "other_votes": 268,
+        "other_pct": 1.69,
+        "total_votes": 15820,
+        "winner": "Trump",
+        "margin_pct": 61.2
+      },
+      "Hempstead": {
+        "trump_votes": 4193,
+        "trump_pct": 68.86,
+        "harris_votes": 1776,
+        "harris_pct": 29.17,
+        "other_votes": 120,
+        "other_pct": 1.97,
+        "total_votes": 6089,
+        "winner": "Trump",
+        "margin_pct": 39.69
+      },
+      "Hot Spring": {
+        "trump_votes": 9226,
+        "trump_pct": 75.11,
+        "harris_votes": 2818,
+        "harris_pct": 22.94,
+        "other_votes": 239,
+        "other_pct": 1.95,
+        "total_votes": 12283,
+        "winner": "Trump",
+        "margin_pct": 52.17
+      },
+      "Howard": {
+        "trump_votes": 3246,
+        "trump_pct": 72.57,
+        "harris_votes": 1158,
+        "harris_pct": 25.89,
+        "other_votes": 69,
+        "other_pct": 1.54,
+        "total_votes": 4473,
+        "winner": "Trump",
+        "margin_pct": 46.68
+      },
+      "Independence": {
+        "trump_votes": 11023,
+        "trump_pct": 78.67,
+        "harris_votes": 2689,
+        "harris_pct": 19.19,
+        "other_votes": 299,
+        "other_pct": 2.13,
+        "total_votes": 14011,
+        "winner": "Trump",
+        "margin_pct": 59.48
+      },
+      "Izard": {
+        "trump_votes": 4854,
+        "trump_pct": 81.92,
+        "harris_votes": 949,
+        "harris_pct": 16.02,
+        "other_votes": 122,
+        "other_pct": 2.06,
+        "total_votes": 5925,
+        "winner": "Trump",
+        "margin_pct": 65.9
+      },
+      "Jackson": {
+        "trump_votes": 3509,
+        "trump_pct": 73.49,
+        "harris_votes": 1183,
+        "harris_pct": 24.77,
+        "other_votes": 83,
+        "other_pct": 1.74,
+        "total_votes": 4775,
+        "winner": "Trump",
+        "margin_pct": 48.72
+      },
+      "Jefferson": {
+        "trump_votes": 8468,
+        "trump_pct": 39.19,
+        "harris_votes": 12802,
+        "harris_pct": 59.25,
+        "other_votes": 338,
+        "other_pct": 1.56,
+        "total_votes": 21608,
+        "winner": "Harris",
+        "margin_pct": 20.06
+      },
+      "Johnson": {
+        "trump_votes": 6766,
+        "trump_pct": 74.69,
+        "harris_votes": 2107,
+        "harris_pct": 23.26,
+        "other_votes": 186,
+        "other_pct": 2.05,
+        "total_votes": 9059,
+        "winner": "Trump",
+        "margin_pct": 51.43
+      },
+      "Lafayette": {
+        "trump_votes": 1589,
+        "trump_pct": 68.34,
+        "harris_votes": 698,
+        "harris_pct": 30.02,
+        "other_votes": 38,
+        "other_pct": 1.63,
+        "total_votes": 2325,
+        "winner": "Trump",
+        "margin_pct": 38.32
+      },
+      "Lawrence": {
+        "trump_votes": 4608,
+        "trump_pct": 80.96,
+        "harris_votes": 965,
+        "harris_pct": 16.95,
+        "other_votes": 119,
+        "other_pct": 2.09,
+        "total_votes": 5692,
+        "winner": "Trump",
+        "margin_pct": 64.01
+      },
+      "Lee": {
+        "trump_votes": 1181,
+        "trump_pct": 46.87,
+        "harris_votes": 1270,
+        "harris_pct": 50.4,
+        "other_votes": 69,
+        "other_pct": 2.74,
+        "total_votes": 2520,
+        "winner": "Harris",
+        "margin_pct": 3.53
+      },
+      "Lincoln": {
+        "trump_votes": 2502,
+        "trump_pct": 74.2,
+        "harris_votes": 813,
+        "harris_pct": 24.11,
+        "other_votes": 57,
+        "other_pct": 1.69,
+        "total_votes": 3372,
+        "winner": "Trump",
+        "margin_pct": 50.09
+      },
+      "Little River": {
+        "trump_votes": 3744,
+        "trump_pct": 76.42,
+        "harris_votes": 1084,
+        "harris_pct": 22.13,
+        "other_votes": 71,
+        "other_pct": 1.45,
+        "total_votes": 4899,
+        "winner": "Trump",
+        "margin_pct": 54.29
+      },
+      "Logan": {
+        "trump_votes": 6567,
+        "trump_pct": 80.04,
+        "harris_votes": 1464,
+        "harris_pct": 17.84,
+        "other_votes": 174,
+        "other_pct": 2.12,
+        "total_votes": 8205,
+        "winner": "Trump",
+        "margin_pct": 62.2
+      },
+      "Lonoke": {
+        "trump_votes": 23225,
+        "trump_pct": 75.85,
+        "harris_votes": 6790,
+        "harris_pct": 22.18,
+        "other_votes": 605,
+        "other_pct": 1.98,
+        "total_votes": 30620,
+        "winner": "Trump",
+        "margin_pct": 53.67
+      },
+      "Madison": {
+        "trump_votes": 5885,
+        "trump_pct": 78.46,
+        "harris_votes": 1491,
+        "harris_pct": 19.88,
+        "other_votes": 125,
+        "other_pct": 1.67,
+        "total_votes": 7501,
+        "winner": "Trump",
+        "margin_pct": 58.58
+      },
+      "Marion": {
+        "trump_votes": 6230,
+        "trump_pct": 79.35,
+        "harris_votes": 1501,
+        "harris_pct": 19.12,
+        "other_votes": 120,
+        "other_pct": 1.53,
+        "total_votes": 7851,
+        "winner": "Trump",
+        "margin_pct": 60.23
+      },
+      "Miller": {
+        "trump_votes": 11842,
+        "trump_pct": 74.94,
+        "harris_votes": 3769,
+        "harris_pct": 23.85,
+        "other_votes": 192,
+        "other_pct": 1.21,
+        "total_votes": 15803,
+        "winner": "Trump",
+        "margin_pct": 51.09
+      },
+      "Mississippi": {
+        "trump_votes": 6963,
+        "trump_pct": 64.97,
+        "harris_votes": 3574,
+        "harris_pct": 33.35,
+        "other_votes": 180,
+        "other_pct": 1.68,
+        "total_votes": 10717,
+        "winner": "Trump",
+        "margin_pct": 31.62
+      },
+      "Monroe": {
+        "trump_votes": 1385,
+        "trump_pct": 56.93,
+        "harris_votes": 1002,
+        "harris_pct": 41.18,
+        "other_votes": 46,
+        "other_pct": 1.89,
+        "total_votes": 2433,
+        "winner": "Trump",
+        "margin_pct": 15.75
+      },
+      "Montgomery": {
+        "trump_votes": 2987,
+        "trump_pct": 80.58,
+        "harris_votes": 645,
+        "harris_pct": 17.4,
+        "other_votes": 75,
+        "other_pct": 2.02,
+        "total_votes": 3707,
+        "winner": "Trump",
+        "margin_pct": 63.18
+      },
+      "Nevada": {
+        "trump_votes": 2002,
+        "trump_pct": 68.87,
+        "harris_votes": 849,
+        "harris_pct": 29.21,
+        "other_votes": 56,
+        "other_pct": 1.93,
+        "total_votes": 2907,
+        "winner": "Trump",
+        "margin_pct": 39.66
+      },
+      "Newton": {
+        "trump_votes": 3063,
+        "trump_pct": 81.25,
+        "harris_votes": 644,
+        "harris_pct": 17.08,
+        "other_votes": 63,
+        "other_pct": 1.67,
+        "total_votes": 3770,
+        "winner": "Trump",
+        "margin_pct": 64.17
+      },
+      "Ouachita": {
+        "trump_votes": 5056,
+        "trump_pct": 58.61,
+        "harris_votes": 3412,
+        "harris_pct": 39.55,
+        "other_votes": 158,
+        "other_pct": 1.83,
+        "total_votes": 8626,
+        "winner": "Trump",
+        "margin_pct": 19.06
+      },
+      "Perry": {
+        "trump_votes": 3559,
+        "trump_pct": 77.64,
+        "harris_votes": 923,
+        "harris_pct": 20.14,
+        "other_votes": 102,
+        "other_pct": 2.23,
+        "total_votes": 4584,
+        "winner": "Trump",
+        "margin_pct": 57.5
+      },
+      "Phillips": {
+        "trump_votes": 2098,
+        "trump_pct": 42.49,
+        "harris_votes": 2754,
+        "harris_pct": 55.77,
+        "other_votes": 86,
+        "other_pct": 1.74,
+        "total_votes": 4938,
+        "winner": "Harris",
+        "margin_pct": 13.28
+      },
+      "Pike": {
+        "trump_votes": 3746,
+        "trump_pct": 85.96,
+        "harris_votes": 560,
+        "harris_pct": 12.85,
+        "other_votes": 52,
+        "other_pct": 1.19,
+        "total_votes": 4358,
+        "winner": "Trump",
+        "margin_pct": 73.11
+      },
+      "Poinsett": {
+        "trump_votes": 5731,
+        "trump_pct": 80.96,
+        "harris_votes": 1235,
+        "harris_pct": 17.45,
+        "other_votes": 113,
+        "other_pct": 1.6,
+        "total_votes": 7079,
+        "winner": "Trump",
+        "margin_pct": 63.51
+      },
+      "Polk": {
+        "trump_votes": 6987,
+        "trump_pct": 84.3,
+        "harris_votes": 1145,
+        "harris_pct": 13.82,
+        "other_votes": 156,
+        "other_pct": 1.88,
+        "total_votes": 8288,
+        "winner": "Trump",
+        "margin_pct": 70.48
+      },
+      "Pope": {
+        "trump_votes": 18118,
+        "trump_pct": 74.9,
+        "harris_votes": 5487,
+        "harris_pct": 22.68,
+        "other_votes": 586,
+        "other_pct": 2.42,
+        "total_votes": 24191,
+        "winner": "Trump",
+        "margin_pct": 52.22
+      },
+      "Prairie": {
+        "trump_votes": 2628,
+        "trump_pct": 82.13,
+        "harris_votes": 524,
+        "harris_pct": 16.38,
+        "other_votes": 48,
+        "other_pct": 1.5,
+        "total_votes": 3200,
+        "winner": "Trump",
+        "margin_pct": 65.75
+      },
+      "Pulaski": {
+        "trump_votes": 57977,
+        "trump_pct": 37.67,
+        "harris_votes": 92038,
+        "harris_pct": 59.79,
+        "other_votes": 3909,
+        "other_pct": 2.54,
+        "total_votes": 153924,
+        "winner": "Harris",
+        "margin_pct": 22.12
+      },
+      "Randolph": {
+        "trump_votes": 5367,
+        "trump_pct": 80.88,
+        "harris_votes": 1138,
+        "harris_pct": 17.15,
+        "other_votes": 131,
+        "other_pct": 1.97,
+        "total_votes": 6636,
+        "winner": "Trump",
+        "margin_pct": 63.73
+      },
+      "Saline": {
+        "trump_votes": 39736,
+        "trump_pct": 68.98,
+        "harris_votes": 16609,
+        "harris_pct": 28.83,
+        "other_votes": 1264,
+        "other_pct": 2.19,
+        "total_votes": 57609,
+        "winner": "Trump",
+        "margin_pct": 40.15
+      },
+      "Scott": {
+        "trump_votes": 2913,
+        "trump_pct": 86.08,
+        "harris_votes": 425,
+        "harris_pct": 12.56,
+        "other_votes": 46,
+        "other_pct": 1.36,
+        "total_votes": 3384,
+        "winner": "Trump",
+        "margin_pct": 73.52
+      },
+      "Searcy": {
+        "trump_votes": 3305,
+        "trump_pct": 85.42,
+        "harris_votes": 511,
+        "harris_pct": 13.21,
+        "other_votes": 53,
+        "other_pct": 1.37,
+        "total_votes": 3869,
+        "winner": "Trump",
+        "margin_pct": 72.21
+      },
+      "Sebastian": {
+        "trump_votes": 30719,
+        "trump_pct": 67.59,
+        "harris_votes": 13652,
+        "harris_pct": 30.04,
+        "other_votes": 1081,
+        "other_pct": 2.38,
+        "total_votes": 45452,
+        "winner": "Trump",
+        "margin_pct": 37.55
+      },
+      "Sevier": {
+        "trump_votes": 3772,
+        "trump_pct": 80.02,
+        "harris_votes": 862,
+        "harris_pct": 18.29,
+        "other_votes": 80,
+        "other_pct": 1.7,
+        "total_votes": 4714,
+        "winner": "Trump",
+        "margin_pct": 61.73
+      },
+      "Sharp": {
+        "trump_votes": 5978,
+        "trump_pct": 80.38,
+        "harris_votes": 1316,
+        "harris_pct": 17.7,
+        "other_votes": 143,
+        "other_pct": 1.92,
+        "total_votes": 7437,
+        "winner": "Trump",
+        "margin_pct": 62.68
+      },
+      "St. Francis": {
+        "trump_votes": 2909,
+        "trump_pct": 48.65,
+        "harris_votes": 2953,
+        "harris_pct": 49.39,
+        "other_votes": 117,
+        "other_pct": 1.96,
+        "total_votes": 5979,
+        "winner": "Harris",
+        "margin_pct": 0.74
+      },
+      "Stone": {
+        "trump_votes": 4808,
+        "trump_pct": 79.73,
+        "harris_votes": 1089,
+        "harris_pct": 18.06,
+        "other_votes": 133,
+        "other_pct": 2.21,
+        "total_votes": 6030,
+        "winner": "Trump",
+        "margin_pct": 61.67
+      },
+      "Union": {
+        "trump_votes": 10196,
+        "trump_pct": 66.0,
+        "harris_votes": 5019,
+        "harris_pct": 32.49,
+        "other_votes": 233,
+        "other_pct": 1.51,
+        "total_votes": 15448,
+        "winner": "Trump",
+        "margin_pct": 33.51
+      },
+      "Van Buren": {
+        "trump_votes": 6023,
+        "trump_pct": 79.03,
+        "harris_votes": 1437,
+        "harris_pct": 18.86,
+        "other_votes": 161,
+        "other_pct": 2.11,
+        "total_votes": 7621,
+        "winner": "Trump",
+        "margin_pct": 60.17
+      },
+      "Washington": {
+        "trump_votes": 50243,
+        "trump_pct": 51.71,
+        "harris_votes": 43779,
+        "harris_pct": 45.06,
+        "other_votes": 3136,
+        "other_pct": 3.23,
+        "total_votes": 97158,
+        "winner": "Trump",
+        "margin_pct": 6.65
+      },
+      "White": {
+        "trump_votes": 24514,
+        "trump_pct": 79.5,
+        "harris_votes": 5641,
+        "harris_pct": 18.29,
+        "other_votes": 682,
+        "other_pct": 2.21,
+        "total_votes": 30837,
+        "winner": "Trump",
+        "margin_pct": 61.21
+      },
+      "Woodruff": {
+        "trump_votes": 1513,
+        "trump_pct": 65.27,
+        "harris_votes": 760,
+        "harris_pct": 32.79,
+        "other_votes": 45,
+        "other_pct": 1.94,
+        "total_votes": 2318,
+        "winner": "Trump",
+        "margin_pct": 32.48
+      },
+      "Yell": {
+        "trump_votes": 5147,
+        "trump_pct": 79.47,
+        "harris_votes": 1213,
+        "harris_pct": 18.73,
+        "other_votes": 117,
+        "other_pct": 1.81,
+        "total_votes": 6477,
+        "winner": "Trump",
+        "margin_pct": 60.74
+      }
+    }
+  },
+  "voter_registration": {
+    "year": 2022,
+    "source": "Arkansas Secretary of State VR Statistics Report (June 2022)",
+    "note": "Most recent publicly available county-level VR report. Arkansas does not have traditional party registration; 'Nonpartisan Judicial' is the default classification representing the vast majority of voters.",
+    "statewide": {
+      "democratic": 88508,
+      "republican": 123726,
+      "other_party": 692,
+      "nonpartisan_independent": 1552755,
+      "total_registered": 1765681
+    },
+    "counties": {
+      "Arkansas": {
+        "democratic": 0,
+        "republican": 0,
+        "other_party": 0,
+        "nonpartisan_independent": 8830,
+        "total_registered": 8830,
+        "turnout_est": 62.82
+      },
+      "Ashley": {
+        "democratic": 520,
+        "republican": 635,
+        "other_party": 1,
+        "nonpartisan_independent": 9636,
+        "total_registered": 10792,
+        "turnout_est": 65.14
+      },
+      "Baxter": {
+        "democratic": 925,
+        "republican": 4430,
+        "other_party": 7,
+        "nonpartisan_independent": 24176,
+        "total_registered": 29538,
+        "turnout_est": 70.94
+      },
+      "Benton": {
+        "democratic": 8451,
+        "republican": 20862,
+        "other_party": 131,
+        "nonpartisan_independent": 146330,
+        "total_registered": 175774,
+        "turnout_est": 73.16
+      },
+      "Boone": {
+        "democratic": 720,
+        "republican": 2958,
+        "other_party": 5,
+        "nonpartisan_independent": 21563,
+        "total_registered": 25246,
+        "turnout_est": 67.78
+      },
+      "Bradley": {
+        "democratic": 212,
+        "republican": 168,
+        "other_party": 0,
+        "nonpartisan_independent": 4910,
+        "total_registered": 5290,
+        "turnout_est": 60.66
+      },
+      "Calhoun": {
+        "democratic": 11,
+        "republican": 16,
+        "other_party": 0,
+        "nonpartisan_independent": 3032,
+        "total_registered": 3059,
+        "turnout_est": 68.39
+      },
+      "Carroll": {
+        "democratic": 835,
+        "republican": 1402,
+        "other_party": 4,
+        "nonpartisan_independent": 12499,
+        "total_registered": 14740,
+        "turnout_est": 78.28
+      },
+      "Chicot": {
+        "democratic": 350,
+        "republican": 319,
+        "other_party": 1,
+        "nonpartisan_independent": 5141,
+        "total_registered": 5811,
+        "turnout_est": 60.06
+      },
+      "Clark": {
+        "democratic": 525,
+        "republican": 454,
+        "other_party": 1,
+        "nonpartisan_independent": 11218,
+        "total_registered": 12198,
+        "turnout_est": 62.77
+      },
+      "Clay": {
+        "democratic": 37,
+        "republican": 97,
+        "other_party": 0,
+        "nonpartisan_independent": 7508,
+        "total_registered": 7642,
+        "turnout_est": 65.0
+      },
+      "Cleburne": {
+        "democratic": 709,
+        "republican": 3303,
+        "other_party": 4,
+        "nonpartisan_independent": 14056,
+        "total_registered": 18072,
+        "turnout_est": 70.49
+      },
+      "Cleveland": {
+        "democratic": 224,
+        "republican": 526,
+        "other_party": 3,
+        "nonpartisan_independent": 3897,
+        "total_registered": 4650,
+        "turnout_est": 72.56
+      },
+      "Columbia": {
+        "democratic": 49,
+        "republican": 175,
+        "other_party": 3,
+        "nonpartisan_independent": 11955,
+        "total_registered": 12182,
+        "turnout_est": 65.18
+      },
+      "Conway": {
+        "democratic": 330,
+        "republican": 554,
+        "other_party": 1,
+        "nonpartisan_independent": 10773,
+        "total_registered": 11658,
+        "turnout_est": 73.26
+      },
+      "Craighead": {
+        "democratic": 3060,
+        "republican": 3984,
+        "other_party": 6,
+        "nonpartisan_independent": 49914,
+        "total_registered": 56964,
+        "turnout_est": 65.38
+      },
+      "Crawford": {
+        "democratic": 699,
+        "republican": 2192,
+        "other_party": 5,
+        "nonpartisan_independent": 32404,
+        "total_registered": 35300,
+        "turnout_est": 67.52
+      },
+      "Crittenden": {
+        "democratic": 746,
+        "republican": 497,
+        "other_party": 9,
+        "nonpartisan_independent": 31016,
+        "total_registered": 32268,
+        "turnout_est": 45.5
+      },
+      "Cross": {
+        "democratic": 146,
+        "republican": 335,
+        "other_party": 1,
+        "nonpartisan_independent": 9386,
+        "total_registered": 9868,
+        "turnout_est": 66.21
+      },
+      "Dallas": {
+        "democratic": 169,
+        "republican": 124,
+        "other_party": 0,
+        "nonpartisan_independent": 3680,
+        "total_registered": 3973,
+        "turnout_est": 58.49
+      },
+      "Desha": {
+        "democratic": 322,
+        "republican": 108,
+        "other_party": 0,
+        "nonpartisan_independent": 6654,
+        "total_registered": 7084,
+        "turnout_est": 49.48
+      },
+      "Drew": {
+        "democratic": 416,
+        "republican": 485,
+        "other_party": 3,
+        "nonpartisan_independent": 10008,
+        "total_registered": 10912,
+        "turnout_est": 58.33
+      },
+      "Faulkner": {
+        "democratic": 2195,
+        "republican": 3477,
+        "other_party": 18,
+        "nonpartisan_independent": 70278,
+        "total_registered": 75968,
+        "turnout_est": 71.69
+      },
+      "Franklin": {
+        "democratic": 384,
+        "republican": 564,
+        "other_party": 4,
+        "nonpartisan_independent": 8840,
+        "total_registered": 9792,
+        "turnout_est": 71.19
+      },
+      "Fulton": {
+        "democratic": 231,
+        "republican": 695,
+        "other_party": 2,
+        "nonpartisan_independent": 6448,
+        "total_registered": 7376,
+        "turnout_est": 68.37
+      },
+      "Garland": {
+        "democratic": 1703,
+        "republican": 2598,
+        "other_party": 11,
+        "nonpartisan_independent": 59690,
+        "total_registered": 64002,
+        "turnout_est": 66.13
+      },
+      "Grant": {
+        "democratic": 473,
+        "republican": 857,
+        "other_party": 1,
+        "nonpartisan_independent": 9870,
+        "total_registered": 11201,
+        "turnout_est": 72.12
+      },
+      "Greene": {
+        "democratic": 662,
+        "republican": 1913,
+        "other_party": 15,
+        "nonpartisan_independent": 19251,
+        "total_registered": 21841,
+        "turnout_est": 72.43
+      },
+      "Hempstead": {
+        "democratic": 113,
+        "republican": 254,
+        "other_party": 1,
+        "nonpartisan_independent": 7671,
+        "total_registered": 8039,
+        "turnout_est": 75.74
+      },
+      "Hot Spring": {
+        "democratic": 262,
+        "republican": 378,
+        "other_party": 4,
+        "nonpartisan_independent": 17165,
+        "total_registered": 17809,
+        "turnout_est": 68.97
+      },
+      "Howard": {
+        "democratic": 180,
+        "republican": 253,
+        "other_party": 0,
+        "nonpartisan_independent": 6677,
+        "total_registered": 7110,
+        "turnout_est": 62.91
+      },
+      "Independence": {
+        "democratic": 936,
+        "republican": 1754,
+        "other_party": 9,
+        "nonpartisan_independent": 18414,
+        "total_registered": 21113,
+        "turnout_est": 66.36
+      },
+      "Izard": {
+        "democratic": 156,
+        "republican": 642,
+        "other_party": 0,
+        "nonpartisan_independent": 8602,
+        "total_registered": 9400,
+        "turnout_est": 63.03
+      },
+      "Jackson": {
+        "democratic": 443,
+        "republican": 263,
+        "other_party": 0,
+        "nonpartisan_independent": 7290,
+        "total_registered": 7996,
+        "turnout_est": 59.72
+      },
+      "Jefferson": {
+        "democratic": 1804,
+        "republican": 645,
+        "other_party": 4,
+        "nonpartisan_independent": 33436,
+        "total_registered": 35889,
+        "turnout_est": 60.21
+      },
+      "Johnson": {
+        "democratic": 487,
+        "republican": 954,
+        "other_party": 0,
+        "nonpartisan_independent": 10923,
+        "total_registered": 12364,
+        "turnout_est": 73.27
+      },
+      "Lafayette": {
+        "democratic": 26,
+        "republican": 53,
+        "other_party": 1,
+        "nonpartisan_independent": 3783,
+        "total_registered": 3863,
+        "turnout_est": 60.19
+      },
+      "Lawrence": {
+        "democratic": 324,
+        "republican": 368,
+        "other_party": 4,
+        "nonpartisan_independent": 7663,
+        "total_registered": 8359,
+        "turnout_est": 68.09
+      },
+      "Lee": {
+        "democratic": 315,
+        "republican": 93,
+        "other_party": 1,
+        "nonpartisan_independent": 4059,
+        "total_registered": 4468,
+        "turnout_est": 56.4
+      },
+      "Lincoln": {
+        "democratic": 71,
+        "republican": 114,
+        "other_party": 1,
+        "nonpartisan_independent": 5178,
+        "total_registered": 5364,
+        "turnout_est": 62.86
+      },
+      "Little River": {
+        "democratic": 154,
+        "republican": 141,
+        "other_party": 0,
+        "nonpartisan_independent": 6825,
+        "total_registered": 7120,
+        "turnout_est": 68.81
+      },
+      "Logan": {
+        "democratic": 0,
+        "republican": 0,
+        "other_party": 0,
+        "nonpartisan_independent": 12757,
+        "total_registered": 12757,
+        "turnout_est": 64.32
+      },
+      "Lonoke": {
+        "democratic": 3391,
+        "republican": 5362,
+        "other_party": 19,
+        "nonpartisan_independent": 37613,
+        "total_registered": 46385,
+        "turnout_est": 66.01
+      },
+      "Madison": {
+        "democratic": 295,
+        "republican": 600,
+        "other_party": 4,
+        "nonpartisan_independent": 9365,
+        "total_registered": 10264,
+        "turnout_est": 73.08
+      },
+      "Marion": {
+        "democratic": 344,
+        "republican": 1418,
+        "other_party": 0,
+        "nonpartisan_independent": 9068,
+        "total_registered": 10830,
+        "turnout_est": 72.49
+      },
+      "Miller": {
+        "democratic": 1808,
+        "republican": 3037,
+        "other_party": 11,
+        "nonpartisan_independent": 21212,
+        "total_registered": 26068,
+        "turnout_est": 60.62
+      },
+      "Mississippi": {
+        "democratic": 2659,
+        "republican": 610,
+        "other_party": 5,
+        "nonpartisan_independent": 15718,
+        "total_registered": 18992,
+        "turnout_est": 56.43
+      },
+      "Monroe": {
+        "democratic": 449,
+        "republican": 50,
+        "other_party": 0,
+        "nonpartisan_independent": 3441,
+        "total_registered": 3940,
+        "turnout_est": 61.75
+      },
+      "Montgomery": {
+        "democratic": 33,
+        "republican": 91,
+        "other_party": 0,
+        "nonpartisan_independent": 4952,
+        "total_registered": 5076,
+        "turnout_est": 73.03
+      },
+      "Nevada": {
+        "democratic": 16,
+        "republican": 27,
+        "other_party": 0,
+        "nonpartisan_independent": 5703,
+        "total_registered": 5746,
+        "turnout_est": 50.59
+      },
+      "Newton": {
+        "democratic": 85,
+        "republican": 198,
+        "other_party": 1,
+        "nonpartisan_independent": 5690,
+        "total_registered": 5974,
+        "turnout_est": 63.11
+      },
+      "Ouachita": {
+        "democratic": 777,
+        "republican": 437,
+        "other_party": 0,
+        "nonpartisan_independent": 13784,
+        "total_registered": 14998,
+        "turnout_est": 57.51
+      },
+      "Perry": {
+        "democratic": 219,
+        "republican": 363,
+        "other_party": 2,
+        "nonpartisan_independent": 5828,
+        "total_registered": 6412,
+        "turnout_est": 71.49
+      },
+      "Phillips": {
+        "democratic": 272,
+        "republican": 120,
+        "other_party": 1,
+        "nonpartisan_independent": 9211,
+        "total_registered": 9604,
+        "turnout_est": 51.42
+      },
+      "Pike": {
+        "democratic": 90,
+        "republican": 293,
+        "other_party": 1,
+        "nonpartisan_independent": 5326,
+        "total_registered": 5710,
+        "turnout_est": 76.32
+      },
+      "Poinsett": {
+        "democratic": 398,
+        "republican": 506,
+        "other_party": 2,
+        "nonpartisan_independent": 10763,
+        "total_registered": 11669,
+        "turnout_est": 60.67
+      },
+      "Polk": {
+        "democratic": 196,
+        "republican": 1269,
+        "other_party": 4,
+        "nonpartisan_independent": 10442,
+        "total_registered": 11911,
+        "turnout_est": 69.58
+      },
+      "Pope": {
+        "democratic": 1754,
+        "republican": 4547,
+        "other_party": 20,
+        "nonpartisan_independent": 29495,
+        "total_registered": 35816,
+        "turnout_est": 67.54
+      },
+      "Prairie": {
+        "democratic": 157,
+        "republican": 261,
+        "other_party": 1,
+        "nonpartisan_independent": 4270,
+        "total_registered": 4689,
+        "turnout_est": 68.24
+      },
+      "Pulaski": {
+        "democratic": 24875,
+        "republican": 12484,
+        "other_party": 173,
+        "nonpartisan_independent": 200711,
+        "total_registered": 238243,
+        "turnout_est": 64.61
+      },
+      "Randolph": {
+        "democratic": 94,
+        "republican": 331,
+        "other_party": 3,
+        "nonpartisan_independent": 9871,
+        "total_registered": 10299,
+        "turnout_est": 64.43
+      },
+      "Saline": {
+        "democratic": 2978,
+        "republican": 5675,
+        "other_party": 29,
+        "nonpartisan_independent": 68497,
+        "total_registered": 77179,
+        "turnout_est": 74.64
+      },
+      "Scott": {
+        "democratic": 492,
+        "republican": 489,
+        "other_party": 5,
+        "nonpartisan_independent": 4163,
+        "total_registered": 5149,
+        "turnout_est": 65.72
+      },
+      "Searcy": {
+        "democratic": 49,
+        "republican": 205,
+        "other_party": 0,
+        "nonpartisan_independent": 5408,
+        "total_registered": 5662,
+        "turnout_est": 68.33
+      },
+      "Sebastian": {
+        "democratic": 2962,
+        "republican": 5864,
+        "other_party": 22,
+        "nonpartisan_independent": 60855,
+        "total_registered": 69703,
+        "turnout_est": 65.21
+      },
+      "Sevier": {
+        "democratic": 361,
+        "republican": 425,
+        "other_party": 0,
+        "nonpartisan_independent": 6675,
+        "total_registered": 7461,
+        "turnout_est": 63.18
+      },
+      "Sharp": {
+        "democratic": 159,
+        "republican": 596,
+        "other_party": 2,
+        "nonpartisan_independent": 10202,
+        "total_registered": 10959,
+        "turnout_est": 67.86
+      },
+      "St. Francis": {
+        "democratic": 256,
+        "republican": 123,
+        "other_party": 0,
+        "nonpartisan_independent": 9316,
+        "total_registered": 9695,
+        "turnout_est": 61.67
+      },
+      "Stone": {
+        "democratic": 310,
+        "republican": 1082,
+        "other_party": 8,
+        "nonpartisan_independent": 7750,
+        "total_registered": 9150,
+        "turnout_est": 65.9
+      },
+      "Union": {
+        "democratic": 147,
+        "republican": 211,
+        "other_party": 0,
+        "nonpartisan_independent": 25909,
+        "total_registered": 26267,
+        "turnout_est": 58.81
+      },
+      "Van Buren": {
+        "democratic": 500,
+        "republican": 1066,
+        "other_party": 5,
+        "nonpartisan_independent": 9447,
+        "total_registered": 11018,
+        "turnout_est": 69.17
+      },
+      "Washington": {
+        "democratic": 9506,
+        "republican": 11747,
+        "other_party": 90,
+        "nonpartisan_independent": 117676,
+        "total_registered": 139019,
+        "turnout_est": 69.89
+      },
+      "White": {
+        "democratic": 1894,
+        "republican": 3631,
+        "other_party": 16,
+        "nonpartisan_independent": 38755,
+        "total_registered": 44296,
+        "turnout_est": 69.62
+      },
+      "Woodruff": {
+        "democratic": 189,
+        "republican": 91,
+        "other_party": 1,
+        "nonpartisan_independent": 3694,
+        "total_registered": 3975,
+        "turnout_est": 58.31
+      },
+      "Yell": {
+        "democratic": 418,
+        "republican": 877,
+        "other_party": 7,
+        "nonpartisan_independent": 8538,
+        "total_registered": 9840,
+        "turnout_est": 65.82
+      }
+    }
+  },
+  "validation_notes": {
+    "pulaski_little_rock": {
+      "presidential_2024": "Harris won 59.79% to Trump 37.67%. Pulaski is the most Democratic county in AR, home to Little Rock (capital) with large Black population. \u2713 Consistent with demographics.",
+      "registration_2022": "238,243 total registered, 24,875 Democratic, 12,484 Republican. Pulaski is the most populous county.",
+      "county_seat": "Little Rock"
+    },
+    "washington_fayetteville": {
+      "presidential_2024": "Trump won 51.71% to Harris 45.06%. Closest county in AR. Fayetteville (University of Arkansas) is liberal but the county overall leans Republican. \u2713 Consistent.",
+      "registration_2022": "139,019 total registered, 9,506 Democratic, 11,747 Republican.",
+      "county_seat": "Fayetteville"
+    }
+  },
+  "summary": {
+    "total_counties": 75,
+    "trump_won_counties": 68,
+    "harris_won_counties": 7,
+    "harris_counties": [
+      "Chicot",
+      "Crittenden",
+      "Jefferson",
+      "Lee",
+      "Phillips",
+      "Pulaski",
+      "St. Francis"
+    ],
+    "note": "Harris won 7 counties: Chicot, Crittenden, Jefferson, Lee, Phillips, St. Francis (all Mississippi Delta counties with large Black populations) + Pulaski (Little Rock, the state capital)"
+  }
+}

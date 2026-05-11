@@ -1,0 +1,7804 @@
+{
+  "cities": {
+    "Urban Honolulu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1571550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 346323,
+        "voting_age": 289514,
+        "voting_age_pct": 83.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 54751,
+          "pct": 15.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5798,
+          "pct": 1.67
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 279,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 181470,
+          "pct": 52.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 28555,
+          "pct": 8.25
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 962,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 51482,
+          "pct": 14.87
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 23026,
+          "pct": 6.65
+        }
+      ],
+      "economics": {
+        "median_household_income": 85428,
+        "poverty_count": 7321,
+        "poverty_pct": 2.11
+      },
+      "education": {
+        "bachelors_or_higher": 107042,
+        "bachelors_only": 66277,
+        "masters": 25896,
+        "professional": 8992,
+        "doctorate": 5877
+      }
+    },
+    "East Honolulu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1506290",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 50961,
+        "voting_age": 41133,
+        "voting_age_pct": 80.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11939,
+          "pct": 23.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 289,
+          "pct": 0.57
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 32,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23282,
+          "pct": 45.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1686,
+          "pct": 3.31
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 39,
+          "pct": 0.08
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 10967,
+          "pct": 21.52
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2727,
+          "pct": 5.35
+        }
+      ],
+      "economics": {
+        "median_household_income": 158398,
+        "poverty_count": 337,
+        "poverty_pct": 0.66
+      },
+      "education": {
+        "bachelors_or_higher": 23130,
+        "bachelors_only": 12888,
+        "masters": 5938,
+        "professional": 2640,
+        "doctorate": 1664
+      }
+    },
+    "Hilo CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1514650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 48223,
+        "voting_age": 38353,
+        "voting_age_pct": 79.53
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7528,
+          "pct": 15.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 388,
+          "pct": 0.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 25,
+          "pct": 0.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15171,
+          "pct": 31.46
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 6317,
+          "pct": 13.1
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 245,
+          "pct": 0.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 13057,
+          "pct": 27.08
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5492,
+          "pct": 11.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 78713,
+        "poverty_count": 1575,
+        "poverty_pct": 3.27
+      },
+      "education": {
+        "bachelors_or_higher": 11669,
+        "bachelors_only": 7248,
+        "masters": 2406,
+        "professional": 1224,
+        "doctorate": 791
+      }
+    },
+    "Pearl City CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1562600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 45079,
+        "voting_age": 36865,
+        "voting_age_pct": 81.78
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4405,
+          "pct": 9.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 744,
+          "pct": 1.65
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23991,
+          "pct": 53.22
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2977,
+          "pct": 6.6
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 133,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9217,
+          "pct": 20.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3579,
+          "pct": 7.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 114682,
+        "poverty_count": 658,
+        "poverty_pct": 1.46
+      },
+      "education": {
+        "bachelors_or_higher": 12389,
+        "bachelors_only": 8595,
+        "masters": 2777,
+        "professional": 757,
+        "doctorate": 260
+      }
+    },
+    "Waipahu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1579700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 39871,
+        "voting_age": 31430,
+        "voting_age_pct": 78.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1110,
+          "pct": 2.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 75,
+          "pct": 0.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26742,
+          "pct": 67.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5140,
+          "pct": 12.89
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 64,
+          "pct": 0.16
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4253,
+          "pct": 10.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2482,
+          "pct": 6.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 98633,
+        "poverty_count": 931,
+        "poverty_pct": 2.34
+      },
+      "education": {
+        "bachelors_or_higher": 5217,
+        "bachelors_only": 3921,
+        "masters": 1151,
+        "professional": 117,
+        "doctorate": 28
+      }
+    },
+    "Kaneohe CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1528250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 35945,
+        "voting_age": 29775,
+        "voting_age_pct": 82.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5659,
+          "pct": 15.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 186,
+          "pct": 0.52
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 35,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14096,
+          "pct": 39.22
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2522,
+          "pct": 7.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 95,
+          "pct": 0.26
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9555,
+          "pct": 26.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3797,
+          "pct": 10.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 124632,
+        "poverty_count": 581,
+        "poverty_pct": 1.62
+      },
+      "education": {
+        "bachelors_or_higher": 10084,
+        "bachelors_only": 6168,
+        "masters": 2707,
+        "professional": 722,
+        "doctorate": 487
+      }
+    },
+    "Mililani Town CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1551050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 27495,
+        "voting_age": 22420,
+        "voting_age_pct": 81.54
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2643,
+          "pct": 9.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 441,
+          "pct": 1.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 13038,
+          "pct": 47.42
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1118,
+          "pct": 4.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 111,
+          "pct": 0.4
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 7197,
+          "pct": 26.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2939,
+          "pct": 10.69
+        }
+      ],
+      "economics": {
+        "median_household_income": 124123,
+        "poverty_count": 204,
+        "poverty_pct": 0.74
+      },
+      "education": {
+        "bachelors_or_higher": 8565,
+        "bachelors_only": 5699,
+        "masters": 2121,
+        "professional": 547,
+        "doctorate": 198
+      }
+    },
+    "Kahului CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1522700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 27068,
+        "voting_age": 21743,
+        "voting_age_pct": 80.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2751,
+          "pct": 10.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 246,
+          "pct": 0.91
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 25,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14876,
+          "pct": 54.96
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2544,
+          "pct": 9.4
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 55,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4724,
+          "pct": 17.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1847,
+          "pct": 6.82
+        }
+      ],
+      "economics": {
+        "median_household_income": 92062,
+        "poverty_count": 354,
+        "poverty_pct": 1.31
+      },
+      "education": {
+        "bachelors_or_higher": 4861,
+        "bachelors_only": 3856,
+        "masters": 645,
+        "professional": 265,
+        "doctorate": 95
+      }
+    },
+    "Ewa Gentry CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1507470",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 26738,
+        "voting_age": 19969,
+        "voting_age_pct": 74.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2633,
+          "pct": 9.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 880,
+          "pct": 3.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 50,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12157,
+          "pct": 45.47
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1777,
+          "pct": 6.65
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 75,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5320,
+          "pct": 19.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3846,
+          "pct": 14.38
+        }
+      ],
+      "economics": {
+        "median_household_income": 131755,
+        "poverty_count": 79,
+        "poverty_pct": 0.3
+      },
+      "education": {
+        "bachelors_or_higher": 5408,
+        "bachelors_only": 3844,
+        "masters": 1184,
+        "professional": 203,
+        "doctorate": 177
+      }
+    },
+    "Kapolei CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1530300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 23033,
+        "voting_age": 16163,
+        "voting_age_pct": 70.17
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3143,
+          "pct": 13.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 709,
+          "pct": 3.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5961,
+          "pct": 25.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3064,
+          "pct": 13.3
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 53,
+          "pct": 0.23
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6180,
+          "pct": 26.83
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3923,
+          "pct": 17.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 129260,
+        "poverty_count": 807,
+        "poverty_pct": 3.5
+      },
+      "education": {
+        "bachelors_or_higher": 4533,
+        "bachelors_only": 3238,
+        "masters": 1121,
+        "professional": 117,
+        "doctorate": 57
+      }
+    },
+    "Kihei CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1536500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 22564,
+        "voting_age": 18067,
+        "voting_age_pct": 80.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9317,
+          "pct": 41.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 288,
+          "pct": 1.28
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4556,
+          "pct": 20.19
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 640,
+          "pct": 2.84
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 133,
+          "pct": 0.59
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4592,
+          "pct": 20.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3033,
+          "pct": 13.44
+        }
+      ],
+      "economics": {
+        "median_household_income": 87568,
+        "poverty_count": 562,
+        "poverty_pct": 2.49
+      },
+      "education": {
+        "bachelors_or_higher": 5181,
+        "bachelors_only": 3547,
+        "masters": 1033,
+        "professional": 352,
+        "doctorate": 249
+      }
+    },
+    "Mililani Mauka CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1551000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 21967,
+        "voting_age": 16527,
+        "voting_age_pct": 75.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2789,
+          "pct": 12.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 410,
+          "pct": 1.87
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 58,
+          "pct": 0.26
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10859,
+          "pct": 49.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1066,
+          "pct": 4.85
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 0.15
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4705,
+          "pct": 21.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2048,
+          "pct": 9.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 139564,
+        "poverty_count": 126,
+        "poverty_pct": 0.57
+      },
+      "education": {
+        "bachelors_or_higher": 7241,
+        "bachelors_only": 4858,
+        "masters": 1908,
+        "professional": 370,
+        "doctorate": 105
+      }
+    },
+    "Makakilo CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1547600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 20372,
+        "voting_age": 14971,
+        "voting_age_pct": 73.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3684,
+          "pct": 18.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1149,
+          "pct": 5.64
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6232,
+          "pct": 30.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1503,
+          "pct": 7.38
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 48,
+          "pct": 0.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4879,
+          "pct": 23.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2872,
+          "pct": 14.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 120489,
+        "poverty_count": 455,
+        "poverty_pct": 2.23
+      },
+      "education": {
+        "bachelors_or_higher": 4970,
+        "bachelors_only": 3104,
+        "masters": 1381,
+        "professional": 297,
+        "doctorate": 188
+      }
+    },
+    "Wahiawa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1572650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17515,
+        "voting_age": 13540,
+        "voting_age_pct": 77.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1766,
+          "pct": 10.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 454,
+          "pct": 2.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7365,
+          "pct": 42.05
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1562,
+          "pct": 8.92
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3870,
+          "pct": 22.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2488,
+          "pct": 14.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 86883,
+        "poverty_count": 1059,
+        "poverty_pct": 6.05
+      },
+      "education": {
+        "bachelors_or_higher": 2937,
+        "bachelors_only": 2096,
+        "masters": 670,
+        "professional": 135,
+        "doctorate": 36
+      }
+    },
+    "Schofield Barracks CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1569050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16755,
+        "voting_age": 11962,
+        "voting_age_pct": 71.39
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8129,
+          "pct": 48.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3012,
+          "pct": 17.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 107,
+          "pct": 0.64
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 867,
+          "pct": 5.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 387,
+          "pct": 2.31
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1040,
+          "pct": 6.21
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3193,
+          "pct": 19.06
+        }
+      ],
+      "economics": {
+        "median_household_income": 74695,
+        "poverty_count": 365,
+        "poverty_pct": 2.18
+      },
+      "education": {
+        "bachelors_or_higher": 1872,
+        "bachelors_only": 1421,
+        "masters": 424,
+        "professional": 27,
+        "doctorate": 0
+      }
+    },
+    "Ocean Pointe CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1556685",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16276,
+        "voting_age": 11023,
+        "voting_age_pct": 67.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3862,
+          "pct": 23.73
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 741,
+          "pct": 4.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5393,
+          "pct": 33.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 218,
+          "pct": 1.34
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 75,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3525,
+          "pct": 21.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2462,
+          "pct": 15.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 143394,
+        "poverty_count": 190,
+        "poverty_pct": 1.17
+      },
+      "education": {
+        "bachelors_or_higher": 4871,
+        "bachelors_only": 3106,
+        "masters": 1410,
+        "professional": 306,
+        "doctorate": 49
+      }
+    },
+    "Wailuku CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1577450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15754,
+        "voting_age": 12140,
+        "voting_age_pct": 77.06
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3330,
+          "pct": 21.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 151,
+          "pct": 0.96
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5526,
+          "pct": 35.08
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1497,
+          "pct": 9.5
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4097,
+          "pct": 26.01
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1153,
+          "pct": 7.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 93958,
+        "poverty_count": 157,
+        "poverty_pct": 1
+      },
+      "education": {
+        "bachelors_or_higher": 4035,
+        "bachelors_only": 2713,
+        "masters": 948,
+        "professional": 268,
+        "doctorate": 106
+      }
+    },
+    "Ewa Beach CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1507450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15388,
+        "voting_age": 11992,
+        "voting_age_pct": 77.93
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 780,
+          "pct": 5.07
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8291,
+          "pct": 53.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1939,
+          "pct": 12.6
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3392,
+          "pct": 22.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 986,
+          "pct": 6.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 124958,
+        "poverty_count": 105,
+        "poverty_pct": 0.68
+      },
+      "education": {
+        "bachelors_or_higher": 2394,
+        "bachelors_only": 1924,
+        "masters": 332,
+        "professional": 67,
+        "doctorate": 71
+      }
+    },
+    "Waimalu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1577750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14176,
+        "voting_age": 11965,
+        "voting_age_pct": 84.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1595,
+          "pct": 11.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 500,
+          "pct": 3.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7567,
+          "pct": 53.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 706,
+          "pct": 4.98
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2676,
+          "pct": 18.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1132,
+          "pct": 7.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 89016,
+        "poverty_count": 143,
+        "poverty_pct": 1.01
+      },
+      "education": {
+        "bachelors_or_higher": 3842,
+        "bachelors_only": 2331,
+        "masters": 1192,
+        "professional": 161,
+        "doctorate": 158
+      }
+    },
+    "Halawa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1510000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13809,
+        "voting_age": 11642,
+        "voting_age_pct": 84.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1121,
+          "pct": 8.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 66,
+          "pct": 0.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 94,
+          "pct": 0.68
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7568,
+          "pct": 54.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1503,
+          "pct": 10.88
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 143,
+          "pct": 1.04
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2385,
+          "pct": 17.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 929,
+          "pct": 6.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 102987,
+        "poverty_count": 337,
+        "poverty_pct": 2.44
+      },
+      "education": {
+        "bachelors_or_higher": 3245,
+        "bachelors_only": 2064,
+        "masters": 740,
+        "professional": 187,
+        "doctorate": 254
+      }
+    },
+    "Royal Kunia CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1568815",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13687,
+        "voting_age": 10970,
+        "voting_age_pct": 80.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 922,
+          "pct": 6.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 290,
+          "pct": 2.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7943,
+          "pct": 58.03
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 988,
+          "pct": 7.22
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 73,
+          "pct": 0.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2283,
+          "pct": 16.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1188,
+          "pct": 8.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 133579,
+        "poverty_count": 165,
+        "poverty_pct": 1.21
+      },
+      "education": {
+        "bachelors_or_higher": 3163,
+        "bachelors_only": 2297,
+        "masters": 707,
+        "professional": 93,
+        "doctorate": 66
+      }
+    },
+    "Hawaiian Paradise Park CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1512600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13273,
+        "voting_age": 10386,
+        "voting_age_pct": 78.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3358,
+          "pct": 25.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 180,
+          "pct": 1.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2871,
+          "pct": 21.63
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1489,
+          "pct": 11.22
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 29,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3540,
+          "pct": 26.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1806,
+          "pct": 13.61
+        }
+      ],
+      "economics": {
+        "median_household_income": 81892,
+        "poverty_count": 300,
+        "poverty_pct": 2.26
+      },
+      "education": {
+        "bachelors_or_higher": 2225,
+        "bachelors_only": 1391,
+        "masters": 728,
+        "professional": 0,
+        "doctorate": 106
+      }
+    },
+    "Waianae CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1574450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12907,
+        "voting_age": 9234,
+        "voting_age_pct": 71.54
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 926,
+          "pct": 7.17
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 117,
+          "pct": 0.91
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1344,
+          "pct": 10.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5372,
+          "pct": 41.62
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 0.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3508,
+          "pct": 27.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1620,
+          "pct": 12.55
+        }
+      ],
+      "economics": {
+        "median_household_income": 84766,
+        "poverty_count": 837,
+        "poverty_pct": 6.48
+      },
+      "education": {
+        "bachelors_or_higher": 1150,
+        "bachelors_only": 812,
+        "masters": 285,
+        "professional": 41,
+        "doctorate": 12
+      }
+    },
+    "Nanakuli CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1553900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12282,
+        "voting_age": 8763,
+        "voting_age_pct": 71.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 583,
+          "pct": 4.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 74,
+          "pct": 0.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 158,
+          "pct": 1.29
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 564,
+          "pct": 4.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5939,
+          "pct": 48.36
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3428,
+          "pct": 27.91
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1536,
+          "pct": 12.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 81493,
+        "poverty_count": 677,
+        "poverty_pct": 5.51
+      },
+      "education": {
+        "bachelors_or_higher": 781,
+        "bachelors_only": 473,
+        "masters": 202,
+        "professional": 93,
+        "doctorate": 13
+      }
+    },
+    "Maili CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1547300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12236,
+        "voting_age": 7628,
+        "voting_age_pct": 62.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 962,
+          "pct": 7.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 664,
+          "pct": 5.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1412,
+          "pct": 11.54
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4288,
+          "pct": 35.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3254,
+          "pct": 26.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1656,
+          "pct": 13.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 104375,
+        "poverty_count": 854,
+        "poverty_pct": 6.98
+      },
+      "education": {
+        "bachelors_or_higher": 1442,
+        "bachelors_only": 981,
+        "masters": 260,
+        "professional": 54,
+        "doctorate": 147
+      }
+    },
+    "Kaiminani CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1523675",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11542,
+        "voting_age": 9512,
+        "voting_age_pct": 82.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4820,
+          "pct": 41.76
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 151,
+          "pct": 1.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1475,
+          "pct": 12.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2077,
+          "pct": 18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 159,
+          "pct": 1.38
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2172,
+          "pct": 18.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 688,
+          "pct": 5.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 101320,
+        "poverty_count": 319,
+        "poverty_pct": 2.76
+      },
+      "education": {
+        "bachelors_or_higher": 2734,
+        "bachelors_only": 1804,
+        "masters": 505,
+        "professional": 287,
+        "doctorate": 138
+      }
+    },
+    "Lahaina CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1542950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11423,
+        "voting_age": 8937,
+        "voting_age_pct": 78.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2860,
+          "pct": 25.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 44,
+          "pct": 0.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4376,
+          "pct": 38.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 635,
+          "pct": 5.56
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2215,
+          "pct": 19.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1286,
+          "pct": 11.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 85988,
+        "poverty_count": 400,
+        "poverty_pct": 3.5
+      },
+      "education": {
+        "bachelors_or_higher": 2045,
+        "bachelors_only": 1437,
+        "masters": 465,
+        "professional": 117,
+        "doctorate": 26
+      }
+    },
+    "Waihee-Waiehu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1575510",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11369,
+        "voting_age": 8637,
+        "voting_age_pct": 75.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 763,
+          "pct": 6.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 193,
+          "pct": 1.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4344,
+          "pct": 38.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2468,
+          "pct": 21.71
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 0.16
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2537,
+          "pct": 22.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1044,
+          "pct": 9.18
+        }
+      ],
+      "economics": {
+        "median_household_income": 128266,
+        "poverty_count": 255,
+        "poverty_pct": 2.24
+      },
+      "education": {
+        "bachelors_or_higher": 1413,
+        "bachelors_only": 878,
+        "masters": 302,
+        "professional": 183,
+        "doctorate": 50
+      }
+    },
+    "Waipio CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1579860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11196,
+        "voting_age": 9093,
+        "voting_age_pct": 81.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 700,
+          "pct": 6.25
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 69,
+          "pct": 0.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6425,
+          "pct": 57.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 741,
+          "pct": 6.62
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2450,
+          "pct": 21.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 796,
+          "pct": 7.11
+        }
+      ],
+      "economics": {
+        "median_household_income": 106164,
+        "poverty_count": 232,
+        "poverty_pct": 2.07
+      },
+      "education": {
+        "bachelors_or_higher": 2338,
+        "bachelors_only": 1674,
+        "masters": 583,
+        "professional": 72,
+        "doctorate": 9
+      }
+    },
+    "Kaneohe Base CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1528287",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10973,
+        "voting_age": 8317,
+        "voting_age_pct": 75.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6584,
+          "pct": 60
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 592,
+          "pct": 5.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 21,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 354,
+          "pct": 3.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 67,
+          "pct": 0.61
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 485,
+          "pct": 4.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2870,
+          "pct": 26.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 70000,
+        "poverty_count": 303,
+        "poverty_pct": 2.76
+      },
+      "education": {
+        "bachelors_or_higher": 1548,
+        "bachelors_only": 1090,
+        "masters": 295,
+        "professional": 42,
+        "doctorate": 121
+      }
+    },
+    "Kapaa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1528850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10886,
+        "voting_age": 8972,
+        "voting_age_pct": 82.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3472,
+          "pct": 31.89
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 52,
+          "pct": 0.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3716,
+          "pct": 34.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 718,
+          "pct": 6.6
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 133,
+          "pct": 1.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1884,
+          "pct": 17.31
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 911,
+          "pct": 8.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 89440,
+        "poverty_count": 210,
+        "poverty_pct": 1.93
+      },
+      "education": {
+        "bachelors_or_higher": 2797,
+        "bachelors_only": 1919,
+        "masters": 522,
+        "professional": 224,
+        "doctorate": 132
+      }
+    },
+    "Makaha CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1547450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9898,
+        "voting_age": 7168,
+        "voting_age_pct": 72.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2025,
+          "pct": 20.46
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 387,
+          "pct": 3.91
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 88,
+          "pct": 0.89
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1002,
+          "pct": 10.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 2659,
+          "pct": 26.86
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 31,
+          "pct": 0.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2281,
+          "pct": 23.05
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1425,
+          "pct": 14.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 63291,
+        "poverty_count": 786,
+        "poverty_pct": 7.94
+      },
+      "education": {
+        "bachelors_or_higher": 1193,
+        "bachelors_only": 710,
+        "masters": 280,
+        "professional": 154,
+        "doctorate": 49
+      }
+    },
+    "Haiku-Pauwela CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1509260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9290,
+        "voting_age": 7157,
+        "voting_age_pct": 77.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4790,
+          "pct": 51.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 785,
+          "pct": 8.45
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 387,
+          "pct": 4.17
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2234,
+          "pct": 24.05
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1094,
+          "pct": 11.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 99520,
+        "poverty_count": 198,
+        "poverty_pct": 2.13
+      },
+      "education": {
+        "bachelors_or_higher": 2069,
+        "bachelors_only": 1408,
+        "masters": 534,
+        "professional": 68,
+        "doctorate": 59
+      }
+    },
+    "Hickam Housing CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1514200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9195,
+        "voting_age": 5849,
+        "voting_age_pct": 63.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5003,
+          "pct": 54.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 841,
+          "pct": 9.15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 596,
+          "pct": 6.48
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 273,
+          "pct": 2.97
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1175,
+          "pct": 12.78
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1300,
+          "pct": 14.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 111667,
+        "poverty_count": 68,
+        "poverty_pct": 0.74
+      },
+      "education": {
+        "bachelors_or_higher": 2389,
+        "bachelors_only": 1301,
+        "masters": 808,
+        "professional": 116,
+        "doctorate": 164
+      }
+    },
+    "Aiea CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1500550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9155,
+        "voting_age": 7338,
+        "voting_age_pct": 80.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1045,
+          "pct": 11.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 185,
+          "pct": 2.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 0.36
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4797,
+          "pct": 52.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 715,
+          "pct": 7.81
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1619,
+          "pct": 17.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 761,
+          "pct": 8.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 135286,
+        "poverty_count": 36,
+        "poverty_pct": 0.39
+      },
+      "education": {
+        "bachelors_or_higher": 2577,
+        "bachelors_only": 1544,
+        "masters": 786,
+        "professional": 166,
+        "doctorate": 81
+      }
+    },
+    "Ahuimanu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1500400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8520,
+        "voting_age": 6284,
+        "voting_age_pct": 73.76
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1553,
+          "pct": 18.23
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2506,
+          "pct": 29.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1007,
+          "pct": 11.82
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2296,
+          "pct": 26.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1158,
+          "pct": 13.59
+        }
+      ],
+      "economics": {
+        "median_household_income": 129028,
+        "poverty_count": 106,
+        "poverty_pct": 1.24
+      },
+      "education": {
+        "bachelors_or_higher": 2838,
+        "bachelors_only": 1843,
+        "masters": 565,
+        "professional": 178,
+        "doctorate": 252
+      }
+    },
+    "Pukalani CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1565900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8490,
+        "voting_age": 6985,
+        "voting_age_pct": 82.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2471,
+          "pct": 29.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 120,
+          "pct": 1.41
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 43,
+          "pct": 0.51
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1801,
+          "pct": 21.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 238,
+          "pct": 2.8
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2458,
+          "pct": 28.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1359,
+          "pct": 16.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 120707,
+        "poverty_count": 348,
+        "poverty_pct": 4.1
+      },
+      "education": {
+        "bachelors_or_higher": 2140,
+        "bachelors_only": 1236,
+        "masters": 687,
+        "professional": 200,
+        "doctorate": 17
+      }
+    },
+    "Waikele CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1576250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7950,
+        "voting_age": 6601,
+        "voting_age_pct": 83.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 646,
+          "pct": 8.13
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 177,
+          "pct": 2.23
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4195,
+          "pct": 52.77
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 342,
+          "pct": 4.3
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2047,
+          "pct": 25.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 534,
+          "pct": 6.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 111971,
+        "poverty_count": 47,
+        "poverty_pct": 0.59
+      },
+      "education": {
+        "bachelors_or_higher": 2081,
+        "bachelors_only": 1343,
+        "masters": 594,
+        "professional": 144,
+        "doctorate": 0
+      }
+    },
+    "Lihue CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1545200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7847,
+        "voting_age": 6016,
+        "voting_age_pct": 76.67
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1387,
+          "pct": 17.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 188,
+          "pct": 2.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3036,
+          "pct": 38.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 645,
+          "pct": 8.22
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 0.23
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1364,
+          "pct": 17.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1194,
+          "pct": 15.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 77420,
+        "poverty_count": 27,
+        "poverty_pct": 0.34
+      },
+      "education": {
+        "bachelors_or_higher": 2294,
+        "bachelors_only": 1631,
+        "masters": 452,
+        "professional": 96,
+        "doctorate": 115
+      }
+    },
+    "Makawao CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1548050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7263,
+        "voting_age": 5583,
+        "voting_age_pct": 76.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2106,
+          "pct": 29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 13,
+          "pct": 0.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1211,
+          "pct": 16.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1089,
+          "pct": 14.99
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1808,
+          "pct": 24.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1027,
+          "pct": 14.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 96116,
+        "poverty_count": 218,
+        "poverty_pct": 3
+      },
+      "education": {
+        "bachelors_or_higher": 1535,
+        "bachelors_only": 1017,
+        "masters": 406,
+        "professional": 81,
+        "doctorate": 31
+      }
+    },
+    "Wailua Homesteads CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1577225",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7136,
+        "voting_age": 5465,
+        "voting_age_pct": 76.58
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3292,
+          "pct": 46.13
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6,
+          "pct": 0.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16,
+          "pct": 0.22
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1228,
+          "pct": 17.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 196,
+          "pct": 2.75
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 19,
+          "pct": 0.27
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1642,
+          "pct": 23.01
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 737,
+          "pct": 10.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 94900,
+        "poverty_count": 35,
+        "poverty_pct": 0.49
+      },
+      "education": {
+        "bachelors_or_higher": 1684,
+        "bachelors_only": 1314,
+        "masters": 197,
+        "professional": 123,
+        "doctorate": 50
+      }
+    },
+    "Waikoloa Village CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1576600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7028,
+        "voting_age": 5466,
+        "voting_age_pct": 77.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3193,
+          "pct": 45.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 140,
+          "pct": 1.99
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 961,
+          "pct": 13.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 723,
+          "pct": 10.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 29,
+          "pct": 0.41
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1158,
+          "pct": 16.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 824,
+          "pct": 11.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 92713,
+        "poverty_count": 175,
+        "poverty_pct": 2.49
+      },
+      "education": {
+        "bachelors_or_higher": 1814,
+        "bachelors_only": 1136,
+        "masters": 407,
+        "professional": 118,
+        "doctorate": 153
+      }
+    },
+    "Ewa Villages CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1507485",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6918,
+        "voting_age": 4830,
+        "voting_age_pct": 69.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 205,
+          "pct": 2.96
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4497,
+          "pct": 65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 400,
+          "pct": 5.78
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1371,
+          "pct": 19.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 444,
+          "pct": 6.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 85043,
+        "poverty_count": 504,
+        "poverty_pct": 7.29
+      },
+      "education": {
+        "bachelors_or_higher": 788,
+        "bachelors_only": 595,
+        "masters": 144,
+        "professional": 40,
+        "doctorate": 9
+      }
+    },
+    "Napili-Honokowai CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1554100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6897,
+        "voting_age": 5545,
+        "voting_age_pct": 80.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2424,
+          "pct": 35.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 33,
+          "pct": 0.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1542,
+          "pct": 22.36
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 533,
+          "pct": 7.73
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1080,
+          "pct": 15.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1253,
+          "pct": 18.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 102337,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 1226,
+        "bachelors_only": 809,
+        "masters": 254,
+        "professional": 107,
+        "doctorate": 56
+      }
+    },
+    "Kahaluu-Keauhou CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1521230",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6670,
+        "voting_age": 5374,
+        "voting_age_pct": 80.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3287,
+          "pct": 49.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 25,
+          "pct": 0.37
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1558,
+          "pct": 23.36
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 323,
+          "pct": 4.84
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 944,
+          "pct": 14.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 533,
+          "pct": 7.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 93594,
+        "poverty_count": 167,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 2332,
+        "bachelors_only": 1432,
+        "masters": 659,
+        "professional": 187,
+        "doctorate": 54
+      }
+    },
+    "Wailea CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1576925",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6571,
+        "voting_age": 5792,
+        "voting_age_pct": 88.14
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4612,
+          "pct": 70.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 68,
+          "pct": 1.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 747,
+          "pct": 11.37
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 67,
+          "pct": 1.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 545,
+          "pct": 8.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 524,
+          "pct": 7.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 89375,
+        "poverty_count": 197,
+        "poverty_pct": 3
+      },
+      "education": {
+        "bachelors_or_higher": 2441,
+        "bachelors_only": 1303,
+        "masters": 602,
+        "professional": 349,
+        "doctorate": 187
+      }
+    },
+    "Kula CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1541600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6557,
+        "voting_age": 5266,
+        "voting_age_pct": 80.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3399,
+          "pct": 51.84
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 45,
+          "pct": 0.69
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1173,
+          "pct": 17.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 343,
+          "pct": 5.23
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 285,
+          "pct": 4.35
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 806,
+          "pct": 12.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 506,
+          "pct": 7.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 91476,
+        "poverty_count": 89,
+        "poverty_pct": 1.36
+      },
+      "education": {
+        "bachelors_or_higher": 1813,
+        "bachelors_only": 1072,
+        "masters": 481,
+        "professional": 142,
+        "doctorate": 118
+      }
+    },
+    "West Loch Estate CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1580470",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6441,
+        "voting_age": 4890,
+        "voting_age_pct": 75.92
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 216,
+          "pct": 3.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 135,
+          "pct": 2.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2972,
+          "pct": 46.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 613,
+          "pct": 9.52
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1669,
+          "pct": 25.91
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 836,
+          "pct": 12.98
+        }
+      ],
+      "economics": {
+        "median_household_income": 124009,
+        "poverty_count": 141,
+        "poverty_pct": 2.19
+      },
+      "education": {
+        "bachelors_or_higher": 1116,
+        "bachelors_only": 792,
+        "masters": 229,
+        "professional": 52,
+        "doctorate": 43
+      }
+    },
+    "East Kapolei CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1506300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6200,
+        "voting_age": 4161,
+        "voting_age_pct": 67.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 528,
+          "pct": 8.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 18,
+          "pct": 0.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 86,
+          "pct": 1.39
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2015,
+          "pct": 32.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 838,
+          "pct": 13.52
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1922,
+          "pct": 31
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 793,
+          "pct": 12.79
+        }
+      ],
+      "economics": {
+        "median_household_income": 116339,
+        "poverty_count": 160,
+        "poverty_pct": 2.58
+      },
+      "education": {
+        "bachelors_or_higher": 831,
+        "bachelors_only": 620,
+        "masters": 177,
+        "professional": 0,
+        "doctorate": 34
+      }
+    },
+    "Waimanalo CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1578050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5634,
+        "voting_age": 4014,
+        "voting_age_pct": 71.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 498,
+          "pct": 8.84
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 810,
+          "pct": 14.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1376,
+          "pct": 24.42
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1904,
+          "pct": 33.79
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1046,
+          "pct": 18.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 114896,
+        "poverty_count": 270,
+        "poverty_pct": 4.79
+      },
+      "education": {
+        "bachelors_or_higher": 589,
+        "bachelors_only": 389,
+        "masters": 175,
+        "professional": 25,
+        "doctorate": 0
+      }
+    },
+    "Laie CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1543250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5568,
+        "voting_age": 4270,
+        "voting_age_pct": 76.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1480,
+          "pct": 26.58
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 20,
+          "pct": 0.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 25,
+          "pct": 0.45
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 693,
+          "pct": 12.45
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1574,
+          "pct": 28.27
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4,
+          "pct": 0.07
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1544,
+          "pct": 27.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 228,
+          "pct": 4.09
+        }
+      ],
+      "economics": {
+        "median_household_income": 119219,
+        "poverty_count": 92,
+        "poverty_pct": 1.65
+      },
+      "education": {
+        "bachelors_or_higher": 961,
+        "bachelors_only": 548,
+        "masters": 276,
+        "professional": 47,
+        "doctorate": 90
+      }
+    },
+    "Iroquois Point CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1519100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5506,
+        "voting_age": 3425,
+        "voting_age_pct": 62.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1836,
+          "pct": 33.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 287,
+          "pct": 5.21
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 732,
+          "pct": 13.29
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 559,
+          "pct": 10.15
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1203,
+          "pct": 21.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 881,
+          "pct": 16
+        }
+      ],
+      "economics": {
+        "median_household_income": 107449,
+        "poverty_count": 366,
+        "poverty_pct": 6.65
+      },
+      "education": {
+        "bachelors_or_higher": 1013,
+        "bachelors_only": 577,
+        "masters": 382,
+        "professional": 40,
+        "doctorate": 14
+      }
+    },
+    "Kahaluu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1521200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5282,
+        "voting_age": 4040,
+        "voting_age_pct": 76.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1235,
+          "pct": 23.38
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 904,
+          "pct": 17.11
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 451,
+          "pct": 8.54
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 13,
+          "pct": 0.25
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1970,
+          "pct": 37.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 709,
+          "pct": 13.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 128661,
+        "poverty_count": 168,
+        "poverty_pct": 3.18
+      },
+      "education": {
+        "bachelors_or_higher": 1369,
+        "bachelors_only": 741,
+        "masters": 444,
+        "professional": 74,
+        "doctorate": 110
+      }
+    },
+    "Waipio Acres CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1580000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5146,
+        "voting_age": 4076,
+        "voting_age_pct": 79.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 608,
+          "pct": 11.82
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 135,
+          "pct": 2.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2141,
+          "pct": 41.61
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 106,
+          "pct": 2.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1442,
+          "pct": 28.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 707,
+          "pct": 13.74
+        }
+      ],
+      "economics": {
+        "median_household_income": 95781,
+        "poverty_count": 71,
+        "poverty_pct": 1.38
+      },
+      "education": {
+        "bachelors_or_higher": 1082,
+        "bachelors_only": 720,
+        "masters": 234,
+        "professional": 95,
+        "doctorate": 33
+      }
+    },
+    "Heeia CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1513900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5099,
+        "voting_age": 4222,
+        "voting_age_pct": 82.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 951,
+          "pct": 18.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2200,
+          "pct": 43.15
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 442,
+          "pct": 8.67
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1273,
+          "pct": 24.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 233,
+          "pct": 4.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 160294,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 1987,
+        "bachelors_only": 1233,
+        "masters": 498,
+        "professional": 215,
+        "doctorate": 41
+      }
+    },
+    "Pupukea CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1566800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4853,
+        "voting_age": 3854,
+        "voting_age_pct": 79.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2343,
+          "pct": 48.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 16,
+          "pct": 0.33
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 591,
+          "pct": 12.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 87,
+          "pct": 1.79
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 39,
+          "pct": 0.8
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1255,
+          "pct": 25.86
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 522,
+          "pct": 10.76
+        }
+      ],
+      "economics": {
+        "median_household_income": 98771,
+        "poverty_count": 10,
+        "poverty_pct": 0.21
+      },
+      "education": {
+        "bachelors_or_higher": 1013,
+        "bachelors_only": 645,
+        "masters": 196,
+        "professional": 77,
+        "doctorate": 95
+      }
+    },
+    "Haleiwa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1510750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4671,
+        "voting_age": 3865,
+        "voting_age_pct": 82.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1193,
+          "pct": 25.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 50,
+          "pct": 1.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1290,
+          "pct": 27.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 629,
+          "pct": 13.47
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.36
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1284,
+          "pct": 27.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 208,
+          "pct": 4.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 93977,
+        "poverty_count": 31,
+        "poverty_pct": 0.66
+      },
+      "education": {
+        "bachelors_or_higher": 821,
+        "bachelors_only": 607,
+        "masters": 147,
+        "professional": 39,
+        "doctorate": 28
+      }
+    },
+    "Kalaheo CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1524950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4612,
+        "voting_age": 3582,
+        "voting_age_pct": 77.67
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1735,
+          "pct": 37.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 0.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 631,
+          "pct": 13.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 422,
+          "pct": 9.15
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1391,
+          "pct": 30.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 406,
+          "pct": 8.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 105605,
+        "poverty_count": 282,
+        "poverty_pct": 6.11
+      },
+      "education": {
+        "bachelors_or_higher": 1420,
+        "bachelors_only": 903,
+        "masters": 340,
+        "professional": 144,
+        "doctorate": 33
+      }
+    },
+    "Waimanalo Beach CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1578200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4587,
+        "voting_age": 3651,
+        "voting_age_pct": 79.59
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 390,
+          "pct": 8.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.11
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 244,
+          "pct": 5.32
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1773,
+          "pct": 38.65
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 14,
+          "pct": 0.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1723,
+          "pct": 37.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 438,
+          "pct": 9.55
+        }
+      ],
+      "economics": {
+        "median_household_income": 120769,
+        "poverty_count": 52,
+        "poverty_pct": 1.13
+      },
+      "education": {
+        "bachelors_or_higher": 913,
+        "bachelors_only": 564,
+        "masters": 230,
+        "professional": 72,
+        "doctorate": 47
+      }
+    },
+    "Hawaiian Beaches CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1512500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4503,
+        "voting_age": 3520,
+        "voting_age_pct": 78.17
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1898,
+          "pct": 42.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 383,
+          "pct": 8.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 513,
+          "pct": 11.39
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 189,
+          "pct": 4.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 653,
+          "pct": 14.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 867,
+          "pct": 19.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 42154,
+        "poverty_count": 533,
+        "poverty_pct": 11.84
+      },
+      "education": {
+        "bachelors_or_higher": 587,
+        "bachelors_only": 424,
+        "masters": 114,
+        "professional": 0,
+        "doctorate": 49
+      }
+    },
+    "Puhi CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1565750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4381,
+        "voting_age": 3453,
+        "voting_age_pct": 78.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 596,
+          "pct": 13.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 19,
+          "pct": 0.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2505,
+          "pct": 57.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 134,
+          "pct": 3.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 982,
+          "pct": 22.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 137,
+          "pct": 3.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 132645,
+        "poverty_count": 108,
+        "poverty_pct": 2.47
+      },
+      "education": {
+        "bachelors_or_higher": 713,
+        "bachelors_only": 452,
+        "masters": 184,
+        "professional": 22,
+        "doctorate": 55
+      }
+    },
+    "Hanamaulu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1511650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4360,
+        "voting_age": 3567,
+        "voting_age_pct": 81.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 284,
+          "pct": 6.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2022,
+          "pct": 46.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 508,
+          "pct": 11.65
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 880,
+          "pct": 20.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 666,
+          "pct": 15.28
+        }
+      ],
+      "economics": {
+        "median_household_income": 80094,
+        "poverty_count": 75,
+        "poverty_pct": 1.72
+      },
+      "education": {
+        "bachelors_or_higher": 424,
+        "bachelors_only": 312,
+        "masters": 73,
+        "professional": 20,
+        "doctorate": 19
+      }
+    },
+    "Hawaiian Acres CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1512450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4123,
+        "voting_age": 2805,
+        "voting_age_pct": 68.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1509,
+          "pct": 36.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 219,
+          "pct": 5.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 220,
+          "pct": 5.34
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 987,
+          "pct": 23.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1188,
+          "pct": 28.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 79808,
+        "poverty_count": 413,
+        "poverty_pct": 10.02
+      },
+      "education": {
+        "bachelors_or_higher": 420,
+        "bachelors_only": 281,
+        "masters": 88,
+        "professional": 28,
+        "doctorate": 23
+      }
+    },
+    "Mountain View CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1553300",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3833,
+        "voting_age": 2635,
+        "voting_age_pct": 68.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 557,
+          "pct": 14.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 399,
+          "pct": 10.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 545,
+          "pct": 14.22
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1977,
+          "pct": 51.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 355,
+          "pct": 9.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 63882,
+        "poverty_count": 311,
+        "poverty_pct": 8.11
+      },
+      "education": {
+        "bachelors_or_higher": 280,
+        "bachelors_only": 119,
+        "masters": 131,
+        "professional": 0,
+        "doctorate": 30
+      }
+    },
+    "Whitmore Village CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1580900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3821,
+        "voting_age": 3027,
+        "voting_age_pct": 79.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 171,
+          "pct": 4.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 64,
+          "pct": 1.67
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2010,
+          "pct": 52.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 412,
+          "pct": 10.78
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 665,
+          "pct": 17.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 499,
+          "pct": 13.06
+        }
+      ],
+      "economics": {
+        "median_household_income": 102155,
+        "poverty_count": 137,
+        "poverty_pct": 3.59
+      },
+      "education": {
+        "bachelors_or_higher": 421,
+        "bachelors_only": 381,
+        "masters": 34,
+        "professional": 6,
+        "doctorate": 0
+      }
+    },
+    "Hawaiian Ocean View CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1512530",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3809,
+        "voting_age": 3231,
+        "voting_age_pct": 84.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1512,
+          "pct": 39.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 53,
+          "pct": 1.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 234,
+          "pct": 6.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 106,
+          "pct": 2.78
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 48,
+          "pct": 1.26
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1238,
+          "pct": 32.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 618,
+          "pct": 16.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 45917,
+        "poverty_count": 73,
+        "poverty_pct": 1.92
+      },
+      "education": {
+        "bachelors_or_higher": 478,
+        "bachelors_only": 261,
+        "masters": 148,
+        "professional": 69,
+        "doctorate": 0
+      }
+    },
+    "Captain Cook CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1503850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3751,
+        "voting_age": 2972,
+        "voting_age_pct": 79.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1201,
+          "pct": 32.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 657,
+          "pct": 17.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 73,
+          "pct": 1.95
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1084,
+          "pct": 28.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 736,
+          "pct": 19.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 124551,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 701,
+        "bachelors_only": 405,
+        "masters": 233,
+        "professional": 41,
+        "doctorate": 22
+      }
+    },
+    "Kaunakakai CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1531100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3721,
+        "voting_age": 2631,
+        "voting_age_pct": 70.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 328,
+          "pct": 8.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 418,
+          "pct": 11.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1294,
+          "pct": 34.78
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1194,
+          "pct": 32.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 485,
+          "pct": 13.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 76944,
+        "poverty_count": 205,
+        "poverty_pct": 5.51
+      },
+      "education": {
+        "bachelors_or_higher": 392,
+        "bachelors_only": 260,
+        "masters": 58,
+        "professional": 46,
+        "doctorate": 28
+      }
+    },
+    "Waikapu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1575950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3645,
+        "voting_age": 2589,
+        "voting_age_pct": 71.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 885,
+          "pct": 24.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 22,
+          "pct": 0.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 979,
+          "pct": 26.86
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 220,
+          "pct": 6.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1074,
+          "pct": 29.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 465,
+          "pct": 12.76
+        }
+      ],
+      "economics": {
+        "median_household_income": 121618,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 944,
+        "bachelors_only": 602,
+        "masters": 158,
+        "professional": 113,
+        "doctorate": 71
+      }
+    },
+    "Ainaloa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1501085",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3493,
+        "voting_age": 2681,
+        "voting_age_pct": 76.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 982,
+          "pct": 28.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 41,
+          "pct": 1.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 391,
+          "pct": 11.19
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 462,
+          "pct": 13.23
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1077,
+          "pct": 30.83
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 540,
+          "pct": 15.46
+        }
+      ],
+      "economics": {
+        "median_household_income": 51757,
+        "poverty_count": 215,
+        "poverty_pct": 6.16
+      },
+      "education": {
+        "bachelors_or_higher": 292,
+        "bachelors_only": 182,
+        "masters": 110,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Kekaha CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1535600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3482,
+        "voting_age": 2540,
+        "voting_age_pct": 72.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 359,
+          "pct": 10.31
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 0.52
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 584,
+          "pct": 16.77
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 945,
+          "pct": 27.14
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1318,
+          "pct": 37.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 258,
+          "pct": 7.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 73011,
+        "poverty_count": 197,
+        "poverty_pct": 5.66
+      },
+      "education": {
+        "bachelors_or_higher": 267,
+        "bachelors_only": 243,
+        "masters": 24,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Hauula CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1512400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3473,
+        "voting_age": 2334,
+        "voting_age_pct": 67.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 879,
+          "pct": 25.31
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 0.78
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 172,
+          "pct": 4.95
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 682,
+          "pct": 19.64
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1244,
+          "pct": 35.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 469,
+          "pct": 13.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 113571,
+        "poverty_count": 51,
+        "poverty_pct": 1.47
+      },
+      "education": {
+        "bachelors_or_higher": 759,
+        "bachelors_only": 376,
+        "masters": 263,
+        "professional": 62,
+        "doctorate": 58
+      }
+    },
+    "Lanai City CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1543700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3283,
+        "voting_age": 2458,
+        "voting_age_pct": 74.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 306,
+          "pct": 9.32
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1607,
+          "pct": 48.95
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 359,
+          "pct": 10.94
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 45,
+          "pct": 1.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 727,
+          "pct": 22.14
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 238,
+          "pct": 7.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 79405,
+        "poverty_count": 90,
+        "poverty_pct": 2.74
+      },
+      "education": {
+        "bachelors_or_higher": 578,
+        "bachelors_only": 497,
+        "masters": 70,
+        "professional": 0,
+        "doctorate": 11
+      }
+    },
+    "Kalaeloa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1524850",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3229,
+        "voting_age": 2410,
+        "voting_age_pct": 74.64
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 554,
+          "pct": 17.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 206,
+          "pct": 6.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0.46
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 204,
+          "pct": 6.32
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1055,
+          "pct": 32.67
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 750,
+          "pct": 23.23
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 445,
+          "pct": 13.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 81833,
+        "poverty_count": 16,
+        "poverty_pct": 0.5
+      },
+      "education": {
+        "bachelors_or_higher": 452,
+        "bachelors_only": 352,
+        "masters": 81,
+        "professional": 15,
+        "doctorate": 4
+      }
+    },
+    "Helemano CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1513970",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3206,
+        "voting_age": 2175,
+        "voting_age_pct": 67.84
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1415,
+          "pct": 44.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 603,
+          "pct": 18.81
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 45,
+          "pct": 1.4
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 60,
+          "pct": 1.87
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 18,
+          "pct": 0.56
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 9,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 341,
+          "pct": 10.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 715,
+          "pct": 22.3
+        }
+      ],
+      "economics": {
+        "median_household_income": 82659,
+        "poverty_count": 104,
+        "poverty_pct": 3.24
+      },
+      "education": {
+        "bachelors_or_higher": 303,
+        "bachelors_only": 194,
+        "masters": 98,
+        "professional": 0,
+        "doctorate": 11
+      }
+    },
+    "Orchidlands Estates CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1558775",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3180,
+        "voting_age": 2476,
+        "voting_age_pct": 77.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1008,
+          "pct": 31.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 63,
+          "pct": 1.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 24,
+          "pct": 0.75
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 337,
+          "pct": 10.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 337,
+          "pct": 10.6
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 890,
+          "pct": 27.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 521,
+          "pct": 16.38
+        }
+      ],
+      "economics": {
+        "median_household_income": 70996,
+        "poverty_count": 138,
+        "poverty_pct": 4.34
+      },
+      "education": {
+        "bachelors_or_higher": 523,
+        "bachelors_only": 403,
+        "masters": 78,
+        "professional": 20,
+        "doctorate": 22
+      }
+    },
+    "Kilauea CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1536650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3104,
+        "voting_age": 2350,
+        "voting_age_pct": 75.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1635,
+          "pct": 52.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 29,
+          "pct": 0.93
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 460,
+          "pct": 14.82
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 216,
+          "pct": 6.96
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 521,
+          "pct": 16.78
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 243,
+          "pct": 7.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 86382,
+        "poverty_count": 190,
+        "poverty_pct": 6.12
+      },
+      "education": {
+        "bachelors_or_higher": 678,
+        "bachelors_only": 425,
+        "masters": 193,
+        "professional": 35,
+        "doctorate": 25
+      }
+    },
+    "Anahola CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1502200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3098,
+        "voting_age": 2318,
+        "voting_age_pct": 74.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 331,
+          "pct": 10.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 136,
+          "pct": 4.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1700,
+          "pct": 54.87
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 763,
+          "pct": 24.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 168,
+          "pct": 5.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 96207,
+        "poverty_count": 66,
+        "poverty_pct": 2.13
+      },
+      "education": {
+        "bachelors_or_higher": 308,
+        "bachelors_only": 169,
+        "masters": 119,
+        "professional": 11,
+        "doctorate": 9
+      }
+    },
+    "Keokea CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1536050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3049,
+        "voting_age": 2207,
+        "voting_age_pct": 72.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 512,
+          "pct": 16.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 177,
+          "pct": 5.81
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1012,
+          "pct": 33.19
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 23,
+          "pct": 0.75
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1015,
+          "pct": 33.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 304,
+          "pct": 9.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 119464,
+        "poverty_count": 87,
+        "poverty_pct": 2.85
+      },
+      "education": {
+        "bachelors_or_higher": 516,
+        "bachelors_only": 315,
+        "masters": 153,
+        "professional": 33,
+        "doctorate": 15
+      }
+    },
+    "Waialua CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1574000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3015,
+        "voting_age": 2516,
+        "voting_age_pct": 83.45
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 831,
+          "pct": 27.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 856,
+          "pct": 28.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 185,
+          "pct": 6.14
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 44,
+          "pct": 1.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 801,
+          "pct": 26.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 298,
+          "pct": 9.88
+        }
+      ],
+      "economics": {
+        "median_household_income": 84656,
+        "poverty_count": 58,
+        "poverty_pct": 1.92
+      },
+      "education": {
+        "bachelors_or_higher": 686,
+        "bachelors_only": 535,
+        "masters": 122,
+        "professional": 29,
+        "doctorate": 0
+      }
+    },
+    "Kurtistown CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1542800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2928,
+        "voting_age": 2414,
+        "voting_age_pct": 82.45
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 355,
+          "pct": 12.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1312,
+          "pct": 44.81
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 495,
+          "pct": 16.91
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 579,
+          "pct": 19.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 187,
+          "pct": 6.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 78750,
+        "poverty_count": 69,
+        "poverty_pct": 2.36
+      },
+      "education": {
+        "bachelors_or_higher": 670,
+        "bachelors_only": 494,
+        "masters": 134,
+        "professional": 5,
+        "doctorate": 37
+      }
+    },
+    "Holualoa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1515700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2825,
+        "voting_age": 2058,
+        "voting_age_pct": 72.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1716,
+          "pct": 60.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 188,
+          "pct": 6.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 97,
+          "pct": 3.43
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 0.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 365,
+          "pct": 12.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 444,
+          "pct": 15.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 109444,
+        "poverty_count": 17,
+        "poverty_pct": 0.6
+      },
+      "education": {
+        "bachelors_or_higher": 974,
+        "bachelors_only": 596,
+        "masters": 222,
+        "professional": 138,
+        "doctorate": 18
+      }
+    },
+    "Lawai CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1544450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2775,
+        "voting_age": 2122,
+        "voting_age_pct": 76.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 932,
+          "pct": 33.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 396,
+          "pct": 14.27
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 159,
+          "pct": 5.73
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.36
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 561,
+          "pct": 20.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 717,
+          "pct": 25.84
+        }
+      ],
+      "economics": {
+        "median_household_income": 104826,
+        "poverty_count": 46,
+        "poverty_pct": 1.66
+      },
+      "education": {
+        "bachelors_or_higher": 651,
+        "bachelors_only": 403,
+        "masters": 207,
+        "professional": 31,
+        "doctorate": 10
+      }
+    },
+    "Paia CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1560200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2629,
+        "voting_age": 2086,
+        "voting_age_pct": 79.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1024,
+          "pct": 38.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.49
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 326,
+          "pct": 12.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 403,
+          "pct": 15.33
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.23
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 476,
+          "pct": 18.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 377,
+          "pct": 14.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 120735,
+        "poverty_count": 97,
+        "poverty_pct": 3.69
+      },
+      "education": {
+        "bachelors_or_higher": 627,
+        "bachelors_only": 462,
+        "masters": 133,
+        "professional": 32,
+        "doctorate": 0
+      }
+    },
+    "Honaunau-Napoopoo CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1516160",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2554,
+        "voting_age": 2370,
+        "voting_age_pct": 92.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1278,
+          "pct": 50.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 58,
+          "pct": 2.27
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 406,
+          "pct": 15.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 153,
+          "pct": 5.99
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 30,
+          "pct": 1.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 390,
+          "pct": 15.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 239,
+          "pct": 9.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 75884,
+        "poverty_count": 19,
+        "poverty_pct": 0.74
+      },
+      "education": {
+        "bachelors_or_higher": 886,
+        "bachelors_only": 449,
+        "masters": 202,
+        "professional": 202,
+        "doctorate": 33
+      }
+    },
+    "Wailua CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1577000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2544,
+        "voting_age": 2094,
+        "voting_age_pct": 82.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 975,
+          "pct": 38.33
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 27,
+          "pct": 1.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 493,
+          "pct": 19.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 69,
+          "pct": 2.71
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 395,
+          "pct": 15.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 584,
+          "pct": 22.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 68548,
+        "poverty_count": 82,
+        "poverty_pct": 3.22
+      },
+      "education": {
+        "bachelors_or_higher": 496,
+        "bachelors_only": 337,
+        "masters": 90,
+        "professional": 42,
+        "doctorate": 27
+      }
+    },
+    "Kahuku CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1522250",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2425,
+        "voting_age": 1486,
+        "voting_age_pct": 61.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 323,
+          "pct": 13.32
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14,
+          "pct": 0.58
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 341,
+          "pct": 14.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 704,
+          "pct": 29.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 858,
+          "pct": 35.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 185,
+          "pct": 7.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 73214,
+        "poverty_count": 116,
+        "poverty_pct": 4.78
+      },
+      "education": {
+        "bachelors_or_higher": 374,
+        "bachelors_only": 264,
+        "masters": 100,
+        "professional": 5,
+        "doctorate": 5
+      }
+    },
+    "Kualapuu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1539500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2357,
+        "voting_age": 1631,
+        "voting_age_pct": 69.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 140,
+          "pct": 5.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 106,
+          "pct": 4.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1222,
+          "pct": 51.85
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.13
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 719,
+          "pct": 30.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 164,
+          "pct": 6.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 52500,
+        "poverty_count": 107,
+        "poverty_pct": 4.54
+      },
+      "education": {
+        "bachelors_or_higher": 296,
+        "bachelors_only": 152,
+        "masters": 122,
+        "professional": 12,
+        "doctorate": 10
+      }
+    },
+    "Honokaa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1516450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2353,
+        "voting_age": 1735,
+        "voting_age_pct": 73.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 380,
+          "pct": 16.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 729,
+          "pct": 30.98
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 128,
+          "pct": 5.44
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 818,
+          "pct": 34.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 298,
+          "pct": 12.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 85556,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 264,
+        "bachelors_only": 171,
+        "masters": 72,
+        "professional": 21,
+        "doctorate": 0
+      }
+    },
+    "Eleele CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1507000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2339,
+        "voting_age": 1757,
+        "voting_age_pct": 75.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 223,
+          "pct": 9.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9,
+          "pct": 0.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1201,
+          "pct": 51.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 133,
+          "pct": 5.69
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 596,
+          "pct": 25.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 177,
+          "pct": 7.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 122308,
+        "poverty_count": 37,
+        "poverty_pct": 1.58
+      },
+      "education": {
+        "bachelors_or_higher": 293,
+        "bachelors_only": 196,
+        "masters": 89,
+        "professional": 0,
+        "doctorate": 8
+      }
+    },
+    "Koloa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1539200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2327,
+        "voting_age": 1724,
+        "voting_age_pct": 74.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 534,
+          "pct": 22.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 33,
+          "pct": 1.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 686,
+          "pct": 29.48
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 257,
+          "pct": 11.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 72,
+          "pct": 3.09
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 408,
+          "pct": 17.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 337,
+          "pct": 14.48
+        }
+      ],
+      "economics": {
+        "median_household_income": 76316,
+        "poverty_count": 42,
+        "poverty_pct": 1.8
+      },
+      "education": {
+        "bachelors_or_higher": 415,
+        "bachelors_only": 326,
+        "masters": 68,
+        "professional": 10,
+        "doctorate": 11
+      }
+    },
+    "Hanapepe CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1511800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2288,
+        "voting_age": 1949,
+        "voting_age_pct": 85.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 197,
+          "pct": 8.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1210,
+          "pct": 52.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 183,
+          "pct": 8
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 550,
+          "pct": 24.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 148,
+          "pct": 6.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 90319,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 335,
+        "bachelors_only": 250,
+        "masters": 60,
+        "professional": 25,
+        "doctorate": 0
+      }
+    },
+    "Maunawili CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1550750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2288,
+        "voting_age": 1941,
+        "voting_age_pct": 84.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 551,
+          "pct": 24.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 941,
+          "pct": 41.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 91,
+          "pct": 3.98
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 637,
+          "pct": 27.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 68,
+          "pct": 2.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 176528,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 1182,
+        "bachelors_only": 674,
+        "masters": 273,
+        "professional": 183,
+        "doctorate": 52
+      }
+    },
+    "Wheeler AFB CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1580600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2196,
+        "voting_age": 1596,
+        "voting_age_pct": 72.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1157,
+          "pct": 52.69
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 214,
+          "pct": 9.74
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 94,
+          "pct": 4.28
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 73,
+          "pct": 3.32
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 181,
+          "pct": 8.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 477,
+          "pct": 21.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 88409,
+        "poverty_count": 6,
+        "poverty_pct": 0.27
+      },
+      "education": {
+        "bachelors_or_higher": 272,
+        "bachelors_only": 177,
+        "masters": 95,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Kapaau CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1529000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2029,
+        "voting_age": 1676,
+        "voting_age_pct": 82.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 330,
+          "pct": 16.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 21,
+          "pct": 1.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 499,
+          "pct": 24.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 65,
+          "pct": 3.2
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 508,
+          "pct": 25.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 606,
+          "pct": 29.87
+        }
+      ],
+      "economics": {
+        "median_household_income": 74583,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 207,
+        "bachelors_only": 178,
+        "masters": 29,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Kealakekua CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1533950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1989,
+        "voting_age": 1545,
+        "voting_age_pct": 77.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 296,
+          "pct": 14.88
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15,
+          "pct": 0.75
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 917,
+          "pct": 46.1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 229,
+          "pct": 11.51
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 305,
+          "pct": 15.33
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 227,
+          "pct": 11.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 79332,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 405,
+        "bachelors_only": 309,
+        "masters": 48,
+        "professional": 36,
+        "doctorate": 12
+      }
+    },
+    "Princeville CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1565075",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1794,
+        "voting_age": 1555,
+        "voting_age_pct": 86.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1445,
+          "pct": 80.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 21,
+          "pct": 1.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 98,
+          "pct": 5.46
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 154,
+          "pct": 8.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 76,
+          "pct": 4.24
+        }
+      ],
+      "economics": {
+        "median_household_income": 106938,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 958,
+        "bachelors_only": 619,
+        "masters": 207,
+        "professional": 95,
+        "doctorate": 37
+      }
+    },
+    "Pahala CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1559750",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1785,
+        "voting_age": 1239,
+        "voting_age_pct": 69.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 127,
+          "pct": 7.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 47,
+          "pct": 2.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 486,
+          "pct": 27.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 111,
+          "pct": 6.22
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 454,
+          "pct": 25.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 560,
+          "pct": 31.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 71908,
+        "poverty_count": 67,
+        "poverty_pct": 3.75
+      },
+      "education": {
+        "bachelors_or_higher": 220,
+        "bachelors_only": 164,
+        "masters": 56,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Hawi CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1513600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1720,
+        "voting_age": 1308,
+        "voting_age_pct": 76.05
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 364,
+          "pct": 21.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 254,
+          "pct": 14.77
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 242,
+          "pct": 14.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 739,
+          "pct": 42.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 121,
+          "pct": 7.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 85197,
+        "poverty_count": 62,
+        "poverty_pct": 3.6
+      },
+      "education": {
+        "bachelors_or_higher": 373,
+        "bachelors_only": 227,
+        "masters": 111,
+        "professional": 10,
+        "doctorate": 25
+      }
+    },
+    "Fern Acres CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1507542",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1714,
+        "voting_age": 1490,
+        "voting_age_pct": 86.93
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 716,
+          "pct": 41.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 37,
+          "pct": 2.16
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 77,
+          "pct": 4.49
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 120,
+          "pct": 7
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 487,
+          "pct": 28.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 277,
+          "pct": 16.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 49554,
+        "poverty_count": 68,
+        "poverty_pct": 3.97
+      },
+      "education": {
+        "bachelors_or_higher": 269,
+        "bachelors_only": 188,
+        "masters": 55,
+        "professional": 14,
+        "doctorate": 12
+      }
+    },
+    "Mokuleia CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1552550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1684,
+        "voting_age": 1486,
+        "voting_age_pct": 88.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1031,
+          "pct": 61.22
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 30,
+          "pct": 1.78
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 160,
+          "pct": 9.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.18
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 39,
+          "pct": 2.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 307,
+          "pct": 18.23
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 114,
+          "pct": 6.77
+        }
+      ],
+      "economics": {
+        "median_household_income": 83571,
+        "poverty_count": 4,
+        "poverty_pct": 0.24
+      },
+      "education": {
+        "bachelors_or_higher": 591,
+        "bachelors_only": 354,
+        "masters": 159,
+        "professional": 63,
+        "doctorate": 15
+      }
+    },
+    "Ko Olina CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1539400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1677,
+        "voting_age": 1455,
+        "voting_age_pct": 86.76
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 939,
+          "pct": 55.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 116,
+          "pct": 6.92
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 268,
+          "pct": 15.98
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5,
+          "pct": 0.3
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 5,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 206,
+          "pct": 12.28
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 138,
+          "pct": 8.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 125577,
+        "poverty_count": 26,
+        "poverty_pct": 1.55
+      },
+      "education": {
+        "bachelors_or_higher": 809,
+        "bachelors_only": 482,
+        "masters": 247,
+        "professional": 58,
+        "doctorate": 22
+      }
+    },
+    "Kaloko CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1526867",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1555,
+        "voting_age": 1153,
+        "voting_age_pct": 74.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 600,
+          "pct": 38.59
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 216,
+          "pct": 13.89
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 95,
+          "pct": 6.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 498,
+          "pct": 32.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 146,
+          "pct": 9.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 104167,
+        "poverty_count": 30,
+        "poverty_pct": 1.93
+      },
+      "education": {
+        "bachelors_or_higher": 250,
+        "bachelors_only": 194,
+        "masters": 51,
+        "professional": 3,
+        "doctorate": 2
+      }
+    },
+    "Pepeekeo CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1563650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1505,
+        "voting_age": 1101,
+        "voting_age_pct": 73.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 211,
+          "pct": 14.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 399,
+          "pct": 26.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 474,
+          "pct": 31.5
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 9,
+          "pct": 0.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 277,
+          "pct": 18.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 135,
+          "pct": 8.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 52276,
+        "poverty_count": 104,
+        "poverty_pct": 6.91
+      },
+      "education": {
+        "bachelors_or_higher": 268,
+        "bachelors_only": 187,
+        "masters": 78,
+        "professional": 0,
+        "doctorate": 3
+      }
+    },
+    "Nanawale Estates CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1553975",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1440,
+        "voting_age": 994,
+        "voting_age_pct": 69.03
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 310,
+          "pct": 21.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 22,
+          "pct": 1.53
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 193,
+          "pct": 13.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 254,
+          "pct": 17.64
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.76
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 353,
+          "pct": 24.51
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 297,
+          "pct": 20.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 24980,
+        "poverty_count": 241,
+        "poverty_pct": 16.74
+      },
+      "education": {
+        "bachelors_or_higher": 159,
+        "bachelors_only": 108,
+        "masters": 22,
+        "professional": 19,
+        "doctorate": 10
+      }
+    },
+    "Pahoa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1559900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1430,
+        "voting_age": 1113,
+        "voting_age_pct": 77.83
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 335,
+          "pct": 23.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.21
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 651,
+          "pct": 45.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 45,
+          "pct": 3.15
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 105,
+          "pct": 7.34
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 66,
+          "pct": 4.62
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 225,
+          "pct": 15.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 55903,
+        "poverty_count": 120,
+        "poverty_pct": 8.39
+      },
+      "education": {
+        "bachelors_or_higher": 237,
+        "bachelors_only": 226,
+        "masters": 11,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Omao CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1557800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1429,
+        "voting_age": 1149,
+        "voting_age_pct": 80.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 596,
+          "pct": 41.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 425,
+          "pct": 29.74
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 56,
+          "pct": 3.92
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 196,
+          "pct": 13.72
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 151,
+          "pct": 10.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 87308,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 328,
+        "bachelors_only": 221,
+        "masters": 99,
+        "professional": 4,
+        "doctorate": 4
+      }
+    },
+    "Poipu CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1564550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1418,
+        "voting_age": 1026,
+        "voting_age_pct": 72.36
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 749,
+          "pct": 52.82
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 155,
+          "pct": 10.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.21
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 371,
+          "pct": 26.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 137,
+          "pct": 9.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 138864,
+        "poverty_count": 15,
+        "poverty_pct": 1.06
+      },
+      "education": {
+        "bachelors_or_higher": 462,
+        "bachelors_only": 259,
+        "masters": 104,
+        "professional": 68,
+        "doctorate": 31
+      }
+    },
+    "Leilani Estates CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1544562",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1415,
+        "voting_age": 1180,
+        "voting_age_pct": 83.39
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 768,
+          "pct": 54.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6,
+          "pct": 0.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.85
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 41,
+          "pct": 2.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 130,
+          "pct": 9.19
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 14,
+          "pct": 0.99
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 298,
+          "pct": 21.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 146,
+          "pct": 10.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 23177,
+        "poverty_count": 89,
+        "poverty_pct": 6.29
+      },
+      "education": {
+        "bachelors_or_higher": 319,
+        "bachelors_only": 192,
+        "masters": 87,
+        "professional": 14,
+        "doctorate": 26
+      }
+    },
+    "Kaumakani CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1530650",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1361,
+        "voting_age": 1057,
+        "voting_age_pct": 77.66
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7,
+          "pct": 0.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.66
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1183,
+          "pct": 86.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 57,
+          "pct": 4.19
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 66,
+          "pct": 4.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 39,
+          "pct": 2.87
+        }
+      ],
+      "economics": {
+        "median_household_income": 89637,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 68,
+        "bachelors_only": 51,
+        "masters": 8,
+        "professional": 9,
+        "doctorate": 0
+      }
+    },
+    "Papaikou CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1561550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1325,
+        "voting_age": 1060,
+        "voting_age_pct": 80
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 138,
+          "pct": 10.42
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 390,
+          "pct": 29.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 57,
+          "pct": 4.3
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 624,
+          "pct": 47.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 116,
+          "pct": 8.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 80972,
+        "poverty_count": 64,
+        "poverty_pct": 4.83
+      },
+      "education": {
+        "bachelors_or_higher": 198,
+        "bachelors_only": 150,
+        "masters": 35,
+        "professional": 4,
+        "doctorate": 9
+      }
+    },
+    "Kaaawa CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1519550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1259,
+        "voting_age": 975,
+        "voting_age_pct": 77.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 460,
+          "pct": 36.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9,
+          "pct": 0.71
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 6.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 60,
+          "pct": 4.77
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 502,
+          "pct": 39.87
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 145,
+          "pct": 11.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 132188,
+        "poverty_count": 83,
+        "poverty_pct": 6.59
+      },
+      "education": {
+        "bachelors_or_higher": 512,
+        "bachelors_only": 338,
+        "masters": 130,
+        "professional": 17,
+        "doctorate": 27
+      }
+    },
+    "Kaanapali CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1520000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1216,
+        "voting_age": 1055,
+        "voting_age_pct": 86.76
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 894,
+          "pct": 73.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10,
+          "pct": 0.82
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 6.83
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 8,
+          "pct": 0.66
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 95,
+          "pct": 7.81
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 126,
+          "pct": 10.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 134375,
+        "poverty_count": 5,
+        "poverty_pct": 0.41
+      },
+      "education": {
+        "bachelors_or_higher": 464,
+        "bachelors_only": 249,
+        "masters": 104,
+        "professional": 65,
+        "doctorate": 46
+      }
+    },
+    "Keaau CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1532900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1210,
+        "voting_age": 962,
+        "voting_age_pct": 79.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 90,
+          "pct": 7.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 513,
+          "pct": 42.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 123,
+          "pct": 10.17
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 416,
+          "pct": 34.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 68,
+          "pct": 5.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 64688,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 139,
+        "bachelors_only": 118,
+        "masters": 18,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Discovery Harbour CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1505900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1198,
+        "voting_age": 1026,
+        "voting_age_pct": 85.64
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 686,
+          "pct": 57.26
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 55,
+          "pct": 4.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 70,
+          "pct": 5.84
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 249,
+          "pct": 20.78
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 133,
+          "pct": 11.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 64286,
+        "poverty_count": 43,
+        "poverty_pct": 3.59
+      },
+      "education": {
+        "bachelors_or_higher": 283,
+        "bachelors_only": 157,
+        "masters": 90,
+        "professional": 31,
+        "doctorate": 5
+      }
+    },
+    "Haliimaile CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1510900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1096,
+        "voting_age": 802,
+        "voting_age_pct": 73.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 159,
+          "pct": 14.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 284,
+          "pct": 25.91
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 246,
+          "pct": 22.45
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 227,
+          "pct": 20.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 178,
+          "pct": 16.24
+        }
+      ],
+      "economics": {
+        "median_household_income": 81250,
+        "poverty_count": 35,
+        "poverty_pct": 3.19
+      },
+      "education": {
+        "bachelors_or_higher": 102,
+        "bachelors_only": 91,
+        "masters": 11,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Wainaku CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1578950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1082,
+        "voting_age": 829,
+        "voting_age_pct": 76.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 240,
+          "pct": 22.18
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15,
+          "pct": 1.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 288,
+          "pct": 26.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 10,
+          "pct": 0.92
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 456,
+          "pct": 42.14
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 73,
+          "pct": 6.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 72188,
+        "poverty_count": 4,
+        "poverty_pct": 0.37
+      },
+      "education": {
+        "bachelors_or_higher": 233,
+        "bachelors_only": 154,
+        "masters": 56,
+        "professional": 11,
+        "doctorate": 12
+      }
+    },
+    "Honalo CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1516000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1057,
+        "voting_age": 848,
+        "voting_age_pct": 80.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 217,
+          "pct": 20.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 234,
+          "pct": 22.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 46,
+          "pct": 4.35
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 399,
+          "pct": 37.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 161,
+          "pct": 15.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 65000,
+        "poverty_count": 21,
+        "poverty_pct": 1.99
+      },
+      "education": {
+        "bachelors_or_higher": 149,
+        "bachelors_only": 87,
+        "masters": 40,
+        "professional": 17,
+        "doctorate": 5
+      }
+    },
+    "Mahinahina CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1547050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1051,
+        "voting_age": 813,
+        "voting_age_pct": 77.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 639,
+          "pct": 60.8
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 142,
+          "pct": 13.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 9,
+          "pct": 0.86
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 154,
+          "pct": 14.65
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 103,
+          "pct": 9.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 161875,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 325,
+        "bachelors_only": 186,
+        "masters": 81,
+        "professional": 39,
+        "doctorate": 19
+      }
+    },
+    "Halaula CDP, Hawaii": {
+      "state": "HI",
+      "fips": "1509700",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1049,
+        "voting_age": 680,
+        "voting_age_pct": 64.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 194,
+          "pct": 18.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 19,
+          "pct": 1.81
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.38
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 129,
+          "pct": 12.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 153,
+          "pct": 14.59
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 359,
+          "pct": 34.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 191,
+          "pct": 18.21
+        }
+      ],
+      "economics": {
+        "median_household_income": 65694,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 138,
+        "bachelors_only": 128,
+        "masters": 0,
+        "professional": 10,
+        "doctorate": 0
+      }
+    }
+  }
+}

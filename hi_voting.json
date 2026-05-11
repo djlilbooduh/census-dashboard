@@ -1,0 +1,311 @@
+{
+  "state": "Hawaii",
+  "election": "2024 General Election",
+  "date": "2024-11-05",
+  "source": "Hawaii Office of Elections (files.hawaii.gov/elections/files/results/2024/General/histatewide.pdf, hi_sov.pdf)",
+  "source_urls": [
+    "https://files.hawaii.gov/elections/files/results/2024/General/histatewide.pdf",
+    "https://files.hawaii.gov/elections/files/results/2024/General/hi_sov.pdf"
+  ],
+  "certified_date": "2024-11-13",
+  "statewide": {
+    "registered_voters": 860868,
+    "total_turnout": 522236,
+    "turnout_pct": 60.7,
+    "mail_turnout": 483078,
+    "mail_turnout_pct": 56.1,
+    "in_person_turnout": 39158,
+    "in_person_turnout_pct": 4.5,
+    "results": {
+      "harris_kamala_dem": {
+        "votes": 313044,
+        "pct": 59.9
+      },
+      "trump_donald_rep": {
+        "votes": 193661,
+        "pct": 37.1
+      },
+      "stein_jill_grn": {
+        "votes": 4387,
+        "pct": 0.8
+      },
+      "oliver_chase_lib": {
+        "votes": 2733,
+        "pct": 0.5
+      },
+      "de_la_cruz_claudia_psl": {
+        "votes": 1940,
+        "pct": 0.4
+      },
+      "sonski_peter_sol": {
+        "votes": 936,
+        "pct": 0.2
+      },
+      "blank_votes": 5010,
+      "over_votes": 525
+    }
+  },
+  "counties": {
+    "hawaii": {
+      "name": "Hawaii County",
+      "fips": "15001",
+      "registered_voters": 135077,
+      "total_turnout": 83686,
+      "turnout_pct": 62.0,
+      "results": {
+        "harris_kamala_dem": {
+          "votes": 52163,
+          "pct": 62.3
+        },
+        "trump_donald_rep": {
+          "votes": 28748,
+          "pct": 34.3
+        },
+        "stein_jill_grn": {
+          "votes": 955,
+          "pct": 1.1
+        },
+        "oliver_chase_lib": {
+          "votes": 492,
+          "pct": 0.6
+        },
+        "de_la_cruz_claudia_psl": {
+          "votes": 337,
+          "pct": 0.4
+        },
+        "sonski_peter_sol": {
+          "votes": 128,
+          "pct": 0.2
+        },
+        "blank_and_over": 863
+      },
+      "votes_cast": 82823,
+      "margin": {
+        "harris_pct": 62.98,
+        "trump_pct": 34.71,
+        "margin_pct": 28.27,
+        "margin_votes": 23415
+      }
+    },
+    "honolulu": {
+      "name": "Honolulu County (City and County of Honolulu)",
+      "fips": "15003",
+      "registered_voters": 562606,
+      "total_turnout": 344411,
+      "turnout_pct": 61.2,
+      "results": {
+        "harris_kamala_dem": {
+          "votes": 204301,
+          "pct": 59.3
+        },
+        "trump_donald_rep": {
+          "votes": 130489,
+          "pct": 37.9
+        },
+        "stein_jill_grn": {
+          "votes": 2503,
+          "pct": 0.7
+        },
+        "oliver_chase_lib": {
+          "votes": 1769,
+          "pct": 0.5
+        },
+        "de_la_cruz_claudia_psl": {
+          "votes": 1218,
+          "pct": 0.4
+        },
+        "sonski_peter_sol": {
+          "votes": 641,
+          "pct": 0.2
+        },
+        "blank_and_over": 3490
+      },
+      "votes_cast": 340921,
+      "margin": {
+        "harris_pct": 59.93,
+        "trump_pct": 38.28,
+        "margin_pct": 21.65,
+        "margin_votes": 73812
+      }
+    },
+    "maui": {
+      "name": "Maui County (includes Kalawao County)",
+      "fips": "15009",
+      "registered_voters": 115009,
+      "total_turnout": 63573,
+      "turnout_pct": 55.3,
+      "results": {
+        "harris_kamala_dem": {
+          "votes": 38905,
+          "pct": 61.2
+        },
+        "trump_donald_rep": {
+          "votes": 22621,
+          "pct": 35.6
+        },
+        "stein_jill_grn": {
+          "votes": 646,
+          "pct": 1.0
+        },
+        "oliver_chase_lib": {
+          "votes": 333,
+          "pct": 0.5
+        },
+        "de_la_cruz_claudia_psl": {
+          "votes": 267,
+          "pct": 0.4
+        },
+        "sonski_peter_sol": {
+          "votes": 121,
+          "pct": 0.2
+        },
+        "blank_and_over": 680
+      },
+      "votes_cast": 62893,
+      "margin": {
+        "harris_pct": 61.86,
+        "trump_pct": 35.97,
+        "margin_pct": 25.89,
+        "margin_votes": 16284
+      }
+    },
+    "kauai": {
+      "name": "Kauai County",
+      "fips": "15007",
+      "registered_voters": 48176,
+      "total_turnout": 30566,
+      "turnout_pct": 63.4,
+      "results": {
+        "harris_kamala_dem": {
+          "votes": 17675,
+          "pct": 57.8
+        },
+        "trump_donald_rep": {
+          "votes": 11803,
+          "pct": 38.6
+        },
+        "stein_jill_grn": {
+          "votes": 283,
+          "pct": 0.9
+        },
+        "oliver_chase_lib": {
+          "votes": 139,
+          "pct": 0.5
+        },
+        "de_la_cruz_claudia_psl": {
+          "votes": 118,
+          "pct": 0.4
+        },
+        "sonski_peter_sol": {
+          "votes": 46,
+          "pct": 0.2
+        },
+        "blank_and_over": 502
+      },
+      "votes_cast": 30064,
+      "margin": {
+        "harris_pct": 58.79,
+        "trump_pct": 39.26,
+        "margin_pct": 19.53,
+        "margin_votes": 5872
+      }
+    },
+    "kalawao": {
+      "name": "Kalawao County",
+      "fips": "15005",
+      "note": "Kalawao County votes are administratively included with Maui County in Hawaii election reporting. Separately reported: 15 Harris, 3 Trump (per Wikipedia citing official results).",
+      "results": {
+        "harris_kamala_dem": {
+          "votes": 15,
+          "pct": 83.33
+        },
+        "trump_donald_rep": {
+          "votes": 3,
+          "pct": 16.67
+        }
+      },
+      "votes_cast": 18
+    }
+  },
+  "validation": {
+    "honolulu_county": {
+      "status": "VALIDATED",
+      "checks": {
+        "votes_cast_sum": {
+          "computed": 340921,
+          "expected": 340921,
+          "match": true,
+          "method": "Harris (204,301) + Trump (130,489) + Stein (2,503) + Oliver (1,769) + De La Cruz (1,218) + Sonski (641) = 340,921"
+        },
+        "turnout_consistency": {
+          "registered": 562606,
+          "turnout_votes": 344411,
+          "turnout_pct": 61.2,
+          "blank_and_over": 3490,
+          "match": true,
+          "method": "344,411 (turnout) = 340,921 (votes cast) + 3,490 (blank/over)"
+        },
+        "wikipedia_crosscheck": {
+          "harris_votes": 204301,
+          "trump_votes": 130489,
+          "other_votes": 6131,
+          "total": 340921,
+          "match": true
+        }
+      }
+    },
+    "hawaii_county": {
+      "status": "VALIDATED",
+      "checks": {
+        "votes_cast_sum": {
+          "computed": 82823,
+          "expected": 82823,
+          "match": true,
+          "method": "Harris (52,163) + Trump (28,748) + Stein (955) + Oliver (492) + De La Cruz (337) + Sonski (128) = 82,823"
+        },
+        "turnout_consistency": {
+          "registered": 135077,
+          "turnout_votes": 83686,
+          "turnout_pct": 62.0,
+          "blank_and_over": 863,
+          "match": true,
+          "method": "83,686 (turnout) = 82,823 (votes cast) + 863 (blank/over)"
+        },
+        "wikipedia_crosscheck": {
+          "harris_votes": 52163,
+          "trump_votes": 28748,
+          "other_votes": 1912,
+          "total": 82823,
+          "match": true
+        }
+      }
+    },
+    "statewide_crosscheck": {
+      "status": "VALIDATED",
+      "registered_sum": {
+        "computed": 860868,
+        "expected": 860868,
+        "match": true,
+        "method": "Hawaii (135,077) + Honolulu (562,606) + Maui (115,009) + Kauai (48,176) = 860,868"
+      },
+      "votes_sum": {
+        "computed": 522236,
+        "expected": 522236,
+        "match": true,
+        "method": "Harris (313,044) + Trump (193,661) + Stein (4,387) + Oliver (2,733) + De La Cruz (1,940) + Sonski (936) + blank (5,010) + over (525) = 522,236"
+      },
+      "county_turnout_sum": {
+        "computed": 522236,
+        "expected": 522236,
+        "match": true,
+        "method": "Hawaii (83,686) + Honolulu (344,411) + Maui (63,573) + Kauai (30,566) = 522,236"
+      }
+    }
+  },
+  "notes": {
+    "source_type": "Official certified results from Hawaii Office of Elections, dated November 13, 2024",
+    "kalawao_note": "Kalawao County (population ~80) has its presidential votes reported separately (15 Harris, 3 Trump) but voter registration is included within Maui County totals in the official Statement of Vote",
+    "pct_calc": "Percentages for individual candidate votes are computed against total votes cast (excluding blanks/over). Margin percentages use the same denominator.",
+    "maui_discrepancy": "Official SOS data shows Maui candidate votes totaling 62,893 (Harris 38,905, Trump 22,621). Wikipedia shows 62,875 (Harris 38,890, Trump 22,618). The SOS certified data is authoritative; the 18-vote discrepancy may reflect late-arriving ballots included after Wikipedia's source snapshot."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "city": "San Diego",
+  "total_arrests": 109894,
+  "arrest_rate_per_1k": 84.2,
+  "arrests_by_race": {
+    "White": {
+      "count": 77505,
+      "pct": 70.5
+    },
+    "Black or African American": {
+      "count": 26123,
+      "pct": 23.8
+    },
+    "Asian": {
+      "count": 4135,
+      "pct": 3.8
+    },
+    "Native Hawaiian or Other Pacific Islander": {
+      "count": 546,
+      "pct": 0.5
+    },
+    "American Indian or Alaska Native": {
+      "count": 273,
+      "pct": 0.2
+    },
+    "Unknown": {
+      "count": 1312,
+      "pct": 1.2
+    }
+  },
+  "offenses_by_category": {
+    "All Other Offenses": 38891,
+    "Drug/Narcotic Offenses": 14192,
+    "Simple Assault": 13031,
+    "Disorderly Conduct": 12052,
+    "Aggravated Assault": 7872,
+    "Drive Under the Influence": 6996,
+    "Larceny": 3351,
+    "Weapon Law Violations": 2989,
+    "Destruction/Vandalism": 2771,
+    "Robbery": 1764,
+    "Burglary": 1550,
+    "Motor Vehicle Theft": 1401
+  },
+  "source": "FBI Crime Data Explorer \u2014 Offense Category & Arrestee Race"
+}

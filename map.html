@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📍 US Criminal Activity — CA City Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {
+  --bg: #0a0a10;
+  --sf: #141420;
+  --bd: #1e1e3a;
+  --tx: #e0e0f0;
+  --mu: #8888aa;
+  --ac: #4fc3f7;
+  --sc: #ff5252;
+  --cf: #ffab40;
+  --uc: #66bb6a;
+  --pl: #ce93d8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; width: 100%; overflow: hidden; }
+body {
+  font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--tx);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header bar */
+#topbar {
+  background: linear-gradient(135deg, #0d1b2a, #1b2838, #0d1b2a);
+  border-bottom: 1px solid #1a1a3a;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  flex-shrink: 0;
+}
+#topbar h1 {
+  font-size: 1.2rem;
+  color: var(--ac);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+#topbar .nav-link {
+  color: var(--mu);
+  text-decoration: none;
+  font-size: 0.78rem;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--bd);
+  border-radius: 5px;
+  transition: all 0.15s;
+  background: var(--sf);
+}
+#topbar .nav-link:hover {
+  color: var(--ac);
+  border-color: var(--ac);
+  background: rgba(79,195,247,0.08);
+}
+
+/* Map container */
+#map {
+  flex: 1;
+  width: 100%;
+  background: var(--bg);
+}
+
+/* Legend */
+#legend {
+  position: absolute;
+  bottom: 28px;
+  right: 12px;
+  background: rgba(10,10,16,0.92);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 12px 16px;
+  z-index: 900;
+  font-size: 0.72rem;
+  backdrop-filter: blur(8px);
+}
+#legend h3 {
+  color: var(--ac);
+  font-size: 0.72rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.legend-label { color: var(--mu); }
+
+/* Info panel (bottom-left) */
+#info-panel {
+  position: absolute;
+  bottom: 28px;
+  left: 12px;
+  background: rgba(10,10,16,0.92);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 10px 14px;
+  z-index: 900;
+  font-size: 0.7rem;
+  color: var(--mu);
+  backdrop-filter: blur(8px);
+}
+
+/* Custom popup styling */
+.leaflet-popup-content-wrapper {
+  background: rgba(20,20,32,0.96) !important;
+  border: 1px solid var(--bd) !important;
+  border-radius: 10px !important;
+  color: var(--tx) !important;
+  backdrop-filter: blur(10px);
+}
+.leaflet-popup-content {
+  margin: 0;
+  min-width: 220px;
+}
+.leaflet-popup-tip {
+  background: rgba(20,20,32,0.96) !important;
+}
+
+/* Rich popup mini card */
+.popup-card {
+  padding: 10px 0;
+}
+.popup-header {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ac);
+  margin-bottom: 2px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.popup-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.74rem;
+  padding: 3px 0;
+}
+.popup-stat-label { color: var(--mu); font-size: 0.7rem; }
+.popup-stat-val { font-weight: 600; font-family: 'SF Mono', 'Cascadia Code', monospace; }
+
+/* Vote bar inside popup */
+.popup-vote-bar {
+  margin-top: 6px;
+}
+.popup-vote-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.66rem;
+  margin-bottom: 3px;
+}
+.popup-vote-labels .dem-label { color: #4fc3f7; }
+.popup-vote-labels .gop-label { color: #ff5252; }
+.popup-bar-track {
+  height: 6px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 2px;
+}
+.popup-bar-dem {
+  background: #4fc3f7;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+}
+.popup-bar-gop {
+  background: #ff5252;
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+.popup-lean {
+  text-align: right;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: 4px;
+  font-family: 'SF Mono', 'Cascadia Code', monospace;
+}
+.popup-lean.lean-D { color: #4fc3f7; }
+.popup-lean.lean-R { color: #ff5252; }
+.popup-lean.lean-lean-D { color: #81d4fa; }
+.popup-lean.lean-lean-R { color: #ff8a80; }
+
+.popup-link-btn {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  padding: 6px 10px;
+  background: rgba(79,195,247,0.12);
+  border: 1px solid rgba(79,195,247,0.3);
+  border-radius: 6px;
+  color: var(--ac);
+  text-decoration: none;
+  font-size: 0.72rem;
+  font-weight: 600;
+  transition: all 0.15s;
+}
+.popup-link-btn:hover {
+  background: rgba(79,195,247,0.22);
+  border-color: var(--ac);
+  color: #fff;
+}
+
+/* Search on map */
+#map-search {
+  background: var(--sf);
+  border: 1px solid var(--bd);
+  color: var(--tx);
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  font-size: 0.72rem;
+  outline: none;
+  width: 160px;
+  transition: border-color 0.15s;
+}
+#map-search:focus {
+  border-color: var(--ac);
+}
+#map-search::placeholder {
+  color: var(--mu);
+}
+#map-search-clear {
+  background: none;
+  border: none;
+  color: var(--mu);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0 2px 0 6px;
+  display: none;
+}
+#map-search-clear.visible { display: inline; }
+#map-search-clear:hover { color: var(--sc); }
+
+/* ── Filter panel ── */
+#filter-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 950;
+  background: rgba(10,10,16,0.92);
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+  color: var(--ac);
+  padding: 0.45rem 0.85rem;
+  font-size: 0.72rem;
+  font-family: inherit;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+#filter-toggle:hover {
+  background: rgba(20,20,40,0.95);
+  border-color: var(--ac);
+}
+#filter-toggle .arrow {
+  transition: transform 0.2s;
+  font-size: 0.6rem;
+}
+#filter-panel {
+  position: absolute;
+  top: 52px;
+  right: 12px;
+  z-index: 940;
+  background: rgba(10,10,16,0.94);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 14px 18px;
+  backdrop-filter: blur(10px);
+  font-size: 0.7rem;
+  color: var(--tx);
+  width: 270px;
+  transition: all 0.25s ease;
+  overflow: hidden;
+}
+#filter-panel.collapsed {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(20px);
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  border-width: 0;
+}
+#filter-panel h3 {
+  font-size: 0.72rem;
+  color: var(--ac);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-group {
+  margin-bottom: 12px;
+}
+.filter-group:last-of-type { margin-bottom: 10px; }
+.filter-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+.filter-label .name {
+  font-weight: 600;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--mu);
+}
+.filter-label .range-val {
+  font-family: 'SF Mono', 'Cascadia Code', monospace;
+  font-size: 0.68rem;
+  color: var(--ac);
+  font-weight: 600;
+}
+/* Dual-range slider */
+.dual-range {
+  position: relative;
+  height: 24px;
+  margin: 2px 0;
+}
+.dual-range .track-bg {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 2px;
+}
+.dual-range input[type="range"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  pointer-events: none;
+  margin: 0;
+}
+.dual-range input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ac);
+  border: 2px solid var(--bg);
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(79,195,247,0.5);
+  margin-top: -5px;
+  position: relative;
+  z-index: 3;
+}
+.dual-range input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: transparent;
+  border: none;
+}
+.dual-range input[type="range"]::-moz-range-thumb {
+  pointer-events: all;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ac);
+  border: 2px solid var(--bg);
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(79,195,247,0.5);
+}
+.dual-range input[type="range"]::-moz-range-track {
+  height: 4px;
+  background: transparent;
+  border: none;
+}
+.dual-range .range-ticks {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.55rem;
+  color: var(--mu);
+  margin-top: -1px;
+  padding: 0 1px;
+}
+/* Reset button */
+#filter-reset {
+  width: 100%;
+  padding: 6px 0;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--bd);
+  border-radius: 5px;
+  color: var(--mu);
+  font-size: 0.68rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-top: 2px;
+}
+#filter-reset:hover {
+  background: rgba(255,82,82,0.12);
+  border-color: var(--sc);
+  color: var(--sc);
+}
+#filter-count {
+  text-align: center;
+  font-size: 0.68rem;
+  color: var(--mu);
+  padding: 4px 0;
+}
+#filter-count strong { color: var(--ac); }
+
+@media (max-width: 600px) {
+  #topbar { padding: 0.5rem 0.8rem; }
+  #topbar h1 { font-size: 1rem; }
+  #legend { right: 4px; bottom: 8px; padding: 8px 10px; font-size: 0.65rem; max-width: 170px; }
+  #info-panel { left: 4px; bottom: 8px; padding: 6px 8px; font-size: 0.65rem; }
+  #filter-panel { width: 240px; right: 4px; padding: 10px 12px; }
+  #filter-toggle { right: 4px; top: 6px; padding: 0.35rem 0.7rem; font-size: 0.68rem; }
+  #map-search { width: 110px; font-size: 0.68rem; }
+  .leaflet-popup-content { min-width: 180px !important; max-width: 240px !important; }
+  .popup-card { padding: 6px 0; }
+  .popup-header { font-size: 0.85rem; }
+  .popup-stat { font-size: 0.7rem; }
+}
+
+/* ── Loading spinner ── */
+#loading-overlay {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: var(--bg);
+  z-index: 9999;
+  display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 0.8rem;
+  transition: opacity 0.35s ease;
+  pointer-events: all;
+}
+#loading-overlay.fade-out { opacity: 0; pointer-events: none; }
+#loading-spinner {
+  width: 34px; height: 34px;
+  border: 3px solid rgba(79,195,247,0.15);
+  border-top-color: var(--ac);
+  border-radius: 50%;
+  animation: ky-spin 0.75s linear infinite;
+}
+@keyframes ky-spin { to { transform: rotate(360deg); } }
+#loading-text { color: var(--mu); font-size: 0.76rem; letter-spacing: 0.3px; }
+
+/* ── Legend lean gradient ── */
+.legend-lean-bar {
+  height: 7px; border-radius: 4px;
+  background: linear-gradient(to right, #4fc3f7, #81d4fa 25%, #b0bec5 50%, #ff8a80 75%, #ff5252);
+  margin-bottom: 4px;
+}
+.legend-lean-labels {
+  display: flex; justify-content: space-between;
+  font-size: 0.6rem; color: var(--mu);
+}
+.legend-divider { height: 1px; background: rgba(255,255,255,0.08); margin: 8px 0; }
+</style>
+</head>
+<body>
+
+<div id="loading-overlay">
+  <div id="loading-spinner"></div>
+  <div id="loading-text">Loading 467 cities…</div>
+</div>
+
+<div id="topbar">
+  <h1>📍 US Criminal Activity</h1>
+  <div style="display:flex;align-items:center;gap:10px;">
+    <div style="display:flex;align-items:center;gap:0;position:relative;">
+      <input type="text" id="map-search" placeholder="🔍 Search cities…" autocomplete="off">
+      <button id="map-search-clear" title="Clear search">✕</button>
+    </div>
+    <span style="color:var(--mu);font-size:0.72rem;" id="city-count">Loading…</span>
+    <a class="nav-link" href="https://djlilbooduh.github.io/ufo-dashboard/census_dashboard.html">📊 Census Dashboard</a>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<div id="legend">
+  <h3>Population</h3>
+  <div class="legend-row"><span class="legend-dot" style="background:#4fc3f7;"></span><span class="legend-label">&lt; 25K</span></div>
+  <div class="legend-row"><span class="legend-dot" style="background:#ffab40;"></span><span class="legend-label">25K – 100K</span></div>
+  <div class="legend-row"><span class="legend-dot" style="background:#ff6d00;"></span><span class="legend-label">100K – 500K</span></div>
+  <div class="legend-row"><span class="legend-dot" style="background:#ff5252;"></span><span class="legend-label">&gt; 500K</span></div>
+  <div class="legend-divider"></div>
+  <h3>Political Lean (2024)</h3>
+  <div class="legend-lean-bar"></div>
+  <div class="legend-lean-labels">
+    <span style="color:#4fc3f7;font-weight:600">Dem</span>
+    <span style="color:var(--mu)">Swing</span>
+    <span style="color:#ff5252;font-weight:600">GOP</span>
+  </div>
+</div>
+
+<!-- Filter toggle button -->
+<button id="filter-toggle" title="Toggle filter panel">
+  ⚙️ <span>Filters</span> <span class="arrow">▸</span>
+</button>
+
+<!-- Filter panel -->
+<div id="filter-panel" class="collapsed">
+  <h3>⚙️ Filters <span id="filter-count">Showing all <strong>467</strong> cities</span></h3>
+
+  <div class="filter-group" id="filter-pop">
+    <div class="filter-label">
+      <span class="name">👥 Population</span>
+      <span class="range-val" id="pop-range-label">1K — 4M</span>
+    </div>
+    <div class="dual-range">
+      <div class="track-bg"></div>
+      <input type="range" id="pop-min" min="1000" max="4000000" value="1000" step="1000">
+      <input type="range" id="pop-max" min="1000" max="4000000" value="4000000" step="1000">
+    </div>
+    <div class="range-ticks"><span>1K</span><span>4M</span></div>
+  </div>
+
+  <div class="filter-group" id="filter-income">
+    <div class="filter-label">
+      <span class="name">💰 Median Income</span>
+      <span class="range-val" id="income-range-label">$20K — $250K</span>
+    </div>
+    <div class="dual-range">
+      <div class="track-bg"></div>
+      <input type="range" id="income-min" min="20000" max="250000" value="20000" step="1000">
+      <input type="range" id="income-max" min="20000" max="250000" value="250000" step="1000">
+    </div>
+    <div class="range-ticks"><span>$20K</span><span>$250K</span></div>
+  </div>
+
+  <div class="filter-group" id="filter-lean">
+    <div class="filter-label">
+      <span class="name">🗳️ Political Lean</span>
+      <span class="range-val" id="lean-range-label">R+40 — D+60</span>
+    </div>
+    <div class="dual-range">
+      <div class="track-bg"></div>
+      <input type="range" id="lean-min" min="-40" max="60" value="-40" step="1">
+      <input type="range" id="lean-max" min="-40" max="60" value="60" step="1">
+    </div>
+    <div class="range-ticks"><span>R+40</span><span>D+60</span></div>
+  </div>
+
+  <button id="filter-reset">↺ Reset Filters</button>
+</div>
+
+<div id="info-panel">
+  <span id="info-text">Hover over a city for details</span>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// ── City data ── (embedded from city_coords.json)
+const CITIES = [{"name":"Anaheim city","lat":33.855502,"lng":-117.758657,"population":344553,"income":90583,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Bakersfield city","lat":35.353171,"lng":-119.037919,"population":408366,"income":77397,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Chula Vista city","lat":32.62767,"lng":-117.01517,"population":275030,"income":105173,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Concord city","lat":37.972184,"lng":-122.001587,"population":124260,"income":109195,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Corona city","lat":33.861969,"lng":-117.565495,"population":158839,"income":106438,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Elk Grove city","lat":38.414621,"lng":-121.384961,"population":177221,"income":122229,"county":"Sacramento County","lean":"D","dem_pct_2024":58.1,"gop_pct_2024":38.4,"county_fips":"06067"},{"name":"Escondido city","lat":33.133053,"lng":-117.074043,"population":149913,"income":84477,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Fontana city","lat":34.109686,"lng":-117.462888,"population":211921,"income":98187,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Fremont city","lat":37.49446,"lng":-121.94115,"population":228518,"income":176350,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Fresno city","lat":36.782684,"lng":-119.793359,"population":543615,"income":66804,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Fullerton city","lat":33.885716,"lng":-117.928025,"population":141278,"income":104219,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Garden Grove city","lat":33.778782,"lng":-117.960472,"population":170603,"income":90166,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Glendale city","lat":34.181393,"lng":-118.24583,"population":192270,"income":84262,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Hayward city","lat":37.626826,"lng":-122.104015,"population":159201,"income":113775,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Huntington Beach city","lat":33.698007,"lng":-118.003834,"population":196010,"income":119885,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Irvine city","lat":33.678399,"lng":-117.771254,"population":308160,"income":129647,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Lancaster city","lat":34.693558,"lng":-118.175305,"population":170013,"income":76083,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Long Beach city","lat":33.780791,"lng":-118.16818,"population":458491,"income":83969,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Los Angeles city","lat":34.019394,"lng":-118.410825,"population":3857897,"income":80366,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Modesto city","lat":37.637533,"lng":-121.003049,"population":218614,"income":77899,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Moreno Valley city","lat":33.923253,"lng":-117.205685,"population":210378,"income":87477,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Oakland city","lat":37.769846,"lng":-122.22569,"population":438072,"income":97369,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Oceanside city","lat":33.224601,"lng":-117.306291,"population":172542,"income":93724,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Ontario city","lat":34.037648,"lng":-117.604433,"population":178347,"income":82806,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Orange city","lat":33.786971,"lng":-117.861265,"population":138723,"income":116945,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Oxnard city","lat":34.199436,"lng":-119.207515,"population":201014,"income":93372,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Palmdale city","lat":34.591038,"lng":-118.105403,"population":165487,"income":81151,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Pasadena city","lat":34.160602,"lng":-118.137954,"population":136462,"income":103778,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Pomona city","lat":34.058494,"lng":-117.761091,"population":148391,"income":78869,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Rancho Cucamonga city","lat":34.130306,"lng":-117.566067,"population":174693,"income":109511,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Riverside city","lat":33.938143,"lng":-117.393168,"population":316241,"income":88575,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Roseville city","lat":38.770296,"lng":-121.319634,"population":152438,"income":117354,"county":"Placer County","lean":"lean-R","dem_pct_2024":44.3,"gop_pct_2024":52.8,"county_fips":"06061"},{"name":"Sacramento city","lat":38.567694,"lng":-121.468161,"population":524802,"income":83753,"county":"Sacramento County","lean":"D","dem_pct_2024":58.1,"gop_pct_2024":38.4,"county_fips":"06067"},{"name":"Salinas city","lat":36.690217,"lng":-121.633793,"population":161993,"income":89150,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"San Bernardino city","lat":34.14114,"lng":-117.294635,"population":221774,"income":63988,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"San Diego city","lat":32.814977,"lng":-117.135562,"population":1385061,"income":104321,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"San Francisco city","lat":37.727239,"lng":-123.032229,"population":836321,"income":141446,"county":"San Francisco","lean":"D","dem_pct_2024":80.3,"gop_pct_2024":15.5,"county_fips":"06075"},{"name":"San Jose city","lat":37.296011,"lng":-121.814552,"population":990054,"income":141565,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Santa Ana city","lat":33.736332,"lng":-117.8829,"population":311639,"income":88354,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Santa Clara city","lat":37.364621,"lng":-121.967973,"population":129239,"income":173670,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Santa Clarita city","lat":34.416504,"lng":-118.500693,"population":229021,"income":119926,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Santa Rosa city","lat":38.445824,"lng":-122.706181,"population":177216,"income":97410,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Simi Valley city","lat":34.266887,"lng":-118.748458,"population":125769,"income":117703,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Stockton city","lat":37.977243,"lng":-121.308865,"population":320470,"income":76851,"county":"San Joaquin County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":48.9,"county_fips":"06077"},{"name":"Sunnyvale city","lat":37.385797,"lng":-122.026316,"population":153455,"income":181862,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Thousand Oaks city","lat":34.19329,"lng":-118.874235,"population":125676,"income":134367,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Torrance city","lat":33.830453,"lng":-118.356618,"population":143499,"income":113105,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Vallejo city","lat":38.106909,"lng":-122.262339,"population":124637,"income":89496,"county":"Solano County","lean":"D","dem_pct_2024":60.0,"gop_pct_2024":37.0,"county_fips":"06095"},{"name":"Victorville city","lat":34.527735,"lng":-117.353579,"population":135983,"income":70663,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Visalia city","lat":36.32803,"lng":-119.328519,"population":142649,"income":79952,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Antioch city","lat":37.978336,"lng":-121.796064,"population":115759,"income":94256,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Berkeley city","lat":37.865673,"lng":-122.298725,"population":120223,"income":108558,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Burbank city","lat":34.190079,"lng":-118.326405,"population":105165,"income":95816,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Carlsbad city","lat":33.129284,"lng":-117.284183,"population":114500,"income":139326,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Carson city","lat":33.840367,"lng":-118.249574,"population":93523,"income":107391,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Chico city","lat":39.758951,"lng":-121.81772,"population":102032,"income":67929,"county":"Butte County","lean":"lean-R","dem_pct_2024":46.8,"gop_pct_2024":49.9,"county_fips":"06007"},{"name":"Chino city","lat":33.978037,"lng":-117.657719,"population":91775,"income":103845,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Citrus Heights city","lat":38.69481,"lng":-121.287953,"population":87036,"income":77167,"county":"Sacramento County","lean":"D","dem_pct_2024":58.1,"gop_pct_2024":38.4,"county_fips":"06067"},{"name":"Clovis city","lat":36.828967,"lng":-119.684922,"population":122719,"income":100360,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Compton city","lat":33.894047,"lng":-118.227469,"population":93525,"income":74270,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Costa Mesa city","lat":33.665905,"lng":-117.912336,"population":110538,"income":110073,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Daly City city","lat":37.686193,"lng":-122.468669,"population":102560,"income":119570,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Downey city","lat":33.938237,"lng":-118.130856,"population":111793,"income":87400,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"El Cajon city","lat":32.801673,"lng":-116.960468,"population":104909,"income":66478,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"El Monte city","lat":34.074633,"lng":-118.029136,"population":107066,"income":64484,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Fairfield city","lat":38.26206,"lng":-122.032386,"population":119985,"income":102321,"county":"Solano County","lean":"D","dem_pct_2024":60.0,"gop_pct_2024":37.0,"county_fips":"06095"},{"name":"Hawthorne city","lat":33.914775,"lng":-118.348083,"population":85933,"income":72719,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Hemet city","lat":33.734068,"lng":-116.996808,"population":90646,"income":53623,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Hesperia city","lat":34.397038,"lng":-117.315198,"population":100141,"income":68971,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Indio city","lat":33.731639,"lng":-116.235971,"population":90669,"income":78709,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Inglewood city","lat":33.956068,"lng":-118.344274,"population":105575,"income":71029,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Jurupa Valley city","lat":34.002591,"lng":-117.467612,"population":106244,"income":96190,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Lake Forest city","lat":33.654946,"lng":-117.675848,"population":85846,"income":131378,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Livermore city","lat":37.686977,"lng":-121.759781,"population":85870,"income":153602,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Manteca city","lat":37.792839,"lng":-121.226076,"population":86521,"income":94718,"county":"San Joaquin County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":48.9,"county_fips":"06077"},{"name":"Menifee city","lat":33.689858,"lng":-117.184383,"population":107020,"income":89183,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Merced city","lat":37.305712,"lng":-120.477905,"population":89766,"income":59938,"county":"Merced County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06047"},{"name":"Mission Viejo city","lat":33.609335,"lng":-117.656471,"population":92415,"income":136071,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Murrieta city","lat":33.572134,"lng":-117.190444,"population":111621,"income":109780,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Newport Beach city","lat":33.597332,"lng":-117.890352,"population":84304,"income":158461,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Norwalk city","lat":33.9076,"lng":-118.083453,"population":100713,"income":98709,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Redding city","lat":40.570277,"lng":-122.366766,"population":93268,"income":69443,"county":"Shasta County","lean":"R","dem_pct_2024":30.5,"gop_pct_2024":67.0,"county_fips":"06089"},{"name":"Rialto city","lat":34.117419,"lng":-117.389215,"population":103866,"income":85521,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Richmond city","lat":37.952278,"lng":-122.360609,"population":115396,"income":90038,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"San Buenaventura (Ventura) city","lat":34.26778,"lng":-119.254206,"population":109900,"income":100407,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"San Leandro city","lat":37.703368,"lng":-122.163036,"population":88531,"income":98063,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"San Marcos city","lat":33.132567,"lng":-117.169892,"population":94078,"income":105286,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"San Mateo city","lat":37.56031,"lng":-122.3106,"population":103555,"income":152669,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"San Ramon city","lat":37.765258,"lng":-121.931987,"population":85734,"income":197358,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Santa Barbara city","lat":34.403592,"lng":-119.713714,"population":88024,"income":101672,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Santa Maria city","lat":34.933076,"lng":-120.443559,"population":109880,"income":84617,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Santa Monica city","lat":34.010911,"lng":-118.498245,"population":91535,"income":109739,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"South Gate city","lat":33.944159,"lng":-118.192761,"population":91836,"income":71315,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Temecula city","lat":33.493073,"lng":-117.131734,"population":110404,"income":117840,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Tracy city","lat":37.727396,"lng":-121.452195,"population":95358,"income":118253,"county":"San Joaquin County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":48.9,"county_fips":"06077"},{"name":"Vacaville city","lat":38.358621,"lng":-121.968601,"population":102085,"income":108580,"county":"Solano County","lean":"D","dem_pct_2024":60.0,"gop_pct_2024":37.0,"county_fips":"06095"},{"name":"Vista city","lat":33.189683,"lng":-117.238579,"population":98646,"income":91854,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"West Covina city","lat":34.055941,"lng":-117.909937,"population":107436,"income":98570,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Westminster city","lat":33.752292,"lng":-117.993868,"population":90147,"income":82686,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Whittier city","lat":33.966827,"lng":-118.020122,"population":85925,"income":92374,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Alameda city","lat":37.741911,"lng":-122.259914,"population":76876,"income":132015,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Alhambra city","lat":34.083571,"lng":-118.136444,"population":81483,"income":85189,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Apple Valley town","lat":34.533376,"lng":-117.210358,"population":75478,"income":65926,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Baldwin Park city","lat":34.082824,"lng":-117.971286,"population":70720,"income":79087,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Bellflower city","lat":33.887821,"lng":-118.12725,"population":77396,"income":77602,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Brentwood city","lat":37.935578,"lng":-121.71897,"population":64609,"income":139567,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Buena Park city","lat":33.857353,"lng":-118.007373,"population":83052,"income":108187,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Camarillo city","lat":34.221823,"lng":-119.032154,"population":70244,"income":109390,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Chino Hills city","lat":33.942969,"lng":-117.725648,"population":78024,"income":122600,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Davis city","lat":38.556147,"lng":-121.737793,"population":66801,"income":87421,"county":"Yolo County","lean":"D","dem_pct_2024":66.3,"gop_pct_2024":30.1,"county_fips":"06113"},{"name":"Dublin city","lat":37.716137,"lng":-121.896229,"population":70542,"income":205046,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Eastvale city","lat":33.963274,"lng":-117.582369,"population":70179,"income":161322,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Encinitas city","lat":33.050632,"lng":-117.263616,"population":61585,"income":150471,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Folsom city","lat":38.666597,"lng":-121.141635,"population":82140,"income":139263,"county":"Sacramento County","lean":"D","dem_pct_2024":58.1,"gop_pct_2024":38.4,"county_fips":"06067"},{"name":"Laguna Niguel city","lat":33.528654,"lng":-117.701253,"population":64023,"income":140605,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"La Habra city","lat":33.927927,"lng":-117.951554,"population":62233,"income":98158,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Lake Elsinore city","lat":33.685956,"lng":-117.335404,"population":71516,"income":96527,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Lakewood city","lat":33.847135,"lng":-118.121894,"population":80510,"income":116794,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"La Mesa city","lat":32.769495,"lng":-117.021923,"population":60835,"income":84337,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Lodi city","lat":38.12161,"lng":-121.290765,"population":67008,"income":84402,"county":"San Joaquin County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":48.9,"county_fips":"06077"},{"name":"Lynwood city","lat":33.923959,"lng":-118.201655,"population":65291,"income":70236,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Madera city","lat":36.965774,"lng":-120.08616,"population":67133,"income":63619,"county":"Madera County","lean":"R","dem_pct_2024":38.4,"gop_pct_2024":59.2,"county_fips":"06039"},{"name":"Milpitas city","lat":37.433141,"lng":-121.890924,"population":78216,"income":176822,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Montebello city","lat":34.015444,"lng":-118.111012,"population":61376,"income":74955,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Mountain View city","lat":37.399686,"lng":-122.079269,"population":82363,"income":179917,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Napa city","lat":38.297872,"lng":-122.300741,"population":78816,"income":102231,"county":"Napa County","lean":"D","dem_pct_2024":65.9,"gop_pct_2024":31.1,"county_fips":"06055"},{"name":"Palo Alto city","lat":37.39652,"lng":-122.143088,"population":67231,"income":220408,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Perris city","lat":33.789849,"lng":-117.222171,"population":79349,"income":82523,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Pico Rivera city","lat":33.989524,"lng":-118.089295,"population":60821,"income":86956,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Pittsburg city","lat":38.016771,"lng":-121.896948,"population":75868,"income":101099,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Pleasanton city","lat":37.667185,"lng":-121.88123,"population":77500,"income":186206,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Porterville city","lat":36.063542,"lng":-119.0336,"population":62765,"income":59012,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Rancho Cordova city","lat":38.577079,"lng":-121.236187,"population":80656,"income":89120,"county":"Sacramento County","lean":"D","dem_pct_2024":58.1,"gop_pct_2024":38.4,"county_fips":"06067"},{"name":"Redlands city","lat":34.053506,"lng":-117.170476,"population":72985,"income":99158,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Redondo Beach city","lat":33.849538,"lng":-118.400755,"population":69814,"income":144588,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Redwood City city","lat":37.515274,"lng":-122.213672,"population":82423,"income":150840,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Rocklin city","lat":38.806868,"lng":-121.249696,"population":72340,"income":120916,"county":"Placer County","lean":"lean-R","dem_pct_2024":44.3,"gop_pct_2024":52.8,"county_fips":"06061"},{"name":"San Clemente city","lat":33.449143,"lng":-117.61312,"population":63510,"income":134735,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"San Rafael city","lat":37.981003,"lng":-122.50693,"population":60604,"income":109317,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Santa Cruz city","lat":36.974385,"lng":-122.035268,"population":60953,"income":111427,"county":"Santa Cruz County","lean":"D","dem_pct_2024":75.3,"gop_pct_2024":20.9,"county_fips":"06087"},{"name":"South San Francisco city","lat":37.655104,"lng":-122.376234,"population":64487,"income":135909,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Tulare city","lat":36.199366,"lng":-119.341921,"population":69984,"income":69517,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Turlock city","lat":37.505524,"lng":-120.859269,"population":72400,"income":79807,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Tustin city","lat":33.73092,"lng":-117.810599,"population":79035,"income":108435,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Union City city","lat":37.602759,"lng":-122.01884,"population":68141,"income":137194,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Upland city","lat":34.116073,"lng":-117.659922,"population":78940,"income":101407,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Walnut Creek city","lat":37.902666,"lng":-122.040479,"population":69790,"income":135665,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Woodland city","lat":38.67116,"lng":-121.750043,"population":61256,"income":87880,"county":"Yolo County","lean":"D","dem_pct_2024":66.3,"gop_pct_2024":30.1,"county_fips":"06113"},{"name":"Yorba Linda city","lat":33.889038,"lng":-117.77207,"population":67407,"income":152060,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Yuba City city","lat":39.129842,"lng":-121.641549,"population":69545,"income":72322,"county":"Sutter County","lean":"R","dem_pct_2024":33.1,"gop_pct_2024":64.5,"county_fips":"06101"},{"name":"Aliso Viejo city","lat":33.57921,"lng":-117.728898,"population":51320,"income":137970,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Arcadia city","lat":34.132689,"lng":-118.036347,"population":55550,"income":116142,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Azusa city","lat":34.138524,"lng":-117.912253,"population":49318,"income":85727,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Beaumont city","lat":33.876722,"lng":-116.953009,"population":54817,"income":105164,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Brea city","lat":33.925178,"lng":-117.865111,"population":47337,"income":124837,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Campbell city","lat":37.280244,"lng":-121.953296,"population":42848,"income":147128,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Cathedral City city","lat":33.835487,"lng":-116.463103,"population":52047,"income":67031,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Ceres city","lat":37.598786,"lng":-120.968081,"population":48918,"income":76862,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Cerritos city","lat":33.867745,"lng":-118.069471,"population":48340,"income":133953,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Colton city","lat":34.054525,"lng":-117.325029,"population":53798,"income":69581,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Covina city","lat":34.090475,"lng":-117.882143,"population":50143,"income":94792,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Cupertino city","lat":37.3194,"lng":-122.044957,"population":58886,"income":231139,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Cypress city","lat":33.818477,"lng":-118.038307,"population":49531,"income":124167,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Danville town","lat":37.812142,"lng":-121.969824,"population":43426,"income":223206,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Delano city","lat":35.76643,"lng":-119.264221,"population":50835,"income":61817,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Diamond Bar city","lat":34.001573,"lng":-117.817601,"population":53750,"income":106602,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"El Centro city","lat":32.786351,"lng":-115.560206,"population":44186,"income":56093,"county":"Imperial County","lean":"lean-R","dem_pct_2024":48.3,"gop_pct_2024":49.1,"county_fips":"06025"},{"name":"Fountain Valley city","lat":33.710582,"lng":-117.951129,"population":56358,"income":111797,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Gardena city","lat":33.894417,"lng":-118.307522,"population":59765,"income":79291,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Gilroy city","lat":37.006407,"lng":-121.585321,"population":58561,"income":131554,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Glendora city","lat":34.144964,"lng":-117.847804,"population":51350,"income":111915,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Hanford city","lat":36.327741,"lng":-119.65462,"population":59389,"income":73544,"county":"Kings County","lean":"R","dem_pct_2024":37.4,"gop_pct_2024":60.4,"county_fips":"06031"},{"name":"Highland city","lat":34.113473,"lng":-117.165729,"population":56690,"income":77979,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Hollister city","lat":36.855599,"lng":-121.398598,"population":43003,"income":101979,"county":"San Benito County","lean":"D","dem_pct_2024":54.9,"gop_pct_2024":42.3,"county_fips":"06069"},{"name":"Huntington Park city","lat":33.979248,"lng":-118.217438,"population":53658,"income":56952,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"La Mirada city","lat":33.902045,"lng":-118.008961,"population":46945,"income":110177,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Lincoln city","lat":38.874464,"lng":-121.292886,"population":51629,"income":108108,"county":"Placer County","lean":"lean-R","dem_pct_2024":44.3,"gop_pct_2024":52.8,"county_fips":"06061"},{"name":"Lompoc city","lat":34.662689,"lng":-120.470837,"population":43819,"income":70038,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Los Banos city","lat":37.063184,"lng":-120.840304,"population":46776,"income":70893,"county":"Merced County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06047"},{"name":"Monterey Park city","lat":34.04838,"lng":-118.133165,"population":59639,"income":77605,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Morgan Hill city","lat":37.132495,"lng":-121.641891,"population":45152,"income":159758,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"National City city","lat":32.665862,"lng":-117.097361,"population":55960,"income":64248,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Newark city","lat":37.504253,"lng":-122.03191,"population":47145,"income":164909,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Novato city","lat":38.085087,"lng":-122.548272,"population":52689,"income":112193,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Oakley city","lat":37.996149,"lng":-121.693624,"population":44311,"income":132067,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Palm Desert city","lat":33.737635,"lng":-116.364145,"population":51551,"income":79508,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Palm Springs city","lat":33.803361,"lng":-116.53828,"population":44998,"income":71979,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Paramount city","lat":33.898883,"lng":-118.166629,"population":52546,"income":70912,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Petaluma city","lat":38.242251,"lng":-122.628769,"population":59321,"income":109823,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Placentia city","lat":33.881158,"lng":-117.854783,"population":52384,"income":110575,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Poway city","lat":32.987677,"lng":-117.021814,"population":48515,"income":143825,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Rancho Santa Margarita city","lat":33.632332,"lng":-117.599008,"population":47257,"income":146827,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Rohnert Park city","lat":38.347617,"lng":-122.700896,"population":44461,"income":96635,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Rosemead city","lat":34.06888,"lng":-118.08268,"population":50340,"income":72248,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"San Jacinto city","lat":33.798864,"lng":-116.995914,"population":54756,"income":78281,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"San Luis Obispo city","lat":35.266195,"lng":-120.668438,"population":48039,"income":66711,"county":"San Luis Obispo County","lean":"D","dem_pct_2024":53.9,"gop_pct_2024":43.0,"county_fips":"06079"},{"name":"Santee city","lat":32.85499,"lng":-116.986056,"population":59485,"income":105613,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Watsonville city","lat":36.923587,"lng":-121.772395,"population":51968,"income":74785,"county":"Santa Cruz County","lean":"D","dem_pct_2024":75.3,"gop_pct_2024":20.9,"county_fips":"06087"},{"name":"West Sacramento city","lat":38.554368,"lng":-121.548663,"population":54496,"income":90791,"county":"Yolo County","lean":"D","dem_pct_2024":66.3,"gop_pct_2024":30.1,"county_fips":"06113"},{"name":"Yucaipa city","lat":34.033582,"lng":-117.042898,"population":54348,"income":92401,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Adelanto city","lat":34.580902,"lng":-117.439458,"population":38010,"income":68419,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Atascadero city","lat":35.485718,"lng":-120.687942,"population":29735,"income":88830,"county":"San Luis Obispo County","lean":"D","dem_pct_2024":53.9,"gop_pct_2024":43.0,"county_fips":"06079"},{"name":"Atwater city","lat":37.354049,"lng":-120.597177,"population":32013,"income":63945,"county":"Merced County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06047"},{"name":"Banning city","lat":33.945903,"lng":-116.899044,"population":30680,"income":57699,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Bell city","lat":33.979704,"lng":-118.179249,"population":32830,"income":60641,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Bell Gardens city","lat":33.964379,"lng":-118.154437,"population":38661,"income":55372,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Beverly Hills city","lat":34.07923,"lng":-118.402437,"population":31955,"income":127979,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Burlingame city","lat":37.589952,"lng":-122.363342,"population":30526,"income":168832,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Calexico city","lat":32.684859,"lng":-115.494738,"population":38476,"income":50021,"county":"Imperial County","lean":"lean-R","dem_pct_2024":48.3,"gop_pct_2024":49.1,"county_fips":"06025"},{"name":"Claremont city","lat":34.124925,"lng":-117.713923,"population":36553,"income":122127,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Coachella city","lat":33.69038,"lng":-116.143128,"population":42594,"income":67558,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Culver City city","lat":34.00582,"lng":-118.396781,"population":39993,"income":122312,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Dana Point city","lat":33.475452,"lng":-117.693087,"population":32883,"income":127246,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Desert Hot Springs city","lat":33.957591,"lng":-116.542284,"population":32786,"income":50349,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"East Palo Alto city","lat":37.46778,"lng":-122.13255,"population":29143,"income":104832,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"El Paso de Robles (Paso Robles) city","lat":35.628513,"lng":-120.650356,"population":31399,"income":93098,"county":"San Luis Obispo County","lean":"D","dem_pct_2024":53.9,"gop_pct_2024":43.0,"county_fips":"06079"},{"name":"Foster City city","lat":37.56482,"lng":-122.250782,"population":32964,"income":193633,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Goleta city","lat":34.435441,"lng":-119.858946,"population":32693,"income":118039,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Laguna Hills city","lat":33.591216,"lng":-117.697621,"population":30921,"income":122778,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"La Puente city","lat":34.032333,"lng":-117.95352,"population":37404,"income":84811,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"La Quinta city","lat":33.646083,"lng":-116.275297,"population":38299,"income":97628,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Lathrop city","lat":37.808666,"lng":-121.317765,"population":32696,"income":118605,"county":"San Joaquin County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":48.9,"county_fips":"06077"},{"name":"La Verne city","lat":34.120521,"lng":-117.769928,"population":30804,"income":104565,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Lawndale city","lat":33.888435,"lng":-118.353143,"population":31113,"income":83538,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Los Altos city","lat":37.368431,"lng":-122.09657,"population":30736,"income":250001,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Los Gatos town","lat":37.229912,"lng":-121.956814,"population":32773,"income":207891,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Manhattan Beach city","lat":33.90087,"lng":-118.420715,"population":34584,"income":193904,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Martinez city","lat":37.998116,"lng":-122.114419,"population":36926,"income":125436,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Menlo Park city","lat":37.479731,"lng":-122.148055,"population":32775,"income":206588,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Monrovia city","lat":34.163984,"lng":-117.984646,"population":37553,"income":97083,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Montclair city","lat":34.071493,"lng":-117.69808,"population":37809,"income":76338,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Monterey city","lat":36.601193,"lng":-121.88311,"population":29772,"income":104110,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Moorpark city","lat":34.285942,"lng":-118.87704,"population":35957,"income":149403,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Pacifica city","lat":37.606598,"lng":-122.47723,"population":37527,"income":156819,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Pleasant Hill city","lat":37.954163,"lng":-122.075772,"population":34335,"income":144513,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Rancho Palos Verdes city","lat":33.738517,"lng":-118.369685,"population":41259,"income":175307,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"San Bruno city","lat":37.62556,"lng":-122.431397,"population":42612,"income":135976,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"San Carlos city","lat":37.499034,"lng":-122.267572,"population":29797,"income":233333,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"San Dimas city","lat":34.107957,"lng":-117.808529,"population":34099,"income":105833,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"San Gabriel city","lat":34.094636,"lng":-118.098469,"population":38764,"income":87592,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"San Juan Capistrano city","lat":33.500889,"lng":-117.654388,"population":34998,"income":127893,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"San Pablo city","lat":37.962861,"lng":-122.342581,"population":31771,"income":78215,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Santa Paula city","lat":34.354941,"lng":-119.066271,"population":31202,"income":77130,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Saratoga city","lat":37.268326,"lng":-122.02622,"population":30335,"income":241348,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Seaside city","lat":36.625058,"lng":-121.817804,"population":31964,"income":82303,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Stanton city","lat":33.800233,"lng":-117.993449,"population":38639,"income":81455,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Suisun City city","lat":38.248334,"lng":-122.010066,"population":29205,"income":97083,"county":"Solano County","lean":"D","dem_pct_2024":60.0,"gop_pct_2024":37.0,"county_fips":"06095"},{"name":"Temple City city","lat":34.102156,"lng":-118.057971,"population":35749,"income":102449,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"West Hollywood city","lat":34.088268,"lng":-118.371831,"population":35090,"income":94844,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Wildomar city","lat":33.617278,"lng":-117.258312,"population":36953,"income":95677,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Agoura Hills city","lat":34.148942,"lng":-118.76393,"population":19881,"income":171944,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Albany city","lat":37.89065,"lng":-122.318116,"population":19768,"income":135927,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"American Canyon city","lat":38.179033,"lng":-122.259602,"population":21698,"income":123935,"county":"Napa County","lean":"D","dem_pct_2024":65.9,"gop_pct_2024":31.1,"county_fips":"06055"},{"name":"Barstow city","lat":34.866987,"lng":-117.043035,"population":25198,"income":51811,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Belmont city","lat":37.514398,"lng":-122.294475,"population":27505,"income":207609,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Benicia city","lat":38.072733,"lng":-122.155169,"population":26861,"income":125040,"county":"Solano County","lean":"D","dem_pct_2024":60.0,"gop_pct_2024":37.0,"county_fips":"06095"},{"name":"Brawley city","lat":32.978454,"lng":-115.528569,"population":26934,"income":60370,"county":"Imperial County","lean":"lean-R","dem_pct_2024":48.3,"gop_pct_2024":49.1,"county_fips":"06025"},{"name":"Calabasas city","lat":34.134252,"lng":-118.666455,"population":22869,"income":157938,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Corcoran city","lat":36.084057,"lng":-119.561268,"population":22626,"income":55909,"county":"Kings County","lean":"R","dem_pct_2024":37.4,"gop_pct_2024":60.4,"county_fips":"06031"},{"name":"Cudahy city","lat":33.964003,"lng":-118.182561,"population":22325,"income":52748,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Dinuba city","lat":36.545121,"lng":-119.398805,"population":25201,"income":59048,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Duarte city","lat":34.160967,"lng":-117.950447,"population":21921,"income":97952,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"El Cerrito city","lat":37.919574,"lng":-122.302519,"population":25781,"income":127475,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Eureka city","lat":40.797594,"lng":-124.154191,"population":26302,"income":60253,"county":"Humboldt County","lean":"D","dem_pct_2024":62.0,"gop_pct_2024":33.6,"county_fips":"06023"},{"name":"Galt city","lat":38.268458,"lng":-121.298952,"population":25665,"income":86327,"county":"Sacramento County","lean":"D","dem_pct_2024":58.1,"gop_pct_2024":38.4,"county_fips":"06067"},{"name":"Greenfield city","lat":36.323977,"lng":-121.243699,"population":19759,"income":78946,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Hercules city","lat":38.021427,"lng":-122.288929,"population":26245,"income":130583,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Imperial city","lat":32.838801,"lng":-115.572012,"population":20943,"income":83214,"county":"Imperial County","lean":"lean-R","dem_pct_2024":48.3,"gop_pct_2024":49.1,"county_fips":"06025"},{"name":"Imperial Beach city","lat":32.56914,"lng":-117.114921,"population":25897,"income":79071,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"La Ca\u00f1ada Flintridge city","lat":34.20969,"lng":-118.200139,"population":20094,"income":221451,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Lafayette city","lat":37.891004,"lng":-122.119529,"population":25277,"income":222393,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Laguna Beach city","lat":33.54337,"lng":-117.761801,"population":22777,"income":140508,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Lemon Grove city","lat":32.733071,"lng":-117.034413,"population":27489,"income":79278,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Lemoore city","lat":36.294365,"lng":-119.798253,"population":27023,"income":82189,"county":"Kings County","lean":"R","dem_pct_2024":37.4,"gop_pct_2024":60.4,"county_fips":"06031"},{"name":"Loma Linda city","lat":34.042932,"lng":-117.248872,"population":25021,"income":82824,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Lomita city","lat":33.793306,"lng":-118.317455,"population":20409,"income":92920,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Marina city","lat":36.680256,"lng":-121.789368,"population":22324,"income":88518,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Maywood city","lat":33.988548,"lng":-118.187707,"population":24593,"income":61655,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Millbrae city","lat":37.59897,"lng":-122.401991,"population":22589,"income":157567,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Norco city","lat":33.925519,"lng":-117.551958,"population":25211,"income":125117,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Oakdale city","lat":37.761666,"lng":-120.846434,"population":23155,"income":86478,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Oroville city","lat":39.495423,"lng":-121.560069,"population":19855,"income":51893,"county":"Butte County","lean":"lean-R","dem_pct_2024":46.8,"gop_pct_2024":49.9,"county_fips":"06007"},{"name":"Patterson city","lat":37.475876,"lng":-121.153882,"population":24306,"income":93542,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Port Hueneme city","lat":34.162143,"lng":-119.204177,"population":21691,"income":76655,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Reedley city","lat":36.598364,"lng":-119.446687,"population":25446,"income":62923,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Ridgecrest city","lat":35.628542,"lng":-117.663992,"population":28138,"income":88107,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Riverbank city","lat":37.726022,"lng":-120.94484,"population":24881,"income":90216,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"San Fernando city","lat":34.288652,"lng":-118.436243,"population":23716,"income":79694,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Sanger city","lat":36.698967,"lng":-119.557483,"population":26515,"income":74428,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Seal Beach city","lat":33.754399,"lng":-118.07132,"population":24868,"income":83045,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Selma city","lat":36.571728,"lng":-119.613879,"population":24586,"income":55839,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Shafter city","lat":35.479421,"lng":-119.201285,"population":20618,"income":67989,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Soledad city","lat":36.434522,"lng":-121.317759,"population":24476,"income":93204,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"South Lake Tahoe city","lat":38.928218,"lng":-119.981,"population":21319,"income":73940,"county":"El Dorado County","lean":"R","dem_pct_2024":42.6,"gop_pct_2024":54.6,"county_fips":"06017"},{"name":"South Pasadena city","lat":34.108957,"lng":-118.156615,"population":26297,"income":128105,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Twentynine Palms city","lat":34.147817,"lng":-116.065959,"population":28738,"income":56000,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Walnut city","lat":34.037195,"lng":-117.855606,"population":27857,"income":133762,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Wasco city","lat":35.593785,"lng":-119.367101,"population":26222,"income":55521,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Windsor town","lat":38.542099,"lng":-122.808613,"population":26179,"income":129004,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Yucca Valley town","lat":34.123347,"lng":-116.421557,"population":21744,"income":55302,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Arcata city","lat":40.862291,"lng":-124.074967,"population":18578,"income":48731,"county":"Humboldt County","lean":"D","dem_pct_2024":62.0,"gop_pct_2024":33.6,"county_fips":"06023"},{"name":"Arroyo Grande city","lat":35.124149,"lng":-120.584533,"population":18412,"income":103258,"county":"San Luis Obispo County","lean":"D","dem_pct_2024":53.9,"gop_pct_2024":43.0,"county_fips":"06079"},{"name":"Artesia city","lat":33.867591,"lng":-118.080634,"population":16044,"income":97712,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Arvin city","lat":35.194361,"lng":-118.830569,"population":19478,"income":49984,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Auburn city","lat":38.895075,"lng":-121.076739,"population":13758,"income":77760,"county":"Placer County","lean":"lean-R","dem_pct_2024":44.3,"gop_pct_2024":52.8,"county_fips":"06061"},{"name":"Avenal city","lat":36.031107,"lng":-120.116174,"population":13441,"income":52986,"county":"Kings County","lean":"R","dem_pct_2024":37.4,"gop_pct_2024":60.4,"county_fips":"06031"},{"name":"Blythe city","lat":33.65352,"lng":-114.621823,"population":17824,"income":51984,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"California City city","lat":35.14659,"lng":-117.869346,"population":14821,"income":55271,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Carpinteria city","lat":34.385234,"lng":-119.500759,"population":13100,"income":104233,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Chowchilla city","lat":37.116104,"lng":-120.241978,"population":18876,"income":63308,"county":"Madera County","lean":"R","dem_pct_2024":38.4,"gop_pct_2024":59.2,"county_fips":"06039"},{"name":"Clearlake city","lat":38.960045,"lng":-122.633232,"population":16604,"income":41580,"county":"Lake County","lean":"lean-R","dem_pct_2024":47.8,"gop_pct_2024":49.2,"county_fips":"06033"},{"name":"Coalinga city","lat":36.133056,"lng":-120.339029,"population":17352,"income":78014,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Coronado city","lat":32.657625,"lng":-117.156539,"population":18558,"income":135056,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Dixon city","lat":38.447512,"lng":-121.824223,"population":19158,"income":98798,"county":"Solano County","lean":"D","dem_pct_2024":60.0,"gop_pct_2024":37.0,"county_fips":"06095"},{"name":"El Segundo city","lat":33.910367,"lng":-118.425079,"population":16863,"income":149149,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Emeryville city","lat":37.838473,"lng":-122.301682,"population":12756,"income":120302,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Fillmore city","lat":34.398958,"lng":-118.91746,"population":16665,"income":90343,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Grand Terrace city","lat":34.031085,"lng":-117.3131,"population":13069,"income":83668,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Grass Valley city","lat":39.220305,"lng":-121.052654,"population":14126,"income":48850,"county":"Nevada County","lean":"D","dem_pct_2024":54.4,"gop_pct_2024":42.1,"county_fips":"06057"},{"name":"Grover Beach city","lat":35.120888,"lng":-120.619664,"population":12687,"income":82534,"county":"San Luis Obispo County","lean":"D","dem_pct_2024":53.9,"gop_pct_2024":43.0,"county_fips":"06079"},{"name":"Hawaiian Gardens city","lat":33.830482,"lng":-118.073451,"population":13816,"income":76025,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Hermosa Beach city","lat":33.869819,"lng":-118.405296,"population":19248,"income":152019,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Kerman city","lat":36.725041,"lng":-120.062473,"population":16492,"income":57556,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"King City city","lat":36.216283,"lng":-121.131962,"population":13512,"income":63090,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Kingsburg city","lat":36.525193,"lng":-119.566565,"population":12589,"income":82562,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Laguna Woods city","lat":33.612058,"lng":-117.730319,"population":17342,"income":60235,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"La Palma city","lat":33.850616,"lng":-118.039565,"population":15375,"income":115833,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Larkspur city","lat":37.940544,"lng":-122.530229,"population":12856,"income":134744,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Lindsay city","lat":36.209096,"lng":-119.093259,"population":12572,"income":50563,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Livingston city","lat":37.387281,"lng":-120.724943,"population":14450,"income":76158,"county":"Merced County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06047"},{"name":"McFarland city","lat":35.667286,"lng":-119.230722,"population":14138,"income":51801,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Marysville city","lat":39.151535,"lng":-121.583374,"population":12703,"income":58150,"county":"Yuba County","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":61.5,"county_fips":"06115"},{"name":"Mendota city","lat":36.757595,"lng":-120.380474,"population":12554,"income":46458,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Mill Valley city","lat":37.908122,"lng":-122.542325,"population":14064,"income":208466,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Moraga town","lat":37.845693,"lng":-122.123217,"population":16790,"income":199800,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Orinda city","lat":37.88161,"lng":-122.168595,"population":19472,"income":250001,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Pacific Grove city","lat":36.622577,"lng":-121.92643,"population":15003,"income":105568,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Palos Verdes Estates city","lat":33.774271,"lng":-118.425754,"population":13047,"income":247500,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Parlier city","lat":36.608993,"lng":-119.54361,"population":14545,"income":50910,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Pinole city","lat":38.001702,"lng":-122.318488,"population":18835,"income":120833,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Rancho Mirage city","lat":33.763838,"lng":-116.430388,"population":17375,"income":109943,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Red Bluff city","lat":40.173515,"lng":-122.241525,"population":14592,"income":50216,"county":"Tehama County","lean":"R","dem_pct_2024":27.9,"gop_pct_2024":69.7,"county_fips":"06103"},{"name":"Ripon city","lat":37.742007,"lng":-121.130373,"population":16117,"income":120061,"county":"San Joaquin County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":48.9,"county_fips":"06077"},{"name":"San Anselmo town","lat":37.982117,"lng":-122.569921,"population":12711,"income":170457,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Santa Fe Springs city","lat":33.933565,"lng":-118.062611,"population":19310,"income":86857,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Solana Beach city","lat":32.9913,"lng":-117.258062,"population":12841,"income":150820,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"South El Monte city","lat":34.050377,"lng":-118.048384,"population":19413,"income":67153,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Susanville city","lat":40.433674,"lng":-120.628306,"population":14992,"income":57607,"county":"Lassen County","lean":"R","dem_pct_2024":21.8,"gop_pct_2024":75.8,"county_fips":"06035"},{"name":"Truckee town","lat":39.350548,"lng":-120.193943,"population":16942,"income":125995,"county":"Nevada County","lean":"D","dem_pct_2024":54.4,"gop_pct_2024":42.1,"county_fips":"06057"},{"name":"Ukiah city","lat":39.146614,"lng":-123.210326,"population":16419,"income":67122,"county":"Mendocino County","lean":"D","dem_pct_2024":61.3,"gop_pct_2024":34.5,"county_fips":"06045"},{"name":"Anderson city","lat":40.449755,"lng":-122.29507,"population":11282,"income":50306,"county":"Shasta County","lean":"R","dem_pct_2024":30.5,"gop_pct_2024":67.0,"county_fips":"06089"},{"name":"Calimesa city","lat":33.987357,"lng":-117.054214,"population":10680,"income":90313,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Canyon Lake city","lat":33.688302,"lng":-117.263547,"population":11107,"income":124948,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Capitola city","lat":36.976083,"lng":-121.954012,"population":9813,"income":96412,"county":"Santa Cruz County","lean":"D","dem_pct_2024":75.3,"gop_pct_2024":20.9,"county_fips":"06087"},{"name":"Clayton city","lat":37.940322,"lng":-121.930075,"population":10962,"income":172226,"county":"Contra Costa County","lean":"D","dem_pct_2024":67.3,"gop_pct_2024":29.4,"county_fips":"06013"},{"name":"Cloverdale city","lat":38.794795,"lng":-123.014703,"population":8933,"income":104238,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Commerce city","lat":33.994523,"lng":-118.149952,"population":12072,"income":71768,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Corning city","lat":39.9282,"lng":-122.182009,"population":8168,"income":55732,"county":"Tehama County","lean":"R","dem_pct_2024":27.9,"gop_pct_2024":69.7,"county_fips":"06103"},{"name":"Corte Madera town","lat":37.931846,"lng":-122.507738,"population":10101,"income":220771,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Cotati city","lat":38.328492,"lng":-122.710049,"population":7533,"income":112841,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Escalon city","lat":37.791336,"lng":-120.999643,"population":7429,"income":86875,"county":"San Joaquin County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":48.9,"county_fips":"06077"},{"name":"Exeter city","lat":36.294137,"lng":-119.145953,"population":10280,"income":71198,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Fairfax town","lat":37.988532,"lng":-122.595208,"population":7523,"income":131875,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Farmersville city","lat":36.304739,"lng":-119.208605,"population":10336,"income":57832,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Firebaugh city","lat":36.853745,"lng":-120.453746,"population":8301,"income":47594,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Fortuna city","lat":40.587084,"lng":-124.142161,"population":12413,"income":61603,"county":"Humboldt County","lean":"D","dem_pct_2024":62.0,"gop_pct_2024":33.6,"county_fips":"06023"},{"name":"Gonzales city","lat":36.505979,"lng":-121.442918,"population":8526,"income":76060,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Guadalupe city","lat":34.964929,"lng":-120.573127,"population":8422,"income":71048,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Half Moon Bay city","lat":37.467319,"lng":-122.440485,"population":11454,"income":153199,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Healdsburg city","lat":38.622526,"lng":-122.865133,"population":11274,"income":100082,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Hillsborough town","lat":37.557206,"lng":-122.358541,"population":11122,"income":250001,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Hughson city","lat":37.602135,"lng":-120.866004,"population":7541,"income":92303,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Live Oak city","lat":39.278802,"lng":-121.662439,"population":9264,"income":66590,"county":"Sutter County","lean":"R","dem_pct_2024":33.1,"gop_pct_2024":64.5,"county_fips":"06101"},{"name":"Los Alamitos city","lat":33.796911,"lng":-118.061244,"population":11784,"income":98539,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Los Altos Hills town","lat":37.366808,"lng":-122.13865,"population":8367,"income":250001,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Malibu city","lat":34.02586,"lng":-118.759643,"population":10516,"income":192159,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Morro Bay city","lat":35.366773,"lng":-120.868289,"population":10717,"income":92553,"county":"San Luis Obispo County","lean":"D","dem_pct_2024":53.9,"gop_pct_2024":43.0,"county_fips":"06079"},{"name":"Newman city","lat":37.316128,"lng":-121.021424,"population":12299,"income":75344,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Ojai city","lat":34.449199,"lng":-119.246664,"population":7576,"income":79202,"county":"Ventura County","lean":"D","dem_pct_2024":56.1,"gop_pct_2024":41.0,"county_fips":"06111"},{"name":"Orange Cove city","lat":36.621145,"lng":-119.31875,"population":9607,"income":38447,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Orland city","lat":39.746082,"lng":-122.185545,"population":8252,"income":64531,"county":"Glenn County","lean":"R","dem_pct_2024":31.2,"gop_pct_2024":66.1,"county_fips":"06021"},{"name":"Piedmont city","lat":37.822545,"lng":-122.230024,"population":11012,"income":250001,"county":"Alameda County","lean":"D","dem_pct_2024":74.6,"gop_pct_2024":21.0,"county_fips":"06001"},{"name":"Pismo Beach city","lat":35.153173,"lng":-120.673874,"population":8024,"income":112913,"county":"San Luis Obispo County","lean":"D","dem_pct_2024":53.9,"gop_pct_2024":43.0,"county_fips":"06079"},{"name":"Placerville city","lat":38.731116,"lng":-120.797677,"population":10730,"income":70602,"county":"El Dorado County","lean":"R","dem_pct_2024":42.6,"gop_pct_2024":54.6,"county_fips":"06017"},{"name":"Rio Vista city","lat":38.176672,"lng":-121.703406,"population":10002,"income":86970,"county":"Solano County","lean":"D","dem_pct_2024":60.0,"gop_pct_2024":37.0,"county_fips":"06095"},{"name":"Rolling Hills Estates city","lat":33.778442,"lng":-118.327432,"population":8158,"income":187500,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"San Marino city","lat":34.122671,"lng":-118.112911,"population":12279,"income":187633,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Scotts Valley city","lat":37.055499,"lng":-122.011769,"population":12138,"income":140887,"county":"Santa Cruz County","lean":"D","dem_pct_2024":75.3,"gop_pct_2024":20.9,"county_fips":"06087"},{"name":"Sebastopol city","lat":38.400003,"lng":-122.827586,"population":7466,"income":99600,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Shasta Lake city","lat":40.676564,"lng":-122.380909,"population":10334,"income":61319,"county":"Shasta County","lean":"R","dem_pct_2024":30.5,"gop_pct_2024":67.0,"county_fips":"06089"},{"name":"Sierra Madre city","lat":34.168771,"lng":-118.050216,"population":11020,"income":141094,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Signal Hill city","lat":33.803461,"lng":-118.169735,"population":11563,"income":102303,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Sonoma city","lat":38.290331,"lng":-122.459831,"population":10726,"income":101281,"county":"Sonoma County","lean":"D","dem_pct_2024":71.4,"gop_pct_2024":25.2,"county_fips":"06097"},{"name":"Tehachapi city","lat":35.142959,"lng":-118.446036,"population":12366,"income":67785,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Tiburon town","lat":37.886768,"lng":-122.462619,"population":9035,"income":212794,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Waterford city","lat":37.642685,"lng":-120.754152,"population":9177,"income":73092,"county":"Stanislaus County","lean":"R","dem_pct_2024":43.2,"gop_pct_2024":54.2,"county_fips":"06099"},{"name":"Westlake Village city","lat":34.136675,"lng":-118.817367,"population":7829,"income":174069,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Winters city","lat":38.533271,"lng":-121.975473,"population":7453,"income":132650,"county":"Yolo County","lean":"D","dem_pct_2024":66.3,"gop_pct_2024":30.1,"county_fips":"06113"},{"name":"Woodlake city","lat":36.412828,"lng":-119.100718,"population":7651,"income":46607,"county":"Tulare County","lean":"R","dem_pct_2024":38.5,"gop_pct_2024":59.2,"county_fips":"06107"},{"name":"Yreka city","lat":41.724032,"lng":-122.63157,"population":7832,"income":42664,"county":"Siskiyou County","lean":"R","dem_pct_2024":38.7,"gop_pct_2024":58.0,"county_fips":"06093"},{"name":"Alturas city","lat":41.489136,"lng":-120.551286,"population":2703,"income":54634,"county":"Modoc County","lean":"R","dem_pct_2024":25.1,"gop_pct_2024":71.8,"county_fips":"06049"},{"name":"Angels city","lat":38.071037,"lng":-120.551729,"population":3721,"income":60353,"county":"Calaveras County","lean":"R","dem_pct_2024":34.7,"gop_pct_2024":62.8,"county_fips":"06009"},{"name":"Atherton town","lat":37.457072,"lng":-122.201058,"population":7021,"income":250001,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Avalon city","lat":33.343335,"lng":-118.317615,"population":3373,"income":91713,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Big Bear Lake city","lat":34.242888,"lng":-116.893893,"population":5038,"income":74728,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Bishop city","lat":37.366381,"lng":-118.395808,"population":3793,"income":82205,"county":"Inyo County","lean":"lean-R","dem_pct_2024":46.9,"gop_pct_2024":49.9,"county_fips":"06027"},{"name":"Brisbane city","lat":37.67575,"lng":-122.383302,"population":4718,"income":151593,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Buellton city","lat":34.615497,"lng":-120.194237,"population":5090,"income":96028,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Calipatria city","lat":33.168651,"lng":-115.485641,"population":6549,"income":52672,"county":"Imperial County","lean":"lean-R","dem_pct_2024":48.3,"gop_pct_2024":49.1,"county_fips":"06025"},{"name":"Calistoga city","lat":38.581408,"lng":-122.582696,"population":5159,"income":84892,"county":"Napa County","lean":"D","dem_pct_2024":65.9,"gop_pct_2024":31.1,"county_fips":"06055"},{"name":"Carmel-by-the-Sea city","lat":36.552881,"lng":-121.921919,"population":3186,"income":115729,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Colusa city","lat":39.200023,"lng":-122.009481,"population":6439,"income":68750,"county":"Colusa County","lean":"R","dem_pct_2024":34.6,"gop_pct_2024":62.9,"county_fips":"06011"},{"name":"Crescent City city","lat":41.764514,"lng":-124.200779,"population":6180,"income":41131,"county":"Del Norte County","lean":"R","dem_pct_2024":40.4,"gop_pct_2024":56.8,"county_fips":"06015"},{"name":"Del Mar city","lat":32.963945,"lng":-117.259804,"population":3921,"income":192845,"county":"San Diego County","lean":"D","dem_pct_2024":56.9,"gop_pct_2024":40.1,"county_fips":"06073"},{"name":"Dos Palos city","lat":36.985424,"lng":-120.633845,"population":5757,"income":50556,"county":"Merced County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06047"},{"name":"Fort Bragg city","lat":39.439803,"lng":-123.801757,"population":7001,"income":53580,"county":"Mendocino County","lean":"D","dem_pct_2024":61.3,"gop_pct_2024":34.5,"county_fips":"06045"},{"name":"Fowler city","lat":36.62412,"lng":-119.674699,"population":6930,"income":61071,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Gridley city","lat":39.362229,"lng":-121.69708,"population":7372,"income":57860,"county":"Butte County","lean":"lean-R","dem_pct_2024":46.8,"gop_pct_2024":49.9,"county_fips":"06007"},{"name":"Gustine city","lat":37.252549,"lng":-120.995513,"population":6118,"income":58321,"county":"Merced County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06047"},{"name":"Holtville city","lat":32.813781,"lng":-115.378319,"population":5606,"income":63438,"county":"Imperial County","lean":"lean-R","dem_pct_2024":48.3,"gop_pct_2024":49.1,"county_fips":"06025"},{"name":"Huron city","lat":36.204234,"lng":-120.095311,"population":6425,"income":44784,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Indian Wells city","lat":33.699892,"lng":-116.32955,"population":4830,"income":145313,"county":"Riverside County","lean":"lean-R","dem_pct_2024":48.0,"gop_pct_2024":49.3,"county_fips":"06065"},{"name":"Ione city","lat":38.362862,"lng":-120.947685,"population":5306,"income":78661,"county":"Amador County","lean":"R","dem_pct_2024":34.7,"gop_pct_2024":62.6,"county_fips":"06005"},{"name":"Jackson city","lat":38.348488,"lng":-120.772822,"population":5061,"income":75051,"county":"Amador County","lean":"R","dem_pct_2024":34.7,"gop_pct_2024":62.6,"county_fips":"06005"},{"name":"La Habra Heights city","lat":33.958959,"lng":-117.948973,"population":5546,"income":186837,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Lakeport city","lat":39.038333,"lng":-122.922633,"population":5085,"income":59294,"county":"Lake County","lean":"lean-R","dem_pct_2024":47.8,"gop_pct_2024":49.2,"county_fips":"06033"},{"name":"Loomis town","lat":38.809368,"lng":-121.195467,"population":6809,"income":103435,"county":"Placer County","lean":"lean-R","dem_pct_2024":44.3,"gop_pct_2024":52.8,"county_fips":"06061"},{"name":"Mammoth Lakes town","lat":37.624435,"lng":-118.988432,"population":7233,"income":87121,"county":"Mono County","lean":"D","dem_pct_2024":58.1,"gop_pct_2024":37.8,"county_fips":"06051"},{"name":"Monte Sereno city","lat":37.24041,"lng":-121.988235,"population":3459,"income":250001,"county":"Santa Clara County","lean":"D","dem_pct_2024":68.0,"gop_pct_2024":28.1,"county_fips":"06085"},{"name":"Mount Shasta city","lat":41.32088,"lng":-122.315481,"population":3208,"income":48157,"county":"Siskiyou County","lean":"R","dem_pct_2024":38.7,"gop_pct_2024":58.0,"county_fips":"06093"},{"name":"Needles city","lat":34.813426,"lng":-114.626639,"population":4882,"income":39876,"county":"San Bernardino County","lean":"lean-R","dem_pct_2024":47.5,"gop_pct_2024":49.7,"county_fips":"06071"},{"name":"Nevada City city","lat":39.259608,"lng":-121.033326,"population":3168,"income":69552,"county":"Nevada County","lean":"D","dem_pct_2024":54.4,"gop_pct_2024":42.1,"county_fips":"06057"},{"name":"Paradise town","lat":39.754192,"lng":-121.6064,"population":6793,"income":67042,"county":"Butte County","lean":"lean-R","dem_pct_2024":46.8,"gop_pct_2024":49.9,"county_fips":"06007"},{"name":"Portola Valley town","lat":37.365191,"lng":-122.232724,"population":4329,"income":250001,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Rio Dell city","lat":40.49557,"lng":-124.115163,"population":3371,"income":46055,"county":"Humboldt County","lean":"D","dem_pct_2024":62.0,"gop_pct_2024":33.6,"county_fips":"06023"},{"name":"St. Helena city","lat":38.512806,"lng":-122.468076,"population":5378,"income":158218,"county":"Napa County","lean":"D","dem_pct_2024":65.9,"gop_pct_2024":31.1,"county_fips":"06055"},{"name":"San Joaquin city","lat":36.605569,"lng":-120.189922,"population":3734,"income":51591,"county":"Fresno County","lean":"lean-R","dem_pct_2024":46.5,"gop_pct_2024":50.9,"county_fips":"06019"},{"name":"Sausalito city","lat":37.858369,"lng":-122.491844,"population":7171,"income":173030,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Solvang city","lat":34.593758,"lng":-120.13968,"population":6034,"income":118208,"county":"Santa Barbara County","lean":"D","dem_pct_2024":61.8,"gop_pct_2024":35.1,"county_fips":"06083"},{"name":"Sonora city","lat":37.981707,"lng":-120.382755,"population":4965,"income":62621,"county":"Tuolumne County","lean":"R","dem_pct_2024":37.9,"gop_pct_2024":59.7,"county_fips":"06109"},{"name":"Sutter Creek city","lat":38.392445,"lng":-120.798969,"population":2687,"income":68148,"county":"Amador County","lean":"R","dem_pct_2024":34.7,"gop_pct_2024":62.6,"county_fips":"06005"},{"name":"Taft city","lat":35.126696,"lng":-119.424194,"population":7228,"income":64479,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Villa Park city","lat":33.817985,"lng":-117.811293,"population":5776,"income":204750,"county":"Orange County","lean":"lean-D","dem_pct_2024":49.7,"gop_pct_2024":47.1,"county_fips":"06059"},{"name":"Weed city","lat":41.412087,"lng":-122.380966,"population":2765,"income":38966,"county":"Siskiyou County","lean":"R","dem_pct_2024":38.7,"gop_pct_2024":58.0,"county_fips":"06093"},{"name":"Wheatland city","lat":39.031163,"lng":-121.389996,"population":3790,"income":81827,"county":"Yuba County","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":61.5,"county_fips":"06115"},{"name":"Williams city","lat":39.14978,"lng":-122.138968,"population":5569,"income":93138,"county":"Colusa County","lean":"R","dem_pct_2024":34.6,"gop_pct_2024":62.9,"county_fips":"06011"},{"name":"Willits city","lat":39.405006,"lng":-123.348889,"population":4945,"income":55971,"county":"Mendocino County","lean":"D","dem_pct_2024":61.3,"gop_pct_2024":34.5,"county_fips":"06045"},{"name":"Willows city","lat":39.514752,"lng":-122.199178,"population":6239,"income":78179,"county":"Glenn County","lean":"R","dem_pct_2024":31.2,"gop_pct_2024":66.1,"county_fips":"06021"},{"name":"Woodside town","lat":37.42215,"lng":-122.258593,"population":5181,"income":250001,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Yountville city","lat":38.393512,"lng":-122.365536,"population":3396,"income":79696,"county":"Napa County","lean":"D","dem_pct_2024":65.9,"gop_pct_2024":31.1,"county_fips":"06055"},{"name":"Belvedere city","lat":37.873567,"lng":-122.470995,"population":2415,"income":250001,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"Biggs city","lat":39.410187,"lng":-121.713322,"population":2254,"income":73542,"county":"Butte County","lean":"lean-R","dem_pct_2024":46.8,"gop_pct_2024":49.9,"county_fips":"06007"},{"name":"Colfax city","lat":39.093799,"lng":-120.953222,"population":2095,"income":74583,"county":"Placer County","lean":"lean-R","dem_pct_2024":44.3,"gop_pct_2024":52.8,"county_fips":"06061"},{"name":"Colma town","lat":37.676697,"lng":-122.452821,"population":1441,"income":121488,"county":"San Mateo County","lean":"D","dem_pct_2024":73.5,"gop_pct_2024":23.2,"county_fips":"06081"},{"name":"Del Rey Oaks city","lat":36.589699,"lng":-121.829527,"population":1556,"income":130909,"county":"Monterey County","lean":"D","dem_pct_2024":63.4,"gop_pct_2024":33.5,"county_fips":"06053"},{"name":"Dunsmuir city","lat":41.231526,"lng":-122.270939,"population":1519,"income":47708,"county":"Siskiyou County","lean":"R","dem_pct_2024":38.7,"gop_pct_2024":58.0,"county_fips":"06093"},{"name":"Ferndale city","lat":40.578144,"lng":-124.261247,"population":1525,"income":62090,"county":"Humboldt County","lean":"D","dem_pct_2024":62.0,"gop_pct_2024":33.6,"county_fips":"06023"},{"name":"Hidden Hills city","lat":34.163744,"lng":-118.66121,"population":2079,"income":250001,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Irwindale city","lat":34.111855,"lng":-117.963614,"population":1352,"income":113250,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Maricopa city","lat":35.050942,"lng":-119.406605,"population":1015,"income":38676,"county":"Kern County","lean":"R","dem_pct_2024":38.2,"gop_pct_2024":59.3,"county_fips":"06029"},{"name":"Montague city","lat":41.727088,"lng":-122.530511,"population":1486,"income":55096,"county":"Siskiyou County","lean":"R","dem_pct_2024":38.7,"gop_pct_2024":58.0,"county_fips":"06093"},{"name":"Plymouth city","lat":38.471741,"lng":-120.857194,"population":1250,"income":81250,"county":"Amador County","lean":"R","dem_pct_2024":34.7,"gop_pct_2024":62.6,"county_fips":"06005"},{"name":"Portola city","lat":39.820799,"lng":-120.474293,"population":2462,"income":42385,"county":"Plumas County","lean":"R","dem_pct_2024":39.9,"gop_pct_2024":56.9,"county_fips":"06063"},{"name":"Rolling Hills city","lat":33.760016,"lng":-118.347168,"population":1511,"income":250001,"county":"Los Angeles County","lean":"D","dem_pct_2024":64.8,"gop_pct_2024":31.9,"county_fips":"06037"},{"name":"Ross town","lat":37.963821,"lng":-122.561614,"population":2626,"income":250001,"county":"Marin County","lean":"D","dem_pct_2024":80.6,"gop_pct_2024":16.7,"county_fips":"06041"},{"name":"San Juan Bautista city","lat":36.845132,"lng":-121.536949,"population":2120,"income":108750,"county":"San Benito County","lean":"D","dem_pct_2024":54.9,"gop_pct_2024":42.3,"county_fips":"06069"},{"name":"Westmorland city","lat":33.038996,"lng":-115.622441,"population":1734,"income":28929,"county":"Imperial County","lean":"lean-R","dem_pct_2024":48.3,"gop_pct_2024":49.1,"county_fips":"06025"}];
+
+// ── Map init ──
+const map = L.map('map', {
+  center: [37.0, -119.5],
+  zoom: 7,
+  zoomControl: true,
+  attributionControl: true,
+}).setMaxBounds([[31.0, -125.5], [42.5, -113.5]]);
+
+// Dark tile layer
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 19
+}).addTo(map);
+
+// ── Color by population ──
+function popColor(pop) {
+  if (pop > 500000) return '#ff5252';   // red
+  if (pop > 100000) return '#ff6d00';   // orange
+  if (pop > 25000)  return '#ffab40';   // yellow
+  return '#4fc3f7';                      // blue
+}
+
+function popRadius(pop) {
+  // Min 4px, max 18px, sqrt scale
+  const r = 4 + 14 * Math.sqrt(pop / 3857897); // max pop ~3.86M (LA)
+  return Math.max(4, Math.min(18, r));
+}
+
+function popOpacity(pop) {
+  return 0.75;
+}
+
+// ── Format helpers ──
+function fmt(n) {
+  if (n == null || n === 0) return '—';
+  if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000) return (n/1000).toFixed(0) + 'K';
+  return n.toString();
+}
+function fmtMoney(n) {
+  if (!n) return '—';
+  return '$' + n.toLocaleString();
+}
+
+// ── Add markers ──
+const markers = [];
+CITIES.forEach(c => {
+  if (!c.lat || !c.lng) return;
+
+  const color = popColor(c.population);
+  const radius = popRadius(c.population);
+
+  const marker = L.circleMarker([c.lat, c.lng], {
+    radius: radius,
+    fillColor: color,
+    color: 'rgba(255,255,255,0.25)',
+    weight: 1.2,
+    opacity: 0.8,
+    fillOpacity: popOpacity(c.population),
+    // Store data
+    cityData: c
+  });
+  marker._cityData = c;  // explicit store for search/filter access
+
+  // ── Popup (rich mini card) ──
+  const demPct = c.dem_pct_2024 || 50;
+  const gopPct = c.gop_pct_2024 || 50;
+  const margin = demPct - gopPct;
+  const leanVal = margin > 0 ? 'D+' + margin.toFixed(1) : 'R+' + Math.abs(margin).toFixed(1);
+  const leanColorClass = c.lean === 'D' ? 'lean-D' : c.lean === 'R' ? 'lean-R' :
+                         c.lean === 'lean-D' ? 'lean-lean-D' : 'lean-lean-R';
+  // Scale bar widths to fill the track; normalize so dem+gop = 100% of total
+  const totalVote = demPct + gopPct;
+  const demBarW = totalVote > 0 ? (demPct / totalVote) * 100 : 50;
+  const gopBarW = totalVote > 0 ? (gopPct / totalVote) * 100 : 50;
+  const cityEncoded = encodeURIComponent(c.name + ', California');
+
+  marker.bindPopup(`
+    <div class="popup-card">
+      <div class="popup-header">📍 ${c.name}</div>
+      <div class="popup-stat"><span class="popup-stat-label">Population</span><span class="popup-stat-val">${c.population.toLocaleString()}</span></div>
+      <div class="popup-stat"><span class="popup-stat-label">Median Income</span><span class="popup-stat-val">$${c.income.toLocaleString()}</span></div>
+      <div class="popup-stat"><span class="popup-stat-label">County</span><span class="popup-stat-val">${c.county}</span></div>
+      <div class="popup-vote-bar">
+        <div class="popup-vote-labels">
+          <span class="dem-label">Dem ${demPct.toFixed(1)}%</span>
+          <span class="gop-label">GOP ${gopPct.toFixed(1)}%</span>
+        </div>
+        <div class="popup-bar-track">
+          <div class="popup-bar-dem" style="width:${demBarW.toFixed(1)}%"></div>
+          <div class="popup-bar-gop" style="width:${gopBarW.toFixed(1)}%"></div>
+        </div>
+        <div class="popup-lean ${leanColorClass}">${leanVal}</div>
+      </div>
+      <a class="popup-link-btn" href="census_dashboard.html?city=${cityEncoded}" target="_blank">📊 View Full Report →</a>
+    </div>
+  `);
+
+  // Hover effects — only for non-filtered markers
+  marker.on('mouseover', function(e) {
+    if (this._filtered) return;
+    this.setStyle({
+      radius: radius * 1.5,
+      fillOpacity: 0.95,
+      weight: 2.5,
+      color: '#ffffff'
+    });
+    this.bringToFront();
+    const leanVal = margin > 0 ? 'D+' + margin.toFixed(1) : 'R+' + Math.abs(margin).toFixed(1);
+    document.getElementById('info-text').innerHTML =
+      `<strong>${c.name}</strong> · Pop: ${c.population.toLocaleString()} · Income: $${c.income.toLocaleString()} · ${leanVal}`;
+  });
+  marker.on('mouseout', function(e) {
+    if (this._filtered) return;
+    this.setStyle({
+      radius: radius,
+      fillOpacity: popOpacity(c.population),
+      weight: 1.2,
+      color: 'rgba(255,255,255,0.25)'
+    });
+    updateInfoText();
+  });
+
+  // Prevent clicks on filtered-out markers from opening popups
+  marker.on('click', function(e) {
+    if (this._filtered) {
+      this.closePopup();
+    }
+  });
+
+  marker.addTo(map);
+  markers.push(marker);
+});
+
+// ── Info panel + count helpers ──
+function updateInfoText() {
+  const total = markers.length;
+  const visible = markers.filter(m => !m._filtered).length;
+  if (visible === total) {
+    document.getElementById('info-text').innerHTML = `Showing all <strong>${total}</strong> of ${total} cities`;
+  } else {
+    document.getElementById('info-text').innerHTML = `Showing <strong>${visible}</strong> of ${total} cities`;
+  }
+}
+
+function updateCityCount() {
+  const total = markers.length;
+  const visible = markers.filter(m => !m._filtered).length;
+  document.getElementById('city-count').textContent = visible + ' / ' + total + ' cities';
+}
+
+// ── Filter state ──
+const filterState = {
+  popMin: 1000,
+  popMax: 4000000,
+  incomeMin: 20000,
+  incomeMax: 250000,
+  leanMin: -40,
+  leanMax: 60,
+  searchQuery: ''
+};
+
+// ── Unified filter function (AND-combines search + all sliders) ──
+function applyAllFilters() {
+  const q = filterState.searchQuery;
+  let visibleCount = 0;
+
+  markers.forEach(m => {
+    const c = m._cityData;
+    if (!c) { m._filtered = true; m.setStyle({ fillOpacity: 0.06, opacity: 0.12 }); return; }
+
+    // Search filter
+    const nameMatch = !q || c.name.toLowerCase().includes(q);
+
+    // Population filter
+    const popMatch = c.population >= filterState.popMin && c.population <= filterState.popMax;
+
+    // Income filter
+    const incomeMatch = c.income >= filterState.incomeMin && c.income <= filterState.incomeMax;
+
+    // Lean filter (margin: D margin positive, R margin negative)
+    const margin = (c.dem_pct_2024 || 50) - (c.gop_pct_2024 || 50);
+    const leanMatch = margin >= filterState.leanMin && margin <= filterState.leanMax;
+
+    const allMatch = nameMatch && popMatch && incomeMatch && leanMatch;
+
+    if (allMatch) {
+      m._filtered = false;
+      m.setStyle({ fillOpacity: popOpacity(c.population), opacity: 1 });
+    } else {
+      m._filtered = true;
+      m.setStyle({ fillOpacity: 0.06, opacity: 0.12 });
+      m.closePopup();
+    }
+
+    if (allMatch) visibleCount++;
+  });
+
+  // Update all count displays
+  const total = markers.length;
+  document.getElementById('city-count').textContent = visibleCount + ' / ' + total + ' cities';
+  document.getElementById('filter-count').innerHTML = 'Showing <strong>' + visibleCount + '</strong> of ' + total + ' cities';
+  document.getElementById('info-text').innerHTML = visibleCount === total
+    ? 'Showing all <strong>' + total + '</strong> of ' + total + ' cities'
+    : 'Showing <strong>' + visibleCount + '</strong> of ' + total + ' cities';
+}
+
+// Override updateInfoText and updateCityCount to use unified filter
+function updateInfoText() {
+  // Handled by applyAllFilters, but keep for hover reset
+  const total = markers.length;
+  const visible = markers.filter(m => !m._filtered).length;
+  document.getElementById('info-text').innerHTML = visible === total
+    ? 'Showing all <strong>' + total + '</strong> of ' + total + ' cities'
+    : 'Showing <strong>' + visible + '</strong> of ' + total + ' cities';
+}
+
+function updateCityCount() {
+  applyAllFilters();
+}
+
+// ── Search filter ──
+const searchInput = document.getElementById('map-search');
+const searchClear = document.getElementById('map-search-clear');
+
+searchInput.addEventListener('input', function() {
+  filterState.searchQuery = this.value.toLowerCase().trim();
+  searchClear.classList.toggle('visible', filterState.searchQuery.length > 0);
+  applyAllFilters();
+});
+
+searchClear.addEventListener('click', function() {
+  searchInput.value = '';
+  filterState.searchQuery = '';
+  searchClear.classList.remove('visible');
+  applyAllFilters();
+  searchInput.focus();
+});
+
+searchInput.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    this.value = '';
+    filterState.searchQuery = '';
+    searchClear.classList.remove('visible');
+    applyAllFilters();
+    this.blur();
+  }
+});
+
+// ── Slider helpers ──
+function fmtPop(val) {
+  if (val >= 1000000) return (val/1000000).toFixed(1) + 'M';
+  if (val >= 1000) return (val/1000).toFixed(0) + 'K';
+  return val.toString();
+}
+
+function fmtIncome(val) {
+  if (val >= 1000) return '$' + (val/1000).toFixed(0) + 'K';
+  return '$' + val;
+}
+
+function fmtLean(val) {
+  if (val > 0) return 'D+' + val;
+  if (val < 0) return 'R+' + Math.abs(val);
+  return 'Even';
+}
+
+// ── Population slider ──
+const popMin = document.getElementById('pop-min');
+const popMax = document.getElementById('pop-max');
+const popLabel = document.getElementById('pop-range-label');
+
+function syncPopSliders() {
+  let min = parseInt(popMin.value);
+  let max = parseInt(popMax.value);
+  if (min > max) { const t = min; min = max; max = t; }
+  popMin.value = min;
+  popMax.value = max;
+  filterState.popMin = min;
+  filterState.popMax = max;
+  popLabel.textContent = fmtPop(min) + ' — ' + fmtPop(max);
+  applyAllFilters();
+}
+
+popMin.addEventListener('input', syncPopSliders);
+popMax.addEventListener('input', syncPopSliders);
+
+// ── Income slider ──
+const incMin = document.getElementById('income-min');
+const incMax = document.getElementById('income-max');
+const incLabel = document.getElementById('income-range-label');
+
+function syncIncSliders() {
+  let min = parseInt(incMin.value);
+  let max = parseInt(incMax.value);
+  if (min > max) { const t = min; min = max; max = t; }
+  incMin.value = min;
+  incMax.value = max;
+  filterState.incomeMin = min;
+  filterState.incomeMax = max;
+  incLabel.textContent = fmtIncome(min) + ' — ' + fmtIncome(max);
+  applyAllFilters();
+}
+
+incMin.addEventListener('input', syncIncSliders);
+incMax.addEventListener('input', syncIncSliders);
+
+// ── Lean slider ──
+const leanMin = document.getElementById('lean-min');
+const leanMax = document.getElementById('lean-max');
+const leanLabel = document.getElementById('lean-range-label');
+
+function syncLeanSliders() {
+  let min = parseInt(leanMin.value);
+  let max = parseInt(leanMax.value);
+  if (min > max) { const t = min; min = max; max = t; }
+  leanMin.value = min;
+  leanMax.value = max;
+  filterState.leanMin = min;
+  filterState.leanMax = max;
+  leanLabel.textContent = fmtLean(min) + ' — ' + fmtLean(max);
+  applyAllFilters();
+}
+
+leanMin.addEventListener('input', syncLeanSliders);
+leanMax.addEventListener('input', syncLeanSliders);
+
+// ── Filter panel toggle ──
+const filterToggle = document.getElementById('filter-toggle');
+const filterPanel = document.getElementById('filter-panel');
+const filterArrow = filterToggle.querySelector('.arrow');
+
+filterToggle.addEventListener('click', function() {
+  const collapsed = filterPanel.classList.toggle('collapsed');
+  filterArrow.textContent = collapsed ? '▸' : '▾';
+});
+
+// ── Reset filters ──
+document.getElementById('filter-reset').addEventListener('click', function() {
+  popMin.value = 1000;
+  popMax.value = 4000000;
+  incMin.value = 20000;
+  incMax.value = 250000;
+  leanMin.value = -40;
+  leanMax.value = 60;
+  filterState.popMin = 1000;
+  filterState.popMax = 4000000;
+  filterState.incomeMin = 20000;
+  filterState.incomeMax = 250000;
+  filterState.leanMin = -40;
+  filterState.leanMax = 60;
+  filterState.searchQuery = searchInput.value.toLowerCase().trim();
+  popLabel.textContent = '1K — 4M';
+  incLabel.textContent = '$20K — $250K';
+  leanLabel.textContent = 'R+40 — D+60';
+  searchClear.classList.toggle('visible', filterState.searchQuery.length > 0);
+  applyAllFilters();
+});
+
+// ── Initial state ──
+updateCityCount();
+
+// ── Hide loading spinner ──
+const loadingOverlay = document.getElementById('loading-overlay');
+if (loadingOverlay) {
+  loadingOverlay.classList.add('fade-out');
+  setTimeout(() => { if (loadingOverlay.parentNode) loadingOverlay.remove(); }, 400);
+}
+
+// Fit to all markers
+if (markers.length > 0) {
+  const group = L.featureGroup(markers);
+  map.fitBounds(group.getBounds().pad(0.05));
+}
+
+// ── Mobile: auto-collapse filter panel ──
+if (window.innerWidth < 768) {
+  if (!filterPanel.classList.contains('collapsed')) {
+    filterPanel.classList.add('collapsed');
+    filterArrow.textContent = '▸';
+  }
+}
+</script>
+</body>
+</html>

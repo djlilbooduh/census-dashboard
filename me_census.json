@@ -1,0 +1,1499 @@
+{
+  "cities": {
+    "Portland city, Maine": {
+      "state": "ME",
+      "fips": "2360545",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 68505,
+        "voting_age": 57959,
+        "voting_age_pct": 84.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 54461,
+          "pct": 79.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6045,
+          "pct": 8.82
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 62,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2173,
+          "pct": 3.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 12,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 257,
+          "pct": 0.38
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3392,
+          "pct": 4.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2103,
+          "pct": 3.07
+        }
+      ],
+      "economics": {
+        "median_household_income": 76174,
+        "poverty_count": 1293,
+        "poverty_pct": 1.89
+      },
+      "education": {
+        "bachelors_or_higher": 30609,
+        "bachelors_only": 18286,
+        "masters": 8501,
+        "professional": 2515,
+        "doctorate": 1307
+      }
+    },
+    "Lewiston city, Maine": {
+      "state": "ME",
+      "fips": "2338740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 37886,
+        "voting_age": 29695,
+        "voting_age_pct": 78.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30332,
+          "pct": 80.06
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4132,
+          "pct": 10.91
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 628,
+          "pct": 1.66
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 57,
+          "pct": 0.15
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1572,
+          "pct": 4.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1148,
+          "pct": 3.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 56558,
+        "poverty_count": 2044,
+        "poverty_pct": 5.4
+      },
+      "education": {
+        "bachelors_or_higher": 5442,
+        "bachelors_only": 3416,
+        "masters": 1592,
+        "professional": 233,
+        "doctorate": 201
+      }
+    },
+    "Bangor city, Maine": {
+      "state": "ME",
+      "fips": "2302795",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31663,
+        "voting_age": 26187,
+        "voting_age_pct": 82.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 27486,
+          "pct": 86.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 828,
+          "pct": 2.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 226,
+          "pct": 0.71
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 586,
+          "pct": 1.85
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 9,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 370,
+          "pct": 1.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1151,
+          "pct": 3.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1007,
+          "pct": 3.18
+        }
+      ],
+      "economics": {
+        "median_household_income": 58096,
+        "poverty_count": 907,
+        "poverty_pct": 2.86
+      },
+      "education": {
+        "bachelors_or_higher": 8315,
+        "bachelors_only": 4859,
+        "masters": 2261,
+        "professional": 564,
+        "doctorate": 631
+      }
+    },
+    "South Portland city, Maine": {
+      "state": "ME",
+      "fips": "2371990",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 26780,
+        "voting_age": 22634,
+        "voting_age_pct": 84.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 22089,
+          "pct": 82.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1722,
+          "pct": 6.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 37,
+          "pct": 0.14
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 758,
+          "pct": 2.83
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 59,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1233,
+          "pct": 4.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 882,
+          "pct": 3.29
+        }
+      ],
+      "economics": {
+        "median_household_income": 84563,
+        "poverty_count": 206,
+        "poverty_pct": 0.77
+      },
+      "education": {
+        "bachelors_or_higher": 9690,
+        "bachelors_only": 6135,
+        "masters": 2581,
+        "professional": 537,
+        "doctorate": 437
+      }
+    },
+    "Auburn city, Maine": {
+      "state": "ME",
+      "fips": "2302060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 24294,
+        "voting_age": 19352,
+        "voting_age_pct": 79.66
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 22011,
+          "pct": 90.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 705,
+          "pct": 2.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 242,
+          "pct": 1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.08
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 749,
+          "pct": 3.08
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 567,
+          "pct": 2.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 66552,
+        "poverty_count": 713,
+        "poverty_pct": 2.93
+      },
+      "education": {
+        "bachelors_or_higher": 4877,
+        "bachelors_only": 3352,
+        "masters": 1102,
+        "professional": 259,
+        "doctorate": 164
+      }
+    },
+    "Biddeford city, Maine": {
+      "state": "ME",
+      "fips": "2304860",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 22463,
+        "voting_age": 18873,
+        "voting_age_pct": 84.02
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 20729,
+          "pct": 92.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 214,
+          "pct": 0.95
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 365,
+          "pct": 1.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 38,
+          "pct": 0.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 543,
+          "pct": 2.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 568,
+          "pct": 2.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 69794,
+        "poverty_count": 1182,
+        "poverty_pct": 5.26
+      },
+      "education": {
+        "bachelors_or_higher": 4759,
+        "bachelors_only": 3157,
+        "masters": 1177,
+        "professional": 212,
+        "doctorate": 213
+      }
+    },
+    "Sanford city, Maine": {
+      "state": "ME",
+      "fips": "2365725",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 22095,
+        "voting_age": 17269,
+        "voting_age_pct": 78.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19469,
+          "pct": 88.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 378,
+          "pct": 1.71
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 475,
+          "pct": 2.15
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 45,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1158,
+          "pct": 5.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 561,
+          "pct": 2.54
+        }
+      ],
+      "economics": {
+        "median_household_income": 70570,
+        "poverty_count": 753,
+        "poverty_pct": 3.41
+      },
+      "education": {
+        "bachelors_or_higher": 3845,
+        "bachelors_only": 2666,
+        "masters": 790,
+        "professional": 197,
+        "doctorate": 192
+      }
+    },
+    "Saco city, Maine": {
+      "state": "ME",
+      "fips": "2364675",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 20636,
+        "voting_age": 17132,
+        "voting_age_pct": 83.02
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 17628,
+          "pct": 85.42
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 599,
+          "pct": 2.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 260,
+          "pct": 1.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 228,
+          "pct": 1.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1126,
+          "pct": 5.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 795,
+          "pct": 3.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 84328,
+        "poverty_count": 279,
+        "poverty_pct": 1.35
+      },
+      "education": {
+        "bachelors_or_higher": 6292,
+        "bachelors_only": 3902,
+        "masters": 1785,
+        "professional": 417,
+        "doctorate": 188
+      }
+    },
+    "Westbrook city, Maine": {
+      "state": "ME",
+      "fips": "2382105",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 20484,
+        "voting_age": 16688,
+        "voting_age_pct": 81.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16649,
+          "pct": 81.28
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1085,
+          "pct": 5.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 715,
+          "pct": 3.49
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 309,
+          "pct": 1.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1296,
+          "pct": 6.33
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 430,
+          "pct": 2.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 85868,
+        "poverty_count": 481,
+        "poverty_pct": 2.35
+      },
+      "education": {
+        "bachelors_or_higher": 5988,
+        "bachelors_only": 4167,
+        "masters": 1476,
+        "professional": 181,
+        "doctorate": 164
+      }
+    },
+    "Augusta city, Maine": {
+      "state": "ME",
+      "fips": "2302100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18999,
+        "voting_age": 15673,
+        "voting_age_pct": 82.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 17013,
+          "pct": 89.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 346,
+          "pct": 1.82
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 73,
+          "pct": 0.38
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 267,
+          "pct": 1.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 62,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 706,
+          "pct": 3.72
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 532,
+          "pct": 2.8
+        }
+      ],
+      "economics": {
+        "median_household_income": 48756,
+        "poverty_count": 976,
+        "poverty_pct": 5.14
+      },
+      "education": {
+        "bachelors_or_higher": 4116,
+        "bachelors_only": 2640,
+        "masters": 1015,
+        "professional": 232,
+        "doctorate": 229
+      }
+    },
+    "Waterville city, Maine": {
+      "state": "ME",
+      "fips": "2380740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16704,
+        "voting_age": 13644,
+        "voting_age_pct": 81.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14868,
+          "pct": 89.01
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 182,
+          "pct": 1.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 49,
+          "pct": 0.29
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 331,
+          "pct": 1.98
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 79,
+          "pct": 0.47
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 757,
+          "pct": 4.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 438,
+          "pct": 2.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 47489,
+        "poverty_count": 1008,
+        "poverty_pct": 6.03
+      },
+      "education": {
+        "bachelors_or_higher": 3204,
+        "bachelors_only": 1763,
+        "masters": 718,
+        "professional": 203,
+        "doctorate": 520
+      }
+    },
+    "Brewer city, Maine": {
+      "state": "ME",
+      "fips": "2306925",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9654,
+        "voting_age": 7810,
+        "voting_age_pct": 80.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8876,
+          "pct": 91.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 110,
+          "pct": 1.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.02
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 39,
+          "pct": 0.4
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 160,
+          "pct": 1.66
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 270,
+          "pct": 2.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 179,
+          "pct": 1.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 51490,
+        "poverty_count": 364,
+        "poverty_pct": 3.77
+      },
+      "education": {
+        "bachelors_or_higher": 2158,
+        "bachelors_only": 1268,
+        "masters": 642,
+        "professional": 106,
+        "doctorate": 142
+      }
+    },
+    "Bath city, Maine": {
+      "state": "ME",
+      "fips": "2303355",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8801,
+        "voting_age": 7471,
+        "voting_age_pct": 84.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8331,
+          "pct": 94.66
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 42,
+          "pct": 0.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 49,
+          "pct": 0.56
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 67,
+          "pct": 0.76
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 306,
+          "pct": 3.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 65565,
+        "poverty_count": 297,
+        "poverty_pct": 3.37
+      },
+      "education": {
+        "bachelors_or_higher": 2618,
+        "bachelors_only": 1581,
+        "masters": 640,
+        "professional": 137,
+        "doctorate": 260
+      }
+    },
+    "Presque Isle city, Maine": {
+      "state": "ME",
+      "fips": "2360825",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8736,
+        "voting_age": 7049,
+        "voting_age_pct": 80.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7918,
+          "pct": 90.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 77,
+          "pct": 0.88
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 197,
+          "pct": 2.26
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 57,
+          "pct": 0.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 54,
+          "pct": 0.62
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 332,
+          "pct": 3.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 100,
+          "pct": 1.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 57396,
+        "poverty_count": 494,
+        "poverty_pct": 5.65
+      },
+      "education": {
+        "bachelors_or_higher": 1698,
+        "bachelors_only": 1025,
+        "masters": 441,
+        "professional": 80,
+        "doctorate": 152
+      }
+    },
+    "Ellsworth city, Maine": {
+      "state": "ME",
+      "fips": "2323200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8550,
+        "voting_age": 6620,
+        "voting_age_pct": 77.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7791,
+          "pct": 91.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 105,
+          "pct": 1.23
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 115,
+          "pct": 1.35
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 129,
+          "pct": 1.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 94,
+          "pct": 1.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 237,
+          "pct": 2.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 79,
+          "pct": 0.92
+        }
+      ],
+      "economics": {
+        "median_household_income": 70990,
+        "poverty_count": 110,
+        "poverty_pct": 1.29
+      },
+      "education": {
+        "bachelors_or_higher": 2608,
+        "bachelors_only": 1922,
+        "masters": 469,
+        "professional": 118,
+        "doctorate": 99
+      }
+    },
+    "Old Town city, Maine": {
+      "state": "ME",
+      "fips": "2355225",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7439,
+        "voting_age": 6256,
+        "voting_age_pct": 84.1
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6871,
+          "pct": 92.36
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 55,
+          "pct": 0.74
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 202,
+          "pct": 2.72
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 43,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 117,
+          "pct": 1.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 141,
+          "pct": 1.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 49329,
+        "poverty_count": 186,
+        "poverty_pct": 2.5
+      },
+      "education": {
+        "bachelors_or_higher": 2071,
+        "bachelors_only": 1001,
+        "masters": 973,
+        "professional": 43,
+        "doctorate": 54
+      }
+    },
+    "Caribou city, Maine": {
+      "state": "ME",
+      "fips": "2310565",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7427,
+        "voting_age": 6272,
+        "voting_age_pct": 84.45
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6853,
+          "pct": 92.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7,
+          "pct": 0.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 81,
+          "pct": 1.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 0.47
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 16,
+          "pct": 0.22
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 415,
+          "pct": 5.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 20,
+          "pct": 0.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 54271,
+        "poverty_count": 40,
+        "poverty_pct": 0.54
+      },
+      "education": {
+        "bachelors_or_higher": 1647,
+        "bachelors_only": 1129,
+        "masters": 385,
+        "professional": 133,
+        "doctorate": 0
+      }
+    },
+    "Rockland city, Maine": {
+      "state": "ME",
+      "fips": "2363590",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6991,
+        "voting_age": 6049,
+        "voting_age_pct": 86.53
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6747,
+          "pct": 96.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6,
+          "pct": 0.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 184,
+          "pct": 2.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 54,
+          "pct": 0.77
+        }
+      ],
+      "economics": {
+        "median_household_income": 55276,
+        "poverty_count": 48,
+        "poverty_pct": 0.69
+      },
+      "education": {
+        "bachelors_or_higher": 1923,
+        "bachelors_only": 1419,
+        "masters": 391,
+        "professional": 90,
+        "doctorate": 23
+      }
+    },
+    "Belfast city, Maine": {
+      "state": "ME",
+      "fips": "2303950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6985,
+        "voting_age": 5811,
+        "voting_age_pct": 83.19
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6112,
+          "pct": 87.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 86,
+          "pct": 1.23
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 32,
+          "pct": 0.46
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 146,
+          "pct": 2.09
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 514,
+          "pct": 7.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 95,
+          "pct": 1.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 61322,
+        "poverty_count": 282,
+        "poverty_pct": 4.04
+      },
+      "education": {
+        "bachelors_or_higher": 2667,
+        "bachelors_only": 1273,
+        "masters": 1063,
+        "professional": 209,
+        "doctorate": 122
+      }
+    },
+    "Gardiner city, Maine": {
+      "state": "ME",
+      "fips": "2327085",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6047,
+        "voting_age": 5025,
+        "voting_age_pct": 83.1
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5468,
+          "pct": 90.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 89,
+          "pct": 1.47
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 53,
+          "pct": 0.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 79,
+          "pct": 1.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 189,
+          "pct": 3.13
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 169,
+          "pct": 2.79
+        }
+      ],
+      "economics": {
+        "median_household_income": 58152,
+        "poverty_count": 113,
+        "poverty_pct": 1.87
+      },
+      "education": {
+        "bachelors_or_higher": 1269,
+        "bachelors_only": 917,
+        "masters": 226,
+        "professional": 61,
+        "doctorate": 65
+      }
+    },
+    "Calais city, Maine": {
+      "state": "ME",
+      "fips": "2309585",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3087,
+        "voting_age": 2591,
+        "voting_age_pct": 83.93
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2906,
+          "pct": 94.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 91,
+          "pct": 2.95
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 25,
+          "pct": 0.81
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9,
+          "pct": 0.29
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 20,
+          "pct": 0.65
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 36,
+          "pct": 1.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 48654,
+        "poverty_count": 109,
+        "poverty_pct": 3.53
+      },
+      "education": {
+        "bachelors_or_higher": 592,
+        "bachelors_only": 355,
+        "masters": 177,
+        "professional": 60,
+        "doctorate": 0
+      }
+    },
+    "Hallowell city, Maine": {
+      "state": "ME",
+      "fips": "2330550",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2570,
+        "voting_age": 2275,
+        "voting_age_pct": 88.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2552,
+          "pct": 99.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 12,
+          "pct": 0.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6,
+          "pct": 0.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 58811,
+        "poverty_count": 60,
+        "poverty_pct": 2.33
+      },
+      "education": {
+        "bachelors_or_higher": 948,
+        "bachelors_only": 515,
+        "masters": 285,
+        "professional": 115,
+        "doctorate": 33
+      }
+    },
+    "Eastport city, Maine": {
+      "state": "ME",
+      "fips": "2321730",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1230,
+        "voting_age": 1070,
+        "voting_age_pct": 86.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1125,
+          "pct": 91.46
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.65
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 31,
+          "pct": 2.52
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 44,
+          "pct": 3.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 22,
+          "pct": 1.79
+        }
+      ],
+      "economics": {
+        "median_household_income": 46205,
+        "poverty_count": 9,
+        "poverty_pct": 0.73
+      },
+      "education": {
+        "bachelors_or_higher": 392,
+        "bachelors_only": 211,
+        "masters": 134,
+        "professional": 43,
+        "doctorate": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📍 US Census — Alaska City Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {--bg:#0a0a10;--sf:#141420;--bd:#1e1e3a;--tx:#e0e0f0;--mu:#8888aa;--ac:#4fc3f7;--sc:#ff5252;--cf:#ffab40;--uc:#66bb6a;--pl:#ce93d8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden}
+body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--tx);display:flex;flex-direction:column}
+#topbar{background:linear-gradient(135deg,#0d1b2a,#1b2838,#0d1b2a);border-bottom:1px solid #1a1a3a;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:space-between;z-index:1000;flex-shrink:0}
+#topbar h1{font-size:1.2rem;color:var(--ac);display:flex;align-items:center;gap:0.4rem}
+#topbar .nav-link{color:var(--mu);text-decoration:none;font-size:0.78rem;padding:0.35rem 0.9rem;border:1px solid var(--bd);border-radius:5px;transition:all 0.15s;background:var(--sf)}
+#topbar .nav-link:hover{color:var(--ac);border-color:var(--ac);background:rgba(79,195,247,0.08)}
+#map{flex:1;width:100%;background:var(--bg)}
+#legend{position:absolute;bottom:28px;right:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:12px 16px;z-index:900;font-size:0.72rem;backdrop-filter:blur(8px)}
+#legend h3{color:var(--ac);font-size:0.72rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.legend-label{color:var(--mu)}
+#info-panel{position:absolute;bottom:28px;left:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;z-index:900;font-size:0.7rem;color:var(--mu);backdrop-filter:blur(8px)}
+.leaflet-popup-content-wrapper{background:rgba(20,20,32,0.96)!important;border:1px solid var(--bd)!important;border-radius:10px!important;color:var(--tx)!important;backdrop-filter:blur(10px)}
+.leaflet-popup-content{margin:0;min-width:220px}
+.leaflet-popup-tip{background:rgba(20,20,32,0.96)!important}
+.popup-card{padding:10px 0}
+.popup-header{font-size:0.95rem;font-weight:700;color:var(--ac);margin-bottom:2px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.popup-stat{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:0.74rem;padding:3px 0}
+.popup-stat-label{color:var(--mu);font-size:0.7rem}
+.popup-stat-val{font-weight:600;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-vote-bar{margin-top:6px}
+.popup-vote-labels{display:flex;justify-content:space-between;font-size:0.66rem;margin-bottom:3px}
+.popup-vote-labels .dem-label{color:#4fc3f7}
+.popup-vote-labels .gop-label{color:#ff5252}
+.popup-bar-track{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden;display:flex;margin-bottom:2px}
+.popup-bar-dem{background:#4fc3f7;height:100%;border-radius:3px 0 0 3px}
+.popup-bar-gop{background:#ff5252;height:100%;border-radius:0 3px 3px 0}
+.popup-lean{text-align:right;font-size:0.7rem;font-weight:700;margin-top:4px;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-lean.lean-D{color:#4fc3f7}.popup-lean.lean-R{color:#ff5252}
+.popup-lean.lean-lean-D{color:#81d4fa}.popup-lean.lean-lean-R{color:#ff8a80}
+.popup-link-btn{display:block;text-align:center;margin-top:8px;padding:6px 10px;background:rgba(79,195,247,0.12);border:1px solid rgba(79,195,247,0.3);border-radius:6px;color:var(--ac);text-decoration:none;font-size:0.72rem;font-weight:600;transition:all 0.15s}
+.popup-link-btn:hover{background:rgba(79,195,247,0.22);border-color:var(--ac);color:#fff}
+#map-search{background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:0.3rem 0.7rem;border-radius:5px;font-size:0.72rem;outline:none;width:160px;transition:border-color 0.15s}
+#map-search:focus{border-color:var(--ac)}
+#map-search::placeholder{color:var(--mu)}
+#map-search-clear{background:none;border:none;color:var(--mu);cursor:pointer;font-size:0.85rem;padding:0 2px 0 6px;display:none}
+#map-search-clear.visible{display:inline}
+#map-search-clear:hover{color:var(--sc)}
+#filter-toggle{position:absolute;top:12px;right:12px;z-index:950;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:8px;color:var(--ac);padding:0.45rem 0.85rem;font-size:0.72rem;font-family:inherit;cursor:pointer;backdrop-filter:blur(8px);transition:all 0.15s;display:flex;align-items:center;gap:6px;font-weight:600}
+#filter-toggle:hover{background:rgba(20,20,40,0.95);border-color:var(--ac)}
+#filter-toggle .arrow{transition:transform 0.2s;font-size:0.6rem}
+#filter-panel{position:absolute;top:52px;right:12px;z-index:940;background:rgba(10,10,16,0.94);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;backdrop-filter:blur(10px);font-size:0.7rem;color:var(--tx);width:270px;transition:all 0.25s ease;overflow:hidden}
+#filter-panel.collapsed{opacity:0;pointer-events:none;transform:translateX(20px);max-height:0;padding-top:0;padding-bottom:0;margin:0;border-width:0}
+#filter-panel h3{font-size:0.72rem;color:var(--ac);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.filter-group{margin-bottom:12px}
+.filter-group:last-of-type{margin-bottom:10px}
+.filter-label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.filter-label .name{font-weight:600;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.3px;color:var(--mu)}
+.filter-label .range-val{font-family:'SF Mono','Cascadia Code',monospace;font-size:0.68rem;color:var(--ac);font-weight:600}
+.dual-range{position:relative;height:24px;margin:2px 0}
+.dual-range .track-bg{position:absolute;top:10px;left:0;right:0;height:4px;background:rgba(255,255,255,0.08);border-radius:2px}
+.dual-range .track-active{position:absolute;top:10px;height:4px;background:var(--ac);border-radius:2px}
+.dual-range input[type=range]{position:absolute;top:0;width:100%;height:24px;-webkit-appearance:none;background:transparent;pointer-events:none;margin:0}
+.dual-range input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--ac);border:2px solid var(--sf);cursor:pointer;pointer-events:auto;box-shadow:0 0 6px rgba(79,195,247,0.4)}
+.filter-btn{display:block;width:100%;margin-top:8px;padding:6px;background:rgba(79,195,247,0.15);border:1px solid var(--bd);border-radius:5px;color:var(--mu);font-size:0.68rem;cursor:pointer;transition:all 0.15s}
+.filter-btn:hover{color:var(--ac);border-color:var(--ac)}
+</style>
+</head>
+<body>
+<div id="topbar">
+<h1>📍 Alaska</h1>
+<div style="display:flex;align-items:center;gap:10px">
+<input type="text" id="map-search" placeholder="🔍 Search cities..."/>
+<button id="map-search-clear">✕</button>
+<a class="nav-link" href="census_dashboard.html">📊 Census Dashboard</a>
+</div>
+</div>
+<div id="map"></div>
+<div id="legend">
+<h3>Political Lean</h3>
+<div class="legend-row"><div class="legend-dot" style="background:#4fc3f7"></div><span class="legend-label">Democrat</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#81d4fa"></div><span class="legend-label">Lean Dem</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ce93d8"></div><span class="legend-label">Swing</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff8a80"></div><span class="legend-label">Lean GOP</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff5252"></div><span class="legend-label">Republican</span></div>
+</div>
+<div id="info-panel">
+<span id="city-count">30 cities</span>
+<span style="margin:0 6px;opacity:0.3">|</span>
+<span id="visible-count">30 visible</span>
+</div>
+<button id="filter-toggle">⚙ Filters <span class="arrow">▼</span></button>
+<div id="filter-panel" class="collapsed">
+<h3>Filters <span id="filter-reset" style="cursor:pointer;font-size:0.65rem;color:var(--mu)">Reset</span></h3>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Population</span><span class="range-val" id="pop-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="pop-track"></div>
+<input type="range" id="pop-min" min="0" max="100" value="0" step="1">
+<input type="range" id="pop-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Income</span><span class="range-val" id="income-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="income-track"></div>
+<input type="range" id="income-min" min="0" max="100" value="0" step="1">
+<input type="range" id="income-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Lean (D+ / R+)</span><span class="range-val" id="lean-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="lean-track"></div>
+<input type="range" id="lean-min" min="-100" max="100" value="-100" step="1">
+<input type="range" id="lean-max" min="-100" max="100" value="100" step="1">
+</div></div>
+<button class="filter-btn" id="filter-reset-btn">↺ Reset All Filters</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CITIES=[{"name":"Anchorage, AK","lat":61.17425,"lng":-149.284329,"population":289069,"income":98152,"county":"Anchorage","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02020"},{"name":"Fairbanks, AK","lat":64.836531,"lng":-147.651745,"population":32242,"income":72077,"county":"Fairbanks North Star","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02090"},{"name":"Juneau city and, AK","lat":58.37291,"lng":-134.178445,"population":31969,"income":100513,"county":"Juneau City and","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02110"},{"name":"Wasilla, AK","lat":61.581136,"lng":-149.46079,"population":9435,"income":70756,"county":"Anchorage","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02020"},{"name":"Sitka city and, AK","lat":57.193204,"lng":-135.367396,"population":8393,"income":101207,"county":"Sitka City and","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02220"},{"name":"Ketchikan, AK","lat":55.357145,"lng":-131.674552,"population":8151,"income":76835,"county":"Ketchikan Gateway","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02130"},{"name":"Kenai, AK","lat":60.56224,"lng":-151.20806,"population":7562,"income":74907,"county":"Kenai Peninsula","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02122"},{"name":"Bethel, AK","lat":60.793868,"lng":-161.796066,"population":6313,"income":109718,"county":"Bethel","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02050"},{"name":"Palmer, AK","lat":61.597166,"lng":-149.114682,"population":6141,"income":70550,"county":"Anchorage","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02020"},{"name":"Homer, AK","lat":59.647503,"lng":-151.513095,"population":5750,"income":73723,"county":"Kenai Peninsula","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02122"},{"name":"Kodiak, AK","lat":57.791192,"lng":-152.419712,"population":5497,"income":71373,"county":"Kodiak Island","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02150"},{"name":"Utqiag\u0307vik, AK","lat":71.253861,"lng":-156.798246,"population":4850,"income":89038,"county":"North Slope","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02185"},{"name":"Soldotna, AK","lat":60.485318,"lng":-151.069014,"population":4448,"income":62984,"county":"Kenai Peninsula","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02122"},{"name":"Unalaska, AK","lat":53.910255,"lng":-166.529029,"population":4430,"income":114286,"county":"Aleutians East","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02013"},{"name":"Valdez, AK","lat":61.083621,"lng":-146.317179,"population":3911,"income":97067,"county":"Chugach","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02063"},{"name":"Nome, AK","lat":64.505741,"lng":-165.415287,"population":3668,"income":113561,"county":"Nome","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02180"},{"name":"Kotzebue, AK","lat":66.877089,"lng":-162.503478,"population":3046,"income":106328,"county":"Northwest Arctic","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02188"},{"name":"Seward, AK","lat":60.124786,"lng":-149.391581,"population":2735,"income":71016,"county":"Anchorage","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02020"},{"name":"North Pole, AK","lat":64.752728,"lng":-147.362655,"population":2663,"income":93355,"county":"Fairbanks North Star","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02090"},{"name":"Cordova, AK","lat":60.530138,"lng":-145.642065,"population":2405,"income":88538,"county":"Chugach","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02063"},{"name":"Wrangell city and, AK","lat":56.180779,"lng":-132.026788,"population":2106,"income":64545,"county":"Wrangell City and","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02275"},{"name":"Dillingham, AK","lat":59.060467,"lng":-158.532251,"population":2084,"income":99097,"county":"Dillingham","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02070"},{"name":"Houston, AK","lat":61.615303,"lng":-149.80061,"population":1693,"income":60865,"county":"Anchorage","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02020"},{"name":"Quinhagak, AK","lat":59.751279,"lng":-161.897243,"population":1302,"income":48594,"county":"Bethel","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02050"},{"name":"King Cove, AK","lat":55.084993,"lng":-162.316806,"population":1204,"income":78125,"county":"Aleutians East","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02013"},{"name":"Kotlik, AK","lat":63.02919,"lng":-163.536654,"population":1166,"income":49844,"county":"Kusilvak","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02158"},{"name":"Delta Junction, AK","lat":64.057347,"lng":-145.699997,"population":1154,"income":85694,"county":"Fairbanks North Star","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02090"},{"name":"Sand Point, AK","lat":55.31347,"lng":-160.484344,"population":1146,"income":73125,"county":"Aleutians East","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02013"},{"name":"Craig, AK","lat":55.488746,"lng":-133.111568,"population":1063,"income":67788,"county":"Prince of Wales-Hyder","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02198"},{"name":"Hooper Bay, AK","lat":61.509167,"lng":-166.111471,"population":1008,"income":47000,"county":"Kusilvak","lean":"swing","dem_pct_2024":50,"gop_pct_2024":50,"county_fips":"02158"}];
+const map=L.map('map',{center:[39.8,-98.5],zoom:5,zoomControl:false,attributionControl:false});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:18,attribution:'&copy;<a href="https://carto.com/">CartoDB</a>'}).addTo(map);
+L.control.zoom({position:'bottomleft'}).addTo(map);
+function leanColor(l){return l==='D'?'#4fc3f7':l==='lean-D'?'#81d4fa':l==='swing'?'#ce93d8':l==='lean-R'?'#ff8a80':l==='R'?'#ff5252':'#888'}
+function popRadius(p){const m=CITIES.length>0?CITIES[0].population:2300000;return 3+12*Math.sqrt(p/Math.max(m,1))}
+const markers=[];
+CITIES.forEach(c=>{const color=leanColor(c.lean);const radius=popRadius(c.population);
+const m=L.circleMarker([c.lat,c.lng],{radius,fillColor:color,color:'rgba(255,255,255,0.15)',weight:1,fillOpacity:0.85}).addTo(map);
+m._cityData=c;
+const cityEnc=encodeURIComponent(c.name);
+const demPct=c.dem_pct_2024||50,gopPct=c.gop_pct_2024||50;
+const margin=demPct-gopPct;
+const leanVal=margin>0?'D+'+margin.toFixed(1):'R+'+Math.abs(margin).toFixed(1);
+const lcc=c.lean==='D'?'lean-D':c.lean==='R'?'lean-R':c.lean==='lean-D'?'lean-lean-D':c.lean==='lean-R'?'lean-lean-R':'';
+const tv=demPct+gopPct,dbw=tv>0?(demPct/tv)*100:50,gbw=tv>0?(gopPct/tv)*100:50;
+m.bindPopup(`<div class="popup-card"><div class="popup-header">${c.name}</div>
+<div class="popup-stat"><span class="popup-stat-label">Population</span><span class="popup-stat-val">${c.population.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">Median Income</span><span class="popup-stat-val">$${c.income.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">County</span><span class="popup-stat-val">${c.county}</span></div>
+<div class="popup-vote-bar"><div class="popup-vote-labels"><span class="dem-label">🟦 Dem ${demPct.toFixed(1)}%</span><span class="gop-label">🟥 GOP ${gopPct.toFixed(1)}%</span></div>
+<div class="popup-bar-track"><div class="popup-bar-dem" style="width:${dbw}%"></div><div class="popup-bar-gop" style="width:${gbw}%"></div></div></div>
+<div class="popup-lean ${lcc}">${leanVal} • ${c.lean.replace('lean-','lean ')}</div>
+<a class="popup-link-btn" href="census_dashboard.html?city=${cityEnc}" target="_blank">📊 View Full Report →</a></div>`,{maxWidth:280,className:'dark-popup'});
+markers.push(m);});
+function updateInfo(){const t=markers.length,v=markers.filter(m=>!m._filtered).length;document.getElementById('city-count').textContent=t+' cities';document.getElementById('visible-count').textContent=v+' visible'}
+updateInfo();
+const fs={sq:'',pMin:0,pMax:Infinity,iMin:0,iMax:Infinity,lMin:-100,lMax:100};
+function applyFilters(){markers.forEach(m=>{const c=m._cityData;const nm=!fs.sq||c.name.toLowerCase().includes(fs.sq);const pm=c.population>=fs.pMin&&c.population<=fs.pMax;const im=c.income>=fs.iMin&&c.income<=fs.iMax;const mg=(c.dem_pct_2024||50)-(c.gop_pct_2024||50);const lm=mg>=fs.lMin&&mg<=fs.lMax;if(nm&&pm&&im&&lm){if(m._filtered){m.addTo(map);m._filtered=false}}else{if(!m._filtered){m.remove();m._filtered=true}}});updateInfo()}
+const si=document.getElementById('map-search'),sc=document.getElementById('map-search-clear');
+si.addEventListener('input',()=>{fs.sq=si.value.toLowerCase().trim();sc.classList.toggle('visible',fs.sq.length>0);applyFilters()});
+sc.addEventListener('click',()=>{si.value='';fs.sq='';sc.classList.remove('visible');applyFilters();si.focus()});
+const ft=document.getElementById('filter-toggle'),fp=document.getElementById('filter-panel'),fa=ft.querySelector('.arrow');
+ft.addEventListener('click',()=>{const s=fp.classList.toggle('collapsed');fa.textContent=s?'▼':'▲'});
+const pmin=document.getElementById('pop-min'),pmax=document.getElementById('pop-max'),plab=document.getElementById('pop-range-label'),ptrack=document.getElementById('pop-track');
+function upf(){let mn=parseInt(pmin.value),mx=parseInt(pmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mp=mn===0?0:Math.round(Math.pow(10,2+(mn/100)*5));const xp=mx===100?Infinity:Math.round(Math.pow(10,2+(mx/100)*5));fs.pMin=mp;fs.pMax=xp;plab.textContent=mp===0&&xp===Infinity?'All':mp.toLocaleString()+' - '+(xp===Infinity?'∞':xp.toLocaleString());ptrack.style.left=mn+'%';ptrack.style.right=(100-mx)+'%';applyFilters()}
+[pmin,pmax].forEach(e=>e.addEventListener('input',upf));upf();
+const imin=document.getElementById('income-min'),imax=document.getElementById('income-max'),ilab=document.getElementById('income-range-label'),itrack=document.getElementById('income-track');
+function uif(){let mn=parseInt(imin.value),mx=parseInt(imax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mi=Math.round((mn/100)*250000);const xi=mx===100?Infinity:Math.round((mx/100)*250000);fs.iMin=mi;fs.iMax=xi;ilab.textContent=mi===0&&xi===Infinity?'All':'$'+mi.toLocaleString()+' - '+(xi===Infinity?'∞':'$'+xi.toLocaleString());itrack.style.left=mn+'%';itrack.style.right=(100-mx)+'%';applyFilters()}
+[imin,imax].forEach(e=>e.addEventListener('input',uif));uif();
+const lmin=document.getElementById('lean-min'),lmax=document.getElementById('lean-max'),llab=document.getElementById('lean-range-label'),ltrack=document.getElementById('lean-track');
+function ulf(){let mn=parseInt(lmin.value),mx=parseInt(lmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};fs.lMin=mn;fs.lMax=mx;llab.textContent=(mn<=-100&&mx>=100)?'All':(mn>=0?'D+'+mn:'R+'+Math.abs(mn))+' to '+(mx>=0?'D+'+mx:'R+'+Math.abs(mx));ltrack.style.left=((mn+100)/200*100)+'%';ltrack.style.right=(100-(mx+100)/200*100)+'%';applyFilters()}
+[lmin,lmax].forEach(e=>e.addEventListener('input',ulf));ulf();
+function rf(){fs.sq='';si.value='';sc.classList.remove('visible');pmin.value=0;pmax.value=100;upf();imin.value=0;imax.value=100;uif();lmin.value=-100;lmax.value=100;ulf()}
+document.getElementById('filter-reset').addEventListener('click',rf);
+document.getElementById('filter-reset-btn').addEventListener('click',rf);
+</script>
+</body>
+</html>

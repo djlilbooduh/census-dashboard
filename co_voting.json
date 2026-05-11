@@ -1,0 +1,1426 @@
+{
+  "state": "Colorado",
+  "election": "2024 general",
+  "sources": {
+    "presidential_results": "tonmcg US County Level Election Results 08-24 (GitHub)",
+    "voter_registration": "Colorado Secretary of State - November 2024 statistics (12/01/2024 snapshot via Wayback Machine)"
+  },
+  "statewide": {
+    "harris_votes": 1728159,
+    "trump_votes": 1377441,
+    "harris_pct": 54.13,
+    "trump_pct": 43.14,
+    "total_registered": 4651146,
+    "turnout_pct": 66.77
+  },
+  "counties": {
+    "Adams": {
+      "fips": "08001",
+      "presidential": {
+        "trump": 103024,
+        "harris": 124056,
+        "total": 233336,
+        "trump_pct": 44.15,
+        "harris_pct": 53.17,
+        "margin": -21032,
+        "margin_pct": -9.01
+      },
+      "registration": {
+        "total": 362792,
+        "active": 318642,
+        "inactive": 38377,
+        "prereg": 5773,
+        "democratic": 101051,
+        "republican": 67921,
+        "unaffiliated": 183967
+      },
+      "turnout_pct": 64.32
+    },
+    "Alamosa": {
+      "fips": "08003",
+      "presidential": {
+        "trump": 4057,
+        "harris": 3244,
+        "total": 7519,
+        "trump_pct": 53.96,
+        "harris_pct": 43.14,
+        "margin": 813,
+        "margin_pct": 10.81
+      },
+      "registration": {
+        "total": 12081,
+        "active": 10262,
+        "inactive": 1645,
+        "prereg": 174,
+        "democratic": 3107,
+        "republican": 3075,
+        "unaffiliated": 5610
+      },
+      "turnout_pct": 62.24
+    },
+    "Arapahoe": {
+      "fips": "08005",
+      "presidential": {
+        "trump": 125311,
+        "harris": 190725,
+        "total": 325451,
+        "trump_pct": 38.5,
+        "harris_pct": 58.6,
+        "margin": -65414,
+        "margin_pct": -20.1
+      },
+      "registration": {
+        "total": 490342,
+        "active": 430272,
+        "inactive": 52596,
+        "prereg": 7474,
+        "democratic": 141256,
+        "republican": 95347,
+        "unaffiliated": 242309
+      },
+      "turnout_pct": 66.37
+    },
+    "Archuleta": {
+      "fips": "08007",
+      "presidential": {
+        "trump": 5218,
+        "harris": 3904,
+        "total": 9355,
+        "trump_pct": 55.78,
+        "harris_pct": 41.73,
+        "margin": 1314,
+        "margin_pct": 14.05
+      },
+      "registration": {
+        "total": 13748,
+        "active": 11574,
+        "inactive": 2018,
+        "prereg": 156,
+        "democratic": 2147,
+        "republican": 4704,
+        "unaffiliated": 6637
+      },
+      "turnout_pct": 68.05
+    },
+    "Baca": {
+      "fips": "08009",
+      "presidential": {
+        "trump": 1686,
+        "harris": 275,
+        "total": 2004,
+        "trump_pct": 84.13,
+        "harris_pct": 13.72,
+        "margin": 1411,
+        "margin_pct": 70.41
+      },
+      "registration": {
+        "total": 2942,
+        "active": 2544,
+        "inactive": 332,
+        "prereg": 66,
+        "democratic": 305,
+        "republican": 1414,
+        "unaffiliated": 1173
+      },
+      "turnout_pct": 68.12
+    },
+    "Bent": {
+      "fips": "08011",
+      "presidential": {
+        "trump": 1496,
+        "harris": 645,
+        "total": 2189,
+        "trump_pct": 68.34,
+        "harris_pct": 29.47,
+        "margin": 851,
+        "margin_pct": 38.88
+      },
+      "registration": {
+        "total": 3529,
+        "active": 2938,
+        "inactive": 547,
+        "prereg": 44,
+        "democratic": 617,
+        "republican": 1197,
+        "unaffiliated": 1620
+      },
+      "turnout_pct": 62.03
+    },
+    "Boulder": {
+      "fips": "08013",
+      "presidential": {
+        "trump": 40758,
+        "harris": 150149,
+        "total": 196150,
+        "trump_pct": 20.78,
+        "harris_pct": 76.55,
+        "margin": -109391,
+        "margin_pct": -55.77
+      },
+      "registration": {
+        "total": 266648,
+        "active": 232966,
+        "inactive": 30107,
+        "prereg": 3575,
+        "democratic": 102792,
+        "republican": 28261,
+        "unaffiliated": 130436
+      },
+      "turnout_pct": 73.56
+    },
+    "Broomfield": {
+      "fips": "08014",
+      "presidential": {
+        "trump": 16071,
+        "harris": 29426,
+        "total": 46817,
+        "trump_pct": 34.33,
+        "harris_pct": 62.85,
+        "margin": -13355,
+        "margin_pct": -28.53
+      },
+      "registration": {
+        "total": 63809,
+        "active": 55578,
+        "inactive": 7278,
+        "prereg": 953,
+        "democratic": 17069,
+        "republican": 11962,
+        "unaffiliated": 33513
+      },
+      "turnout_pct": 73.37
+    },
+    "Chaffee": {
+      "fips": "08015",
+      "presidential": {
+        "trump": 6034,
+        "harris": 7992,
+        "total": 14416,
+        "trump_pct": 41.86,
+        "harris_pct": 55.44,
+        "margin": -1958,
+        "margin_pct": -13.58
+      },
+      "registration": {
+        "total": 19234,
+        "active": 16862,
+        "inactive": 2195,
+        "prereg": 177,
+        "democratic": 4395,
+        "republican": 4782,
+        "unaffiliated": 9680
+      },
+      "turnout_pct": 74.95
+    },
+    "Cheyenne": {
+      "fips": "08017",
+      "presidential": {
+        "trump": 930,
+        "harris": 108,
+        "total": 1055,
+        "trump_pct": 88.15,
+        "harris_pct": 10.24,
+        "margin": 822,
+        "margin_pct": 77.91
+      },
+      "registration": {
+        "total": 1410,
+        "active": 1240,
+        "inactive": 140,
+        "prereg": 30,
+        "democratic": 98,
+        "republican": 836,
+        "unaffiliated": 466
+      },
+      "turnout_pct": 74.82
+    },
+    "Clear Creek": {
+      "fips": "08019",
+      "presidential": {
+        "trump": 2452,
+        "harris": 3464,
+        "total": 6101,
+        "trump_pct": 40.19,
+        "harris_pct": 56.78,
+        "margin": -1012,
+        "margin_pct": -16.59
+      },
+      "registration": {
+        "total": 8713,
+        "active": 7500,
+        "inactive": 1141,
+        "prereg": 72,
+        "democratic": 2149,
+        "republican": 1821,
+        "unaffiliated": 4505
+      },
+      "turnout_pct": 70.02
+    },
+    "Conejos": {
+      "fips": "08021",
+      "presidential": {
+        "trump": 2358,
+        "harris": 1627,
+        "total": 4104,
+        "trump_pct": 57.46,
+        "harris_pct": 39.64,
+        "margin": 731,
+        "margin_pct": 17.81
+      },
+      "registration": {
+        "total": 6025,
+        "active": 5346,
+        "inactive": 557,
+        "prereg": 122,
+        "democratic": 2030,
+        "republican": 2000,
+        "unaffiliated": 1905
+      },
+      "turnout_pct": 68.12
+    },
+    "Costilla": {
+      "fips": "08023",
+      "presidential": {
+        "trump": 850,
+        "harris": 1155,
+        "total": 2080,
+        "trump_pct": 40.87,
+        "harris_pct": 55.53,
+        "margin": -305,
+        "margin_pct": -14.66
+      },
+      "registration": {
+        "total": 3495,
+        "active": 2937,
+        "inactive": 515,
+        "prereg": 43,
+        "democratic": 1483,
+        "republican": 545,
+        "unaffiliated": 1379
+      },
+      "turnout_pct": 59.51
+    },
+    "Crowley": {
+      "fips": "08025",
+      "presidential": {
+        "trump": 1231,
+        "harris": 422,
+        "total": 1706,
+        "trump_pct": 72.16,
+        "harris_pct": 24.74,
+        "margin": 809,
+        "margin_pct": 47.42
+      },
+      "registration": {
+        "total": 2584,
+        "active": 2232,
+        "inactive": 314,
+        "prereg": 38,
+        "democratic": 382,
+        "republican": 1105,
+        "unaffiliated": 1046
+      },
+      "turnout_pct": 66.02
+    },
+    "Custer": {
+      "fips": "08027",
+      "presidential": {
+        "trump": 2583,
+        "harris": 1188,
+        "total": 3867,
+        "trump_pct": 66.8,
+        "harris_pct": 30.72,
+        "margin": 1395,
+        "margin_pct": 36.07
+      },
+      "registration": {
+        "total": 5228,
+        "active": 4592,
+        "inactive": 589,
+        "prereg": 47,
+        "democratic": 507,
+        "republican": 2266,
+        "unaffiliated": 2346
+      },
+      "turnout_pct": 73.97
+    },
+    "Delta": {
+      "fips": "08029",
+      "presidential": {
+        "trump": 12948,
+        "harris": 6030,
+        "total": 19476,
+        "trump_pct": 66.48,
+        "harris_pct": 30.96,
+        "margin": 6918,
+        "margin_pct": 35.52
+      },
+      "registration": {
+        "total": 26589,
+        "active": 23984,
+        "inactive": 2263,
+        "prereg": 342,
+        "democratic": 3216,
+        "republican": 10605,
+        "unaffiliated": 12187
+      },
+      "turnout_pct": 73.25
+    },
+    "Denver": {
+      "fips": "08031",
+      "presidential": {
+        "trump": 74765,
+        "harris": 278634,
+        "total": 363076,
+        "trump_pct": 20.59,
+        "harris_pct": 76.74,
+        "margin": -203869,
+        "margin_pct": -56.15
+      },
+      "registration": {
+        "total": 566778,
+        "active": 471719,
+        "inactive": 89932,
+        "prereg": 5127,
+        "democratic": 226960,
+        "republican": 52479,
+        "unaffiliated": 273710
+      },
+      "turnout_pct": 64.06
+    },
+    "Dolores": {
+      "fips": "08033",
+      "presidential": {
+        "trump": 1076,
+        "harris": 325,
+        "total": 1419,
+        "trump_pct": 75.83,
+        "harris_pct": 22.9,
+        "margin": 751,
+        "margin_pct": 52.92
+      },
+      "registration": {
+        "total": 1875,
+        "active": 1717,
+        "inactive": 128,
+        "prereg": 30,
+        "democratic": 214,
+        "republican": 813,
+        "unaffiliated": 812
+      },
+      "turnout_pct": 75.68
+    },
+    "Douglas": {
+      "fips": "08035",
+      "presidential": {
+        "trump": 127451,
+        "harris": 110408,
+        "total": 243758,
+        "trump_pct": 52.29,
+        "harris_pct": 45.29,
+        "margin": 17043,
+        "margin_pct": 6.99
+      },
+      "registration": {
+        "total": 322427,
+        "active": 287613,
+        "inactive": 28628,
+        "prereg": 6186,
+        "democratic": 55148,
+        "republican": 102134,
+        "unaffiliated": 159199
+      },
+      "turnout_pct": 75.6
+    },
+    "Eagle": {
+      "fips": "08037",
+      "presidential": {
+        "trump": 10148,
+        "harris": 16943,
+        "total": 27798,
+        "trump_pct": 36.51,
+        "harris_pct": 60.95,
+        "margin": -6795,
+        "margin_pct": -24.44
+      },
+      "registration": {
+        "total": 40717,
+        "active": 35332,
+        "inactive": 4764,
+        "prereg": 621,
+        "democratic": 10273,
+        "republican": 7328,
+        "unaffiliated": 22256
+      },
+      "turnout_pct": 68.27
+    },
+    "Elbert": {
+      "fips": "08039",
+      "presidential": {
+        "trump": 15209,
+        "harris": 4768,
+        "total": 20417,
+        "trump_pct": 74.49,
+        "harris_pct": 23.35,
+        "margin": 10441,
+        "margin_pct": 51.14
+      },
+      "registration": {
+        "total": 26679,
+        "active": 23795,
+        "inactive": 2476,
+        "prereg": 408,
+        "democratic": 2354,
+        "republican": 12351,
+        "unaffiliated": 11480
+      },
+      "turnout_pct": 76.53
+    },
+    "El Paso": {
+      "fips": "08041",
+      "presidential": {
+        "trump": 203933,
+        "harris": 166597,
+        "total": 380813,
+        "trump_pct": 53.55,
+        "harris_pct": 43.75,
+        "margin": 37336,
+        "margin_pct": 9.8
+      },
+      "registration": {
+        "total": 596464,
+        "active": 494078,
+        "inactive": 94057,
+        "prereg": 8329,
+        "democratic": 100374,
+        "republican": 170150,
+        "unaffiliated": 310144
+      },
+      "turnout_pct": 63.85
+    },
+    "Fremont": {
+      "fips": "08043",
+      "presidential": {
+        "trump": 17313,
+        "harris": 7526,
+        "total": 25467,
+        "trump_pct": 67.98,
+        "harris_pct": 29.55,
+        "margin": 9787,
+        "margin_pct": 38.43
+      },
+      "registration": {
+        "total": 36055,
+        "active": 31815,
+        "inactive": 3901,
+        "prereg": 339,
+        "democratic": 4657,
+        "republican": 13722,
+        "unaffiliated": 16823
+      },
+      "turnout_pct": 70.63
+    },
+    "Garfield": {
+      "fips": "08045",
+      "presidential": {
+        "trump": 14493,
+        "harris": 15128,
+        "total": 30372,
+        "trump_pct": 47.72,
+        "harris_pct": 49.81,
+        "margin": -635,
+        "margin_pct": -2.09
+      },
+      "registration": {
+        "total": 44254,
+        "active": 38745,
+        "inactive": 4780,
+        "prereg": 729,
+        "democratic": 9086,
+        "republican": 10923,
+        "unaffiliated": 23214
+      },
+      "turnout_pct": 68.63
+    },
+    "Gilpin": {
+      "fips": "08047",
+      "presidential": {
+        "trump": 1729,
+        "harris": 2254,
+        "total": 4129,
+        "trump_pct": 41.87,
+        "harris_pct": 54.59,
+        "margin": -525,
+        "margin_pct": -12.71
+      },
+      "registration": {
+        "total": 5916,
+        "active": 4998,
+        "inactive": 865,
+        "prereg": 53,
+        "democratic": 1435,
+        "republican": 1244,
+        "unaffiliated": 3089
+      },
+      "turnout_pct": 69.79
+    },
+    "Grand": {
+      "fips": "08049",
+      "presidential": {
+        "trump": 4822,
+        "harris": 4743,
+        "total": 9883,
+        "trump_pct": 48.79,
+        "harris_pct": 47.99,
+        "margin": 79,
+        "margin_pct": 0.8
+      },
+      "registration": {
+        "total": 14125,
+        "active": 12177,
+        "inactive": 1756,
+        "prereg": 192,
+        "democratic": 2535,
+        "republican": 4120,
+        "unaffiliated": 7149
+      },
+      "turnout_pct": 69.97
+    },
+    "Gunnison": {
+      "fips": "08051",
+      "presidential": {
+        "trump": 3689,
+        "harris": 6887,
+        "total": 10939,
+        "trump_pct": 33.72,
+        "harris_pct": 62.96,
+        "margin": -3198,
+        "margin_pct": -29.23
+      },
+      "registration": {
+        "total": 15330,
+        "active": 12855,
+        "inactive": 2277,
+        "prereg": 198,
+        "democratic": 3860,
+        "republican": 2817,
+        "unaffiliated": 8299
+      },
+      "turnout_pct": 71.36
+    },
+    "Hinsdale": {
+      "fips": "08053",
+      "presidential": {
+        "trump": 332,
+        "harris": 257,
+        "total": 606,
+        "trump_pct": 54.79,
+        "harris_pct": 42.41,
+        "margin": 75,
+        "margin_pct": 12.38
+      },
+      "registration": {
+        "total": 759,
+        "active": 684,
+        "inactive": 67,
+        "prereg": 8,
+        "democratic": 71,
+        "republican": 343,
+        "unaffiliated": 333
+      },
+      "turnout_pct": 79.84
+    },
+    "Huerfano": {
+      "fips": "08055",
+      "presidential": {
+        "trump": 2346,
+        "harris": 1965,
+        "total": 4438,
+        "trump_pct": 52.86,
+        "harris_pct": 44.28,
+        "margin": 381,
+        "margin_pct": 8.58
+      },
+      "registration": {
+        "total": 6500,
+        "active": 5621,
+        "inactive": 823,
+        "prereg": 56,
+        "democratic": 1768,
+        "republican": 1607,
+        "unaffiliated": 2953
+      },
+      "turnout_pct": 68.28
+    },
+    "Jackson": {
+      "fips": "08057",
+      "presidential": {
+        "trump": 634,
+        "harris": 173,
+        "total": 834,
+        "trump_pct": 76.02,
+        "harris_pct": 20.74,
+        "margin": 461,
+        "margin_pct": 55.28
+      },
+      "registration": {
+        "total": 1215,
+        "active": 1000,
+        "inactive": 197,
+        "prereg": 18,
+        "democratic": 70,
+        "republican": 698,
+        "unaffiliated": 432
+      },
+      "turnout_pct": 68.64
+    },
+    "Jefferson": {
+      "fips": "08059",
+      "presidential": {
+        "trump": 140505,
+        "harris": 210875,
+        "total": 361504,
+        "trump_pct": 38.87,
+        "harris_pct": 58.33,
+        "margin": -70370,
+        "margin_pct": -19.47
+      },
+      "registration": {
+        "total": 486248,
+        "active": 433702,
+        "inactive": 46826,
+        "prereg": 5720,
+        "democratic": 130554,
+        "republican": 102134,
+        "unaffiliated": 242772
+      },
+      "turnout_pct": 74.35
+    },
+    "Kiowa": {
+      "fips": "08061",
+      "presidential": {
+        "trump": 744,
+        "harris": 102,
+        "total": 863,
+        "trump_pct": 86.21,
+        "harris_pct": 11.82,
+        "margin": 642,
+        "margin_pct": 74.39
+      },
+      "registration": {
+        "total": 1140,
+        "active": 1002,
+        "inactive": 114,
+        "prereg": 24,
+        "democratic": 71,
+        "republican": 646,
+        "unaffiliated": 410
+      },
+      "turnout_pct": 75.7
+    },
+    "Kit Carson": {
+      "fips": "08063",
+      "presidential": {
+        "trump": 3083,
+        "harris": 556,
+        "total": 3698,
+        "trump_pct": 83.37,
+        "harris_pct": 15.04,
+        "margin": 2527,
+        "margin_pct": 68.33
+      },
+      "registration": {
+        "total": 5390,
+        "active": 4687,
+        "inactive": 608,
+        "prereg": 95,
+        "democratic": 456,
+        "republican": 2800,
+        "unaffiliated": 2033
+      },
+      "turnout_pct": 68.61
+    },
+    "Lake": {
+      "fips": "08065",
+      "presidential": {
+        "trump": 1557,
+        "harris": 2199,
+        "total": 3911,
+        "trump_pct": 39.81,
+        "harris_pct": 56.23,
+        "margin": -642,
+        "margin_pct": -16.42
+      },
+      "registration": {
+        "total": 6471,
+        "active": 5188,
+        "inactive": 1213,
+        "prereg": 70,
+        "democratic": 1881,
+        "republican": 983,
+        "unaffiliated": 3406
+      },
+      "turnout_pct": 60.44
+    },
+    "La Plata": {
+      "fips": "08067",
+      "presidential": {
+        "trump": 14024,
+        "harris": 20677,
+        "total": 35681,
+        "trump_pct": 39.3,
+        "harris_pct": 57.95,
+        "margin": -6653,
+        "margin_pct": -18.65
+      },
+      "registration": {
+        "total": 52814,
+        "active": 43803,
+        "inactive": 8322,
+        "prereg": 689,
+        "democratic": 12433,
+        "republican": 11694,
+        "unaffiliated": 27579
+      },
+      "turnout_pct": 67.56
+    },
+    "Larimer": {
+      "fips": "08069",
+      "presidential": {
+        "trump": 89680,
+        "harris": 129376,
+        "total": 225482,
+        "trump_pct": 39.77,
+        "harris_pct": 57.38,
+        "margin": -39696,
+        "margin_pct": -17.6
+      },
+      "registration": {
+        "total": 308961,
+        "active": 269497,
+        "inactive": 35473,
+        "prereg": 3991,
+        "democratic": 75220,
+        "republican": 70298,
+        "unaffiliated": 156209
+      },
+      "turnout_pct": 72.98
+    },
+    "Las Animas": {
+      "fips": "08071",
+      "presidential": {
+        "trump": 4328,
+        "harris": 3276,
+        "total": 7792,
+        "trump_pct": 55.54,
+        "harris_pct": 42.04,
+        "margin": 1052,
+        "margin_pct": 13.5
+      },
+      "registration": {
+        "total": 12836,
+        "active": 10538,
+        "inactive": 2174,
+        "prereg": 124,
+        "democratic": 3551,
+        "republican": 3167,
+        "unaffiliated": 5839
+      },
+      "turnout_pct": 60.7
+    },
+    "Lincoln": {
+      "fips": "08073",
+      "presidential": {
+        "trump": 2090,
+        "harris": 432,
+        "total": 2571,
+        "trump_pct": 81.29,
+        "harris_pct": 16.8,
+        "margin": 1658,
+        "margin_pct": 64.49
+      },
+      "registration": {
+        "total": 3765,
+        "active": 3147,
+        "inactive": 547,
+        "prereg": 71,
+        "democratic": 344,
+        "republican": 1929,
+        "unaffiliated": 1419
+      },
+      "turnout_pct": 68.29
+    },
+    "Logan": {
+      "fips": "08075",
+      "presidential": {
+        "trump": 7855,
+        "harris": 2098,
+        "total": 10162,
+        "trump_pct": 77.3,
+        "harris_pct": 20.65,
+        "margin": 5757,
+        "margin_pct": 56.65
+      },
+      "registration": {
+        "total": 14183,
+        "active": 12538,
+        "inactive": 1511,
+        "prereg": 134,
+        "democratic": 1475,
+        "republican": 6613,
+        "unaffiliated": 5820
+      },
+      "turnout_pct": 71.65
+    },
+    "Mesa": {
+      "fips": "08077",
+      "presidential": {
+        "trump": 55839,
+        "harris": 33573,
+        "total": 91600,
+        "trump_pct": 60.96,
+        "harris_pct": 36.65,
+        "margin": 22266,
+        "margin_pct": 24.31
+      },
+      "registration": {
+        "total": 131373,
+        "active": 114856,
+        "inactive": 14813,
+        "prereg": 1704,
+        "democratic": 17355,
+        "republican": 46340,
+        "unaffiliated": 64382
+      },
+      "turnout_pct": 69.73
+    },
+    "Mineral": {
+      "fips": "08079",
+      "presidential": {
+        "trump": 417,
+        "harris": 317,
+        "total": 753,
+        "trump_pct": 55.38,
+        "harris_pct": 42.1,
+        "margin": 100,
+        "margin_pct": 13.28
+      },
+      "registration": {
+        "total": 1008,
+        "active": 838,
+        "inactive": 167,
+        "prereg": 3,
+        "democratic": 215,
+        "republican": 330,
+        "unaffiliated": 453
+      },
+      "turnout_pct": 74.7
+    },
+    "Moffat": {
+      "fips": "08081",
+      "presidential": {
+        "trump": 5358,
+        "harris": 1167,
+        "total": 6671,
+        "trump_pct": 80.32,
+        "harris_pct": 17.49,
+        "margin": 4191,
+        "margin_pct": 62.82
+      },
+      "registration": {
+        "total": 10456,
+        "active": 8913,
+        "inactive": 1368,
+        "prereg": 175,
+        "democratic": 707,
+        "republican": 4672,
+        "unaffiliated": 4853
+      },
+      "turnout_pct": 63.8
+    },
+    "Montezuma": {
+      "fips": "08083",
+      "presidential": {
+        "trump": 8972,
+        "harris": 5793,
+        "total": 15136,
+        "trump_pct": 59.28,
+        "harris_pct": 38.27,
+        "margin": 3179,
+        "margin_pct": 21.0
+      },
+      "registration": {
+        "total": 22948,
+        "active": 19756,
+        "inactive": 2889,
+        "prereg": 303,
+        "democratic": 3571,
+        "republican": 8301,
+        "unaffiliated": 10598
+      },
+      "turnout_pct": 65.96
+    },
+    "Montrose": {
+      "fips": "08085",
+      "presidential": {
+        "trump": 16704,
+        "harris": 8354,
+        "total": 25617,
+        "trump_pct": 65.21,
+        "harris_pct": 32.61,
+        "margin": 8350,
+        "margin_pct": 32.6
+      },
+      "registration": {
+        "total": 35436,
+        "active": 31388,
+        "inactive": 3507,
+        "prereg": 541,
+        "democratic": 4356,
+        "republican": 13726,
+        "unaffiliated": 16643
+      },
+      "turnout_pct": 72.29
+    },
+    "Morgan": {
+      "fips": "08087",
+      "presidential": {
+        "trump": 9830,
+        "harris": 3291,
+        "total": 13458,
+        "trump_pct": 73.04,
+        "harris_pct": 24.45,
+        "margin": 6539,
+        "margin_pct": 48.59
+      },
+      "registration": {
+        "total": 20688,
+        "active": 18450,
+        "inactive": 1935,
+        "prereg": 303,
+        "democratic": 2896,
+        "republican": 7558,
+        "unaffiliated": 9714
+      },
+      "turnout_pct": 65.05
+    },
+    "Otero": {
+      "fips": "08089",
+      "presidential": {
+        "trump": 5520,
+        "harris": 3164,
+        "total": 8925,
+        "trump_pct": 61.85,
+        "harris_pct": 35.45,
+        "margin": 2356,
+        "margin_pct": 26.4
+      },
+      "registration": {
+        "total": 14164,
+        "active": 12271,
+        "inactive": 1658,
+        "prereg": 235,
+        "democratic": 3191,
+        "republican": 4489,
+        "unaffiliated": 6181
+      },
+      "turnout_pct": 63.01
+    },
+    "Ouray": {
+      "fips": "08091",
+      "presidential": {
+        "trump": 1573,
+        "harris": 2442,
+        "total": 4098,
+        "trump_pct": 38.38,
+        "harris_pct": 59.59,
+        "margin": -869,
+        "margin_pct": -21.21
+      },
+      "registration": {
+        "total": 5234,
+        "active": 4706,
+        "inactive": 490,
+        "prereg": 38,
+        "democratic": 1144,
+        "republican": 1201,
+        "unaffiliated": 2796
+      },
+      "turnout_pct": 78.3
+    },
+    "Park": {
+      "fips": "08093",
+      "presidential": {
+        "trump": 6828,
+        "harris": 4841,
+        "total": 12044,
+        "trump_pct": 56.69,
+        "harris_pct": 40.19,
+        "margin": 1987,
+        "margin_pct": 16.5
+      },
+      "registration": {
+        "total": 17205,
+        "active": 14789,
+        "inactive": 2292,
+        "prereg": 124,
+        "democratic": 2701,
+        "republican": 5468,
+        "unaffiliated": 8555
+      },
+      "turnout_pct": 70.0
+    },
+    "Phillips": {
+      "fips": "08095",
+      "presidential": {
+        "trump": 1888,
+        "harris": 412,
+        "total": 2354,
+        "trump_pct": 80.2,
+        "harris_pct": 17.5,
+        "margin": 1476,
+        "margin_pct": 62.7
+      },
+      "registration": {
+        "total": 3197,
+        "active": 2843,
+        "inactive": 320,
+        "prereg": 34,
+        "democratic": 311,
+        "republican": 1622,
+        "unaffiliated": 1223
+      },
+      "turnout_pct": 73.63
+    },
+    "Pitkin": {
+      "fips": "08097",
+      "presidential": {
+        "trump": 2992,
+        "harris": 7932,
+        "total": 11167,
+        "trump_pct": 26.79,
+        "harris_pct": 71.03,
+        "margin": -4940,
+        "margin_pct": -44.24
+      },
+      "registration": {
+        "total": 15770,
+        "active": 13893,
+        "inactive": 1719,
+        "prereg": 158,
+        "democratic": 5138,
+        "republican": 2014,
+        "unaffiliated": 8266
+      },
+      "turnout_pct": 70.81
+    },
+    "Prowers": {
+      "fips": "08099",
+      "presidential": {
+        "trump": 3833,
+        "harris": 1227,
+        "total": 5144,
+        "trump_pct": 74.51,
+        "harris_pct": 23.85,
+        "margin": 2606,
+        "margin_pct": 50.66
+      },
+      "registration": {
+        "total": 8069,
+        "active": 7085,
+        "inactive": 904,
+        "prereg": 80,
+        "democratic": 1180,
+        "republican": 3183,
+        "unaffiliated": 3529
+      },
+      "turnout_pct": 63.75
+    },
+    "Pueblo": {
+      "fips": "08101",
+      "presidential": {
+        "trump": 43688,
+        "harris": 39328,
+        "total": 85107,
+        "trump_pct": 51.33,
+        "harris_pct": 46.21,
+        "margin": 4360,
+        "margin_pct": 5.12
+      },
+      "registration": {
+        "total": 130271,
+        "active": 114959,
+        "inactive": 13514,
+        "prereg": 1798,
+        "democratic": 38659,
+        "republican": 29825,
+        "unaffiliated": 58596
+      },
+      "turnout_pct": 65.33
+    },
+    "Rio Blanco": {
+      "fips": "08103",
+      "presidential": {
+        "trump": 2988,
+        "harris": 637,
+        "total": 3690,
+        "trump_pct": 80.98,
+        "harris_pct": 17.26,
+        "margin": 2351,
+        "margin_pct": 63.71
+      },
+      "registration": {
+        "total": 5282,
+        "active": 4459,
+        "inactive": 726,
+        "prereg": 97,
+        "democratic": 258,
+        "republican": 2955,
+        "unaffiliated": 1989
+      },
+      "turnout_pct": 69.86
+    },
+    "Rio Grande": {
+      "fips": "08105",
+      "presidential": {
+        "trump": 3743,
+        "harris": 2306,
+        "total": 6194,
+        "trump_pct": 60.43,
+        "harris_pct": 37.23,
+        "margin": 1437,
+        "margin_pct": 23.2
+      },
+      "registration": {
+        "total": 9697,
+        "active": 8092,
+        "inactive": 1477,
+        "prereg": 128,
+        "democratic": 2075,
+        "republican": 3194,
+        "unaffiliated": 4248
+      },
+      "turnout_pct": 63.88
+    },
+    "Routt": {
+      "fips": "08107",
+      "presidential": {
+        "trump": 5676,
+        "harris": 10208,
+        "total": 16335,
+        "trump_pct": 34.75,
+        "harris_pct": 62.49,
+        "margin": -4532,
+        "margin_pct": -27.74
+      },
+      "registration": {
+        "total": 23059,
+        "active": 19759,
+        "inactive": 2998,
+        "prereg": 302,
+        "democratic": 5850,
+        "republican": 4485,
+        "unaffiliated": 12210
+      },
+      "turnout_pct": 70.84
+    },
+    "Saguache": {
+      "fips": "08109",
+      "presidential": {
+        "trump": 1577,
+        "harris": 1704,
+        "total": 3400,
+        "trump_pct": 46.38,
+        "harris_pct": 50.12,
+        "margin": -127,
+        "margin_pct": -3.74
+      },
+      "registration": {
+        "total": 5315,
+        "active": 4592,
+        "inactive": 668,
+        "prereg": 55,
+        "democratic": 1601,
+        "republican": 994,
+        "unaffiliated": 2567
+      },
+      "turnout_pct": 63.97
+    },
+    "San Juan": {
+      "fips": "08111",
+      "presidential": {
+        "trump": 188,
+        "harris": 376,
+        "total": 588,
+        "trump_pct": 31.97,
+        "harris_pct": 63.95,
+        "margin": -188,
+        "margin_pct": -31.97
+      },
+      "registration": {
+        "total": 837,
+        "active": 727,
+        "inactive": 103,
+        "prereg": 7,
+        "democratic": 197,
+        "republican": 121,
+        "unaffiliated": 488
+      },
+      "turnout_pct": 70.25
+    },
+    "San Miguel": {
+      "fips": "08113",
+      "presidential": {
+        "trump": 1154,
+        "harris": 3529,
+        "total": 4804,
+        "trump_pct": 24.02,
+        "harris_pct": 73.46,
+        "margin": -2375,
+        "margin_pct": -49.44
+      },
+      "registration": {
+        "total": 6957,
+        "active": 6114,
+        "inactive": 731,
+        "prereg": 112,
+        "democratic": 2355,
+        "republican": 857,
+        "unaffiliated": 3561
+      },
+      "turnout_pct": 69.05
+    },
+    "Sedgwick": {
+      "fips": "08115",
+      "presidential": {
+        "trump": 1048,
+        "harris": 283,
+        "total": 1358,
+        "trump_pct": 77.17,
+        "harris_pct": 20.84,
+        "margin": 765,
+        "margin_pct": 56.33
+      },
+      "registration": {
+        "total": 1952,
+        "active": 1681,
+        "inactive": 243,
+        "prereg": 28,
+        "democratic": 235,
+        "republican": 944,
+        "unaffiliated": 740
+      },
+      "turnout_pct": 69.57
+    },
+    "Summit": {
+      "fips": "08117",
+      "presidential": {
+        "trump": 5244,
+        "harris": 11762,
+        "total": 17542,
+        "trump_pct": 29.89,
+        "harris_pct": 67.05,
+        "margin": -6518,
+        "margin_pct": -37.16
+      },
+      "registration": {
+        "total": 25918,
+        "active": 21803,
+        "inactive": 3869,
+        "prereg": 246,
+        "democratic": 7020,
+        "republican": 3905,
+        "unaffiliated": 14354
+      },
+      "turnout_pct": 67.68
+    },
+    "Teller": {
+      "fips": "08119",
+      "presidential": {
+        "trump": 10856,
+        "harris": 5065,
+        "total": 16326,
+        "trump_pct": 66.5,
+        "harris_pct": 31.02,
+        "margin": 5791,
+        "margin_pct": 35.47
+      },
+      "registration": {
+        "total": 23164,
+        "active": 19575,
+        "inactive": 3349,
+        "prereg": 240,
+        "democratic": 2701,
+        "republican": 9279,
+        "unaffiliated": 10542
+      },
+      "turnout_pct": 70.48
+    },
+    "Washington": {
+      "fips": "08121",
+      "presidential": {
+        "trump": 2436,
+        "harris": 329,
+        "total": 2806,
+        "trump_pct": 86.81,
+        "harris_pct": 11.72,
+        "margin": 2107,
+        "margin_pct": 75.09
+      },
+      "registration": {
+        "total": 3713,
+        "active": 3301,
+        "inactive": 365,
+        "prereg": 47,
+        "democratic": 217,
+        "republican": 2298,
+        "unaffiliated": 1149
+      },
+      "turnout_pct": 75.57
+    },
+    "Weld": {
+      "fips": "08123",
+      "presidential": {
+        "trump": 106469,
+        "harris": 68752,
+        "total": 179854,
+        "trump_pct": 59.2,
+        "harris_pct": 38.23,
+        "margin": 37717,
+        "margin_pct": 20.97
+      },
+      "registration": {
+        "total": 262855,
+        "active": 231001,
+        "inactive": 27303,
+        "prereg": 4551,
+        "democratic": 46487,
+        "republican": 80546,
+        "unaffiliated": 129383
+      },
+      "turnout_pct": 68.42
+    },
+    "Yuma": {
+      "fips": "08125",
+      "presidential": {
+        "trump": 3807,
+        "harris": 758,
+        "total": 4663,
+        "trump_pct": 81.64,
+        "harris_pct": 16.26,
+        "margin": 3049,
+        "margin_pct": 65.39
+      },
+      "registration": {
+        "total": 6507,
+        "active": 5841,
+        "inactive": 515,
+        "prereg": 151,
+        "democratic": 563,
+        "republican": 3208,
+        "unaffiliated": 2641
+      },
+      "turnout_pct": 71.66
+    }
+  }
+}

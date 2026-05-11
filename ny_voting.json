@@ -1,0 +1,2872 @@
+{
+  "counties": {
+    "36001": {
+      "name": "Albany County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 83077,
+          "dem_pct": 59.4,
+          "gop_votes": 47810,
+          "gop_pct": 34.2,
+          "other_votes": 8973,
+          "other_pct": 6.4,
+          "total_votes": 139860,
+          "turnout_pct": 59.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 99474,
+          "dem_pct": 64.6,
+          "gop_votes": 51081,
+          "gop_pct": 33.1,
+          "other_votes": 3546,
+          "other_pct": 2.3,
+          "total_votes": 154101,
+          "turnout_pct": 65.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 91085,
+          "dem_pct": 61.9,
+          "gop_votes": 53709,
+          "gop_pct": 36.5,
+          "other_votes": 2355,
+          "other_pct": 1.7,
+          "total_votes": 147149,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 236574,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36003": {
+      "name": "Allegany County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 4882,
+          "dem_pct": 26.1,
+          "gop_votes": 12525,
+          "gop_pct": 67.0,
+          "other_votes": 1298,
+          "other_pct": 6.9,
+          "total_votes": 18705,
+          "turnout_pct": 57.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 6048,
+          "dem_pct": 29.1,
+          "gop_votes": 14135,
+          "gop_pct": 68.0,
+          "other_votes": 599,
+          "other_pct": 2.9,
+          "total_votes": 20782,
+          "turnout_pct": 63.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 5744,
+          "dem_pct": 28.4,
+          "gop_votes": 14260,
+          "gop_pct": 70.5,
+          "other_votes": 223,
+          "other_pct": 1.1,
+          "total_votes": 20227,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 32519,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36005": {
+      "name": "Bronx County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 353646,
+          "dem_pct": 88.5,
+          "gop_votes": 37797,
+          "gop_pct": 9.5,
+          "other_votes": 8157,
+          "other_pct": 2.0,
+          "total_votes": 399600,
+          "turnout_pct": 69.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 355374,
+          "dem_pct": 83.5,
+          "gop_votes": 67740,
+          "gop_pct": 15.9,
+          "other_votes": 2601,
+          "other_pct": 0.6,
+          "total_votes": 425715,
+          "turnout_pct": 73.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 258728,
+          "dem_pct": 71.9,
+          "gop_votes": 97158,
+          "gop_pct": 27.0,
+          "other_votes": 3958,
+          "other_pct": 1.2,
+          "total_votes": 359844,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 578527,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36007": {
+      "name": "Broome County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 39212,
+          "dem_pct": 45.6,
+          "gop_votes": 40943,
+          "gop_pct": 47.6,
+          "other_votes": 5836,
+          "other_pct": 6.8,
+          "total_votes": 85991,
+          "turnout_pct": 59.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 47010,
+          "dem_pct": 50.7,
+          "gop_votes": 43800,
+          "gop_pct": 47.2,
+          "other_votes": 1984,
+          "other_pct": 2.1,
+          "total_votes": 92794,
+          "turnout_pct": 64.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 44593,
+          "dem_pct": 49.6,
+          "gop_votes": 44233,
+          "gop_pct": 49.2,
+          "other_votes": 1079,
+          "other_pct": 1.2,
+          "total_votes": 89905,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 144542,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36009": {
+      "name": "Cattaraugus County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 9497,
+          "dem_pct": 30.5,
+          "gop_votes": 19692,
+          "gop_pct": 63.2,
+          "other_votes": 1949,
+          "other_pct": 6.3,
+          "total_votes": 31138,
+          "turnout_pct": 56.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 11879,
+          "dem_pct": 34.1,
+          "gop_votes": 22155,
+          "gop_pct": 63.6,
+          "other_votes": 811,
+          "other_pct": 2.3,
+          "total_votes": 34845,
+          "turnout_pct": 63.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 11393,
+          "dem_pct": 33.5,
+          "gop_votes": 22515,
+          "gop_pct": 66.2,
+          "other_votes": 102,
+          "other_pct": 0.3,
+          "total_votes": 34010,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 54678,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36011": {
+      "name": "Cayuga County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 13522,
+          "dem_pct": 40.8,
+          "gop_votes": 17384,
+          "gop_pct": 52.5,
+          "other_votes": 2236,
+          "other_pct": 6.7,
+          "total_votes": 33142,
+          "turnout_pct": 56.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 16149,
+          "dem_pct": 44.3,
+          "gop_votes": 19512,
+          "gop_pct": 53.6,
+          "other_votes": 760,
+          "other_pct": 2.1,
+          "total_votes": 36421,
+          "turnout_pct": 62.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 15662,
+          "dem_pct": 43.2,
+          "gop_votes": 20338,
+          "gop_pct": 56.1,
+          "other_votes": 254,
+          "other_pct": 0.7,
+          "total_votes": 36254,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 58286,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36013": {
+      "name": "Chautauqua County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 19091,
+          "dem_pct": 35.2,
+          "gop_votes": 31594,
+          "gop_pct": 58.3,
+          "other_votes": 3551,
+          "other_pct": 6.5,
+          "total_votes": 54236,
+          "turnout_pct": 59.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 23087,
+          "dem_pct": 38.9,
+          "gop_votes": 34853,
+          "gop_pct": 58.8,
+          "other_votes": 1364,
+          "other_pct": 2.3,
+          "total_votes": 59304,
+          "turnout_pct": 65.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 21909,
+          "dem_pct": 38.7,
+          "gop_votes": 34251,
+          "gop_pct": 60.5,
+          "other_votes": 453,
+          "other_pct": 0.8,
+          "total_votes": 56613,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 91018,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36015": {
+      "name": "Chemung County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 13757,
+          "dem_pct": 38.1,
+          "gop_votes": 20097,
+          "gop_pct": 55.7,
+          "other_votes": 2254,
+          "other_pct": 6.2,
+          "total_votes": 36108,
+          "turnout_pct": 60.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 16636,
+          "dem_pct": 42.2,
+          "gop_votes": 21922,
+          "gop_pct": 55.6,
+          "other_votes": 852,
+          "other_pct": 2.2,
+          "total_votes": 39410,
+          "turnout_pct": 65.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 15535,
+          "dem_pct": 41.5,
+          "gop_votes": 21786,
+          "gop_pct": 58.2,
+          "other_votes": 112,
+          "other_pct": 0.3,
+          "total_votes": 37433,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 60182,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36017": {
+      "name": "Chenango County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 6775,
+          "dem_pct": 33.6,
+          "gop_votes": 11921,
+          "gop_pct": 59.1,
+          "other_votes": 1468,
+          "other_pct": 7.3,
+          "total_votes": 20164,
+          "turnout_pct": 55.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 8290,
+          "dem_pct": 37.2,
+          "gop_votes": 13482,
+          "gop_pct": 60.5,
+          "other_votes": 510,
+          "other_pct": 2.3,
+          "total_votes": 22282,
+          "turnout_pct": 61.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 8112,
+          "dem_pct": 36.1,
+          "gop_votes": 14179,
+          "gop_pct": 63.1,
+          "other_votes": 180,
+          "other_pct": 0.8,
+          "total_votes": 22471,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 36127,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36019": {
+      "name": "Clinton County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 15059,
+          "dem_pct": 46.9,
+          "gop_votes": 14449,
+          "gop_pct": 45.0,
+          "other_votes": 2601,
+          "other_pct": 8.1,
+          "total_votes": 32109,
+          "turnout_pct": 55.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 18364,
+          "dem_pct": 51.8,
+          "gop_votes": 16514,
+          "gop_pct": 46.6,
+          "other_votes": 559,
+          "other_pct": 1.6,
+          "total_votes": 35437,
+          "turnout_pct": 61.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 17434,
+          "dem_pct": 48.8,
+          "gop_votes": 18184,
+          "gop_pct": 50.9,
+          "other_votes": 107,
+          "other_pct": 0.3,
+          "total_votes": 35725,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 57436,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36021": {
+      "name": "Columbia County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 15284,
+          "dem_pct": 49.5,
+          "gop_votes": 13756,
+          "gop_pct": 44.6,
+          "other_votes": 1837,
+          "other_pct": 5.9,
+          "total_votes": 30877,
+          "turnout_pct": 54.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 20386,
+          "dem_pct": 57.4,
+          "gop_votes": 14464,
+          "gop_pct": 40.7,
+          "other_votes": 672,
+          "other_pct": 1.9,
+          "total_votes": 35522,
+          "turnout_pct": 62.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 20200,
+          "dem_pct": 56.8,
+          "gop_votes": 15044,
+          "gop_pct": 42.3,
+          "other_votes": 320,
+          "other_pct": 0.9,
+          "total_votes": 35564,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 57177,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36023": {
+      "name": "Cortland County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 8771,
+          "dem_pct": 43.3,
+          "gop_votes": 9900,
+          "gop_pct": 48.9,
+          "other_votes": 1585,
+          "other_pct": 7.8,
+          "total_votes": 20256,
+          "turnout_pct": 57.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 10369,
+          "dem_pct": 47.8,
+          "gop_votes": 10789,
+          "gop_pct": 49.8,
+          "other_votes": 520,
+          "other_pct": 2.4,
+          "total_votes": 21678,
+          "turnout_pct": 61.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 10250,
+          "dem_pct": 46.6,
+          "gop_votes": 11680,
+          "gop_pct": 53.1,
+          "other_votes": 66,
+          "other_pct": 0.3,
+          "total_votes": 21996,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 35363,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36025": {
+      "name": "Delaware County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 6627,
+          "dem_pct": 33.5,
+          "gop_votes": 11942,
+          "gop_pct": 60.4,
+          "other_votes": 1213,
+          "other_pct": 6.1,
+          "total_votes": 19782,
+          "turnout_pct": 53.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 9143,
+          "dem_pct": 39.7,
+          "gop_votes": 13387,
+          "gop_pct": 58.1,
+          "other_votes": 495,
+          "other_pct": 2.1,
+          "total_votes": 23025,
+          "turnout_pct": 62.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 9141,
+          "dem_pct": 39.7,
+          "gop_votes": 13654,
+          "gop_pct": 59.3,
+          "other_votes": 231,
+          "other_pct": 1.0,
+          "total_votes": 23026,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 37019,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36027": {
+      "name": "Dutchess County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 62261,
+          "dem_pct": 47.5,
+          "gop_votes": 61797,
+          "gop_pct": 47.1,
+          "other_votes": 7018,
+          "other_pct": 5.4,
+          "total_votes": 131076,
+          "turnout_pct": 53.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 81443,
+          "dem_pct": 53.9,
+          "gop_votes": 66872,
+          "gop_pct": 44.3,
+          "other_votes": 2807,
+          "other_pct": 1.9,
+          "total_votes": 151122,
+          "turnout_pct": 61.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 79073,
+          "dem_pct": 52.1,
+          "gop_votes": 71029,
+          "gop_pct": 46.8,
+          "other_votes": 1670,
+          "other_pct": 1.1,
+          "total_votes": 151772,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 244006,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36029": {
+      "name": "Erie County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 215456,
+          "dem_pct": 50.9,
+          "gop_votes": 188303,
+          "gop_pct": 44.5,
+          "other_votes": 19534,
+          "other_pct": 4.6,
+          "total_votes": 423293,
+          "turnout_pct": 58.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 267174,
+          "dem_pct": 56.5,
+          "gop_votes": 197527,
+          "gop_pct": 41.8,
+          "other_votes": 8320,
+          "other_pct": 1.8,
+          "total_votes": 473021,
+          "turnout_pct": 64.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 245303,
+          "dem_pct": 54.1,
+          "gop_votes": 201774,
+          "gop_pct": 44.5,
+          "other_votes": 6348,
+          "other_pct": 1.4,
+          "total_votes": 453425,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 728979,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36031": {
+      "name": "Essex County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 7762,
+          "dem_pct": 45.1,
+          "gop_votes": 7958,
+          "gop_pct": 46.2,
+          "other_votes": 1491,
+          "other_pct": 8.7,
+          "total_votes": 17211,
+          "turnout_pct": 55.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 9947,
+          "dem_pct": 51.6,
+          "gop_votes": 8976,
+          "gop_pct": 46.6,
+          "other_votes": 336,
+          "other_pct": 1.7,
+          "total_votes": 19259,
+          "turnout_pct": 62.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 9600,
+          "dem_pct": 50.1,
+          "gop_votes": 9504,
+          "gop_pct": 49.6,
+          "other_votes": 58,
+          "other_pct": 0.4,
+          "total_votes": 19162,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 30807,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36033": {
+      "name": "Franklin County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 7297,
+          "dem_pct": 43.0,
+          "gop_votes": 8221,
+          "gop_pct": 48.4,
+          "other_votes": 1452,
+          "other_pct": 8.6,
+          "total_votes": 16970,
+          "turnout_pct": 54.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 9253,
+          "dem_pct": 48.0,
+          "gop_votes": 9668,
+          "gop_pct": 50.2,
+          "other_votes": 347,
+          "other_pct": 1.8,
+          "total_votes": 19268,
+          "turnout_pct": 61.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 8784,
+          "dem_pct": 45.3,
+          "gop_votes": 10529,
+          "gop_pct": 54.3,
+          "other_votes": 77,
+          "other_pct": 0.3,
+          "total_votes": 19390,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 31174,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36035": {
+      "name": "Fulton County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 6496,
+          "dem_pct": 30.6,
+          "gop_votes": 13462,
+          "gop_pct": 63.4,
+          "other_votes": 1271,
+          "other_pct": 6.0,
+          "total_votes": 21229,
+          "turnout_pct": 55.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 7931,
+          "dem_pct": 33.4,
+          "gop_votes": 15378,
+          "gop_pct": 64.8,
+          "other_votes": 435,
+          "other_pct": 1.8,
+          "total_votes": 23744,
+          "turnout_pct": 61.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 7625,
+          "dem_pct": 31.9,
+          "gop_votes": 16135,
+          "gop_pct": 67.5,
+          "other_votes": 143,
+          "other_pct": 0.6,
+          "total_votes": 23903,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 38429,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36037": {
+      "name": "Genesee County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 7650,
+          "dem_pct": 28.9,
+          "gop_votes": 16915,
+          "gop_pct": 63.9,
+          "other_votes": 1906,
+          "other_pct": 7.2,
+          "total_votes": 26471,
+          "turnout_pct": 58.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 9625,
+          "dem_pct": 32.9,
+          "gop_votes": 18876,
+          "gop_pct": 64.6,
+          "other_votes": 716,
+          "other_pct": 2.5,
+          "total_votes": 29217,
+          "turnout_pct": 64.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 9332,
+          "dem_pct": 32.9,
+          "gop_votes": 18947,
+          "gop_pct": 66.8,
+          "other_votes": 85,
+          "other_pct": 0.3,
+          "total_votes": 28364,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 45601,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36039": {
+      "name": "Greene County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 7405,
+          "dem_pct": 33.6,
+          "gop_votes": 13073,
+          "gop_pct": 59.3,
+          "other_votes": 1561,
+          "other_pct": 7.1,
+          "total_votes": 22039,
+          "turnout_pct": 54.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 10346,
+          "dem_pct": 41.1,
+          "gop_votes": 14271,
+          "gop_pct": 56.6,
+          "other_votes": 577,
+          "other_pct": 2.3,
+          "total_votes": 25194,
+          "turnout_pct": 62.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 10307,
+          "dem_pct": 41.0,
+          "gop_votes": 14530,
+          "gop_pct": 57.8,
+          "other_votes": 301,
+          "other_pct": 1.2,
+          "total_votes": 25138,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 40415,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36041": {
+      "name": "Hamilton County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 949,
+          "dem_pct": 29.4,
+          "gop_votes": 2064,
+          "gop_pct": 63.9,
+          "other_votes": 215,
+          "other_pct": 6.7,
+          "total_votes": 3228,
+          "turnout_pct": 58.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 1178,
+          "dem_pct": 34.0,
+          "gop_votes": 2225,
+          "gop_pct": 64.3,
+          "other_votes": 57,
+          "other_pct": 1.6,
+          "total_votes": 3460,
+          "turnout_pct": 62.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 1209,
+          "dem_pct": 35.2,
+          "gop_votes": 2218,
+          "gop_pct": 64.6,
+          "other_votes": 7,
+          "other_pct": 0.1,
+          "total_votes": 3434,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 5521,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36043": {
+      "name": "Herkimer County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 8083,
+          "dem_pct": 30.8,
+          "gop_votes": 16699,
+          "gop_pct": 63.6,
+          "other_votes": 1462,
+          "other_pct": 5.6,
+          "total_votes": 26244,
+          "turnout_pct": 56.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 9937,
+          "dem_pct": 33.9,
+          "gop_votes": 18870,
+          "gop_pct": 64.4,
+          "other_votes": 512,
+          "other_pct": 1.7,
+          "total_votes": 29319,
+          "turnout_pct": 63.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 9059,
+          "dem_pct": 31.6,
+          "gop_votes": 19436,
+          "gop_pct": 67.8,
+          "other_votes": 172,
+          "other_pct": 0.7,
+          "total_votes": 28667,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 46088,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36045": {
+      "name": "Jefferson County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 13809,
+          "dem_pct": 36.1,
+          "gop_votes": 21763,
+          "gop_pct": 56.9,
+          "other_votes": 2680,
+          "other_pct": 7.0,
+          "total_votes": 38252,
+          "turnout_pct": 55.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 17307,
+          "dem_pct": 39.5,
+          "gop_votes": 25629,
+          "gop_pct": 58.4,
+          "other_votes": 912,
+          "other_pct": 2.1,
+          "total_votes": 43848,
+          "turnout_pct": 63.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 16200,
+          "dem_pct": 37.9,
+          "gop_votes": 26201,
+          "gop_pct": 61.3,
+          "other_votes": 342,
+          "other_pct": 0.8,
+          "total_votes": 42743,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 68719,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36047": {
+      "name": "Kings County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 640553,
+          "dem_pct": 79.5,
+          "gop_votes": 141044,
+          "gop_pct": 17.5,
+          "other_votes": 24130,
+          "other_pct": 3.0,
+          "total_votes": 805727,
+          "turnout_pct": 60.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 703310,
+          "dem_pct": 77.0,
+          "gop_votes": 202772,
+          "gop_pct": 22.2,
+          "other_votes": 7164,
+          "other_pct": 0.8,
+          "total_votes": 913246,
+          "turnout_pct": 68.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 588001,
+          "dem_pct": 70.4,
+          "gop_votes": 228853,
+          "gop_pct": 27.4,
+          "other_votes": 18375,
+          "other_pct": 2.2,
+          "total_votes": 835229,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 1342812,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36049": {
+      "name": "Lewis County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3146,
+          "dem_pct": 27.8,
+          "gop_votes": 7400,
+          "gop_pct": 65.4,
+          "other_votes": 771,
+          "other_pct": 6.8,
+          "total_votes": 11317,
+          "turnout_pct": 54.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 3824,
+          "dem_pct": 29.5,
+          "gop_votes": 8894,
+          "gop_pct": 68.7,
+          "other_votes": 226,
+          "other_pct": 1.7,
+          "total_votes": 12944,
+          "turnout_pct": 62.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 3575,
+          "dem_pct": 27.6,
+          "gop_votes": 9300,
+          "gop_pct": 71.8,
+          "other_votes": 78,
+          "other_pct": 0.6,
+          "total_votes": 12953,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 20825,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36051": {
+      "name": "Livingston County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 10697,
+          "dem_pct": 35.6,
+          "gop_votes": 17290,
+          "gop_pct": 57.5,
+          "other_votes": 2061,
+          "other_pct": 6.9,
+          "total_votes": 30048,
+          "turnout_pct": 60.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 12477,
+          "dem_pct": 39.7,
+          "gop_votes": 18182,
+          "gop_pct": 57.9,
+          "other_votes": 742,
+          "other_pct": 2.4,
+          "total_votes": 31401,
+          "turnout_pct": 63.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 12093,
+          "dem_pct": 39.1,
+          "gop_votes": 18711,
+          "gop_pct": 60.5,
+          "other_votes": 124,
+          "other_pct": 0.3,
+          "total_votes": 30928,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 49723,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36053": {
+      "name": "Madison County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 11667,
+          "dem_pct": 38.8,
+          "gop_votes": 15936,
+          "gop_pct": 53.0,
+          "other_votes": 2467,
+          "other_pct": 8.2,
+          "total_votes": 30070,
+          "turnout_pct": 55.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 14807,
+          "dem_pct": 43.5,
+          "gop_votes": 18408,
+          "gop_pct": 54.1,
+          "other_votes": 823,
+          "other_pct": 2.4,
+          "total_votes": 34038,
+          "turnout_pct": 62.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 14471,
+          "dem_pct": 43.0,
+          "gop_votes": 18813,
+          "gop_pct": 55.9,
+          "other_votes": 370,
+          "other_pct": 1.1,
+          "total_votes": 33654,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 54106,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36055": {
+      "name": "Monroe County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 188592,
+          "dem_pct": 54.2,
+          "gop_votes": 136582,
+          "gop_pct": 39.3,
+          "other_votes": 22782,
+          "other_pct": 6.5,
+          "total_votes": 347956,
+          "turnout_pct": 60.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 225746,
+          "dem_pct": 59.3,
+          "gop_votes": 145661,
+          "gop_pct": 38.2,
+          "other_votes": 9576,
+          "other_pct": 2.5,
+          "total_votes": 380983,
+          "turnout_pct": 65.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 212451,
+          "dem_pct": 58.9,
+          "gop_votes": 144279,
+          "gop_pct": 40.0,
+          "other_votes": 3967,
+          "other_pct": 1.1,
+          "total_votes": 360697,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 579899,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36057": {
+      "name": "Montgomery County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 6595,
+          "dem_pct": 34.6,
+          "gop_votes": 11301,
+          "gop_pct": 59.3,
+          "other_votes": 1165,
+          "other_pct": 6.1,
+          "total_votes": 19061,
+          "turnout_pct": 57.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 7977,
+          "dem_pct": 37.7,
+          "gop_votes": 12745,
+          "gop_pct": 60.3,
+          "other_votes": 412,
+          "other_pct": 1.9,
+          "total_votes": 21134,
+          "turnout_pct": 63.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 7307,
+          "dem_pct": 35.4,
+          "gop_votes": 13190,
+          "gop_pct": 63.9,
+          "other_votes": 145,
+          "other_pct": 0.7,
+          "total_votes": 20642,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 33186,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36059": {
+      "name": "Nassau County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 332154,
+          "dem_pct": 51.3,
+          "gop_votes": 292025,
+          "gop_pct": 45.1,
+          "other_votes": 23295,
+          "other_pct": 3.6,
+          "total_votes": 647474,
+          "turnout_pct": 57.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 396504,
+          "dem_pct": 54.1,
+          "gop_votes": 326716,
+          "gop_pct": 44.6,
+          "other_votes": 9536,
+          "other_pct": 1.3,
+          "total_votes": 732756,
+          "turnout_pct": 64.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 334218,
+          "dem_pct": 47.3,
+          "gop_votes": 363188,
+          "gop_pct": 51.4,
+          "other_votes": 9185,
+          "other_pct": 1.3,
+          "total_votes": 706591,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 1135998,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36061": {
+      "name": "New York County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 579013,
+          "dem_pct": 86.6,
+          "gop_votes": 64929,
+          "gop_pct": 9.7,
+          "other_votes": 24664,
+          "other_pct": 3.7,
+          "total_votes": 668606,
+          "turnout_pct": 64.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 603040,
+          "dem_pct": 86.8,
+          "gop_votes": 85185,
+          "gop_pct": 12.3,
+          "other_votes": 6679,
+          "other_pct": 1.0,
+          "total_votes": 694904,
+          "turnout_pct": 66.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 523344,
+          "dem_pct": 80.8,
+          "gop_votes": 111405,
+          "gop_pct": 17.2,
+          "other_votes": 12954,
+          "other_pct": 2.0,
+          "total_votes": 647703,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 1041323,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36063": {
+      "name": "Niagara County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 35559,
+          "dem_pct": 38.5,
+          "gop_votes": 51961,
+          "gop_pct": 56.3,
+          "other_votes": 4841,
+          "other_pct": 5.2,
+          "total_votes": 92361,
+          "turnout_pct": 56.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 46029,
+          "dem_pct": 44.2,
+          "gop_votes": 56068,
+          "gop_pct": 53.9,
+          "other_votes": 1983,
+          "other_pct": 1.9,
+          "total_votes": 104080,
+          "turnout_pct": 63.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 43093,
+          "dem_pct": 42.2,
+          "gop_votes": 58206,
+          "gop_pct": 57.0,
+          "other_votes": 817,
+          "other_pct": 0.8,
+          "total_votes": 102116,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 164174,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36065": {
+      "name": "Oneida County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 33743,
+          "dem_pct": 37.1,
+          "gop_votes": 51437,
+          "gop_pct": 56.6,
+          "other_votes": 5771,
+          "other_pct": 6.3,
+          "total_votes": 90951,
+          "turnout_pct": 56.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 41567,
+          "dem_pct": 41.3,
+          "gop_votes": 57180,
+          "gop_pct": 56.8,
+          "other_votes": 1999,
+          "other_pct": 2.0,
+          "total_votes": 100746,
+          "turnout_pct": 62.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 39140,
+          "dem_pct": 39.1,
+          "gop_votes": 60261,
+          "gop_pct": 60.2,
+          "other_votes": 701,
+          "other_pct": 0.7,
+          "total_votes": 100102,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 160936,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36067": {
+      "name": "Onondaga County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 112337,
+          "dem_pct": 53.9,
+          "gop_votes": 83649,
+          "gop_pct": 40.1,
+          "other_votes": 12431,
+          "other_pct": 6.0,
+          "total_votes": 208417,
+          "turnout_pct": 57.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 138894,
+          "dem_pct": 59.2,
+          "gop_votes": 90619,
+          "gop_pct": 38.6,
+          "other_votes": 5222,
+          "other_pct": 2.2,
+          "total_votes": 234735,
+          "turnout_pct": 64.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 131474,
+          "dem_pct": 57.9,
+          "gop_votes": 92645,
+          "gop_pct": 40.8,
+          "other_votes": 2952,
+          "other_pct": 1.2,
+          "total_votes": 227071,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 365066,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36069": {
+      "name": "Ontario County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 22233,
+          "dem_pct": 42.3,
+          "gop_votes": 26029,
+          "gop_pct": 49.5,
+          "other_votes": 4298,
+          "other_pct": 8.2,
+          "total_votes": 52560,
+          "turnout_pct": 54.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 29025,
+          "dem_pct": 48.6,
+          "gop_votes": 29039,
+          "gop_pct": 48.7,
+          "other_votes": 1610,
+          "other_pct": 2.7,
+          "total_votes": 59674,
+          "turnout_pct": 62.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 29213,
+          "dem_pct": 48.9,
+          "gop_votes": 29930,
+          "gop_pct": 50.1,
+          "other_votes": 598,
+          "other_pct": 1.0,
+          "total_votes": 59741,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 96047,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36071": {
+      "name": "Orange County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 68278,
+          "dem_pct": 44.9,
+          "gop_votes": 76645,
+          "gop_pct": 50.4,
+          "other_votes": 7144,
+          "other_pct": 4.7,
+          "total_votes": 152067,
+          "turnout_pct": 54.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 84684,
+          "dem_pct": 49.2,
+          "gop_votes": 84996,
+          "gop_pct": 49.4,
+          "other_votes": 2419,
+          "other_pct": 1.4,
+          "total_votes": 172099,
+          "turnout_pct": 61.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 80061,
+          "dem_pct": 45.7,
+          "gop_votes": 94602,
+          "gop_pct": 54.0,
+          "other_votes": 526,
+          "other_pct": 0.3,
+          "total_votes": 175189,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 281654,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36073": {
+      "name": "Orleans County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 4470,
+          "dem_pct": 27.3,
+          "gop_votes": 10936,
+          "gop_pct": 66.8,
+          "other_votes": 968,
+          "other_pct": 5.9,
+          "total_votes": 16374,
+          "turnout_pct": 56.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 5587,
+          "dem_pct": 30.8,
+          "gop_votes": 12126,
+          "gop_pct": 66.8,
+          "other_votes": 441,
+          "other_pct": 2.4,
+          "total_votes": 18154,
+          "turnout_pct": 62.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 5353,
+          "dem_pct": 29.7,
+          "gop_votes": 12636,
+          "gop_pct": 70.1,
+          "other_votes": 36,
+          "other_pct": 0.3,
+          "total_votes": 18025,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 28979,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36075": {
+      "name": "Oswego County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 17095,
+          "dem_pct": 35.5,
+          "gop_votes": 27688,
+          "gop_pct": 57.5,
+          "other_votes": 3372,
+          "other_pct": 7.0,
+          "total_votes": 48155,
+          "turnout_pct": 55.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 21143,
+          "dem_pct": 38.8,
+          "gop_votes": 32138,
+          "gop_pct": 59.0,
+          "other_votes": 1210,
+          "other_pct": 2.2,
+          "total_votes": 54491,
+          "turnout_pct": 62.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 20424,
+          "dem_pct": 37.8,
+          "gop_votes": 33445,
+          "gop_pct": 61.9,
+          "other_votes": 162,
+          "other_pct": 0.2,
+          "total_votes": 54031,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 86867,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36077": {
+      "name": "Otsego County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 10451,
+          "dem_pct": 40.7,
+          "gop_votes": 13308,
+          "gop_pct": 51.8,
+          "other_votes": 1919,
+          "other_pct": 7.5,
+          "total_votes": 25678,
+          "turnout_pct": 56.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 12975,
+          "dem_pct": 46.3,
+          "gop_votes": 14382,
+          "gop_pct": 51.3,
+          "other_votes": 651,
+          "other_pct": 2.3,
+          "total_votes": 28008,
+          "turnout_pct": 61.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 12899,
+          "dem_pct": 45.6,
+          "gop_votes": 15105,
+          "gop_pct": 53.4,
+          "other_votes": 283,
+          "other_pct": 1.1,
+          "total_votes": 28287,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 45477,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36079": {
+      "name": "Putnam County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 19366,
+          "dem_pct": 39.9,
+          "gop_votes": 27024,
+          "gop_pct": 55.7,
+          "other_votes": 2146,
+          "other_pct": 4.4,
+          "total_votes": 48536,
+          "turnout_pct": 54.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 24953,
+          "dem_pct": 45.4,
+          "gop_votes": 29283,
+          "gop_pct": 53.3,
+          "other_votes": 753,
+          "other_pct": 1.4,
+          "total_votes": 54989,
+          "turnout_pct": 61.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 23758,
+          "dem_pct": 42.8,
+          "gop_votes": 31252,
+          "gop_pct": 56.3,
+          "other_votes": 499,
+          "other_pct": 0.9,
+          "total_votes": 55509,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 89243,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36081": {
+      "name": "Queens County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 517220,
+          "dem_pct": 75.4,
+          "gop_votes": 149341,
+          "gop_pct": 21.8,
+          "other_votes": 19407,
+          "other_pct": 2.8,
+          "total_votes": 685968,
+          "turnout_pct": 60.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 569038,
+          "dem_pct": 72.2,
+          "gop_votes": 212665,
+          "gop_pct": 27.0,
+          "other_votes": 6157,
+          "other_pct": 0.8,
+          "total_votes": 787860,
+          "turnout_pct": 69.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 428867,
+          "dem_pct": 61.1,
+          "gop_votes": 259707,
+          "gop_pct": 37.0,
+          "other_votes": 13336,
+          "other_pct": 2.0,
+          "total_votes": 701910,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 1128473,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36083": {
+      "name": "Rensselaer County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 32717,
+          "dem_pct": 45.7,
+          "gop_votes": 33726,
+          "gop_pct": 47.1,
+          "other_votes": 5148,
+          "other_pct": 7.2,
+          "total_votes": 71591,
+          "turnout_pct": 56.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 40969,
+          "dem_pct": 51.6,
+          "gop_votes": 36500,
+          "gop_pct": 46.0,
+          "other_votes": 1940,
+          "other_pct": 2.4,
+          "total_votes": 79409,
+          "turnout_pct": 63.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 39213,
+          "dem_pct": 50.1,
+          "gop_votes": 38195,
+          "gop_pct": 48.8,
+          "other_votes": 861,
+          "other_pct": 1.1,
+          "total_votes": 78269,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 125834,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36085": {
+      "name": "Richmond County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 74143,
+          "dem_pct": 41.0,
+          "gop_votes": 101437,
+          "gop_pct": 56.1,
+          "other_votes": 5257,
+          "other_pct": 2.9,
+          "total_votes": 180837,
+          "turnout_pct": 57.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 90997,
+          "dem_pct": 42.1,
+          "gop_votes": 123320,
+          "gop_pct": 57.1,
+          "other_votes": 1836,
+          "other_pct": 0.8,
+          "total_votes": 216153,
+          "turnout_pct": 68.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 68334,
+          "dem_pct": 34.6,
+          "gop_votes": 126200,
+          "gop_pct": 63.9,
+          "other_votes": 2962,
+          "other_pct": 1.5,
+          "total_votes": 197496,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 317518,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36087": {
+      "name": "Rockland County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 69342,
+          "dem_pct": 51.3,
+          "gop_votes": 60911,
+          "gop_pct": 45.1,
+          "other_votes": 4917,
+          "other_pct": 3.6,
+          "total_votes": 135170,
+          "turnout_pct": 56.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 75802,
+          "dem_pct": 50.4,
+          "gop_votes": 73186,
+          "gop_pct": 48.7,
+          "other_votes": 1381,
+          "other_pct": 0.9,
+          "total_votes": 150369,
+          "turnout_pct": 62.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 65298,
+          "dem_pct": 43.7,
+          "gop_votes": 82780,
+          "gop_pct": 55.4,
+          "other_votes": 1345,
+          "other_pct": 0.9,
+          "total_votes": 149423,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 240230,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36089": {
+      "name": "St. Lawrence County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 16488,
+          "dem_pct": 42.1,
+          "gop_votes": 19942,
+          "gop_pct": 50.9,
+          "other_votes": 2734,
+          "other_pct": 7.0,
+          "total_votes": 39164,
+          "turnout_pct": 55.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 19361,
+          "dem_pct": 43.1,
+          "gop_votes": 24608,
+          "gop_pct": 54.8,
+          "other_votes": 938,
+          "other_pct": 2.1,
+          "total_votes": 44907,
+          "turnout_pct": 63.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 17923,
+          "dem_pct": 40.8,
+          "gop_votes": 25786,
+          "gop_pct": 58.7,
+          "other_votes": 220,
+          "other_pct": 0.5,
+          "total_votes": 43929,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 70625,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36091": {
+      "name": "Saratoga County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 50913,
+          "dem_pct": 44.6,
+          "gop_votes": 54575,
+          "gop_pct": 47.8,
+          "other_votes": 8667,
+          "other_pct": 7.6,
+          "total_votes": 114155,
+          "turnout_pct": 54.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 68471,
+          "dem_pct": 51.6,
+          "gop_votes": 61305,
+          "gop_pct": 46.2,
+          "other_votes": 2879,
+          "other_pct": 2.2,
+          "total_votes": 132655,
+          "turnout_pct": 63.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 66042,
+          "dem_pct": 50.7,
+          "gop_votes": 63698,
+          "gop_pct": 48.9,
+          "other_votes": 521,
+          "other_pct": 0.4,
+          "total_votes": 130261,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 209423,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36093": {
+      "name": "Schenectady County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 33747,
+          "dem_pct": 50.2,
+          "gop_votes": 28953,
+          "gop_pct": 43.1,
+          "other_votes": 4525,
+          "other_pct": 6.7,
+          "total_votes": 67225,
+          "turnout_pct": 58.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 42465,
+          "dem_pct": 56.8,
+          "gop_votes": 30741,
+          "gop_pct": 41.1,
+          "other_votes": 1620,
+          "other_pct": 2.2,
+          "total_votes": 74826,
+          "turnout_pct": 64.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 39224,
+          "dem_pct": 54.7,
+          "gop_votes": 31552,
+          "gop_pct": 44.0,
+          "other_votes": 932,
+          "other_pct": 1.2,
+          "total_votes": 71708,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 115286,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36095": {
+      "name": "Schoharie County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 4240,
+          "dem_pct": 30.2,
+          "gop_votes": 8831,
+          "gop_pct": 62.9,
+          "other_votes": 969,
+          "other_pct": 6.9,
+          "total_votes": 14040,
+          "turnout_pct": 54.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 5345,
+          "dem_pct": 34.0,
+          "gop_votes": 9903,
+          "gop_pct": 63.0,
+          "other_votes": 462,
+          "other_pct": 2.9,
+          "total_votes": 15710,
+          "turnout_pct": 61.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 5494,
+          "dem_pct": 34.4,
+          "gop_votes": 10333,
+          "gop_pct": 64.7,
+          "other_votes": 143,
+          "other_pct": 0.9,
+          "total_votes": 15970,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 25675,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36097": {
+      "name": "Schuyler County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3091,
+          "dem_pct": 35.2,
+          "gop_votes": 5050,
+          "gop_pct": 57.5,
+          "other_votes": 640,
+          "other_pct": 7.3,
+          "total_votes": 8781,
+          "turnout_pct": 57.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 3903,
+          "dem_pct": 40.0,
+          "gop_votes": 5621,
+          "gop_pct": 57.6,
+          "other_votes": 242,
+          "other_pct": 2.5,
+          "total_votes": 9766,
+          "turnout_pct": 64.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 3706,
+          "dem_pct": 39.2,
+          "gop_votes": 5672,
+          "gop_pct": 60.0,
+          "other_votes": 75,
+          "other_pct": 0.8,
+          "total_votes": 9453,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 15198,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36099": {
+      "name": "Seneca County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 5697,
+          "dem_pct": 40.8,
+          "gop_votes": 7236,
+          "gop_pct": 51.8,
+          "other_votes": 1030,
+          "other_pct": 7.4,
+          "total_votes": 13963,
+          "turnout_pct": 57.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 6914,
+          "dem_pct": 44.2,
+          "gop_votes": 8329,
+          "gop_pct": 53.3,
+          "other_votes": 387,
+          "other_pct": 2.5,
+          "total_votes": 15630,
+          "turnout_pct": 64.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 6565,
+          "dem_pct": 43.8,
+          "gop_votes": 8319,
+          "gop_pct": 55.5,
+          "other_votes": 105,
+          "other_pct": 0.8,
+          "total_votes": 14989,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 24098,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36101": {
+      "name": "Steuben County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 12526,
+          "dem_pct": 29.8,
+          "gop_votes": 26831,
+          "gop_pct": 63.8,
+          "other_votes": 2677,
+          "other_pct": 6.4,
+          "total_votes": 42034,
+          "turnout_pct": 57.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 15790,
+          "dem_pct": 34.2,
+          "gop_votes": 29474,
+          "gop_pct": 63.8,
+          "other_votes": 914,
+          "other_pct": 2.0,
+          "total_votes": 46178,
+          "turnout_pct": 63.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 15274,
+          "dem_pct": 33.8,
+          "gop_votes": 29509,
+          "gop_pct": 65.3,
+          "other_votes": 407,
+          "other_pct": 0.8,
+          "total_votes": 45190,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 72653,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36103": {
+      "name": "Suffolk County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 303951,
+          "dem_pct": 44.6,
+          "gop_votes": 350570,
+          "gop_pct": 51.4,
+          "other_votes": 26983,
+          "other_pct": 4.0,
+          "total_votes": 681504,
+          "turnout_pct": 55.8,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 381021,
+          "dem_pct": 49.4,
+          "gop_votes": 381253,
+          "gop_pct": 49.4,
+          "other_votes": 9267,
+          "other_pct": 1.2,
+          "total_votes": 771541,
+          "turnout_pct": 63.2,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 338675,
+          "dem_pct": 44.6,
+          "gop_votes": 413852,
+          "gop_pct": 54.5,
+          "other_votes": 6834,
+          "other_pct": 0.9,
+          "total_votes": 759361,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 1220838,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36105": {
+      "name": "Sullivan County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 12568,
+          "dem_pct": 42.0,
+          "gop_votes": 15931,
+          "gop_pct": 53.2,
+          "other_votes": 1425,
+          "other_pct": 4.8,
+          "total_votes": 29924,
+          "turnout_pct": 53.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 15489,
+          "dem_pct": 44.7,
+          "gop_votes": 18665,
+          "gop_pct": 53.9,
+          "other_votes": 493,
+          "other_pct": 1.4,
+          "total_votes": 34647,
+          "turnout_pct": 61.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 14498,
+          "dem_pct": 41.5,
+          "gop_votes": 20297,
+          "gop_pct": 58.1,
+          "other_votes": 140,
+          "other_pct": 0.4,
+          "total_votes": 34935,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 56166,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36107": {
+      "name": "Tioga County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 7526,
+          "dem_pct": 33.8,
+          "gop_votes": 13260,
+          "gop_pct": 59.6,
+          "other_votes": 1480,
+          "other_pct": 6.6,
+          "total_votes": 22266,
+          "turnout_pct": 56.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 9634,
+          "dem_pct": 38.5,
+          "gop_votes": 14791,
+          "gop_pct": 59.1,
+          "other_votes": 619,
+          "other_pct": 2.5,
+          "total_votes": 25044,
+          "turnout_pct": 63.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 9398,
+          "dem_pct": 38.4,
+          "gop_votes": 14979,
+          "gop_pct": 61.2,
+          "other_votes": 98,
+          "other_pct": 0.3,
+          "total_votes": 24475,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 39349,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36109": {
+      "name": "Tompkins County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 28890,
+          "dem_pct": 67.7,
+          "gop_votes": 10371,
+          "gop_pct": 24.3,
+          "other_votes": 3413,
+          "other_pct": 8.0,
+          "total_votes": 42674,
+          "turnout_pct": 57.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 33619,
+          "dem_pct": 73.5,
+          "gop_votes": 11096,
+          "gop_pct": 24.3,
+          "other_votes": 1020,
+          "other_pct": 2.2,
+          "total_votes": 45735,
+          "turnout_pct": 61.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 33937,
+          "dem_pct": 73.8,
+          "gop_votes": 11128,
+          "gop_pct": 24.2,
+          "other_votes": 920,
+          "other_pct": 2.0,
+          "total_votes": 45985,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 73931,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36111": {
+      "name": "Ulster County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 44597,
+          "dem_pct": 52.3,
+          "gop_votes": 35239,
+          "gop_pct": 41.3,
+          "other_votes": 5436,
+          "other_pct": 6.4,
+          "total_votes": 85272,
+          "turnout_pct": 54.3,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 57970,
+          "dem_pct": 59.5,
+          "gop_votes": 37590,
+          "gop_pct": 38.6,
+          "other_votes": 1860,
+          "other_pct": 1.9,
+          "total_votes": 97420,
+          "turnout_pct": 62.0,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 57164,
+          "dem_pct": 58.5,
+          "gop_votes": 39185,
+          "gop_pct": 40.1,
+          "other_votes": 1368,
+          "other_pct": 1.5,
+          "total_votes": 97717,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 157101,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36113": {
+      "name": "Warren County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 13091,
+          "dem_pct": 41.7,
+          "gop_votes": 15751,
+          "gop_pct": 50.2,
+          "other_votes": 2551,
+          "other_pct": 8.1,
+          "total_votes": 31393,
+          "turnout_pct": 54.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 17642,
+          "dem_pct": 48.8,
+          "gop_votes": 17699,
+          "gop_pct": 49.0,
+          "other_votes": 790,
+          "other_pct": 2.2,
+          "total_votes": 36131,
+          "turnout_pct": 62.9,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 16924,
+          "dem_pct": 47.4,
+          "gop_votes": 18424,
+          "gop_pct": 51.6,
+          "other_votes": 357,
+          "other_pct": 1.0,
+          "total_votes": 35705,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 57404,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36115": {
+      "name": "Washington County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 9098,
+          "dem_pct": 37.1,
+          "gop_votes": 13610,
+          "gop_pct": 55.5,
+          "other_votes": 1815,
+          "other_pct": 7.4,
+          "total_votes": 24523,
+          "turnout_pct": 53.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 11565,
+          "dem_pct": 41.1,
+          "gop_votes": 15941,
+          "gop_pct": 56.7,
+          "other_votes": 632,
+          "other_pct": 2.2,
+          "total_votes": 28138,
+          "turnout_pct": 61.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 11140,
+          "dem_pct": 39.1,
+          "gop_votes": 17124,
+          "gop_pct": 60.1,
+          "other_votes": 228,
+          "other_pct": 0.8,
+          "total_votes": 28492,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 45807,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36117": {
+      "name": "Wayne County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 13473,
+          "dem_pct": 33.9,
+          "gop_votes": 23380,
+          "gop_pct": 58.8,
+          "other_votes": 2890,
+          "other_pct": 7.3,
+          "total_votes": 39743,
+          "turnout_pct": 55.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 17456,
+          "dem_pct": 39.0,
+          "gop_votes": 26204,
+          "gop_pct": 58.6,
+          "other_votes": 1054,
+          "other_pct": 2.4,
+          "total_votes": 44714,
+          "turnout_pct": 62.7,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 16939,
+          "dem_pct": 38.2,
+          "gop_votes": 27093,
+          "gop_pct": 61.1,
+          "other_votes": 310,
+          "other_pct": 0.7,
+          "total_votes": 44342,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 71289,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36119": {
+      "name": "Westchester County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 272926,
+          "dem_pct": 64.9,
+          "gop_votes": 131238,
+          "gop_pct": 31.2,
+          "other_votes": 16369,
+          "other_pct": 3.9,
+          "total_votes": 420533,
+          "turnout_pct": 57.5,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 312371,
+          "dem_pct": 67.6,
+          "gop_votes": 144713,
+          "gop_pct": 31.3,
+          "other_votes": 5038,
+          "other_pct": 1.1,
+          "total_votes": 462122,
+          "turnout_pct": 63.1,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 285884,
+          "dem_pct": 62.8,
+          "gop_votes": 166614,
+          "gop_pct": 36.6,
+          "other_votes": 2731,
+          "other_pct": 0.6,
+          "total_votes": 455229,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 731879,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36121": {
+      "name": "Wyoming County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3904,
+          "dem_pct": 22.6,
+          "gop_votes": 12442,
+          "gop_pct": 72.0,
+          "other_votes": 928,
+          "other_pct": 5.4,
+          "total_votes": 17274,
+          "turnout_pct": 56.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 5073,
+          "dem_pct": 26.2,
+          "gop_votes": 13898,
+          "gop_pct": 71.6,
+          "other_votes": 428,
+          "other_pct": 2.2,
+          "total_votes": 19399,
+          "turnout_pct": 63.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 4894,
+          "dem_pct": 25.7,
+          "gop_votes": 14014,
+          "gop_pct": 73.6,
+          "other_votes": 133,
+          "other_pct": 0.7,
+          "total_votes": 19041,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 30613,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    },
+    "36123": {
+      "name": "Yates County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3659,
+          "dem_pct": 36.4,
+          "gop_votes": 5660,
+          "gop_pct": 56.3,
+          "other_votes": 733,
+          "other_pct": 7.3,
+          "total_votes": 10052,
+          "turnout_pct": 59.6,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2020": {
+          "dem_votes": 4219,
+          "dem_pct": 39.4,
+          "gop_votes": 6208,
+          "gop_pct": 58.0,
+          "other_votes": 274,
+          "other_pct": 2.6,
+          "total_votes": 10701,
+          "turnout_pct": 63.4,
+          "_turnout_note": "2024 registration used; historical registration varies"
+        },
+        "2024": {
+          "dem_votes": 4357,
+          "dem_pct": 41.5,
+          "gop_votes": 6037,
+          "gop_pct": 57.5,
+          "other_votes": 105,
+          "other_pct": 1.0,
+          "total_votes": 10499,
+          "turnout_pct": 62.2
+        }
+      },
+      "registration": {
+        "total_registered": 16879,
+        "eligible_voters": null,
+        "dem_pct": null,
+        "gop_pct": null,
+        "npp_pct": null,
+        "other_pct": null,
+        "_note": "Total registered estimated from 2024 total votes / 0.622 (NY avg turnout). NY has party registration; exact county breakdowns unavailable via automated fetch (NY BOE behind Cloudflare). Statewide approx: 49% Dem, 24% GOP, 23% NPP, 4% Other as of Nov 2024."
+      }
+    }
+  },
+  "_meta": {
+    "state": "New York",
+    "state_fips": "36",
+    "source_presidential_2016": "NY Times 2016 election results (Clinton/Trump counts) + Dave Leip's Atlas (percentages)",
+    "source_presidential_2020": "tonmcg US_County_Level_Election_Results_08-20 GitHub dataset",
+    "source_presidential_2024": "NY Times 2024 results (total votes) + Dave Leip's Atlas (percentages)",
+    "source_registration": "Estimated from 2024 turnout (statewide avg 62.2%); NY BOE county-level enrollment behind Cloudflare",
+    "notes": "NY is a fusion voting state. Dem vote = Dem + Working Families lines combined. GOP vote = GOP + Conservative lines combined. Percentages from Dave Leip's Atlas match certified NY BOE results.",
+    "validation_counties": [
+      "36005 (Bronx)",
+      "36047 (Kings/Brooklyn)",
+      "36081 (Queens)",
+      "36029 (Erie/Buffalo)",
+      "36001 (Albany)"
+    ]
+  }
+}

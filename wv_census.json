@@ -1,0 +1,7024 @@
+{
+  "cities": {
+    "Charleston city, West Virginia": {
+      "state": "WV",
+      "fips": "5414600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 47918,
+        "voting_age": 39085,
+        "voting_age_pct": 81.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 36392,
+          "pct": 75.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5640,
+          "pct": 11.77
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 27,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1282,
+          "pct": 2.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 34,
+          "pct": 0.07
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 48,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3570,
+          "pct": 7.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 925,
+          "pct": 1.93
+        }
+      ],
+      "economics": {
+        "median_household_income": 64512,
+        "poverty_count": 1545,
+        "poverty_pct": 3.22
+      },
+      "education": {
+        "bachelors_or_higher": 15555,
+        "bachelors_only": 7831,
+        "masters": 3949,
+        "professional": 2991,
+        "doctorate": 784
+      }
+    },
+    "Huntington city, West Virginia": {
+      "state": "WV",
+      "fips": "5439460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 46189,
+        "voting_age": 37944,
+        "voting_age_pct": 82.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 39041,
+          "pct": 84.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2865,
+          "pct": 6.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 596,
+          "pct": 1.29
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 12,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 114,
+          "pct": 0.25
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2638,
+          "pct": 5.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 906,
+          "pct": 1.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 43146,
+        "poverty_count": 2387,
+        "poverty_pct": 5.17
+      },
+      "education": {
+        "bachelors_or_higher": 9911,
+        "bachelors_only": 5382,
+        "masters": 2871,
+        "professional": 977,
+        "doctorate": 681
+      }
+    },
+    "Morgantown city, West Virginia": {
+      "state": "WV",
+      "fips": "5455756",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 30273,
+        "voting_age": 27392,
+        "voting_age_pct": 90.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25484,
+          "pct": 84.18
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1264,
+          "pct": 4.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1172,
+          "pct": 3.87
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 210,
+          "pct": 0.69
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 936,
+          "pct": 3.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1201,
+          "pct": 3.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 42245,
+        "poverty_count": 770,
+        "poverty_pct": 2.54
+      },
+      "education": {
+        "bachelors_or_higher": 8443,
+        "bachelors_only": 3752,
+        "masters": 2721,
+        "professional": 593,
+        "doctorate": 1377
+      }
+    },
+    "Parkersburg city, West Virginia": {
+      "state": "WV",
+      "fips": "5462140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 29461,
+        "voting_age": 23384,
+        "voting_age_pct": 79.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 27224,
+          "pct": 92.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 410,
+          "pct": 1.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 26,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 220,
+          "pct": 0.75
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 84,
+          "pct": 0.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1052,
+          "pct": 3.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 445,
+          "pct": 1.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 44675,
+        "poverty_count": 1827,
+        "poverty_pct": 6.2
+      },
+      "education": {
+        "bachelors_or_higher": 3897,
+        "bachelors_only": 2521,
+        "masters": 1064,
+        "professional": 158,
+        "doctorate": 154
+      }
+    },
+    "Wheeling city, West Virginia": {
+      "state": "WV",
+      "fips": "5486452",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 26670,
+        "voting_age": 21508,
+        "voting_age_pct": 80.64
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 23638,
+          "pct": 88.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1179,
+          "pct": 4.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 41,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 92,
+          "pct": 0.34
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 45,
+          "pct": 0.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1266,
+          "pct": 4.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 409,
+          "pct": 1.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 48498,
+        "poverty_count": 1172,
+        "poverty_pct": 4.39
+      },
+      "education": {
+        "bachelors_or_higher": 6279,
+        "bachelors_only": 3738,
+        "masters": 1762,
+        "professional": 417,
+        "doctorate": 362
+      }
+    },
+    "Martinsburg city, West Virginia": {
+      "state": "WV",
+      "fips": "5452060",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18805,
+        "voting_age": 14369,
+        "voting_age_pct": 76.41
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13009,
+          "pct": 69.18
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2546,
+          "pct": 13.54
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 137,
+          "pct": 0.73
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 281,
+          "pct": 1.49
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1319,
+          "pct": 7.01
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1498,
+          "pct": 7.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 54590,
+        "poverty_count": 1289,
+        "poverty_pct": 6.85
+      },
+      "education": {
+        "bachelors_or_higher": 2936,
+        "bachelors_only": 1978,
+        "masters": 795,
+        "professional": 111,
+        "doctorate": 52
+      }
+    },
+    "Weirton city, West Virginia": {
+      "state": "WV",
+      "fips": "5485156",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18785,
+        "voting_age": 15433,
+        "voting_age_pct": 82.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 17022,
+          "pct": 90.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 506,
+          "pct": 2.69
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 155,
+          "pct": 0.83
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 44,
+          "pct": 0.23
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 663,
+          "pct": 3.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 395,
+          "pct": 2.1
+        }
+      ],
+      "economics": {
+        "median_household_income": 56699,
+        "poverty_count": 601,
+        "poverty_pct": 3.2
+      },
+      "education": {
+        "bachelors_or_higher": 3240,
+        "bachelors_only": 2206,
+        "masters": 709,
+        "professional": 244,
+        "doctorate": 81
+      }
+    },
+    "Fairmont city, West Virginia": {
+      "state": "WV",
+      "fips": "5426452",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18303,
+        "voting_age": 14964,
+        "voting_age_pct": 81.76
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15550,
+          "pct": 84.96
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1137,
+          "pct": 6.21
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 96,
+          "pct": 0.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 148,
+          "pct": 0.81
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 987,
+          "pct": 5.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 372,
+          "pct": 2.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 60791,
+        "poverty_count": 637,
+        "poverty_pct": 3.48
+      },
+      "education": {
+        "bachelors_or_higher": 3750,
+        "bachelors_only": 2421,
+        "masters": 1072,
+        "professional": 98,
+        "doctorate": 159
+      }
+    },
+    "Beckley city, West Virginia": {
+      "state": "WV",
+      "fips": "5405332",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16977,
+        "voting_age": 12950,
+        "voting_age_pct": 76.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12114,
+          "pct": 71.36
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2546,
+          "pct": 15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 498,
+          "pct": 2.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 24,
+          "pct": 0.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1323,
+          "pct": 7.79
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 467,
+          "pct": 2.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 39939,
+        "poverty_count": 1187,
+        "poverty_pct": 6.99
+      },
+      "education": {
+        "bachelors_or_higher": 2952,
+        "bachelors_only": 1788,
+        "masters": 686,
+        "professional": 329,
+        "doctorate": 149
+      }
+    },
+    "Clarksburg city, West Virginia": {
+      "state": "WV",
+      "fips": "5415628",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15829,
+        "voting_age": 12466,
+        "voting_age_pct": 78.75
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14185,
+          "pct": 89.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 449,
+          "pct": 2.84
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 84,
+          "pct": 0.53
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 690,
+          "pct": 4.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 416,
+          "pct": 2.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 46859,
+        "poverty_count": 1243,
+        "poverty_pct": 7.85
+      },
+      "education": {
+        "bachelors_or_higher": 2672,
+        "bachelors_only": 1496,
+        "masters": 961,
+        "professional": 186,
+        "doctorate": 29
+      }
+    },
+    "South Charleston city, West Virginia": {
+      "state": "WV",
+      "fips": "5475292",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13594,
+        "voting_age": 10670,
+        "voting_age_pct": 78.49
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11537,
+          "pct": 84.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1005,
+          "pct": 7.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 47,
+          "pct": 0.35
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 205,
+          "pct": 1.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 633,
+          "pct": 4.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 159,
+          "pct": 1.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 59616,
+        "poverty_count": 975,
+        "poverty_pct": 7.17
+      },
+      "education": {
+        "bachelors_or_higher": 3447,
+        "bachelors_only": 1952,
+        "masters": 1124,
+        "professional": 229,
+        "doctorate": 142
+      }
+    },
+    "St. Albans city, West Virginia": {
+      "state": "WV",
+      "fips": "5471212",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10637,
+        "voting_age": 8620,
+        "voting_age_pct": 81.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9411,
+          "pct": 88.47
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 622,
+          "pct": 5.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 28,
+          "pct": 0.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 39,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 392,
+          "pct": 3.69
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 142,
+          "pct": 1.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 58788,
+        "poverty_count": 453,
+        "poverty_pct": 4.26
+      },
+      "education": {
+        "bachelors_or_higher": 2333,
+        "bachelors_only": 1563,
+        "masters": 562,
+        "professional": 77,
+        "doctorate": 131
+      }
+    },
+    "Vienna city, West Virginia": {
+      "state": "WV",
+      "fips": "5483500",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10575,
+        "voting_age": 8073,
+        "voting_age_pct": 76.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9490,
+          "pct": 89.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 260,
+          "pct": 2.46
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 26,
+          "pct": 0.25
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 123,
+          "pct": 1.16
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 55,
+          "pct": 0.52
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 427,
+          "pct": 4.04
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 194,
+          "pct": 1.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 65211,
+        "poverty_count": 86,
+        "poverty_pct": 0.81
+      },
+      "education": {
+        "bachelors_or_higher": 2330,
+        "bachelors_only": 1272,
+        "masters": 658,
+        "professional": 234,
+        "doctorate": 166
+      }
+    },
+    "Bluefield city, West Virginia": {
+      "state": "WV",
+      "fips": "5408524",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9511,
+        "voting_age": 7406,
+        "voting_age_pct": 77.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7131,
+          "pct": 74.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1427,
+          "pct": 15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 31,
+          "pct": 0.33
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 53,
+          "pct": 0.56
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 580,
+          "pct": 6.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 289,
+          "pct": 3.04
+        }
+      ],
+      "economics": {
+        "median_household_income": 43826,
+        "poverty_count": 512,
+        "poverty_pct": 5.38
+      },
+      "education": {
+        "bachelors_or_higher": 1602,
+        "bachelors_only": 1042,
+        "masters": 420,
+        "professional": 72,
+        "doctorate": 68
+      }
+    },
+    "Bridgeport city, West Virginia": {
+      "state": "WV",
+      "fips": "5410180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9292,
+        "voting_age": 7574,
+        "voting_age_pct": 81.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8323,
+          "pct": 89.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 150,
+          "pct": 1.61
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 302,
+          "pct": 3.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 161,
+          "pct": 1.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 356,
+          "pct": 3.83
+        }
+      ],
+      "economics": {
+        "median_household_income": 99936,
+        "poverty_count": 31,
+        "poverty_pct": 0.33
+      },
+      "education": {
+        "bachelors_or_higher": 3954,
+        "bachelors_only": 2367,
+        "masters": 1053,
+        "professional": 434,
+        "doctorate": 100
+      }
+    },
+    "Oak Hill city, West Virginia": {
+      "state": "WV",
+      "fips": "5460028",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8057,
+        "voting_age": 6304,
+        "voting_age_pct": 78.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7289,
+          "pct": 90.47
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 575,
+          "pct": 7.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14,
+          "pct": 0.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 50,
+          "pct": 0.62
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 112,
+          "pct": 1.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 17,
+          "pct": 0.21
+        }
+      ],
+      "economics": {
+        "median_household_income": 51799,
+        "poverty_count": 338,
+        "poverty_pct": 4.2
+      },
+      "education": {
+        "bachelors_or_higher": 902,
+        "bachelors_only": 654,
+        "masters": 212,
+        "professional": 26,
+        "doctorate": 10
+      }
+    },
+    "Moundsville city, West Virginia": {
+      "state": "WV",
+      "fips": "5456020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7934,
+        "voting_age": 6514,
+        "voting_age_pct": 82.1
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7468,
+          "pct": 94.13
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14,
+          "pct": 0.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.06
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 140,
+          "pct": 1.76
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 207,
+          "pct": 2.61
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 100,
+          "pct": 1.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 48590,
+        "poverty_count": 238,
+        "poverty_pct": 3
+      },
+      "education": {
+        "bachelors_or_higher": 777,
+        "bachelors_only": 494,
+        "masters": 266,
+        "professional": 5,
+        "doctorate": 12
+      }
+    },
+    "Dunbar city, West Virginia": {
+      "state": "WV",
+      "fips": "5422564",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7340,
+        "voting_age": 6094,
+        "voting_age_pct": 83.02
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5513,
+          "pct": 75.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 895,
+          "pct": 12.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 43,
+          "pct": 0.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 143,
+          "pct": 1.95
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 488,
+          "pct": 6.65
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 258,
+          "pct": 3.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 54647,
+        "poverty_count": 278,
+        "poverty_pct": 3.79
+      },
+      "education": {
+        "bachelors_or_higher": 1622,
+        "bachelors_only": 1158,
+        "masters": 372,
+        "professional": 49,
+        "doctorate": 43
+      }
+    },
+    "Nitro city, West Virginia": {
+      "state": "WV",
+      "fips": "5459068",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6941,
+        "voting_age": 5167,
+        "voting_age_pct": 74.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6330,
+          "pct": 91.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 101,
+          "pct": 1.46
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 463,
+          "pct": 6.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 47,
+          "pct": 0.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 52247,
+        "poverty_count": 786,
+        "poverty_pct": 11.32
+      },
+      "education": {
+        "bachelors_or_higher": 743,
+        "bachelors_only": 376,
+        "masters": 273,
+        "professional": 20,
+        "doctorate": 74
+      }
+    },
+    "Hurricane city, West Virginia": {
+      "state": "WV",
+      "fips": "5439532",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6891,
+        "voting_age": 5464,
+        "voting_age_pct": 79.29
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6524,
+          "pct": 94.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10,
+          "pct": 0.15
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 1.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 239,
+          "pct": 3.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 35,
+          "pct": 0.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 67083,
+        "poverty_count": 234,
+        "poverty_pct": 3.4
+      },
+      "education": {
+        "bachelors_or_higher": 1563,
+        "bachelors_only": 970,
+        "masters": 486,
+        "professional": 61,
+        "doctorate": 46
+      }
+    },
+    "Elkins city, West Virginia": {
+      "state": "WV",
+      "fips": "5424580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6875,
+        "voting_age": 5565,
+        "voting_age_pct": 80.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6040,
+          "pct": 87.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 199,
+          "pct": 2.89
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 408,
+          "pct": 5.93
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 228,
+          "pct": 3.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 47746,
+        "poverty_count": 206,
+        "poverty_pct": 3
+      },
+      "education": {
+        "bachelors_or_higher": 1390,
+        "bachelors_only": 1020,
+        "masters": 290,
+        "professional": 41,
+        "doctorate": 39
+      }
+    },
+    "Charles Town city, West Virginia": {
+      "state": "WV",
+      "fips": "5414610",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6854,
+        "voting_age": 5078,
+        "voting_age_pct": 74.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4783,
+          "pct": 69.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 829,
+          "pct": 12.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 145,
+          "pct": 2.12
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 312,
+          "pct": 4.55
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 785,
+          "pct": 11.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 94830,
+        "poverty_count": 222,
+        "poverty_pct": 3.24
+      },
+      "education": {
+        "bachelors_or_higher": 1835,
+        "bachelors_only": 1112,
+        "masters": 611,
+        "professional": 85,
+        "doctorate": 27
+      }
+    },
+    "Princeton city, West Virginia": {
+      "state": "WV",
+      "fips": "5465692",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5780,
+        "voting_age": 4688,
+        "voting_age_pct": 81.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5032,
+          "pct": 87.06
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 235,
+          "pct": 4.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 0.61
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 450,
+          "pct": 7.79
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 28,
+          "pct": 0.48
+        }
+      ],
+      "economics": {
+        "median_household_income": 44428,
+        "poverty_count": 420,
+        "poverty_pct": 7.27
+      },
+      "education": {
+        "bachelors_or_higher": 831,
+        "bachelors_only": 517,
+        "masters": 204,
+        "professional": 40,
+        "doctorate": 70
+      }
+    },
+    "New Martinsville city, West Virginia": {
+      "state": "WV",
+      "fips": "5458684",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5175,
+        "voting_age": 4190,
+        "voting_age_pct": 80.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4988,
+          "pct": 96.39
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 55,
+          "pct": 1.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 18,
+          "pct": 0.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 30,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 51,
+          "pct": 0.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 33,
+          "pct": 0.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 51226,
+        "poverty_count": 96,
+        "poverty_pct": 1.86
+      },
+      "education": {
+        "bachelors_or_higher": 638,
+        "bachelors_only": 441,
+        "masters": 143,
+        "professional": 41,
+        "doctorate": 13
+      }
+    },
+    "Buckhannon city, West Virginia": {
+      "state": "WV",
+      "fips": "5411188",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5144,
+        "voting_age": 4309,
+        "voting_age_pct": 83.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4456,
+          "pct": 86.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 302,
+          "pct": 5.87
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 68,
+          "pct": 1.32
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 6,
+          "pct": 0.12
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 198,
+          "pct": 3.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 97,
+          "pct": 1.89
+        }
+      ],
+      "economics": {
+        "median_household_income": 48720,
+        "poverty_count": 310,
+        "poverty_pct": 6.03
+      },
+      "education": {
+        "bachelors_or_higher": 624,
+        "bachelors_only": 371,
+        "masters": 209,
+        "professional": 28,
+        "doctorate": 16
+      }
+    },
+    "Keyser city, West Virginia": {
+      "state": "WV",
+      "fips": "5443492",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4870,
+        "voting_age": 4151,
+        "voting_age_pct": 85.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4339,
+          "pct": 89.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 203,
+          "pct": 4.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 30,
+          "pct": 0.62
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 109,
+          "pct": 2.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 154,
+          "pct": 3.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 35,
+          "pct": 0.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 47991,
+        "poverty_count": 271,
+        "poverty_pct": 5.56
+      },
+      "education": {
+        "bachelors_or_higher": 758,
+        "bachelors_only": 345,
+        "masters": 404,
+        "professional": 9,
+        "doctorate": 0
+      }
+    },
+    "Grafton city, West Virginia": {
+      "state": "WV",
+      "fips": "5432716",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4671,
+        "voting_age": 3661,
+        "voting_age_pct": 78.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4500,
+          "pct": 96.34
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.34
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 147,
+          "pct": 3.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7,
+          "pct": 0.15
+        }
+      ],
+      "economics": {
+        "median_household_income": 38872,
+        "poverty_count": 372,
+        "poverty_pct": 7.96
+      },
+      "education": {
+        "bachelors_or_higher": 377,
+        "bachelors_only": 281,
+        "masters": 95,
+        "professional": 1,
+        "doctorate": 0
+      }
+    },
+    "Barboursville village, West Virginia": {
+      "state": "WV",
+      "fips": "5404276",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4394,
+        "voting_age": 3553,
+        "voting_age_pct": 80.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3842,
+          "pct": 87.44
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 175,
+          "pct": 3.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 10,
+          "pct": 0.23
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 196,
+          "pct": 4.46
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 18,
+          "pct": 0.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 153,
+          "pct": 3.48
+        }
+      ],
+      "economics": {
+        "median_household_income": 59531,
+        "poverty_count": 38,
+        "poverty_pct": 0.86
+      },
+      "education": {
+        "bachelors_or_higher": 1191,
+        "bachelors_only": 607,
+        "masters": 403,
+        "professional": 102,
+        "doctorate": 79
+      }
+    },
+    "Point Pleasant city, West Virginia": {
+      "state": "WV",
+      "fips": "5464708",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4009,
+        "voting_age": 3102,
+        "voting_age_pct": 77.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3770,
+          "pct": 94.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 128,
+          "pct": 3.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 0.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 89,
+          "pct": 2.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1,
+          "pct": 0.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 40837,
+        "poverty_count": 219,
+        "poverty_pct": 5.46
+      },
+      "education": {
+        "bachelors_or_higher": 673,
+        "bachelors_only": 541,
+        "masters": 102,
+        "professional": 21,
+        "doctorate": 9
+      }
+    },
+    "Westover city, West Virginia": {
+      "state": "WV",
+      "fips": "5485996",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4007,
+        "voting_age": 3505,
+        "voting_age_pct": 87.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3472,
+          "pct": 86.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 215,
+          "pct": 5.37
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 157,
+          "pct": 3.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 163,
+          "pct": 4.07
+        }
+      ],
+      "economics": {
+        "median_household_income": 58333,
+        "poverty_count": 44,
+        "poverty_pct": 1.1
+      },
+      "education": {
+        "bachelors_or_higher": 997,
+        "bachelors_only": 612,
+        "masters": 320,
+        "professional": 9,
+        "doctorate": 56
+      }
+    },
+    "Weston city, West Virginia": {
+      "state": "WV",
+      "fips": "5485972",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3884,
+        "voting_age": 3076,
+        "voting_age_pct": 79.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3545,
+          "pct": 91.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 48,
+          "pct": 1.24
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 21,
+          "pct": 0.54
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 169,
+          "pct": 4.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 101,
+          "pct": 2.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 51399,
+        "poverty_count": 211,
+        "poverty_pct": 5.43
+      },
+      "education": {
+        "bachelors_or_higher": 406,
+        "bachelors_only": 240,
+        "masters": 127,
+        "professional": 0,
+        "doctorate": 39
+      }
+    },
+    "Lewisburg city, West Virginia": {
+      "state": "WV",
+      "fips": "5446636",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3871,
+        "voting_age": 3111,
+        "voting_age_pct": 80.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3513,
+          "pct": 90.75
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 50,
+          "pct": 1.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 126,
+          "pct": 3.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 41,
+          "pct": 1.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 141,
+          "pct": 3.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 52798,
+        "poverty_count": 64,
+        "poverty_pct": 1.65
+      },
+      "education": {
+        "bachelors_or_higher": 1675,
+        "bachelors_only": 861,
+        "masters": 635,
+        "professional": 179,
+        "doctorate": 0
+      }
+    },
+    "Ravenswood city, West Virginia": {
+      "state": "WV",
+      "fips": "5467108",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3846,
+        "voting_age": 2961,
+        "voting_age_pct": 76.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3613,
+          "pct": 93.94
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12,
+          "pct": 0.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.42
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 151,
+          "pct": 3.93
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 54,
+          "pct": 1.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 45392,
+        "poverty_count": 379,
+        "poverty_pct": 9.85
+      },
+      "education": {
+        "bachelors_or_higher": 521,
+        "bachelors_only": 352,
+        "masters": 169,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Pleasant Valley city, West Virginia": {
+      "state": "WV",
+      "fips": "5464228",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3494,
+        "voting_age": 2720,
+        "voting_age_pct": 77.85
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3133,
+          "pct": 89.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 76,
+          "pct": 2.18
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 0.6
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 180,
+          "pct": 5.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 84,
+          "pct": 2.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 58456,
+        "poverty_count": 100,
+        "poverty_pct": 2.86
+      },
+      "education": {
+        "bachelors_or_higher": 824,
+        "bachelors_only": 433,
+        "masters": 250,
+        "professional": 70,
+        "doctorate": 71
+      }
+    },
+    "Welch city, West Virginia": {
+      "state": "WV",
+      "fips": "5485228",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3492,
+        "voting_age": 3205,
+        "voting_age_pct": 91.78
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2314,
+          "pct": 66.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 845,
+          "pct": 24.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.29
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1,
+          "pct": 0.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 315,
+          "pct": 9.02
+        }
+      ],
+      "economics": {
+        "median_household_income": 36188,
+        "poverty_count": 33,
+        "poverty_pct": 0.95
+      },
+      "education": {
+        "bachelors_or_higher": 193,
+        "bachelors_only": 133,
+        "masters": 28,
+        "professional": 28,
+        "doctorate": 4
+      }
+    },
+    "Summersville city, West Virginia": {
+      "state": "WV",
+      "fips": "5477980",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3397,
+        "voting_age": 2918,
+        "voting_age_pct": 85.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3135,
+          "pct": 92.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 34,
+          "pct": 1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 149,
+          "pct": 4.39
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 79,
+          "pct": 2.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 52321,
+        "poverty_count": 105,
+        "poverty_pct": 3.09
+      },
+      "education": {
+        "bachelors_or_higher": 813,
+        "bachelors_only": 207,
+        "masters": 537,
+        "professional": 44,
+        "doctorate": 25
+      }
+    },
+    "Petersburg city, West Virginia": {
+      "state": "WV",
+      "fips": "5462956",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3172,
+        "voting_age": 2425,
+        "voting_age_pct": 76.45
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2976,
+          "pct": 93.82
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 20,
+          "pct": 0.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 123,
+          "pct": 3.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 53,
+          "pct": 1.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 48286,
+        "poverty_count": 56,
+        "poverty_pct": 1.77
+      },
+      "education": {
+        "bachelors_or_higher": 504,
+        "bachelors_only": 389,
+        "masters": 94,
+        "professional": 6,
+        "doctorate": 15
+      }
+    },
+    "Ripley city, West Virginia": {
+      "state": "WV",
+      "fips": "5468596",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3066,
+        "voting_age": 2579,
+        "voting_age_pct": 84.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2873,
+          "pct": 93.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 88,
+          "pct": 2.87
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 48,
+          "pct": 1.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 57,
+          "pct": 1.86
+        }
+      ],
+      "economics": {
+        "median_household_income": 35120,
+        "poverty_count": 243,
+        "poverty_pct": 7.93
+      },
+      "education": {
+        "bachelors_or_higher": 503,
+        "bachelors_only": 345,
+        "masters": 69,
+        "professional": 32,
+        "doctorate": 57
+      }
+    },
+    "Kingwood city, West Virginia": {
+      "state": "WV",
+      "fips": "5444044",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2980,
+        "voting_age": 2346,
+        "voting_age_pct": 78.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2834,
+          "pct": 95.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 74,
+          "pct": 2.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 42,
+          "pct": 1.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 18,
+          "pct": 0.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11,
+          "pct": 0.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 67411,
+        "poverty_count": 176,
+        "poverty_pct": 5.91
+      },
+      "education": {
+        "bachelors_or_higher": 678,
+        "bachelors_only": 304,
+        "masters": 350,
+        "professional": 11,
+        "doctorate": 13
+      }
+    },
+    "Williamson city, West Virginia": {
+      "state": "WV",
+      "fips": "5487508",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2979,
+        "voting_age": 2167,
+        "voting_age_pct": 72.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2496,
+          "pct": 83.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 190,
+          "pct": 6.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 24,
+          "pct": 0.81
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 269,
+          "pct": 9.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 24119,
+        "poverty_count": 138,
+        "poverty_pct": 4.63
+      },
+      "education": {
+        "bachelors_or_higher": 231,
+        "bachelors_only": 85,
+        "masters": 131,
+        "professional": 15,
+        "doctorate": 0
+      }
+    },
+    "Kenova city, West Virginia": {
+      "state": "WV",
+      "fips": "5443180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2977,
+        "voting_age": 2693,
+        "voting_age_pct": 90.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2647,
+          "pct": 88.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 127,
+          "pct": 4.27
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 182,
+          "pct": 6.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 21,
+          "pct": 0.71
+        }
+      ],
+      "economics": {
+        "median_household_income": 53438,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 337,
+        "bachelors_only": 190,
+        "masters": 90,
+        "professional": 0,
+        "doctorate": 57
+      }
+    },
+    "Williamstown city, West Virginia": {
+      "state": "WV",
+      "fips": "5487556",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2977,
+        "voting_age": 2474,
+        "voting_age_pct": 83.1
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2887,
+          "pct": 96.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 26,
+          "pct": 0.87
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 35,
+          "pct": 1.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26,
+          "pct": 0.87
+        }
+      ],
+      "economics": {
+        "median_household_income": 75577,
+        "poverty_count": 39,
+        "poverty_pct": 1.31
+      },
+      "education": {
+        "bachelors_or_higher": 1062,
+        "bachelors_only": 591,
+        "masters": 421,
+        "professional": 12,
+        "doctorate": 38
+      }
+    },
+    "Moorefield town, West Virginia": {
+      "state": "WV",
+      "fips": "5455588",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2952,
+        "voting_age": 2498,
+        "voting_age_pct": 84.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2091,
+          "pct": 70.83
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 587,
+          "pct": 19.88
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 13,
+          "pct": 0.44
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 12,
+          "pct": 0.41
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 249,
+          "pct": 8.43
+        }
+      ],
+      "economics": {
+        "median_household_income": 47308,
+        "poverty_count": 147,
+        "poverty_pct": 4.98
+      },
+      "education": {
+        "bachelors_or_higher": 168,
+        "bachelors_only": 88,
+        "masters": 65,
+        "professional": 0,
+        "doctorate": 15
+      }
+    },
+    "Philippi city, West Virginia": {
+      "state": "WV",
+      "fips": "5463292",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2919,
+        "voting_age": 2367,
+        "voting_age_pct": 81.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2499,
+          "pct": 85.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 252,
+          "pct": 8.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 33,
+          "pct": 1.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 98,
+          "pct": 3.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 37,
+          "pct": 1.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 43203,
+        "poverty_count": 252,
+        "poverty_pct": 8.63
+      },
+      "education": {
+        "bachelors_or_higher": 322,
+        "bachelors_only": 188,
+        "masters": 64,
+        "professional": 46,
+        "doctorate": 24
+      }
+    },
+    "Fayetteville town, West Virginia": {
+      "state": "WV",
+      "fips": "5427028",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2864,
+        "voting_age": 2203,
+        "voting_age_pct": 76.92
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2776,
+          "pct": 96.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 26,
+          "pct": 0.91
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 62,
+          "pct": 2.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 59659,
+        "poverty_count": 225,
+        "poverty_pct": 7.86
+      },
+      "education": {
+        "bachelors_or_higher": 573,
+        "bachelors_only": 462,
+        "masters": 101,
+        "professional": 10,
+        "doctorate": 0
+      }
+    },
+    "Madison city, West Virginia": {
+      "state": "WV",
+      "fips": "5450524",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2840,
+        "voting_age": 2299,
+        "voting_age_pct": 80.95
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2685,
+          "pct": 94.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 72,
+          "pct": 2.54
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 25,
+          "pct": 0.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 42,
+          "pct": 1.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 0.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 57073,
+        "poverty_count": 97,
+        "poverty_pct": 3.42
+      },
+      "education": {
+        "bachelors_or_higher": 464,
+        "bachelors_only": 246,
+        "masters": 194,
+        "professional": 24,
+        "doctorate": 0
+      }
+    },
+    "Follansbee city, West Virginia": {
+      "state": "WV",
+      "fips": "5428204",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2790,
+        "voting_age": 2386,
+        "voting_age_pct": 85.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2671,
+          "pct": 95.73
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.04
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 53,
+          "pct": 1.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 65,
+          "pct": 2.33
+        }
+      ],
+      "economics": {
+        "median_household_income": 52974,
+        "poverty_count": 73,
+        "poverty_pct": 2.62
+      },
+      "education": {
+        "bachelors_or_higher": 395,
+        "bachelors_only": 273,
+        "masters": 105,
+        "professional": 9,
+        "doctorate": 8
+      }
+    },
+    "Milton town, West Virginia": {
+      "state": "WV",
+      "fips": "5454484",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2773,
+        "voting_age": 2107,
+        "voting_age_pct": 75.98
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2762,
+          "pct": 99.6
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 11,
+          "pct": 0.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 54135,
+        "poverty_count": 165,
+        "poverty_pct": 5.95
+      },
+      "education": {
+        "bachelors_or_higher": 377,
+        "bachelors_only": 198,
+        "masters": 145,
+        "professional": 19,
+        "doctorate": 15
+      }
+    },
+    "White Sulphur Springs city, West Virginia": {
+      "state": "WV",
+      "fips": "5486812",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2646,
+        "voting_age": 2150,
+        "voting_age_pct": 81.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2249,
+          "pct": 85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 259,
+          "pct": 9.79
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.04
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 24,
+          "pct": 0.91
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 73,
+          "pct": 2.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 40,
+          "pct": 1.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 43388,
+        "poverty_count": 175,
+        "poverty_pct": 6.61
+      },
+      "education": {
+        "bachelors_or_higher": 488,
+        "bachelors_only": 347,
+        "masters": 141,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Richwood city, West Virginia": {
+      "state": "WV",
+      "fips": "5468116",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2617,
+        "voting_age": 2158,
+        "voting_age_pct": 82.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2546,
+          "pct": 97.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.04
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 39,
+          "pct": 1.49
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 15,
+          "pct": 0.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 0.61
+        }
+      ],
+      "economics": {
+        "median_household_income": 33614,
+        "poverty_count": 152,
+        "poverty_pct": 5.81
+      },
+      "education": {
+        "bachelors_or_higher": 254,
+        "bachelors_only": 218,
+        "masters": 27,
+        "professional": 9,
+        "doctorate": 0
+      }
+    },
+    "Bethlehem village, West Virginia": {
+      "state": "WV",
+      "fips": "5406940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2568,
+        "voting_age": 1885,
+        "voting_age_pct": 73.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2479,
+          "pct": 96.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 29,
+          "pct": 1.13
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 42,
+          "pct": 1.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 18,
+          "pct": 0.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 87500,
+        "poverty_count": 48,
+        "poverty_pct": 1.87
+      },
+      "education": {
+        "bachelors_or_higher": 822,
+        "bachelors_only": 430,
+        "masters": 301,
+        "professional": 34,
+        "doctorate": 57
+      }
+    },
+    "Winfield town, West Virginia": {
+      "state": "WV",
+      "fips": "5487988",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2538,
+        "voting_age": 1872,
+        "voting_age_pct": 73.76
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2329,
+          "pct": 91.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 75,
+          "pct": 2.96
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 5,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 113,
+          "pct": 4.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 0.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 89917,
+        "poverty_count": 269,
+        "poverty_pct": 10.6
+      },
+      "education": {
+        "bachelors_or_higher": 592,
+        "bachelors_only": 333,
+        "masters": 232,
+        "professional": 12,
+        "doctorate": 15
+      }
+    },
+    "Paden City city, West Virginia": {
+      "state": "WV",
+      "fips": "5461636",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2529,
+        "voting_age": 1923,
+        "voting_age_pct": 76.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2481,
+          "pct": 98.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 48,
+          "pct": 1.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 53871,
+        "poverty_count": 64,
+        "poverty_pct": 2.53
+      },
+      "education": {
+        "bachelors_or_higher": 294,
+        "bachelors_only": 196,
+        "masters": 91,
+        "professional": 7,
+        "doctorate": 0
+      }
+    },
+    "Hinton city, West Virginia": {
+      "state": "WV",
+      "fips": "5437636",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2413,
+        "voting_age": 1734,
+        "voting_age_pct": 71.86
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2103,
+          "pct": 87.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 242,
+          "pct": 10.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 9,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 59,
+          "pct": 2.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 42852,
+        "poverty_count": 208,
+        "poverty_pct": 8.62
+      },
+      "education": {
+        "bachelors_or_higher": 323,
+        "bachelors_only": 135,
+        "masters": 162,
+        "professional": 19,
+        "doctorate": 7
+      }
+    },
+    "Wellsburg city, West Virginia": {
+      "state": "WV",
+      "fips": "5485324",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2364,
+        "voting_age": 2151,
+        "voting_age_pct": 90.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2222,
+          "pct": 93.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10,
+          "pct": 0.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 71,
+          "pct": 3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 61,
+          "pct": 2.58
+        }
+      ],
+      "economics": {
+        "median_household_income": 40948,
+        "poverty_count": 10,
+        "poverty_pct": 0.42
+      },
+      "education": {
+        "bachelors_or_higher": 346,
+        "bachelors_only": 169,
+        "masters": 143,
+        "professional": 14,
+        "doctorate": 20
+      }
+    },
+    "Chester city, West Virginia": {
+      "state": "WV",
+      "fips": "5415076",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2302,
+        "voting_age": 1957,
+        "voting_age_pct": 85.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2154,
+          "pct": 93.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 72,
+          "pct": 3.13
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 19,
+          "pct": 0.83
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 45,
+          "pct": 1.95
+        }
+      ],
+      "economics": {
+        "median_household_income": 63750,
+        "poverty_count": 17,
+        "poverty_pct": 0.74
+      },
+      "education": {
+        "bachelors_or_higher": 501,
+        "bachelors_only": 471,
+        "masters": 30,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Stonewood city, West Virginia": {
+      "state": "WV",
+      "fips": "5477188",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2273,
+        "voting_age": 1689,
+        "voting_age_pct": 74.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1970,
+          "pct": 86.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 60,
+          "pct": 2.64
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 137,
+          "pct": 6.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 105,
+          "pct": 4.62
+        }
+      ],
+      "economics": {
+        "median_household_income": 44967,
+        "poverty_count": 19,
+        "poverty_pct": 0.84
+      },
+      "education": {
+        "bachelors_or_higher": 374,
+        "bachelors_only": 341,
+        "masters": 33,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Mullens city, West Virginia": {
+      "state": "WV",
+      "fips": "5457148",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2267,
+        "voting_age": 1850,
+        "voting_age_pct": 81.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2025,
+          "pct": 89.33
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 83,
+          "pct": 3.66
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4,
+          "pct": 0.18
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 93,
+          "pct": 4.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 62,
+          "pct": 2.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 65625,
+        "poverty_count": 68,
+        "poverty_pct": 3
+      },
+      "education": {
+        "bachelors_or_higher": 521,
+        "bachelors_only": 227,
+        "masters": 164,
+        "professional": 75,
+        "doctorate": 55
+      }
+    },
+    "Shinnston city, West Virginia": {
+      "state": "WV",
+      "fips": "5473636",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2198,
+        "voting_age": 1818,
+        "voting_age_pct": 82.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1908,
+          "pct": 86.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15,
+          "pct": 0.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 144,
+          "pct": 6.55
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 130,
+          "pct": 5.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 63750,
+        "poverty_count": 110,
+        "poverty_pct": 5
+      },
+      "education": {
+        "bachelors_or_higher": 357,
+        "bachelors_only": 291,
+        "masters": 53,
+        "professional": 13,
+        "doctorate": 0
+      }
+    },
+    "St. Marys city, West Virginia": {
+      "state": "WV",
+      "fips": "5471356",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2178,
+        "voting_age": 1785,
+        "voting_age_pct": 81.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2078,
+          "pct": 95.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.14
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 28,
+          "pct": 1.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 69,
+          "pct": 3.17
+        }
+      ],
+      "economics": {
+        "median_household_income": 59315,
+        "poverty_count": 5,
+        "poverty_pct": 0.23
+      },
+      "education": {
+        "bachelors_or_higher": 352,
+        "bachelors_only": 167,
+        "masters": 129,
+        "professional": 53,
+        "doctorate": 3
+      }
+    },
+    "Spencer city, West Virginia": {
+      "state": "WV",
+      "fips": "5475820",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2137,
+        "voting_age": 1689,
+        "voting_age_pct": 79.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2047,
+          "pct": 95.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 58,
+          "pct": 2.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 21,
+          "pct": 0.98
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8,
+          "pct": 0.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 25897,
+        "poverty_count": 250,
+        "poverty_pct": 11.7
+      },
+      "education": {
+        "bachelors_or_higher": 108,
+        "bachelors_only": 72,
+        "masters": 29,
+        "professional": 7,
+        "doctorate": 0
+      }
+    },
+    "Terra Alta town, West Virginia": {
+      "state": "WV",
+      "fips": "5479708",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1992,
+        "voting_age": 1445,
+        "voting_age_pct": 72.54
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1715,
+          "pct": 86.09
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 18,
+          "pct": 0.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 231,
+          "pct": 11.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 28,
+          "pct": 1.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 50035,
+        "poverty_count": 219,
+        "poverty_pct": 10.99
+      },
+      "education": {
+        "bachelors_or_higher": 85,
+        "bachelors_only": 63,
+        "masters": 22,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Star City town, West Virginia": {
+      "state": "WV",
+      "fips": "5476516",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1894,
+        "voting_age": 1648,
+        "voting_age_pct": 87.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1581,
+          "pct": 83.47
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 83,
+          "pct": 4.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 146,
+          "pct": 7.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 43,
+          "pct": 2.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41,
+          "pct": 2.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 62031,
+        "poverty_count": 47,
+        "poverty_pct": 2.48
+      },
+      "education": {
+        "bachelors_or_higher": 712,
+        "bachelors_only": 349,
+        "masters": 303,
+        "professional": 38,
+        "doctorate": 22
+      }
+    },
+    "Nutter Fort town, West Virginia": {
+      "state": "WV",
+      "fips": "5459836",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1890,
+        "voting_age": 1386,
+        "voting_age_pct": 73.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1757,
+          "pct": 92.96
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11,
+          "pct": 0.58
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 7,
+          "pct": 0.37
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 88,
+          "pct": 4.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 25,
+          "pct": 1.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 62917,
+        "poverty_count": 32,
+        "poverty_pct": 1.69
+      },
+      "education": {
+        "bachelors_or_higher": 309,
+        "bachelors_only": 193,
+        "masters": 68,
+        "professional": 48,
+        "doctorate": 0
+      }
+    },
+    "Belington town, West Virginia": {
+      "state": "WV",
+      "fips": "5405788",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1843,
+        "voting_age": 1427,
+        "voting_age_pct": 77.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1689,
+          "pct": 91.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 125,
+          "pct": 6.78
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 23,
+          "pct": 1.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 47361,
+        "poverty_count": 131,
+        "poverty_pct": 7.11
+      },
+      "education": {
+        "bachelors_or_higher": 150,
+        "bachelors_only": 86,
+        "masters": 57,
+        "professional": 0,
+        "doctorate": 7
+      }
+    },
+    "Salem city, West Virginia": {
+      "state": "WV",
+      "fips": "5471380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1812,
+        "voting_age": 1568,
+        "voting_age_pct": 86.53
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1697,
+          "pct": 93.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 44,
+          "pct": 2.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 14,
+          "pct": 0.77
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 18,
+          "pct": 0.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 39,
+          "pct": 2.15
+        }
+      ],
+      "economics": {
+        "median_household_income": 43690,
+        "poverty_count": 35,
+        "poverty_pct": 1.93
+      },
+      "education": {
+        "bachelors_or_higher": 214,
+        "bachelors_only": 114,
+        "masters": 73,
+        "professional": 0,
+        "doctorate": 27
+      }
+    },
+    "Logan city, West Virginia": {
+      "state": "WV",
+      "fips": "5448148",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1736,
+        "voting_age": 1405,
+        "voting_age_pct": 80.93
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1514,
+          "pct": 87.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 155,
+          "pct": 8.93
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 51,
+          "pct": 2.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 0.92
+        }
+      ],
+      "economics": {
+        "median_household_income": 31100,
+        "poverty_count": 175,
+        "poverty_pct": 10.08
+      },
+      "education": {
+        "bachelors_or_higher": 90,
+        "bachelors_only": 50,
+        "masters": 38,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "McMechen city, West Virginia": {
+      "state": "WV",
+      "fips": "5450260",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1735,
+        "voting_age": 1207,
+        "voting_age_pct": 69.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1498,
+          "pct": 86.34
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.58
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 218,
+          "pct": 12.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5,
+          "pct": 0.29
+        }
+      ],
+      "economics": {
+        "median_household_income": 42863,
+        "poverty_count": 191,
+        "poverty_pct": 11.01
+      },
+      "education": {
+        "bachelors_or_higher": 163,
+        "bachelors_only": 117,
+        "masters": 33,
+        "professional": 2,
+        "doctorate": 11
+      }
+    },
+    "New Haven town, West Virginia": {
+      "state": "WV",
+      "fips": "5458564",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1735,
+        "voting_age": 1478,
+        "voting_age_pct": 85.19
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1645,
+          "pct": 94.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 19,
+          "pct": 1.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 21,
+          "pct": 1.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 50,
+          "pct": 2.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 56500,
+        "poverty_count": 50,
+        "poverty_pct": 2.88
+      },
+      "education": {
+        "bachelors_or_higher": 180,
+        "bachelors_only": 134,
+        "masters": 41,
+        "professional": 0,
+        "doctorate": 5
+      }
+    },
+    "Romney city, West Virginia": {
+      "state": "WV",
+      "fips": "5470084",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1714,
+        "voting_age": 1360,
+        "voting_age_pct": 79.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1544,
+          "pct": 90.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 34,
+          "pct": 1.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 128,
+          "pct": 7.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8,
+          "pct": 0.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 39118,
+        "poverty_count": 148,
+        "poverty_pct": 8.63
+      },
+      "education": {
+        "bachelors_or_higher": 185,
+        "bachelors_only": 89,
+        "masters": 69,
+        "professional": 27,
+        "doctorate": 0
+      }
+    },
+    "Mannington city, West Virginia": {
+      "state": "WV",
+      "fips": "5451100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1679,
+        "voting_age": 1282,
+        "voting_age_pct": 76.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1589,
+          "pct": 94.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 48,
+          "pct": 2.86
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 42,
+          "pct": 2.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 48750,
+        "poverty_count": 68,
+        "poverty_pct": 4.05
+      },
+      "education": {
+        "bachelors_or_higher": 214,
+        "bachelors_only": 139,
+        "masters": 75,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Eleanor town, West Virginia": {
+      "state": "WV",
+      "fips": "5424292",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1655,
+        "voting_age": 1336,
+        "voting_age_pct": 80.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1614,
+          "pct": 97.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 2.11
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6,
+          "pct": 0.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 74211,
+        "poverty_count": 55,
+        "poverty_pct": 3.32
+      },
+      "education": {
+        "bachelors_or_higher": 216,
+        "bachelors_only": 185,
+        "masters": 26,
+        "professional": 5,
+        "doctorate": 0
+      }
+    },
+    "Sophia town, West Virginia": {
+      "state": "WV",
+      "fips": "5475172",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1654,
+        "voting_age": 1384,
+        "voting_age_pct": 83.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1580,
+          "pct": 95.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 69,
+          "pct": 4.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 34498,
+        "poverty_count": 77,
+        "poverty_pct": 4.66
+      },
+      "education": {
+        "bachelors_or_higher": 95,
+        "bachelors_only": 72,
+        "masters": 23,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Montgomery city, West Virginia": {
+      "state": "WV",
+      "fips": "5455468",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1635,
+        "voting_age": 1399,
+        "voting_age_pct": 85.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1228,
+          "pct": 75.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 113,
+          "pct": 6.91
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 275,
+          "pct": 16.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 19,
+          "pct": 1.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 26797,
+        "poverty_count": 99,
+        "poverty_pct": 6.06
+      },
+      "education": {
+        "bachelors_or_higher": 281,
+        "bachelors_only": 205,
+        "masters": 67,
+        "professional": 2,
+        "doctorate": 7
+      }
+    },
+    "Chesapeake town, West Virginia": {
+      "state": "WV",
+      "fips": "5415028",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1615,
+        "voting_age": 1259,
+        "voting_age_pct": 77.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1491,
+          "pct": 92.32
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 22,
+          "pct": 1.36
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 86,
+          "pct": 5.33
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 6,
+          "pct": 0.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 60526,
+        "poverty_count": 28,
+        "poverty_pct": 1.73
+      },
+      "education": {
+        "bachelors_or_higher": 168,
+        "bachelors_only": 161,
+        "masters": 7,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "West Liberty town, West Virginia": {
+      "state": "WV",
+      "fips": "5485876",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1568,
+        "voting_age": 1512,
+        "voting_age_pct": 96.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1392,
+          "pct": 88.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 55,
+          "pct": 3.51
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 9,
+          "pct": 0.57
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 57,
+          "pct": 3.64
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 51,
+          "pct": 3.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 43333,
+        "poverty_count": 13,
+        "poverty_pct": 0.83
+      },
+      "education": {
+        "bachelors_or_higher": 105,
+        "bachelors_only": 59,
+        "masters": 29,
+        "professional": 0,
+        "doctorate": 17
+      }
+    },
+    "Belle town, West Virginia": {
+      "state": "WV",
+      "fips": "5405836",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1537,
+        "voting_age": 1185,
+        "voting_age_pct": 77.1
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1471,
+          "pct": 95.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 50,
+          "pct": 3.25
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 13,
+          "pct": 0.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 74200,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 171,
+        "bachelors_only": 82,
+        "masters": 89,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Ronceverte city, West Virginia": {
+      "state": "WV",
+      "fips": "5470156",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1523,
+        "voting_age": 1122,
+        "voting_age_pct": 73.67
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1277,
+          "pct": 83.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 121,
+          "pct": 7.94
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 106,
+          "pct": 6.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 1.05
+        }
+      ],
+      "economics": {
+        "median_household_income": 43445,
+        "poverty_count": 87,
+        "poverty_pct": 5.71
+      },
+      "education": {
+        "bachelors_or_higher": 183,
+        "bachelors_only": 105,
+        "masters": 60,
+        "professional": 7,
+        "doctorate": 11
+      }
+    },
+    "Marmet city, West Virginia": {
+      "state": "WV",
+      "fips": "5451724",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1520,
+        "voting_age": 1356,
+        "voting_age_pct": 89.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1408,
+          "pct": 92.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 40,
+          "pct": 2.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 64,
+          "pct": 4.21
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8,
+          "pct": 0.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 47620,
+        "poverty_count": 18,
+        "poverty_pct": 1.18
+      },
+      "education": {
+        "bachelors_or_higher": 212,
+        "bachelors_only": 169,
+        "masters": 40,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Glen Dale city, West Virginia": {
+      "state": "WV",
+      "fips": "5431492",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1517,
+        "voting_age": 1269,
+        "voting_age_pct": 83.65
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1443,
+          "pct": 95.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 11,
+          "pct": 0.73
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 33,
+          "pct": 2.18
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26,
+          "pct": 1.71
+        }
+      ],
+      "economics": {
+        "median_household_income": 87955,
+        "poverty_count": 39,
+        "poverty_pct": 2.57
+      },
+      "education": {
+        "bachelors_or_higher": 483,
+        "bachelors_only": 276,
+        "masters": 161,
+        "professional": 27,
+        "doctorate": 19
+      }
+    },
+    "Mabscott town, West Virginia": {
+      "state": "WV",
+      "fips": "5449492",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1488,
+        "voting_age": 1048,
+        "voting_age_pct": 70.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1407,
+          "pct": 94.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 36,
+          "pct": 2.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 1.14
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 16,
+          "pct": 1.08
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3,
+          "pct": 0.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 58125,
+        "poverty_count": 40,
+        "poverty_pct": 2.69
+      },
+      "education": {
+        "bachelors_or_higher": 278,
+        "bachelors_only": 189,
+        "masters": 58,
+        "professional": 24,
+        "doctorate": 7
+      }
+    },
+    "Parsons city, West Virginia": {
+      "state": "WV",
+      "fips": "5462284",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1481,
+        "voting_age": 1194,
+        "voting_age_pct": 80.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1378,
+          "pct": 93.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 101,
+          "pct": 6.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2,
+          "pct": 0.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 44375,
+        "poverty_count": 105,
+        "poverty_pct": 7.09
+      },
+      "education": {
+        "bachelors_or_higher": 175,
+        "bachelors_only": 92,
+        "masters": 64,
+        "professional": 6,
+        "doctorate": 13
+      }
+    },
+    "Wayne town, West Virginia": {
+      "state": "WV",
+      "fips": "5484940",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1433,
+        "voting_age": 1046,
+        "voting_age_pct": 72.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1419,
+          "pct": 99.02
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 0.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 31797,
+        "poverty_count": 42,
+        "poverty_pct": 2.93
+      },
+      "education": {
+        "bachelors_or_higher": 59,
+        "bachelors_only": 27,
+        "masters": 32,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Ceredo city, West Virginia": {
+      "state": "WV",
+      "fips": "5414308",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1432,
+        "voting_age": 1193,
+        "voting_age_pct": 83.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1306,
+          "pct": 91.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 117,
+          "pct": 8.17
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 8,
+          "pct": 0.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 48184,
+        "poverty_count": 34,
+        "poverty_pct": 2.37
+      },
+      "education": {
+        "bachelors_or_higher": 201,
+        "bachelors_only": 103,
+        "masters": 43,
+        "professional": 17,
+        "doctorate": 38
+      }
+    },
+    "Oceana town, West Virginia": {
+      "state": "WV",
+      "fips": "5460364",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1421,
+        "voting_age": 1256,
+        "voting_age_pct": 88.39
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1354,
+          "pct": 95.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 67,
+          "pct": 4.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 47548,
+        "poverty_count": 73,
+        "poverty_pct": 5.14
+      },
+      "education": {
+        "bachelors_or_higher": 67,
+        "bachelors_only": 41,
+        "masters": 26,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Harrisville town, West Virginia": {
+      "state": "WV",
+      "fips": "5435428",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1408,
+        "voting_age": 1063,
+        "voting_age_pct": 75.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1318,
+          "pct": 93.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10,
+          "pct": 0.71
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 50,
+          "pct": 3.55
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 30,
+          "pct": 2.13
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 45988,
+        "poverty_count": 151,
+        "poverty_pct": 10.72
+      },
+      "education": {
+        "bachelors_or_higher": 142,
+        "bachelors_only": 90,
+        "masters": 52,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Shepherdstown town, West Virginia": {
+      "state": "WV",
+      "fips": "5473468",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1399,
+        "voting_age": 1321,
+        "voting_age_pct": 94.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1181,
+          "pct": 84.42
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 160,
+          "pct": 11.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 15,
+          "pct": 1.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 1.07
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 11,
+          "pct": 0.79
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 17,
+          "pct": 1.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 62500,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 324,
+        "bachelors_only": 155,
+        "masters": 72,
+        "professional": 62,
+        "doctorate": 35
+      }
+    },
+    "Mount Hope city, West Virginia": {
+      "state": "WV",
+      "fips": "5456404",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1369,
+        "voting_age": 1161,
+        "voting_age_pct": 84.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1145,
+          "pct": 83.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 212,
+          "pct": 15.49
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 12,
+          "pct": 0.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 26983,
+        "poverty_count": 68,
+        "poverty_pct": 4.97
+      },
+      "education": {
+        "bachelors_or_higher": 158,
+        "bachelors_only": 93,
+        "masters": 65,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Barrackville town, West Virginia": {
+      "state": "WV",
+      "fips": "5404612",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1362,
+        "voting_age": 983,
+        "voting_age_pct": 72.17
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1301,
+          "pct": 95.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.59
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.22
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 31,
+          "pct": 2.28
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 19,
+          "pct": 1.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 81250,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 356,
+        "bachelors_only": 173,
+        "masters": 131,
+        "professional": 20,
+        "doctorate": 32
+      }
+    },
+    "Sistersville city, West Virginia": {
+      "state": "WV",
+      "fips": "5474380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1340,
+        "voting_age": 1080,
+        "voting_age_pct": 80.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1135,
+          "pct": 84.7
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 55,
+          "pct": 4.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1,
+          "pct": 0.07
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 93,
+          "pct": 6.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 56,
+          "pct": 4.18
+        }
+      ],
+      "economics": {
+        "median_household_income": 46875,
+        "poverty_count": 96,
+        "poverty_pct": 7.16
+      },
+      "education": {
+        "bachelors_or_higher": 171,
+        "bachelors_only": 116,
+        "masters": 43,
+        "professional": 7,
+        "doctorate": 5
+      }
+    },
+    "Rainelle town, West Virginia": {
+      "state": "WV",
+      "fips": "5466652",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1334,
+        "voting_age": 1095,
+        "voting_age_pct": 82.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1195,
+          "pct": 89.58
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 27,
+          "pct": 2.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 89,
+          "pct": 6.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 23,
+          "pct": 1.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 36875,
+        "poverty_count": 92,
+        "poverty_pct": 6.9
+      },
+      "education": {
+        "bachelors_or_higher": 131,
+        "bachelors_only": 131,
+        "masters": 0,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Bolivar town, West Virginia": {
+      "state": "WV",
+      "fips": "5408932",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1317,
+        "voting_age": 1055,
+        "voting_age_pct": 80.11
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1077,
+          "pct": 81.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 29,
+          "pct": 2.2
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.38
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 87,
+          "pct": 6.61
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 115,
+          "pct": 8.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 81641,
+        "poverty_count": 12,
+        "poverty_pct": 0.91
+      },
+      "education": {
+        "bachelors_or_higher": 378,
+        "bachelors_only": 230,
+        "masters": 66,
+        "professional": 63,
+        "doctorate": 19
+      }
+    },
+    "Man town, West Virginia": {
+      "state": "WV",
+      "fips": "5450932",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1234,
+        "voting_age": 815,
+        "voting_age_pct": 66.05
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1177,
+          "pct": 95.38
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 30,
+          "pct": 2.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 15,
+          "pct": 1.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3,
+          "pct": 0.24
+        }
+      ],
+      "economics": {
+        "median_household_income": 57778,
+        "poverty_count": 33,
+        "poverty_pct": 2.67
+      },
+      "education": {
+        "bachelors_or_higher": 149,
+        "bachelors_only": 46,
+        "masters": 83,
+        "professional": 18,
+        "doctorate": 2
+      }
+    },
+    "Pennsboro city, West Virginia": {
+      "state": "WV",
+      "fips": "5462764",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1227,
+        "voting_age": 948,
+        "voting_age_pct": 77.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1205,
+          "pct": 98.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 15,
+          "pct": 1.22
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 51348,
+        "poverty_count": 28,
+        "poverty_pct": 2.28
+      },
+      "education": {
+        "bachelors_or_higher": 72,
+        "bachelors_only": 61,
+        "masters": 4,
+        "professional": 7,
+        "doctorate": 0
+      }
+    },
+    "Granville town, West Virginia": {
+      "state": "WV",
+      "fips": "5432932",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1215,
+        "voting_age": 1146,
+        "voting_age_pct": 94.32
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1056,
+          "pct": 86.91
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 30,
+          "pct": 2.47
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 33,
+          "pct": 2.72
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 78,
+          "pct": 6.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 15,
+          "pct": 1.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 32015,
+        "poverty_count": 33,
+        "poverty_pct": 2.72
+      },
+      "education": {
+        "bachelors_or_higher": 82,
+        "bachelors_only": 28,
+        "masters": 51,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Ansted town, West Virginia": {
+      "state": "WV",
+      "fips": "5401996",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1210,
+        "voting_age": 1010,
+        "voting_age_pct": 83.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1196,
+          "pct": 98.84
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 14,
+          "pct": 1.16
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 54327,
+        "poverty_count": 27,
+        "poverty_pct": 2.23
+      },
+      "education": {
+        "bachelors_or_higher": 114,
+        "bachelors_only": 77,
+        "masters": 37,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Alderson town, West Virginia": {
+      "state": "WV",
+      "fips": "5400772",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1182,
+        "voting_age": 968,
+        "voting_age_pct": 81.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1136,
+          "pct": 96.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.76
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9,
+          "pct": 0.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 28,
+          "pct": 2.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 33794,
+        "poverty_count": 110,
+        "poverty_pct": 9.31
+      },
+      "education": {
+        "bachelors_or_higher": 114,
+        "bachelors_only": 70,
+        "masters": 39,
+        "professional": 5,
+        "doctorate": 0
+      }
+    },
+    "Benwood city, West Virginia": {
+      "state": "WV",
+      "fips": "5406340",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1173,
+        "voting_age": 983,
+        "voting_age_pct": 83.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1027,
+          "pct": 87.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12,
+          "pct": 1.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 117,
+          "pct": 9.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12,
+          "pct": 1.02
+        }
+      ],
+      "economics": {
+        "median_household_income": 39474,
+        "poverty_count": 70,
+        "poverty_pct": 5.97
+      },
+      "education": {
+        "bachelors_or_higher": 82,
+        "bachelors_only": 55,
+        "masters": 23,
+        "professional": 4,
+        "doctorate": 0
+      }
+    },
+    "Hamlin town, West Virginia": {
+      "state": "WV",
+      "fips": "5434516",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1173,
+        "voting_age": 826,
+        "voting_age_pct": 70.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1147,
+          "pct": 97.78
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.09
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 14,
+          "pct": 1.19
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11,
+          "pct": 0.94
+        }
+      ],
+      "economics": {
+        "median_household_income": 56583,
+        "poverty_count": 34,
+        "poverty_pct": 2.9
+      },
+      "education": {
+        "bachelors_or_higher": 104,
+        "bachelors_only": 81,
+        "masters": 13,
+        "professional": 7,
+        "doctorate": 3
+      }
+    },
+    "Athens town, West Virginia": {
+      "state": "WV",
+      "fips": "5403292",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1156,
+        "voting_age": 871,
+        "voting_age_pct": 75.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1017,
+          "pct": 87.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 69,
+          "pct": 5.97
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.95
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 41,
+          "pct": 3.55
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 18,
+          "pct": 1.56
+        }
+      ],
+      "economics": {
+        "median_household_income": 62292,
+        "poverty_count": 18,
+        "poverty_pct": 1.56
+      },
+      "education": {
+        "bachelors_or_higher": 313,
+        "bachelors_only": 198,
+        "masters": 70,
+        "professional": 11,
+        "doctorate": 34
+      }
+    },
+    "White Hall town, West Virginia": {
+      "state": "WV",
+      "fips": "5486620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1141,
+        "voting_age": 818,
+        "voting_age_pct": 71.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 975,
+          "pct": 85.45
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8,
+          "pct": 0.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 104,
+          "pct": 9.11
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 35,
+          "pct": 3.07
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 19,
+          "pct": 1.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 72000,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 230,
+        "bachelors_only": 153,
+        "masters": 70,
+        "professional": 7,
+        "doctorate": 0
+      }
+    },
+    "Buffalo town, West Virginia": {
+      "state": "WV",
+      "fips": "5411284",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1110,
+        "voting_age": 880,
+        "voting_age_pct": 79.28
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1096,
+          "pct": 98.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4,
+          "pct": 0.36
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 10,
+          "pct": 0.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 55313,
+        "poverty_count": 80,
+        "poverty_pct": 7.21
+      },
+      "education": {
+        "bachelors_or_higher": 117,
+        "bachelors_only": 78,
+        "masters": 29,
+        "professional": 0,
+        "doctorate": 10
+      }
+    },
+    "Bethany town, West Virginia": {
+      "state": "WV",
+      "fips": "5406844",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1066,
+        "voting_age": 985,
+        "voting_age_pct": 92.4
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 748,
+          "pct": 70.17
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 254,
+          "pct": 23.83
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6,
+          "pct": 0.56
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 37,
+          "pct": 3.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 21,
+          "pct": 1.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 61250,
+        "poverty_count": 7,
+        "poverty_pct": 0.66
+      },
+      "education": {
+        "bachelors_or_higher": 128,
+        "bachelors_only": 55,
+        "masters": 34,
+        "professional": 9,
+        "doctorate": 30
+      }
+    },
+    "Poca town, West Virginia": {
+      "state": "WV",
+      "fips": "5464516",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1056,
+        "voting_age": 764,
+        "voting_age_pct": 72.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1035,
+          "pct": 98.01
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 10,
+          "pct": 0.95
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11,
+          "pct": 1.04
+        }
+      ],
+      "economics": {
+        "median_household_income": 83750,
+        "poverty_count": 45,
+        "poverty_pct": 4.26
+      },
+      "education": {
+        "bachelors_or_higher": 160,
+        "bachelors_only": 131,
+        "masters": 16,
+        "professional": 5,
+        "doctorate": 8
+      }
+    },
+    "Carpendale town, West Virginia": {
+      "state": "WV",
+      "fips": "5413525",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1053,
+        "voting_age": 889,
+        "voting_age_pct": 84.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1007,
+          "pct": 95.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9,
+          "pct": 0.85
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 37,
+          "pct": 3.51
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 59679,
+        "poverty_count": 18,
+        "poverty_pct": 1.71
+      },
+      "education": {
+        "bachelors_or_higher": 71,
+        "bachelors_only": 43,
+        "masters": 26,
+        "professional": 2,
+        "doctorate": 0
+      }
+    },
+    "Marlinton town, West Virginia": {
+      "state": "WV",
+      "fips": "5451676",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1050,
+        "voting_age": 838,
+        "voting_age_pct": 79.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 992,
+          "pct": 94.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 17,
+          "pct": 1.62
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 8,
+          "pct": 0.76
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6,
+          "pct": 0.57
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 27,
+          "pct": 2.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 42386,
+        "poverty_count": 77,
+        "poverty_pct": 7.33
+      },
+      "education": {
+        "bachelors_or_higher": 148,
+        "bachelors_only": 76,
+        "masters": 67,
+        "professional": 5,
+        "doctorate": 0
+      }
+    },
+    "Glenville town, West Virginia": {
+      "state": "WV",
+      "fips": "5432044",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1049,
+        "voting_age": 851,
+        "voting_age_pct": 81.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 884,
+          "pct": 84.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 61,
+          "pct": 5.82
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.29
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 83,
+          "pct": 7.91
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 18,
+          "pct": 1.72
+        }
+      ],
+      "economics": {
+        "median_household_income": 46875,
+        "poverty_count": 3,
+        "poverty_pct": 0.29
+      },
+      "education": {
+        "bachelors_or_higher": 228,
+        "bachelors_only": 112,
+        "masters": 70,
+        "professional": 7,
+        "doctorate": 39
+      }
+    },
+    "Chapmanville town, West Virginia": {
+      "state": "WV",
+      "fips": "5414524",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1005,
+        "voting_age": 833,
+        "voting_age_pct": 82.89
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 954,
+          "pct": 94.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 51,
+          "pct": 5.07
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 35655,
+        "poverty_count": 98,
+        "poverty_pct": 9.75
+      },
+      "education": {
+        "bachelors_or_higher": 143,
+        "bachelors_only": 103,
+        "masters": 29,
+        "professional": 11,
+        "doctorate": 0
+      }
+    }
+  }
+}

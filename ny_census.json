@@ -1,0 +1,4034 @@
+{
+  "cities": {
+    "Albany city, New York": {
+      "state": "NY",
+      "fips": "3601000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 100081,
+        "voting_age": 79565,
+        "voting_age_pct": 79.5
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 50583,
+          "pct": 50.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 24833,
+          "pct": 24.81
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 63,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7851,
+          "pct": 7.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 14,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 699,
+          "pct": 0.7
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 5324,
+          "pct": 5.32
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10714,
+          "pct": 10.71
+        }
+      ],
+      "economics": {
+        "median_household_income": 59485,
+        "poverty_count": 3498,
+        "poverty_pct": 3.5
+      },
+      "education": {
+        "bachelors_or_higher": 28286,
+        "bachelors_only": 15160,
+        "masters": 9255,
+        "professional": 2134,
+        "doctorate": 1737
+      }
+    },
+    "Amsterdam city, New York": {
+      "state": "NY",
+      "fips": "3602066",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18162,
+        "voting_age": 13321,
+        "voting_age_pct": 73.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10294,
+          "pct": 56.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1057,
+          "pct": 5.82
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 286,
+          "pct": 1.57
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 7,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 33,
+          "pct": 0.18
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 505,
+          "pct": 2.78
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5972,
+          "pct": 32.88
+        }
+      ],
+      "economics": {
+        "median_household_income": 50193,
+        "poverty_count": 1022,
+        "poverty_pct": 5.63
+      },
+      "education": {
+        "bachelors_or_higher": 2440,
+        "bachelors_only": 1492,
+        "masters": 624,
+        "professional": 240,
+        "doctorate": 84
+      }
+    },
+    "Auburn city, New York": {
+      "state": "NY",
+      "fips": "3603078",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 26475,
+        "voting_age": 20818,
+        "voting_age_pct": 78.63
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 21577,
+          "pct": 81.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1602,
+          "pct": 6.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 54,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 134,
+          "pct": 0.51
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 123,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1918,
+          "pct": 7.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1067,
+          "pct": 4.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 49377,
+        "poverty_count": 1256,
+        "poverty_pct": 4.74
+      },
+      "education": {
+        "bachelors_or_higher": 3882,
+        "bachelors_only": 2409,
+        "masters": 1192,
+        "professional": 120,
+        "doctorate": 161
+      }
+    },
+    "Batavia city, New York": {
+      "state": "NY",
+      "fips": "3604715",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15494,
+        "voting_age": 12575,
+        "voting_age_pct": 81.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12856,
+          "pct": 82.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 604,
+          "pct": 3.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 8,
+          "pct": 0.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 205,
+          "pct": 1.32
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 46,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 884,
+          "pct": 5.71
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 891,
+          "pct": 5.75
+        }
+      ],
+      "economics": {
+        "median_household_income": 57150,
+        "poverty_count": 229,
+        "poverty_pct": 1.48
+      },
+      "education": {
+        "bachelors_or_higher": 2538,
+        "bachelors_only": 1349,
+        "masters": 1043,
+        "professional": 105,
+        "doctorate": 41
+      }
+    },
+    "Beacon city, New York": {
+      "state": "NY",
+      "fips": "3605100",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14629,
+        "voting_age": 11474,
+        "voting_age_pct": 78.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9402,
+          "pct": 64.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1589,
+          "pct": 10.86
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 204,
+          "pct": 1.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 49,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 536,
+          "pct": 3.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2837,
+          "pct": 19.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 93347,
+        "poverty_count": 269,
+        "poverty_pct": 1.84
+      },
+      "education": {
+        "bachelors_or_higher": 4930,
+        "bachelors_only": 2596,
+        "masters": 1862,
+        "professional": 229,
+        "doctorate": 243
+      }
+    },
+    "Binghamton city, New York": {
+      "state": "NY",
+      "fips": "3606607",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 47357,
+        "voting_age": 37850,
+        "voting_age_pct": 79.92
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 31101,
+          "pct": 65.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6168,
+          "pct": 13.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 73,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3185,
+          "pct": 6.73
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 42,
+          "pct": 0.09
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 134,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2477,
+          "pct": 5.23
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4177,
+          "pct": 8.82
+        }
+      ],
+      "economics": {
+        "median_household_income": 44331,
+        "poverty_count": 2989,
+        "poverty_pct": 6.31
+      },
+      "education": {
+        "bachelors_or_higher": 9276,
+        "bachelors_only": 4619,
+        "masters": 3383,
+        "professional": 692,
+        "doctorate": 582
+      }
+    },
+    "Buffalo city, New York": {
+      "state": "NY",
+      "fips": "3611000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 276397,
+        "voting_age": 206144,
+        "voting_age_pct": 74.58
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 118104,
+          "pct": 42.73
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 87901,
+          "pct": 31.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 825,
+          "pct": 0.3
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 22576,
+          "pct": 8.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 24,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 938,
+          "pct": 0.34
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 10833,
+          "pct": 3.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 35196,
+          "pct": 12.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 48050,
+        "poverty_count": 22149,
+        "poverty_pct": 8.01
+      },
+      "education": {
+        "bachelors_or_higher": 55767,
+        "bachelors_only": 31125,
+        "masters": 17321,
+        "professional": 3928,
+        "doctorate": 3393
+      }
+    },
+    "Canandaigua city, New York": {
+      "state": "NY",
+      "fips": "3612144",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10542,
+        "voting_age": 8645,
+        "voting_age_pct": 82.01
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9016,
+          "pct": 85.52
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 106,
+          "pct": 1.01
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 43,
+          "pct": 0.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 14,
+          "pct": 0.13
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 449,
+          "pct": 4.26
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 914,
+          "pct": 8.67
+        }
+      ],
+      "economics": {
+        "median_household_income": 63268,
+        "poverty_count": 142,
+        "poverty_pct": 1.35
+      },
+      "education": {
+        "bachelors_or_higher": 2935,
+        "bachelors_only": 1805,
+        "masters": 811,
+        "professional": 235,
+        "doctorate": 84
+      }
+    },
+    "Cohoes city, New York": {
+      "state": "NY",
+      "fips": "3616749",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 18043,
+        "voting_age": 13547,
+        "voting_age_pct": 75.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12816,
+          "pct": 71.03
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1789,
+          "pct": 9.92
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 242,
+          "pct": 1.34
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 29,
+          "pct": 0.16
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 60,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1711,
+          "pct": 9.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1394,
+          "pct": 7.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 62111,
+        "poverty_count": 1644,
+        "poverty_pct": 9.11
+      },
+      "education": {
+        "bachelors_or_higher": 3057,
+        "bachelors_only": 1984,
+        "masters": 749,
+        "professional": 167,
+        "doctorate": 157
+      }
+    },
+    "Corning city, New York": {
+      "state": "NY",
+      "fips": "3618256",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10666,
+        "voting_age": 8584,
+        "voting_age_pct": 80.48
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9415,
+          "pct": 88.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 330,
+          "pct": 3.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 286,
+          "pct": 2.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 22,
+          "pct": 0.21
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 251,
+          "pct": 2.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 362,
+          "pct": 3.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 61017,
+        "poverty_count": 337,
+        "poverty_pct": 3.16
+      },
+      "education": {
+        "bachelors_or_higher": 3226,
+        "bachelors_only": 1545,
+        "masters": 1059,
+        "professional": 184,
+        "doctorate": 438
+      }
+    },
+    "Cortland city, New York": {
+      "state": "NY",
+      "fips": "3618388",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17465,
+        "voting_age": 12789,
+        "voting_age_pct": 73.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14957,
+          "pct": 85.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 704,
+          "pct": 4.03
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 372,
+          "pct": 2.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 479,
+          "pct": 2.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 943,
+          "pct": 5.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 55368,
+        "poverty_count": 517,
+        "poverty_pct": 2.96
+      },
+      "education": {
+        "bachelors_or_higher": 2481,
+        "bachelors_only": 1205,
+        "masters": 841,
+        "professional": 139,
+        "doctorate": 296
+      }
+    },
+    "Dunkirk city, New York": {
+      "state": "NY",
+      "fips": "3621105",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12597,
+        "voting_age": 10112,
+        "voting_age_pct": 80.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7522,
+          "pct": 59.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 475,
+          "pct": 3.77
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 12,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 390,
+          "pct": 3.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4182,
+          "pct": 33.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 49003,
+        "poverty_count": 714,
+        "poverty_pct": 5.67
+      },
+      "education": {
+        "bachelors_or_higher": 1434,
+        "bachelors_only": 891,
+        "masters": 488,
+        "professional": 37,
+        "doctorate": 18
+      }
+    },
+    "Elmira city, New York": {
+      "state": "NY",
+      "fips": "3624229",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 26349,
+        "voting_age": 19313,
+        "voting_age_pct": 73.3
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 18954,
+          "pct": 71.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3463,
+          "pct": 13.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 49,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 308,
+          "pct": 1.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 192,
+          "pct": 0.73
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1763,
+          "pct": 6.69
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1620,
+          "pct": 6.15
+        }
+      ],
+      "economics": {
+        "median_household_income": 43089,
+        "poverty_count": 2143,
+        "poverty_pct": 8.13
+      },
+      "education": {
+        "bachelors_or_higher": 3257,
+        "bachelors_only": 1731,
+        "masters": 1267,
+        "professional": 113,
+        "doctorate": 146
+      }
+    },
+    "Fulton city, New York": {
+      "state": "NY",
+      "fips": "3627815",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11339,
+        "voting_age": 8201,
+        "voting_age_pct": 72.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10267,
+          "pct": 90.55
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 157,
+          "pct": 1.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 7,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23,
+          "pct": 0.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.05
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 389,
+          "pct": 3.43
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 490,
+          "pct": 4.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 52123,
+        "poverty_count": 727,
+        "poverty_pct": 6.41
+      },
+      "education": {
+        "bachelors_or_higher": 1155,
+        "bachelors_only": 736,
+        "masters": 303,
+        "professional": 97,
+        "doctorate": 19
+      }
+    },
+    "Geneva city, New York": {
+      "state": "NY",
+      "fips": "3628640",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 12573,
+        "voting_age": 9270,
+        "voting_age_pct": 73.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8533,
+          "pct": 67.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 910,
+          "pct": 7.24
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 21,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 358,
+          "pct": 2.85
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 42,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 413,
+          "pct": 3.28
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2296,
+          "pct": 18.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 68242,
+        "poverty_count": 703,
+        "poverty_pct": 5.59
+      },
+      "education": {
+        "bachelors_or_higher": 2574,
+        "bachelors_only": 1460,
+        "masters": 589,
+        "professional": 37,
+        "doctorate": 488
+      }
+    },
+    "Glen Cove city, New York": {
+      "state": "NY",
+      "fips": "3629113",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28101,
+        "voting_age": 22360,
+        "voting_age_pct": 79.57
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15497,
+          "pct": 55.15
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1070,
+          "pct": 3.81
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 60,
+          "pct": 0.21
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1352,
+          "pct": 4.81
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 31,
+          "pct": 0.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 54,
+          "pct": 0.19
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 559,
+          "pct": 1.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9478,
+          "pct": 33.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 91355,
+        "poverty_count": 846,
+        "poverty_pct": 3.01
+      },
+      "education": {
+        "bachelors_or_higher": 8198,
+        "bachelors_only": 4996,
+        "masters": 2158,
+        "professional": 780,
+        "doctorate": 264
+      }
+    },
+    "Glens Falls city, New York": {
+      "state": "NY",
+      "fips": "3629333",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14678,
+        "voting_age": 11664,
+        "voting_age_pct": 79.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13172,
+          "pct": 89.74
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 310,
+          "pct": 2.11
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 59,
+          "pct": 0.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 14,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 673,
+          "pct": 4.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 445,
+          "pct": 3.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 70089,
+        "poverty_count": 340,
+        "poverty_pct": 2.32
+      },
+      "education": {
+        "bachelors_or_higher": 3499,
+        "bachelors_only": 1998,
+        "masters": 1251,
+        "professional": 175,
+        "doctorate": 75
+      }
+    },
+    "Gloversville city, New York": {
+      "state": "NY",
+      "fips": "3629443",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15010,
+        "voting_age": 11276,
+        "voting_age_pct": 75.12
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12510,
+          "pct": 83.34
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 216,
+          "pct": 1.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 231,
+          "pct": 1.54
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 28,
+          "pct": 0.19
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 54,
+          "pct": 0.36
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1073,
+          "pct": 7.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 898,
+          "pct": 5.98
+        }
+      ],
+      "economics": {
+        "median_household_income": 49155,
+        "poverty_count": 1009,
+        "poverty_pct": 6.72
+      },
+      "education": {
+        "bachelors_or_higher": 1674,
+        "bachelors_only": 1124,
+        "masters": 359,
+        "professional": 132,
+        "doctorate": 59
+      }
+    },
+    "Hornell city, New York": {
+      "state": "NY",
+      "fips": "3635672",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8173,
+        "voting_age": 6447,
+        "voting_age_pct": 78.88
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7400,
+          "pct": 90.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 217,
+          "pct": 2.66
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 35,
+          "pct": 0.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 40,
+          "pct": 0.49
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 229,
+          "pct": 2.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 252,
+          "pct": 3.08
+        }
+      ],
+      "economics": {
+        "median_household_income": 46321,
+        "poverty_count": 483,
+        "poverty_pct": 5.91
+      },
+      "education": {
+        "bachelors_or_higher": 1105,
+        "bachelors_only": 632,
+        "masters": 353,
+        "professional": 5,
+        "doctorate": 115
+      }
+    },
+    "Hudson city, New York": {
+      "state": "NY",
+      "fips": "3635969",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5900,
+        "voting_age": 4886,
+        "voting_age_pct": 82.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3851,
+          "pct": 65.27
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 686,
+          "pct": 11.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 725,
+          "pct": 12.29
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 49,
+          "pct": 0.83
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 140,
+          "pct": 2.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 449,
+          "pct": 7.61
+        }
+      ],
+      "economics": {
+        "median_household_income": 55394,
+        "poverty_count": 282,
+        "poverty_pct": 4.78
+      },
+      "education": {
+        "bachelors_or_higher": 1783,
+        "bachelors_only": 918,
+        "masters": 634,
+        "professional": 160,
+        "doctorate": 71
+      }
+    },
+    "Ithaca city, New York": {
+      "state": "NY",
+      "fips": "3638077",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31792,
+        "voting_age": 23941,
+        "voting_age_pct": 75.31
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19968,
+          "pct": 62.81
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1624,
+          "pct": 5.11
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 88,
+          "pct": 0.28
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4785,
+          "pct": 15.05
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 20,
+          "pct": 0.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 634,
+          "pct": 1.99
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1738,
+          "pct": 5.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2935,
+          "pct": 9.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 48617,
+        "poverty_count": 384,
+        "poverty_pct": 1.21
+      },
+      "education": {
+        "bachelors_or_higher": 10132,
+        "bachelors_only": 3856,
+        "masters": 3738,
+        "professional": 439,
+        "doctorate": 2099
+      }
+    },
+    "Jamestown city, New York": {
+      "state": "NY",
+      "fips": "3638264",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28401,
+        "voting_age": 20951,
+        "voting_age_pct": 73.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 21897,
+          "pct": 77.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1075,
+          "pct": 3.79
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 49,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 168,
+          "pct": 0.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 44,
+          "pct": 0.15
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1326,
+          "pct": 4.67
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3842,
+          "pct": 13.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 44878,
+        "poverty_count": 1957,
+        "poverty_pct": 6.89
+      },
+      "education": {
+        "bachelors_or_higher": 4453,
+        "bachelors_only": 2603,
+        "masters": 1573,
+        "professional": 139,
+        "doctorate": 138
+      }
+    },
+    "Johnstown city, New York": {
+      "state": "NY",
+      "fips": "3638781",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8153,
+        "voting_age": 6601,
+        "voting_age_pct": 80.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7554,
+          "pct": 92.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 51,
+          "pct": 0.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 19,
+          "pct": 0.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 170,
+          "pct": 2.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 359,
+          "pct": 4.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 62333,
+        "poverty_count": 58,
+        "poverty_pct": 0.71
+      },
+      "education": {
+        "bachelors_or_higher": 1626,
+        "bachelors_only": 1241,
+        "masters": 302,
+        "professional": 54,
+        "doctorate": 29
+      }
+    },
+    "Kingston city, New York": {
+      "state": "NY",
+      "fips": "3639727",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 23942,
+        "voting_age": 18508,
+        "voting_age_pct": 77.3
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14658,
+          "pct": 61.22
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3366,
+          "pct": 14.06
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.02
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 433,
+          "pct": 1.81
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 74,
+          "pct": 0.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1309,
+          "pct": 5.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4098,
+          "pct": 17.12
+        }
+      ],
+      "economics": {
+        "median_household_income": 65413,
+        "poverty_count": 1093,
+        "poverty_pct": 4.57
+      },
+      "education": {
+        "bachelors_or_higher": 5354,
+        "bachelors_only": 2953,
+        "masters": 1954,
+        "professional": 272,
+        "doctorate": 175
+      }
+    },
+    "Lackawanna city, New York": {
+      "state": "NY",
+      "fips": "3640189",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 19779,
+        "voting_age": 15046,
+        "voting_age_pct": 76.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 14269,
+          "pct": 72.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2765,
+          "pct": 13.98
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 29,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 114,
+          "pct": 0.58
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 43,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 699,
+          "pct": 3.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1860,
+          "pct": 9.4
+        }
+      ],
+      "economics": {
+        "median_household_income": 48185,
+        "poverty_count": 1415,
+        "poverty_pct": 7.15
+      },
+      "education": {
+        "bachelors_or_higher": 2739,
+        "bachelors_only": 1929,
+        "masters": 767,
+        "professional": 37,
+        "doctorate": 6
+      }
+    },
+    "Little Falls city, New York": {
+      "state": "NY",
+      "fips": "3642741",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4567,
+        "voting_age": 3337,
+        "voting_age_pct": 73.07
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3935,
+          "pct": 86.16
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 77,
+          "pct": 1.69
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 25,
+          "pct": 0.55
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 34,
+          "pct": 0.74
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 83,
+          "pct": 1.82
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 410,
+          "pct": 8.98
+        }
+      ],
+      "economics": {
+        "median_household_income": 51763,
+        "poverty_count": 401,
+        "poverty_pct": 8.78
+      },
+      "education": {
+        "bachelors_or_higher": 544,
+        "bachelors_only": 306,
+        "masters": 210,
+        "professional": 25,
+        "doctorate": 3
+      }
+    },
+    "Lockport city, New York": {
+      "state": "NY",
+      "fips": "3643082",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 20699,
+        "voting_age": 15799,
+        "voting_age_pct": 76.33
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15890,
+          "pct": 76.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2305,
+          "pct": 11.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 58,
+          "pct": 0.28
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 64,
+          "pct": 0.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 81,
+          "pct": 0.39
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1379,
+          "pct": 6.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 922,
+          "pct": 4.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 59153,
+        "poverty_count": 1172,
+        "poverty_pct": 5.66
+      },
+      "education": {
+        "bachelors_or_higher": 3486,
+        "bachelors_only": 2049,
+        "masters": 1132,
+        "professional": 188,
+        "doctorate": 117
+      }
+    },
+    "Long Beach city, New York": {
+      "state": "NY",
+      "fips": "3643335",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 34741,
+        "voting_age": 29509,
+        "voting_age_pct": 84.94
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25133,
+          "pct": 72.34
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1499,
+          "pct": 4.31
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 41,
+          "pct": 0.12
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1673,
+          "pct": 4.82
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 171,
+          "pct": 0.49
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1260,
+          "pct": 3.63
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4961,
+          "pct": 14.28
+        }
+      ],
+      "economics": {
+        "median_household_income": 130795,
+        "poverty_count": 469,
+        "poverty_pct": 1.35
+      },
+      "education": {
+        "bachelors_or_higher": 14421,
+        "bachelors_only": 7778,
+        "masters": 4771,
+        "professional": 1469,
+        "doctorate": 403
+      }
+    },
+    "Mechanicville city, New York": {
+      "state": "NY",
+      "fips": "3646360",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5143,
+        "voting_age": 4249,
+        "voting_age_pct": 82.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4467,
+          "pct": 86.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 17,
+          "pct": 0.33
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 103,
+          "pct": 2.0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 101,
+          "pct": 1.96
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 233,
+          "pct": 4.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 217,
+          "pct": 4.22
+        }
+      ],
+      "economics": {
+        "median_household_income": 47331,
+        "poverty_count": 182,
+        "poverty_pct": 3.54
+      },
+      "education": {
+        "bachelors_or_higher": 755,
+        "bachelors_only": 391,
+        "masters": 299,
+        "professional": 24,
+        "doctorate": 41
+      }
+    },
+    "Middletown city, New York": {
+      "state": "NY",
+      "fips": "3647042",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 30227,
+        "voting_age": 21638,
+        "voting_age_pct": 71.59
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8723,
+          "pct": 28.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6379,
+          "pct": 21.1
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 979,
+          "pct": 3.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 307,
+          "pct": 1.02
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1040,
+          "pct": 3.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 12799,
+          "pct": 42.34
+        }
+      ],
+      "economics": {
+        "median_household_income": 77174,
+        "poverty_count": 1404,
+        "poverty_pct": 4.64
+      },
+      "education": {
+        "bachelors_or_higher": 3928,
+        "bachelors_only": 2084,
+        "masters": 1436,
+        "professional": 290,
+        "doctorate": 118
+      }
+    },
+    "Mount Vernon city, New York": {
+      "state": "NY",
+      "fips": "3649121",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 72528,
+        "voting_age": 57066,
+        "voting_age_pct": 78.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10726,
+          "pct": 14.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 42080,
+          "pct": 58.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 392,
+          "pct": 0.54
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1583,
+          "pct": 2.18
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1787,
+          "pct": 2.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2671,
+          "pct": 3.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 13289,
+          "pct": 18.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 77171,
+        "poverty_count": 2231,
+        "poverty_pct": 3.08
+      },
+      "education": {
+        "bachelors_or_higher": 18723,
+        "bachelors_only": 10777,
+        "masters": 6036,
+        "professional": 1169,
+        "doctorate": 741
+      }
+    },
+    "New Rochelle city, New York": {
+      "state": "NY",
+      "fips": "3650617",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 81591,
+        "voting_age": 62789,
+        "voting_age_pct": 76.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 34278,
+          "pct": 42.01
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 15186,
+          "pct": 18.61
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 135,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4332,
+          "pct": 5.31
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 495,
+          "pct": 0.61
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2170,
+          "pct": 2.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 24995,
+          "pct": 30.63
+        }
+      ],
+      "economics": {
+        "median_household_income": 103813,
+        "poverty_count": 2180,
+        "poverty_pct": 2.67
+      },
+      "education": {
+        "bachelors_or_higher": 27694,
+        "bachelors_only": 12713,
+        "masters": 9819,
+        "professional": 3835,
+        "doctorate": 1327
+      }
+    },
+    "New York city, New York": {
+      "state": "NY",
+      "fips": "3651000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8516202,
+        "voting_age": 6597358,
+        "voting_age_pct": 77.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2665966,
+          "pct": 31.3
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1773772,
+          "pct": 20.83
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16143,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1236241,
+          "pct": 14.52
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 3610,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 108403,
+          "pct": 1.27
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 291528,
+          "pct": 3.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2420539,
+          "pct": 28.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 79713,
+        "poverty_count": 374984,
+        "poverty_pct": 4.4
+      },
+      "education": {
+        "bachelors_or_higher": 2499020,
+        "bachelors_only": 1439826,
+        "masters": 752804,
+        "professional": 203289,
+        "doctorate": 103101
+      }
+    },
+    "Newburgh city, New York": {
+      "state": "NY",
+      "fips": "3650034",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28649,
+        "voting_age": 20289,
+        "voting_age_pct": 70.82
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6221,
+          "pct": 21.71
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6819,
+          "pct": 23.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 170,
+          "pct": 0.59
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 180,
+          "pct": 0.63
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 677,
+          "pct": 2.36
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 14573,
+          "pct": 50.87
+        }
+      ],
+      "economics": {
+        "median_household_income": 51006,
+        "poverty_count": 2479,
+        "poverty_pct": 8.65
+      },
+      "education": {
+        "bachelors_or_higher": 3192,
+        "bachelors_only": 2102,
+        "masters": 850,
+        "professional": 99,
+        "doctorate": 141
+      }
+    },
+    "Niagara Falls city, New York": {
+      "state": "NY",
+      "fips": "3651055",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 48198,
+        "voting_age": 37410,
+        "voting_age_pct": 77.62
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 30874,
+          "pct": 64.06
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8232,
+          "pct": 17.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 355,
+          "pct": 0.74
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1107,
+          "pct": 2.3
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 11,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 329,
+          "pct": 0.68
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3447,
+          "pct": 7.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3843,
+          "pct": 7.97
+        }
+      ],
+      "economics": {
+        "median_household_income": 48535,
+        "poverty_count": 3488,
+        "poverty_pct": 7.24
+      },
+      "education": {
+        "bachelors_or_higher": 7788,
+        "bachelors_only": 4807,
+        "masters": 2509,
+        "professional": 351,
+        "doctorate": 121
+      }
+    },
+    "North Tonawanda city, New York": {
+      "state": "NY",
+      "fips": "3653682",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 30338,
+        "voting_age": 24158,
+        "voting_age_pct": 79.63
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 27336,
+          "pct": 90.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 538,
+          "pct": 1.77
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 27,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 343,
+          "pct": 1.13
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 207,
+          "pct": 0.68
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1048,
+          "pct": 3.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 839,
+          "pct": 2.77
+        }
+      ],
+      "economics": {
+        "median_household_income": 66774,
+        "poverty_count": 894,
+        "poverty_pct": 2.95
+      },
+      "education": {
+        "bachelors_or_higher": 6069,
+        "bachelors_only": 3900,
+        "masters": 1853,
+        "professional": 178,
+        "doctorate": 138
+      }
+    },
+    "Norwich city, New York": {
+      "state": "NY",
+      "fips": "3653979",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6880,
+        "voting_age": 5304,
+        "voting_age_pct": 77.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5970,
+          "pct": 86.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 77,
+          "pct": 1.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 36,
+          "pct": 0.52
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 42,
+          "pct": 0.61
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 14,
+          "pct": 0.2
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 243,
+          "pct": 3.53
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 498,
+          "pct": 7.24
+        }
+      ],
+      "economics": {
+        "median_household_income": 51713,
+        "poverty_count": 308,
+        "poverty_pct": 4.48
+      },
+      "education": {
+        "bachelors_or_higher": 1297,
+        "bachelors_only": 667,
+        "masters": 445,
+        "professional": 124,
+        "doctorate": 61
+      }
+    },
+    "Ogdensburg city, New York": {
+      "state": "NY",
+      "fips": "3654485",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9600,
+        "voting_age": 7721,
+        "voting_age_pct": 80.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8349,
+          "pct": 86.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 628,
+          "pct": 6.54
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 56,
+          "pct": 0.58
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 79,
+          "pct": 0.82
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 27,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 174,
+          "pct": 1.81
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 287,
+          "pct": 2.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 59306,
+        "poverty_count": 411,
+        "poverty_pct": 4.28
+      },
+      "education": {
+        "bachelors_or_higher": 1207,
+        "bachelors_only": 612,
+        "masters": 473,
+        "professional": 57,
+        "doctorate": 65
+      }
+    },
+    "Olean city, New York": {
+      "state": "NY",
+      "fips": "3654716",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 13798,
+        "voting_age": 10211,
+        "voting_age_pct": 74.0
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11990,
+          "pct": 86.9
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 328,
+          "pct": 2.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 110,
+          "pct": 0.8
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 309,
+          "pct": 2.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 73,
+          "pct": 0.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 835,
+          "pct": 6.05
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 153,
+          "pct": 1.11
+        }
+      ],
+      "economics": {
+        "median_household_income": 47553,
+        "poverty_count": 1165,
+        "poverty_pct": 8.44
+      },
+      "education": {
+        "bachelors_or_higher": 2749,
+        "bachelors_only": 1447,
+        "masters": 985,
+        "professional": 98,
+        "doctorate": 219
+      }
+    },
+    "Oneida city, New York": {
+      "state": "NY",
+      "fips": "3654837",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10240,
+        "voting_age": 8031,
+        "voting_age_pct": 78.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9271,
+          "pct": 90.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 78,
+          "pct": 0.76
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 62,
+          "pct": 0.61
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 44,
+          "pct": 0.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 98,
+          "pct": 0.96
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 382,
+          "pct": 3.73
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 305,
+          "pct": 2.98
+        }
+      ],
+      "economics": {
+        "median_household_income": 60380,
+        "poverty_count": 235,
+        "poverty_pct": 2.29
+      },
+      "education": {
+        "bachelors_or_higher": 1899,
+        "bachelors_only": 1072,
+        "masters": 643,
+        "professional": 106,
+        "doctorate": 78
+      }
+    },
+    "Oneonta city, New York": {
+      "state": "NY",
+      "fips": "3654881",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 14467,
+        "voting_age": 10151,
+        "voting_age_pct": 70.17
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 11788,
+          "pct": 81.48
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 938,
+          "pct": 6.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 330,
+          "pct": 2.28
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 132,
+          "pct": 0.91
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 249,
+          "pct": 1.72
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1017,
+          "pct": 7.03
+        }
+      ],
+      "economics": {
+        "median_household_income": 65031,
+        "poverty_count": 224,
+        "poverty_pct": 1.55
+      },
+      "education": {
+        "bachelors_or_higher": 3264,
+        "bachelors_only": 1650,
+        "masters": 1242,
+        "professional": 213,
+        "doctorate": 159
+      }
+    },
+    "Oswego city, New York": {
+      "state": "NY",
+      "fips": "3655574",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 17028,
+        "voting_age": 12694,
+        "voting_age_pct": 74.55
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 15084,
+          "pct": 88.58
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 154,
+          "pct": 0.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 13,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 292,
+          "pct": 1.71
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 65,
+          "pct": 0.38
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 640,
+          "pct": 3.76
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 780,
+          "pct": 4.58
+        }
+      ],
+      "economics": {
+        "median_household_income": 53286,
+        "poverty_count": 947,
+        "poverty_pct": 5.56
+      },
+      "education": {
+        "bachelors_or_higher": 3109,
+        "bachelors_only": 1779,
+        "masters": 1014,
+        "professional": 144,
+        "doctorate": 172
+      }
+    },
+    "Peekskill city, New York": {
+      "state": "NY",
+      "fips": "3656979",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 25484,
+        "voting_age": 20783,
+        "voting_age_pct": 81.55
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 8138,
+          "pct": 31.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4444,
+          "pct": 17.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 17,
+          "pct": 0.07
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 459,
+          "pct": 1.8
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 154,
+          "pct": 0.6
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 501,
+          "pct": 1.97
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 11771,
+          "pct": 46.19
+        }
+      ],
+      "economics": {
+        "median_household_income": 91042,
+        "poverty_count": 243,
+        "poverty_pct": 0.95
+      },
+      "education": {
+        "bachelors_or_higher": 7190,
+        "bachelors_only": 3835,
+        "masters": 2756,
+        "professional": 360,
+        "doctorate": 239
+      }
+    },
+    "Plattsburgh city, New York": {
+      "state": "NY",
+      "fips": "3658574",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 19878,
+        "voting_age": 15159,
+        "voting_age_pct": 76.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16740,
+          "pct": 84.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 709,
+          "pct": 3.57
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 165,
+          "pct": 0.83
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 582,
+          "pct": 2.93
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 16,
+          "pct": 0.08
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 48,
+          "pct": 0.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 644,
+          "pct": 3.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 974,
+          "pct": 4.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 53962,
+        "poverty_count": 605,
+        "poverty_pct": 3.04
+      },
+      "education": {
+        "bachelors_or_higher": 4403,
+        "bachelors_only": 2507,
+        "masters": 1248,
+        "professional": 362,
+        "doctorate": 286
+      }
+    },
+    "Port Jervis city, New York": {
+      "state": "NY",
+      "fips": "3659388",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8709,
+        "voting_age": 6668,
+        "voting_age_pct": 76.56
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5232,
+          "pct": 60.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 677,
+          "pct": 7.77
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 74,
+          "pct": 0.85
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 369,
+          "pct": 4.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 19,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 461,
+          "pct": 5.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1877,
+          "pct": 21.55
+        }
+      ],
+      "economics": {
+        "median_household_income": 50721,
+        "poverty_count": 442,
+        "poverty_pct": 5.08
+      },
+      "education": {
+        "bachelors_or_higher": 990,
+        "bachelors_only": 494,
+        "masters": 429,
+        "professional": 67,
+        "doctorate": 0
+      }
+    },
+    "Poughkeepsie city, New York": {
+      "state": "NY",
+      "fips": "3659641",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31778,
+        "voting_age": 24903,
+        "voting_age_pct": 78.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 10968,
+          "pct": 34.51
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 9947,
+          "pct": 31.3
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 43,
+          "pct": 0.14
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 454,
+          "pct": 1.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 355,
+          "pct": 1.12
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2173,
+          "pct": 6.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 7838,
+          "pct": 24.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 60050,
+        "poverty_count": 1247,
+        "poverty_pct": 3.92
+      },
+      "education": {
+        "bachelors_or_higher": 7118,
+        "bachelors_only": 3762,
+        "masters": 2463,
+        "professional": 560,
+        "doctorate": 333
+      }
+    },
+    "Rensselaer city, New York": {
+      "state": "NY",
+      "fips": "3661148",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9247,
+        "voting_age": 7363,
+        "voting_age_pct": 79.63
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6326,
+          "pct": 68.41
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 667,
+          "pct": 7.21
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 856,
+          "pct": 9.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 46,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 692,
+          "pct": 7.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 654,
+          "pct": 7.07
+        }
+      ],
+      "economics": {
+        "median_household_income": 66046,
+        "poverty_count": 740,
+        "poverty_pct": 8.0
+      },
+      "education": {
+        "bachelors_or_higher": 1846,
+        "bachelors_only": 1269,
+        "masters": 419,
+        "professional": 104,
+        "doctorate": 54
+      }
+    },
+    "Rochester city, New York": {
+      "state": "NY",
+      "fips": "3663000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 209720,
+        "voting_age": 157631,
+        "voting_age_pct": 75.16
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 75592,
+          "pct": 36.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 74933,
+          "pct": 35.73
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 337,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 6636,
+          "pct": 3.16
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 68,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 970,
+          "pct": 0.46
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9353,
+          "pct": 4.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 41831,
+          "pct": 19.95
+        }
+      ],
+      "economics": {
+        "median_household_income": 46628,
+        "poverty_count": 16486,
+        "poverty_pct": 7.86
+      },
+      "education": {
+        "bachelors_or_higher": 41741,
+        "bachelors_only": 24129,
+        "masters": 12077,
+        "professional": 3184,
+        "doctorate": 2351
+      }
+    },
+    "Rome city, New York": {
+      "state": "NY",
+      "fips": "3663418",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31795,
+        "voting_age": 24558,
+        "voting_age_pct": 77.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25750,
+          "pct": 80.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1452,
+          "pct": 4.57
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 35,
+          "pct": 0.11
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 566,
+          "pct": 1.78
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 106,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1708,
+          "pct": 5.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2178,
+          "pct": 6.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 58857,
+        "poverty_count": 1497,
+        "poverty_pct": 4.71
+      },
+      "education": {
+        "bachelors_or_higher": 4864,
+        "bachelors_only": 2831,
+        "masters": 1749,
+        "professional": 138,
+        "doctorate": 146
+      }
+    },
+    "Rye city, New York": {
+      "state": "NY",
+      "fips": "3664309",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 16410,
+        "voting_age": 11138,
+        "voting_age_pct": 67.87
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 12502,
+          "pct": 76.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 282,
+          "pct": 1.72
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 28,
+          "pct": 0.17
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1151,
+          "pct": 7.01
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 248,
+          "pct": 1.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 999,
+          "pct": 6.09
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1200,
+          "pct": 7.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 237727,
+        "poverty_count": 74,
+        "poverty_pct": 0.45
+      },
+      "education": {
+        "bachelors_or_higher": 8475,
+        "bachelors_only": 3555,
+        "masters": 3114,
+        "professional": 1434,
+        "doctorate": 372
+      }
+    },
+    "Salamanca city, New York": {
+      "state": "NY",
+      "fips": "3664749",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5878,
+        "voting_age": 4237,
+        "voting_age_pct": 72.08
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3950,
+          "pct": 67.2
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 144,
+          "pct": 2.45
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 964,
+          "pct": 16.4
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10,
+          "pct": 0.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.29
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 465,
+          "pct": 7.91
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 328,
+          "pct": 5.58
+        }
+      ],
+      "economics": {
+        "median_household_income": 39871,
+        "poverty_count": 427,
+        "poverty_pct": 7.26
+      },
+      "education": {
+        "bachelors_or_higher": 573,
+        "bachelors_only": 422,
+        "masters": 136,
+        "professional": 5,
+        "doctorate": 10
+      }
+    },
+    "Saratoga Springs city, New York": {
+      "state": "NY",
+      "fips": "3665255",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 28542,
+        "voting_age": 22896,
+        "voting_age_pct": 80.22
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 24254,
+          "pct": 84.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 847,
+          "pct": 2.97
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 43,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 852,
+          "pct": 2.99
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 174,
+          "pct": 0.61
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1022,
+          "pct": 3.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1350,
+          "pct": 4.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 100485,
+        "poverty_count": 423,
+        "poverty_pct": 1.48
+      },
+      "education": {
+        "bachelors_or_higher": 12364,
+        "bachelors_only": 6519,
+        "masters": 4279,
+        "professional": 796,
+        "doctorate": 770
+      }
+    },
+    "Schenectady city, New York": {
+      "state": "NY",
+      "fips": "3665508",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 68521,
+        "voting_age": 51807,
+        "voting_age_pct": 75.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 32889,
+          "pct": 48.0
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 13293,
+          "pct": 19.4
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 160,
+          "pct": 0.23
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3853,
+          "pct": 5.62
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 54,
+          "pct": 0.08
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2274,
+          "pct": 3.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 6910,
+          "pct": 10.08
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9088,
+          "pct": 13.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 56398,
+        "poverty_count": 4099,
+        "poverty_pct": 5.98
+      },
+      "education": {
+        "bachelors_or_higher": 10736,
+        "bachelors_only": 6657,
+        "masters": 2905,
+        "professional": 809,
+        "doctorate": 365
+      }
+    },
+    "Sherrill city, New York": {
+      "state": "NY",
+      "fips": "3666993",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3041,
+        "voting_age": 2333,
+        "voting_age_pct": 76.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2788,
+          "pct": 91.68
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 5,
+          "pct": 0.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 2.73
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 78,
+          "pct": 2.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 87,
+          "pct": 2.86
+        }
+      ],
+      "economics": {
+        "median_household_income": 88233,
+        "poverty_count": 25,
+        "poverty_pct": 0.82
+      },
+      "education": {
+        "bachelors_or_higher": 889,
+        "bachelors_only": 507,
+        "masters": 308,
+        "professional": 15,
+        "doctorate": 59
+      }
+    },
+    "Syracuse city, New York": {
+      "state": "NY",
+      "fips": "3673000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 146211,
+        "voting_age": 104153,
+        "voting_age_pct": 71.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 72358,
+          "pct": 49.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 37726,
+          "pct": 25.8
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 919,
+          "pct": 0.63
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 9930,
+          "pct": 6.79
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 34,
+          "pct": 0.02
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 1094,
+          "pct": 0.75
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 9064,
+          "pct": 6.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 15086,
+          "pct": 10.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 45845,
+        "poverty_count": 12665,
+        "poverty_pct": 8.66
+      },
+      "education": {
+        "bachelors_or_higher": 27504,
+        "bachelors_only": 15541,
+        "masters": 8410,
+        "professional": 1727,
+        "doctorate": 1826
+      }
+    },
+    "Tonawanda city, New York": {
+      "state": "NY",
+      "fips": "3674166",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 15044,
+        "voting_age": 11879,
+        "voting_age_pct": 78.96
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 13488,
+          "pct": 89.66
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 192,
+          "pct": 1.28
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 12,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 293,
+          "pct": 1.95
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 42,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 507,
+          "pct": 3.37
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 510,
+          "pct": 3.39
+        }
+      ],
+      "economics": {
+        "median_household_income": 61619,
+        "poverty_count": 419,
+        "poverty_pct": 2.79
+      },
+      "education": {
+        "bachelors_or_higher": 2909,
+        "bachelors_only": 1814,
+        "masters": 903,
+        "professional": 63,
+        "doctorate": 129
+      }
+    },
+    "Troy city, New York": {
+      "state": "NY",
+      "fips": "3675484",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 51054,
+        "voting_age": 38437,
+        "voting_age_pct": 75.29
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 32263,
+          "pct": 63.19
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 7939,
+          "pct": 15.55
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 43,
+          "pct": 0.08
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2170,
+          "pct": 4.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 181,
+          "pct": 0.35
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3472,
+          "pct": 6.8
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4986,
+          "pct": 9.77
+        }
+      ],
+      "economics": {
+        "median_household_income": 57688,
+        "poverty_count": 3563,
+        "poverty_pct": 6.98
+      },
+      "education": {
+        "bachelors_or_higher": 12009,
+        "bachelors_only": 6755,
+        "masters": 4015,
+        "professional": 489,
+        "doctorate": 750
+      }
+    },
+    "Utica city, New York": {
+      "state": "NY",
+      "fips": "3676540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 64440,
+        "voting_age": 45492,
+        "voting_age_pct": 70.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 34774,
+          "pct": 53.96
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 8619,
+          "pct": 13.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 130,
+          "pct": 0.2
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7099,
+          "pct": 11.02
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 8,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 328,
+          "pct": 0.51
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4093,
+          "pct": 6.35
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 9389,
+          "pct": 14.57
+        }
+      ],
+      "economics": {
+        "median_household_income": 51513,
+        "poverty_count": 6171,
+        "poverty_pct": 9.58
+      },
+      "education": {
+        "bachelors_or_higher": 8797,
+        "bachelors_only": 5452,
+        "masters": 2392,
+        "professional": 455,
+        "doctorate": 498
+      }
+    },
+    "Watertown city, New York": {
+      "state": "NY",
+      "fips": "3678608",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 24574,
+        "voting_age": 18400,
+        "voting_age_pct": 74.88
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19703,
+          "pct": 80.18
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1101,
+          "pct": 4.48
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 462,
+          "pct": 1.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 74,
+          "pct": 0.3
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1558,
+          "pct": 6.34
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1674,
+          "pct": 6.81
+        }
+      ],
+      "economics": {
+        "median_household_income": 49692,
+        "poverty_count": 1471,
+        "poverty_pct": 5.99
+      },
+      "education": {
+        "bachelors_or_higher": 4410,
+        "bachelors_only": 2437,
+        "masters": 1601,
+        "professional": 266,
+        "doctorate": 106
+      }
+    },
+    "Watervliet city, New York": {
+      "state": "NY",
+      "fips": "3678674",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10285,
+        "voting_age": 8255,
+        "voting_age_pct": 80.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7587,
+          "pct": 73.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 895,
+          "pct": 8.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 326,
+          "pct": 3.17
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 30,
+          "pct": 0.29
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 711,
+          "pct": 6.91
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 736,
+          "pct": 7.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 55897,
+        "poverty_count": 619,
+        "poverty_pct": 6.02
+      },
+      "education": {
+        "bachelors_or_higher": 1365,
+        "bachelors_only": 1026,
+        "masters": 297,
+        "professional": 19,
+        "doctorate": 23
+      }
+    },
+    "White Plains city, New York": {
+      "state": "NY",
+      "fips": "3681677",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 59818,
+        "voting_age": 47237,
+        "voting_age_pct": 78.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 26242,
+          "pct": 43.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6827,
+          "pct": 11.41
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 4992,
+          "pct": 8.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0.0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 741,
+          "pct": 1.24
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1342,
+          "pct": 2.24
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 19674,
+          "pct": 32.89
+        }
+      ],
+      "economics": {
+        "median_household_income": 115586,
+        "poverty_count": 1692,
+        "poverty_pct": 2.83
+      },
+      "education": {
+        "bachelors_or_higher": 23552,
+        "bachelors_only": 10810,
+        "masters": 8271,
+        "professional": 3275,
+        "doctorate": 1196
+      }
+    },
+    "Yonkers city, New York": {
+      "state": "NY",
+      "fips": "3684000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 209529,
+        "voting_age": 159615,
+        "voting_age_pct": 76.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 66174,
+          "pct": 31.58
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 31419,
+          "pct": 15.0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 381,
+          "pct": 0.18
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 10374,
+          "pct": 4.95
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 18,
+          "pct": 0.01
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3246,
+          "pct": 1.55
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4873,
+          "pct": 2.33
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 93044,
+          "pct": 44.41
+        }
+      ],
+      "economics": {
+        "median_household_income": 81816,
+        "poverty_count": 8087,
+        "poverty_pct": 3.86
+      },
+      "education": {
+        "bachelors_or_higher": 51175,
+        "bachelors_only": 28483,
+        "masters": 18164,
+        "professional": 2714,
+        "doctorate": 1814
+      }
+    }
+  }
+}

@@ -1,0 +1,2669 @@
+{
+  "cities": {
+    "Cheyenne city, Wyoming": {
+      "state": "WY",
+      "fips": "5613900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 64976,
+        "voting_age": 51631,
+        "voting_age_pct": 79.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 48753,
+          "pct": 75.03
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1830,
+          "pct": 2.82
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 358,
+          "pct": 0.55
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 720,
+          "pct": 1.11
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 105,
+          "pct": 0.16
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 488,
+          "pct": 0.75
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2329,
+          "pct": 3.58
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 10393,
+          "pct": 16
+        }
+      ],
+      "economics": {
+        "median_household_income": 77176,
+        "poverty_count": 1281,
+        "poverty_pct": 1.97
+      },
+      "education": {
+        "bachelors_or_higher": 15129,
+        "bachelors_only": 9271,
+        "masters": 4564,
+        "professional": 819,
+        "doctorate": 475
+      }
+    },
+    "Casper city, Wyoming": {
+      "state": "WY",
+      "fips": "5613150",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 58754,
+        "voting_age": 44543,
+        "voting_age_pct": 75.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 50346,
+          "pct": 85.69
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 353,
+          "pct": 0.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 268,
+          "pct": 0.46
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 280,
+          "pct": 0.48
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 186,
+          "pct": 0.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 2091,
+          "pct": 3.56
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5230,
+          "pct": 8.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 69171,
+        "poverty_count": 1945,
+        "poverty_pct": 3.31
+      },
+      "education": {
+        "bachelors_or_higher": 11879,
+        "bachelors_only": 7315,
+        "masters": 3498,
+        "professional": 693,
+        "doctorate": 373
+      }
+    },
+    "Gillette city, Wyoming": {
+      "state": "WY",
+      "fips": "5631855",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 33278,
+        "voting_age": 23532,
+        "voting_age_pct": 70.71
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 27808,
+          "pct": 83.56
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 145,
+          "pct": 0.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 314,
+          "pct": 0.94
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 79,
+          "pct": 0.24
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 11,
+          "pct": 0.03
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 20,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1372,
+          "pct": 4.12
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3529,
+          "pct": 10.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 90699,
+        "poverty_count": 849,
+        "poverty_pct": 2.55
+      },
+      "education": {
+        "bachelors_or_higher": 4855,
+        "bachelors_only": 2756,
+        "masters": 1828,
+        "professional": 155,
+        "doctorate": 116
+      }
+    },
+    "Laramie city, Wyoming": {
+      "state": "WY",
+      "fips": "5645050",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31848,
+        "voting_age": 27326,
+        "voting_age_pct": 85.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 25024,
+          "pct": 78.57
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 388,
+          "pct": 1.22
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 112,
+          "pct": 0.35
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1317,
+          "pct": 4.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 35,
+          "pct": 0.11
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 42,
+          "pct": 0.13
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1205,
+          "pct": 3.78
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3725,
+          "pct": 11.7
+        }
+      ],
+      "economics": {
+        "median_household_income": 52414,
+        "poverty_count": 434,
+        "poverty_pct": 1.36
+      },
+      "education": {
+        "bachelors_or_higher": 9569,
+        "bachelors_only": 4758,
+        "masters": 2999,
+        "professional": 439,
+        "doctorate": 1373
+      }
+    },
+    "Rock Springs city, Wyoming": {
+      "state": "WY",
+      "fips": "5667235",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 23229,
+        "voting_age": 17166,
+        "voting_age_pct": 73.9
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 17335,
+          "pct": 74.63
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 475,
+          "pct": 2.04
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 211,
+          "pct": 0.91
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 204,
+          "pct": 0.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 1,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 256,
+          "pct": 1.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 701,
+          "pct": 3.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 4046,
+          "pct": 17.42
+        }
+      ],
+      "economics": {
+        "median_household_income": 73307,
+        "poverty_count": 1293,
+        "poverty_pct": 5.57
+      },
+      "education": {
+        "bachelors_or_higher": 3175,
+        "bachelors_only": 2077,
+        "masters": 699,
+        "professional": 327,
+        "doctorate": 72
+      }
+    },
+    "Sheridan city, Wyoming": {
+      "state": "WY",
+      "fips": "5669845",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 19035,
+        "voting_age": 14730,
+        "voting_age_pct": 77.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16683,
+          "pct": 87.64
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 130,
+          "pct": 0.68
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 167,
+          "pct": 0.88
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 293,
+          "pct": 1.54
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 30,
+          "pct": 0.16
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 551,
+          "pct": 2.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1181,
+          "pct": 6.2
+        }
+      ],
+      "economics": {
+        "median_household_income": 61598,
+        "poverty_count": 469,
+        "poverty_pct": 2.46
+      },
+      "education": {
+        "bachelors_or_higher": 4453,
+        "bachelors_only": 2873,
+        "masters": 1107,
+        "professional": 280,
+        "doctorate": 193
+      }
+    },
+    "Evanston city, Wyoming": {
+      "state": "WY",
+      "fips": "5625620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11803,
+        "voting_age": 8580,
+        "voting_age_pct": 72.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9920,
+          "pct": 84.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 45,
+          "pct": 0.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 3,
+          "pct": 0.03
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.14
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 372,
+          "pct": 3.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1447,
+          "pct": 12.26
+        }
+      ],
+      "economics": {
+        "median_household_income": 76569,
+        "poverty_count": 54,
+        "poverty_pct": 0.46
+      },
+      "education": {
+        "bachelors_or_higher": 1530,
+        "bachelors_only": 1096,
+        "masters": 363,
+        "professional": 46,
+        "doctorate": 25
+      }
+    },
+    "Green River city, Wyoming": {
+      "state": "WY",
+      "fips": "5633740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 11679,
+        "voting_age": 8429,
+        "voting_age_pct": 72.17
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9727,
+          "pct": 83.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 58,
+          "pct": 0.5
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 55,
+          "pct": 0.47
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 321,
+          "pct": 2.75
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1507,
+          "pct": 12.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 85399,
+        "poverty_count": 422,
+        "poverty_pct": 3.61
+      },
+      "education": {
+        "bachelors_or_higher": 1762,
+        "bachelors_only": 1199,
+        "masters": 435,
+        "professional": 54,
+        "doctorate": 74
+      }
+    },
+    "Riverton city, Wyoming": {
+      "state": "WY",
+      "fips": "5666220",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10803,
+        "voting_age": 8127,
+        "voting_age_pct": 75.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7871,
+          "pct": 72.86
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 87,
+          "pct": 0.81
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 881,
+          "pct": 8.16
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 138,
+          "pct": 1.28
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4,
+          "pct": 0.04
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 33,
+          "pct": 0.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 526,
+          "pct": 4.87
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1263,
+          "pct": 11.69
+        }
+      ],
+      "economics": {
+        "median_household_income": 56280,
+        "poverty_count": 267,
+        "poverty_pct": 2.47
+      },
+      "education": {
+        "bachelors_or_higher": 1552,
+        "bachelors_only": 1026,
+        "masters": 441,
+        "professional": 57,
+        "doctorate": 28
+      }
+    },
+    "Jackson town, Wyoming": {
+      "state": "WY",
+      "fips": "5640120",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10746,
+        "voting_age": 8656,
+        "voting_age_pct": 80.55
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7266,
+          "pct": 67.62
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 92,
+          "pct": 0.86
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 39,
+          "pct": 0.36
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 181,
+          "pct": 1.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.09
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 638,
+          "pct": 5.94
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2520,
+          "pct": 23.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 112609,
+        "poverty_count": 9,
+        "poverty_pct": 0.08
+      },
+      "education": {
+        "bachelors_or_higher": 4591,
+        "bachelors_only": 3201,
+        "masters": 1038,
+        "professional": 127,
+        "doctorate": 225
+      }
+    },
+    "Cody city, Wyoming": {
+      "state": "WY",
+      "fips": "5615760",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 10121,
+        "voting_age": 7841,
+        "voting_age_pct": 77.47
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 9207,
+          "pct": 90.97
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 33,
+          "pct": 0.33
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 15,
+          "pct": 0.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 37,
+          "pct": 0.37
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 41,
+          "pct": 0.41
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 314,
+          "pct": 3.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 474,
+          "pct": 4.68
+        }
+      ],
+      "economics": {
+        "median_household_income": 68676,
+        "poverty_count": 213,
+        "poverty_pct": 2.1
+      },
+      "education": {
+        "bachelors_or_higher": 2857,
+        "bachelors_only": 1835,
+        "masters": 661,
+        "professional": 188,
+        "doctorate": 173
+      }
+    },
+    "Rawlins city, Wyoming": {
+      "state": "WY",
+      "fips": "5663900",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8217,
+        "voting_age": 6353,
+        "voting_age_pct": 77.32
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5710,
+          "pct": 69.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 186,
+          "pct": 2.26
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 53,
+          "pct": 0.65
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 89,
+          "pct": 1.08
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 18,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 177,
+          "pct": 2.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1984,
+          "pct": 24.15
+        }
+      ],
+      "economics": {
+        "median_household_income": 69912,
+        "poverty_count": 220,
+        "poverty_pct": 2.68
+      },
+      "education": {
+        "bachelors_or_higher": 1018,
+        "bachelors_only": 767,
+        "masters": 181,
+        "professional": 48,
+        "doctorate": 22
+      }
+    },
+    "Lander city, Wyoming": {
+      "state": "WY",
+      "fips": "5644760",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7565,
+        "voting_age": 5549,
+        "voting_age_pct": 73.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 6103,
+          "pct": 80.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 69,
+          "pct": 0.91
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 609,
+          "pct": 8.05
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.15
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 307,
+          "pct": 4.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 466,
+          "pct": 6.16
+        }
+      ],
+      "economics": {
+        "median_household_income": 71601,
+        "poverty_count": 240,
+        "poverty_pct": 3.17
+      },
+      "education": {
+        "bachelors_or_higher": 2155,
+        "bachelors_only": 1184,
+        "masters": 800,
+        "professional": 137,
+        "doctorate": 34
+      }
+    },
+    "Powell city, Wyoming": {
+      "state": "WY",
+      "fips": "5662450",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6466,
+        "voting_age": 4926,
+        "voting_age_pct": 76.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5305,
+          "pct": 82.04
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 16,
+          "pct": 0.25
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4,
+          "pct": 0.06
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 48,
+          "pct": 0.74
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 76,
+          "pct": 1.18
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 342,
+          "pct": 5.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 675,
+          "pct": 10.44
+        }
+      ],
+      "economics": {
+        "median_household_income": 65077,
+        "poverty_count": 309,
+        "poverty_pct": 4.78
+      },
+      "education": {
+        "bachelors_or_higher": 1311,
+        "bachelors_only": 872,
+        "masters": 205,
+        "professional": 118,
+        "doctorate": 116
+      }
+    },
+    "Douglas city, Wyoming": {
+      "state": "WY",
+      "fips": "5621125",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6400,
+        "voting_age": 4478,
+        "voting_age_pct": 69.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5467,
+          "pct": 85.42
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 32,
+          "pct": 0.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 16,
+          "pct": 0.25
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 94,
+          "pct": 1.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 791,
+          "pct": 12.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 79839,
+        "poverty_count": 543,
+        "poverty_pct": 8.48
+      },
+      "education": {
+        "bachelors_or_higher": 927,
+        "bachelors_only": 623,
+        "masters": 254,
+        "professional": 50,
+        "doctorate": 0
+      }
+    },
+    "Torrington city, Wyoming": {
+      "state": "WY",
+      "fips": "5677530",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6174,
+        "voting_age": 4844,
+        "voting_age_pct": 78.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4745,
+          "pct": 76.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 72,
+          "pct": 1.17
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 81,
+          "pct": 1.31
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 28,
+          "pct": 0.45
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 10,
+          "pct": 0.16
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 237,
+          "pct": 3.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1001,
+          "pct": 16.21
+        }
+      ],
+      "economics": {
+        "median_household_income": 53393,
+        "poverty_count": 308,
+        "poverty_pct": 4.99
+      },
+      "education": {
+        "bachelors_or_higher": 875,
+        "bachelors_only": 508,
+        "masters": 275,
+        "professional": 31,
+        "doctorate": 61
+      }
+    },
+    "Worland city, Wyoming": {
+      "state": "WY",
+      "fips": "5684925",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4788,
+        "voting_age": 3764,
+        "voting_age_pct": 78.61
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3553,
+          "pct": 74.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.19
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 214,
+          "pct": 4.47
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 1012,
+          "pct": 21.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 60603,
+        "poverty_count": 121,
+        "poverty_pct": 2.53
+      },
+      "education": {
+        "bachelors_or_higher": 717,
+        "bachelors_only": 504,
+        "masters": 140,
+        "professional": 73,
+        "doctorate": 0
+      }
+    },
+    "Buffalo city, Wyoming": {
+      "state": "WY",
+      "fips": "5610685",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4516,
+        "voting_age": 3715,
+        "voting_age_pct": 82.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4130,
+          "pct": 91.45
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.02
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 43,
+          "pct": 0.95
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 45,
+          "pct": 1
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 42,
+          "pct": 0.93
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 97,
+          "pct": 2.15
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 158,
+          "pct": 3.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 61813,
+        "poverty_count": 44,
+        "poverty_pct": 0.97
+      },
+      "education": {
+        "bachelors_or_higher": 1020,
+        "bachelors_only": 699,
+        "masters": 263,
+        "professional": 13,
+        "doctorate": 45
+      }
+    },
+    "Mills town, Wyoming": {
+      "state": "WY",
+      "fips": "5653460",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4315,
+        "voting_age": 3286,
+        "voting_age_pct": 76.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3272,
+          "pct": 75.83
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 47,
+          "pct": 1.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 6,
+          "pct": 0.14
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 64,
+          "pct": 1.48
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 192,
+          "pct": 4.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 734,
+          "pct": 17.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 55594,
+        "poverty_count": 91,
+        "poverty_pct": 2.11
+      },
+      "education": {
+        "bachelors_or_higher": 374,
+        "bachelors_only": 245,
+        "masters": 116,
+        "professional": 13,
+        "doctorate": 0
+      }
+    },
+    "Wheatland town, Wyoming": {
+      "state": "WY",
+      "fips": "5683040",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3570,
+        "voting_age": 2893,
+        "voting_age_pct": 81.04
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2780,
+          "pct": 77.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.08
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.25
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.06
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 196,
+          "pct": 5.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 580,
+          "pct": 16.25
+        }
+      ],
+      "economics": {
+        "median_household_income": 55908,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 453,
+        "bachelors_only": 262,
+        "masters": 140,
+        "professional": 51,
+        "doctorate": 0
+      }
+    },
+    "Newcastle city, Wyoming": {
+      "state": "WY",
+      "fips": "5656215",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3348,
+        "voting_age": 2626,
+        "voting_age_pct": 78.43
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2952,
+          "pct": 88.17
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 4,
+          "pct": 0.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 60,
+          "pct": 1.79
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 16,
+          "pct": 0.48
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 39,
+          "pct": 1.16
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 113,
+          "pct": 3.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 164,
+          "pct": 4.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 77014,
+        "poverty_count": 19,
+        "poverty_pct": 0.57
+      },
+      "education": {
+        "bachelors_or_higher": 388,
+        "bachelors_only": 323,
+        "masters": 34,
+        "professional": 24,
+        "doctorate": 7
+      }
+    },
+    "Bar Nunn town, Wyoming": {
+      "state": "WY",
+      "fips": "5605245",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2980,
+        "voting_age": 2063,
+        "voting_age_pct": 69.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2442,
+          "pct": 81.95
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 1.07
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 201,
+          "pct": 6.74
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 305,
+          "pct": 10.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 110598,
+        "poverty_count": 5,
+        "poverty_pct": 0.17
+      },
+      "education": {
+        "bachelors_or_higher": 303,
+        "bachelors_only": 207,
+        "masters": 63,
+        "professional": 27,
+        "doctorate": 6
+      }
+    },
+    "Glenrock town, Wyoming": {
+      "state": "WY",
+      "fips": "5632435",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2806,
+        "voting_age": 2188,
+        "voting_age_pct": 77.98
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2572,
+          "pct": 91.66
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 123,
+          "pct": 4.38
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 111,
+          "pct": 3.96
+        }
+      ],
+      "economics": {
+        "median_household_income": 65660,
+        "poverty_count": 68,
+        "poverty_pct": 2.42
+      },
+      "education": {
+        "bachelors_or_higher": 365,
+        "bachelors_only": 179,
+        "masters": 172,
+        "professional": 14,
+        "doctorate": 0
+      }
+    },
+    "Kemmerer city, Wyoming": {
+      "state": "WY",
+      "fips": "5642005",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2788,
+        "voting_age": 2056,
+        "voting_age_pct": 73.74
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2563,
+          "pct": 91.93
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 9,
+          "pct": 0.32
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.39
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 37,
+          "pct": 1.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 87,
+          "pct": 3.12
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 81,
+          "pct": 2.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 74375,
+        "poverty_count": 118,
+        "poverty_pct": 4.23
+      },
+      "education": {
+        "bachelors_or_higher": 527,
+        "bachelors_only": 367,
+        "masters": 82,
+        "professional": 67,
+        "doctorate": 11
+      }
+    },
+    "Evansville town, Wyoming": {
+      "state": "WY",
+      "fips": "5625765",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2766,
+        "voting_age": 2086,
+        "voting_age_pct": 75.42
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2022,
+          "pct": 73.1
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 45,
+          "pct": 1.63
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 74,
+          "pct": 2.68
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 6,
+          "pct": 0.22
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 134,
+          "pct": 4.84
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 485,
+          "pct": 17.53
+        }
+      ],
+      "economics": {
+        "median_household_income": 79760,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 202,
+        "bachelors_only": 139,
+        "masters": 63,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Thermopolis town, Wyoming": {
+      "state": "WY",
+      "fips": "5676515",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2716,
+        "voting_age": 2177,
+        "voting_age_pct": 80.15
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2450,
+          "pct": 90.21
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 27,
+          "pct": 0.99
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2,
+          "pct": 0.07
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 32,
+          "pct": 1.18
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 57,
+          "pct": 2.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 148,
+          "pct": 5.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 71574,
+        "poverty_count": 176,
+        "poverty_pct": 6.48
+      },
+      "education": {
+        "bachelors_or_higher": 578,
+        "bachelors_only": 431,
+        "masters": 86,
+        "professional": 27,
+        "doctorate": 34
+      }
+    },
+    "Lovell town, Wyoming": {
+      "state": "WY",
+      "fips": "5647950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2590,
+        "voting_age": 1890,
+        "voting_age_pct": 72.97
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2379,
+          "pct": 91.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 10,
+          "pct": 0.39
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 0.69
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.19
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 13,
+          "pct": 0.5
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 165,
+          "pct": 6.37
+        }
+      ],
+      "economics": {
+        "median_household_income": 61620,
+        "poverty_count": 135,
+        "poverty_pct": 5.21
+      },
+      "education": {
+        "bachelors_or_higher": 338,
+        "bachelors_only": 215,
+        "masters": 94,
+        "professional": 15,
+        "doctorate": 14
+      }
+    },
+    "Star Valley Ranch town, Wyoming": {
+      "state": "WY",
+      "fips": "5673180",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2107,
+        "voting_age": 1735,
+        "voting_age_pct": 82.34
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1889,
+          "pct": 89.65
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 6,
+          "pct": 0.28
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 18,
+          "pct": 0.85
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.52
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 74,
+          "pct": 3.51
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 108,
+          "pct": 5.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 96218,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 576,
+        "bachelors_only": 307,
+        "masters": 166,
+        "professional": 40,
+        "doctorate": 63
+      }
+    },
+    "Greybull town, Wyoming": {
+      "state": "WY",
+      "fips": "5633885",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2061,
+        "voting_age": 1489,
+        "voting_age_pct": 72.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1437,
+          "pct": 69.72
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 29,
+          "pct": 1.41
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 11,
+          "pct": 0.53
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 70,
+          "pct": 3.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 513,
+          "pct": 24.89
+        }
+      ],
+      "economics": {
+        "median_household_income": 62941,
+        "poverty_count": 101,
+        "poverty_pct": 4.9
+      },
+      "education": {
+        "bachelors_or_higher": 214,
+        "bachelors_only": 141,
+        "masters": 19,
+        "professional": 42,
+        "doctorate": 12
+      }
+    },
+    "Pinedale town, Wyoming": {
+      "state": "WY",
+      "fips": "5661580",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2022,
+        "voting_age": 1571,
+        "voting_age_pct": 77.7
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1678,
+          "pct": 82.99
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 34,
+          "pct": 1.68
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 26,
+          "pct": 1.29
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 284,
+          "pct": 14.05
+        }
+      ],
+      "economics": {
+        "median_household_income": 74886,
+        "poverty_count": 38,
+        "poverty_pct": 1.88
+      },
+      "education": {
+        "bachelors_or_higher": 586,
+        "bachelors_only": 344,
+        "masters": 223,
+        "professional": 19,
+        "doctorate": 0
+      }
+    },
+    "Afton town, Wyoming": {
+      "state": "WY",
+      "fips": "5600245",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1982,
+        "voting_age": 1533,
+        "voting_age_pct": 77.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1724,
+          "pct": 86.98
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 5,
+          "pct": 0.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 107,
+          "pct": 5.4
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 144,
+          "pct": 7.27
+        }
+      ],
+      "economics": {
+        "median_household_income": 56806,
+        "poverty_count": 92,
+        "poverty_pct": 4.64
+      },
+      "education": {
+        "bachelors_or_higher": 340,
+        "bachelors_only": 205,
+        "masters": 114,
+        "professional": 3,
+        "doctorate": 18
+      }
+    },
+    "Saratoga town, Wyoming": {
+      "state": "WY",
+      "fips": "5668685",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1864,
+        "voting_age": 1392,
+        "voting_age_pct": 74.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1661,
+          "pct": 89.11
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 1,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 24,
+          "pct": 1.29
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 12,
+          "pct": 0.64
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 73,
+          "pct": 3.92
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 93,
+          "pct": 4.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 68521,
+        "poverty_count": 55,
+        "poverty_pct": 2.95
+      },
+      "education": {
+        "bachelors_or_higher": 434,
+        "bachelors_only": 345,
+        "masters": 65,
+        "professional": 0,
+        "doctorate": 24
+      }
+    },
+    "Lyman town, Wyoming": {
+      "state": "WY",
+      "fips": "5648675",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1777,
+        "voting_age": 1151,
+        "voting_age_pct": 64.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1539,
+          "pct": 86.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 65,
+          "pct": 3.66
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 173,
+          "pct": 9.74
+        }
+      ],
+      "economics": {
+        "median_household_income": 101080,
+        "poverty_count": 17,
+        "poverty_pct": 0.96
+      },
+      "education": {
+        "bachelors_or_higher": 319,
+        "bachelors_only": 251,
+        "masters": 68,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Lusk town, Wyoming": {
+      "state": "WY",
+      "fips": "5648530",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1482,
+        "voting_age": 1250,
+        "voting_age_pct": 84.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1230,
+          "pct": 83
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 34,
+          "pct": 2.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 46,
+          "pct": 3.1
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 17,
+          "pct": 1.15
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 33,
+          "pct": 2.23
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 122,
+          "pct": 8.23
+        }
+      ],
+      "economics": {
+        "median_household_income": 44755,
+        "poverty_count": 92,
+        "poverty_pct": 6.21
+      },
+      "education": {
+        "bachelors_or_higher": 253,
+        "bachelors_only": 197,
+        "masters": 43,
+        "professional": 9,
+        "doctorate": 4
+      }
+    },
+    "Wright town, Wyoming": {
+      "state": "WY",
+      "fips": "5685015",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1400,
+        "voting_age": 1082,
+        "voting_age_pct": 77.29
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1019,
+          "pct": 72.79
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 12,
+          "pct": 0.86
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 141,
+          "pct": 10.07
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 228,
+          "pct": 16.29
+        }
+      ],
+      "economics": {
+        "median_household_income": 86115,
+        "poverty_count": 55,
+        "poverty_pct": 3.93
+      },
+      "education": {
+        "bachelors_or_higher": 88,
+        "bachelors_only": 88,
+        "masters": 0,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Basin town, Wyoming": {
+      "state": "WY",
+      "fips": "5605320",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1304,
+        "voting_age": 1070,
+        "voting_age_pct": 82.06
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1193,
+          "pct": 91.49
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 11,
+          "pct": 0.84
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 23,
+          "pct": 1.76
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 30,
+          "pct": 2.3
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 47,
+          "pct": 3.6
+        }
+      ],
+      "economics": {
+        "median_household_income": 59941,
+        "poverty_count": 95,
+        "poverty_pct": 7.29
+      },
+      "education": {
+        "bachelors_or_higher": 206,
+        "bachelors_only": 151,
+        "masters": 42,
+        "professional": 5,
+        "doctorate": 8
+      }
+    },
+    "Pine Bluffs town, Wyoming": {
+      "state": "WY",
+      "fips": "5661435",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1260,
+        "voting_age": 1025,
+        "voting_age_pct": 81.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1068,
+          "pct": 84.76
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 15,
+          "pct": 1.19
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 24,
+          "pct": 1.9
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 153,
+          "pct": 12.14
+        }
+      ],
+      "economics": {
+        "median_household_income": 65275,
+        "poverty_count": 22,
+        "poverty_pct": 1.75
+      },
+      "education": {
+        "bachelors_or_higher": 242,
+        "bachelors_only": 206,
+        "masters": 23,
+        "professional": 11,
+        "doctorate": 2
+      }
+    },
+    "Marbleton town, Wyoming": {
+      "state": "WY",
+      "fips": "5650415",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1209,
+        "voting_age": 844,
+        "voting_age_pct": 69.81
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 965,
+          "pct": 79.82
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 37,
+          "pct": 3.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 207,
+          "pct": 17.12
+        }
+      ],
+      "economics": {
+        "median_household_income": 65625,
+        "poverty_count": 88,
+        "poverty_pct": 7.28
+      },
+      "education": {
+        "bachelors_or_higher": 71,
+        "bachelors_only": 49,
+        "masters": 22,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Ranchester town, Wyoming": {
+      "state": "WY",
+      "fips": "5663755",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1069,
+        "voting_age": 719,
+        "voting_age_pct": 67.26
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 996,
+          "pct": 93.17
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 35,
+          "pct": 3.27
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 22,
+          "pct": 2.06
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 16,
+          "pct": 1.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 65568,
+        "poverty_count": 82,
+        "poverty_pct": 7.67
+      },
+      "education": {
+        "bachelors_or_higher": 212,
+        "bachelors_only": 154,
+        "masters": 46,
+        "professional": 5,
+        "doctorate": 7
+      }
+    },
+    "Moorcroft town, Wyoming": {
+      "state": "WY",
+      "fips": "5654185",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1062,
+        "voting_age": 669,
+        "voting_age_pct": 62.99
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1039,
+          "pct": 97.83
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1,
+          "pct": 0.09
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 17,
+          "pct": 1.6
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 5,
+          "pct": 0.47
+        }
+      ],
+      "economics": {
+        "median_household_income": 66176,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 65,
+        "bachelors_only": 50,
+        "masters": 15,
+        "professional": 0,
+        "doctorate": 0
+      }
+    },
+    "Mountain View town, Wyoming": {
+      "state": "WY",
+      "fips": "5655345",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1017,
+        "voting_age": 816,
+        "voting_age_pct": 80.24
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 909,
+          "pct": 89.38
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 39,
+          "pct": 3.83
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 69,
+          "pct": 6.78
+        }
+      ],
+      "economics": {
+        "median_household_income": 71607,
+        "poverty_count": 37,
+        "poverty_pct": 3.64
+      },
+      "education": {
+        "bachelors_or_higher": 39,
+        "bachelors_only": 18,
+        "masters": 20,
+        "professional": 0,
+        "doctorate": 1
+      }
+    }
+  }
+}

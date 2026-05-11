@@ -1,0 +1,436 @@
+{
+  "state": "Nevada",
+  "election_year": 2024,
+  "generated": "2026-05-10",
+  "data_sources": {
+    "presidential_results": [
+      "tonmcg/US_County_Level_Election_Results_08-24 (GitHub)",
+      "NYT 2024 Nevada results page",
+      "Dave Leip's Atlas of U.S. Elections (uselectionatlas.org)"
+    ],
+    "voter_registration": [
+      "NOTE: Nevada Secretary of State website (nvsos.gov) is behind Incapsula WAF — programmatic access blocked.",
+      "State-level totals from UF Election Lab and media reporting.",
+      "County-level registration estimates derived from turnout rates and known county distributions."
+    ]
+  },
+  "statewide_summary": {
+    "total_votes_cast": 1484840,
+    "total_ballots_cast": 1487887,
+    "turnout_pct": 72.84,
+    "voting_eligible_population": 2061177,
+    "active_registered_voters_oct2024": 2060000,
+    "trump_votes": 751205,
+    "trump_pct": 50.59,
+    "harris_votes": 705197,
+    "harris_pct": 47.49,
+    "other_votes": 28438,
+    "other_pct": 1.92,
+    "margin": "Trump +46,008 (3.10%)",
+    "electoral_votes": 6,
+    "flip": "Trump flipped Nevada (first Republican win since 2004)"
+  },
+  "counties": [
+    {
+      "name": "Carson City",
+      "fips": "32510",
+      "type": "independent_city",
+      "presidential_2024": {
+        "trump": 16873,
+        "harris": 13375,
+        "total": 31068,
+        "trump_pct": 54.31,
+        "harris_pct": 43.05,
+        "margin": "Trump +3,498 (11.3%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 31000,
+        "democrat_pct": 30,
+        "republican_pct": 35,
+        "nonpartisan_pct": 29,
+        "other_pct": 6,
+        "note": "Registration figures estimated from turnout rate; exact county-level data unavailable"
+      }
+    },
+    {
+      "name": "Churchill County",
+      "fips": "32001",
+      "presidential_2024": {
+        "trump": 9962,
+        "harris": 3179,
+        "total": 13503,
+        "trump_pct": 73.78,
+        "harris_pct": 23.54,
+        "margin": "Trump +6,783 (50.2%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 15500,
+        "democrat_pct": 15,
+        "republican_pct": 55,
+        "nonpartisan_pct": 24,
+        "other_pct": 6,
+        "note": "Registration figures estimated from turnout rate"
+      }
+    },
+    {
+      "name": "Clark County",
+      "fips": "32003",
+      "major_cities": ["Las Vegas", "Henderson", "North Las Vegas", "Boulder City", "Mesquite"],
+      "presidential_2024": {
+        "trump": 493052,
+        "harris": 520187,
+        "total": 1031223,
+        "trump_pct": 47.81,
+        "harris_pct": 50.44,
+        "margin": "Harris +27,135 (2.63%)",
+        "winner": "Harris",
+        "share_of_state_vote_pct": 69.5
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 1410000,
+        "democrat_registered": 475000,
+        "republican_registered": 380000,
+        "nonpartisan_registered": 480000,
+        "other_registered": 75000,
+        "democrat_pct": 33.7,
+        "republican_pct": 27.0,
+        "nonpartisan_pct": 34.0,
+        "other_pct": 5.3,
+        "share_of_state_registration_pct": 68.4,
+        "note": "Clark County figures are best estimates based on state totals and historical distribution. County-level registration data from NV SOS is behind WAF."
+      },
+      "validation": {
+        "turnout_from_results": "73.1% (1,031,223 votes ÷ ~1,410,000 registered)",
+        "note": "Clark is NV's most populous county. Harris won it by 2.6% — a significant underperformance vs Biden's 2020 margin of ~9%. Trump's gains in Clark (especially among Latino voters) were decisive."
+      }
+    },
+    {
+      "name": "Douglas County",
+      "fips": "32005",
+      "presidential_2024": {
+        "trump": 23237,
+        "harris": 11553,
+        "total": 35556,
+        "trump_pct": 65.35,
+        "harris_pct": 32.49,
+        "margin": "Trump +11,684 (32.9%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 44500,
+        "democrat_pct": 22,
+        "republican_pct": 44,
+        "nonpartisan_pct": 28,
+        "other_pct": 6,
+        "note": "Registration figures estimated from turnout rate"
+      }
+    },
+    {
+      "name": "Elko County",
+      "fips": "32007",
+      "major_cities": ["Elko", "West Wendover", "Wells", "Carlin"],
+      "presidential_2024": {
+        "trump": 17352,
+        "harris": 4632,
+        "total": 22465,
+        "trump_pct": 77.24,
+        "harris_pct": 20.62,
+        "margin": "Trump +12,720 (56.6%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 30000,
+        "democrat_pct": 12,
+        "republican_pct": 58,
+        "nonpartisan_pct": 25,
+        "other_pct": 5,
+        "note": "Registration figures estimated from turnout rate"
+      }
+    },
+    {
+      "name": "Esmeralda County",
+      "fips": "32009",
+      "presidential_2024": {
+        "trump": 376,
+        "harris": 73,
+        "total": 461,
+        "trump_pct": 81.56,
+        "harris_pct": 15.84,
+        "margin": "Trump +303 (65.7%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 600,
+        "democrat_pct": 8,
+        "republican_pct": 62,
+        "nonpartisan_pct": 25,
+        "other_pct": 5,
+        "note": "Registration figures estimated"
+      }
+    },
+    {
+      "name": "Eureka County",
+      "fips": "32011",
+      "presidential_2024": {
+        "trump": 910,
+        "harris": 104,
+        "total": 1036,
+        "trump_pct": 87.84,
+        "harris_pct": 10.04,
+        "margin": "Trump +806 (77.8%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 1300,
+        "democrat_pct": 5,
+        "republican_pct": 68,
+        "nonpartisan_pct": 22,
+        "other_pct": 5,
+        "note": "Registration figures estimated"
+      }
+    },
+    {
+      "name": "Humboldt County",
+      "fips": "32013",
+      "major_cities": ["Winnemucca"],
+      "presidential_2024": {
+        "trump": 6141,
+        "harris": 1711,
+        "total": 8030,
+        "trump_pct": 76.48,
+        "harris_pct": 21.31,
+        "margin": "Trump +4,430 (55.2%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 10800,
+        "democrat_pct": 14,
+        "republican_pct": 55,
+        "nonpartisan_pct": 26,
+        "other_pct": 5,
+        "note": "Registration figures estimated from turnout rate"
+      }
+    },
+    {
+      "name": "Lander County",
+      "fips": "32015",
+      "presidential_2024": {
+        "trump": 2180,
+        "harris": 482,
+        "total": 2725,
+        "trump_pct": 80.00,
+        "harris_pct": 17.69,
+        "margin": "Trump +1,698 (62.3%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 3700,
+        "democrat_pct": 12,
+        "republican_pct": 58,
+        "nonpartisan_pct": 25,
+        "other_pct": 5,
+        "note": "Registration figures estimated"
+      }
+    },
+    {
+      "name": "Lincoln County",
+      "fips": "32017",
+      "presidential_2024": {
+        "trump": 2108,
+        "harris": 314,
+        "total": 2472,
+        "trump_pct": 85.28,
+        "harris_pct": 12.70,
+        "margin": "Trump +1,794 (72.6%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 3300,
+        "democrat_pct": 8,
+        "republican_pct": 62,
+        "nonpartisan_pct": 25,
+        "other_pct": 5,
+        "note": "Registration figures estimated"
+      }
+    },
+    {
+      "name": "Lyon County",
+      "fips": "32019",
+      "major_cities": ["Fernley", "Yerington"],
+      "presidential_2024": {
+        "trump": 23861,
+        "harris": 8954,
+        "total": 33541,
+        "trump_pct": 71.14,
+        "harris_pct": 26.70,
+        "margin": "Trump +14,907 (44.4%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 45000,
+        "democrat_pct": 18,
+        "republican_pct": 48,
+        "nonpartisan_pct": 28,
+        "other_pct": 6,
+        "note": "Registration figures estimated from turnout rate"
+      }
+    },
+    {
+      "name": "Mineral County",
+      "fips": "32021",
+      "presidential_2024": {
+        "trump": 1528,
+        "harris": 711,
+        "total": 2295,
+        "trump_pct": 66.58,
+        "harris_pct": 30.98,
+        "margin": "Trump +817 (35.6%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 3300,
+        "democrat_pct": 22,
+        "republican_pct": 42,
+        "nonpartisan_pct": 30,
+        "other_pct": 6,
+        "note": "Registration figures estimated"
+      }
+    },
+    {
+      "name": "Nye County",
+      "fips": "32023",
+      "presidential_2024": {
+        "trump": 18946,
+        "harris": 7559,
+        "total": 26997,
+        "trump_pct": 70.18,
+        "harris_pct": 28.00,
+        "margin": "Trump +11,387 (42.2%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 38000,
+        "democrat_pct": 18,
+        "republican_pct": 48,
+        "nonpartisan_pct": 28,
+        "other_pct": 6,
+        "note": "Registration figures estimated from turnout rate"
+      }
+    },
+    {
+      "name": "Pershing County",
+      "fips": "32027",
+      "major_cities": ["Lovelock"],
+      "presidential_2024": {
+        "trump": 1764,
+        "harris": 496,
+        "total": 2308,
+        "trump_pct": 76.43,
+        "harris_pct": 21.49,
+        "margin": "Trump +1,268 (54.9%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 3100,
+        "democrat_pct": 15,
+        "republican_pct": 52,
+        "nonpartisan_pct": 28,
+        "other_pct": 5,
+        "note": "Registration figures estimated"
+      }
+    },
+    {
+      "name": "Storey County",
+      "fips": "32029",
+      "presidential_2024": {
+        "trump": 2108,
+        "harris": 913,
+        "total": 3075,
+        "trump_pct": 68.55,
+        "harris_pct": 29.69,
+        "margin": "Trump +1,195 (38.9%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 4200,
+        "democrat_pct": 21,
+        "republican_pct": 43,
+        "nonpartisan_pct": 30,
+        "other_pct": 6,
+        "note": "Registration figures estimated"
+      }
+    },
+    {
+      "name": "Washoe County",
+      "fips": "32031",
+      "major_cities": ["Reno", "Sparks"],
+      "presidential_2024": {
+        "trump": 127443,
+        "harris": 130071,
+        "total": 263734,
+        "trump_pct": 48.32,
+        "harris_pct": 49.32,
+        "margin": "Harris +2,628 (1.00%)",
+        "winner": "Harris",
+        "share_of_state_vote_pct": 17.8
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 375000,
+        "democrat_registered": 120000,
+        "republican_registered": 108000,
+        "nonpartisan_registered": 125000,
+        "other_registered": 22000,
+        "democrat_pct": 32.0,
+        "republican_pct": 28.8,
+        "nonpartisan_pct": 33.3,
+        "other_pct": 5.9,
+        "share_of_state_registration_pct": 18.2,
+        "note": "Washoe County figures are best estimates based on state totals and historical distribution. County-level registration data from NV SOS is behind WAF."
+      },
+      "validation": {
+        "turnout_from_results": "70.3% (263,734 votes ÷ ~375,000 registered)",
+        "note": "Washoe (Reno/Sparks) was razor-close: Harris by just 1%. In 2020, Biden won Washoe by ~4.5%. Trump's gains here — like in Clark — were crucial. Washoe is NV's bellwether county."
+      }
+    },
+    {
+      "name": "White Pine County",
+      "fips": "32033",
+      "major_cities": ["Ely"],
+      "presidential_2024": {
+        "trump": 3364,
+        "harris": 883,
+        "total": 4351,
+        "trump_pct": 77.32,
+        "harris_pct": 20.29,
+        "margin": "Trump +2,481 (57.0%)",
+        "winner": "Trump"
+      },
+      "voter_registration_oct2024": {
+        "active_registered": 5800,
+        "democrat_pct": 14,
+        "republican_pct": 55,
+        "nonpartisan_pct": 26,
+        "other_pct": 5,
+        "note": "Registration figures estimated from turnout rate"
+      }
+    }
+  ],
+  "analysis": {
+    "state_flip": "Trump became the first Republican to win Nevada since George W. Bush in 2004. Nevada was the only state that voted Democratic in 2016 and 2020 but flipped Republican in 2024.",
+    "key_drivers": [
+      "Latino voter shift toward Trump (NV is ~30% Hispanic)",
+      "Filipino-American voter shift in Clark County",
+      "Post-pandemic economic recovery concerns in Las Vegas hospitality sector",
+      "Democratic registration edge shrank from ~87K in 2020 to ~30-40K in 2024",
+      "Nonpartisan registration growth (now largest bloc ~34%) — these voters broke for Trump"
+    ],
+    "county_shifts": {
+      "clark_county": "Harris won by only 2.6% (vs Biden's 9.2% in 2020). ~70% of NV votes are here.",
+      "washoe_county": "Harris won by only 1.0% (vs Biden's 4.5% in 2020). The narrowing here mirrored the state.",
+      "rural_counties": "All 15 rural counties + Carson City went Trump, with margins 33-78%. These counties (~14% of vote) are heavily Republican."
+    },
+    "registration_trend": "Nevada's automatic voter registration (since 2020) has dramatically grown the nonpartisan rolls. In October 2024, nonpartisans (~34%) slightly outnumbered both Democrats (~31%) and Republicans (~30%). This made polling difficult and contributed to the surprise Trump win."
+  }
+}

@@ -1,0 +1,1954 @@
+{
+  "cities": {
+    "Anchorage municipality, Alaska": {
+      "state": "AK",
+      "fips": "0203000",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 289069,
+        "voting_age": 220415,
+        "voting_age_pct": 76.25
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 159262,
+          "pct": 55.09
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14649,
+          "pct": 5.07
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 20248,
+          "pct": 7
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 27950,
+          "pct": 9.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 8841,
+          "pct": 3.06
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2255,
+          "pct": 0.78
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 28911,
+          "pct": 10
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 26953,
+          "pct": 9.32
+        }
+      ],
+      "economics": {
+        "median_household_income": 98152,
+        "poverty_count": 6973,
+        "poverty_pct": 2.41
+      },
+      "education": {
+        "bachelors_or_higher": 72530,
+        "bachelors_only": 45019,
+        "masters": 19008,
+        "professional": 5255,
+        "doctorate": 3248
+      }
+    },
+    "Fairbanks city, Alaska": {
+      "state": "AK",
+      "fips": "0224230",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 32242,
+        "voting_age": 24248,
+        "voting_age_pct": 75.21
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 18507,
+          "pct": 57.4
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2349,
+          "pct": 7.29
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2434,
+          "pct": 7.55
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1292,
+          "pct": 4.01
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 223,
+          "pct": 0.69
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 326,
+          "pct": 1.01
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 3681,
+          "pct": 11.42
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 3430,
+          "pct": 10.64
+        }
+      ],
+      "economics": {
+        "median_household_income": 72077,
+        "poverty_count": 590,
+        "poverty_pct": 1.83
+      },
+      "education": {
+        "bachelors_or_higher": 5052,
+        "bachelors_only": 3473,
+        "masters": 1059,
+        "professional": 308,
+        "doctorate": 212
+      }
+    },
+    "Juneau city and borough, Alaska": {
+      "state": "AK",
+      "fips": "0236400",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 31969,
+        "voting_age": 25472,
+        "voting_age_pct": 79.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 19748,
+          "pct": 61.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 224,
+          "pct": 0.7
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2659,
+          "pct": 8.32
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2210,
+          "pct": 6.91
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 443,
+          "pct": 1.39
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 105,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 4346,
+          "pct": 13.59
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 2234,
+          "pct": 6.99
+        }
+      ],
+      "economics": {
+        "median_household_income": 100513,
+        "poverty_count": 510,
+        "poverty_pct": 1.6
+      },
+      "education": {
+        "bachelors_or_higher": 9264,
+        "bachelors_only": 5864,
+        "masters": 2286,
+        "professional": 716,
+        "doctorate": 398
+      }
+    },
+    "Wasilla city, Alaska": {
+      "state": "AK",
+      "fips": "0283080",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 9435,
+        "voting_age": 7184,
+        "voting_age_pct": 76.14
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 7069,
+          "pct": 74.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 85,
+          "pct": 0.9
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 769,
+          "pct": 8.15
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 223,
+          "pct": 2.36
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 827,
+          "pct": 8.77
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 462,
+          "pct": 4.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 70756,
+        "poverty_count": 374,
+        "poverty_pct": 3.96
+      },
+      "education": {
+        "bachelors_or_higher": 1190,
+        "bachelors_only": 770,
+        "masters": 338,
+        "professional": 40,
+        "doctorate": 42
+      }
+    },
+    "Sitka city and borough, Alaska": {
+      "state": "AK",
+      "fips": "0270540",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8393,
+        "voting_age": 6746,
+        "voting_age_pct": 80.38
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5022,
+          "pct": 59.84
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 31,
+          "pct": 0.37
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 723,
+          "pct": 8.61
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 607,
+          "pct": 7.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 74,
+          "pct": 0.88
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 110,
+          "pct": 1.31
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 1251,
+          "pct": 14.91
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 575,
+          "pct": 6.85
+        }
+      ],
+      "economics": {
+        "median_household_income": 101207,
+        "poverty_count": 192,
+        "poverty_pct": 2.29
+      },
+      "education": {
+        "bachelors_or_higher": 2097,
+        "bachelors_only": 1330,
+        "masters": 555,
+        "professional": 116,
+        "doctorate": 96
+      }
+    },
+    "Ketchikan city, Alaska": {
+      "state": "AK",
+      "fips": "0238970",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 8151,
+        "voting_age": 6374,
+        "voting_age_pct": 78.2
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4158,
+          "pct": 51.01
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 56,
+          "pct": 0.69
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1266,
+          "pct": 15.53
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 1174,
+          "pct": 14.4
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 24,
+          "pct": 0.29
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 992,
+          "pct": 12.17
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 481,
+          "pct": 5.9
+        }
+      ],
+      "economics": {
+        "median_household_income": 76835,
+        "poverty_count": 219,
+        "poverty_pct": 2.69
+      },
+      "education": {
+        "bachelors_or_higher": 1364,
+        "bachelors_only": 893,
+        "masters": 320,
+        "professional": 94,
+        "doctorate": 57
+      }
+    },
+    "Kenai city, Alaska": {
+      "state": "AK",
+      "fips": "0238420",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 7562,
+        "voting_age": 5723,
+        "voting_age_pct": 75.68
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 5193,
+          "pct": 68.67
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 73,
+          "pct": 0.97
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 551,
+          "pct": 7.29
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 243,
+          "pct": 3.21
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 47,
+          "pct": 0.62
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 842,
+          "pct": 11.13
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 613,
+          "pct": 8.11
+        }
+      ],
+      "economics": {
+        "median_household_income": 74907,
+        "poverty_count": 276,
+        "poverty_pct": 3.65
+      },
+      "education": {
+        "bachelors_or_higher": 1190,
+        "bachelors_only": 733,
+        "masters": 382,
+        "professional": 57,
+        "doctorate": 18
+      }
+    },
+    "Bethel city, Alaska": {
+      "state": "AK",
+      "fips": "0206520",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6313,
+        "voting_age": 4452,
+        "voting_age_pct": 70.52
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1064,
+          "pct": 16.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 164,
+          "pct": 2.6
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 4280,
+          "pct": 67.8
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 205,
+          "pct": 3.25
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 30,
+          "pct": 0.48
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 348,
+          "pct": 5.51
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 222,
+          "pct": 3.52
+        }
+      ],
+      "economics": {
+        "median_household_income": 109718,
+        "poverty_count": 277,
+        "poverty_pct": 4.39
+      },
+      "education": {
+        "bachelors_or_higher": 767,
+        "bachelors_only": 394,
+        "masters": 291,
+        "professional": 82,
+        "doctorate": 0
+      }
+    },
+    "Palmer city, Alaska": {
+      "state": "AK",
+      "fips": "0258660",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 6141,
+        "voting_age": 4743,
+        "voting_age_pct": 77.23
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4369,
+          "pct": 71.14
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 165,
+          "pct": 2.69
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 512,
+          "pct": 8.34
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 83,
+          "pct": 1.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 116,
+          "pct": 1.89
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 17,
+          "pct": 0.28
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 559,
+          "pct": 9.1
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 320,
+          "pct": 5.21
+        }
+      ],
+      "economics": {
+        "median_household_income": 70550,
+        "poverty_count": 139,
+        "poverty_pct": 2.26
+      },
+      "education": {
+        "bachelors_or_higher": 934,
+        "bachelors_only": 602,
+        "masters": 206,
+        "professional": 70,
+        "doctorate": 56
+      }
+    },
+    "Homer city, Alaska": {
+      "state": "AK",
+      "fips": "0233140",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5750,
+        "voting_age": 4642,
+        "voting_age_pct": 80.73
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 4423,
+          "pct": 76.92
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 20,
+          "pct": 0.35
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 366,
+          "pct": 6.37
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 108,
+          "pct": 1.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 45,
+          "pct": 0.78
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 29,
+          "pct": 0.5
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 417,
+          "pct": 7.25
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 342,
+          "pct": 5.95
+        }
+      ],
+      "economics": {
+        "median_household_income": 73723,
+        "poverty_count": 212,
+        "poverty_pct": 3.69
+      },
+      "education": {
+        "bachelors_or_higher": 1683,
+        "bachelors_only": 1019,
+        "masters": 474,
+        "professional": 104,
+        "doctorate": 86
+      }
+    },
+    "Kodiak city, Alaska": {
+      "state": "AK",
+      "fips": "0240950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 5497,
+        "voting_age": 4440,
+        "voting_age_pct": 80.77
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1725,
+          "pct": 31.38
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.05
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 421,
+          "pct": 7.66
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2383,
+          "pct": 43.35
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 5,
+          "pct": 0.09
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 45,
+          "pct": 0.82
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 384,
+          "pct": 6.99
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 531,
+          "pct": 9.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 71373,
+        "poverty_count": 97,
+        "poverty_pct": 1.76
+      },
+      "education": {
+        "bachelors_or_higher": 913,
+        "bachelors_only": 750,
+        "masters": 128,
+        "professional": 28,
+        "doctorate": 7
+      }
+    },
+    "Utqiaġvik city, Alaska": {
+      "state": "AK",
+      "fips": "0281920",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4850,
+        "voting_age": 3295,
+        "voting_age_pct": 67.94
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 693,
+          "pct": 14.29
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 76,
+          "pct": 1.57
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 2571,
+          "pct": 53.01
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 372,
+          "pct": 7.67
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 131,
+          "pct": 2.7
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 623,
+          "pct": 12.85
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 384,
+          "pct": 7.92
+        }
+      ],
+      "economics": {
+        "median_household_income": 89038,
+        "poverty_count": 89,
+        "poverty_pct": 1.84
+      },
+      "education": {
+        "bachelors_or_higher": 378,
+        "bachelors_only": 201,
+        "masters": 126,
+        "professional": 45,
+        "doctorate": 6
+      }
+    },
+    "Soldotna city, Alaska": {
+      "state": "AK",
+      "fips": "0271640",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4448,
+        "voting_age": 3311,
+        "voting_age_pct": 74.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 3396,
+          "pct": 76.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 54,
+          "pct": 1.21
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 196,
+          "pct": 4.41
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 98,
+          "pct": 2.2
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 29,
+          "pct": 0.65
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 386,
+          "pct": 8.68
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 289,
+          "pct": 6.5
+        }
+      ],
+      "economics": {
+        "median_household_income": 62984,
+        "poverty_count": 256,
+        "poverty_pct": 5.76
+      },
+      "education": {
+        "bachelors_or_higher": 644,
+        "bachelors_only": 406,
+        "masters": 155,
+        "professional": 62,
+        "doctorate": 21
+      }
+    },
+    "Unalaska city, Alaska": {
+      "state": "AK",
+      "fips": "0280770",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 4430,
+        "voting_age": 3866,
+        "voting_age_pct": 87.27
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 969,
+          "pct": 21.87
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 241,
+          "pct": 5.44
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 67,
+          "pct": 1.51
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 2087,
+          "pct": 47.11
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 98,
+          "pct": 2.21
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 319,
+          "pct": 7.2
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 649,
+          "pct": 14.65
+        }
+      ],
+      "economics": {
+        "median_household_income": 114286,
+        "poverty_count": 24,
+        "poverty_pct": 0.54
+      },
+      "education": {
+        "bachelors_or_higher": 616,
+        "bachelors_only": 520,
+        "masters": 74,
+        "professional": 18,
+        "doctorate": 4
+      }
+    },
+    "Valdez city, Alaska": {
+      "state": "AK",
+      "fips": "0282200",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3911,
+        "voting_age": 3082,
+        "voting_age_pct": 78.8
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 2992,
+          "pct": 76.5
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 93,
+          "pct": 2.38
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 158,
+          "pct": 4.04
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.28
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 17,
+          "pct": 0.43
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 46,
+          "pct": 1.18
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 325,
+          "pct": 8.31
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 269,
+          "pct": 6.88
+        }
+      ],
+      "economics": {
+        "median_household_income": 97067,
+        "poverty_count": 32,
+        "poverty_pct": 0.82
+      },
+      "education": {
+        "bachelors_or_higher": 859,
+        "bachelors_only": 585,
+        "masters": 242,
+        "professional": 32,
+        "doctorate": 0
+      }
+    },
+    "Nome city, Alaska": {
+      "state": "AK",
+      "fips": "0254920",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3668,
+        "voting_age": 2602,
+        "voting_age_pct": 70.94
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 966,
+          "pct": 26.34
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 101,
+          "pct": 2.75
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1795,
+          "pct": 48.94
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 139,
+          "pct": 3.79
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 481,
+          "pct": 13.11
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 186,
+          "pct": 5.07
+        }
+      ],
+      "economics": {
+        "median_household_income": 113561,
+        "poverty_count": 46,
+        "poverty_pct": 1.25
+      },
+      "education": {
+        "bachelors_or_higher": 545,
+        "bachelors_only": 327,
+        "masters": 170,
+        "professional": 37,
+        "doctorate": 11
+      }
+    },
+    "Kotzebue city, Alaska": {
+      "state": "AK",
+      "fips": "0241830",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 3046,
+        "voting_age": 2060,
+        "voting_age_pct": 67.63
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 567,
+          "pct": 18.61
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 39,
+          "pct": 1.28
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1959,
+          "pct": 64.31
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 62,
+          "pct": 2.04
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 275,
+          "pct": 9.03
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 144,
+          "pct": 4.73
+        }
+      ],
+      "economics": {
+        "median_household_income": 106328,
+        "poverty_count": 125,
+        "poverty_pct": 4.1
+      },
+      "education": {
+        "bachelors_or_higher": 364,
+        "bachelors_only": 229,
+        "masters": 85,
+        "professional": 46,
+        "doctorate": 4
+      }
+    },
+    "Seward city, Alaska": {
+      "state": "AK",
+      "fips": "0268560",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2735,
+        "voting_age": 2146,
+        "voting_age_pct": 78.46
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1965,
+          "pct": 71.85
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 69,
+          "pct": 2.52
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 375,
+          "pct": 13.71
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 23,
+          "pct": 0.84
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 27,
+          "pct": 0.99
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 176,
+          "pct": 6.44
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 100,
+          "pct": 3.66
+        }
+      ],
+      "economics": {
+        "median_household_income": 71016,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 767,
+        "bachelors_only": 408,
+        "masters": 278,
+        "professional": 38,
+        "doctorate": 43
+      }
+    },
+    "North Pole city, Alaska": {
+      "state": "AK",
+      "fips": "0255910",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2663,
+        "voting_age": 1696,
+        "voting_age_pct": 63.69
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1520,
+          "pct": 57.08
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 86,
+          "pct": 3.23
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 117,
+          "pct": 4.39
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 50,
+          "pct": 1.88
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 28,
+          "pct": 1.05
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 465,
+          "pct": 17.46
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 397,
+          "pct": 14.91
+        }
+      ],
+      "economics": {
+        "median_household_income": 93355,
+        "poverty_count": 43,
+        "poverty_pct": 1.61
+      },
+      "education": {
+        "bachelors_or_higher": 417,
+        "bachelors_only": 300,
+        "masters": 107,
+        "professional": 0,
+        "doctorate": 10
+      }
+    },
+    "Cordova city, Alaska": {
+      "state": "AK",
+      "fips": "0217410",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2405,
+        "voting_age": 1879,
+        "voting_age_pct": 78.13
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1726,
+          "pct": 71.77
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.12
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 92,
+          "pct": 3.83
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 238,
+          "pct": 9.9
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 8,
+          "pct": 0.33
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 8,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 271,
+          "pct": 11.27
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 59,
+          "pct": 2.45
+        }
+      ],
+      "economics": {
+        "median_household_income": 88538,
+        "poverty_count": 0,
+        "poverty_pct": 0
+      },
+      "education": {
+        "bachelors_or_higher": 473,
+        "bachelors_only": 311,
+        "masters": 153,
+        "professional": 0,
+        "doctorate": 9
+      }
+    },
+    "Wrangell city and borough, Alaska": {
+      "state": "AK",
+      "fips": "0286380",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2106,
+        "voting_age": 1673,
+        "voting_age_pct": 79.44
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1141,
+          "pct": 54.18
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.09
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 420,
+          "pct": 19.94
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 86,
+          "pct": 4.08
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 26,
+          "pct": 1.23
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 315,
+          "pct": 14.96
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 116,
+          "pct": 5.51
+        }
+      ],
+      "economics": {
+        "median_household_income": 64545,
+        "poverty_count": 105,
+        "poverty_pct": 4.99
+      },
+      "education": {
+        "bachelors_or_higher": 286,
+        "bachelors_only": 218,
+        "masters": 54,
+        "professional": 8,
+        "doctorate": 6
+      }
+    },
+    "Dillingham city, Alaska": {
+      "state": "AK",
+      "fips": "0218950",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 2084,
+        "voting_age": 1466,
+        "voting_age_pct": 70.35
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 480,
+          "pct": 23.03
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 3,
+          "pct": 0.14
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1138,
+          "pct": 54.61
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 70,
+          "pct": 3.36
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.1
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 281,
+          "pct": 13.48
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 110,
+          "pct": 5.28
+        }
+      ],
+      "economics": {
+        "median_household_income": 99097,
+        "poverty_count": 62,
+        "poverty_pct": 2.98
+      },
+      "education": {
+        "bachelors_or_higher": 313,
+        "bachelors_only": 230,
+        "masters": 55,
+        "professional": 27,
+        "doctorate": 1
+      }
+    },
+    "Houston city, Alaska": {
+      "state": "AK",
+      "fips": "0233800",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1693,
+        "voting_age": 1380,
+        "voting_age_pct": 81.51
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 1375,
+          "pct": 81.22
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 14,
+          "pct": 0.83
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 36,
+          "pct": 2.13
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 11,
+          "pct": 0.65
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 187,
+          "pct": 11.05
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 70,
+          "pct": 4.13
+        }
+      ],
+      "economics": {
+        "median_household_income": 60865,
+        "poverty_count": 89,
+        "poverty_pct": 5.26
+      },
+      "education": {
+        "bachelors_or_higher": 176,
+        "bachelors_only": 127,
+        "masters": 34,
+        "professional": 15,
+        "doctorate": 0
+      }
+    },
+    "Quinhagak city, Alaska": {
+      "state": "AK",
+      "fips": "0264600",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1302,
+        "voting_age": 763,
+        "voting_age_pct": 58.6
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 33,
+          "pct": 2.53
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1152,
+          "pct": 88.48
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.23
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 4,
+          "pct": 0.31
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 110,
+          "pct": 8.45
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 48594,
+        "poverty_count": 186,
+        "poverty_pct": 14.29
+      },
+      "education": {
+        "bachelors_or_higher": 17,
+        "bachelors_only": 13,
+        "masters": 0,
+        "professional": 4,
+        "doctorate": 0
+      }
+    },
+    "King Cove city, Alaska": {
+      "state": "AK",
+      "fips": "0239410",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1204,
+        "voting_age": 996,
+        "voting_age_pct": 82.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 121,
+          "pct": 10.05
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.42
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 562,
+          "pct": 46.68
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 288,
+          "pct": 23.92
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 4,
+          "pct": 0.33
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 95,
+          "pct": 7.89
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 129,
+          "pct": 10.71
+        }
+      ],
+      "economics": {
+        "median_household_income": 78125,
+        "poverty_count": 53,
+        "poverty_pct": 4.4
+      },
+      "education": {
+        "bachelors_or_higher": 90,
+        "bachelors_only": 86,
+        "masters": 3,
+        "professional": 0,
+        "doctorate": 1
+      }
+    },
+    "Kotlik city, Alaska": {
+      "state": "AK",
+      "fips": "0241720",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1166,
+        "voting_age": 599,
+        "voting_age_pct": 51.37
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 16,
+          "pct": 1.37
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 1118,
+          "pct": 95.88
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 3,
+          "pct": 0.26
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 29,
+          "pct": 2.49
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 0,
+          "pct": 0
+        }
+      ],
+      "economics": {
+        "median_household_income": 49844,
+        "poverty_count": 187,
+        "poverty_pct": 16.04
+      },
+      "education": {
+        "bachelors_or_higher": 15,
+        "bachelors_only": 5,
+        "masters": 7,
+        "professional": 3,
+        "doctorate": 0
+      }
+    },
+    "Delta Junction city, Alaska": {
+      "state": "AK",
+      "fips": "0218620",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1154,
+        "voting_age": 853,
+        "voting_age_pct": 73.92
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 913,
+          "pct": 79.12
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 5,
+          "pct": 0.43
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 33,
+          "pct": 2.86
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 3,
+          "pct": 0.26
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 81,
+          "pct": 7.02
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 119,
+          "pct": 10.31
+        }
+      ],
+      "economics": {
+        "median_household_income": 85694,
+        "poverty_count": 28,
+        "poverty_pct": 2.43
+      },
+      "education": {
+        "bachelors_or_higher": 188,
+        "bachelors_only": 120,
+        "masters": 59,
+        "professional": 9,
+        "doctorate": 0
+      }
+    },
+    "Sand Point city, Alaska": {
+      "state": "AK",
+      "fips": "0267020",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1146,
+        "voting_age": 1022,
+        "voting_age_pct": 89.18
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 153,
+          "pct": 13.35
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 86,
+          "pct": 7.5
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 410,
+          "pct": 35.78
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 257,
+          "pct": 22.43
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 28,
+          "pct": 2.44
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 2,
+          "pct": 0.17
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 156,
+          "pct": 13.61
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 54,
+          "pct": 4.71
+        }
+      ],
+      "economics": {
+        "median_household_income": 73125,
+        "poverty_count": 39,
+        "poverty_pct": 3.4
+      },
+      "education": {
+        "bachelors_or_higher": 153,
+        "bachelors_only": 79,
+        "masters": 52,
+        "professional": 22,
+        "doctorate": 0
+      }
+    },
+    "Craig city, Alaska": {
+      "state": "AK",
+      "fips": "0217740",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1063,
+        "voting_age": 862,
+        "voting_age_pct": 81.09
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 653,
+          "pct": 61.43
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 164,
+          "pct": 15.43
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 26,
+          "pct": 2.45
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 14,
+          "pct": 1.32
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 147,
+          "pct": 13.83
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 57,
+          "pct": 5.36
+        }
+      ],
+      "economics": {
+        "median_household_income": 67788,
+        "poverty_count": 19,
+        "poverty_pct": 1.79
+      },
+      "education": {
+        "bachelors_or_higher": 161,
+        "bachelors_only": 110,
+        "masters": 39,
+        "professional": 7,
+        "doctorate": 5
+      }
+    },
+    "Hooper Bay city, Alaska": {
+      "state": "AK",
+      "fips": "0233470",
+      "year": "2023",
+      "source": "US Census Bureau ACS 5-Year Estimates",
+      "population": {
+        "total": 1008,
+        "voting_age": 602,
+        "voting_age_pct": 59.72
+      },
+      "race": [
+        {
+          "group": "White (non-Hispanic)",
+          "count": 76,
+          "pct": 7.54
+        },
+        {
+          "group": "Black or African American (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "American Indian and Alaska Native (non-Hispanic)",
+          "count": 795,
+          "pct": 78.87
+        },
+        {
+          "group": "Asian (non-Hispanic)",
+          "count": 7,
+          "pct": 0.69
+        },
+        {
+          "group": "Native Hawaiian and Other Pacific Islander (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Some Other Race (non-Hispanic)",
+          "count": 0,
+          "pct": 0
+        },
+        {
+          "group": "Two or More Races (non-Hispanic)",
+          "count": 19,
+          "pct": 1.88
+        },
+        {
+          "group": "Hispanic or Latino",
+          "count": 111,
+          "pct": 11.01
+        }
+      ],
+      "economics": {
+        "median_household_income": 47000,
+        "poverty_count": 56,
+        "poverty_pct": 5.56
+      },
+      "education": {
+        "bachelors_or_higher": 17,
+        "bachelors_only": 12,
+        "masters": 5,
+        "professional": 0,
+        "doctorate": 0
+      }
+    }
+  }
+}

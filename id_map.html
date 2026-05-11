@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📍 US Census — Idaho City Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {--bg:#0a0a10;--sf:#141420;--bd:#1e1e3a;--tx:#e0e0f0;--mu:#8888aa;--ac:#4fc3f7;--sc:#ff5252;--cf:#ffab40;--uc:#66bb6a;--pl:#ce93d8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden}
+body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--tx);display:flex;flex-direction:column}
+#topbar{background:linear-gradient(135deg,#0d1b2a,#1b2838,#0d1b2a);border-bottom:1px solid #1a1a3a;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:space-between;z-index:1000;flex-shrink:0}
+#topbar h1{font-size:1.2rem;color:var(--ac);display:flex;align-items:center;gap:0.4rem}
+#topbar .nav-link{color:var(--mu);text-decoration:none;font-size:0.78rem;padding:0.35rem 0.9rem;border:1px solid var(--bd);border-radius:5px;transition:all 0.15s;background:var(--sf)}
+#topbar .nav-link:hover{color:var(--ac);border-color:var(--ac);background:rgba(79,195,247,0.08)}
+#map{flex:1;width:100%;background:var(--bg)}
+#legend{position:absolute;bottom:28px;right:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:12px 16px;z-index:900;font-size:0.72rem;backdrop-filter:blur(8px)}
+#legend h3{color:var(--ac);font-size:0.72rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.legend-label{color:var(--mu)}
+#info-panel{position:absolute;bottom:28px;left:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;z-index:900;font-size:0.7rem;color:var(--mu);backdrop-filter:blur(8px)}
+.leaflet-popup-content-wrapper{background:rgba(20,20,32,0.96)!important;border:1px solid var(--bd)!important;border-radius:10px!important;color:var(--tx)!important;backdrop-filter:blur(10px)}
+.leaflet-popup-content{margin:0;min-width:220px}
+.leaflet-popup-tip{background:rgba(20,20,32,0.96)!important}
+.popup-card{padding:10px 0}
+.popup-header{font-size:0.95rem;font-weight:700;color:var(--ac);margin-bottom:2px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.popup-stat{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:0.74rem;padding:3px 0}
+.popup-stat-label{color:var(--mu);font-size:0.7rem}
+.popup-stat-val{font-weight:600;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-vote-bar{margin-top:6px}
+.popup-vote-labels{display:flex;justify-content:space-between;font-size:0.66rem;margin-bottom:3px}
+.popup-vote-labels .dem-label{color:#4fc3f7}
+.popup-vote-labels .gop-label{color:#ff5252}
+.popup-bar-track{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden;display:flex;margin-bottom:2px}
+.popup-bar-dem{background:#4fc3f7;height:100%;border-radius:3px 0 0 3px}
+.popup-bar-gop{background:#ff5252;height:100%;border-radius:0 3px 3px 0}
+.popup-lean{text-align:right;font-size:0.7rem;font-weight:700;margin-top:4px;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-lean.lean-D{color:#4fc3f7}.popup-lean.lean-R{color:#ff5252}
+.popup-lean.lean-lean-D{color:#81d4fa}.popup-lean.lean-lean-R{color:#ff8a80}
+.popup-link-btn{display:block;text-align:center;margin-top:8px;padding:6px 10px;background:rgba(79,195,247,0.12);border:1px solid rgba(79,195,247,0.3);border-radius:6px;color:var(--ac);text-decoration:none;font-size:0.72rem;font-weight:600;transition:all 0.15s}
+.popup-link-btn:hover{background:rgba(79,195,247,0.22);border-color:var(--ac);color:#fff}
+#map-search{background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:0.3rem 0.7rem;border-radius:5px;font-size:0.72rem;outline:none;width:160px;transition:border-color 0.15s}
+#map-search:focus{border-color:var(--ac)}
+#map-search::placeholder{color:var(--mu)}
+#map-search-clear{background:none;border:none;color:var(--mu);cursor:pointer;font-size:0.85rem;padding:0 2px 0 6px;display:none}
+#map-search-clear.visible{display:inline}
+#map-search-clear:hover{color:var(--sc)}
+#filter-toggle{position:absolute;top:12px;right:12px;z-index:950;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:8px;color:var(--ac);padding:0.45rem 0.85rem;font-size:0.72rem;font-family:inherit;cursor:pointer;backdrop-filter:blur(8px);transition:all 0.15s;display:flex;align-items:center;gap:6px;font-weight:600}
+#filter-toggle:hover{background:rgba(20,20,40,0.95);border-color:var(--ac)}
+#filter-toggle .arrow{transition:transform 0.2s;font-size:0.6rem}
+#filter-panel{position:absolute;top:52px;right:12px;z-index:940;background:rgba(10,10,16,0.94);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;backdrop-filter:blur(10px);font-size:0.7rem;color:var(--tx);width:270px;transition:all 0.25s ease;overflow:hidden}
+#filter-panel.collapsed{opacity:0;pointer-events:none;transform:translateX(20px);max-height:0;padding-top:0;padding-bottom:0;margin:0;border-width:0}
+#filter-panel h3{font-size:0.72rem;color:var(--ac);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.filter-group{margin-bottom:12px}
+.filter-group:last-of-type{margin-bottom:10px}
+.filter-label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.filter-label .name{font-weight:600;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.3px;color:var(--mu)}
+.filter-label .range-val{font-family:'SF Mono','Cascadia Code',monospace;font-size:0.68rem;color:var(--ac);font-weight:600}
+.dual-range{position:relative;height:24px;margin:2px 0}
+.dual-range .track-bg{position:absolute;top:10px;left:0;right:0;height:4px;background:rgba(255,255,255,0.08);border-radius:2px}
+.dual-range .track-active{position:absolute;top:10px;height:4px;background:var(--ac);border-radius:2px}
+.dual-range input[type=range]{position:absolute;top:0;width:100%;height:24px;-webkit-appearance:none;background:transparent;pointer-events:none;margin:0}
+.dual-range input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--ac);border:2px solid var(--sf);cursor:pointer;pointer-events:auto;box-shadow:0 0 6px rgba(79,195,247,0.4)}
+.filter-btn{display:block;width:100%;margin-top:8px;padding:6px;background:rgba(79,195,247,0.15);border:1px solid var(--bd);border-radius:5px;color:var(--mu);font-size:0.68rem;cursor:pointer;transition:all 0.15s}
+.filter-btn:hover{color:var(--ac);border-color:var(--ac)}
+</style>
+</head>
+<body>
+<div id="topbar">
+<h1>📍 Idaho</h1>
+<div style="display:flex;align-items:center;gap:10px">
+<input type="text" id="map-search" placeholder="🔍 Search cities..."/>
+<button id="map-search-clear">✕</button>
+<a class="nav-link" href="census_dashboard.html">📊 Census Dashboard</a>
+</div>
+</div>
+<div id="map"></div>
+<div id="legend">
+<h3>Political Lean</h3>
+<div class="legend-row"><div class="legend-dot" style="background:#4fc3f7"></div><span class="legend-label">Democrat</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#81d4fa"></div><span class="legend-label">Lean Dem</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ce93d8"></div><span class="legend-label">Swing</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff8a80"></div><span class="legend-label">Lean GOP</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff5252"></div><span class="legend-label">Republican</span></div>
+</div>
+<div id="info-panel">
+<span id="city-count">90 cities</span>
+<span style="margin:0 6px;opacity:0.3">|</span>
+<span id="visible-count">90 visible</span>
+</div>
+<button id="filter-toggle">⚙ Filters <span class="arrow">▼</span></button>
+<div id="filter-panel" class="collapsed">
+<h3>Filters <span id="filter-reset" style="cursor:pointer;font-size:0.65rem;color:var(--mu)">Reset</span></h3>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Population</span><span class="range-val" id="pop-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="pop-track"></div>
+<input type="range" id="pop-min" min="0" max="100" value="0" step="1">
+<input type="range" id="pop-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Income</span><span class="range-val" id="income-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="income-track"></div>
+<input type="range" id="income-min" min="0" max="100" value="0" step="1">
+<input type="range" id="income-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Lean (D+ / R+)</span><span class="range-val" id="lean-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="lean-track"></div>
+<input type="range" id="lean-min" min="-100" max="100" value="-100" step="1">
+<input type="range" id="lean-max" min="-100" max="100" value="100" step="1">
+</div></div>
+<button class="filter-btn" id="filter-reset-btn">↺ Reset All Filters</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CITIES=[{"name":"Boise City, ID","lat":43.600229,"lng":-116.231656,"population":235701,"income":81308,"county":"Ada","lean":"lean-R","dem_pct_2024":43.1,"gop_pct_2024":53.4,"county_fips":"16001"},{"name":"Meridian, ID","lat":43.61149,"lng":-116.400662,"population":124865,"income":98686,"county":"Ada","lean":"lean-R","dem_pct_2024":43.1,"gop_pct_2024":53.4,"county_fips":"16001"},{"name":"Nampa, ID","lat":43.585541,"lng":-116.565631,"population":106289,"income":72122,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Idaho Falls, ID","lat":43.488851,"lng":-112.036297,"population":66672,"income":69630,"county":"Bonneville","lean":"R","dem_pct_2024":25.6,"gop_pct_2024":71.0,"county_fips":"16019"},{"name":"Caldwell, ID","lat":43.64588,"lng":-116.659336,"population":63465,"income":66663,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Pocatello, ID","lat":42.872748,"lng":-112.463836,"population":57152,"income":57931,"county":"Bannock","lean":"R","dem_pct_2024":35.8,"gop_pct_2024":60.9,"county_fips":"16005"},{"name":"Coeur d'Alene, ID","lat":47.703498,"lng":-116.793861,"population":55558,"income":70845,"county":"Kootenai","lean":"R","dem_pct_2024":22.9,"gop_pct_2024":74.8,"county_fips":"16055"},{"name":"Twin Falls, ID","lat":42.564674,"lng":-114.460608,"population":53219,"income":60760,"county":"Jerome","lean":"R","dem_pct_2024":21.9,"gop_pct_2024":75.7,"county_fips":"16053"},{"name":"Post Falls, ID","lat":47.725559,"lng":-116.944167,"population":41716,"income":73313,"county":"Kootenai","lean":"R","dem_pct_2024":22.9,"gop_pct_2024":74.8,"county_fips":"16055"},{"name":"Rexburg, ID","lat":43.822893,"lng":-111.790988,"population":39589,"income":50359,"county":"Madison","lean":"R","dem_pct_2024":15.9,"gop_pct_2024":80.2,"county_fips":"16065"},{"name":"Lewiston, ID","lat":46.39313,"lng":-116.993472,"population":34471,"income":71047,"county":"Nez Perce","lean":"R","dem_pct_2024":29.4,"gop_pct_2024":68.1,"county_fips":"16069"},{"name":"Eagle, ID","lat":43.693423,"lng":-116.345989,"population":31490,"income":118037,"county":"Ada","lean":"lean-R","dem_pct_2024":43.1,"gop_pct_2024":53.4,"county_fips":"16001"},{"name":"Kuna, ID","lat":43.52484,"lng":-116.403639,"population":25960,"income":93545,"county":"Ada","lean":"lean-R","dem_pct_2024":43.1,"gop_pct_2024":53.4,"county_fips":"16001"},{"name":"Moscow, ID","lat":46.730609,"lng":-116.998909,"population":25868,"income":56497,"county":"Latah","lean":"lean-R","dem_pct_2024":44.2,"gop_pct_2024":52.1,"county_fips":"16057"},{"name":"Ammon, ID","lat":43.471681,"lng":-111.960336,"population":18496,"income":84154,"county":"Bonneville","lean":"R","dem_pct_2024":25.6,"gop_pct_2024":71.0,"county_fips":"16019"},{"name":"Mountain Home, ID","lat":43.131833,"lng":-115.696716,"population":16265,"income":58486,"county":"Elmore","lean":"R","dem_pct_2024":24.5,"gop_pct_2024":73.0,"county_fips":"16039"},{"name":"Hayden, ID","lat":47.768454,"lng":-116.801239,"population":16021,"income":77534,"county":"Kootenai","lean":"R","dem_pct_2024":22.9,"gop_pct_2024":74.8,"county_fips":"16055"},{"name":"Chubbuck, ID","lat":42.926182,"lng":-112.462537,"population":15900,"income":78646,"county":"Bannock","lean":"R","dem_pct_2024":35.8,"gop_pct_2024":60.9,"county_fips":"16005"},{"name":"Star, ID","lat":43.700015,"lng":-116.489761,"population":13231,"income":91318,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Jerome, ID","lat":42.718095,"lng":-114.515791,"population":12689,"income":65343,"county":"Jerome","lean":"R","dem_pct_2024":21.9,"gop_pct_2024":75.7,"county_fips":"16053"},{"name":"Blackfoot, ID","lat":43.194595,"lng":-112.346811,"population":12628,"income":69091,"county":"Bingham","lean":"R","dem_pct_2024":18.8,"gop_pct_2024":78.4,"county_fips":"16011"},{"name":"Garden City, ID","lat":43.668297,"lng":-116.294389,"population":12483,"income":66859,"county":"Ada","lean":"lean-R","dem_pct_2024":43.1,"gop_pct_2024":53.4,"county_fips":"16001"},{"name":"Burley, ID","lat":42.537439,"lng":-113.791288,"population":11721,"income":63315,"county":"Cassia","lean":"R","dem_pct_2024":14.2,"gop_pct_2024":83.3,"county_fips":"16031"},{"name":"Rathdrum, ID","lat":47.794036,"lng":-116.892927,"population":10133,"income":86431,"county":"Kootenai","lean":"R","dem_pct_2024":22.9,"gop_pct_2024":74.8,"county_fips":"16055"},{"name":"Middleton, ID","lat":43.711593,"lng":-116.615008,"population":10101,"income":83681,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Hailey, ID","lat":43.512674,"lng":-114.299499,"population":9439,"income":83084,"county":"Blaine","lean":"D","dem_pct_2024":64.4,"gop_pct_2024":32.7,"county_fips":"16013"},{"name":"Sandpoint, ID","lat":48.281694,"lng":-116.560013,"population":9244,"income":67769,"county":"Bonner","lean":"R","dem_pct_2024":25.8,"gop_pct_2024":71.9,"county_fips":"16017"},{"name":"Payette, ID","lat":44.080093,"lng":-116.926852,"population":8358,"income":55455,"county":"Payette","lean":"R","dem_pct_2024":17.6,"gop_pct_2024":80.4,"county_fips":"16075"},{"name":"Emmett, ID","lat":43.869228,"lng":-116.491336,"population":7948,"income":58523,"county":"Gem","lean":"R","dem_pct_2024":16.0,"gop_pct_2024":82.0,"county_fips":"16045"},{"name":"Fruitland, ID","lat":44.019123,"lng":-116.921025,"population":6405,"income":62703,"county":"Payette","lean":"R","dem_pct_2024":17.6,"gop_pct_2024":80.4,"county_fips":"16075"},{"name":"Rupert, ID","lat":42.618936,"lng":-113.673967,"population":6157,"income":54444,"county":"Minidoka","lean":"R","dem_pct_2024":17.3,"gop_pct_2024":80.5,"county_fips":"16067"},{"name":"Weiser, ID","lat":44.25468,"lng":-116.968859,"population":5803,"income":45463,"county":"Washington","lean":"R","dem_pct_2024":18.2,"gop_pct_2024":79.7,"county_fips":"16087"},{"name":"Preston, ID","lat":42.099414,"lng":-111.880738,"population":5800,"income":55625,"county":"Franklin","lean":"R","dem_pct_2024":9.8,"gop_pct_2024":87.4,"county_fips":"16041"},{"name":"Rigby, ID","lat":43.673587,"lng":-111.913525,"population":5251,"income":78278,"county":"Madison","lean":"R","dem_pct_2024":15.9,"gop_pct_2024":80.2,"county_fips":"16065"},{"name":"Shelley, ID","lat":43.379537,"lng":-112.126098,"population":4987,"income":63864,"county":"Bingham","lean":"R","dem_pct_2024":18.8,"gop_pct_2024":78.4,"county_fips":"16011"},{"name":"Kimberly, ID","lat":42.534894,"lng":-114.370689,"population":4883,"income":76587,"county":"Jerome","lean":"R","dem_pct_2024":21.9,"gop_pct_2024":75.7,"county_fips":"16053"},{"name":"American Falls, ID","lat":42.782846,"lng":-112.854211,"population":4636,"income":58376,"county":"Power","lean":"R","dem_pct_2024":26.0,"gop_pct_2024":71.0,"county_fips":"16077"},{"name":"Buhl, ID","lat":42.598362,"lng":-114.759536,"population":4624,"income":46217,"county":"Twin Falls","lean":"R","dem_pct_2024":24.2,"gop_pct_2024":73.0,"county_fips":"16083"},{"name":"McCall, ID","lat":44.908408,"lng":-116.112491,"population":3847,"income":60197,"county":"Adams","lean":"R","dem_pct_2024":21.5,"gop_pct_2024":76.0,"county_fips":"16003"},{"name":"St. Anthony, ID","lat":43.966137,"lng":-111.684509,"population":3818,"income":52446,"county":"Madison","lean":"R","dem_pct_2024":15.9,"gop_pct_2024":80.2,"county_fips":"16065"},{"name":"Gooding, ID","lat":42.937048,"lng":-114.713188,"population":3731,"income":36889,"county":"Gooding","lean":"R","dem_pct_2024":18.6,"gop_pct_2024":79.0,"county_fips":"16047"},{"name":"Heyburn, ID","lat":42.559982,"lng":-113.762067,"population":3678,"income":70078,"county":"Cassia","lean":"R","dem_pct_2024":14.2,"gop_pct_2024":83.3,"county_fips":"16031"},{"name":"Ketchum, ID","lat":43.687718,"lng":-114.380069,"population":3551,"income":87658,"county":"Camas","lean":"R","dem_pct_2024":21.0,"gop_pct_2024":75.1,"county_fips":"16025"},{"name":"Grangeville, ID","lat":45.925826,"lng":-116.121916,"population":3443,"income":59013,"county":"Lewis","lean":"R","dem_pct_2024":16.5,"gop_pct_2024":81.4,"county_fips":"16061"},{"name":"Orofino, ID","lat":46.484943,"lng":-116.253027,"population":3254,"income":57171,"county":"Lewis","lean":"R","dem_pct_2024":16.5,"gop_pct_2024":81.4,"county_fips":"16061"},{"name":"Salmon, ID","lat":45.174386,"lng":-113.894764,"population":3196,"income":40875,"county":"Lemhi","lean":"R","dem_pct_2024":21.3,"gop_pct_2024":76.2,"county_fips":"16059"},{"name":"Soda Springs, ID","lat":42.657874,"lng":-111.586081,"population":3150,"income":47480,"county":"Caribou","lean":"R","dem_pct_2024":12.9,"gop_pct_2024":84.1,"county_fips":"16029"},{"name":"St. Maries, ID","lat":47.314589,"lng":-116.572235,"population":3032,"income":52468,"county":"Benewah","lean":"R","dem_pct_2024":18.2,"gop_pct_2024":79.6,"county_fips":"16009"},{"name":"Victor, ID","lat":43.60155,"lng":-111.110822,"population":3024,"income":73664,"county":"Teton","lean":"lean-D","dem_pct_2024":51.7,"gop_pct_2024":44.9,"county_fips":"16081"},{"name":"Homedale, ID","lat":43.615937,"lng":-116.939029,"population":3006,"income":49764,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Wendell, ID","lat":42.77468,"lng":-114.70296,"population":2940,"income":54850,"county":"Gooding","lean":"R","dem_pct_2024":18.6,"gop_pct_2024":79.0,"county_fips":"16047"},{"name":"Iona, ID","lat":43.527583,"lng":-111.931391,"population":2882,"income":83750,"county":"Bonneville","lean":"R","dem_pct_2024":25.6,"gop_pct_2024":71.0,"county_fips":"16019"},{"name":"Filer, ID","lat":42.565085,"lng":-114.606096,"population":2837,"income":53508,"county":"Twin Falls","lean":"R","dem_pct_2024":24.2,"gop_pct_2024":73.0,"county_fips":"16083"},{"name":"Montpelier, ID","lat":42.325992,"lng":-111.298826,"population":2681,"income":52212,"county":"Bear Lake","lean":"R","dem_pct_2024":10.4,"gop_pct_2024":87.5,"county_fips":"16007"},{"name":"Driggs, ID","lat":43.730238,"lng":-111.104038,"population":2655,"income":82434,"county":"Teton","lean":"lean-D","dem_pct_2024":51.7,"gop_pct_2024":44.9,"county_fips":"16081"},{"name":"Bonners Ferry, ID","lat":48.693579,"lng":-116.317019,"population":2615,"income":54107,"county":"Boundary","lean":"R","dem_pct_2024":16.1,"gop_pct_2024":81.5,"county_fips":"16021"},{"name":"Bellevue, ID","lat":43.468977,"lng":-114.255078,"population":2571,"income":72242,"county":"Blaine","lean":"D","dem_pct_2024":64.4,"gop_pct_2024":32.7,"county_fips":"16013"},{"name":"Dalton Gardens, ID","lat":47.733412,"lng":-116.767873,"population":2526,"income":84375,"county":"Kootenai","lean":"R","dem_pct_2024":22.9,"gop_pct_2024":74.8,"county_fips":"16055"},{"name":"Malad City, ID","lat":42.189909,"lng":-112.249688,"population":2441,"income":75500,"county":"Oneida","lean":"R","dem_pct_2024":10.3,"gop_pct_2024":86.2,"county_fips":"16071"},{"name":"Aberdeen, ID","lat":42.944098,"lng":-112.838381,"population":2418,"income":67813,"county":"Power","lean":"R","dem_pct_2024":26.0,"gop_pct_2024":71.0,"county_fips":"16077"},{"name":"Kellogg, ID","lat":47.53496,"lng":-116.132678,"population":2232,"income":44352,"county":"Shoshone","lean":"R","dem_pct_2024":24.0,"gop_pct_2024":73.4,"county_fips":"16079"},{"name":"Priest River, ID","lat":48.184319,"lng":-116.905428,"population":2058,"income":57712,"county":"Bonner","lean":"R","dem_pct_2024":25.8,"gop_pct_2024":71.9,"county_fips":"16017"},{"name":"Pinehurst, ID","lat":47.536314,"lng":-116.231746,"population":2014,"income":66447,"county":"Shoshone","lean":"R","dem_pct_2024":24.0,"gop_pct_2024":73.4,"county_fips":"16079"},{"name":"Sugar City, ID","lat":43.87582,"lng":-111.751032,"population":2011,"income":71944,"county":"Madison","lean":"R","dem_pct_2024":15.9,"gop_pct_2024":80.2,"county_fips":"16065"},{"name":"Shoshone, ID","lat":42.936185,"lng":-114.404747,"population":1985,"income":56050,"county":"Lincoln","lean":"R","dem_pct_2024":20.4,"gop_pct_2024":76.5,"county_fips":"16063"},{"name":"New Plymouth, ID","lat":43.970417,"lng":-116.818781,"population":1863,"income":59875,"county":"Payette","lean":"R","dem_pct_2024":17.6,"gop_pct_2024":80.4,"county_fips":"16075"},{"name":"Parma, ID","lat":43.786284,"lng":-116.942491,"population":1836,"income":47798,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Spirit Lake, ID","lat":47.965799,"lng":-116.869831,"population":1768,"income":60938,"county":"Kootenai","lean":"R","dem_pct_2024":22.9,"gop_pct_2024":74.8,"county_fips":"16055"},{"name":"Osburn, ID","lat":47.505731,"lng":-116.000709,"population":1728,"income":44583,"county":"Shoshone","lean":"R","dem_pct_2024":24.0,"gop_pct_2024":73.4,"county_fips":"16079"},{"name":"Wilder, ID","lat":43.678388,"lng":-116.907585,"population":1690,"income":55938,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Paul, ID","lat":42.604269,"lng":-113.78479,"population":1615,"income":62830,"county":"Minidoka","lean":"R","dem_pct_2024":17.3,"gop_pct_2024":80.5,"county_fips":"16067"},{"name":"Ucon, ID","lat":43.592857,"lng":-111.959963,"population":1537,"income":83864,"county":"Madison","lean":"R","dem_pct_2024":15.9,"gop_pct_2024":80.2,"county_fips":"16065"},{"name":"Ponderay, ID","lat":48.30478,"lng":-116.536645,"population":1456,"income":50119,"county":"Bonner","lean":"R","dem_pct_2024":25.8,"gop_pct_2024":71.9,"county_fips":"16017"},{"name":"Glenns Ferry, ID","lat":42.949908,"lng":-115.308185,"population":1443,"income":51625,"county":"Gooding","lean":"R","dem_pct_2024":18.6,"gop_pct_2024":79.0,"county_fips":"16047"},{"name":"Moyie Springs, ID","lat":48.724901,"lng":-116.195607,"population":1420,"income":61783,"county":"Boundary","lean":"R","dem_pct_2024":16.1,"gop_pct_2024":81.5,"county_fips":"16021"},{"name":"Hansen, ID","lat":42.531365,"lng":-114.301177,"population":1414,"income":47396,"county":"Jerome","lean":"R","dem_pct_2024":21.9,"gop_pct_2024":75.7,"county_fips":"16053"},{"name":"Sun Valley, ID","lat":43.683852,"lng":-114.334203,"population":1383,"income":82045,"county":"Camas","lean":"R","dem_pct_2024":21.0,"gop_pct_2024":75.1,"county_fips":"16025"},{"name":"Grace, ID","lat":42.575182,"lng":-111.729771,"population":1345,"income":69286,"county":"Caribou","lean":"R","dem_pct_2024":12.9,"gop_pct_2024":84.1,"county_fips":"16029"},{"name":"Ashton, ID","lat":44.073332,"lng":-111.448311,"population":1329,"income":66250,"county":"Fremont","lean":"R","dem_pct_2024":14.0,"gop_pct_2024":83.0,"county_fips":"16043"},{"name":"Genesee, ID","lat":46.551608,"lng":-116.928389,"population":1312,"income":78125,"county":"Nez Perce","lean":"R","dem_pct_2024":29.4,"gop_pct_2024":68.1,"county_fips":"16069"},{"name":"Marsing, ID","lat":43.54636,"lng":-116.810422,"population":1245,"income":57973,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Hagerman, ID","lat":42.816016,"lng":-114.897681,"population":1198,"income":59250,"county":"Gooding","lean":"R","dem_pct_2024":18.6,"gop_pct_2024":79.0,"county_fips":"16047"},{"name":"Carey, ID","lat":43.312011,"lng":-113.941008,"population":1197,"income":50938,"county":"Blaine","lean":"D","dem_pct_2024":64.4,"gop_pct_2024":32.7,"county_fips":"16013"},{"name":"Greenleaf, ID","lat":43.672607,"lng":-116.821443,"population":1152,"income":64375,"county":"Canyon","lean":"R","dem_pct_2024":25.4,"gop_pct_2024":72.0,"county_fips":"16027"},{"name":"Cottonwood, ID","lat":46.051045,"lng":-116.349751,"population":1138,"income":56250,"county":"Lewis","lean":"R","dem_pct_2024":16.5,"gop_pct_2024":81.4,"county_fips":"16061"},{"name":"Wallace, ID","lat":47.473578,"lng":-115.922542,"population":1127,"income":50526,"county":"Shoshone","lean":"R","dem_pct_2024":24.0,"gop_pct_2024":73.4,"county_fips":"16079"},{"name":"Kootenai, ID","lat":48.311831,"lng":-116.517128,"population":1076,"income":69457,"county":"Bonner","lean":"R","dem_pct_2024":25.8,"gop_pct_2024":71.9,"county_fips":"16017"},{"name":"Plummer, ID","lat":47.330135,"lng":-116.884909,"population":1055,"income":52188,"county":"Benewah","lean":"R","dem_pct_2024":18.2,"gop_pct_2024":79.6,"county_fips":"16009"},{"name":"Kamiah, ID","lat":46.226796,"lng":-116.028303,"population":1053,"income":35433,"county":"Lewis","lean":"R","dem_pct_2024":16.5,"gop_pct_2024":81.4,"county_fips":"16061"},{"name":"Lapwai, ID","lat":46.403715,"lng":-116.804223,"population":1041,"income":60197,"county":"Nez Perce","lean":"R","dem_pct_2024":29.4,"gop_pct_2024":68.1,"county_fips":"16069"}];
+const map=L.map('map',{center:[39.8,-98.5],zoom:5,zoomControl:false,attributionControl:false});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:18,attribution:'&copy;<a href="https://carto.com/">CartoDB</a>'}).addTo(map);
+L.control.zoom({position:'bottomleft'}).addTo(map);
+function leanColor(l){return l==='D'?'#4fc3f7':l==='lean-D'?'#81d4fa':l==='swing'?'#ce93d8':l==='lean-R'?'#ff8a80':l==='R'?'#ff5252':'#888'}
+function popRadius(p){const m=CITIES.length>0?CITIES[0].population:2300000;return 3+12*Math.sqrt(p/Math.max(m,1))}
+const markers=[];
+CITIES.forEach(c=>{const color=leanColor(c.lean);const radius=popRadius(c.population);
+const m=L.circleMarker([c.lat,c.lng],{radius,fillColor:color,color:'rgba(255,255,255,0.15)',weight:1,fillOpacity:0.85}).addTo(map);
+m._cityData=c;
+const cityEnc=encodeURIComponent(c.name);
+const demPct=c.dem_pct_2024||50,gopPct=c.gop_pct_2024||50;
+const margin=demPct-gopPct;
+const leanVal=margin>0?'D+'+margin.toFixed(1):'R+'+Math.abs(margin).toFixed(1);
+const lcc=c.lean==='D'?'lean-D':c.lean==='R'?'lean-R':c.lean==='lean-D'?'lean-lean-D':c.lean==='lean-R'?'lean-lean-R':'';
+const tv=demPct+gopPct,dbw=tv>0?(demPct/tv)*100:50,gbw=tv>0?(gopPct/tv)*100:50;
+m.bindPopup(`<div class="popup-card"><div class="popup-header">${c.name}</div>
+<div class="popup-stat"><span class="popup-stat-label">Population</span><span class="popup-stat-val">${c.population.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">Median Income</span><span class="popup-stat-val">$${c.income.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">County</span><span class="popup-stat-val">${c.county}</span></div>
+<div class="popup-vote-bar"><div class="popup-vote-labels"><span class="dem-label">🟦 Dem ${demPct.toFixed(1)}%</span><span class="gop-label">🟥 GOP ${gopPct.toFixed(1)}%</span></div>
+<div class="popup-bar-track"><div class="popup-bar-dem" style="width:${dbw}%"></div><div class="popup-bar-gop" style="width:${gbw}%"></div></div></div>
+<div class="popup-lean ${lcc}">${leanVal} • ${c.lean.replace('lean-','lean ')}</div>
+<a class="popup-link-btn" href="census_dashboard.html?city=${cityEnc}" target="_blank">📊 View Full Report →</a></div>`,{maxWidth:280,className:'dark-popup'});
+markers.push(m);});
+function updateInfo(){const t=markers.length,v=markers.filter(m=>!m._filtered).length;document.getElementById('city-count').textContent=t+' cities';document.getElementById('visible-count').textContent=v+' visible'}
+updateInfo();
+const fs={sq:'',pMin:0,pMax:Infinity,iMin:0,iMax:Infinity,lMin:-100,lMax:100};
+function applyFilters(){markers.forEach(m=>{const c=m._cityData;const nm=!fs.sq||c.name.toLowerCase().includes(fs.sq);const pm=c.population>=fs.pMin&&c.population<=fs.pMax;const im=c.income>=fs.iMin&&c.income<=fs.iMax;const mg=(c.dem_pct_2024||50)-(c.gop_pct_2024||50);const lm=mg>=fs.lMin&&mg<=fs.lMax;if(nm&&pm&&im&&lm){if(m._filtered){m.addTo(map);m._filtered=false}}else{if(!m._filtered){m.remove();m._filtered=true}}});updateInfo()}
+const si=document.getElementById('map-search'),sc=document.getElementById('map-search-clear');
+si.addEventListener('input',()=>{fs.sq=si.value.toLowerCase().trim();sc.classList.toggle('visible',fs.sq.length>0);applyFilters()});
+sc.addEventListener('click',()=>{si.value='';fs.sq='';sc.classList.remove('visible');applyFilters();si.focus()});
+const ft=document.getElementById('filter-toggle'),fp=document.getElementById('filter-panel'),fa=ft.querySelector('.arrow');
+ft.addEventListener('click',()=>{const s=fp.classList.toggle('collapsed');fa.textContent=s?'▼':'▲'});
+const pmin=document.getElementById('pop-min'),pmax=document.getElementById('pop-max'),plab=document.getElementById('pop-range-label'),ptrack=document.getElementById('pop-track');
+function upf(){let mn=parseInt(pmin.value),mx=parseInt(pmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mp=mn===0?0:Math.round(Math.pow(10,2+(mn/100)*5));const xp=mx===100?Infinity:Math.round(Math.pow(10,2+(mx/100)*5));fs.pMin=mp;fs.pMax=xp;plab.textContent=mp===0&&xp===Infinity?'All':mp.toLocaleString()+' - '+(xp===Infinity?'∞':xp.toLocaleString());ptrack.style.left=mn+'%';ptrack.style.right=(100-mx)+'%';applyFilters()}
+[pmin,pmax].forEach(e=>e.addEventListener('input',upf));upf();
+const imin=document.getElementById('income-min'),imax=document.getElementById('income-max'),ilab=document.getElementById('income-range-label'),itrack=document.getElementById('income-track');
+function uif(){let mn=parseInt(imin.value),mx=parseInt(imax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mi=Math.round((mn/100)*250000);const xi=mx===100?Infinity:Math.round((mx/100)*250000);fs.iMin=mi;fs.iMax=xi;ilab.textContent=mi===0&&xi===Infinity?'All':'$'+mi.toLocaleString()+' - '+(xi===Infinity?'∞':'$'+xi.toLocaleString());itrack.style.left=mn+'%';itrack.style.right=(100-mx)+'%';applyFilters()}
+[imin,imax].forEach(e=>e.addEventListener('input',uif));uif();
+const lmin=document.getElementById('lean-min'),lmax=document.getElementById('lean-max'),llab=document.getElementById('lean-range-label'),ltrack=document.getElementById('lean-track');
+function ulf(){let mn=parseInt(lmin.value),mx=parseInt(lmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};fs.lMin=mn;fs.lMax=mx;llab.textContent=(mn<=-100&&mx>=100)?'All':(mn>=0?'D+'+mn:'R+'+Math.abs(mn))+' to '+(mx>=0?'D+'+mx:'R+'+Math.abs(mx));ltrack.style.left=((mn+100)/200*100)+'%';ltrack.style.right=(100-(mx+100)/200*100)+'%';applyFilters()}
+[lmin,lmax].forEach(e=>e.addEventListener('input',ulf));ulf();
+function rf(){fs.sq='';si.value='';sc.classList.remove('visible');pmin.value=0;pmax.value=100;upf();imin.value=0;imax.value=100;uif();lmin.value=-100;lmax.value=100;ulf()}
+document.getElementById('filter-reset').addEventListener('click',rf);
+document.getElementById('filter-reset-btn').addEventListener('click',rf);
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>📍 US Census — South Dakota City Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+:root {--bg:#0a0a10;--sf:#141420;--bd:#1e1e3a;--tx:#e0e0f0;--mu:#8888aa;--ac:#4fc3f7;--sc:#ff5252;--cf:#ffab40;--uc:#66bb6a;--pl:#ce93d8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden}
+body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--tx);display:flex;flex-direction:column}
+#topbar{background:linear-gradient(135deg,#0d1b2a,#1b2838,#0d1b2a);border-bottom:1px solid #1a1a3a;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:space-between;z-index:1000;flex-shrink:0}
+#topbar h1{font-size:1.2rem;color:var(--ac);display:flex;align-items:center;gap:0.4rem}
+#topbar .nav-link{color:var(--mu);text-decoration:none;font-size:0.78rem;padding:0.35rem 0.9rem;border:1px solid var(--bd);border-radius:5px;transition:all 0.15s;background:var(--sf)}
+#topbar .nav-link:hover{color:var(--ac);border-color:var(--ac);background:rgba(79,195,247,0.08)}
+#map{flex:1;width:100%;background:var(--bg)}
+#legend{position:absolute;bottom:28px;right:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:12px 16px;z-index:900;font-size:0.72rem;backdrop-filter:blur(8px)}
+#legend h3{color:var(--ac);font-size:0.72rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.legend-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.legend-label{color:var(--mu)}
+#info-panel{position:absolute;bottom:28px;left:12px;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;z-index:900;font-size:0.7rem;color:var(--mu);backdrop-filter:blur(8px)}
+.leaflet-popup-content-wrapper{background:rgba(20,20,32,0.96)!important;border:1px solid var(--bd)!important;border-radius:10px!important;color:var(--tx)!important;backdrop-filter:blur(10px)}
+.leaflet-popup-content{margin:0;min-width:220px}
+.leaflet-popup-tip{background:rgba(20,20,32,0.96)!important}
+.popup-card{padding:10px 0}
+.popup-header{font-size:0.95rem;font-weight:700;color:var(--ac);margin-bottom:2px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,0.08)}
+.popup-stat{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:0.74rem;padding:3px 0}
+.popup-stat-label{color:var(--mu);font-size:0.7rem}
+.popup-stat-val{font-weight:600;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-vote-bar{margin-top:6px}
+.popup-vote-labels{display:flex;justify-content:space-between;font-size:0.66rem;margin-bottom:3px}
+.popup-vote-labels .dem-label{color:#4fc3f7}
+.popup-vote-labels .gop-label{color:#ff5252}
+.popup-bar-track{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden;display:flex;margin-bottom:2px}
+.popup-bar-dem{background:#4fc3f7;height:100%;border-radius:3px 0 0 3px}
+.popup-bar-gop{background:#ff5252;height:100%;border-radius:0 3px 3px 0}
+.popup-lean{text-align:right;font-size:0.7rem;font-weight:700;margin-top:4px;font-family:'SF Mono','Cascadia Code',monospace}
+.popup-lean.lean-D{color:#4fc3f7}.popup-lean.lean-R{color:#ff5252}
+.popup-lean.lean-lean-D{color:#81d4fa}.popup-lean.lean-lean-R{color:#ff8a80}
+.popup-link-btn{display:block;text-align:center;margin-top:8px;padding:6px 10px;background:rgba(79,195,247,0.12);border:1px solid rgba(79,195,247,0.3);border-radius:6px;color:var(--ac);text-decoration:none;font-size:0.72rem;font-weight:600;transition:all 0.15s}
+.popup-link-btn:hover{background:rgba(79,195,247,0.22);border-color:var(--ac);color:#fff}
+#map-search{background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:0.3rem 0.7rem;border-radius:5px;font-size:0.72rem;outline:none;width:160px;transition:border-color 0.15s}
+#map-search:focus{border-color:var(--ac)}
+#map-search::placeholder{color:var(--mu)}
+#map-search-clear{background:none;border:none;color:var(--mu);cursor:pointer;font-size:0.85rem;padding:0 2px 0 6px;display:none}
+#map-search-clear.visible{display:inline}
+#map-search-clear:hover{color:var(--sc)}
+#filter-toggle{position:absolute;top:12px;right:12px;z-index:950;background:rgba(10,10,16,0.92);border:1px solid var(--bd);border-radius:8px;color:var(--ac);padding:0.45rem 0.85rem;font-size:0.72rem;font-family:inherit;cursor:pointer;backdrop-filter:blur(8px);transition:all 0.15s;display:flex;align-items:center;gap:6px;font-weight:600}
+#filter-toggle:hover{background:rgba(20,20,40,0.95);border-color:var(--ac)}
+#filter-toggle .arrow{transition:transform 0.2s;font-size:0.6rem}
+#filter-panel{position:absolute;top:52px;right:12px;z-index:940;background:rgba(10,10,16,0.94);border:1px solid var(--bd);border-radius:10px;padding:14px 18px;backdrop-filter:blur(10px);font-size:0.7rem;color:var(--tx);width:270px;transition:all 0.25s ease;overflow:hidden}
+#filter-panel.collapsed{opacity:0;pointer-events:none;transform:translateX(20px);max-height:0;padding-top:0;padding-bottom:0;margin:0;border-width:0}
+#filter-panel h3{font-size:0.72rem;color:var(--ac);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.filter-group{margin-bottom:12px}
+.filter-group:last-of-type{margin-bottom:10px}
+.filter-label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px}
+.filter-label .name{font-weight:600;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.3px;color:var(--mu)}
+.filter-label .range-val{font-family:'SF Mono','Cascadia Code',monospace;font-size:0.68rem;color:var(--ac);font-weight:600}
+.dual-range{position:relative;height:24px;margin:2px 0}
+.dual-range .track-bg{position:absolute;top:10px;left:0;right:0;height:4px;background:rgba(255,255,255,0.08);border-radius:2px}
+.dual-range .track-active{position:absolute;top:10px;height:4px;background:var(--ac);border-radius:2px}
+.dual-range input[type=range]{position:absolute;top:0;width:100%;height:24px;-webkit-appearance:none;background:transparent;pointer-events:none;margin:0}
+.dual-range input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--ac);border:2px solid var(--sf);cursor:pointer;pointer-events:auto;box-shadow:0 0 6px rgba(79,195,247,0.4)}
+.filter-btn{display:block;width:100%;margin-top:8px;padding:6px;background:rgba(79,195,247,0.15);border:1px solid var(--bd);border-radius:5px;color:var(--mu);font-size:0.68rem;cursor:pointer;transition:all 0.15s}
+.filter-btn:hover{color:var(--ac);border-color:var(--ac)}
+</style>
+</head>
+<body>
+<div id="topbar">
+<h1>📍 South Dakota</h1>
+<div style="display:flex;align-items:center;gap:10px">
+<input type="text" id="map-search" placeholder="🔍 Search cities..."/>
+<button id="map-search-clear">✕</button>
+<a class="nav-link" href="census_dashboard.html">📊 Census Dashboard</a>
+</div>
+</div>
+<div id="map"></div>
+<div id="legend">
+<h3>Political Lean</h3>
+<div class="legend-row"><div class="legend-dot" style="background:#4fc3f7"></div><span class="legend-label">Democrat</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#81d4fa"></div><span class="legend-label">Lean Dem</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ce93d8"></div><span class="legend-label">Swing</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff8a80"></div><span class="legend-label">Lean GOP</span></div>
+<div class="legend-row"><div class="legend-dot" style="background:#ff5252"></div><span class="legend-label">Republican</span></div>
+</div>
+<div id="info-panel">
+<span id="city-count">67 cities</span>
+<span style="margin:0 6px;opacity:0.3">|</span>
+<span id="visible-count">67 visible</span>
+</div>
+<button id="filter-toggle">⚙ Filters <span class="arrow">▼</span></button>
+<div id="filter-panel" class="collapsed">
+<h3>Filters <span id="filter-reset" style="cursor:pointer;font-size:0.65rem;color:var(--mu)">Reset</span></h3>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Population</span><span class="range-val" id="pop-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="pop-track"></div>
+<input type="range" id="pop-min" min="0" max="100" value="0" step="1">
+<input type="range" id="pop-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Income</span><span class="range-val" id="income-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="income-track"></div>
+<input type="range" id="income-min" min="0" max="100" value="0" step="1">
+<input type="range" id="income-max" min="0" max="100" value="100" step="1">
+</div></div>
+<div class="filter-group">
+<div class="filter-label"><span class="name">Lean (D+ / R+)</span><span class="range-val" id="lean-range-label">All</span></div>
+<div class="dual-range">
+<div class="track-bg"></div><div class="track-active" id="lean-track"></div>
+<input type="range" id="lean-min" min="-100" max="100" value="-100" step="1">
+<input type="range" id="lean-max" min="-100" max="100" value="100" step="1">
+</div></div>
+<button class="filter-btn" id="filter-reset-btn">↺ Reset All Filters</button>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CITIES=[{"name":"Sioux Falls city, South Dakota, SD","lat":43.540696,"lng":-96.731962,"population":197642,"income":74714,"county":"Minnehaha","lean":"lean-R","dem_pct_2024":42.5,"gop_pct_2024":55.2,"county_fips":"46099"},{"name":"Rapid City city, South Dakota, SD","lat":44.071071,"lng":-103.217924,"population":76836,"income":65712,"county":"Pennington","lean":"R","dem_pct_2024":35.4,"gop_pct_2024":61.9,"county_fips":"46103"},{"name":"Aberdeen city, South Dakota, SD","lat":45.464678,"lng":-98.468104,"population":28297,"income":63715,"county":"Brown","lean":"R","dem_pct_2024":35.6,"gop_pct_2024":62.5,"county_fips":"46013"},{"name":"Brookings city, South Dakota, SD","lat":44.303364,"lng":-96.787339,"population":23710,"income":61979,"county":"Brookings","lean":"R","dem_pct_2024":40.0,"gop_pct_2024":57.4,"county_fips":"46011"},{"name":"Watertown city, South Dakota, SD","lat":44.909188,"lng":-97.155685,"population":22859,"income":62721,"county":"Codington","lean":"R","dem_pct_2024":28.4,"gop_pct_2024":69.2,"county_fips":"46029"},{"name":"Mitchell city, South Dakota, SD","lat":43.727072,"lng":-98.042192,"population":15637,"income":56374,"county":"Davison","lean":"R","dem_pct_2024":29.9,"gop_pct_2024":67.7,"county_fips":"46035"},{"name":"Yankton city, South Dakota, SD","lat":42.889751,"lng":-97.392687,"population":15501,"income":69071,"county":"Yankton","lean":"R","dem_pct_2024":35.9,"gop_pct_2024":61.4,"county_fips":"46135"},{"name":"Huron city, South Dakota, SD","lat":44.362341,"lng":-98.209571,"population":14347,"income":51556,"county":"Beadle","lean":"R","dem_pct_2024":28.8,"gop_pct_2024":68.8,"county_fips":"46005"},{"name":"Pierre city, South Dakota, SD","lat":44.375163,"lng":-100.319996,"population":14008,"income":74053,"county":"Hughes","lean":"R","dem_pct_2024":33.6,"gop_pct_2024":63.8,"county_fips":"46065"},{"name":"Spearfish city, South Dakota, SD","lat":44.492094,"lng":-103.819652,"population":12551,"income":59731,"county":"Lawrence","lean":"R","dem_pct_2024":32.9,"gop_pct_2024":64.3,"county_fips":"46081"},{"name":"Box Elder city, South Dakota, SD","lat":44.110941,"lng":-103.081066,"population":12457,"income":73698,"county":"Pennington","lean":"R","dem_pct_2024":35.4,"gop_pct_2024":61.9,"county_fips":"46103"},{"name":"Vermillion city, South Dakota, SD","lat":42.7814,"lng":-96.925402,"population":11800,"income":52815,"county":"Clay","lean":"lean-D","dem_pct_2024":52.0,"gop_pct_2024":45.5,"county_fips":"46027"},{"name":"Brandon city, South Dakota, SD","lat":43.592908,"lng":-96.583769,"population":10996,"income":104806,"county":"Minnehaha","lean":"lean-R","dem_pct_2024":42.5,"gop_pct_2024":55.2,"county_fips":"46099"},{"name":"Harrisburg city, South Dakota, SD","lat":43.434258,"lng":-96.712429,"population":7790,"income":101534,"county":"Lincoln","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":62.2,"county_fips":"46083"},{"name":"Sturgis city, South Dakota, SD","lat":44.411998,"lng":-103.500609,"population":7111,"income":51101,"county":"Lawrence","lean":"R","dem_pct_2024":32.9,"gop_pct_2024":64.3,"county_fips":"46081"},{"name":"Tea city, South Dakota, SD","lat":43.455626,"lng":-96.823997,"population":6339,"income":104643,"county":"Lincoln","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":62.2,"county_fips":"46083"},{"name":"Madison city, South Dakota, SD","lat":44.006223,"lng":-97.108481,"population":6158,"income":62180,"county":"Lake","lean":"R","dem_pct_2024":33.5,"gop_pct_2024":64.7,"county_fips":"46079"},{"name":"Belle Fourche city, South Dakota, SD","lat":44.663798,"lng":-103.859143,"population":5741,"income":59920,"county":"Lawrence","lean":"R","dem_pct_2024":32.9,"gop_pct_2024":64.3,"county_fips":"46081"},{"name":"Dell Rapids city, South Dakota, SD","lat":43.824824,"lng":-96.71459,"population":3947,"income":101250,"county":"Minnehaha","lean":"lean-R","dem_pct_2024":42.5,"gop_pct_2024":55.2,"county_fips":"46099"},{"name":"Milbank city, South Dakota, SD","lat":45.219432,"lng":-96.633696,"population":3513,"income":58462,"county":"Grant","lean":"R","dem_pct_2024":26.1,"gop_pct_2024":71.5,"county_fips":"46051"},{"name":"Hot Springs city, South Dakota, SD","lat":43.41953,"lng":-103.465089,"population":3506,"income":49688,"county":"Fall River","lean":"R","dem_pct_2024":24.1,"gop_pct_2024":73.3,"county_fips":"46047"},{"name":"Hartford city, South Dakota, SD","lat":43.61954,"lng":-96.936994,"population":3412,"income":95426,"county":"Minnehaha","lean":"lean-R","dem_pct_2024":42.5,"gop_pct_2024":55.2,"county_fips":"46099"},{"name":"Canton city, South Dakota, SD","lat":43.30313,"lng":-96.585577,"population":3060,"income":65500,"county":"Lincoln","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":62.2,"county_fips":"46083"},{"name":"North Sioux City city, South Dakota, SD","lat":42.530926,"lng":-96.499552,"population":3018,"income":76481,"county":"Union","lean":"R","dem_pct_2024":28.7,"gop_pct_2024":69.4,"county_fips":"46127"},{"name":"Lead city, South Dakota, SD","lat":44.352762,"lng":-103.767111,"population":2997,"income":57348,"county":"Lawrence","lean":"R","dem_pct_2024":32.9,"gop_pct_2024":64.3,"county_fips":"46081"},{"name":"Summerset city, South Dakota, SD","lat":44.193309,"lng":-103.342237,"population":2978,"income":115197,"county":"Lawrence","lean":"R","dem_pct_2024":32.9,"gop_pct_2024":64.3,"county_fips":"46081"},{"name":"Mobridge city, South Dakota, SD","lat":45.540961,"lng":-100.434905,"population":2928,"income":61556,"county":"Walworth","lean":"R","dem_pct_2024":19.5,"gop_pct_2024":78.7,"county_fips":"46129"},{"name":"Winner city, South Dakota, SD","lat":43.377613,"lng":-99.855064,"population":2900,"income":47132,"county":"Tripp","lean":"R","dem_pct_2024":17.7,"gop_pct_2024":81.0,"county_fips":"46123"},{"name":"Chamberlain city, South Dakota, SD","lat":43.798663,"lng":-99.329584,"population":2621,"income":75000,"county":"Brule","lean":"R","dem_pct_2024":27.5,"gop_pct_2024":69.9,"county_fips":"46015"},{"name":"Sisseton city, South Dakota, SD","lat":45.662499,"lng":-97.045293,"population":2593,"income":44477,"county":"Roberts","lean":"R","dem_pct_2024":37.6,"gop_pct_2024":60.6,"county_fips":"46109"},{"name":"Lennox city, South Dakota, SD","lat":43.34951,"lng":-96.893689,"population":2587,"income":76477,"county":"Lincoln","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":62.2,"county_fips":"46083"},{"name":"Fort Pierre city, South Dakota, SD","lat":44.366596,"lng":-100.382329,"population":2534,"income":74732,"county":"Stanley","lean":"R","dem_pct_2024":25.8,"gop_pct_2024":72.6,"county_fips":"46117"},{"name":"Beresford city, South Dakota, SD","lat":43.079646,"lng":-96.780224,"population":2437,"income":71017,"county":"Lincoln","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":62.2,"county_fips":"46083"},{"name":"Elk Point city, South Dakota, SD","lat":42.681224,"lng":-96.68048,"population":2391,"income":83250,"county":"Union","lean":"R","dem_pct_2024":28.7,"gop_pct_2024":69.4,"county_fips":"46127"},{"name":"Flandreau city, South Dakota, SD","lat":44.045458,"lng":-96.601772,"population":2291,"income":56458,"county":"Moody","lean":"R","dem_pct_2024":33.0,"gop_pct_2024":64.8,"county_fips":"46101"},{"name":"Volga city, South Dakota, SD","lat":44.321837,"lng":-96.922204,"population":2246,"income":75417,"county":"Brookings","lean":"R","dem_pct_2024":40.0,"gop_pct_2024":57.4,"county_fips":"46011"},{"name":"Redfield city, South Dakota, SD","lat":44.873315,"lng":-98.519214,"population":2230,"income":60586,"county":"Spink","lean":"R","dem_pct_2024":29.3,"gop_pct_2024":68.3,"county_fips":"46115"},{"name":"Custer city, South Dakota, SD","lat":43.766732,"lng":-103.599636,"population":2148,"income":80188,"county":"Custer","lean":"R","dem_pct_2024":26.1,"gop_pct_2024":71.9,"county_fips":"46033"},{"name":"Springfield city, South Dakota, SD","lat":42.86235,"lng":-97.896454,"population":2073,"income":59063,"county":"Bon Homme","lean":"R","dem_pct_2024":23.3,"gop_pct_2024":74.7,"county_fips":"46009"},{"name":"Parkston city, South Dakota, SD","lat":43.392946,"lng":-97.986424,"population":1981,"income":71313,"county":"Hutchinson","lean":"R","dem_pct_2024":20.2,"gop_pct_2024":78.1,"county_fips":"46067"},{"name":"Webster city, South Dakota, SD","lat":45.336562,"lng":-97.521829,"population":1823,"income":55074,"county":"Day","lean":"R","dem_pct_2024":34.1,"gop_pct_2024":64.0,"county_fips":"46037"},{"name":"Groton city, South Dakota, SD","lat":45.451677,"lng":-98.100076,"population":1794,"income":82083,"county":"Brown","lean":"R","dem_pct_2024":35.6,"gop_pct_2024":62.5,"county_fips":"46013"},{"name":"Freeman city, South Dakota, SD","lat":43.347525,"lng":-97.430791,"population":1558,"income":60114,"county":"Turner","lean":"R","dem_pct_2024":23.0,"gop_pct_2024":74.3,"county_fips":"46125"},{"name":"Wagner city, South Dakota, SD","lat":43.07695,"lng":-98.291425,"population":1555,"income":47137,"county":"Charles Mix","lean":"R","dem_pct_2024":27.7,"gop_pct_2024":70.6,"county_fips":"46023"},{"name":"Baltic city, South Dakota, SD","lat":43.760051,"lng":-96.736898,"population":1512,"income":105132,"county":"Minnehaha","lean":"lean-R","dem_pct_2024":42.5,"gop_pct_2024":55.2,"county_fips":"46099"},{"name":"Eagle Butte city, South Dakota, SD","lat":44.994388,"lng":-101.231758,"population":1492,"income":53558,"county":"Ziebach","lean":"swing","dem_pct_2024":46.9,"gop_pct_2024":49.7,"county_fips":"46137"},{"name":"Aurora town, South Dakota, SD","lat":44.283314,"lng":-96.682869,"population":1407,"income":90612,"county":"Brookings","lean":"R","dem_pct_2024":40.0,"gop_pct_2024":57.4,"county_fips":"46011"},{"name":"Mission city, South Dakota, SD","lat":43.306273,"lng":-100.660908,"population":1380,"income":34000,"county":"Todd","lean":"D","dem_pct_2024":73.8,"gop_pct_2024":23.4,"county_fips":"46121"},{"name":"Miller city, South Dakota, SD","lat":44.520028,"lng":-98.986177,"population":1346,"income":51774,"county":"Hand","lean":"R","dem_pct_2024":20.7,"gop_pct_2024":78.0,"county_fips":"46059"},{"name":"Gettysburg city, South Dakota, SD","lat":45.005982,"lng":-99.953904,"population":1344,"income":59667,"county":"Potter","lean":"R","dem_pct_2024":16.5,"gop_pct_2024":81.6,"county_fips":"46107"},{"name":"Clear Lake city, South Dakota, SD","lat":44.75629,"lng":-96.690239,"population":1333,"income":65398,"county":"Deuel","lean":"R","dem_pct_2024":23.0,"gop_pct_2024":74.7,"county_fips":"46039"},{"name":"Gregory city, South Dakota, SD","lat":43.229989,"lng":-99.420863,"population":1330,"income":47629,"county":"Gregory","lean":"R","dem_pct_2024":18.8,"gop_pct_2024":79.0,"county_fips":"46053"},{"name":"Deadwood city, South Dakota, SD","lat":44.387048,"lng":-103.720742,"population":1319,"income":52679,"county":"Lawrence","lean":"R","dem_pct_2024":32.9,"gop_pct_2024":64.3,"county_fips":"46081"},{"name":"Platte city, South Dakota, SD","lat":43.386903,"lng":-98.843451,"population":1310,"income":71641,"county":"Charles Mix","lean":"R","dem_pct_2024":27.7,"gop_pct_2024":70.6,"county_fips":"46023"},{"name":"Parker city, South Dakota, SD","lat":43.397773,"lng":-97.133357,"population":1247,"income":87632,"county":"Turner","lean":"R","dem_pct_2024":23.0,"gop_pct_2024":74.3,"county_fips":"46125"},{"name":"Crooks city, South Dakota, SD","lat":43.654796,"lng":-96.806813,"population":1216,"income":104479,"county":"Minnehaha","lean":"lean-R","dem_pct_2024":42.5,"gop_pct_2024":55.2,"county_fips":"46099"},{"name":"Lemmon city, South Dakota, SD","lat":45.93835,"lng":-102.159803,"population":1214,"income":42461,"county":"Perkins","lean":"R","dem_pct_2024":14.3,"gop_pct_2024":84.3,"county_fips":"46105"},{"name":"Tyndall city, South Dakota, SD","lat":42.98987,"lng":-97.864223,"population":1206,"income":51719,"county":"Bon Homme","lean":"R","dem_pct_2024":23.3,"gop_pct_2024":74.7,"county_fips":"46009"},{"name":"Salem city, South Dakota, SD","lat":43.722825,"lng":-97.389306,"population":1201,"income":71655,"county":"McCook","lean":"R","dem_pct_2024":24.2,"gop_pct_2024":73.5,"county_fips":"46087"},{"name":"Clark city, South Dakota, SD","lat":44.880911,"lng":-97.734839,"population":1181,"income":49464,"county":"Clark","lean":"R","dem_pct_2024":22.5,"gop_pct_2024":75.0,"county_fips":"46025"},{"name":"Garretson city, South Dakota, SD","lat":43.714831,"lng":-96.503307,"population":1166,"income":66375,"county":"Minnehaha","lean":"lean-R","dem_pct_2024":42.5,"gop_pct_2024":55.2,"county_fips":"46099"},{"name":"Ipswich city, South Dakota, SD","lat":45.443459,"lng":-99.029995,"population":1126,"income":79135,"county":"Edmunds","lean":"R","dem_pct_2024":18.9,"gop_pct_2024":79.7,"county_fips":"46045"},{"name":"Britton city, South Dakota, SD","lat":45.792371,"lng":-97.75289,"population":1117,"income":70156,"county":"Marshall","lean":"R","dem_pct_2024":37.1,"gop_pct_2024":61.1,"county_fips":"46091"},{"name":"Worthing city, South Dakota, SD","lat":43.330046,"lng":-96.768247,"population":1087,"income":91250,"county":"Lincoln","lean":"R","dem_pct_2024":35.7,"gop_pct_2024":62.2,"county_fips":"46083"},{"name":"Martin city, South Dakota, SD","lat":43.174875,"lng":-101.732315,"population":1054,"income":49609,"county":"Bennett","lean":"R","dem_pct_2024":35.8,"gop_pct_2024":62.1,"county_fips":"46007"},{"name":"Colman city, South Dakota, SD","lat":43.983473,"lng":-96.814745,"population":1011,"income":73000,"county":"Moody","lean":"R","dem_pct_2024":33.0,"gop_pct_2024":64.8,"county_fips":"46101"},{"name":"Marion city, South Dakota, SD","lat":43.423571,"lng":-97.260549,"population":1004,"income":72969,"county":"Turner","lean":"R","dem_pct_2024":23.0,"gop_pct_2024":74.3,"county_fips":"46125"}];
+const map=L.map('map',{center:[39.8,-98.5],zoom:5,zoomControl:false,attributionControl:false});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:18,attribution:'&copy;<a href="https://carto.com/">CartoDB</a>'}).addTo(map);
+L.control.zoom({position:'bottomleft'}).addTo(map);
+function leanColor(l){return l==='D'?'#4fc3f7':l==='lean-D'?'#81d4fa':l==='swing'?'#ce93d8':l==='lean-R'?'#ff8a80':l==='R'?'#ff5252':'#888'}
+function popRadius(p){const m=CITIES.length>0?CITIES[0].population:2300000;return 3+12*Math.sqrt(p/Math.max(m,1))}
+const markers=[];
+CITIES.forEach(c=>{const color=leanColor(c.lean);const radius=popRadius(c.population);
+const m=L.circleMarker([c.lat,c.lng],{radius,fillColor:color,color:'rgba(255,255,255,0.15)',weight:1,fillOpacity:0.85}).addTo(map);
+m._cityData=c;
+const cityEnc=encodeURIComponent(c.name);
+const demPct=c.dem_pct_2024||50,gopPct=c.gop_pct_2024||50;
+const margin=demPct-gopPct;
+const leanVal=margin>0?'D+'+margin.toFixed(1):'R+'+Math.abs(margin).toFixed(1);
+const lcc=c.lean==='D'?'lean-D':c.lean==='R'?'lean-R':c.lean==='lean-D'?'lean-lean-D':c.lean==='lean-R'?'lean-lean-R':'';
+const tv=demPct+gopPct,dbw=tv>0?(demPct/tv)*100:50,gbw=tv>0?(gopPct/tv)*100:50;
+m.bindPopup(`<div class="popup-card"><div class="popup-header">${c.name}</div>
+<div class="popup-stat"><span class="popup-stat-label">Population</span><span class="popup-stat-val">${c.population.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">Median Income</span><span class="popup-stat-val">$${c.income.toLocaleString()}</span></div>
+<div class="popup-stat"><span class="popup-stat-label">County</span><span class="popup-stat-val">${c.county}</span></div>
+<div class="popup-vote-bar"><div class="popup-vote-labels"><span class="dem-label">🟦 Dem ${demPct.toFixed(1)}%</span><span class="gop-label">🟥 GOP ${gopPct.toFixed(1)}%</span></div>
+<div class="popup-bar-track"><div class="popup-bar-dem" style="width:${dbw}%"></div><div class="popup-bar-gop" style="width:${gbw}%"></div></div></div>
+<div class="popup-lean ${lcc}">${leanVal} • ${c.lean.replace('lean-','lean ')}</div>
+<a class="popup-link-btn" href="census_dashboard.html?city=${cityEnc}" target="_blank">📊 View Full Report →</a></div>`,{maxWidth:280,className:'dark-popup'});
+markers.push(m);});
+function updateInfo(){const t=markers.length,v=markers.filter(m=>!m._filtered).length;document.getElementById('city-count').textContent=t+' cities';document.getElementById('visible-count').textContent=v+' visible'}
+updateInfo();
+const fs={sq:'',pMin:0,pMax:Infinity,iMin:0,iMax:Infinity,lMin:-100,lMax:100};
+function applyFilters(){markers.forEach(m=>{const c=m._cityData;const nm=!fs.sq||c.name.toLowerCase().includes(fs.sq);const pm=c.population>=fs.pMin&&c.population<=fs.pMax;const im=c.income>=fs.iMin&&c.income<=fs.iMax;const mg=(c.dem_pct_2024||50)-(c.gop_pct_2024||50);const lm=mg>=fs.lMin&&mg<=fs.lMax;if(nm&&pm&&im&&lm){if(m._filtered){m.addTo(map);m._filtered=false}}else{if(!m._filtered){m.remove();m._filtered=true}}});updateInfo()}
+const si=document.getElementById('map-search'),sc=document.getElementById('map-search-clear');
+si.addEventListener('input',()=>{fs.sq=si.value.toLowerCase().trim();sc.classList.toggle('visible',fs.sq.length>0);applyFilters()});
+sc.addEventListener('click',()=>{si.value='';fs.sq='';sc.classList.remove('visible');applyFilters();si.focus()});
+const ft=document.getElementById('filter-toggle'),fp=document.getElementById('filter-panel'),fa=ft.querySelector('.arrow');
+ft.addEventListener('click',()=>{const s=fp.classList.toggle('collapsed');fa.textContent=s?'▼':'▲'});
+const pmin=document.getElementById('pop-min'),pmax=document.getElementById('pop-max'),plab=document.getElementById('pop-range-label'),ptrack=document.getElementById('pop-track');
+function upf(){let mn=parseInt(pmin.value),mx=parseInt(pmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mp=mn===0?0:Math.round(Math.pow(10,2+(mn/100)*5));const xp=mx===100?Infinity:Math.round(Math.pow(10,2+(mx/100)*5));fs.pMin=mp;fs.pMax=xp;plab.textContent=mp===0&&xp===Infinity?'All':mp.toLocaleString()+' - '+(xp===Infinity?'∞':xp.toLocaleString());ptrack.style.left=mn+'%';ptrack.style.right=(100-mx)+'%';applyFilters()}
+[pmin,pmax].forEach(e=>e.addEventListener('input',upf));upf();
+const imin=document.getElementById('income-min'),imax=document.getElementById('income-max'),ilab=document.getElementById('income-range-label'),itrack=document.getElementById('income-track');
+function uif(){let mn=parseInt(imin.value),mx=parseInt(imax.value);if(mn>mx){const t=mn;mn=mx;mx=t};const mi=Math.round((mn/100)*250000);const xi=mx===100?Infinity:Math.round((mx/100)*250000);fs.iMin=mi;fs.iMax=xi;ilab.textContent=mi===0&&xi===Infinity?'All':'$'+mi.toLocaleString()+' - '+(xi===Infinity?'∞':'$'+xi.toLocaleString());itrack.style.left=mn+'%';itrack.style.right=(100-mx)+'%';applyFilters()}
+[imin,imax].forEach(e=>e.addEventListener('input',uif));uif();
+const lmin=document.getElementById('lean-min'),lmax=document.getElementById('lean-max'),llab=document.getElementById('lean-range-label'),ltrack=document.getElementById('lean-track');
+function ulf(){let mn=parseInt(lmin.value),mx=parseInt(lmax.value);if(mn>mx){const t=mn;mn=mx;mx=t};fs.lMin=mn;fs.lMax=mx;llab.textContent=(mn<=-100&&mx>=100)?'All':(mn>=0?'D+'+mn:'R+'+Math.abs(mn))+' to '+(mx>=0?'D+'+mx:'R+'+Math.abs(mx));ltrack.style.left=((mn+100)/200*100)+'%';ltrack.style.right=(100-(mx+100)/200*100)+'%';applyFilters()}
+[lmin,lmax].forEach(e=>e.addEventListener('input',ulf));ulf();
+function rf(){fs.sq='';si.value='';sc.classList.remove('visible');pmin.value=0;pmax.value=100;upf();imin.value=0;imax.value=100;uif();lmin.value=-100;lmax.value=100;ulf()}
+document.getElementById('filter-reset').addEventListener('click',rf);
+document.getElementById('filter-reset-btn').addEventListener('click',rf);
+</script>
+</body>
+</html>

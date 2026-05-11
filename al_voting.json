@@ -1,0 +1,1975 @@
+{
+  "state": "Alabama",
+  "state_fips": "01",
+  "election": "2024 General",
+  "election_date": "2024-11-05",
+  "data_sources": {
+    "presidential_results": "Alabama Secretary of State via Wikipedia (2024 United States presidential election in Alabama)",
+    "voter_registration": "Alabama Secretary of State - ALVR-2024.xlsx (December 2024)"
+  },
+  "statewide": {
+    "presidential": {
+      "trump": 1462616,
+      "harris": 772412,
+      "other": 30062,
+      "total_votes": 2265090,
+      "trump_pct": 64.57,
+      "harris_pct": 34.1,
+      "other_pct": 1.33,
+      "margin": 690204,
+      "margin_pct": 30.47
+    },
+    "voter_registration": {
+      "total_registered": 3880070,
+      "active": 3492998,
+      "inactive": 387072,
+      "turnout_pct": 64.85,
+      "turnout_of_registered_pct": 58.38
+    }
+  },
+  "counties": {
+    "Autauga": {
+      "fips": "01001",
+      "presidential": {
+        "trump": 20484,
+        "harris": 7439,
+        "other": 358,
+        "total_votes": 28281,
+        "trump_pct": 72.43,
+        "harris_pct": 26.3,
+        "other_pct": 1.27,
+        "margin": 13045,
+        "margin_pct": 46.13
+      },
+      "voter_registration": {
+        "total_registered": 46512,
+        "active": 42142,
+        "inactive": 4370,
+        "race_active": {
+          "white": 32171,
+          "black_or_african_american": 8590,
+          "hispanic_or_latino": 443,
+          "asian": 293,
+          "american_indian_or_alaska_native": 71,
+          "other": 389
+        },
+        "turnout_of_active_pct": 67.11,
+        "turnout_of_total_pct": 60.8
+      }
+    },
+    "Baldwin": {
+      "fips": "01003",
+      "presidential": {
+        "trump": 95798,
+        "harris": 24934,
+        "other": 1517,
+        "total_votes": 122249,
+        "trump_pct": 78.36,
+        "harris_pct": 20.4,
+        "other_pct": 1.24,
+        "margin": 70864,
+        "margin_pct": 57.97
+      },
+      "voter_registration": {
+        "total_registered": 208994,
+        "active": 183433,
+        "inactive": 25561,
+        "race_active": {
+          "white": 164139,
+          "black_or_african_american": 12774,
+          "hispanic_or_latino": 2823,
+          "asian": 1191,
+          "american_indian_or_alaska_native": 601,
+          "other": 1334
+        },
+        "turnout_of_active_pct": 66.65,
+        "turnout_of_total_pct": 58.49
+      }
+    },
+    "Barbour": {
+      "fips": "01005",
+      "presidential": {
+        "trump": 5606,
+        "harris": 4158,
+        "other": 91,
+        "total_votes": 9855,
+        "trump_pct": 56.88,
+        "harris_pct": 42.19,
+        "other_pct": 0.92,
+        "margin": 1448,
+        "margin_pct": 14.69
+      },
+      "voter_registration": {
+        "total_registered": 17691,
+        "active": 15777,
+        "inactive": 1914,
+        "race_active": {
+          "white": 8637,
+          "black_or_african_american": 6621,
+          "hispanic_or_latino": 108,
+          "asian": 33,
+          "american_indian_or_alaska_native": 16,
+          "other": 40
+        },
+        "turnout_of_active_pct": 62.46,
+        "turnout_of_total_pct": 55.71
+      }
+    },
+    "Bibb": {
+      "fips": "01007",
+      "presidential": {
+        "trump": 7572,
+        "harris": 1619,
+        "other": 66,
+        "total_votes": 9257,
+        "trump_pct": 81.8,
+        "harris_pct": 17.49,
+        "other_pct": 0.71,
+        "margin": 5953,
+        "margin_pct": 64.31
+      },
+      "voter_registration": {
+        "total_registered": 15156,
+        "active": 14370,
+        "inactive": 786,
+        "race_active": {
+          "white": 11841,
+          "black_or_african_american": 2268,
+          "hispanic_or_latino": 73,
+          "asian": 11,
+          "american_indian_or_alaska_native": 15,
+          "other": 32
+        },
+        "turnout_of_active_pct": 64.42,
+        "turnout_of_total_pct": 61.08
+      }
+    },
+    "Blount": {
+      "fips": "01009",
+      "presidential": {
+        "trump": 25354,
+        "harris": 2576,
+        "other": 233,
+        "total_votes": 28163,
+        "trump_pct": 90.03,
+        "harris_pct": 9.15,
+        "other_pct": 0.83,
+        "margin": 22778,
+        "margin_pct": 80.88
+      },
+      "voter_registration": {
+        "total_registered": 43576,
+        "active": 41381,
+        "inactive": 2195,
+        "race_active": {
+          "white": 39061,
+          "black_or_african_american": 778,
+          "hispanic_or_latino": 411,
+          "asian": 44,
+          "american_indian_or_alaska_native": 95,
+          "other": 238
+        },
+        "turnout_of_active_pct": 68.06,
+        "turnout_of_total_pct": 64.63
+      }
+    },
+    "Bullock": {
+      "fips": "01011",
+      "presidential": {
+        "trump": 1101,
+        "harris": 2983,
+        "other": 27,
+        "total_votes": 4111,
+        "trump_pct": 26.78,
+        "harris_pct": 72.56,
+        "other_pct": 0.66,
+        "margin": -1882,
+        "margin_pct": -45.78
+      },
+      "voter_registration": {
+        "total_registered": 7176,
+        "active": 6436,
+        "inactive": 740,
+        "race_active": {
+          "white": 1552,
+          "black_or_african_american": 4684,
+          "hispanic_or_latino": 10,
+          "asian": 7,
+          "american_indian_or_alaska_native": 9,
+          "other": 6
+        },
+        "turnout_of_active_pct": 63.88,
+        "turnout_of_total_pct": 57.29
+      }
+    },
+    "Butler": {
+      "fips": "01013",
+      "presidential": {
+        "trump": 5172,
+        "harris": 3251,
+        "other": 57,
+        "total_votes": 8480,
+        "trump_pct": 60.99,
+        "harris_pct": 38.34,
+        "other_pct": 0.67,
+        "margin": 1921,
+        "margin_pct": 22.65
+      },
+      "voter_registration": {
+        "total_registered": 14548,
+        "active": 13308,
+        "inactive": 1240,
+        "race_active": {
+          "white": 8113,
+          "black_or_african_american": 4936,
+          "hispanic_or_latino": 78,
+          "asian": 19,
+          "american_indian_or_alaska_native": 21,
+          "other": 42
+        },
+        "turnout_of_active_pct": 63.72,
+        "turnout_of_total_pct": 58.29
+      }
+    },
+    "Calhoun": {
+      "fips": "01015",
+      "presidential": {
+        "trump": 34912,
+        "harris": 13194,
+        "other": 547,
+        "total_votes": 48653,
+        "trump_pct": 71.76,
+        "harris_pct": 27.12,
+        "other_pct": 1.12,
+        "margin": 21718,
+        "margin_pct": 44.64
+      },
+      "voter_registration": {
+        "total_registered": 84596,
+        "active": 77117,
+        "inactive": 7479,
+        "race_active": {
+          "white": 56269,
+          "black_or_african_american": 18358,
+          "hispanic_or_latino": 1030,
+          "asian": 383,
+          "american_indian_or_alaska_native": 170,
+          "other": 452
+        },
+        "turnout_of_active_pct": 63.09,
+        "turnout_of_total_pct": 57.51
+      }
+    },
+    "Chambers": {
+      "fips": "01017",
+      "presidential": {
+        "trump": 8711,
+        "harris": 5405,
+        "other": 129,
+        "total_votes": 14245,
+        "trump_pct": 61.15,
+        "harris_pct": 37.94,
+        "other_pct": 0.91,
+        "margin": 3306,
+        "margin_pct": 23.21
+      },
+      "voter_registration": {
+        "total_registered": 26886,
+        "active": 24126,
+        "inactive": 2760,
+        "race_active": {
+          "white": 14129,
+          "black_or_african_american": 9073,
+          "hispanic_or_latino": 351,
+          "asian": 89,
+          "american_indian_or_alaska_native": 30,
+          "other": 87
+        },
+        "turnout_of_active_pct": 59.04,
+        "turnout_of_total_pct": 52.98
+      }
+    },
+    "Cherokee": {
+      "fips": "01019",
+      "presidential": {
+        "trump": 11358,
+        "harris": 1553,
+        "other": 95,
+        "total_votes": 13006,
+        "trump_pct": 87.33,
+        "harris_pct": 11.94,
+        "other_pct": 0.73,
+        "margin": 9805,
+        "margin_pct": 75.39
+      },
+      "voter_registration": {
+        "total_registered": 21530,
+        "active": 19454,
+        "inactive": 2076,
+        "race_active": {
+          "white": 18327,
+          "black_or_african_american": 860,
+          "hispanic_or_latino": 80,
+          "asian": 24,
+          "american_indian_or_alaska_native": 33,
+          "other": 33
+        },
+        "turnout_of_active_pct": 66.86,
+        "turnout_of_total_pct": 60.41
+      }
+    },
+    "Chilton": {
+      "fips": "01021",
+      "presidential": {
+        "trump": 16920,
+        "harris": 2698,
+        "other": 145,
+        "total_votes": 19763,
+        "trump_pct": 85.61,
+        "harris_pct": 13.65,
+        "other_pct": 0.73,
+        "margin": 14222,
+        "margin_pct": 71.96
+      },
+      "voter_registration": {
+        "total_registered": 31595,
+        "active": 29774,
+        "inactive": 1821,
+        "race_active": {
+          "white": 26334,
+          "black_or_african_american": 2870,
+          "hispanic_or_latino": 190,
+          "asian": 34,
+          "american_indian_or_alaska_native": 41,
+          "other": 86
+        },
+        "turnout_of_active_pct": 66.38,
+        "turnout_of_total_pct": 62.55
+      }
+    },
+    "Choctaw": {
+      "fips": "01023",
+      "presidential": {
+        "trump": 4103,
+        "harris": 2515,
+        "other": 38,
+        "total_votes": 6656,
+        "trump_pct": 61.64,
+        "harris_pct": 37.79,
+        "other_pct": 0.57,
+        "margin": 1588,
+        "margin_pct": 23.86
+      },
+      "voter_registration": {
+        "total_registered": 10754,
+        "active": 9723,
+        "inactive": 1031,
+        "race_active": {
+          "white": 5547,
+          "black_or_african_american": 4054,
+          "hispanic_or_latino": 29,
+          "asian": 6,
+          "american_indian_or_alaska_native": 7,
+          "other": 14
+        },
+        "turnout_of_active_pct": 68.46,
+        "turnout_of_total_pct": 61.89
+      }
+    },
+    "Clarke": {
+      "fips": "01025",
+      "presidential": {
+        "trump": 6965,
+        "harris": 4927,
+        "other": 66,
+        "total_votes": 11958,
+        "trump_pct": 58.25,
+        "harris_pct": 41.2,
+        "other_pct": 0.55,
+        "margin": 2038,
+        "margin_pct": 17.04
+      },
+      "voter_registration": {
+        "total_registered": 19149,
+        "active": 17409,
+        "inactive": 1740,
+        "race_active": {
+          "white": 9702,
+          "black_or_african_american": 7426,
+          "hispanic_or_latino": 63,
+          "asian": 42,
+          "american_indian_or_alaska_native": 21,
+          "other": 47
+        },
+        "turnout_of_active_pct": 68.69,
+        "turnout_of_total_pct": 62.45
+      }
+    },
+    "Clay": {
+      "fips": "01027",
+      "presidential": {
+        "trump": 5734,
+        "harris": 993,
+        "other": 40,
+        "total_votes": 6767,
+        "trump_pct": 84.73,
+        "harris_pct": 14.67,
+        "other_pct": 0.59,
+        "margin": 4741,
+        "margin_pct": 70.06
+      },
+      "voter_registration": {
+        "total_registered": 10645,
+        "active": 10065,
+        "inactive": 580,
+        "race_active": {
+          "white": 8874,
+          "black_or_african_american": 1045,
+          "hispanic_or_latino": 53,
+          "asian": 9,
+          "american_indian_or_alaska_native": 10,
+          "other": 25
+        },
+        "turnout_of_active_pct": 67.23,
+        "turnout_of_total_pct": 63.57
+      }
+    },
+    "Cleburne": {
+      "fips": "01029",
+      "presidential": {
+        "trump": 6988,
+        "harris": 605,
+        "other": 58,
+        "total_votes": 7651,
+        "trump_pct": 91.33,
+        "harris_pct": 7.91,
+        "other_pct": 0.76,
+        "margin": 6383,
+        "margin_pct": 83.43
+      },
+      "voter_registration": {
+        "total_registered": 12266,
+        "active": 11015,
+        "inactive": 1251,
+        "race_active": {
+          "white": 10310,
+          "black_or_african_american": 474,
+          "hispanic_or_latino": 38,
+          "asian": 6,
+          "american_indian_or_alaska_native": 18,
+          "other": 33
+        },
+        "turnout_of_active_pct": 69.46,
+        "turnout_of_total_pct": 62.38
+      }
+    },
+    "Coffee": {
+      "fips": "01031",
+      "presidential": {
+        "trump": 17495,
+        "harris": 4601,
+        "other": 223,
+        "total_votes": 22319,
+        "trump_pct": 78.39,
+        "harris_pct": 20.61,
+        "other_pct": 1.0,
+        "margin": 12894,
+        "margin_pct": 57.77
+      },
+      "voter_registration": {
+        "total_registered": 39809,
+        "active": 35050,
+        "inactive": 4759,
+        "race_active": {
+          "white": 25525,
+          "black_or_african_american": 7357,
+          "hispanic_or_latino": 970,
+          "asian": 292,
+          "american_indian_or_alaska_native": 93,
+          "other": 206
+        },
+        "turnout_of_active_pct": 63.68,
+        "turnout_of_total_pct": 56.07
+      }
+    },
+    "Colbert": {
+      "fips": "01033",
+      "presidential": {
+        "trump": 19714,
+        "harris": 7137,
+        "other": 309,
+        "total_votes": 27160,
+        "trump_pct": 72.58,
+        "harris_pct": 26.28,
+        "other_pct": 1.14,
+        "margin": 12577,
+        "margin_pct": 46.31
+      },
+      "voter_registration": {
+        "total_registered": 45301,
+        "active": 42081,
+        "inactive": 3220,
+        "race_active": {
+          "white": 34770,
+          "black_or_african_american": 6181,
+          "hispanic_or_latino": 553,
+          "asian": 100,
+          "american_indian_or_alaska_native": 81,
+          "other": 151
+        },
+        "turnout_of_active_pct": 64.54,
+        "turnout_of_total_pct": 59.95
+      }
+    },
+    "Conecuh": {
+      "fips": "01035",
+      "presidential": {
+        "trump": 3423,
+        "harris": 2580,
+        "other": 48,
+        "total_votes": 6051,
+        "trump_pct": 56.57,
+        "harris_pct": 42.64,
+        "other_pct": 0.79,
+        "margin": 843,
+        "margin_pct": 13.93
+      },
+      "voter_registration": {
+        "total_registered": 9830,
+        "active": 8960,
+        "inactive": 870,
+        "race_active": {
+          "white": 5060,
+          "black_or_african_american": 3783,
+          "hispanic_or_latino": 30,
+          "asian": 12,
+          "american_indian_or_alaska_native": 4,
+          "other": 24
+        },
+        "turnout_of_active_pct": 67.53,
+        "turnout_of_total_pct": 61.56
+      }
+    },
+    "Coosa": {
+      "fips": "01037",
+      "presidential": {
+        "trump": 3758,
+        "harris": 1478,
+        "other": 32,
+        "total_votes": 5268,
+        "trump_pct": 71.34,
+        "harris_pct": 28.06,
+        "other_pct": 0.61,
+        "margin": 2280,
+        "margin_pct": 43.28
+      },
+      "voter_registration": {
+        "total_registered": 8376,
+        "active": 7814,
+        "inactive": 562,
+        "race_active": {
+          "white": 5359,
+          "black_or_african_american": 2306,
+          "hispanic_or_latino": 36,
+          "asian": 14,
+          "american_indian_or_alaska_native": 10,
+          "other": 20
+        },
+        "turnout_of_active_pct": 67.42,
+        "turnout_of_total_pct": 62.89
+      }
+    },
+    "Covington": {
+      "fips": "01039",
+      "presidential": {
+        "trump": 14677,
+        "harris": 2314,
+        "other": 104,
+        "total_votes": 17095,
+        "trump_pct": 85.86,
+        "harris_pct": 13.54,
+        "other_pct": 0.61,
+        "margin": 12363,
+        "margin_pct": 72.32
+      },
+      "voter_registration": {
+        "total_registered": 29452,
+        "active": 26897,
+        "inactive": 2555,
+        "race_active": {
+          "white": 21834,
+          "black_or_african_american": 4521,
+          "hispanic_or_latino": 225,
+          "asian": 42,
+          "american_indian_or_alaska_native": 53,
+          "other": 72
+        },
+        "turnout_of_active_pct": 63.56,
+        "turnout_of_total_pct": 58.04
+      }
+    },
+    "Crenshaw": {
+      "fips": "01041",
+      "presidential": {
+        "trump": 5000,
+        "harris": 1457,
+        "other": 29,
+        "total_votes": 6486,
+        "trump_pct": 77.09,
+        "harris_pct": 22.46,
+        "other_pct": 0.45,
+        "margin": 3543,
+        "margin_pct": 54.63
+      },
+      "voter_registration": {
+        "total_registered": 10871,
+        "active": 10073,
+        "inactive": 798,
+        "race_active": {
+          "white": 7535,
+          "black_or_african_american": 2349,
+          "hispanic_or_latino": 37,
+          "asian": 17,
+          "american_indian_or_alaska_native": 11,
+          "other": 30
+        },
+        "turnout_of_active_pct": 64.39,
+        "turnout_of_total_pct": 59.66
+      }
+    },
+    "Cullman": {
+      "fips": "01043",
+      "presidential": {
+        "trump": 38704,
+        "harris": 4039,
+        "other": 403,
+        "total_votes": 43146,
+        "trump_pct": 89.7,
+        "harris_pct": 9.36,
+        "other_pct": 0.93,
+        "margin": 34665,
+        "margin_pct": 80.34
+      },
+      "voter_registration": {
+        "total_registered": 66930,
+        "active": 62819,
+        "inactive": 4111,
+        "race_active": {
+          "white": 58322,
+          "black_or_african_american": 1200,
+          "hispanic_or_latino": 1425,
+          "asian": 107,
+          "american_indian_or_alaska_native": 95,
+          "other": 555
+        },
+        "turnout_of_active_pct": 68.68,
+        "turnout_of_total_pct": 64.46
+      }
+    },
+    "Dale": {
+      "fips": "01045",
+      "presidential": {
+        "trump": 14476,
+        "harris": 4484,
+        "other": 179,
+        "total_votes": 19139,
+        "trump_pct": 75.64,
+        "harris_pct": 23.43,
+        "other_pct": 0.94,
+        "margin": 9992,
+        "margin_pct": 52.21
+      },
+      "voter_registration": {
+        "total_registered": 37263,
+        "active": 32224,
+        "inactive": 5039,
+        "race_active": {
+          "white": 24398,
+          "black_or_african_american": 5870,
+          "hispanic_or_latino": 846,
+          "asian": 211,
+          "american_indian_or_alaska_native": 99,
+          "other": 199
+        },
+        "turnout_of_active_pct": 59.39,
+        "turnout_of_total_pct": 51.36
+      }
+    },
+    "Dallas": {
+      "fips": "01047",
+      "presidential": {
+        "trump": 5190,
+        "harris": 10236,
+        "other": 121,
+        "total_votes": 15547,
+        "trump_pct": 33.38,
+        "harris_pct": 65.84,
+        "other_pct": 0.78,
+        "margin": -5046,
+        "margin_pct": -32.46
+      },
+      "voter_registration": {
+        "total_registered": 29481,
+        "active": 26661,
+        "inactive": 2820,
+        "race_active": {
+          "white": 8470,
+          "black_or_african_american": 17843,
+          "hispanic_or_latino": 73,
+          "asian": 39,
+          "american_indian_or_alaska_native": 10,
+          "other": 52
+        },
+        "turnout_of_active_pct": 58.31,
+        "turnout_of_total_pct": 52.74
+      }
+    },
+    "DeKalb": {
+      "fips": "01049",
+      "presidential": {
+        "trump": 25633,
+        "harris": 3758,
+        "other": 269,
+        "total_votes": 29660,
+        "trump_pct": 86.42,
+        "harris_pct": 12.67,
+        "other_pct": 0.91,
+        "margin": 21875,
+        "margin_pct": 73.75
+      },
+      "voter_registration": {
+        "total_registered": 48347,
+        "active": 44828,
+        "inactive": 3519,
+        "race_active": {
+          "white": 41717,
+          "black_or_african_american": 871,
+          "hispanic_or_latino": 1529,
+          "asian": 31,
+          "american_indian_or_alaska_native": 99,
+          "other": 319
+        },
+        "turnout_of_active_pct": 66.16,
+        "turnout_of_total_pct": 61.35
+      }
+    },
+    "Elmore": {
+      "fips": "01051",
+      "presidential": {
+        "trump": 31374,
+        "harris": 9774,
+        "other": 476,
+        "total_votes": 41624,
+        "trump_pct": 75.37,
+        "harris_pct": 23.48,
+        "other_pct": 1.14,
+        "margin": 21600,
+        "margin_pct": 51.89
+      },
+      "voter_registration": {
+        "total_registered": 63725,
+        "active": 59925,
+        "inactive": 3800,
+        "race_active": {
+          "white": 47663,
+          "black_or_african_american": 10399,
+          "hispanic_or_latino": 760,
+          "asian": 363,
+          "american_indian_or_alaska_native": 121,
+          "other": 277
+        },
+        "turnout_of_active_pct": 69.46,
+        "turnout_of_total_pct": 65.32
+      }
+    },
+    "Escambia": {
+      "fips": "01053",
+      "presidential": {
+        "trump": 10884,
+        "harris": 3964,
+        "other": 109,
+        "total_votes": 14957,
+        "trump_pct": 72.77,
+        "harris_pct": 26.5,
+        "other_pct": 0.73,
+        "margin": 6920,
+        "margin_pct": 46.27
+      },
+      "voter_registration": {
+        "total_registered": 28437,
+        "active": 25443,
+        "inactive": 2994,
+        "race_active": {
+          "white": 15557,
+          "black_or_african_american": 9096,
+          "hispanic_or_latino": 222,
+          "asian": 34,
+          "american_indian_or_alaska_native": 93,
+          "other": 75
+        },
+        "turnout_of_active_pct": 58.79,
+        "turnout_of_total_pct": 52.6
+      }
+    },
+    "Etowah": {
+      "fips": "01055",
+      "presidential": {
+        "trump": 35653,
+        "harris": 10027,
+        "other": 457,
+        "total_votes": 46137,
+        "trump_pct": 77.28,
+        "harris_pct": 21.73,
+        "other_pct": 0.99,
+        "margin": 25626,
+        "margin_pct": 55.54
+      },
+      "voter_registration": {
+        "total_registered": 77745,
+        "active": 71775,
+        "inactive": 5970,
+        "race_active": {
+          "white": 60851,
+          "black_or_african_american": 9060,
+          "hispanic_or_latino": 819,
+          "asian": 205,
+          "american_indian_or_alaska_native": 140,
+          "other": 307
+        },
+        "turnout_of_active_pct": 64.28,
+        "turnout_of_total_pct": 59.34
+      }
+    },
+    "Fayette": {
+      "fips": "01057",
+      "presidential": {
+        "trump": 7158,
+        "harris": 1142,
+        "other": 69,
+        "total_votes": 8369,
+        "trump_pct": 85.53,
+        "harris_pct": 13.65,
+        "other_pct": 0.82,
+        "margin": 6016,
+        "margin_pct": 71.88
+      },
+      "voter_registration": {
+        "total_registered": 12908,
+        "active": 12247,
+        "inactive": 661,
+        "race_active": {
+          "white": 10997,
+          "black_or_african_american": 1108,
+          "hispanic_or_latino": 44,
+          "asian": 4,
+          "american_indian_or_alaska_native": 20,
+          "other": 17
+        },
+        "turnout_of_active_pct": 68.34,
+        "turnout_of_total_pct": 64.84
+      }
+    },
+    "Franklin": {
+      "fips": "01059",
+      "presidential": {
+        "trump": 10417,
+        "harris": 1568,
+        "other": 112,
+        "total_votes": 12097,
+        "trump_pct": 86.11,
+        "harris_pct": 12.96,
+        "other_pct": 0.93,
+        "margin": 8849,
+        "margin_pct": 73.15
+      },
+      "voter_registration": {
+        "total_registered": 20044,
+        "active": 19074,
+        "inactive": 970,
+        "race_active": {
+          "white": 17629,
+          "black_or_african_american": 527,
+          "hispanic_or_latino": 533,
+          "asian": 10,
+          "american_indian_or_alaska_native": 44,
+          "other": 206
+        },
+        "turnout_of_active_pct": 63.42,
+        "turnout_of_total_pct": 60.35
+      }
+    },
+    "Geneva": {
+      "fips": "01061",
+      "presidential": {
+        "trump": 10929,
+        "harris": 1391,
+        "other": 81,
+        "total_votes": 12401,
+        "trump_pct": 88.13,
+        "harris_pct": 11.22,
+        "other_pct": 0.65,
+        "margin": 9538,
+        "margin_pct": 76.91
+      },
+      "voter_registration": {
+        "total_registered": 20846,
+        "active": 18885,
+        "inactive": 1961,
+        "race_active": {
+          "white": 16563,
+          "black_or_african_american": 1788,
+          "hispanic_or_latino": 263,
+          "asian": 25,
+          "american_indian_or_alaska_native": 64,
+          "other": 56
+        },
+        "turnout_of_active_pct": 65.67,
+        "turnout_of_total_pct": 59.49
+      }
+    },
+    "Greene": {
+      "fips": "01063",
+      "presidential": {
+        "trump": 885,
+        "harris": 3133,
+        "other": 21,
+        "total_votes": 4039,
+        "trump_pct": 21.91,
+        "harris_pct": 77.57,
+        "other_pct": 0.52,
+        "margin": -2248,
+        "margin_pct": -55.66
+      },
+      "voter_registration": {
+        "total_registered": 6573,
+        "active": 6103,
+        "inactive": 470,
+        "race_active": {
+          "white": 1166,
+          "black_or_african_american": 4883,
+          "hispanic_or_latino": 2,
+          "asian": 2,
+          "american_indian_or_alaska_native": 1,
+          "other": 4
+        },
+        "turnout_of_active_pct": 66.18,
+        "turnout_of_total_pct": 61.45
+      }
+    },
+    "Hale": {
+      "fips": "01065",
+      "presidential": {
+        "trump": 3369,
+        "harris": 3868,
+        "other": 68,
+        "total_votes": 7305,
+        "trump_pct": 46.12,
+        "harris_pct": 52.95,
+        "other_pct": 0.93,
+        "margin": -499,
+        "margin_pct": -6.83
+      },
+      "voter_registration": {
+        "total_registered": 12187,
+        "active": 11431,
+        "inactive": 756,
+        "race_active": {
+          "white": 4790,
+          "black_or_african_american": 6486,
+          "hispanic_or_latino": 36,
+          "asian": 7,
+          "american_indian_or_alaska_native": 8,
+          "other": 43
+        },
+        "turnout_of_active_pct": 63.91,
+        "turnout_of_total_pct": 59.94
+      }
+    },
+    "Henry": {
+      "fips": "01067",
+      "presidential": {
+        "trump": 6989,
+        "harris": 2263,
+        "other": 68,
+        "total_votes": 9320,
+        "trump_pct": 74.99,
+        "harris_pct": 24.28,
+        "other_pct": 0.73,
+        "margin": 4726,
+        "margin_pct": 50.71
+      },
+      "voter_registration": {
+        "total_registered": 14827,
+        "active": 13683,
+        "inactive": 1144,
+        "race_active": {
+          "white": 9692,
+          "black_or_african_american": 3756,
+          "hispanic_or_latino": 55,
+          "asian": 34,
+          "american_indian_or_alaska_native": 24,
+          "other": 37
+        },
+        "turnout_of_active_pct": 68.11,
+        "turnout_of_total_pct": 62.86
+      }
+    },
+    "Houston": {
+      "fips": "01069",
+      "presidential": {
+        "trump": 32469,
+        "harris": 11352,
+        "other": 528,
+        "total_votes": 44349,
+        "trump_pct": 73.21,
+        "harris_pct": 25.6,
+        "other_pct": 1.19,
+        "margin": 21117,
+        "margin_pct": 47.62
+      },
+      "voter_registration": {
+        "total_registered": 82670,
+        "active": 73604,
+        "inactive": 9066,
+        "race_active": {
+          "white": 53491,
+          "black_or_african_american": 17548,
+          "hispanic_or_latino": 1158,
+          "asian": 557,
+          "american_indian_or_alaska_native": 113,
+          "other": 322
+        },
+        "turnout_of_active_pct": 60.25,
+        "turnout_of_total_pct": 53.65
+      }
+    },
+    "Jackson": {
+      "fips": "01071",
+      "presidential": {
+        "trump": 20073,
+        "harris": 3276,
+        "other": 207,
+        "total_votes": 23556,
+        "trump_pct": 85.21,
+        "harris_pct": 13.91,
+        "other_pct": 0.88,
+        "margin": 16797,
+        "margin_pct": 71.31
+      },
+      "voter_registration": {
+        "total_registered": 41133,
+        "active": 37833,
+        "inactive": 3300,
+        "race_active": {
+          "white": 34465,
+          "black_or_african_american": 2066,
+          "hispanic_or_latino": 587,
+          "asian": 51,
+          "american_indian_or_alaska_native": 131,
+          "other": 195
+        },
+        "turnout_of_active_pct": 62.26,
+        "turnout_of_total_pct": 57.27
+      }
+    },
+    "Jefferson": {
+      "fips": "01073",
+      "presidential": {
+        "trump": 131123,
+        "harris": 162112,
+        "other": 5469,
+        "total_votes": 298704,
+        "trump_pct": 43.9,
+        "harris_pct": 54.27,
+        "other_pct": 1.83,
+        "margin": -30989,
+        "margin_pct": -10.37
+      },
+      "voter_registration": {
+        "total_registered": 503282,
+        "active": 459628,
+        "inactive": 43654,
+        "race_active": {
+          "white": 235477,
+          "black_or_african_american": 196376,
+          "hispanic_or_latino": 14195,
+          "asian": 6257,
+          "american_indian_or_alaska_native": 607,
+          "other": 2893
+        },
+        "turnout_of_active_pct": 64.99,
+        "turnout_of_total_pct": 59.35
+      }
+    },
+    "Lamar": {
+      "fips": "01075",
+      "presidential": {
+        "trump": 6033,
+        "harris": 806,
+        "other": 51,
+        "total_votes": 6890,
+        "trump_pct": 87.56,
+        "harris_pct": 11.7,
+        "other_pct": 0.74,
+        "margin": 5227,
+        "margin_pct": 75.86
+      },
+      "voter_registration": {
+        "total_registered": 11105,
+        "active": 10320,
+        "inactive": 785,
+        "race_active": {
+          "white": 9563,
+          "black_or_african_american": 592,
+          "hispanic_or_latino": 51,
+          "asian": 6,
+          "american_indian_or_alaska_native": 8,
+          "other": 15
+        },
+        "turnout_of_active_pct": 66.76,
+        "turnout_of_total_pct": 62.04
+      }
+    },
+    "Lauderdale": {
+      "fips": "01077",
+      "presidential": {
+        "trump": 32708,
+        "harris": 10326,
+        "other": 603,
+        "total_votes": 43637,
+        "trump_pct": 74.95,
+        "harris_pct": 23.66,
+        "other_pct": 1.38,
+        "margin": 22382,
+        "margin_pct": 51.29
+      },
+      "voter_registration": {
+        "total_registered": 70775,
+        "active": 64266,
+        "inactive": 6509,
+        "race_active": {
+          "white": 55620,
+          "black_or_african_american": 7036,
+          "hispanic_or_latino": 617,
+          "asian": 227,
+          "american_indian_or_alaska_native": 122,
+          "other": 282
+        },
+        "turnout_of_active_pct": 67.9,
+        "turnout_of_total_pct": 61.66
+      }
+    },
+    "Lawrence": {
+      "fips": "01079",
+      "presidential": {
+        "trump": 13024,
+        "harris": 2983,
+        "other": 115,
+        "total_votes": 16122,
+        "trump_pct": 80.78,
+        "harris_pct": 18.5,
+        "other_pct": 0.71,
+        "margin": 10041,
+        "margin_pct": 62.28
+      },
+      "voter_registration": {
+        "total_registered": 26042,
+        "active": 24772,
+        "inactive": 1270,
+        "race_active": {
+          "white": 20728,
+          "black_or_african_american": 3263,
+          "hispanic_or_latino": 414,
+          "asian": 23,
+          "american_indian_or_alaska_native": 79,
+          "other": 115
+        },
+        "turnout_of_active_pct": 65.08,
+        "turnout_of_total_pct": 61.91
+      }
+    },
+    "Lee": {
+      "fips": "01081",
+      "presidential": {
+        "trump": 46020,
+        "harris": 25798,
+        "other": 1309,
+        "total_votes": 73127,
+        "trump_pct": 62.93,
+        "harris_pct": 35.28,
+        "other_pct": 1.79,
+        "margin": 20222,
+        "margin_pct": 27.65
+      },
+      "voter_registration": {
+        "total_registered": 135069,
+        "active": 113637,
+        "inactive": 21432,
+        "race_active": {
+          "white": 77183,
+          "black_or_african_american": 29592,
+          "hispanic_or_latino": 2709,
+          "asian": 3466,
+          "american_indian_or_alaska_native": 109,
+          "other": 274
+        },
+        "turnout_of_active_pct": 64.35,
+        "turnout_of_total_pct": 54.14
+      }
+    },
+    "Limestone": {
+      "fips": "01083",
+      "presidential": {
+        "trump": 37887,
+        "harris": 14581,
+        "other": 864,
+        "total_votes": 53332,
+        "trump_pct": 71.04,
+        "harris_pct": 27.34,
+        "other_pct": 1.62,
+        "margin": 23306,
+        "margin_pct": 43.7
+      },
+      "voter_registration": {
+        "total_registered": 82905,
+        "active": 76802,
+        "inactive": 6103,
+        "race_active": {
+          "white": 61147,
+          "black_or_african_american": 11865,
+          "hispanic_or_latino": 1795,
+          "asian": 819,
+          "american_indian_or_alaska_native": 250,
+          "other": 430
+        },
+        "turnout_of_active_pct": 69.44,
+        "turnout_of_total_pct": 64.33
+      }
+    },
+    "Lowndes": {
+      "fips": "01085",
+      "presidential": {
+        "trump": 1758,
+        "harris": 3867,
+        "other": 30,
+        "total_votes": 5655,
+        "trump_pct": 31.09,
+        "harris_pct": 68.38,
+        "other_pct": 0.53,
+        "margin": -2109,
+        "margin_pct": -37.29
+      },
+      "voter_registration": {
+        "total_registered": 9678,
+        "active": 8865,
+        "inactive": 813,
+        "race_active": {
+          "white": 2706,
+          "black_or_african_american": 6062,
+          "hispanic_or_latino": 17,
+          "asian": 5,
+          "american_indian_or_alaska_native": 2,
+          "other": 18
+        },
+        "turnout_of_active_pct": 63.79,
+        "turnout_of_total_pct": 58.43
+      }
+    },
+    "Macon": {
+      "fips": "01087",
+      "presidential": {
+        "trump": 1682,
+        "harris": 6084,
+        "other": 68,
+        "total_votes": 7834,
+        "trump_pct": 21.47,
+        "harris_pct": 77.66,
+        "other_pct": 0.87,
+        "margin": -4402,
+        "margin_pct": -56.19
+      },
+      "voter_registration": {
+        "total_registered": 16995,
+        "active": 13151,
+        "inactive": 3844,
+        "race_active": {
+          "white": 2483,
+          "black_or_african_american": 9935,
+          "hispanic_or_latino": 71,
+          "asian": 29,
+          "american_indian_or_alaska_native": 1,
+          "other": 16
+        },
+        "turnout_of_active_pct": 59.57,
+        "turnout_of_total_pct": 46.1
+      }
+    },
+    "Madison": {
+      "fips": "01089",
+      "presidential": {
+        "trump": 105430,
+        "harris": 87824,
+        "other": 4363,
+        "total_votes": 197617,
+        "trump_pct": 53.35,
+        "harris_pct": 44.44,
+        "other_pct": 2.21,
+        "margin": 17606,
+        "margin_pct": 8.91
+      },
+      "voter_registration": {
+        "total_registered": 334828,
+        "active": 292280,
+        "inactive": 42548,
+        "race_active": {
+          "white": 194965,
+          "black_or_african_american": 77489,
+          "hispanic_or_latino": 9552,
+          "asian": 6929,
+          "american_indian_or_alaska_native": 741,
+          "other": 1508
+        },
+        "turnout_of_active_pct": 67.61,
+        "turnout_of_total_pct": 59.02
+      }
+    },
+    "Marengo": {
+      "fips": "01091",
+      "presidential": {
+        "trump": 4995,
+        "harris": 4631,
+        "other": 56,
+        "total_votes": 9682,
+        "trump_pct": 51.59,
+        "harris_pct": 47.83,
+        "other_pct": 0.58,
+        "margin": 364,
+        "margin_pct": 3.76
+      },
+      "voter_registration": {
+        "total_registered": 15759,
+        "active": 14340,
+        "inactive": 1419,
+        "race_active": {
+          "white": 6803,
+          "black_or_african_american": 7325,
+          "hispanic_or_latino": 60,
+          "asian": 16,
+          "american_indian_or_alaska_native": 11,
+          "other": 45
+        },
+        "turnout_of_active_pct": 67.52,
+        "turnout_of_total_pct": 61.44
+      }
+    },
+    "Marion": {
+      "fips": "01093",
+      "presidential": {
+        "trump": 12245,
+        "harris": 1197,
+        "other": 101,
+        "total_votes": 13543,
+        "trump_pct": 90.42,
+        "harris_pct": 8.84,
+        "other_pct": 0.75,
+        "margin": 11048,
+        "margin_pct": 81.58
+      },
+      "voter_registration": {
+        "total_registered": 22752,
+        "active": 21109,
+        "inactive": 1643,
+        "race_active": {
+          "white": 19904,
+          "black_or_african_american": 816,
+          "hispanic_or_latino": 133,
+          "asian": 7,
+          "american_indian_or_alaska_native": 47,
+          "other": 17
+        },
+        "turnout_of_active_pct": 64.16,
+        "turnout_of_total_pct": 59.52
+      }
+    },
+    "Marshall": {
+      "fips": "01095",
+      "presidential": {
+        "trump": 34434,
+        "harris": 5553,
+        "other": 401,
+        "total_votes": 40388,
+        "trump_pct": 85.26,
+        "harris_pct": 13.75,
+        "other_pct": 0.99,
+        "margin": 28881,
+        "margin_pct": 71.51
+      },
+      "voter_registration": {
+        "total_registered": 68155,
+        "active": 63486,
+        "inactive": 4669,
+        "race_active": {
+          "white": 58196,
+          "black_or_african_american": 1783,
+          "hispanic_or_latino": 2273,
+          "asian": 100,
+          "american_indian_or_alaska_native": 107,
+          "other": 585
+        },
+        "turnout_of_active_pct": 63.62,
+        "turnout_of_total_pct": 59.26
+      }
+    },
+    "Mobile": {
+      "fips": "01097",
+      "presidential": {
+        "trump": 100759,
+        "harris": 72055,
+        "other": 2350,
+        "total_votes": 175164,
+        "trump_pct": 57.52,
+        "harris_pct": 41.14,
+        "other_pct": 1.34,
+        "margin": 28704,
+        "margin_pct": 16.39
+      },
+      "voter_registration": {
+        "total_registered": 323276,
+        "active": 280806,
+        "inactive": 42470,
+        "race_active": {
+          "white": 172486,
+          "black_or_african_american": 98169,
+          "hispanic_or_latino": 4049,
+          "asian": 3758,
+          "american_indian_or_alaska_native": 815,
+          "other": 774
+        },
+        "turnout_of_active_pct": 62.38,
+        "turnout_of_total_pct": 54.18
+      }
+    },
+    "Monroe": {
+      "fips": "01099",
+      "presidential": {
+        "trump": 6007,
+        "harris": 3740,
+        "other": 68,
+        "total_votes": 9815,
+        "trump_pct": 61.2,
+        "harris_pct": 38.1,
+        "other_pct": 0.69,
+        "margin": 2267,
+        "margin_pct": 23.1
+      },
+      "voter_registration": {
+        "total_registered": 16357,
+        "active": 14939,
+        "inactive": 1418,
+        "race_active": {
+          "white": 6379,
+          "black_or_african_american": 8325,
+          "hispanic_or_latino": 50,
+          "asian": 12,
+          "american_indian_or_alaska_native": 26,
+          "other": 44
+        },
+        "turnout_of_active_pct": 65.7,
+        "turnout_of_total_pct": 60.0
+      }
+    },
+    "Montgomery": {
+      "fips": "01101",
+      "presidential": {
+        "trump": 30477,
+        "harris": 57946,
+        "other": 1375,
+        "total_votes": 89798,
+        "trump_pct": 33.94,
+        "harris_pct": 64.53,
+        "other_pct": 1.53,
+        "margin": -27469,
+        "margin_pct": -30.59
+      },
+      "voter_registration": {
+        "total_registered": 164107,
+        "active": 148619,
+        "inactive": 15488,
+        "race_active": {
+          "white": 47882,
+          "black_or_african_american": 91327,
+          "hispanic_or_latino": 3864,
+          "asian": 3867,
+          "american_indian_or_alaska_native": 115,
+          "other": 632
+        },
+        "turnout_of_active_pct": 60.42,
+        "turnout_of_total_pct": 54.72
+      }
+    },
+    "Morgan": {
+      "fips": "01103",
+      "presidential": {
+        "trump": 40449,
+        "harris": 12392,
+        "other": 702,
+        "total_votes": 53543,
+        "trump_pct": 75.54,
+        "harris_pct": 23.14,
+        "other_pct": 1.31,
+        "margin": 28057,
+        "margin_pct": 52.4
+      },
+      "voter_registration": {
+        "total_registered": 88970,
+        "active": 83214,
+        "inactive": 5756,
+        "race_active": {
+          "white": 68830,
+          "black_or_african_american": 11360,
+          "hispanic_or_latino": 1258,
+          "asian": 244,
+          "american_indian_or_alaska_native": 418,
+          "other": 543
+        },
+        "turnout_of_active_pct": 64.34,
+        "turnout_of_total_pct": 60.18
+      }
+    },
+    "Perry": {
+      "fips": "01105",
+      "presidential": {
+        "trump": 1269,
+        "harris": 3174,
+        "other": 22,
+        "total_votes": 4465,
+        "trump_pct": 28.42,
+        "harris_pct": 71.09,
+        "other_pct": 0.49,
+        "margin": -1905,
+        "margin_pct": -42.67
+      },
+      "voter_registration": {
+        "total_registered": 7620,
+        "active": 6964,
+        "inactive": 656,
+        "race_active": {
+          "white": 2155,
+          "black_or_african_american": 4695,
+          "hispanic_or_latino": 24,
+          "asian": 4,
+          "american_indian_or_alaska_native": 3,
+          "other": 11
+        },
+        "turnout_of_active_pct": 64.12,
+        "turnout_of_total_pct": 58.6
+      }
+    },
+    "Pickens": {
+      "fips": "01107",
+      "presidential": {
+        "trump": 5465,
+        "harris": 3388,
+        "other": 59,
+        "total_votes": 8912,
+        "trump_pct": 61.32,
+        "harris_pct": 38.02,
+        "other_pct": 0.66,
+        "margin": 2077,
+        "margin_pct": 23.31
+      },
+      "voter_registration": {
+        "total_registered": 14092,
+        "active": 12939,
+        "inactive": 1153,
+        "race_active": {
+          "white": 7606,
+          "black_or_african_american": 5081,
+          "hispanic_or_latino": 62,
+          "asian": 9,
+          "american_indian_or_alaska_native": 12,
+          "other": 38
+        },
+        "turnout_of_active_pct": 68.88,
+        "turnout_of_total_pct": 63.24
+      }
+    },
+    "Pike": {
+      "fips": "01109",
+      "presidential": {
+        "trump": 8224,
+        "harris": 4899,
+        "other": 111,
+        "total_votes": 13234,
+        "trump_pct": 62.14,
+        "harris_pct": 37.02,
+        "other_pct": 0.84,
+        "margin": 3325,
+        "margin_pct": 25.12
+      },
+      "voter_registration": {
+        "total_registered": 24610,
+        "active": 21317,
+        "inactive": 3293,
+        "race_active": {
+          "white": 11220,
+          "black_or_african_american": 9196,
+          "hispanic_or_latino": 339,
+          "asian": 332,
+          "american_indian_or_alaska_native": 31,
+          "other": 74
+        },
+        "turnout_of_active_pct": 62.08,
+        "turnout_of_total_pct": 53.77
+      }
+    },
+    "Randolph": {
+      "fips": "01111",
+      "presidential": {
+        "trump": 9102,
+        "harris": 1920,
+        "other": 69,
+        "total_votes": 11091,
+        "trump_pct": 82.07,
+        "harris_pct": 17.31,
+        "other_pct": 0.62,
+        "margin": 7182,
+        "margin_pct": 64.76
+      },
+      "voter_registration": {
+        "total_registered": 19424,
+        "active": 17102,
+        "inactive": 2322,
+        "race_active": {
+          "white": 14975,
+          "black_or_african_american": 1809,
+          "hispanic_or_latino": 149,
+          "asian": 13,
+          "american_indian_or_alaska_native": 20,
+          "other": 36
+        },
+        "turnout_of_active_pct": 64.85,
+        "turnout_of_total_pct": 57.1
+      }
+    },
+    "Russell": {
+      "fips": "01113",
+      "presidential": {
+        "trump": 10078,
+        "harris": 10422,
+        "other": 218,
+        "total_votes": 20718,
+        "trump_pct": 48.64,
+        "harris_pct": 50.3,
+        "other_pct": 1.05,
+        "margin": -344,
+        "margin_pct": -1.66
+      },
+      "voter_registration": {
+        "total_registered": 46802,
+        "active": 37058,
+        "inactive": 9744,
+        "race_active": {
+          "white": 18241,
+          "black_or_african_american": 16678,
+          "hispanic_or_latino": 1080,
+          "asian": 251,
+          "american_indian_or_alaska_native": 64,
+          "other": 167
+        },
+        "turnout_of_active_pct": 55.91,
+        "turnout_of_total_pct": 44.27
+      }
+    },
+    "Shelby": {
+      "fips": "01117",
+      "presidential": {
+        "trump": 79666,
+        "harris": 33087,
+        "other": 1945,
+        "total_votes": 114698,
+        "trump_pct": 69.46,
+        "harris_pct": 28.85,
+        "other_pct": 1.7,
+        "margin": 46579,
+        "margin_pct": 40.61
+      },
+      "voter_registration": {
+        "total_registered": 178287,
+        "active": 164341,
+        "inactive": 13946,
+        "race_active": {
+          "white": 132747,
+          "black_or_african_american": 21473,
+          "hispanic_or_latino": 6338,
+          "asian": 2827,
+          "american_indian_or_alaska_native": 216,
+          "other": 596
+        },
+        "turnout_of_active_pct": 69.79,
+        "turnout_of_total_pct": 64.33
+      }
+    },
+    "St. Clair": {
+      "fips": "01115",
+      "presidential": {
+        "trump": 35501,
+        "harris": 7640,
+        "other": 385,
+        "total_votes": 43526,
+        "trump_pct": 81.56,
+        "harris_pct": 17.55,
+        "other_pct": 0.88,
+        "margin": 27861,
+        "margin_pct": 64.01
+      },
+      "voter_registration": {
+        "total_registered": 72708,
+        "active": 68156,
+        "inactive": 4552,
+        "race_active": {
+          "white": 60053,
+          "black_or_african_american": 6529,
+          "hispanic_or_latino": 775,
+          "asian": 195,
+          "american_indian_or_alaska_native": 86,
+          "other": 216
+        },
+        "turnout_of_active_pct": 63.86,
+        "turnout_of_total_pct": 59.86
+      }
+    },
+    "Sumter": {
+      "fips": "01119",
+      "presidential": {
+        "trump": 1542,
+        "harris": 3725,
+        "other": 40,
+        "total_votes": 5307,
+        "trump_pct": 29.06,
+        "harris_pct": 70.19,
+        "other_pct": 0.75,
+        "margin": -2183,
+        "margin_pct": -41.13
+      },
+      "voter_registration": {
+        "total_registered": 9635,
+        "active": 8274,
+        "inactive": 1361,
+        "race_active": {
+          "white": 2165,
+          "black_or_african_american": 5926,
+          "hispanic_or_latino": 33,
+          "asian": 17,
+          "american_indian_or_alaska_native": 1,
+          "other": 21
+        },
+        "turnout_of_active_pct": 64.14,
+        "turnout_of_total_pct": 55.08
+      }
+    },
+    "Talladega": {
+      "fips": "01121",
+      "presidential": {
+        "trump": 22100,
+        "harris": 10898,
+        "other": 252,
+        "total_votes": 33250,
+        "trump_pct": 66.47,
+        "harris_pct": 32.78,
+        "other_pct": 0.76,
+        "margin": 11202,
+        "margin_pct": 33.69
+      },
+      "voter_registration": {
+        "total_registered": 61468,
+        "active": 55817,
+        "inactive": 5651,
+        "race_active": {
+          "white": 35087,
+          "black_or_african_american": 19162,
+          "hispanic_or_latino": 674,
+          "asian": 106,
+          "american_indian_or_alaska_native": 101,
+          "other": 222
+        },
+        "turnout_of_active_pct": 59.57,
+        "turnout_of_total_pct": 54.09
+      }
+    },
+    "Tallapoosa": {
+      "fips": "01123",
+      "presidential": {
+        "trump": 14884,
+        "harris": 4975,
+        "other": 164,
+        "total_votes": 20023,
+        "trump_pct": 74.33,
+        "harris_pct": 24.85,
+        "other_pct": 0.82,
+        "margin": 9909,
+        "margin_pct": 49.49
+      },
+      "voter_registration": {
+        "total_registered": 32585,
+        "active": 29741,
+        "inactive": 2844,
+        "race_active": {
+          "white": 22198,
+          "black_or_african_american": 7061,
+          "hispanic_or_latino": 173,
+          "asian": 69,
+          "american_indian_or_alaska_native": 34,
+          "other": 57
+        },
+        "turnout_of_active_pct": 67.32,
+        "turnout_of_total_pct": 61.45
+      }
+    },
+    "Tuscaloosa": {
+      "fips": "01125",
+      "presidential": {
+        "trump": 50724,
+        "harris": 33399,
+        "other": 1133,
+        "total_votes": 85256,
+        "trump_pct": 59.5,
+        "harris_pct": 39.17,
+        "other_pct": 1.33,
+        "margin": 17325,
+        "margin_pct": 20.32
+      },
+      "voter_registration": {
+        "total_registered": 155273,
+        "active": 134338,
+        "inactive": 20935,
+        "race_active": {
+          "white": 89657,
+          "black_or_african_american": 40331,
+          "hispanic_or_latino": 2444,
+          "asian": 1179,
+          "american_indian_or_alaska_native": 121,
+          "other": 352
+        },
+        "turnout_of_active_pct": 63.46,
+        "turnout_of_total_pct": 54.91
+      }
+    },
+    "Walker": {
+      "fips": "01127",
+      "presidential": {
+        "trump": 25464,
+        "harris": 4102,
+        "other": 220,
+        "total_votes": 29786,
+        "trump_pct": 85.49,
+        "harris_pct": 13.77,
+        "other_pct": 0.74,
+        "margin": 21362,
+        "margin_pct": 71.72
+      },
+      "voter_registration": {
+        "total_registered": 49421,
+        "active": 45865,
+        "inactive": 3556,
+        "race_active": {
+          "white": 42640,
+          "black_or_african_american": 2568,
+          "hispanic_or_latino": 252,
+          "asian": 57,
+          "american_indian_or_alaska_native": 55,
+          "other": 107
+        },
+        "turnout_of_active_pct": 64.94,
+        "turnout_of_total_pct": 60.27
+      }
+    },
+    "Washington": {
+      "fips": "01129",
+      "presidential": {
+        "trump": 6534,
+        "harris": 1863,
+        "other": 44,
+        "total_votes": 8441,
+        "trump_pct": 77.41,
+        "harris_pct": 22.07,
+        "other_pct": 0.52,
+        "margin": 4671,
+        "margin_pct": 55.34
+      },
+      "voter_registration": {
+        "total_registered": 13841,
+        "active": 12822,
+        "inactive": 1019,
+        "race_active": {
+          "white": 9147,
+          "black_or_african_american": 3424,
+          "hispanic_or_latino": 43,
+          "asian": 17,
+          "american_indian_or_alaska_native": 29,
+          "other": 20
+        },
+        "turnout_of_active_pct": 65.83,
+        "turnout_of_total_pct": 60.99
+      }
+    },
+    "Wilcox": {
+      "fips": "01131",
+      "presidential": {
+        "trump": 1793,
+        "harris": 3449,
+        "other": 21,
+        "total_votes": 5263,
+        "trump_pct": 34.07,
+        "harris_pct": 65.53,
+        "other_pct": 0.4,
+        "margin": -1656,
+        "margin_pct": -31.46
+      },
+      "voter_registration": {
+        "total_registered": 8536,
+        "active": 8212,
+        "inactive": 324,
+        "race_active": {
+          "white": 2656,
+          "black_or_african_american": 5464,
+          "hispanic_or_latino": 14,
+          "asian": 3,
+          "american_indian_or_alaska_native": 2,
+          "other": 23
+        },
+        "turnout_of_active_pct": 64.09,
+        "turnout_of_total_pct": 61.66
+      }
+    },
+    "Winston": {
+      "fips": "01133",
+      "presidential": {
+        "trump": 10191,
+        "harris": 884,
+        "other": 74,
+        "total_votes": 11149,
+        "trump_pct": 91.41,
+        "harris_pct": 7.93,
+        "other_pct": 0.66,
+        "margin": 9307,
+        "margin_pct": 83.48
+      },
+      "voter_registration": {
+        "total_registered": 17884,
+        "active": 16878,
+        "inactive": 1006,
+        "race_active": {
+          "white": 15979,
+          "black_or_african_american": 503,
+          "hispanic_or_latino": 108,
+          "asian": 14,
+          "american_indian_or_alaska_native": 15,
+          "other": 33
+        },
+        "turnout_of_active_pct": 66.06,
+        "turnout_of_total_pct": 62.34
+      }
+    }
+  }
+}

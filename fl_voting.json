@@ -1,0 +1,3086 @@
+{
+  "counties": {
+    "12001": {
+      "name": "Alachua County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 75820,
+          "dem_pct": 58.28,
+          "gop_votes": 46834,
+          "gop_pct": 36.0,
+          "other_votes": 7446,
+          "other_pct": 5.72,
+          "total_votes": 130100,
+          "turnout_pct": 79.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 89704,
+          "dem_pct": 62.9,
+          "gop_votes": 50972,
+          "gop_pct": 35.74,
+          "other_votes": 1928,
+          "other_pct": 1.35,
+          "total_votes": 142604,
+          "turnout_pct": 86.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 81578,
+          "dem_pct": 59.74,
+          "gop_votes": 52939,
+          "gop_pct": 38.77,
+          "other_votes": 2031,
+          "other_pct": 1.49,
+          "total_votes": 136548,
+          "turnout_pct": 83.0
+        }
+      },
+      "registration": {
+        "total_registered": 164463,
+        "eligible_voters": null,
+        "dem_pct": 44.6,
+        "gop_pct": 29.3,
+        "npp_pct": 22.7,
+        "other_pct": 3.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12003": {
+      "name": "Baker County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 2112,
+          "dem_pct": 16.62,
+          "gop_votes": 10294,
+          "gop_pct": 81.02,
+          "other_votes": 299,
+          "other_pct": 2.36,
+          "total_votes": 12705,
+          "turnout_pct": 71.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 2037,
+          "dem_pct": 14.47,
+          "gop_votes": 11911,
+          "gop_pct": 84.58,
+          "other_votes": 134,
+          "other_pct": 0.95,
+          "total_votes": 14082,
+          "turnout_pct": 79.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1982,
+          "dem_pct": 13.23,
+          "gop_votes": 12926,
+          "gop_pct": 86.31,
+          "other_votes": 69,
+          "other_pct": 0.46,
+          "total_votes": 14977,
+          "turnout_pct": 84.7
+        }
+      },
+      "registration": {
+        "total_registered": 17672,
+        "eligible_voters": null,
+        "dem_pct": 16.2,
+        "gop_pct": 70.6,
+        "npp_pct": 10.7,
+        "other_pct": 2.5,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12005": {
+      "name": "Bay County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 21797,
+          "dem_pct": 24.71,
+          "gop_votes": 62194,
+          "gop_pct": 70.5,
+          "other_votes": 4231,
+          "other_pct": 4.79,
+          "total_votes": 88222,
+          "turnout_pct": 69.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 25614,
+          "dem_pct": 27.48,
+          "gop_votes": 66097,
+          "gop_pct": 70.91,
+          "other_votes": 1502,
+          "other_pct": 1.61,
+          "total_votes": 93213,
+          "turnout_pct": 73.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 25201,
+          "dem_pct": 25.77,
+          "gop_votes": 71497,
+          "gop_pct": 73.12,
+          "other_votes": 1079,
+          "other_pct": 1.1,
+          "total_votes": 97777,
+          "turnout_pct": 77.4
+        }
+      },
+      "registration": {
+        "total_registered": 126388,
+        "eligible_voters": null,
+        "dem_pct": 18.7,
+        "gop_pct": 58.3,
+        "npp_pct": 18.9,
+        "other_pct": 4.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12007": {
+      "name": "Bradford County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 2924,
+          "dem_pct": 24.05,
+          "gop_votes": 8913,
+          "gop_pct": 73.31,
+          "other_votes": 321,
+          "other_pct": 2.64,
+          "total_votes": 12158,
+          "turnout_pct": 73.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 3160,
+          "dem_pct": 23.18,
+          "gop_votes": 10334,
+          "gop_pct": 75.81,
+          "other_votes": 138,
+          "other_pct": 1.01,
+          "total_votes": 13632,
+          "turnout_pct": 82.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 2946,
+          "dem_pct": 21.15,
+          "gop_votes": 10920,
+          "gop_pct": 78.38,
+          "other_votes": 66,
+          "other_pct": 0.47,
+          "total_votes": 13932,
+          "turnout_pct": 83.8
+        }
+      },
+      "registration": {
+        "total_registered": 16616,
+        "eligible_voters": null,
+        "dem_pct": 20.9,
+        "gop_pct": 63.9,
+        "npp_pct": 12.2,
+        "other_pct": 3.0,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12009": {
+      "name": "Brevard County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 119679,
+          "dem_pct": 37.62,
+          "gop_votes": 181848,
+          "gop_pct": 57.16,
+          "other_votes": 16614,
+          "other_pct": 5.22,
+          "total_votes": 318141,
+          "turnout_pct": 73.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 148549,
+          "dem_pct": 41.18,
+          "gop_votes": 207883,
+          "gop_pct": 57.62,
+          "other_votes": 4332,
+          "other_pct": 1.2,
+          "total_votes": 360764,
+          "turnout_pct": 83.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 141233,
+          "dem_pct": 39.07,
+          "gop_votes": 216533,
+          "gop_pct": 59.91,
+          "other_votes": 3683,
+          "other_pct": 1.02,
+          "total_votes": 361449,
+          "turnout_pct": 83.6
+        }
+      },
+      "registration": {
+        "total_registered": 432545,
+        "eligible_voters": null,
+        "dem_pct": 25.2,
+        "gop_pct": 46.5,
+        "npp_pct": 24.3,
+        "other_pct": 4.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12011": {
+      "name": "Broward County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 553320,
+          "dem_pct": 66.08,
+          "gop_votes": 260951,
+          "gop_pct": 31.16,
+          "other_votes": 23117,
+          "other_pct": 2.76,
+          "total_votes": 837388,
+          "turnout_pct": 77.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 618752,
+          "dem_pct": 64.61,
+          "gop_votes": 333409,
+          "gop_pct": 34.81,
+          "other_votes": 5511,
+          "other_pct": 0.58,
+          "total_votes": 957672,
+          "turnout_pct": 88.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 507328,
+          "dem_pct": 58.01,
+          "gop_votes": 358952,
+          "gop_pct": 41.04,
+          "other_votes": 8259,
+          "other_pct": 0.94,
+          "total_votes": 874539,
+          "turnout_pct": 81.2
+        }
+      },
+      "registration": {
+        "total_registered": 1076890,
+        "eligible_voters": null,
+        "dem_pct": 43.1,
+        "gop_pct": 24.9,
+        "npp_pct": 29.1,
+        "other_pct": 2.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12013": {
+      "name": "Calhoun County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1241,
+          "dem_pct": 20.25,
+          "gop_votes": 4655,
+          "gop_pct": 75.96,
+          "other_votes": 232,
+          "other_pct": 3.79,
+          "total_votes": 6128,
+          "turnout_pct": 81.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 1209,
+          "dem_pct": 18.53,
+          "gop_votes": 5274,
+          "gop_pct": 80.82,
+          "other_votes": 43,
+          "other_pct": 0.66,
+          "total_votes": 6526,
+          "turnout_pct": 86.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1021,
+          "dem_pct": 15.88,
+          "gop_votes": 5367,
+          "gop_pct": 83.49,
+          "other_votes": 40,
+          "other_pct": 0.62,
+          "total_votes": 6428,
+          "turnout_pct": 85.4
+        }
+      },
+      "registration": {
+        "total_registered": 7530,
+        "eligible_voters": null,
+        "dem_pct": 25.2,
+        "gop_pct": 63.3,
+        "npp_pct": 10.1,
+        "other_pct": 1.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12015": {
+      "name": "Charlotte County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 33445,
+          "dem_pct": 34.41,
+          "gop_votes": 60128,
+          "gop_pct": 61.96,
+          "other_votes": 3524,
+          "other_pct": 3.63,
+          "total_votes": 97187,
+          "turnout_pct": 64.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 42273,
+          "dem_pct": 36.34,
+          "gop_votes": 73243,
+          "gop_pct": 62.96,
+          "other_votes": 824,
+          "other_pct": 0.71,
+          "total_votes": 116340,
+          "turnout_pct": 77.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 40450,
+          "dem_pct": 32.71,
+          "gop_votes": 82480,
+          "gop_pct": 66.69,
+          "other_votes": 746,
+          "other_pct": 0.6,
+          "total_votes": 123676,
+          "turnout_pct": 82.0
+        }
+      },
+      "registration": {
+        "total_registered": 150763,
+        "eligible_voters": null,
+        "dem_pct": 19.3,
+        "gop_pct": 54.2,
+        "npp_pct": 22.1,
+        "other_pct": 4.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12017": {
+      "name": "Citrus County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 22789,
+          "dem_pct": 28.34,
+          "gop_votes": 54456,
+          "gop_pct": 67.72,
+          "other_votes": 3167,
+          "other_pct": 3.94,
+          "total_votes": 80412,
+          "turnout_pct": 67.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 27092,
+          "dem_pct": 29.07,
+          "gop_votes": 65352,
+          "gop_pct": 70.11,
+          "other_votes": 764,
+          "other_pct": 0.82,
+          "total_votes": 93208,
+          "turnout_pct": 78.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 26276,
+          "dem_pct": 26.75,
+          "gop_votes": 71356,
+          "gop_pct": 72.64,
+          "other_votes": 605,
+          "other_pct": 0.62,
+          "total_votes": 98237,
+          "turnout_pct": 83.0
+        }
+      },
+      "registration": {
+        "total_registered": 118376,
+        "eligible_voters": null,
+        "dem_pct": 17.5,
+        "gop_pct": 59.2,
+        "npp_pct": 19.1,
+        "other_pct": 4.2,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12019": {
+      "name": "Clay County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 27822,
+          "dem_pct": 25.93,
+          "gop_votes": 74963,
+          "gop_pct": 69.85,
+          "other_votes": 4532,
+          "other_pct": 4.22,
+          "total_votes": 107317,
+          "turnout_pct": 70.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 38317,
+          "dem_pct": 30.8,
+          "gop_votes": 84480,
+          "gop_pct": 67.91,
+          "other_votes": 1608,
+          "other_pct": 1.29,
+          "total_votes": 124405,
+          "turnout_pct": 81.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 37926,
+          "dem_pct": 29.91,
+          "gop_votes": 87711,
+          "gop_pct": 69.17,
+          "other_votes": 1174,
+          "other_pct": 0.93,
+          "total_votes": 126811,
+          "turnout_pct": 83.2
+        }
+      },
+      "registration": {
+        "total_registered": 152347,
+        "eligible_voters": null,
+        "dem_pct": 19.8,
+        "gop_pct": 57.1,
+        "npp_pct": 19.2,
+        "other_pct": 3.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12021": {
+      "name": "Collier County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 61085,
+          "dem_pct": 35.41,
+          "gop_votes": 105423,
+          "gop_pct": 61.11,
+          "other_votes": 6002,
+          "other_pct": 3.48,
+          "total_votes": 172510,
+          "turnout_pct": 66.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 77621,
+          "dem_pct": 37.35,
+          "gop_votes": 128950,
+          "gop_pct": 62.05,
+          "other_votes": 1247,
+          "other_pct": 0.6,
+          "total_votes": 207818,
+          "turnout_pct": 80.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 71720,
+          "dem_pct": 33.15,
+          "gop_votes": 143267,
+          "gop_pct": 66.21,
+          "other_votes": 1383,
+          "other_pct": 0.64,
+          "total_votes": 216370,
+          "turnout_pct": 83.7
+        }
+      },
+      "registration": {
+        "total_registered": 258602,
+        "eligible_voters": null,
+        "dem_pct": 19.1,
+        "gop_pct": 55.4,
+        "npp_pct": 22.3,
+        "other_pct": 3.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12023": {
+      "name": "Columbia County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 7601,
+          "dem_pct": 26.33,
+          "gop_votes": 20368,
+          "gop_pct": 70.57,
+          "other_votes": 895,
+          "other_pct": 3.1,
+          "total_votes": 28864,
+          "turnout_pct": 70.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 8914,
+          "dem_pct": 26.98,
+          "gop_votes": 23836,
+          "gop_pct": 72.14,
+          "other_votes": 292,
+          "other_pct": 0.88,
+          "total_votes": 33042,
+          "turnout_pct": 80.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 8250,
+          "dem_pct": 24.56,
+          "gop_votes": 25108,
+          "gop_pct": 74.74,
+          "other_votes": 234,
+          "other_pct": 0.7,
+          "total_votes": 33592,
+          "turnout_pct": 82.2
+        }
+      },
+      "registration": {
+        "total_registered": 40850,
+        "eligible_voters": null,
+        "dem_pct": 23.0,
+        "gop_pct": 58.8,
+        "npp_pct": 15.0,
+        "other_pct": 3.2,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12027": {
+      "name": "DeSoto County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3781,
+          "dem_pct": 34.68,
+          "gop_votes": 6778,
+          "gop_pct": 62.17,
+          "other_votes": 344,
+          "other_pct": 3.15,
+          "total_votes": 10903,
+          "turnout_pct": 69.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 4259,
+          "dem_pct": 33.64,
+          "gop_votes": 8313,
+          "gop_pct": 65.67,
+          "other_votes": 87,
+          "other_pct": 0.69,
+          "total_votes": 12659,
+          "turnout_pct": 80.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 3525,
+          "dem_pct": 28.23,
+          "gop_votes": 8888,
+          "gop_pct": 71.17,
+          "other_votes": 75,
+          "other_pct": 0.6,
+          "total_votes": 12488,
+          "turnout_pct": 79.3
+        }
+      },
+      "registration": {
+        "total_registered": 15747,
+        "eligible_voters": null,
+        "dem_pct": 25.9,
+        "gop_pct": 51.5,
+        "npp_pct": 19.3,
+        "other_pct": 3.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12029": {
+      "name": "Dixie County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1270,
+          "dem_pct": 17.53,
+          "gop_votes": 5822,
+          "gop_pct": 80.35,
+          "other_votes": 154,
+          "other_pct": 2.12,
+          "total_votes": 7246,
+          "turnout_pct": 72.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 1365,
+          "dem_pct": 16.71,
+          "gop_votes": 6759,
+          "gop_pct": 82.76,
+          "other_votes": 43,
+          "other_pct": 0.53,
+          "total_votes": 8167,
+          "turnout_pct": 82.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1183,
+          "dem_pct": 14.52,
+          "gop_votes": 6920,
+          "gop_pct": 84.93,
+          "other_votes": 45,
+          "other_pct": 0.55,
+          "total_votes": 8148,
+          "turnout_pct": 81.8
+        }
+      },
+      "registration": {
+        "total_registered": 9960,
+        "eligible_voters": null,
+        "dem_pct": 16.3,
+        "gop_pct": 67.8,
+        "npp_pct": 13.4,
+        "other_pct": 2.5,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12031": {
+      "name": "Duval County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 205704,
+          "dem_pct": 47.12,
+          "gop_votes": 211672,
+          "gop_pct": 48.48,
+          "other_votes": 19197,
+          "other_pct": 4.4,
+          "total_votes": 436573,
+          "turnout_pct": 68.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 252556,
+          "dem_pct": 51.25,
+          "gop_votes": 233762,
+          "gop_pct": 47.43,
+          "other_votes": 6502,
+          "other_pct": 1.32,
+          "total_votes": 492820,
+          "turnout_pct": 76.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 229365,
+          "dem_pct": 48.67,
+          "gop_votes": 236285,
+          "gop_pct": 50.14,
+          "other_votes": 5632,
+          "other_pct": 1.2,
+          "total_votes": 471282,
+          "turnout_pct": 73.6
+        }
+      },
+      "registration": {
+        "total_registered": 640628,
+        "eligible_voters": null,
+        "dem_pct": 37.5,
+        "gop_pct": 36.7,
+        "npp_pct": 22.2,
+        "other_pct": 3.6,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12033": {
+      "name": "Escambia County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 57461,
+          "dem_pct": 37.27,
+          "gop_votes": 88808,
+          "gop_pct": 57.6,
+          "other_votes": 7903,
+          "other_pct": 5.13,
+          "total_votes": 154172,
+          "turnout_pct": 76.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 70929,
+          "dem_pct": 41.63,
+          "gop_votes": 96674,
+          "gop_pct": 56.74,
+          "other_votes": 2769,
+          "other_pct": 1.63,
+          "total_votes": 170372,
+          "turnout_pct": 84.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 64601,
+          "dem_pct": 39.69,
+          "gop_votes": 96407,
+          "gop_pct": 59.23,
+          "other_votes": 1747,
+          "other_pct": 1.07,
+          "total_votes": 162755,
+          "turnout_pct": 80.5
+        }
+      },
+      "registration": {
+        "total_registered": 202290,
+        "eligible_voters": null,
+        "dem_pct": 28.9,
+        "gop_pct": 48.6,
+        "npp_pct": 18.9,
+        "other_pct": 3.6,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12035": {
+      "name": "Flagler County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 22026,
+          "dem_pct": 37.98,
+          "gop_votes": 33850,
+          "gop_pct": 58.38,
+          "other_votes": 2111,
+          "other_pct": 3.64,
+          "total_votes": 57987,
+          "turnout_pct": 59.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 28161,
+          "dem_pct": 39.27,
+          "gop_votes": 43043,
+          "gop_pct": 60.02,
+          "other_votes": 512,
+          "other_pct": 0.71,
+          "total_votes": 71716,
+          "turnout_pct": 73.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 28431,
+          "dem_pct": 35.55,
+          "gop_votes": 51014,
+          "gop_pct": 63.79,
+          "other_votes": 523,
+          "other_pct": 0.65,
+          "total_votes": 79968,
+          "turnout_pct": 82.0
+        }
+      },
+      "registration": {
+        "total_registered": 97466,
+        "eligible_voters": null,
+        "dem_pct": 23.6,
+        "gop_pct": 51.0,
+        "npp_pct": 21.2,
+        "other_pct": 4.2,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12037": {
+      "name": "Franklin County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1744,
+          "dem_pct": 28.78,
+          "gop_votes": 4125,
+          "gop_pct": 68.08,
+          "other_votes": 190,
+          "other_pct": 3.14,
+          "total_votes": 6059,
+          "turnout_pct": 79.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 2120,
+          "dem_pct": 30.95,
+          "gop_votes": 4675,
+          "gop_pct": 68.26,
+          "other_votes": 54,
+          "other_pct": 0.79,
+          "total_votes": 6849,
+          "turnout_pct": 89.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1870,
+          "dem_pct": 27.67,
+          "gop_votes": 4831,
+          "gop_pct": 71.49,
+          "other_votes": 57,
+          "other_pct": 0.84,
+          "total_votes": 6758,
+          "turnout_pct": 88.7
+        }
+      },
+      "registration": {
+        "total_registered": 7620,
+        "eligible_voters": null,
+        "dem_pct": 28.3,
+        "gop_pct": 53.5,
+        "npp_pct": 14.4,
+        "other_pct": 3.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12039": {
+      "name": "Gadsden County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 15020,
+          "dem_pct": 67.62,
+          "gop_votes": 6728,
+          "gop_pct": 30.29,
+          "other_votes": 466,
+          "other_pct": 2.09,
+          "total_votes": 22214,
+          "turnout_pct": 83.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 16153,
+          "dem_pct": 67.98,
+          "gop_votes": 7465,
+          "gop_pct": 31.42,
+          "other_votes": 144,
+          "other_pct": 0.61,
+          "total_votes": 23762,
+          "turnout_pct": 89.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 14203,
+          "dem_pct": 64.95,
+          "gop_votes": 7495,
+          "gop_pct": 34.27,
+          "other_votes": 170,
+          "other_pct": 0.78,
+          "total_votes": 21868,
+          "turnout_pct": 82.0
+        }
+      },
+      "registration": {
+        "total_registered": 26669,
+        "eligible_voters": null,
+        "dem_pct": 65.4,
+        "gop_pct": 22.1,
+        "npp_pct": 10.6,
+        "other_pct": 1.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12041": {
+      "name": "Gilchrist County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1458,
+          "dem_pct": 17.21,
+          "gop_votes": 6740,
+          "gop_pct": 79.56,
+          "other_votes": 274,
+          "other_pct": 3.23,
+          "total_votes": 8472,
+          "turnout_pct": 66.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 1700,
+          "dem_pct": 17.55,
+          "gop_votes": 7895,
+          "gop_pct": 81.52,
+          "other_votes": 90,
+          "other_pct": 0.93,
+          "total_votes": 9685,
+          "turnout_pct": 76.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1662,
+          "dem_pct": 15.55,
+          "gop_votes": 8931,
+          "gop_pct": 83.58,
+          "other_votes": 93,
+          "other_pct": 0.87,
+          "total_votes": 10686,
+          "turnout_pct": 84.1
+        }
+      },
+      "registration": {
+        "total_registered": 12703,
+        "eligible_voters": null,
+        "dem_pct": 13.5,
+        "gop_pct": 70.7,
+        "npp_pct": 12.1,
+        "other_pct": 3.7,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12043": {
+      "name": "Glades County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1271,
+          "dem_pct": 29.01,
+          "gop_votes": 2996,
+          "gop_pct": 68.37,
+          "other_votes": 115,
+          "other_pct": 2.62,
+          "total_votes": 4382,
+          "turnout_pct": 65.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 1385,
+          "dem_pct": 26.67,
+          "gop_votes": 3782,
+          "gop_pct": 72.83,
+          "other_votes": 26,
+          "other_pct": 0.5,
+          "total_votes": 5193,
+          "turnout_pct": 77.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1222,
+          "dem_pct": 23.15,
+          "gop_votes": 4034,
+          "gop_pct": 76.42,
+          "other_votes": 23,
+          "other_pct": 0.44,
+          "total_votes": 5279,
+          "turnout_pct": 78.3
+        }
+      },
+      "registration": {
+        "total_registered": 6745,
+        "eligible_voters": null,
+        "dem_pct": 20.9,
+        "gop_pct": 59.8,
+        "npp_pct": 16.1,
+        "other_pct": 3.2,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12045": {
+      "name": "Gulf County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1720,
+          "dem_pct": 23.46,
+          "gop_votes": 5329,
+          "gop_pct": 72.69,
+          "other_votes": 282,
+          "other_pct": 3.85,
+          "total_votes": 7331,
+          "turnout_pct": 66.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 1985,
+          "dem_pct": 24.32,
+          "gop_votes": 6113,
+          "gop_pct": 74.89,
+          "other_votes": 65,
+          "other_pct": 0.8,
+          "total_votes": 8163,
+          "turnout_pct": 73.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1970,
+          "dem_pct": 22.65,
+          "gop_votes": 6684,
+          "gop_pct": 76.85,
+          "other_votes": 43,
+          "other_pct": 0.49,
+          "total_votes": 8697,
+          "turnout_pct": 78.5
+        }
+      },
+      "registration": {
+        "total_registered": 11078,
+        "eligible_voters": null,
+        "dem_pct": 20.8,
+        "gop_pct": 64.1,
+        "npp_pct": 11.7,
+        "other_pct": 3.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12047": {
+      "name": "Hamilton County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1904,
+          "dem_pct": 34.67,
+          "gop_votes": 3443,
+          "gop_pct": 62.7,
+          "other_votes": 144,
+          "other_pct": 2.63,
+          "total_votes": 5491,
+          "turnout_pct": 78.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 1963,
+          "dem_pct": 33.67,
+          "gop_votes": 3815,
+          "gop_pct": 65.44,
+          "other_votes": 52,
+          "other_pct": 0.89,
+          "total_votes": 5830,
+          "turnout_pct": 83.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1727,
+          "dem_pct": 30.12,
+          "gop_votes": 3964,
+          "gop_pct": 69.14,
+          "other_votes": 42,
+          "other_pct": 0.73,
+          "total_votes": 5733,
+          "turnout_pct": 82.0
+        }
+      },
+      "registration": {
+        "total_registered": 6992,
+        "eligible_voters": null,
+        "dem_pct": 33.3,
+        "gop_pct": 52.2,
+        "npp_pct": 11.6,
+        "other_pct": 3.0,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12049": {
+      "name": "Hardee County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 2149,
+          "dem_pct": 28.11,
+          "gop_votes": 5242,
+          "gop_pct": 68.57,
+          "other_votes": 254,
+          "other_pct": 3.32,
+          "total_votes": 7645,
+          "turnout_pct": 68.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 2298,
+          "dem_pct": 27.08,
+          "gop_votes": 6122,
+          "gop_pct": 72.15,
+          "other_votes": 65,
+          "other_pct": 0.77,
+          "total_votes": 8485,
+          "turnout_pct": 75.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1751,
+          "dem_pct": 21.5,
+          "gop_votes": 6336,
+          "gop_pct": 77.81,
+          "other_votes": 56,
+          "other_pct": 0.69,
+          "total_votes": 8143,
+          "turnout_pct": 72.5
+        }
+      },
+      "registration": {
+        "total_registered": 11236,
+        "eligible_voters": null,
+        "dem_pct": 21.0,
+        "gop_pct": 58.3,
+        "npp_pct": 17.3,
+        "other_pct": 3.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12051": {
+      "name": "Hendry County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 4615,
+          "dem_pct": 41.27,
+          "gop_votes": 6195,
+          "gop_pct": 55.4,
+          "other_votes": 372,
+          "other_pct": 3.33,
+          "total_votes": 11182,
+          "turnout_pct": 59.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 4929,
+          "dem_pct": 38.09,
+          "gop_votes": 7906,
+          "gop_pct": 61.1,
+          "other_votes": 105,
+          "other_pct": 0.81,
+          "total_votes": 12940,
+          "turnout_pct": 69.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 4096,
+          "dem_pct": 30.43,
+          "gop_votes": 9253,
+          "gop_pct": 68.74,
+          "other_votes": 111,
+          "other_pct": 0.82,
+          "total_votes": 13460,
+          "turnout_pct": 72.0
+        }
+      },
+      "registration": {
+        "total_registered": 18685,
+        "eligible_voters": null,
+        "dem_pct": 28.6,
+        "gop_pct": 49.7,
+        "npp_pct": 18.9,
+        "other_pct": 2.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12053": {
+      "name": "Hernando County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 31795,
+          "dem_pct": 33.59,
+          "gop_votes": 58970,
+          "gop_pct": 62.3,
+          "other_votes": 3886,
+          "other_pct": 4.11,
+          "total_votes": 94651,
+          "turnout_pct": 70.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 37519,
+          "dem_pct": 34.45,
+          "gop_votes": 70412,
+          "gop_pct": 64.64,
+          "other_votes": 991,
+          "other_pct": 0.91,
+          "total_votes": 108922,
+          "turnout_pct": 81.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 34431,
+          "dem_pct": 31.11,
+          "gop_votes": 75446,
+          "gop_pct": 68.16,
+          "other_votes": 814,
+          "other_pct": 0.74,
+          "total_votes": 110691,
+          "turnout_pct": 82.4
+        }
+      },
+      "registration": {
+        "total_registered": 134278,
+        "eligible_voters": null,
+        "dem_pct": 22.3,
+        "gop_pct": 51.6,
+        "npp_pct": 22.0,
+        "other_pct": 4.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12055": {
+      "name": "Highlands County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 14937,
+          "dem_pct": 32.46,
+          "gop_votes": 29565,
+          "gop_pct": 64.26,
+          "other_votes": 1509,
+          "other_pct": 3.28,
+          "total_votes": 46011,
+          "turnout_pct": 71.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 16938,
+          "dem_pct": 32.47,
+          "gop_votes": 34873,
+          "gop_pct": 66.85,
+          "other_votes": 359,
+          "other_pct": 0.69,
+          "total_votes": 52170,
+          "turnout_pct": 80.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 15227,
+          "dem_pct": 29.34,
+          "gop_votes": 36382,
+          "gop_pct": 70.09,
+          "other_votes": 296,
+          "other_pct": 0.57,
+          "total_votes": 51905,
+          "turnout_pct": 80.4
+        }
+      },
+      "registration": {
+        "total_registered": 64541,
+        "eligible_voters": null,
+        "dem_pct": 21.8,
+        "gop_pct": 55.0,
+        "npp_pct": 19.2,
+        "other_pct": 4.0,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12057": {
+      "name": "Hillsborough County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 307896,
+          "dem_pct": 50.99,
+          "gop_votes": 266870,
+          "gop_pct": 44.19,
+          "other_votes": 29124,
+          "other_pct": 4.82,
+          "total_votes": 603890,
+          "turnout_pct": 74.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 376367,
+          "dem_pct": 52.86,
+          "gop_votes": 327398,
+          "gop_pct": 45.98,
+          "other_votes": 8298,
+          "other_pct": 1.17,
+          "total_votes": 712063,
+          "turnout_pct": 87.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 321455,
+          "dem_pct": 47.84,
+          "gop_votes": 342017,
+          "gop_pct": 50.9,
+          "other_votes": 8521,
+          "other_pct": 1.27,
+          "total_votes": 671993,
+          "turnout_pct": 82.3
+        }
+      },
+      "registration": {
+        "total_registered": 816588,
+        "eligible_voters": null,
+        "dem_pct": 33.5,
+        "gop_pct": 36.0,
+        "npp_pct": 26.8,
+        "other_pct": 3.7,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12059": {
+      "name": "Holmes County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 853,
+          "dem_pct": 9.97,
+          "gop_votes": 7483,
+          "gop_pct": 87.46,
+          "other_votes": 220,
+          "other_pct": 2.57,
+          "total_votes": 8556,
+          "turnout_pct": 76.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 924,
+          "dem_pct": 10.19,
+          "gop_votes": 8080,
+          "gop_pct": 89.1,
+          "other_votes": 64,
+          "other_pct": 0.71,
+          "total_votes": 9068,
+          "turnout_pct": 81.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 882,
+          "dem_pct": 9.68,
+          "gop_votes": 8193,
+          "gop_pct": 89.87,
+          "other_votes": 41,
+          "other_pct": 0.45,
+          "total_votes": 9116,
+          "turnout_pct": 81.4
+        }
+      },
+      "registration": {
+        "total_registered": 11194,
+        "eligible_voters": null,
+        "dem_pct": 13.4,
+        "gop_pct": 73.6,
+        "npp_pct": 10.6,
+        "other_pct": 2.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12061": {
+      "name": "Indian River County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 29043,
+          "dem_pct": 35.96,
+          "gop_votes": 48620,
+          "gop_pct": 60.2,
+          "other_votes": 3106,
+          "other_pct": 3.84,
+          "total_votes": 80769,
+          "turnout_pct": 68.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 37844,
+          "dem_pct": 38.82,
+          "gop_votes": 58872,
+          "gop_pct": 60.39,
+          "other_votes": 768,
+          "other_pct": 0.79,
+          "total_votes": 97484,
+          "turnout_pct": 82.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 35654,
+          "dem_pct": 36.01,
+          "gop_votes": 62737,
+          "gop_pct": 63.36,
+          "other_votes": 626,
+          "other_pct": 0.63,
+          "total_votes": 99017,
+          "turnout_pct": 84.1
+        }
+      },
+      "registration": {
+        "total_registered": 117800,
+        "eligible_voters": null,
+        "dem_pct": 22.2,
+        "gop_pct": 52.8,
+        "npp_pct": 20.8,
+        "other_pct": 4.2,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12063": {
+      "name": "Jackson County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 6397,
+          "dem_pct": 30.23,
+          "gop_votes": 14257,
+          "gop_pct": 67.38,
+          "other_votes": 505,
+          "other_pct": 2.39,
+          "total_votes": 21159,
+          "turnout_pct": 78.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 6766,
+          "dem_pct": 30.18,
+          "gop_votes": 15488,
+          "gop_pct": 69.08,
+          "other_votes": 165,
+          "other_pct": 0.74,
+          "total_votes": 22419,
+          "turnout_pct": 82.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 5892,
+          "dem_pct": 26.66,
+          "gop_votes": 16074,
+          "gop_pct": 72.74,
+          "other_votes": 132,
+          "other_pct": 0.6,
+          "total_votes": 22098,
+          "turnout_pct": 81.8
+        }
+      },
+      "registration": {
+        "total_registered": 27028,
+        "eligible_voters": null,
+        "dem_pct": 28.9,
+        "gop_pct": 58.9,
+        "npp_pct": 9.8,
+        "other_pct": 2.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12065": {
+      "name": "Jefferson County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3541,
+          "dem_pct": 46.05,
+          "gop_votes": 3930,
+          "gop_pct": 51.11,
+          "other_votes": 218,
+          "other_pct": 2.84,
+          "total_votes": 7689,
+          "turnout_pct": 78.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 3897,
+          "dem_pct": 46.11,
+          "gop_votes": 4479,
+          "gop_pct": 53.0,
+          "other_votes": 75,
+          "other_pct": 0.89,
+          "total_votes": 8451,
+          "turnout_pct": 86.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 3429,
+          "dem_pct": 40.33,
+          "gop_votes": 5011,
+          "gop_pct": 58.94,
+          "other_votes": 62,
+          "other_pct": 0.73,
+          "total_votes": 8502,
+          "turnout_pct": 86.8
+        }
+      },
+      "registration": {
+        "total_registered": 9798,
+        "eligible_voters": null,
+        "dem_pct": 38.6,
+        "gop_pct": 47.4,
+        "npp_pct": 11.8,
+        "other_pct": 2.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12067": {
+      "name": "Lafayette County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 518,
+          "dem_pct": 15.19,
+          "gop_votes": 2809,
+          "gop_pct": 82.35,
+          "other_votes": 84,
+          "other_pct": 2.46,
+          "total_votes": 3411,
+          "turnout_pct": 81.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 510,
+          "dem_pct": 13.94,
+          "gop_votes": 3128,
+          "gop_pct": 85.51,
+          "other_votes": 20,
+          "other_pct": 0.55,
+          "total_votes": 3658,
+          "turnout_pct": 87.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 441,
+          "dem_pct": 11.74,
+          "gop_votes": 3296,
+          "gop_pct": 87.75,
+          "other_votes": 19,
+          "other_pct": 0.51,
+          "total_votes": 3756,
+          "turnout_pct": 89.4
+        }
+      },
+      "registration": {
+        "total_registered": 4203,
+        "eligible_voters": null,
+        "dem_pct": 14.1,
+        "gop_pct": 77.9,
+        "npp_pct": 6.3,
+        "other_pct": 1.7,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12069": {
+      "name": "Lake County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 62838,
+          "dem_pct": 36.58,
+          "gop_votes": 102188,
+          "gop_pct": 59.48,
+          "other_votes": 6773,
+          "other_pct": 3.94,
+          "total_votes": 171799,
+          "turnout_pct": 62.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 83505,
+          "dem_pct": 39.52,
+          "gop_votes": 125859,
+          "gop_pct": 59.56,
+          "other_votes": 1950,
+          "other_pct": 0.92,
+          "total_votes": 211314,
+          "turnout_pct": 77.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 84546,
+          "dem_pct": 37.28,
+          "gop_votes": 140500,
+          "gop_pct": 61.95,
+          "other_votes": 1742,
+          "other_pct": 0.77,
+          "total_votes": 226788,
+          "turnout_pct": 82.7
+        }
+      },
+      "registration": {
+        "total_registered": 274265,
+        "eligible_voters": null,
+        "dem_pct": 24.7,
+        "gop_pct": 47.9,
+        "npp_pct": 23.8,
+        "other_pct": 3.7,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12071": {
+      "name": "Lee County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 124908,
+          "dem_pct": 37.9,
+          "gop_votes": 191551,
+          "gop_pct": 58.12,
+          "other_votes": 13095,
+          "other_pct": 3.98,
+          "total_votes": 329554,
+          "turnout_pct": 66.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 157695,
+          "dem_pct": 40.03,
+          "gop_votes": 233247,
+          "gop_pct": 59.21,
+          "other_votes": 2957,
+          "other_pct": 0.75,
+          "total_votes": 393899,
+          "turnout_pct": 79.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 139240,
+          "dem_pct": 35.47,
+          "gop_votes": 250661,
+          "gop_pct": 63.86,
+          "other_votes": 2631,
+          "other_pct": 0.67,
+          "total_votes": 392532,
+          "turnout_pct": 79.4
+        }
+      },
+      "registration": {
+        "total_registered": 494362,
+        "eligible_voters": null,
+        "dem_pct": 21.4,
+        "gop_pct": 49.4,
+        "npp_pct": 25.6,
+        "other_pct": 3.6,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12073": {
+      "name": "Leon County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 92068,
+          "dem_pct": 59.83,
+          "gop_votes": 53821,
+          "gop_pct": 34.98,
+          "other_votes": 7992,
+          "other_pct": 5.19,
+          "total_votes": 153881,
+          "turnout_pct": 83.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 103517,
+          "dem_pct": 63.54,
+          "gop_votes": 57453,
+          "gop_pct": 35.26,
+          "other_votes": 1959,
+          "other_pct": 1.2,
+          "total_votes": 162929,
+          "turnout_pct": 88.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 94520,
+          "dem_pct": 60.28,
+          "gop_votes": 60397,
+          "gop_pct": 38.52,
+          "other_votes": 1885,
+          "other_pct": 1.2,
+          "total_votes": 156802,
+          "turnout_pct": 85.3
+        }
+      },
+      "registration": {
+        "total_registered": 183858,
+        "eligible_voters": null,
+        "dem_pct": 47.6,
+        "gop_pct": 29.7,
+        "npp_pct": 19.6,
+        "other_pct": 3.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12075": {
+      "name": "Levy County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 5101,
+          "dem_pct": 26.16,
+          "gop_votes": 13775,
+          "gop_pct": 70.64,
+          "other_votes": 623,
+          "other_pct": 3.2,
+          "total_votes": 19499,
+          "turnout_pct": 65.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 6205,
+          "dem_pct": 26.81,
+          "gop_votes": 16749,
+          "gop_pct": 72.37,
+          "other_votes": 191,
+          "other_pct": 0.83,
+          "total_votes": 23145,
+          "turnout_pct": 77.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 5994,
+          "dem_pct": 24.59,
+          "gop_votes": 18245,
+          "gop_pct": 74.84,
+          "other_votes": 139,
+          "other_pct": 0.57,
+          "total_votes": 24378,
+          "turnout_pct": 82.0
+        }
+      },
+      "registration": {
+        "total_registered": 29728,
+        "eligible_voters": null,
+        "dem_pct": 20.5,
+        "gop_pct": 61.9,
+        "npp_pct": 13.7,
+        "other_pct": 3.9,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12077": {
+      "name": "Liberty County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 651,
+          "dem_pct": 19.66,
+          "gop_votes": 2543,
+          "gop_pct": 76.78,
+          "other_votes": 118,
+          "other_pct": 3.56,
+          "total_votes": 3312,
+          "turnout_pct": 73.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 694,
+          "dem_pct": 19.49,
+          "gop_votes": 2846,
+          "gop_pct": 79.92,
+          "other_votes": 21,
+          "other_pct": 0.59,
+          "total_votes": 3561,
+          "turnout_pct": 78.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 566,
+          "dem_pct": 16.22,
+          "gop_votes": 2898,
+          "gop_pct": 83.04,
+          "other_votes": 26,
+          "other_pct": 0.74,
+          "total_votes": 3490,
+          "turnout_pct": 77.2
+        }
+      },
+      "registration": {
+        "total_registered": 4522,
+        "eligible_voters": null,
+        "dem_pct": 26.4,
+        "gop_pct": 62.8,
+        "npp_pct": 10.2,
+        "other_pct": 0.5,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12079": {
+      "name": "Madison County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3526,
+          "dem_pct": 41.29,
+          "gop_votes": 4851,
+          "gop_pct": 56.8,
+          "other_votes": 163,
+          "other_pct": 1.91,
+          "total_votes": 8540,
+          "turnout_pct": 81.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 3747,
+          "dem_pct": 39.95,
+          "gop_votes": 5576,
+          "gop_pct": 59.45,
+          "other_votes": 57,
+          "other_pct": 0.61,
+          "total_votes": 9380,
+          "turnout_pct": 89.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 3231,
+          "dem_pct": 35.29,
+          "gop_votes": 5874,
+          "gop_pct": 64.15,
+          "other_votes": 51,
+          "other_pct": 0.56,
+          "total_votes": 9156,
+          "turnout_pct": 87.3
+        }
+      },
+      "registration": {
+        "total_registered": 10484,
+        "eligible_voters": null,
+        "dem_pct": 37.2,
+        "gop_pct": 49.8,
+        "npp_pct": 11.7,
+        "other_pct": 1.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12081": {
+      "name": "Manatee County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 71224,
+          "dem_pct": 39.4,
+          "gop_votes": 101944,
+          "gop_pct": 56.4,
+          "other_votes": 7589,
+          "other_pct": 4.2,
+          "total_votes": 180757,
+          "turnout_pct": 64.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 90166,
+          "dem_pct": 41.56,
+          "gop_votes": 124987,
+          "gop_pct": 57.61,
+          "other_votes": 1805,
+          "other_pct": 0.83,
+          "total_votes": 216958,
+          "turnout_pct": 77.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 86674,
+          "dem_pct": 37.87,
+          "gop_votes": 140486,
+          "gop_pct": 61.39,
+          "other_votes": 1700,
+          "other_pct": 0.74,
+          "total_votes": 228860,
+          "turnout_pct": 82.1
+        }
+      },
+      "registration": {
+        "total_registered": 278890,
+        "eligible_voters": null,
+        "dem_pct": 23.9,
+        "gop_pct": 49.7,
+        "npp_pct": 23.1,
+        "other_pct": 3.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12083": {
+      "name": "Marion County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 62041,
+          "dem_pct": 35.27,
+          "gop_votes": 107833,
+          "gop_pct": 61.3,
+          "other_votes": 6026,
+          "other_pct": 3.43,
+          "total_votes": 175900,
+          "turnout_pct": 66.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 74858,
+          "dem_pct": 36.63,
+          "gop_votes": 127826,
+          "gop_pct": 62.54,
+          "other_votes": 1692,
+          "other_pct": 0.83,
+          "total_votes": 204376,
+          "turnout_pct": 77.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 72436,
+          "dem_pct": 33.83,
+          "gop_votes": 140173,
+          "gop_pct": 65.47,
+          "other_votes": 1497,
+          "other_pct": 0.7,
+          "total_votes": 214106,
+          "turnout_pct": 80.9
+        }
+      },
+      "registration": {
+        "total_registered": 264644,
+        "eligible_voters": null,
+        "dem_pct": 25.2,
+        "gop_pct": 51.6,
+        "npp_pct": 19.3,
+        "other_pct": 3.9,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12085": {
+      "name": "Martin County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 30185,
+          "dem_pct": 34.84,
+          "gop_votes": 53204,
+          "gop_pct": 61.41,
+          "other_votes": 3244,
+          "other_pct": 3.75,
+          "total_votes": 86633,
+          "turnout_pct": 75.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 36893,
+          "dem_pct": 37.37,
+          "gop_votes": 61168,
+          "gop_pct": 61.96,
+          "other_votes": 665,
+          "other_pct": 0.67,
+          "total_votes": 98726,
+          "turnout_pct": 85.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 33539,
+          "dem_pct": 34.12,
+          "gop_votes": 64121,
+          "gop_pct": 65.24,
+          "other_votes": 631,
+          "other_pct": 0.64,
+          "total_votes": 98291,
+          "turnout_pct": 85.2
+        }
+      },
+      "registration": {
+        "total_registered": 115310,
+        "eligible_voters": null,
+        "dem_pct": 20.5,
+        "gop_pct": 54.4,
+        "npp_pct": 20.9,
+        "other_pct": 4.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12086": {
+      "name": "Miami-Dade County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 624146,
+          "dem_pct": 63.22,
+          "gop_votes": 333999,
+          "gop_pct": 33.83,
+          "other_votes": 29046,
+          "other_pct": 2.95,
+          "total_votes": 987191,
+          "turnout_pct": 76.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 617864,
+          "dem_pct": 53.41,
+          "gop_votes": 532833,
+          "gop_pct": 46.06,
+          "other_votes": 6119,
+          "other_pct": 0.53,
+          "total_votes": 1156816,
+          "turnout_pct": 90.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 480355,
+          "dem_pct": 43.9,
+          "gop_votes": 605590,
+          "gop_pct": 55.35,
+          "other_votes": 8160,
+          "other_pct": 0.75,
+          "total_votes": 1094105,
+          "turnout_pct": 85.3
+        }
+      },
+      "registration": {
+        "total_registered": 1283211,
+        "eligible_voters": null,
+        "dem_pct": 31.8,
+        "gop_pct": 35.2,
+        "npp_pct": 30.4,
+        "other_pct": 2.6,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12087": {
+      "name": "Monroe County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 18971,
+          "dem_pct": 44.14,
+          "gop_votes": 21904,
+          "gop_pct": 50.97,
+          "other_votes": 2102,
+          "other_pct": 4.89,
+          "total_votes": 42977,
+          "turnout_pct": 78.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 21881,
+          "dem_pct": 45.56,
+          "gop_votes": 25693,
+          "gop_pct": 53.49,
+          "other_votes": 455,
+          "other_pct": 0.95,
+          "total_votes": 48029,
+          "turnout_pct": 88.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 17933,
+          "dem_pct": 40.46,
+          "gop_votes": 26064,
+          "gop_pct": 58.8,
+          "other_votes": 331,
+          "other_pct": 0.75,
+          "total_votes": 44328,
+          "turnout_pct": 81.3
+        }
+      },
+      "registration": {
+        "total_registered": 54512,
+        "eligible_voters": null,
+        "dem_pct": 27.1,
+        "gop_pct": 45.7,
+        "npp_pct": 23.1,
+        "other_pct": 4.0,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12089": {
+      "name": "Nassau County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 10869,
+          "dem_pct": 23.13,
+          "gop_votes": 34266,
+          "gop_pct": 72.92,
+          "other_votes": 1857,
+          "other_pct": 3.95,
+          "total_votes": 46992,
+          "turnout_pct": 58.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 15564,
+          "dem_pct": 26.46,
+          "gop_votes": 42566,
+          "gop_pct": 72.38,
+          "other_votes": 681,
+          "other_pct": 1.16,
+          "total_votes": 58811,
+          "turnout_pct": 73.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 17143,
+          "dem_pct": 26.12,
+          "gop_votes": 47945,
+          "gop_pct": 73.06,
+          "other_votes": 537,
+          "other_pct": 0.82,
+          "total_votes": 65625,
+          "turnout_pct": 82.1
+        }
+      },
+      "registration": {
+        "total_registered": 79971,
+        "eligible_voters": null,
+        "dem_pct": 16.8,
+        "gop_pct": 60.9,
+        "npp_pct": 18.5,
+        "other_pct": 3.9,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12091": {
+      "name": "Okaloosa County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 23780,
+          "dem_pct": 23.29,
+          "gop_votes": 71893,
+          "gop_pct": 70.42,
+          "other_votes": 6423,
+          "other_pct": 6.29,
+          "total_votes": 102096,
+          "turnout_pct": 69.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 34248,
+          "dem_pct": 29.43,
+          "gop_votes": 79798,
+          "gop_pct": 68.57,
+          "other_votes": 2327,
+          "other_pct": 2.0,
+          "total_votes": 116373,
+          "turnout_pct": 79.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 32074,
+          "dem_pct": 28.23,
+          "gop_votes": 80309,
+          "gop_pct": 70.67,
+          "other_votes": 1253,
+          "other_pct": 1.1,
+          "total_votes": 113636,
+          "turnout_pct": 77.8
+        }
+      },
+      "registration": {
+        "total_registered": 146022,
+        "eligible_voters": null,
+        "dem_pct": 16.4,
+        "gop_pct": 58.7,
+        "npp_pct": 21.1,
+        "other_pct": 3.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12093": {
+      "name": "Okeechobee County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3959,
+          "dem_pct": 28.77,
+          "gop_votes": 9356,
+          "gop_pct": 67.99,
+          "other_votes": 446,
+          "other_pct": 3.24,
+          "total_votes": 13761,
+          "turnout_pct": 67.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 4390,
+          "dem_pct": 27.52,
+          "gop_votes": 11470,
+          "gop_pct": 71.9,
+          "other_votes": 94,
+          "other_pct": 0.59,
+          "total_votes": 15954,
+          "turnout_pct": 78.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 3671,
+          "dem_pct": 22.86,
+          "gop_votes": 12315,
+          "gop_pct": 76.69,
+          "other_votes": 72,
+          "other_pct": 0.45,
+          "total_votes": 16058,
+          "turnout_pct": 78.5
+        }
+      },
+      "registration": {
+        "total_registered": 20445,
+        "eligible_voters": null,
+        "dem_pct": 21.0,
+        "gop_pct": 59.6,
+        "npp_pct": 15.3,
+        "other_pct": 4.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12095": {
+      "name": "Orange County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 329894,
+          "dem_pct": 59.77,
+          "gop_votes": 195216,
+          "gop_pct": 35.37,
+          "other_votes": 26792,
+          "other_pct": 4.86,
+          "total_votes": 511902,
+          "turnout_pct": 63.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 395014,
+          "dem_pct": 61.02,
+          "gop_votes": 245398,
+          "gop_pct": 37.9,
+          "other_votes": 6991,
+          "other_pct": 1.08,
+          "total_votes": 647403,
+          "turnout_pct": 79.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 340807,
+          "dem_pct": 56.13,
+          "gop_votes": 258279,
+          "gop_pct": 42.54,
+          "other_votes": 8113,
+          "other_pct": 1.34,
+          "total_votes": 607199,
+          "turnout_pct": 74.8
+        }
+      },
+      "registration": {
+        "total_registered": 811411,
+        "eligible_voters": null,
+        "dem_pct": 38.7,
+        "gop_pct": 27.7,
+        "npp_pct": 29.8,
+        "other_pct": 3.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12097": {
+      "name": "Osceola County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 85458,
+          "dem_pct": 60.41,
+          "gop_votes": 50301,
+          "gop_pct": 35.56,
+          "other_votes": 5709,
+          "other_pct": 4.03,
+          "total_votes": 141468,
+          "turnout_pct": 61.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 97297,
+          "dem_pct": 56.43,
+          "gop_votes": 73480,
+          "gop_pct": 42.61,
+          "other_votes": 1659,
+          "other_pct": 0.96,
+          "total_votes": 172436,
+          "turnout_pct": 75.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 84205,
+          "dem_pct": 48.74,
+          "gop_votes": 86713,
+          "gop_pct": 50.19,
+          "other_votes": 1862,
+          "other_pct": 1.08,
+          "total_votes": 172780,
+          "turnout_pct": 75.1
+        }
+      },
+      "registration": {
+        "total_registered": 229931,
+        "eligible_voters": null,
+        "dem_pct": 35.3,
+        "gop_pct": 30.1,
+        "npp_pct": 30.6,
+        "other_pct": 4.0,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12099": {
+      "name": "Palm Beach County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 374673,
+          "dem_pct": 56.24,
+          "gop_votes": 272402,
+          "gop_pct": 40.89,
+          "other_votes": 19137,
+          "other_pct": 2.87,
+          "total_votes": 666212,
+          "turnout_pct": 76.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 433572,
+          "dem_pct": 56.08,
+          "gop_votes": 334711,
+          "gop_pct": 43.29,
+          "other_votes": 4875,
+          "other_pct": 0.63,
+          "total_votes": 773158,
+          "turnout_pct": 88.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 372512,
+          "dem_pct": 49.95,
+          "gop_votes": 366836,
+          "gop_pct": 49.19,
+          "other_votes": 6361,
+          "other_pct": 0.85,
+          "total_votes": 745709,
+          "turnout_pct": 85.3
+        }
+      },
+      "registration": {
+        "total_registered": 873786,
+        "eligible_voters": null,
+        "dem_pct": 35.4,
+        "gop_pct": 33.9,
+        "npp_pct": 26.9,
+        "other_pct": 3.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12101": {
+      "name": "Pasco County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 90142,
+          "dem_pct": 37.06,
+          "gop_votes": 142101,
+          "gop_pct": 58.41,
+          "other_votes": 11022,
+          "other_pct": 4.53,
+          "total_votes": 243265,
+          "turnout_pct": 61.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 119073,
+          "dem_pct": 39.43,
+          "gop_votes": 179621,
+          "gop_pct": 59.48,
+          "other_votes": 3276,
+          "other_pct": 1.09,
+          "total_votes": 301970,
+          "turnout_pct": 76.4,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 117450,
+          "dem_pct": 36.88,
+          "gop_votes": 197779,
+          "gop_pct": 62.1,
+          "other_votes": 3242,
+          "other_pct": 1.02,
+          "total_votes": 318471,
+          "turnout_pct": 80.5
+        }
+      },
+      "registration": {
+        "total_registered": 395392,
+        "eligible_voters": null,
+        "dem_pct": 24.9,
+        "gop_pct": 45.3,
+        "npp_pct": 25.4,
+        "other_pct": 4.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12103": {
+      "name": "Pinellas County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 233701,
+          "dem_pct": 46.98,
+          "gop_votes": 239201,
+          "gop_pct": 48.08,
+          "other_votes": 24583,
+          "other_pct": 4.94,
+          "total_votes": 497485,
+          "turnout_pct": 82.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 277450,
+          "dem_pct": 49.57,
+          "gop_votes": 276209,
+          "gop_pct": 49.35,
+          "other_votes": 6056,
+          "other_pct": 1.08,
+          "total_votes": 559715,
+          "turnout_pct": 92.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 242452,
+          "dem_pct": 46.89,
+          "gop_votes": 269472,
+          "gop_pct": 52.11,
+          "other_votes": 5150,
+          "other_pct": 1.0,
+          "total_votes": 517074,
+          "turnout_pct": 85.3
+        }
+      },
+      "registration": {
+        "total_registered": 606508,
+        "eligible_voters": null,
+        "dem_pct": 31.5,
+        "gop_pct": 39.4,
+        "npp_pct": 25.4,
+        "other_pct": 3.7,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12105": {
+      "name": "Polk County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 117433,
+          "dem_pct": 40.92,
+          "gop_votes": 157430,
+          "gop_pct": 54.86,
+          "other_votes": 12106,
+          "other_pct": 4.22,
+          "total_votes": 286969,
+          "turnout_pct": 63.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 145049,
+          "dem_pct": 42.26,
+          "gop_votes": 194586,
+          "gop_pct": 56.69,
+          "other_votes": 3621,
+          "other_pct": 1.05,
+          "total_votes": 343256,
+          "turnout_pct": 76.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 136879,
+          "dem_pct": 39.23,
+          "gop_votes": 209044,
+          "gop_pct": 59.91,
+          "other_votes": 3008,
+          "other_pct": 0.86,
+          "total_votes": 348931,
+          "turnout_pct": 77.4
+        }
+      },
+      "registration": {
+        "total_registered": 450574,
+        "eligible_voters": null,
+        "dem_pct": 29.1,
+        "gop_pct": 42.4,
+        "npp_pct": 24.6,
+        "other_pct": 4.0,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12107": {
+      "name": "Putnam County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 10094,
+          "dem_pct": 30.31,
+          "gop_votes": 22138,
+          "gop_pct": 66.48,
+          "other_votes": 1069,
+          "other_pct": 3.21,
+          "total_votes": 33301,
+          "turnout_pct": 74.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 10527,
+          "dem_pct": 28.94,
+          "gop_votes": 25514,
+          "gop_pct": 70.15,
+          "other_votes": 332,
+          "other_pct": 0.91,
+          "total_votes": 36373,
+          "turnout_pct": 81.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 9354,
+          "dem_pct": 25.79,
+          "gop_votes": 26700,
+          "gop_pct": 73.61,
+          "other_votes": 218,
+          "other_pct": 0.6,
+          "total_votes": 36272,
+          "turnout_pct": 81.4
+        }
+      },
+      "registration": {
+        "total_registered": 44584,
+        "eligible_voters": null,
+        "dem_pct": 23.8,
+        "gop_pct": 57.5,
+        "npp_pct": 15.7,
+        "other_pct": 3.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12109": {
+      "name": "St. Johns County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 43099,
+          "dem_pct": 31.27,
+          "gop_votes": 88684,
+          "gop_pct": 64.34,
+          "other_votes": 6063,
+          "other_pct": 4.39,
+          "total_votes": 137846,
+          "turnout_pct": 58.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 63850,
+          "dem_pct": 36.15,
+          "gop_votes": 110946,
+          "gop_pct": 62.82,
+          "other_votes": 1826,
+          "other_pct": 1.03,
+          "total_votes": 176622,
+          "turnout_pct": 75.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 66862,
+          "dem_pct": 33.86,
+          "gop_votes": 128759,
+          "gop_pct": 65.21,
+          "other_votes": 1836,
+          "other_pct": 0.93,
+          "total_votes": 197457,
+          "turnout_pct": 84.0
+        }
+      },
+      "registration": {
+        "total_registered": 235041,
+        "eligible_voters": null,
+        "dem_pct": 20.0,
+        "gop_pct": 56.0,
+        "npp_pct": 20.8,
+        "other_pct": 3.2,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12111": {
+      "name": "St. Lucie County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 66881,
+          "dem_pct": 47.1,
+          "gop_votes": 70289,
+          "gop_pct": 49.5,
+          "other_votes": 4823,
+          "other_pct": 3.4,
+          "total_votes": 141993,
+          "turnout_pct": 59.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 84137,
+          "dem_pct": 48.87,
+          "gop_votes": 86831,
+          "gop_pct": 50.43,
+          "other_votes": 1201,
+          "other_pct": 0.7,
+          "total_votes": 172169,
+          "turnout_pct": 71.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 83517,
+          "dem_pct": 45.11,
+          "gop_votes": 100293,
+          "gop_pct": 54.17,
+          "other_votes": 1321,
+          "other_pct": 0.71,
+          "total_votes": 185131,
+          "turnout_pct": 77.2
+        }
+      },
+      "registration": {
+        "total_registered": 239854,
+        "eligible_voters": null,
+        "dem_pct": 32.9,
+        "gop_pct": 39.0,
+        "npp_pct": 23.8,
+        "other_pct": 4.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12113": {
+      "name": "Santa Rosa County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 18464,
+          "dem_pct": 20.82,
+          "gop_votes": 65339,
+          "gop_pct": 73.68,
+          "other_votes": 4881,
+          "other_pct": 5.5,
+          "total_votes": 88684,
+          "turnout_pct": 63.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 27612,
+          "dem_pct": 25.82,
+          "gop_votes": 77385,
+          "gop_pct": 72.37,
+          "other_votes": 1931,
+          "other_pct": 1.81,
+          "total_votes": 106928,
+          "turnout_pct": 76.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 27035,
+          "dem_pct": 24.05,
+          "gop_votes": 84314,
+          "gop_pct": 75.0,
+          "other_votes": 1076,
+          "other_pct": 0.96,
+          "total_votes": 112425,
+          "turnout_pct": 80.7
+        }
+      },
+      "registration": {
+        "total_registered": 139248,
+        "eligible_voters": null,
+        "dem_pct": 14.4,
+        "gop_pct": 63.9,
+        "npp_pct": 18.0,
+        "other_pct": 3.7,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12115": {
+      "name": "Sarasota County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 97870,
+          "dem_pct": 42.3,
+          "gop_votes": 124438,
+          "gop_pct": 53.79,
+          "other_votes": 9045,
+          "other_pct": 3.91,
+          "total_votes": 231353,
+          "turnout_pct": 71.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 120110,
+          "dem_pct": 44.39,
+          "gop_votes": 148370,
+          "gop_pct": 54.84,
+          "other_votes": 2095,
+          "other_pct": 0.77,
+          "total_votes": 270575,
+          "turnout_pct": 83.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 112668,
+          "dem_pct": 40.55,
+          "gop_votes": 163219,
+          "gop_pct": 58.74,
+          "other_votes": 1979,
+          "other_pct": 0.71,
+          "total_votes": 277866,
+          "turnout_pct": 85.5
+        }
+      },
+      "registration": {
+        "total_registered": 324933,
+        "eligible_voters": null,
+        "dem_pct": 24.6,
+        "gop_pct": 49.2,
+        "npp_pct": 22.6,
+        "other_pct": 3.5,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12117": {
+      "name": "Seminole County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 105914,
+          "dem_pct": 46.55,
+          "gop_votes": 109443,
+          "gop_pct": 48.1,
+          "other_votes": 12169,
+          "other_pct": 5.35,
+          "total_votes": 227526,
+          "turnout_pct": 67.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 132528,
+          "dem_pct": 50.81,
+          "gop_votes": 125241,
+          "gop_pct": 48.02,
+          "other_votes": 3046,
+          "other_pct": 1.17,
+          "total_votes": 260815,
+          "turnout_pct": 77.1,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 120717,
+          "dem_pct": 47.58,
+          "gop_votes": 129735,
+          "gop_pct": 51.13,
+          "other_votes": 3275,
+          "other_pct": 1.29,
+          "total_votes": 253727,
+          "turnout_pct": 75.0
+        }
+      },
+      "registration": {
+        "total_registered": 338272,
+        "eligible_voters": null,
+        "dem_pct": 31.4,
+        "gop_pct": 35.6,
+        "npp_pct": 29.3,
+        "other_pct": 3.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12119": {
+      "name": "Sumter County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 22638,
+          "dem_pct": 29.31,
+          "gop_votes": 52730,
+          "gop_pct": 68.27,
+          "other_votes": 1870,
+          "other_pct": 2.42,
+          "total_votes": 77238,
+          "turnout_pct": 60.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 29341,
+          "dem_pct": 31.72,
+          "gop_votes": 62761,
+          "gop_pct": 67.86,
+          "other_votes": 383,
+          "other_pct": 0.41,
+          "total_votes": 92485,
+          "turnout_pct": 72.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 32551,
+          "dem_pct": 30.94,
+          "gop_votes": 72134,
+          "gop_pct": 68.56,
+          "other_votes": 533,
+          "other_pct": 0.51,
+          "total_votes": 105218,
+          "turnout_pct": 82.6
+        }
+      },
+      "registration": {
+        "total_registered": 127388,
+        "eligible_voters": null,
+        "dem_pct": 18.3,
+        "gop_pct": 60.2,
+        "npp_pct": 18.6,
+        "other_pct": 3.0,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12121": {
+      "name": "Suwannee County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 3964,
+          "dem_pct": 21.1,
+          "gop_votes": 14287,
+          "gop_pct": 76.05,
+          "other_votes": 536,
+          "other_pct": 2.85,
+          "total_votes": 18787,
+          "turnout_pct": 71.3,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 4485,
+          "dem_pct": 21.3,
+          "gop_votes": 16410,
+          "gop_pct": 77.93,
+          "other_votes": 162,
+          "other_pct": 0.77,
+          "total_votes": 21057,
+          "turnout_pct": 79.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 4217,
+          "dem_pct": 19.26,
+          "gop_votes": 17561,
+          "gop_pct": 80.22,
+          "other_votes": 113,
+          "other_pct": 0.52,
+          "total_votes": 21891,
+          "turnout_pct": 83.1
+        }
+      },
+      "registration": {
+        "total_registered": 26357,
+        "eligible_voters": null,
+        "dem_pct": 19.3,
+        "gop_pct": 64.0,
+        "npp_pct": 13.2,
+        "other_pct": 3.6,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12123": {
+      "name": "Taylor County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 2152,
+          "dem_pct": 23.02,
+          "gop_votes": 6930,
+          "gop_pct": 74.13,
+          "other_votes": 266,
+          "other_pct": 2.85,
+          "total_votes": 9348,
+          "turnout_pct": 80.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 2299,
+          "dem_pct": 22.7,
+          "gop_votes": 7751,
+          "gop_pct": 76.54,
+          "other_votes": 77,
+          "other_pct": 0.76,
+          "total_votes": 10127,
+          "turnout_pct": 87.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 1991,
+          "dem_pct": 19.92,
+          "gop_votes": 7954,
+          "gop_pct": 79.56,
+          "other_votes": 52,
+          "other_pct": 0.52,
+          "total_votes": 9997,
+          "turnout_pct": 86.5
+        }
+      },
+      "registration": {
+        "total_registered": 11556,
+        "eligible_voters": null,
+        "dem_pct": 24.8,
+        "gop_pct": 64.4,
+        "npp_pct": 8.4,
+        "other_pct": 2.4,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12125": {
+      "name": "Union County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 1014,
+          "dem_pct": 17.72,
+          "gop_votes": 4568,
+          "gop_pct": 79.83,
+          "other_votes": 140,
+          "other_pct": 2.45,
+          "total_votes": 5722,
+          "turnout_pct": 79.5,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 1053,
+          "dem_pct": 16.86,
+          "gop_votes": 5133,
+          "gop_pct": 82.2,
+          "other_votes": 59,
+          "other_pct": 0.94,
+          "total_votes": 6245,
+          "turnout_pct": 86.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 971,
+          "dem_pct": 15.58,
+          "gop_votes": 5224,
+          "gop_pct": 83.84,
+          "other_votes": 36,
+          "other_pct": 0.58,
+          "total_votes": 6231,
+          "turnout_pct": 86.6
+        }
+      },
+      "registration": {
+        "total_registered": 7195,
+        "eligible_voters": null,
+        "dem_pct": 21.0,
+        "gop_pct": 67.7,
+        "npp_pct": 9.2,
+        "other_pct": 2.1,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12127": {
+      "name": "Volusia County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 109091,
+          "dem_pct": 41.44,
+          "gop_votes": 143007,
+          "gop_pct": 54.32,
+          "other_votes": 11180,
+          "other_pct": 4.24,
+          "total_votes": 263278,
+          "turnout_pct": 66.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 130575,
+          "dem_pct": 42.47,
+          "gop_votes": 173821,
+          "gop_pct": 56.54,
+          "other_votes": 3043,
+          "other_pct": 0.99,
+          "total_votes": 307439,
+          "turnout_pct": 77.8,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 120132,
+          "dem_pct": 38.69,
+          "gop_votes": 187691,
+          "gop_pct": 60.45,
+          "other_votes": 2675,
+          "other_pct": 0.86,
+          "total_votes": 310498,
+          "turnout_pct": 78.5
+        }
+      },
+      "registration": {
+        "total_registered": 395374,
+        "eligible_voters": null,
+        "dem_pct": 26.7,
+        "gop_pct": 43.1,
+        "npp_pct": 26.1,
+        "other_pct": 4.2,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12129": {
+      "name": "Wakulla County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 4348,
+          "dem_pct": 28.15,
+          "gop_votes": 10512,
+          "gop_pct": 68.07,
+          "other_votes": 584,
+          "other_pct": 3.78,
+          "total_votes": 15444,
+          "turnout_pct": 61.0,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 5351,
+          "dem_pct": 29.08,
+          "gop_votes": 12874,
+          "gop_pct": 69.95,
+          "other_votes": 179,
+          "other_pct": 0.97,
+          "total_votes": 18404,
+          "turnout_pct": 72.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 5441,
+          "dem_pct": 27.4,
+          "gop_votes": 14246,
+          "gop_pct": 71.75,
+          "other_votes": 169,
+          "other_pct": 0.85,
+          "total_votes": 19856,
+          "turnout_pct": 78.5
+        }
+      },
+      "registration": {
+        "total_registered": 25307,
+        "eligible_voters": null,
+        "dem_pct": 24.9,
+        "gop_pct": 55.0,
+        "npp_pct": 16.3,
+        "other_pct": 3.8,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12131": {
+      "name": "Walton County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 6876,
+          "dem_pct": 20.28,
+          "gop_votes": 25756,
+          "gop_pct": 75.98,
+          "other_votes": 1266,
+          "other_pct": 3.74,
+          "total_votes": 33898,
+          "turnout_pct": 55.6,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 10338,
+          "dem_pct": 23.65,
+          "gop_votes": 32947,
+          "gop_pct": 75.37,
+          "other_votes": 426,
+          "other_pct": 0.97,
+          "total_votes": 43711,
+          "turnout_pct": 71.7,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 10287,
+          "dem_pct": 20.74,
+          "gop_votes": 38970,
+          "gop_pct": 78.57,
+          "other_votes": 344,
+          "other_pct": 0.69,
+          "total_votes": 49601,
+          "turnout_pct": 81.3
+        }
+      },
+      "registration": {
+        "total_registered": 60999,
+        "eligible_voters": null,
+        "dem_pct": 12.2,
+        "gop_pct": 68.4,
+        "npp_pct": 15.7,
+        "other_pct": 3.6,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    },
+    "12133": {
+      "name": "Washington County",
+      "presidential": {
+        "2016": {
+          "dem_votes": 2264,
+          "dem_pct": 20.19,
+          "gop_votes": 8637,
+          "gop_pct": 77.04,
+          "other_votes": 310,
+          "other_pct": 2.77,
+          "total_votes": 11211,
+          "turnout_pct": 77.2,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2020": {
+          "dem_votes": 2347,
+          "dem_pct": 19.04,
+          "gop_votes": 9876,
+          "gop_pct": 80.12,
+          "other_votes": 104,
+          "other_pct": 0.84,
+          "total_votes": 12327,
+          "turnout_pct": 84.9,
+          "_turnout_note": "2026 registration used; different-year registration unavailable"
+        },
+        "2024": {
+          "dem_votes": 2140,
+          "dem_pct": 17.01,
+          "gop_votes": 10370,
+          "gop_pct": 82.41,
+          "other_votes": 74,
+          "other_pct": 0.59,
+          "total_votes": 12584,
+          "turnout_pct": 86.6
+        }
+      },
+      "registration": {
+        "total_registered": 14523,
+        "eligible_voters": null,
+        "dem_pct": 17.8,
+        "gop_pct": 68.4,
+        "npp_pct": 11.4,
+        "other_pct": 2.3,
+        "_note": "Florida voter registration as of March 31, 2026 (FL DOS). Party registration is by active registered voters."
+      }
+    }
+  }
+}
