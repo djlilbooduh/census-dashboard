@@ -254,6 +254,78 @@ function cleanCityName(full) {
 
 function fmt(n) { return n ? n.toLocaleString() : '0'; }
 
+function normalizeVotingData(vdata) {
+  // Convert any voting format into {county_key: {presidential: {year: {dem_pct, gop_pct, ...}}}}
+  var out = {};
+  var counties = null;
+  
+  // Standard: vdata.counties
+  if (vdata.counties) {
+    counties = vdata.counties;
+  }
+  // AK: borough_results
+  else if (vdata.borough_results) {
+    counties = vdata.borough_results;
+  }
+  // KY: top-level list
+  else if (Array.isArray(vdata)) {
+    counties = vdata;
+  }
+  // MD/RI: nested presidential.counties
+  else if (vdata.presidential && vdata.presidential.counties) {
+    counties = vdata.presidential.counties;
+  }
+  
+  if (!counties) return out;
+  
+  // Handle list format
+  if (Array.isArray(counties)) {
+    counties.forEach(function(c) {
+      var key = c.name || c.county || c.fips || '';
+      if (key) out[key] = normalizeCountyEntry(c);
+    });
+    return out;
+  }
+  
+  // Handle dict format
+  Object.entries(counties).forEach(function(e) {
+    var key = e[0], val = e[1];
+    if (typeof val === 'object') out[key] = normalizeCountyEntry(val);
+  });
+  
+  return out;
+}
+
+function normalizeCountyEntry(c) {
+  // If it already has presidential, return as-is
+  if (c.presidential) return c;
+  
+  // Convert president_2024 format
+  if (c.president_2024 || c.harris_pct) {
+    var pres = {};
+    ['2024','2020','2016'].forEach(function(yr) {
+      var key = yr === '2024' ? 'president_2024' : 'presidential_' + yr;
+      var pd = c[key] || (yr === '2024' ? c : null);
+      if (pd) {
+        pres[yr] = {
+          dem_pct: pd.harris_pct || pd.dem_pct || 0,
+          gop_pct: pd.trump_pct || pd.gop_pct || 0,
+          total_votes: pd.total_votes || 0,
+          turnout_pct: pd.turnout_pct || c.turnout_2024_pct || 0
+        };
+      }
+    });
+    return { name: c.name || c.county || '', presidential: pres, registration: c.registration || c.voter_registration || null };
+  }
+  
+  // Minimal: just has harris_pct/trump_pct at top level
+  if (c.harris_pct) {
+    return { name: c.name || '', presidential: { '2024': { dem_pct: c.harris_pct, gop_pct: c.trump_pct, total_votes: c.total_votes || 0 } } };
+  }
+  
+  return c;
+}
+
 function renderCurrentCity() {
   const d = allCityData[currentCity];
   if (!d) {
