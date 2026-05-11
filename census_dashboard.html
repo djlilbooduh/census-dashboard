@@ -146,9 +146,17 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
     <div class="tab" onclick="showTab('crime')">🛡️ Crime</div>
     <div class="tab" onclick="showTab('voting')">🗳️ Voting</div>
   </div>
-  <div class="city-search" style="position:relative">
-    <input type="text" id="citySearch" placeholder="🔍 Search cities…" autocomplete="off"
-           onfocus="showCityDropdown()" oninput="filterCityDropdown()" onkeydown="handleCityKey(event)">
+  <div class="city-search" style="position:relative;max-width:600px">
+    <div style="display:flex;gap:.5rem;align-items:center">
+      <button id="compareBtn" class="export-btn" onclick="toggleCompare()" style="white-space:nowrap">📊 Compare</button>
+      <input type="text" id="citySearch" placeholder="🔍 Search cities…" autocomplete="off" style="flex:1"
+             onfocus="showCityDropdown()" oninput="filterCityDropdown()" onkeydown="handleCityKey(event)">
+    </div>
+    <div id="secondCityRow" style="display:none;margin-top:.5rem">
+      <input type="text" id="secondCitySearch" placeholder="🔍 Select second city to compare…" autocomplete="off" style="width:100%"
+             onfocus="showSecondDropdown()" oninput="filterSecondDropdown()" onkeydown="handleSecondKey(event)">
+      <div id="secondDropdown" class="city-dropdown"></div>
+    </div>
     <div id="cityDropdown" class="city-dropdown"></div>
   </div>
 </header>
@@ -189,6 +197,11 @@ let currentTab = 'census';
 let currentNationalYear = '2024';
 let cityCountyReady = false;
 let activeIdx = -1;
+let secondIdx = -1;
+
+// Compare mode
+let compareMode = false;
+let secondCity = null;
 
 function getDataURL(st, type) {
   const prefix = st.toLowerCase();
@@ -732,11 +745,215 @@ function selectCity(key) {
   currentCity = key;
   document.getElementById('citySearch').value = key;
   document.getElementById('cityDropdown').classList.remove('show');
-  renderCurrentCity();
+  if (compareMode && secondCity) renderCompare();
+  else renderCurrentCity();
+}
+
+// ── Compare Mode ──
+function toggleCompare() {
+  compareMode = !compareMode;
+  var btn = document.getElementById('compareBtn');
+  var row = document.getElementById('secondCityRow');
+  if (compareMode) {
+    btn.textContent = '✕ Exit Compare';
+    btn.style.background = 'rgba(255,82,82,0.15)';
+    btn.style.borderColor = 'var(--sc)';
+    btn.style.color = 'var(--sc)';
+    row.style.display = 'block';
+    if (secondCity) renderCompare();
+  } else {
+    btn.textContent = '📊 Compare';
+    btn.style.background = '';
+    btn.style.borderColor = '';
+    btn.style.color = '';
+    row.style.display = 'none';
+    secondCity = null;
+    document.getElementById('secondCitySearch').value = '';
+    renderCurrentCity();
+  }
+}
+
+function selectSecondCity(key) {
+  secondCity = key;
+  document.getElementById('secondCitySearch').value = key;
+  document.getElementById('secondDropdown').classList.remove('show');
+  renderCompare();
+}
+
+function filterSecondDropdown() {
+  var q = document.getElementById('secondCitySearch').value.toLowerCase().trim();
+  var dd = document.getElementById('secondDropdown');
+  if (!q) { dd.classList.remove('show'); return; }
+  var matches = allCityKeys.filter(function(k) { return k.toLowerCase().includes(q); }).slice(0, 30);
+  if (matches.length === 0) {
+    dd.innerHTML = '<div class="no-results">No cities match</div>';
+  } else {
+    dd.innerHTML = matches.map(function(k, i) { return '<div class="item' + (i===0?' active':'') + '" data-city="' + k.replace(/"/g, '&quot;') + '" onmousedown="selectSecondCity(this.dataset.city)">' + k + '</div>'; }).join('');
+  }
+  dd.classList.add('show');
+  secondIdx = 0;
+}
+
+function showSecondDropdown() {
+  document.getElementById('secondDropdown').classList.add('show');
+  if (!document.getElementById('secondDropdown').innerHTML) filterSecondDropdown();
+}
+
+function handleSecondKey(e) {
+  var dd = document.getElementById('secondDropdown');
+  var items = dd.querySelectorAll('.item');
+  if (e.key === 'ArrowDown') { e.preventDefault(); secondIdx = Math.min(secondIdx + 1, items.length - 1); updateSecondActive(items); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); secondIdx = Math.max(secondIdx - 1, 0); updateSecondActive(items); }
+  else if (e.key === 'Enter') { e.preventDefault(); if (items[secondIdx]) items[secondIdx].click(); }
+  else if (e.key === 'Escape') { dd.classList.remove('show'); }
+}
+
+function updateSecondActive(items) {
+  items.forEach(function(item, i) { item.classList.toggle('active', i === secondIdx); });
+  var active = items[secondIdx];
+  if (active) active.scrollIntoView({ block: 'nearest' });
+}
+
+function diffHighlight(v1, v2, inverse) {
+  // Returns a style string: green if v1 is "better" (higher for inverse=false)
+  // For income/population, higher=green. For crime/poverty, higher=red (inverse=true)
+  if (v1 === v2 || !v1 || !v2) return '';
+  var better = inverse ? v1 < v2 : v1 > v2;
+  return better ? 'color:#66bb6a;font-weight:700' : 'color:#ff5252;font-weight:700';
+}
+
+function renderCompare() {
+  if (!secondCity) return;
+  var d1 = allCityData[currentCity];
+  var d2 = allCityData[secondCity];
+  if (!d1 || !d2) return;
+  
+  if (currentTab === 'census') renderCompareCensus(d1, d2);
+  else if (currentTab === 'crime') { if (crimeLoaded) renderCompareCrime(); else { loadCrimeData().then(function() { renderCompareCrime(); }); } }
+  else if (currentTab === 'voting') renderCompareVoting();
+}
+
+function compareHeader() {
+  return '<div class="voting-section"><div class="grid" style="grid-template-columns:1fr 1fr">' +
+    '<div class="card" style="text-align:center;border-color:var(--ac)"><div class="big-num" style="font-size:1.2rem;color:var(--ac)">' + cleanCityName(currentCity) + '</div></div>' +
+    '<div class="card" style="text-align:center"><div class="big-num" style="font-size:1.2rem;color:var(--cf)">' + cleanCityName(secondCity) + '</div></div></div></div>';
+}
+
+function renderCompareCensus(d1, d2) {
+  var html = compareHeader();
+  
+  // Population + income cards
+  html += '<div class="grid" style="grid-template-columns:1fr 1fr">';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Population</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(d1.population?.total, d2.population?.total) + '">' + fmt(d1.population?.total || 0) + '</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Population</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(d2.population?.total, d1.population?.total) + '">' + fmt(d2.population?.total || 0) + '</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Median Income</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(d1.economics?.median_household_income, d2.economics?.median_household_income) + '">$' + fmt(d1.economics?.median_household_income || 0) + '</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Median Income</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(d2.economics?.median_household_income, d1.economics?.median_household_income) + '">$' + fmt(d2.economics?.median_household_income || 0) + '</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Poverty Rate</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(d1.economics?.poverty_pct, d2.economics?.poverty_pct, true) + '">' + (d1.economics?.poverty_pct || 0) + '%</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Poverty Rate</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(d2.economics?.poverty_pct, d1.economics?.poverty_pct, true) + '">' + (d2.economics?.poverty_pct || 0) + '%</div></div>';
+  html += '</div>';
+  
+  // Race comparison
+  var r1 = d1.race || [], r2 = d2.race || [];
+  if (r1.length || r2.length) {
+    html += '<div class="card" style="max-width:960px;margin:1rem auto"><h2>🧑 Race & Ethnicity Comparison</h2><table class="voting-table"><thead><tr><th class="col-left">Group</th><th>' + cleanCityName(currentCity) + '</th><th>' + cleanCityName(secondCity) + '</th><th>Diff</th></tr></thead><tbody>';
+    var allGroups = new Set();
+    r1.forEach(function(r) { allGroups.add(r.group); });
+    r2.forEach(function(r) { allGroups.add(r.group); });
+    allGroups.forEach(function(g) {
+      var v1 = (r1.find(function(r) { return r.group === g; }) || {}).pct || 0;
+      var v2 = (r2.find(function(r) { return r.group === g; }) || {}).pct || 0;
+      var diff = (v1 - v2).toFixed(1);
+      var dColor = Math.abs(diff) < 1 ? 'var(--mu)' : diff > 0 ? '#4fc3f7' : '#ffab40';
+      html += '<tr><td class="col-left">' + g + '</td><td>' + v1 + '%</td><td>' + v2 + '%</td><td style="color:' + dColor + ';font-weight:600">' + (diff > 0 ? '+' : '') + diff + 'pp</td></tr>';
+    });
+    html += '</tbody></table></div>';
+  }
+  
+  document.getElementById('popCards').innerHTML = '';
+  document.getElementById('raceSection').innerHTML = html;
+  document.getElementById('detailGrid').innerHTML = '';
+}
+
+function renderCompareCrime() {
+  var a1 = arrestData[currentCity];
+  var a2 = arrestData[secondCity];
+  if (!a1 && !a2) { document.getElementById('crimeContainer').innerHTML = '<div class="card loading-msg">No arrest data for either city</div>'; return; }
+  
+  // Normalize legacy format
+  [a1, a2].forEach(function(a) {
+    if (!a) return;
+    if (a.arrests_by_race && !a.race) {
+      var lr = {}; Object.entries(a.arrests_by_race).forEach(function(e) { lr[e[0]] = typeof e[1] === 'object' ? (e[1].count || 0) : e[1]; }); a.race = lr;
+    }
+    if (a.arrests_by_sex && !a.sex) {
+      var ls = {}; Object.entries(a.arrests_by_sex).forEach(function(e) { ls[e[0]] = typeof e[1] === 'object' ? (e[1].count || 0) : e[1]; }); a.sex = ls;
+    }
+  });
+  
+  var html = compareHeader();
+  var pop1 = allCityData[currentCity]?.population?.total || 1;
+  var pop2 = allCityData[secondCity]?.population?.total || 1;
+  var t1 = a1 ? (a1.total_arrests || 0) : 0;
+  var t2 = a2 ? (a2.total_arrests || 0) : 0;
+  var r1 = t1 / pop1 * 1000;
+  var r2 = t2 / pop2 * 1000;
+  
+  html += '<div class="grid" style="grid-template-columns:1fr 1fr">';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Arrest Rate per 1,000</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(r2, r1) + '">' + r1.toFixed(1) + '</div><div class="stat-sub">' + fmt(t1) + ' arrests</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Arrest Rate per 1,000</div><div class="big-num" style="font-size:1.5rem;' + diffHighlight(r1, r2) + '">' + r2.toFixed(1) + '</div><div class="stat-sub">' + fmt(t2) + ' arrests</div></div>';
+  html += '</div>';
+  
+  document.getElementById('crimeContainer').innerHTML = html;
+}
+
+function renderCompareVoting() {
+  var cv1 = findCountyVoteFor(currentCity);
+  var cv2 = findCountyVoteFor(secondCity);
+  
+  var html = compareHeader();
+  if (cv1 || cv2) {
+    html += '<div class="grid" style="grid-template-columns:1fr 1fr">';
+    [cv1, cv2].forEach(function(cv, i) {
+      var label = i === 0 ? cleanCityName(currentCity) : cleanCityName(secondCity);
+      if (cv && cv.presidential && cv.presidential['2024']) {
+        var p = cv.presidential['2024'];
+        var m = (p.dem_pct||0) - (p.gop_pct||0);
+        var lean = m > 0 ? 'D+' + m.toFixed(1) : 'R+' + Math.abs(m).toFixed(1);
+        html += '<div class="card" style="text-align:center"><div class="big-label">' + label + ' · ' + (cv.name || 'County') + '</div>';
+        html += '<div class="big-num" style="font-size:1.5rem;color:' + (m>0?'var(--ac)':'var(--sc)') + '">' + lean + '</div>';
+        html += '<div class="stat-sub">🟦 ' + (p.dem_pct||0).toFixed(1) + '% · 🟥 ' + (p.gop_pct||0).toFixed(1) + '%</div></div>';
+      } else {
+        html += '<div class="card" style="text-align:center"><div class="big-label">' + label + '</div><p style="color:var(--mu)">No county data</p></div>';
+      }
+    });
+    html += '</div>';
+  }
+  document.getElementById('votingContainer').innerHTML = html;
+}
+
+function findCountyVoteFor(cityName) {
+  if (!cityCountyReady) return null;
+  var stMap = cityCountyMap[currentState] || {};
+  var shortName = cleanCityName(cityName) + ', ' + currentState;
+  var info = stMap[shortName] || stMap[cityName];
+  if (!info || !countyData) return null;
+  var fips = info.county_fips || '';
+  if (countyData.keyType === 'fips' && fips) return countyData.counties[fips] || null;
+  var cname = info.county || '';
+  if (cname && countyData.counties) {
+    for (var k in countyData.counties) {
+      var v = countyData.counties[k];
+      if (k.includes(cname) || (v.name || '').includes(cname)) return v;
+    }
+  }
+  return null;
 }
 
 document.addEventListener('click', function(e) {
-  if (!e.target.closest('.city-search')) document.getElementById('cityDropdown').classList.remove('show');
+  if (!e.target.closest('.city-search')) {
+    document.getElementById('cityDropdown').classList.remove('show');
+    document.getElementById('secondDropdown').classList.remove('show');
+  }
 });
 
 function exportCSV() {
