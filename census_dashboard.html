@@ -119,6 +119,7 @@ let allCityKeys = [];
 let allCityData = {};
 let countyData = null;
 let countyVoting = {};
+let cityCountyMap = {};
 let arrestData = {};
 let crimeLoaded = false;
 let currentTab = 'census';
@@ -389,24 +390,26 @@ const NATIONAL_VOTE = {
 };
 
 function findCountyVote() {
-  // Try to find county-level voting for current city
-  const cityData = allCityData[currentCity];
-  if (!cityData || !countyData) return null;
+  // Try to find county-level voting for current city using city_county_map
+  const stMap = cityCountyMap[currentState] || {};
+  // Try city name in "City, ST" format first (from map data)
+  const shortName = cleanCityName(currentCity) + ', ' + currentState;
+  const countyInfo = stMap[shortName] || stMap[currentCity];
   
-  const countyFips = cityData.county_fips || '';
-  const countyName = cityData.county || '';
+  if (!countyInfo || !countyData) return null;
   
-  // Try FIPS lookup first
+  const countyFips = countyInfo.county_fips || '';
+  
+  // Try FIPS lookup
   if (countyData.keyType === 'fips' && countyFips) {
-    const cv = countyData.counties[countyFips];
-    if (cv) return cv;
+    return countyData.counties[countyFips] || null;
   }
   
   // Try name lookup
+  const countyName = countyInfo.county || '';
   if (countyName && countyData.counties) {
     for (const [k, v] of Object.entries(countyData.counties)) {
-      if (k.toLowerCase().includes(countyName.toLowerCase()) || 
-          (v.name && v.name.toLowerCase().includes(countyName.toLowerCase()))) {
+      if (k.includes(countyName) || (v.name || '').includes(countyName)) {
         return v;
       }
     }
@@ -433,13 +436,37 @@ function renderVoting(year) {
   });
   html += '</div>';
   
-  // County-level card if available
+  // County-level card if available  
   if (countyPres) {
     const margin = (countyPres.dem_pct || 0) - (countyPres.gop_pct || 0);
     const lean = margin > 0 ? 'D+' + margin.toFixed(1) : 'R+' + Math.abs(margin).toFixed(1);
-    html += '<div class="grid"><div class="card" style="text-align:center"><div class="big-label">County: ' + (cleanCityName(currentCity)) + '</div>';
+    const demName = countyPres.dem_name || countyPres.dem || 'Dem';
+    const gopName = countyPres.gop_name || countyPres.gop || 'GOP';
+    html += '<div class="grid"><div class="card" style="text-align:center"><div class="big-label">' + (cv.name || 'County') + ' · ' + year + '</div>';
     html += '<div class="big-num">' + lean + '</div>';
-    html += '<div class="stat-sub">' + (countyPres.dem_name||'Dem') + ' ' + (countyPres.dem_pct||0).toFixed(1) + '% · ' + (countyPres.gop_name||'GOP') + ' ' + (countyPres.gop_pct||0).toFixed(1) + '%</div></div></div>';
+    html += '<div class="stat-sub">' + demName + ' ' + (countyPres.dem_pct||0).toFixed(1) + '% · ' + gopName + ' ' + (countyPres.gop_pct||0).toFixed(1) + '%</div>';
+    const tv = countyPres.total_votes || 0;
+    if (tv) html += '<div class="stat-sub">' + tv.toLocaleString() + ' votes · Turnout: ' + (countyPres.turnout_pct||countyPres.turnout||'?') + '%</div>';
+    html += '</div>';
+    
+    // Show multi-year county results if available
+    if (cv.presidential) {
+      const years = ['2024','2020','2016'].filter(y => cv.presidential[y]);
+      if (years.length > 1) {
+        html += '<div class="card"><h2>📈 County Results by Year</h2><table><thead><tr><th>Year</th><th>Dem</th><th>GOP</th><th>Margin</th><th>Turnout</th></tr></thead><tbody>';
+        years.forEach(yr => {
+          const p = cv.presidential[yr];
+          const m = (p.dem_pct||0) - (p.gop_pct||0);
+          const l = m > 0 ? 'D+' + m.toFixed(1) : 'R+' + Math.abs(m).toFixed(1);
+          html += '<tr><td><strong>' + yr + '</strong></td><td class="dem">' + (p.dem_pct||0).toFixed(1) + '%</td>';
+          html += '<td class="gop">' + (p.gop_pct||0).toFixed(1) + '%</td>';
+          html += '<td style="color:' + (m>0?'var(--ac)':'var(--sc)') + ';font-weight:600">' + l + '</td>';
+          html += '<td>' + (p.turnout_pct||'?') + '%</td></tr>';
+        });
+        html += '</tbody></table></div>';
+      }
+    }
+    html += '</div>';
   }
   
   // National overview
@@ -537,6 +564,12 @@ function exportCSV() {
 }
 
 // ════════ INIT ════════
+// Load city→county mapping for all states (one-time)
+fetch('city_county_maps.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(m => { cityCountyMap = m; })
+  .catch(() => {});
+
 // Check URL hash for state
 const hashState = window.location.hash.replace('#', '').toUpperCase();
 const initState = STATES[hashState] ? hashState : 'CA';
