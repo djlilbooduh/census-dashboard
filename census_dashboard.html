@@ -393,7 +393,7 @@ const NATIONAL_VOTE = {
 };
 
 function findCountyVote() {
-  // Try to find county-level voting for current city using city_county_map
+  if (!cityCountyReady) return null;
   const stMap = cityCountyMap[currentState] || {};
   // Try city name in "City, ST" format first (from map data)
   const shortName = cleanCityName(currentCity) + ', ' + currentState;
@@ -603,11 +603,17 @@ function exportCSV() {
 }
 
 // ════════ INIT ════════
-// Load city→county mapping for all states (one-time)
-fetch('city_county_maps.json?t=' + Date.now())
+// Preload city→county mapping (needed by voting tab)
+let cityCountyReady = false;
+fetch('city_county_maps.json')
   .then(r => r.json())
-  .then(m => { cityCountyMap = m; })
-  .catch(() => {});
+  .then(m => { 
+    cityCountyMap = m; 
+    cityCountyReady = true; 
+    // Re-render voting tab if user is already viewing it
+    if (currentTab === 'voting' && currentCity) renderVoting(currentNationalYear);
+  })
+  .catch(() => { cityCountyReady = true; });
 
 // Check URL hash for state
 const hashState = window.location.hash.replace('#', '').toUpperCase();
