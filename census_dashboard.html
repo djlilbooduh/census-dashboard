@@ -297,31 +297,48 @@ function normalizeVotingData(vdata) {
 }
 
 function normalizeCountyEntry(c) {
-  // If it already has presidential or voting, return as-is
+  // Already normalized
   if (c.presidential) return c;
   if (c.voting) { var vc = Object.assign({}, c); vc.presidential = c.voting; return vc; }
   
-  // Convert president_2024 format
-  if (c.president_2024 || c.harris_pct) {
+  // MI: years directly at county level
+  if ((c['2024'] || c['2020'] || c['2016']) && typeof c['2024'] === 'object') {
     var pres = {};
-    ['2024','2020','2016'].forEach(function(yr) {
-      var key = yr === '2024' ? 'president_2024' : 'presidential_' + yr;
-      var pd = c[key] || (yr === '2024' ? c : null);
-      if (pd) {
-        pres[yr] = {
-          dem_pct: pd.harris_pct || pd.dem_pct || 0,
-          gop_pct: pd.trump_pct || pd.gop_pct || 0,
-          total_votes: pd.total_votes || 0,
-          turnout_pct: pd.turnout_pct || c.turnout_2024_pct || 0
-        };
-      }
+    ['2016','2020','2024'].forEach(function(yr) {
+      if (c[yr] && typeof c[yr] === 'object') pres[yr] = { dem_pct: c[yr].dem_pct || 0, gop_pct: c[yr].gop_pct || 0, total_votes: c[yr].total_votes || 0 };
     });
-    return { name: c.name || c.county || '', presidential: pres, registration: c.registration || c.voter_registration || null };
+    return { name: c.name || c.county || '', presidential: pres };
   }
   
-  // Minimal: just has harris_pct/trump_pct at top level
-  if (c.harris_pct) {
-    return { name: c.name || '', presidential: { '2024': { dem_pct: c.harris_pct, gop_pct: c.trump_pct, total_votes: c.total_votes || 0 } } };
+  // MS: results_2024
+  if (c.results_2024) {
+    var r = c.results_2024;
+    return { name: c.name || '', presidential: { '2024': { dem_pct: r.dem_pct || r.harris_pct || 0, gop_pct: r.gop_pct || r.trump_pct || 0, total_votes: r.total || 0 } } };
+  }
+  
+  // NH: results key
+  if (c.results && c.results.dem_pct !== undefined) {
+    return { name: c.name || '', presidential: { '2024': { dem_pct: c.results.dem_pct || 0, gop_pct: c.results.gop_pct || 0, total_votes: c.results.total_votes || 0 } } };
+  }
+  
+  // Handle all variants: presidential_2024, president_2024, president2024, IN, WI, ND
+  var pd = c.presidential_2024 || c.president_2024 || c.president2024 || c;
+  // WI/ND: harris/trump at top level (may be raw votes or pct)
+  var dp = (pd.presidential_2024 || pd.president_2024) ? (pd.presidential_2024 || pd.president_2024).harris_pct || (pd.presidential_2024 || pd.president_2024).dem_pct : null;
+  var gp = (pd.presidential_2024 || pd.president_2024) ? (pd.presidential_2024 || pd.president_2024).trump_pct || (pd.presidential_2024 || pd.president_2024).gop_pct : null;
+  dp = dp || pd.harris_pct || pd.dem_pct || pd.harris;
+  gp = gp || pd.trump_pct || pd.gop_pct || pd.trump;
+  
+  if (dp !== undefined && gp !== undefined) {
+    // Convert raw votes to percentages if needed
+    if (pd.harris && pd.trump && pd.total_votes && !pd.harris_pct) {
+      dp = +(pd.harris / pd.total_votes * 100).toFixed(1);
+      gp = +(pd.trump / pd.total_votes * 100).toFixed(1);
+    }
+    var turnout = c.turnout_pct || c.turnout_2024_pct || 0;
+    var total = c.total_votes || (pd.total_votes) || 0;
+    var reg = c.registration || c.voter_registration || c.voter_registration_nov_2024 || c.voter_registration_nov2024 || c.registration_nov_2024 || null;
+    return { name: c.name || c.county || '', presidential: { '2024': { dem_pct: dp, gop_pct: gp, total_votes: total, turnout_pct: turnout } }, registration: reg };
   }
   
   return c;
