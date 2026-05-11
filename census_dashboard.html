@@ -36,6 +36,9 @@ header .sub{color:var(--mu);font-size:.75rem}
 .race-label{width:190px;font-size:.74rem;text-align:right;flex-shrink:0;color:var(--tx)}
 .race-bar-track{flex:1;height:24px;background:rgba(255,255,255,.03);border-radius:4px;overflow:hidden}
 .race-bar-fill{height:100%;border-radius:4px;transition:width .8s ease-out;display:flex;align-items:center;padding-left:.6rem;font-size:.64rem;font-weight:600;white-space:nowrap}
+.vote-bar-track{height:10px;background:rgba(255,255,255,.05);border-radius:5px;overflow:hidden;display:flex;margin:.5rem 0}
+.vote-bar-dem{background:#4fc3f7;height:100%;border-radius:5px 0 0 5px}
+.vote-bar-gop{background:#ff5252;height:100%;border-radius:0 5px 5px 0}
 .race-pct{width:55px;font-size:.76rem;font-weight:600;font-family:'SF Mono',monospace;flex-shrink:0}
 .race-count{width:75px;font-size:.68rem;color:var(--mu);flex-shrink:0;text-align:right}
 .vote-table{max-width:1200px;margin:1rem auto;padding:0 1.5rem}
@@ -423,45 +426,78 @@ function renderVoting(year) {
   const d = NATIONAL_VOTE[year];
   if (!d) return;
   
-  // Try county-level data
   const cv = findCountyVote();
-  let countyPres = null;
-  if (cv && cv.presidential && cv.presidential[year]) {
-    countyPres = cv.presidential[year];
-  }
+  let cp = null;
+  if (cv && cv.presidential && cv.presidential[year]) cp = cv.presidential[year];
+  const reg = cv && cv.registration ? cv.registration : null;
   
+  // ── Year Selector ──
   let html = '<div class="year-selector">';
   Object.keys(NATIONAL_VOTE).forEach(y => {
-    html += '<div class="year-btn' + (y==year?' active':'') + '" data-year="' + y + '" onclick="renderVoting(this.dataset.year)">' + y + '</div>';
+    html += '<div class="year-btn' + (y==year?' active':'') + '" data-year="' + y + '" onclick="renderVoting(this.dataset.year)">' + y + ' Election</div>';
   });
   html += '</div>';
   
-  // County-level card if available  
-  if (countyPres) {
-    const margin = (countyPres.dem_pct || 0) - (countyPres.gop_pct || 0);
+  // ── County Results ──
+  if (cp) {
+    const margin = (cp.dem_pct||0) - (cp.gop_pct||0);
     const lean = margin > 0 ? 'D+' + margin.toFixed(1) : 'R+' + Math.abs(margin).toFixed(1);
-    const demName = countyPres.dem_name || countyPres.dem || 'Dem';
-    const gopName = countyPres.gop_name || countyPres.gop || 'GOP';
-    html += '<div class="grid"><div class="card" style="text-align:center"><div class="big-label">' + (cv.name || 'County') + ' · ' + year + '</div>';
-    html += '<div class="big-num">' + lean + '</div>';
-    html += '<div class="stat-sub">' + demName + ' ' + (countyPres.dem_pct||0).toFixed(1) + '% · ' + gopName + ' ' + (countyPres.gop_pct||0).toFixed(1) + '%</div>';
-    const tv = countyPres.total_votes || 0;
-    if (tv) html += '<div class="stat-sub">' + tv.toLocaleString() + ' votes · Turnout: ' + (countyPres.turnout_pct||countyPres.turnout||'?') + '%</div>';
-    html += '</div>';
+    const leanColor = margin > 0 ? 'var(--ac)' : 'var(--sc)';
+    const demW = Math.max(2, cp.dem_pct||0);
+    const gopW = Math.max(2, cp.gop_pct||0);
+    const total = demW + gopW + (cp.other_pct||0);
+    const demBarW = (cp.dem_pct||0) / total * 100;
+    const gopBarW = (cp.gop_pct||0) / total * 100;
     
-    // Show multi-year county results if available
+    html += '<div style="max-width:900px;margin:1.5rem auto">';
+    html += '<h2 style="font-size:.85rem;color:var(--ac);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.75rem">🏛️ ' + (cv.name || 'County') + ' · ' + year + ' Presidential</h2>';
+    html += '<div class="grid" style="grid-template-columns:1fr 1fr;gap:1rem">';
+    
+    // Left: Big result card
+    html += '<div class="card" style="text-align:center"><div class="big-label">Result</div>';
+    html += '<div class="big-num" style="color:' + leanColor + '">' + lean + '</div>';
+    html += '<div style="margin:.75rem 0"><div class="vote-bar-track">';
+    html += '<div class="vote-bar-dem" style="width:' + demBarW + '%"></div>';
+    html += '<div class="vote-bar-gop" style="width:' + gopBarW + '%"></div></div>';
+    html += '<div style="display:flex;justify-content:space-between;font-size:.7rem;margin-top:3px">';
+    html += '<span style="color:#4fc3f7;font-weight:600">🟦 Dem ' + (cp.dem_pct||0).toFixed(1) + '%</span>';
+    html += '<span style="color:#ff5252;font-weight:600">🟥 GOP ' + (cp.gop_pct||0).toFixed(1) + '%</span></div></div>';
+    html += '<div class="stat-row"><span class="stat-label">Total Votes</span><span class="stat-val">' + ((cp.total_votes||0).toLocaleString()) + '</span></div>';
+    html += '<div class="stat-row"><span class="stat-label">Turnout</span><span class="stat-val" style="color:var(--ac)">' + (cp.turnout_pct||'?') + '%</span></div></div>';
+    
+    // Right: Registration card
+    html += '<div class="card"><h2>📋 Voter Registration</h2>';
+    if (reg && reg.total_registered) {
+      html += '<div class="big-num" style="font-size:1.4rem">' + (reg.total_registered||0).toLocaleString() + '</div>';
+      html += '<div class="stat-sub" style="margin-bottom:.75rem">registered voters';
+      if (reg.eligible_voters) html += ' · ' + (reg.eligible_voters||0).toLocaleString() + ' eligible';
+      html += '</div>';
+      if (reg.dem_pct) html += '<div class="stat-row"><span class="stat-label">🟦 Democratic</span><span class="stat-val" style="color:#4fc3f7">' + reg.dem_pct + '%</span></div>';
+      if (reg.gop_pct) html += '<div class="stat-row"><span class="stat-label">🟥 Republican</span><span class="stat-val" style="color:#ff5252">' + reg.gop_pct + '%</span></div>';
+      if (reg.npp_pct) html += '<div class="stat-row"><span class="stat-label">⬜ No Party Pref</span><span class="stat-val" style="color:var(--mu)">' + reg.npp_pct + '%</span></div>';
+      if (reg.other_pct) html += '<div class="stat-row"><span class="stat-label">Other</span><span class="stat-val">' + reg.other_pct + '%</span></div>';
+    } else {
+      html += '<p style="color:var(--mu);font-size:.75rem">Registration data not available for this county.</p>';
+    }
+    html += '</div></div>';
+    
+    // Multi-year trends
     if (cv.presidential) {
-      const years = ['2024','2020','2016'].filter(y => cv.presidential[y]);
-      if (years.length > 1) {
-        html += '<div class="card"><h2>📈 County Results by Year</h2><table><thead><tr><th>Year</th><th>Dem</th><th>GOP</th><th>Margin</th><th>Turnout</th></tr></thead><tbody>';
-        years.forEach(yr => {
+      const yrs = ['2024','2020','2016'].filter(y => cv.presidential[y]);
+      if (yrs.length > 1) {
+        html += '<div class="card" style="margin-top:.75rem"><h2>📈 ' + (cv.name || 'County') + ' Trends</h2><table><thead><tr>';
+        html += '<th style="text-align:left">Year</th><th>Dem</th><th>GOP</th><th>Margin</th><th>Turnout</th><th>Total Votes</th></tr></thead><tbody>';
+        yrs.forEach(yr => {
           const p = cv.presidential[yr];
           const m = (p.dem_pct||0) - (p.gop_pct||0);
           const l = m > 0 ? 'D+' + m.toFixed(1) : 'R+' + Math.abs(m).toFixed(1);
-          html += '<tr><td><strong>' + yr + '</strong></td><td class="dem">' + (p.dem_pct||0).toFixed(1) + '%</td>';
+          const active = yr === year ? ' highlight-row' : '';
+          html += '<tr class="' + active + '"><td style="text-align:left"><strong>' + yr + '</strong></td>';
+          html += '<td class="dem">' + (p.dem_pct||0).toFixed(1) + '%</td>';
           html += '<td class="gop">' + (p.gop_pct||0).toFixed(1) + '%</td>';
           html += '<td style="color:' + (m>0?'var(--ac)':'var(--sc)') + ';font-weight:600">' + l + '</td>';
-          html += '<td>' + (p.turnout_pct||'?') + '%</td></tr>';
+          html += '<td>' + (p.turnout_pct||'?') + '%</td>';
+          html += '<td>' + ((p.total_votes||0).toLocaleString()) + '</td></tr>';
         });
         html += '</tbody></table></div>';
       }
@@ -469,15 +505,17 @@ function renderVoting(year) {
     html += '</div>';
   }
   
-  // National overview
-  html += '<div class="grid" style="margin-top:0"><div class="card" style="text-align:center"><div class="big-label">Popular Vote</div><div class="big-num" style="font-size:1rem">' + d.popular + '</div></div>';
+  // ── National Overview ──
+  html += '<div style="max-width:900px;margin:1.5rem auto"><h2 style="font-size:.85rem;color:var(--ac);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.75rem">🇺🇸 National · ' + year + '</h2>';
+  html += '<div class="grid" style="grid-template-columns:repeat(3,1fr);gap:1rem">';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Popular Vote</div><div class="big-num" style="font-size:1.1rem">' + d.popular + '</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Total Votes</div><div class="big-num">' + d.total + '</div></div>';
-  html += '<div class="card" style="text-align:center"><div class="big-label">Turnout</div><div class="big-num">' + d.turnout + '</div></div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Turnout</div><div class="big-num">' + d.turnout + '</div></div>';
+  html += '</div></div>';
   
-  // Race x Party table
-  html += '<div class="card"><h2>🗳️ Vote by Race — ' + year + ' (National)</h2><table><thead><tr>';
-  html += '<th style="text-align:left">Race/Ethnicity</th><th>Share</th><th>Dem</th><th>GOP</th><th>Margin</th><th>Other</th><th>Turnout</th></tr></thead><tbody>';
-  
+  // ── Vote by Race ──
+  html += '<div style="max-width:900px;margin:1.5rem auto"><div class="card"><h2>🗳️ Vote by Race & Ethnicity — ' + year + '</h2><table><thead><tr>';
+  html += '<th style="text-align:left">Group</th><th>Share of<br>Electorate</th><th>Dem</th><th>GOP</th><th>Margin</th><th>Other</th><th>Turnout</th></tr></thead><tbody>';
   d.race_vote.forEach((r, i) => {
     const cls = i % 2 === 0 ? ' highlight-row' : '';
     const m = r.dem - r.gop;
@@ -486,7 +524,8 @@ function renderVoting(year) {
     html += '<td style="color:' + (m>0?'var(--ac)':'var(--sc)') + ';font-weight:600">' + (m>0?'D+':'R+') + Math.abs(m) + '</td>';
     html += '<td class="other">' + r.other + '%</td><td>' + r.to + '%</td></tr>';
   });
-  html += '</tbody></table></div>';
+  html += '</tbody></table>';
+  html += '<p style="font-size:.62rem;color:var(--mu);margin-top:.75rem">Source: ' + year + ' National Exit Polls · CNN / Edison Research</p></div></div>';
   
   document.getElementById('votingContainer').innerHTML = html;
 }
