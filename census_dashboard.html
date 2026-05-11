@@ -453,6 +453,45 @@ function renderVoting(year) {
   });
   html += '</div>';
   
+  // State-level aggregation
+  let stateTotal = null;
+  if (countyVoting && Object.keys(countyVoting).length > 0) {
+    const countyList = Object.values(countyVoting).filter(function(v) { return v && v.presidential && v.presidential[year]; });
+    if (countyList.length > 0) {
+      stateTotal = { dem: 0, gop: 0, votes: 0 };
+      countyList.forEach(function(c) {
+        var p = c.presidential[year];
+        stateTotal.votes += p.total_votes || 0;
+        stateTotal.dem += (p.dem_pct || 0) * (p.total_votes || 1);
+        stateTotal.gop += (p.gop_pct || 0) * (p.total_votes || 1);
+      });
+      if (stateTotal.votes > 0) {
+        stateTotal.dem = +(stateTotal.dem / stateTotal.votes).toFixed(1);
+        stateTotal.gop = +(stateTotal.gop / stateTotal.votes).toFixed(1);
+      }
+    }
+  }
+  
+  // State overview cards
+  if (stateTotal) {
+    var sM = (stateTotal.dem||0) - (stateTotal.gop||0);
+    var sL = sM > 0 ? 'D+' + sM.toFixed(1) : 'R+' + Math.abs(sM).toFixed(1);
+    var sC = sM > 0 ? 'var(--ac)' : 'var(--sc)';
+    var ev = ELECTORAL_VOTES[currentState] || '?';
+    html += '<div class="voting-section"><div class="grid" style="grid-template-columns:1fr 1fr 1fr">';
+    html += '<div class="card" style="text-align:center"><div class="big-label">' + STATES[currentState] + ' Statewide · ' + year + '</div>';
+    html += '<div class="big-num" style="color:' + sC + ';font-size:1.8rem">' + sL + '</div>';
+    html += '<div class="stat-sub">🟦 ' + stateTotal.dem.toFixed(1) + '% · 🟥 ' + stateTotal.gop.toFixed(1) + '%</div>';
+    html += '<div class="stat-sub">' + (stateTotal.votes||0).toLocaleString() + ' total votes</div></div>';
+    html += '<div class="card" style="text-align:center"><div class="big-label">Electoral Votes</div>';
+    html += '<div class="big-num" style="font-size:1.8rem;color:var(--cf)">' + ev + '</div>';
+    html += '<div class="stat-sub">of 538 total (' + (ev/5.38).toFixed(1) + '%)</div></div>';
+    html += '<div class="card" style="text-align:center"><div class="big-label">' + (cv ? cv.name + ' County' : '') + ' Turnout</div>';
+    html += '<div class="big-num" style="font-size:1.8rem;color:var(--ac)">' + (cp && cp.turnout_pct ? cp.turnout_pct + '%' : '?') + '</div>';
+    html += '<div class="stat-sub">' + (cp && cp.total_votes ? cp.total_votes.toLocaleString() + ' votes' : '') + '</div></div>';
+    html += '</div></div>';
+  }
+  
   // County Section
   if (cp) {
     const margin = (cp.dem_pct||0) - (cp.gop_pct||0);
