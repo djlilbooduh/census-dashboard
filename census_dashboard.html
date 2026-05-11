@@ -328,7 +328,21 @@ function renderCrime() {
   const pop = allCityData[currentCity]?.population?.total || 1;
   const rate = (total / pop * 1000).toFixed(1);
   const sex = a.sex || {};
-  html += '<div class="grid"><div class="card" style="text-align:center"><div class="big-label">Total Arrests (2022)</div><div class="big-num">' + fmt(total) + '</div><div class="stat-sub">' + rate + ' per 1,000 residents</div></div><div class="card" style="text-align:center"><div class="big-label">Male Arrests</div><div class="big-num">' + fmt(sex.Male || 0) + '</div></div><div class="card" style="text-align:center"><div class="big-label">Female Arrests</div><div class="big-num">' + fmt(sex.Female || 0) + '</div></div></div>';
+  html += '<div class="grid" style="grid-template-columns:1fr 1fr 1fr 1fr">';
+  const rateVal = total / pop * 1000;
+  const rateLabel = rateVal < 5 ? 'Low' : rateVal < 15 ? 'Moderate' : rateVal < 30 ? 'High' : 'Very High';
+  const rateColor = rateVal < 5 ? '#66bb6a' : rateVal < 15 ? '#ffab40' : rateVal < 30 ? '#ff8c00' : '#ff5252';
+  const malePct = (sex.Male||0) / Math.max(1, (sex.Male||0)+(sex.Female||0)) * 100;
+  const femalePct = (sex.Female||0) / Math.max(1, (sex.Male||0)+(sex.Female||0)) * 100;
+  html += '<div class="card" style="text-align:center"><div class="big-label">Arrest Rate per 1,000</div>';
+  html += '<div class="big-num" style="color:' + rateColor + ';font-size:2.4rem">' + rateVal.toFixed(1) + '</div>';
+  html += '<div style="font-size:.75rem;font-weight:600;color:' + rateColor + ';margin-top:.25rem">' + rateLabel + '</div>';
+  html += '<div class="stat-sub" style="margin-top:.5rem">' + fmt(total) + ' arrests / ' + fmt(pop) + ' residents</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Total Arrests (2022)</div><div class="big-num" style="font-size:1.8rem">' + fmt(total) + '</div><div class="stat-sub">FBI CDE ' + (a.year || '2022') + '</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Male Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#4fc3f7">' + fmt(sex.Male || 0) + '</div><div class="stat-sub">' + malePct.toFixed(1) + '% of arrests</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Female Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#ffab40">' + fmt(sex.Female || 0) + '</div><div class="stat-sub">' + femalePct.toFixed(1) + '% of arrests</div></div></div>';
+  const gaugePct = Math.min(100, rateVal / 50 * 100);
+  html += '<div class="card" style="max-width:960px;margin:1rem auto;text-align:center"><h2>\U0001f4ca Arrest Rate Comparison</h2><div style="display:flex;align-items:center;gap:.5rem;margin:1rem 0"><span style="font-size:.65rem;color:#66bb6a;width:40px">Low</span><div style="flex:1;height:16px;background:linear-gradient(to right,#66bb6a,#ffab40,#ff8c00,#ff5252);border-radius:8px;position:relative;overflow:visible"><div style="position:absolute;top:-4px;left:' + gaugePct + '%;width:24px;height:24px;background:#fff;border-radius:50%;border:3px solid ' + rateColor + ';transform:translateX(-50%);box-shadow:0 0 8px ' + rateColor + '"></div></div><span style="font-size:.65rem;color:#ff5252;width:70px;text-align:right">Very High</span></div><div style="display:flex;justify-content:space-between;font-size:.6rem;color:var(--mu);padding:0 44px 0 44px"><span>0</span><span>5</span><span>15</span><span>30</span><span>50+</span></div><p class="stat-sub" style="margin-top:.75rem">' + cleanCityName(currentCity) + ': <strong style="color:' + rateColor + '">' + rateVal.toFixed(1) + ' per 1,000</strong> \u2014 ' + rateLabel + '</p></div>';
   const race = a.race || {};
   const raceColors = {'White':'#4fc3f7','Black or African American':'#ff5252','Asian':'#66bb6a','American Indian or Alaska Native':'#a1887f','Native Hawaiian or Other Pacific Islander':'#80cbc4','Unknown':'#8888aa','Multiple':'#ce93d8','Not Specified':'#8888aa'};
   if (Object.keys(race).length > 0) {
@@ -346,7 +360,7 @@ function renderCrime() {
   if (Object.keys(offenses).length > 0) {
     const topOff = Object.entries(offenses).sort((a,b) => b[1] - a[1]).slice(0, 10);
     html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>\U0001f4cb Top Offense Categories</h2>';
-    topOff.forEach(([cat, cnt]) => { html += '<div class="stat-row"><span class="stat-label">' + cat + '</span><span class="stat-val">' + fmt(cnt) + '</span></div>'; });
+    topOff.forEach(([cat, cnt]) => { html += '<div class="stat-row"><span class="stat-label">' + cat + '</span><span class="stat-val">' + fmt(cnt) + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + (cnt/pop*1000).toFixed(2) + '/1k)</span></span></div>'; });
     html += '</div>';
   }
   html += '<div style="text-align:center;color:var(--mu);font-size:.62rem;margin:1rem">Source: FBI Crime Data Explorer · 2022 · ORI: ' + (a.ori || 'N/A') + '</div>';
