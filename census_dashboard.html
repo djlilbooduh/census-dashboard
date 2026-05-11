@@ -324,10 +324,43 @@ function renderCrime() {
     return;
   }
   let html = '';
-  const total = a.total_arrests || 0;
+  
+  // Check for multi-year data
+  const hasMultiYear = a.years && Object.keys(a.years).length > 1;
+  let selectedYear = (a.year || '2022').toString();
+  let yearData = a;
+  
+  if (hasMultiYear) {
+    const years = Object.keys(a.years).sort();
+    if (!years.includes(selectedYear)) selectedYear = years[years.length - 1];
+    yearData = a.years[selectedYear] || a;
+    html += '<div class="year-selector" style="margin-bottom:1.5rem">';
+    years.forEach(y => {
+      html += '<div class="year-btn' + (y === selectedYear ? ' active' : '') + '" data-year="' + y + '" onclick="switchCrimeYear(\'' + y + '\')">' + y + '</div>';
+    });
+    html += '</div>';
+    
+    // Trend bars
+    const totals = years.map(y => a.years[y]?.total_arrests || 0);
+    const maxTotal = Math.max(...totals, 1);
+    html += '<div class="card" style="max-width:960px;margin:0 auto 1rem;text-align:center"><h2>📈 Arrest Trends · ' + years[0] + '–' + years[years.length-1] + '</h2>';
+    html += '<div style="display:flex;align-items:flex-end;justify-content:center;gap:1.5rem;height:120px;padding:1rem 0">';
+    years.forEach((y, i) => {
+      const h = Math.max(8, (totals[i] / maxTotal) * 100);
+      const color = totals[i] > (totals[i-1] || 0) ? '#ff5252' : '#66bb6a';
+      const delta = i > 0 ? ((totals[i] - totals[i-1]) / Math.max(1, totals[i-1]) * 100).toFixed(1) : '0';
+      const arrow = i > 0 ? (totals[i] > totals[i-1] ? '↑' : '↓') : '';
+      html += '<div style="text-align:center"><div style="font-size:.65rem;color:var(--mu);margin-bottom:.25rem">' + fmt(totals[i]) + '</div>';
+      html += '<div style="width:40px;height:' + h + 'px;background:' + color + ';border-radius:4px 4px 0 0;margin:0 auto;transition:height .5s"></div>';
+      html += '<div style="font-size:.65rem;font-weight:600;margin-top:.25rem;color:' + (i > 0 ? color : 'var(--mu)') + '">' + y + (i>0?' <span style="font-size:.55rem">' + arrow + delta + '%</span>':'') + '</div></div>';
+    });
+    html += '</div></div>';
+  }
+  
+  const total = yearData.total_arrests || 0;
   const pop = allCityData[currentCity]?.population?.total || 1;
   const rate = (total / pop * 1000).toFixed(1);
-  const sex = a.sex || {};
+  const sex = yearData.sex || {};
   html += '<div class="grid" style="grid-template-columns:1fr 1fr 1fr 1fr">';
   const rateVal = total / pop * 1000;
   const rateLabel = rateVal < 5 ? 'Low' : rateVal < 15 ? 'Moderate' : rateVal < 30 ? 'High' : 'Very High';
@@ -343,7 +376,7 @@ function renderCrime() {
   html += '<div class="card" style="text-align:center"><div class="big-label">Female Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#ffab40">' + fmt(sex.Female || 0) + '</div><div class="stat-sub">' + femalePct.toFixed(1) + '% of arrests</div></div></div>';
   const gaugePct = Math.min(100, rateVal / 50 * 100);
   html += '<div class="card" style="max-width:960px;margin:1rem auto;text-align:center"><h2>📊 Arrest Rate Comparison</h2><div style="display:flex;align-items:center;gap:.5rem;margin:1rem 0"><span style="font-size:.65rem;color:#66bb6a;width:40px">Low</span><div style="flex:1;height:16px;background:linear-gradient(to right,#66bb6a,#ffab40,#ff8c00,#ff5252);border-radius:8px;position:relative;overflow:visible"><div style="position:absolute;top:-4px;left:' + gaugePct + '%;width:24px;height:24px;background:#fff;border-radius:50%;border:3px solid ' + rateColor + ';transform:translateX(-50%);box-shadow:0 0 8px ' + rateColor + '"></div></div><span style="font-size:.65rem;color:#ff5252;width:70px;text-align:right">Very High</span></div><div style="display:flex;justify-content:space-between;font-size:.6rem;color:var(--mu);padding:0 44px 0 44px"><span>0</span><span>5</span><span>15</span><span>30</span><span>50+</span></div><p class="stat-sub" style="margin-top:.75rem">' + cleanCityName(currentCity) + ': <strong style="color:' + rateColor + '">' + rateVal.toFixed(1) + ' per 1,000</strong> — ' + rateLabel + '</p></div>';
-  const race = a.race || {};
+  const race = yearData.race || {};
   const raceColors = {'White':'#4fc3f7','Black or African American':'#ff5252','Asian':'#66bb6a','American Indian or Alaska Native':'#a1887f','Native Hawaiian or Other Pacific Islander':'#80cbc4','Unknown':'#8888aa','Multiple':'#ce93d8','Not Specified':'#8888aa'};
   if (Object.keys(race).length > 0) {
     const raceSorted = Object.entries(race).sort((a,b) => b[1] - a[1]);
@@ -356,15 +389,24 @@ function renderCrime() {
     });
     html += '</div>';
   }
-  const offenses = a.offenses || a.offense_categories || {};
+  const offenses = yearData.offenses || yearData.offense_categories || {};
   if (Object.keys(offenses).length > 0) {
     const topOff = Object.entries(offenses).sort((a,b) => b[1] - a[1]).slice(0, 10);
     html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>📋 Top Offense Categories</h2>';
     topOff.forEach(([cat, cnt]) => { html += '<div class="stat-row"><span class="stat-label">' + cat + '</span><span class="stat-val">' + fmt(cnt) + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + (cnt/pop*1000).toFixed(2) + '/1k)</span></span></div>'; });
     html += '</div>';
   }
-  html += '<div style="text-align:center;color:var(--mu);font-size:.62rem;margin:1rem">Source: FBI Crime Data Explorer · 2022 · ORI: ' + (a.ori || 'N/A') + '</div>';
+  html += '<div style="text-align:center;color:var(--mu);font-size:.62rem;margin:1rem">Source: FBI Crime Data Explorer · ' + selectedYear + ' · ORI: ' + (a.ori || 'N/A') + '</div>';
   document.getElementById('crimeContainer').innerHTML = html;
+}
+
+function switchCrimeYear(year) {
+  // Update selected year in the city's arrest data and re-render
+  const a = arrestData[currentCity];
+  if (a && a.years) {
+    a._selectedYear = year;
+    renderCrime();
+  }
 }
 
 const NATIONAL_VOTE = {
