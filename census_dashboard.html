@@ -409,6 +409,10 @@ async function loadCrimeData() {
 function renderCrime() {
   if (!crimeLoaded) { loadCrimeData(); return; }
   const a = arrestData[currentCity];
+  // Normalize legacy arrest format (arrests_by_race -> race, arrests_by_sex -> sex)
+  if (a && !a.race && a.arrests_by_race) a.race = a.arrests_by_race;
+  if (a && !a.sex && a.arrests_by_sex) a.sex = a.arrests_by_sex;
+  if (a && !a.year) a.year = '2023';
   if (!a || a.total_arrests === 0 || a.note) {
     document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🛡️ Crime & Safety</h2><p style="color:var(--mu);margin-top:.5rem">No arrest data for ' + cleanCityName(currentCity) + '</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">Small cities often contract with county sheriffs and do not report independently to the FBI.</p></div>';
     return;
