@@ -200,8 +200,8 @@ function getDataURL(st, type) {
 
 async function loadStateData(st) {
   currentState = st;
-  document.getElementById('stateInfo').textContent = 'Loading ' + STATES[st] + '\u2026';
-  document.getElementById('citySearch').placeholder = '\U0001f50d Loading cities\u2026';
+  document.getElementById('stateInfo').textContent = 'Loading ' + STATES[st] + '…';
+  document.getElementById('citySearch').placeholder = '🔍 Loading cities…';
   document.getElementById('mapLink').href = st.toLowerCase() + '_map.html';
   
   try {
@@ -213,7 +213,7 @@ async function loadStateData(st) {
     currentCity = allCityKeys[0] || '';
     
     const n = allCityKeys.length;
-    document.getElementById('citySearch').placeholder = '\U0001f50d Search ' + n + ' cities in ' + STATES[st] + '\u2026';
+    document.getElementById('citySearch').placeholder = '🔍 Search ' + n + ' cities in ' + STATES[st] + '…';
     document.getElementById('stateInfo').textContent = n + ' cities';
     
     crimeLoaded = false;
@@ -288,7 +288,7 @@ function renderCensus() {
     <div class="card" style="text-align:center"><div class="big-label">Poverty Rate</div><div class="big-num" style="color:var(--cf)">${d.economics?.poverty_pct || 0}%</div><div class="stat-sub">${fmt(d.economics?.poverty_count || 0)} below poverty line</div></div>`;
   const race = d.race || [];
   const colors = ['#4fc3f7','#ffab40','#66bb6a','#ff5252','#ce93d8','#8888aa','#80cbc4','#a1887f'];
-  let rh = '<div class="card"><h2>\U0001f9d1 Race & Ethnicity — ' + cleanCityName(currentCity) + '</h2>';
+  let rh = '<div class="card"><h2>🧑 Race & Ethnicity — ' + cleanCityName(currentCity) + '</h2>';
   race.forEach((r, i) => {
     const c = r.color || colors[i % colors.length];
     rh += '<div class="race-bar-row"><div class="race-label">' + r.group + '</div><div class="race-bar-track"><div class="race-bar-fill" style="width:' + r.pct + '%;background:' + c + ';color:' + (r.pct>10?'#fff':c) + '">' + (r.pct>=5?r.pct+'%':'') + '</div></div><div class="race-pct" style="color:' + c + '">' + r.pct + '%</div><div class="race-count">' + fmt(r.count) + '</div></div>';
@@ -299,12 +299,12 @@ function renderCensus() {
   const eduTotal = edu.bachelors_or_higher || 0;
   const popEst = (d.population?.total || 1) * 0.75;
   const eduPct = popEst > 0 ? (eduTotal / popEst * 100).toFixed(1) : 0;
-  document.getElementById('detailGrid').innerHTML = '<div class="card"><h2>\U0001f4b0 Economics</h2><div class="stat-row"><span class="stat-label">Median Income</span><span class="stat-val" style="color:var(--ac)">$' + fmt(d.economics?.median_household_income || 0) + '</span></div><div class="stat-row" style="margin-top:.6rem"><span class="stat-label">Below Poverty</span><span class="stat-val" style="color:var(--cf)">' + (d.economics?.poverty_pct || 0) + '%</span></div><div class="bar-bg"><div class="bar-fill" style="width:' + ((d.economics?.poverty_pct||0)*5) + '%;background:var(--cf)"></div></div><div class="stat-row"><span class="stat-label">In poverty</span><span class="stat-val">' + fmt(d.economics?.poverty_count || 0) + '</span></div></div><div class="card"><h2>\U0001f393 Education (25+)</h2><div class="stat-row"><span class="stat-label">Bachelor\'s+</span><span class="stat-val" style="color:var(--ac)">' + fmt(eduTotal) + '</span></div><div class="bar-bg"><div class="bar-fill" style="width:' + Math.min(100,eduPct) + '%;background:var(--ac)"></div></div><div class="stat-row"><span class="stat-label">Bachelor\'s</span><span class="stat-val">' + fmt(edu.bachelors_only || 0) + '</span></div><div class="stat-row"><span class="stat-label">Master\'s</span><span class="stat-val">' + fmt(edu.masters || 0) + '</span></div><div class="stat-row"><span class="stat-label">Professional</span><span class="stat-val">' + fmt(edu.professional || 0) + '</span></div><div class="stat-row"><span class="stat-label">Doctorate</span><span class="stat-val">' + fmt(edu.doctorate || 0) + '</span></div></div>';
+  document.getElementById('detailGrid').innerHTML = '<div class="card"><h2>💰 Economics</h2><div class="stat-row"><span class="stat-label">Median Income</span><span class="stat-val" style="color:var(--ac)">$' + fmt(d.economics?.median_household_income || 0) + '</span></div><div class="stat-row" style="margin-top:.6rem"><span class="stat-label">Below Poverty</span><span class="stat-val" style="color:var(--cf)">' + (d.economics?.poverty_pct || 0) + '%</span></div><div class="bar-bg"><div class="bar-fill" style="width:' + ((d.economics?.poverty_pct||0)*5) + '%;background:var(--cf)"></div></div><div class="stat-row"><span class="stat-label">In poverty</span><span class="stat-val">' + fmt(d.economics?.poverty_count || 0) + '</span></div></div><div class="card"><h2>🎓 Education (25+)</h2><div class="stat-row"><span class="stat-label">Bachelor\'s+</span><span class="stat-val" style="color:var(--ac)">' + fmt(eduTotal) + '</span></div><div class="bar-bg"><div class="bar-fill" style="width:' + Math.min(100,eduPct) + '%;background:var(--ac)"></div></div><div class="stat-row"><span class="stat-label">Bachelor\'s</span><span class="stat-val">' + fmt(edu.bachelors_only || 0) + '</span></div><div class="stat-row"><span class="stat-label">Master\'s</span><span class="stat-val">' + fmt(edu.masters || 0) + '</span></div><div class="stat-row"><span class="stat-label">Professional</span><span class="stat-val">' + fmt(edu.professional || 0) + '</span></div><div class="stat-row"><span class="stat-label">Doctorate</span><span class="stat-val">' + fmt(edu.doctorate || 0) + '</span></div></div>';
 }
 
 async function loadCrimeData() {
   if (crimeLoaded) return;
-  document.getElementById('crimeContainer').innerHTML = '<div class="loading-msg">\U0001f504 Loading arrest data for ' + STATES[currentState] + '\u2026</div>';
+  document.getElementById('crimeContainer').innerHTML = '<div class="loading-msg">🔄 Loading arrest data for ' + STATES[currentState] + '…</div>';
   try {
     const r = await fetch(getDataURL(currentState, 'arrest') + '?t=' + Date.now());
     const raw = await r.json();
@@ -312,7 +312,7 @@ async function loadCrimeData() {
     crimeLoaded = true;
     if (currentTab === 'crime') renderCrime();
   } catch(e) {
-    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>\U0001f6e1\ufe0f Crime</h2><p style="color:var(--mu)">Could not load arrest data for ' + STATES[currentState] + '</p><p style="color:var(--mu);font-size:.7rem">' + e.message + '</p></div>';
+    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🛡️ Crime</h2><p style="color:var(--mu)">Could not load arrest data for ' + STATES[currentState] + '</p><p style="color:var(--mu);font-size:.7rem">' + e.message + '</p></div>';
   }
 }
 
@@ -320,7 +320,7 @@ function renderCrime() {
   if (!crimeLoaded) { loadCrimeData(); return; }
   const a = arrestData[currentCity];
   if (!a || a.total_arrests === 0 || a.note) {
-    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>\U0001f6e1\ufe0f Crime & Safety</h2><p style="color:var(--mu);margin-top:.5rem">No arrest data for ' + cleanCityName(currentCity) + '</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">Small cities often contract with county sheriffs and do not report independently to the FBI.</p></div>';
+    document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🛡️ Crime & Safety</h2><p style="color:var(--mu);margin-top:.5rem">No arrest data for ' + cleanCityName(currentCity) + '</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">Small cities often contract with county sheriffs and do not report independently to the FBI.</p></div>';
     return;
   }
   let html = '';
@@ -342,13 +342,13 @@ function renderCrime() {
   html += '<div class="card" style="text-align:center"><div class="big-label">Male Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#4fc3f7">' + fmt(sex.Male || 0) + '</div><div class="stat-sub">' + malePct.toFixed(1) + '% of arrests</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Female Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#ffab40">' + fmt(sex.Female || 0) + '</div><div class="stat-sub">' + femalePct.toFixed(1) + '% of arrests</div></div></div>';
   const gaugePct = Math.min(100, rateVal / 50 * 100);
-  html += '<div class="card" style="max-width:960px;margin:1rem auto;text-align:center"><h2>\U0001f4ca Arrest Rate Comparison</h2><div style="display:flex;align-items:center;gap:.5rem;margin:1rem 0"><span style="font-size:.65rem;color:#66bb6a;width:40px">Low</span><div style="flex:1;height:16px;background:linear-gradient(to right,#66bb6a,#ffab40,#ff8c00,#ff5252);border-radius:8px;position:relative;overflow:visible"><div style="position:absolute;top:-4px;left:' + gaugePct + '%;width:24px;height:24px;background:#fff;border-radius:50%;border:3px solid ' + rateColor + ';transform:translateX(-50%);box-shadow:0 0 8px ' + rateColor + '"></div></div><span style="font-size:.65rem;color:#ff5252;width:70px;text-align:right">Very High</span></div><div style="display:flex;justify-content:space-between;font-size:.6rem;color:var(--mu);padding:0 44px 0 44px"><span>0</span><span>5</span><span>15</span><span>30</span><span>50+</span></div><p class="stat-sub" style="margin-top:.75rem">' + cleanCityName(currentCity) + ': <strong style="color:' + rateColor + '">' + rateVal.toFixed(1) + ' per 1,000</strong> \u2014 ' + rateLabel + '</p></div>';
+  html += '<div class="card" style="max-width:960px;margin:1rem auto;text-align:center"><h2>📊 Arrest Rate Comparison</h2><div style="display:flex;align-items:center;gap:.5rem;margin:1rem 0"><span style="font-size:.65rem;color:#66bb6a;width:40px">Low</span><div style="flex:1;height:16px;background:linear-gradient(to right,#66bb6a,#ffab40,#ff8c00,#ff5252);border-radius:8px;position:relative;overflow:visible"><div style="position:absolute;top:-4px;left:' + gaugePct + '%;width:24px;height:24px;background:#fff;border-radius:50%;border:3px solid ' + rateColor + ';transform:translateX(-50%);box-shadow:0 0 8px ' + rateColor + '"></div></div><span style="font-size:.65rem;color:#ff5252;width:70px;text-align:right">Very High</span></div><div style="display:flex;justify-content:space-between;font-size:.6rem;color:var(--mu);padding:0 44px 0 44px"><span>0</span><span>5</span><span>15</span><span>30</span><span>50+</span></div><p class="stat-sub" style="margin-top:.75rem">' + cleanCityName(currentCity) + ': <strong style="color:' + rateColor + '">' + rateVal.toFixed(1) + ' per 1,000</strong> — ' + rateLabel + '</p></div>';
   const race = a.race || {};
   const raceColors = {'White':'#4fc3f7','Black or African American':'#ff5252','Asian':'#66bb6a','American Indian or Alaska Native':'#a1887f','Native Hawaiian or Other Pacific Islander':'#80cbc4','Unknown':'#8888aa','Multiple':'#ce93d8','Not Specified':'#8888aa'};
   if (Object.keys(race).length > 0) {
     const raceSorted = Object.entries(race).sort((a,b) => b[1] - a[1]);
     const raceTotal = raceSorted.reduce((s, r) => s + r[1], 0) || 1;
-    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>\U0001f9d1 Arrest Demographics by Race</h2>';
+    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>🧑 Arrest Demographics by Race</h2>';
     raceSorted.forEach(([g, c]) => {
       const pct = (c / raceTotal * 100).toFixed(1);
       const color = raceColors[g] || '#888';
@@ -359,7 +359,7 @@ function renderCrime() {
   const offenses = a.offenses || a.offense_categories || {};
   if (Object.keys(offenses).length > 0) {
     const topOff = Object.entries(offenses).sort((a,b) => b[1] - a[1]).slice(0, 10);
-    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>\U0001f4cb Top Offense Categories</h2>';
+    html += '<div class="card" style="max-width:800px;margin:1rem auto"><h2>📋 Top Offense Categories</h2>';
     topOff.forEach(([cat, cnt]) => { html += '<div class="stat-row"><span class="stat-label">' + cat + '</span><span class="stat-val">' + fmt(cnt) + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + (cnt/pop*1000).toFixed(2) + '/1k)</span></span></div>'; });
     html += '</div>';
   }
@@ -417,7 +417,7 @@ function renderVoting(year) {
     const demBarW = (cp.dem_pct||0) / ((cp.dem_pct||0)+(cp.gop_pct||0)+(cp.other_pct||1)) * 100;
     const gopBarW = (cp.gop_pct||0) / ((cp.dem_pct||0)+(cp.gop_pct||0)+(cp.other_pct||1)) * 100;
     
-    html += '<div class="voting-section"><h2>\U0001f3db\ufe0f ' + (cv.name || 'County') + ' · ' + year + ' Presidential</h2>';
+    html += '<div class="voting-section"><h2>🏛️ ' + (cv.name || 'County') + ' · ' + year + ' Presidential</h2>';
     html += '<div class="grid" style="grid-template-columns:1fr 1fr">';
     
     // Result card
@@ -427,21 +427,21 @@ function renderVoting(year) {
     html += '<div class="vote-bar-dem" style="width:' + demBarW + '%"></div>';
     html += '<div class="vote-bar-gop" style="width:' + gopBarW + '%"></div></div>';
     html += '<div style="display:flex;justify-content:space-between;font-size:.75rem;margin-top:4px">';
-    html += '<span style="color:#4fc3f7;font-weight:600">\U0001f7e6 Dem ' + (cp.dem_pct||0).toFixed(1) + '%</span>';
-    html += '<span style="color:#ff5252;font-weight:600">\U0001f7e5 GOP ' + (cp.gop_pct||0).toFixed(1) + '%</span></div></div>';
+    html += '<span style="color:#4fc3f7;font-weight:600">🟦 Dem ' + (cp.dem_pct||0).toFixed(1) + '%</span>';
+    html += '<span style="color:#ff5252;font-weight:600">🟥 GOP ' + (cp.gop_pct||0).toFixed(1) + '%</span></div></div>';
     html += '<div class="stat-row"><span class="stat-label">Total Votes</span><span class="stat-val">' + ((cp.total_votes||0).toLocaleString()) + '</span></div>';
     html += '<div class="stat-row"><span class="stat-label">Turnout</span><span class="stat-val" style="color:var(--ac)">' + (cp.turnout_pct||'?') + '%</span></div></div>';
     
     // Registration card
-    html += '<div class="card"><h2>\U0001f4cb Voter Registration</h2>';
+    html += '<div class="card"><h2>📋 Voter Registration</h2>';
     if (reg && reg.total_registered) {
       html += '<div class="big-num" style="font-size:1.5rem;margin-bottom:.25rem">' + (reg.total_registered||0).toLocaleString() + '</div>';
       html += '<div class="stat-sub" style="margin-bottom:1rem">registered voters';
       if (reg.eligible_voters) html += ' · ' + (reg.eligible_voters||0).toLocaleString() + ' eligible';
       html += '</div>';
-      if (reg.dem_pct) html += '<div class="stat-row"><span class="stat-label">\U0001f7e6 Democratic</span><span class="stat-val" style="color:#4fc3f7">' + reg.dem_pct + '%</span></div>';
-      if (reg.gop_pct) html += '<div class="stat-row"><span class="stat-label">\U0001f7e5 Republican</span><span class="stat-val" style="color:#ff5252">' + reg.gop_pct + '%</span></div>';
-      if (reg.npp_pct) html += '<div class="stat-row"><span class="stat-label">\u2b1c No Party Pref</span><span class="stat-val" style="color:var(--mu)">' + reg.npp_pct + '%</span></div>';
+      if (reg.dem_pct) html += '<div class="stat-row"><span class="stat-label">🟦 Democratic</span><span class="stat-val" style="color:#4fc3f7">' + reg.dem_pct + '%</span></div>';
+      if (reg.gop_pct) html += '<div class="stat-row"><span class="stat-label">🟥 Republican</span><span class="stat-val" style="color:#ff5252">' + reg.gop_pct + '%</span></div>';
+      if (reg.npp_pct) html += '<div class="stat-row"><span class="stat-label">⬜ No Party Pref</span><span class="stat-val" style="color:var(--mu)">' + reg.npp_pct + '%</span></div>';
       if (reg.other_pct) html += '<div class="stat-row"><span class="stat-label">Other</span><span class="stat-val">' + reg.other_pct + '%</span></div>';
     } else {
       html += '<p style="color:var(--mu);font-size:.8rem;padding:1rem 0">Registration data not available.</p>';
@@ -452,7 +452,7 @@ function renderVoting(year) {
     if (cv.presidential) {
       const yrs = ['2024','2020','2016'].filter(y => cv.presidential[y]);
       if (yrs.length > 1) {
-        html += '<div class="voting-section"><div class="card"><h2>\U0001f4c8 ' + (cv.name || 'County') + ' Trends · 2016–2024</h2>';
+        html += '<div class="voting-section"><div class="card"><h2>📈 ' + (cv.name || 'County') + ' Trends · 2016–2024</h2>';
         html += '<table class="voting-table"><thead><tr>';
         html += '<th class="col-left" style="width:12%">Year</th><th style="width:14%">Dem</th><th style="width:14%">GOP</th><th style="width:18%">Margin</th><th style="width:16%">Turnout</th><th style="width:26%">Total Votes</th></tr></thead><tbody>';
         yrs.forEach(yr => {
@@ -473,7 +473,7 @@ function renderVoting(year) {
   }
   
   // National
-  html += '<div class="voting-section"><h2>\U0001f1fa\U0001f1f8 National · ' + year + '</h2>';
+  html += '<div class="voting-section"><h2>🇺🇸 National · ' + year + '</h2>';
   html += '<div class="grid" style="grid-template-columns:repeat(3,1fr)">';
   html += '<div class="card" style="text-align:center"><div class="big-label">Popular Vote</div><div class="big-num" style="font-size:1.1rem">' + d.popular + '</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Total Votes</div><div class="big-num">' + d.total + '</div></div>';
@@ -481,7 +481,7 @@ function renderVoting(year) {
   html += '</div></div>';
   
   // Vote by Race
-  html += '<div class="voting-section"><div class="card"><h2>\U0001f5f3\ufe0f Vote by Race & Ethnicity · ' + year + '</h2>';
+  html += '<div class="voting-section"><div class="card"><h2>🗳️ Vote by Race & Ethnicity · ' + year + '</h2>';
   html += '<p class="voting-desc">National exit poll data showing how different demographic groups voted</p>';
   html += '<table class="voting-table"><thead><tr>';
   html += '<th class="col-left" style="width:22%">Group</th><th style="width:12%">Share of<br>Electorate</th><th style="width:12%">Dem</th><th style="width:12%">GOP</th><th style="width:14%">Margin</th><th style="width:12%">Other</th><th style="width:16%">Turnout</th></tr></thead><tbody>';
