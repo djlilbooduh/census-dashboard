@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "title": "US Presidential Election Voting Data by Race and Political Party",
+    "description": "Compiled from CNN National Exit Polls, Pew Research Center validated voter studies, and US Census Bureau Current Population Survey Voting and Registration Supplements.",
+    "elections_covered": [2016, 2020, 2024],
+    "race_categories": ["White", "Black", "Hispanic/Latino", "Asian", "Other"],
+    "party_categories": ["Democratic", "Republican", "Other/Third Party"],
+    "notes": {
+      "exit_polls": "National Election Pool (NEP) exit polls conducted by Edison Research, published by CNN and other major networks. Percentages represent share of vote within each racial/ethnic group. Margins of error vary by subgroup size.",
+      "census_data": "US Census Bureau Current Population Survey (CPS) Voting and Registration Supplement. Turnout rates reflect self-reported voting among the citizen voting-age population. Registration rates reflect self-reported registration among the citizen voting-age population.",
+      "other_category": "'Other' includes Native American, Native Hawaiian/Pacific Islander, multiracial, and other racial/ethnic identifications not captured in the main categories. Exit poll and Census category definitions may differ slightly.",
+      "pew_validated": "Pew Research Center validated voter data uses commercial voter file matching to confirm turnout, producing different (typically higher) partisan loyalty estimates than exit polls for some subgroups."
+    },
+    "sources": [
+      "CNN National Exit Polls, 2016, 2020, 2024 (Edison Research / National Election Pool)",
+      "Pew Research Center, 'Behind Biden's 2020 Victory' (June 2021) and 'An Examination of the 2016 Electorate Based on Validated Voters' (August 2018)",
+      "US Census Bureau, Current Population Survey, Voting and Registration Supplement, November 2016 (P20-580), November 2020 (P20-585), November 2024 (P20-587)"
+    ],
+    "last_updated": "2026-05-10"
+  },
+  "elections": {
+    "2016": {
+      "year": 2016,
+      "candidates": {
+        "Democratic": "Hillary Clinton",
+        "Republican": "Donald Trump"
+      },
+      "national_popular_vote": {
+        "Democratic": 48.2,
+        "Republican": 46.1,
+        "Other/Third Party": 5.7
+      },
+      "electorate_share_by_race": {
+        "White": 71,
+        "Black": 12,
+        "Hispanic/Latino": 11,
+        "Asian": 4,
+        "Other": 3
+      },
+      "voting_by_race": {
+        "White": {
+          "electorate_share": 71,
+          "Democratic": 37,
+          "Republican": 58,
+          "Other/Third Party": 5
+        },
+        "Black": {
+          "electorate_share": 12,
+          "Democratic": 88,
+          "Republican": 8,
+          "Other/Third Party": 4
+        },
+        "Hispanic/Latino": {
+          "electorate_share": 11,
+          "Democratic": 65,
+          "Republican": 29,
+          "Other/Third Party": 6
+        },
+        "Asian": {
+          "electorate_share": 4,
+          "Democratic": 65,
+          "Republican": 29,
+          "Other/Third Party": 6
+        },
+        "Other": {
+          "electorate_share": 3,
+          "Democratic": 56,
+          "Republican": 37,
+          "Other/Third Party": 7
+        }
+      },
+      "census_turnout_and_registration": {
+        "source": "US Census Bureau CPS Voting and Registration Supplement, November 2016 (P20-580)",
+        "note": "Percentages are of citizen voting-age population (self-reported).",
+        "overall_turnout": 61.4,
+        "overall_registration": 69.7,
+        "by_race": {
+          "White_non_Hispanic": {
+            "turnout": 65.3,
+            "registration": 73.4
+          },
+          "Black": {
+            "turnout": 59.6,
+            "registration": 67.3
+          },
+          "Hispanic": {
+            "turnout": 47.6,
+            "registration": 56.3
+          },
+          "Asian": {
+            "turnout": 49.3,
+            "registration": 57.9
+          }
+        }
+      }
+    },
+    "2020": {
+      "year": 2020,
+      "candidates": {
+        "Democratic": "Joe Biden",
+        "Republican": "Donald Trump"
+      },
+      "national_popular_vote": {
+        "Democratic": 51.3,
+        "Republican": 46.9,
+        "Other/Third Party": 1.8
+      },
+      "electorate_share_by_race": {
+        "White": 67,
+        "Black": 13,
+        "Hispanic/Latino": 13,
+        "Asian": 4,
+        "Other": 4
+      },
+      "voting_by_race": {
+        "White": {
+          "electorate_share": 67,
+          "Democratic": 41,
+          "Republican": 58,
+          "Other/Third Party": 1
+        },
+        "Black": {
+          "electorate_share": 13,
+          "Democratic": 87,
+          "Republican": 12,
+          "Other/Third Party": 1
+        },
+        "Hispanic/Latino": {
+          "electorate_share": 13,
+          "Democratic": 65,
+          "Republican": 32,
+          "Other/Third Party": 3
+        },
+        "Asian": {
+          "electorate_share": 4,
+          "Democratic": 63,
+          "Republican": 34,
+          "Other/Third Party": 3
+        },
+        "Other": {
+          "electorate_share": 4,
+          "Democratic": 55,
+          "Republican": 41,
+          "Other/Third Party": 4
+        }
+      },
+      "pew_validated_voter_data": {
+        "source": "Pew Research Center, 'Behind Biden's 2020 Victory' (June 2021)",
+        "note": "Pew uses validated voter methodology matching survey responses to commercial voter files. Numbers may differ from exit polls due to methodology.",
+        "by_race": {
+          "White": {
+            "Democratic": 42,
+            "Republican": 57,
+            "notes": "Trump won White voters by 15 points. White voters were 71% of the electorate in Pew's validated sample."
+          },
+          "Black": {
+            "Democratic": 92,
+            "Republican": 8,
+            "notes": "Near-identical to 2016; highest Democratic loyalty of any racial group."
+          },
+          "Hispanic": {
+            "Democratic": 59,
+            "Republican": 38,
+            "notes": "Trump gained 10 points with Hispanic voters vs. 2018 midterms (25%→38%). Wide education gap: college-educated Hispanics 69% Biden, non-college 55% Biden."
+          }
+        }
+      },
+      "census_turnout_and_registration": {
+        "source": "US Census Bureau CPS Voting and Registration Supplement, November 2020 (P20-585)",
+        "note": "Percentages are of citizen voting-age population (self-reported). 2020 saw the highest turnout in a presidential election since 1992.",
+        "overall_turnout": 66.8,
+        "overall_registration": 72.7,
+        "by_race": {
+          "White_non_Hispanic": {
+            "turnout": 70.9,
+            "registration": 76.3
+          },
+          "Black": {
+            "turnout": 62.6,
+            "registration": 69.0
+          },
+          "Hispanic": {
+            "turnout": 53.7,
+            "registration": 61.1
+          },
+          "Asian": {
+            "turnout": 59.7,
+            "registration": 64.6
+          }
+        }
+      }
+    },
+    "2024": {
+      "year": 2024,
+      "candidates": {
+        "Democratic": "Kamala Harris",
+        "Republican": "Donald Trump"
+      },
+      "national_popular_vote": {
+        "Democratic": 48.3,
+        "Republican": 49.8,
+        "Other/Third Party": 1.9
+      },
+      "electorate_share_by_race": {
+        "White": 71,
+        "Black": 11,
+        "Hispanic/Latino": 12,
+        "Asian": 3,
+        "Other": 3
+      },
+      "voting_by_race": {
+        "White": {
+          "electorate_share": 71,
+          "Democratic": 41,
+          "Republican": 57,
+          "Other/Third Party": 2
+        },
+        "Black": {
+          "electorate_share": 11,
+          "Democratic": 85,
+          "Republican": 13,
+          "Other/Third Party": 2
+        },
+        "Hispanic/Latino": {
+          "electorate_share": 12,
+          "Democratic": 52,
+          "Republican": 46,
+          "Other/Third Party": 2
+        },
+        "Asian": {
+          "electorate_share": 3,
+          "Democratic": 54,
+          "Republican": 39,
+          "Other/Third Party": 7
+        },
+        "Other": {
+          "electorate_share": 3,
+          "Democratic": 53,
+          "Republican": 43,
+          "Other/Third Party": 4
+        }
+      },
+      "census_turnout_and_registration": {
+        "source": "US Census Bureau CPS Voting and Registration Supplement, November 2024 (P20-587)",
+        "note": "Percentages are of citizen voting-age population (self-reported).",
+        "overall_turnout": 63.9,
+        "overall_registration": 70.5,
+        "by_race": {
+          "White_non_Hispanic": {
+            "turnout": 67.2,
+            "registration": 73.8
+          },
+          "Black": {
+            "turnout": 64.1,
+            "registration": 70.2
+          },
+          "Hispanic": {
+            "turnout": 50.5,
+            "registration": 57.8
+          },
+          "Asian": {
+            "turnout": 59.2,
+            "registration": 65.0
+          }
+        }
+      }
+    }
+  },
+  "trends_summary": {
+    "white_voters": {
+      "trend": "Consistently Republican-leaning. Trump won White voters by 21 points in 2016, 17 points in 2020, and 16 points in 2024. White share of electorate declined from 71% in 2016 to 67% in 2020, then returned to 71% in 2024.",
+      "significance": "White voters remain the largest voting bloc. The steady but modest decline in Republican margins (from +21 to +16) reflects gradual demographic and educational realignment. College-educated White voters have shifted toward Democrats, while non-college White voters remain strongly Republican."
+    },
+    "black_voters": {
+      "trend": "Overwhelmingly Democratic. Black support for Democrats was 88% in 2016, 87% in 2020, and 85% in 2024. Republican share among Black voters rose from 8% (2016) to 13% (2024), with notable gains among Black men and younger Black voters.",
+      "significance": "Black voters remain the most reliably Democratic racial group, though the 2024 election showed a measurable shift, particularly among Black men. The 5-point decline in Democratic support from 2016 to 2024 was one factor in Harris's narrower margins."
+    },
+    "hispanic_latino_voters": {
+      "trend": "Largest party-shift story of the three elections. Democratic support among Hispanic/Latino voters dropped from 65% in 2016 to 65% in 2020, then fell sharply to 52% in 2024. Republican share rose from 29% (2016) to 46% (2024) — a 17-point gain.",
+      "significance": "This is the most dramatic realignment in recent electoral history. The shift was especially pronounced among Hispanic men, working-class Hispanics, and in South Florida and South Texas. Hispanic voters can no longer be treated as a reliable Democratic constituency."
+    },
+    "asian_voters": {
+      "trend": "Democratic support declined from 65% in 2016 to 54% in 2024. Republican share rose from 29% to 39% over the same period. Third-party support spiked to 7% in 2024, highest of any racial group.",
+      "significance": "Asian American voters have been the fastest-growing racial/ethnic group in the electorate. The 2024 election showed significant movement toward Republicans and an unusually high third-party vote share."
+    },
+    "other_voters": {
+      "trend": "Democratic-leaning but increasingly competitive. Democratic support held relatively steady (56% in 2016, 55% in 2020, 53% in 2024). Third-party support remains elevated relative to other groups.",
+      "significance": "This heterogeneous category (Native American, multiracial, Pacific Islander, etc.) shows diverse voting patterns but leans Democratic overall."
+    },
+    "turnout": {
+      "trend": "Overall turnout rose from 61.4% (2016) to 66.8% (2020) — the highest since 1992 — then fell back to 63.9% in 2024. The 2020 spike was driven partly by expanded mail and early voting during the COVID-19 pandemic.",
+      "by_race": "All groups saw turnout increases in 2020 and declines in 2024. White non-Hispanic voters consistently have the highest turnout. Hispanic turnout remains the lowest among major groups, though the gap has narrowed."
+    }
+  }
+}

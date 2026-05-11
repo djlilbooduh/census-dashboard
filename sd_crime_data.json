@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "San Diego, CA — Crime & Arrest Data by Race",
+    "generated": "2026-05-10T14:55:00-07:00",
+    "phase": 1,
+    "status": "PARTIAL — agency-level race breakdowns unavailable through automated means",
+    "population": 1385061,
+    "population_source": "California Department of Finance, 2023 estimate",
+    "notes": [
+      "This file compiles what could be gathered programmatically. Agency-level arrest data by race for San Diego PD (ORI CA0371100) and San Diego County Sheriff (ORI CA0370000) was NOT retrievable through any of the attempted automated sources.",
+      "The FBI CDE API (api.usa.gov/crime/fbi/cde) returns structurally valid responses but ALL data values are null for every endpoint tested — NIBRS offender/victim/offense data at agency, state, and national levels.",
+      "The FBI CDE arrest endpoints (/arrest/national/{offense}/race, /arrest/agency/{ORI}/race) require valid offense ID parameters, but the API documentation page is a JS-only SPA that cannot be scraped, and no offense IDs tested returned data.",
+      "CA DOJ OpenJustice (openjustice.doj.ca.gov) arrest datasets require user authentication (login) to download CSV/PDF files. The 'Crime in California' annual PDFs are publicly accessible but contain only STATE-LEVEL summaries.",
+      "FBI UCR data tables (ucr.fbi.gov) are behind Cloudflare anti-bot protection.",
+      "The FBI CDE webapp (cde.ucr.cjis.gov) and San Diego Open Data Portal (data.sandiego.gov) are JS-only SPAs that do not render via web_fetch.",
+      "Stanford Open Policing Project has traffic stop data (not arrest data) for some CA jurisdictions but San Diego download URLs could not be resolved.",
+      "Web search was unavailable during this session."
+    ]
+  },
+  "sources_attempted": {
+    "fbi_cde_api": {
+      "url": "https://api.usa.gov/crime/fbi/cde/",
+      "endpoints_tested": [
+        "nibrs/agency/CA0371100/offender (2020, 2023) — all null",
+        "nibrs/agency/CA0370000/offender (2023) — all null",
+        "nibrs/state/CA/offender (2023) — all null",
+        "nibrs/national/offender (2023) — all null",
+        "nibrs/agency/NY0303000/offender (2023) — all null (NYPD, sanity check)",
+        "arrest/agency/CA0371100/race — requires valid offense ID",
+        "arrest/national/race — requires valid offense ID",
+        "arrest/national/{offense}/race for 12+ offenses — all 404 or rate-limited",
+        "estimates/agency/CA0371100 — 404",
+        "estimates/states/CA — 404",
+        "arrest/state/CA — 404"
+      ],
+      "result": "API returns structural schema with all-null data values. Data not loaded or not available through this API."
+    },
+    "ca_doj_openjustice": {
+      "url": "https://openjustice.doj.ca.gov/",
+      "result": "Public-facing SPA — data exploration works in browser but requires login for data downloads. Crime in California PDFs accessible directly (state-level only).",
+      "pdfs_downloaded": [
+        "Crime In CA 2020 (6.0 MB)",
+        "Crime In CA 2021 (2.9 MB)",
+        "Crime In CA 2022 (3.6 MB)",
+        "Crime In CA 2023 (8.4 MB)"
+      ]
+    },
+    "fbi_cde_webapp": {
+      "url": "https://cde.ucr.cjis.gov/",
+      "result": "JS-only SPA, not scrapable."
+    },
+    "sandiego_open_data": {
+      "url": "https://data.sandiego.gov/",
+      "result": "JS-only SPA. Police datasets exist but cannot be accessed programmatically."
+    },
+    "stanford_openpolicing": {
+      "url": "https://openpolicing.stanford.edu/",
+      "result": "Traffic stop data only (not arrests). San Diego download URL pattern not found."
+    }
+  },
+  "state_level_context": {
+    "source": "CA DOJ Crime in California 2023 (Table 17 — Arrests)",
+    "california_total_arrests": {
+      "2020": {
+        "total_arrests": 853720,
+        "felony_arrests": 273542,
+        "misdemeanor_arrests": 580178,
+        "total_arrest_rate_per_100k": 2812.3
+      },
+      "2022": {
+        "total_arrests": null,
+        "total_arrest_rate_per_100k": 2535.2
+      },
+      "2023": {
+        "total_arrests": null,
+        "total_arrest_rate_per_100k": 2611.2
+      }
+    },
+    "notes": "State-level totals only. Agency-level (San Diego PD / SD County Sheriff) race/ethnicity breakdowns not in these PDFs. See 'next_steps' for how to obtain."
+  },
+  "san_diego_data": {
+    "status": "NOT YET OBTAINED",
+    "reason": "Agency-level arrest data by race requires manual download from CA DOJ OpenJustice or direct request to SDPD / SD County Sheriff.",
+    "estimated_placeholder": {
+      "note": "The following are ROUGH ESTIMATES based on San Diego's share of CA population (~3.5%) applied to state totals. NOT verified. DO NOT cite without real data.",
+      "total_arrests_estimated": {
+        "2020": 29900,
+        "2023": null
+      },
+      "crime_rate_per_1000_estimated": {
+        "2020": 21.6,
+        "2023": null
+      }
+    }
+  },
+  "next_steps": {
+    "method_1_ca_doj_openjustice": {
+      "description": "Create a free account at https://openjustice.doj.ca.gov/ and download the Arrests dataset.",
+      "steps": [
+        "1. Register at https://data-openjustice.doj.ca.gov/user/register",
+        "2. Go to https://openjustice.doj.ca.gov/exploration/crime-statistics/arrests",
+        "3. Filter by: County = 'San Diego', Agency = 'San Diego PD' (or San Diego County Sheriff)",
+        "4. Export to CSV — includes race/ethnicity, age, sex, offense type",
+        "5. The downloadable 'Arrests CY 20XX' CSV files have columns: COUNTY, AGENCY, OFFENSE_LEVEL, OFFENSE_CATEGORY, RACE, ETHNICITY, GENDER, AGE_GROUP, COUNT"
+      ]
+    },
+    "method_2_fbi_cde_webapp": {
+      "description": "Use the FBI CDE Arrest Explorer in a browser.",
+      "steps": [
+        "1. Go to https://cde.ucr.cjis.gov/ → Arrest → Agency",
+        "2. Search for 'San Diego Police Department' (ORI CA0371100) or 'San Diego County Sheriff' (ORI CA0370000)",
+        "3. Select offense categories and time range (2020-2023)",
+        "4. Export data — the webapp provides demographic breakdowns by race, ethnicity, age, sex"
+      ]
+    },
+    "method_3_ca_doj_cjsc_direct": {
+      "description": "Request data directly from CA DOJ Criminal Justice Statistics Center.",
+      "url": "https://oag.ca.gov/cjsc",
+      "notes": "The CJSC can provide custom data extracts. Contact via the Public Records Act or their data request form."
+    },
+    "method_4_sdpd_public_records": {
+      "description": "Submit a Public Records Act request to SDPD.",
+      "url": "https://www.sandiego.gov/police/data-transparency/public-records-act-request",
+      "notes": "SDPD publishes annual reports and has a transparency portal. They can provide arrest statistics by race upon request."
+    }
+  },
+  "data_schema_expected": {
+    "description": "When agency-level data is obtained, it should be structured as follows for Phase 2:",
+    "schema": {
+      "arrests_by_year_and_race": {
+        "2020": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0, "Unknown": 0},
+        "2021": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0, "Unknown": 0},
+        "2022": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0, "Unknown": 0},
+        "2023": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0, "Unknown": 0}
+      },
+      "arrests_by_offense_and_race": {
+        "violent_crime": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0},
+        "property_crime": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0},
+        "drug_offenses": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0},
+        "other_offenses": {"White": 0, "Black": 0, "Hispanic": 0, "Asian": 0, "Other": 0}
+      },
+      "crime_rate_per_1000": {"2020": 0, "2021": 0, "2022": 0, "2023": 0}
+    }
+  }
+}
