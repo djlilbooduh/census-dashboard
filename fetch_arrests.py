@@ -43,7 +43,61 @@ def fetch_agencies(state_code):
     
     return city_agencies, county_agencies
 
+# Manual ORI overrides for cities where word-matching fails
+MANUAL_ORIS = {
+    "Chicago city, Illinois": "ILCPD0000",
+    "New York city, New York": "NY0303000",
+    "Los Angeles city, California": "CA0194200",
+    "Houston city, Texas": "TX1012100", 
+    "Philadelphia city, Pennsylvania": "PA0511800",
+    "Phoenix city, Arizona": "AZ0072300",
+    "San Antonio city, Texas": "TX1011300",
+    "San Diego city, California": "CA0371100",
+    "Dallas city, Texas": "TX0571300",
+    "San Jose city, California": "CA0430900",
+    "Austin city, Texas": "TX2270100",
+    "Jacksonville city, Florida": "FL0160200",
+    "Fort Worth city, Texas": "TX2202400",
+    "Columbus city, Ohio": "OH0250300",
+    "Charlotte city, North Carolina": "NC0600200",
+    "Indianapolis city, Indiana": "IN0490C00",
+    "Seattle city, Washington": "WA0170800",
+    "Denver city, Colorado": "CODPD0000",
+    "Boston city, Massachusetts": "MA0134900",
+    "Nashville city, Tennessee": "TN0190100",
+    "Baltimore city, Maryland": "MDBPD0000",
+    "Portland city, Oregon": "OR0510200",
+    "Las Vegas city, Nevada": "NV0020100",
+    "Memphis city, Tennessee": "TN0790300",
+    "Louisville city, Kentucky": "KY0560500",
+    "Milwaukee city, Wisconsin": "WI0412800",
+    "Albuquerque city, New Mexico": "NM0010100",
+    "Tucson city, Arizona": "AZ0100300",
+    "Fresno city, California": "CA0100500",
+    "Sacramento city, California": "CA0340500",
+    "Mesa city, Arizona": "AZ0071700",
+    "Atlanta city, Georgia": "GAAPD0000",
+    "Kansas City city, Missouri": "MO0480500",
+    "Omaha city, Nebraska": "NB0550100",
+    "Colorado Springs city, Colorado": "CO0210100",
+    "Raleigh city, North Carolina": "NC0920100",
+    "Virginia Beach city, Virginia": "VA1180000",
+    "Long Beach city, California": "CA0194300",
+    "Miami city, Florida": "FL0130300",
+    "Oakland city, California": "CA0010900",
+    "Minneapolis city, Minnesota": "MN0270500",
+    "Tulsa city, Oklahoma": "OK0720600",
+    "Tampa city, Florida": "FL0290400",
+    "Arlington city, Texas": "TX2200700",
+    "New Orleans city, Louisiana": "LA0360200",
+}
+
+
 def match_city(city_full_name, city_agencies, county_agencies):
+    """Match a census city to a CDE agency ORI."""
+    # Check manual overrides first
+    if city_full_name in MANUAL_ORIS:
+        return MANUAL_ORIS[city_full_name]
     """Match a census city to a CDE agency ORI."""
     city_clean = re.sub(r'\s+(city|town|CDP|village|borough|municipality),\s*\w+$', '', city_full_name, flags=re.IGNORECASE)
     city_words = city_clean.lower().split()
