@@ -429,7 +429,7 @@ function renderVoting(year) {
   
   let html = '<div class="year-selector">';
   Object.keys(NATIONAL_VOTE).forEach(y => {
-    html += '<div class="year-btn' + (y==year?' active':'') + '" onclick="renderVoting('' + y + '')">' + y + '</div>';
+    html += '<div class="year-btn' + (y==year?' active':'') + '" data-year="' + y + '" onclick="renderVoting(this.dataset.year)">' + y + '</div>';
   });
   html += '</div>';
   
@@ -476,7 +476,7 @@ function filterCityDropdown() {
   if (matches.length === 0) {
     dd.innerHTML = '<div class="no-results">No cities match</div>';
   } else {
-    dd.innerHTML = matches.map((k, i) => '<div class="item' + (i===0?' active':'') + '" onmousedown="selectCity('' + k.replace(/'/g, "\'") + '')">' + k + '</div>').join('');
+    dd.innerHTML = matches.map((k, i) => '<div class="item' + (i===0?' active':'') + '" data-city="' + k.replace(/"/g, '&quot;') + '" onmousedown="selectCity(this.dataset.city)">' + k + '</div>').join('');
   }
   dd.classList.add('show');
   activeIdx = 0;
