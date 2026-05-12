@@ -630,7 +630,7 @@ function renderSchools() {
     
     if (schools.length === 0) return;
     
-    html += '<div class="school-section"><h2 onclick="this.parentElement.classList.toggle(' + String.fromCharCode(39) + 'collapsed' + String.fromCharCode(39) + ')"><span class="toggle-arrow">▼</span> ' + sec.label + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + schools.length + ')</span></h2><div class="school-list">';
+    html += '<div class="school-section collapsed"><h2 onclick="this.parentElement.classList.toggle(' + String.fromCharCode(39) + 'collapsed' + String.fromCharCode(39) + ')"><span class="toggle-arrow">▼</span> ' + sec.label + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + schools.length + ')</span></h2><div class="school-list">';
     
     schools.forEach(function(s) {
       var lunchClass = (s.lunch_pct||0) < 30 ? 'lunch-low' : (s.lunch_pct||0) < 60 ? 'lunch-mid' : 'lunch-high';
