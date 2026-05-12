@@ -211,6 +211,25 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 const STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming"};
 let currentState = 'CA';
 let currentCity = 'Los Angeles city, California';
+
+function saveState() {
+  try {
+    localStorage.setItem('ky_dash_state', currentState);
+    localStorage.setItem('ky_dash_city', currentCity);
+    localStorage.setItem('ky_dash_tab', currentTab);
+  } catch(e) {}
+}
+
+(function restoreState() {
+  try {
+    var saved = localStorage.getItem('ky_dash_state');
+    if (saved && STATES[saved]) currentState = saved;
+    var savedCity = localStorage.getItem('ky_dash_city');
+    if (savedCity) currentCity = savedCity;
+    var savedTab = localStorage.getItem('ky_dash_tab');
+    if (savedTab) currentTab = savedTab;
+  } catch(e) {}
+})();
 let allCities = {};
 let allCityKeys = [];
 let allCityData = {};
@@ -252,7 +271,10 @@ async function loadStateData(st) {
     allCityData = census.cities || {};
     allCities = allCityData;
     allCityKeys = Object.keys(allCityData).sort();
-    currentCity = allCityKeys[0] || '';
+    // Keep saved city if it exists in this state, otherwise use first city
+    if (!currentCity || !allCityData[currentCity]) {
+      currentCity = allCityKeys[0] || '';
+    }
     
     const n = allCityKeys.length;
     document.getElementById('citySearch').placeholder = '🔍 Search ' + n + ' cities in ' + STATES[st] + '…';
@@ -283,6 +305,16 @@ async function loadStateData(st) {
     }
     
     if (currentCity) renderCurrentCity();
+    // Restore saved tab visually
+    document.querySelectorAll('.tab').forEach(function(t) {
+      t.classList.remove('active');
+      if (t.textContent.includes(currentTab === 'census' ? 'Census' : currentTab === 'crime' ? 'Crime' : currentTab === 'voting' ? 'Voting' : 'Schools')) t.classList.add('active');
+    });
+    document.getElementById('tabCensus').style.display = currentTab === 'census' ? '' : 'none';
+    document.getElementById('tabCrime').style.display = currentTab === 'crime' ? '' : 'none';
+    document.getElementById('tabVoting').style.display = currentTab === 'voting' ? '' : 'none';
+    document.getElementById('tabSchools').style.display = currentTab === 'schools' ? '' : 'none';
+    saveState();
     window.location.hash = st;
     
   } catch(e) {
@@ -403,6 +435,7 @@ function renderCurrentCity() {
 
 function showTab(tab) {
   currentTab = tab;
+  saveState();
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.tab').forEach(t => {
     if (t.textContent.includes(tab === 'census' ? 'Census' : tab === 'crime' ? 'Crime' : tab === 'voting' ? 'Voting' : 'Schools')) t.classList.add('active');
@@ -883,6 +916,7 @@ function updateActive(items) {
 
 function selectCity(key) {
   currentCity = key;
+  saveState();
   document.getElementById('citySearch').value = key;
   document.getElementById('cityDropdown').classList.remove('show');
   if (compareMode && secondCity) renderCompare();
