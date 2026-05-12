@@ -76,6 +76,24 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 #crimeContainer{max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .loading-msg{text-align:center;color:var(--mu);padding:2rem;font-size:.85rem}
 @media(max-width:768px){.race-bar-row{flex-wrap:wrap}.race-label{width:100%;text-align:left;margin-bottom:.1rem}.grid{grid-template-columns:1fr!important;padding:0 .75rem}.tabs{padding:0 .5rem;gap:.1rem}.tab{padding:.35rem .7rem;font-size:.68rem}#stateBar{flex-direction:column;align-items:center}}
+#schoolsContainer{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.school-section{margin-bottom:2rem}
+.school-section h2{font-size:.9rem;color:var(--ac);margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.5px;padding-bottom:.5rem;border-bottom:1px solid var(--bd)}
+.school-card{background:var(--sf);border:1px solid var(--bd);border-radius:8px;padding:1rem 1.25rem;margin-bottom:.6rem;display:flex;align-items:center;gap:1rem;transition:border-color .15s}
+.school-card:hover{border-color:var(--ac)}
+.school-info{flex:1;min-width:0}
+.school-name{font-weight:600;font-size:.82rem;color:var(--tx);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.school-district{font-size:.65rem;color:var(--mu);margin-top:2px}
+.school-meta{display:flex;gap:1rem;margin-top:4px;font-size:.7rem;color:var(--mu);flex-wrap:wrap}
+.school-badges{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0}
+.school-enrollment{font-size:1.1rem;font-weight:700;color:var(--ac);font-family:'SF Mono','Cascadia Code',monospace}
+.school-ratio{font-size:.65rem;color:var(--mu)}
+.school-lunch{font-size:.65rem;padding:2px 8px;border-radius:4px;font-weight:600}
+.lunch-low{background:rgba(102,187,106,.15);color:#66bb6a}
+.lunch-mid{background:rgba(255,171,64,.15);color:#ffab40}
+.lunch-high{background:rgba(255,82,82,.15);color:#ff5252}
+.school-charter{font-size:.6rem;padding:2px 6px;border-radius:3px;background:rgba(79,195,247,.12);color:#4fc3f7;font-weight:600}
+.school-grades{font-size:.65rem;color:var(--mu);padding:2px 8px;border-radius:4px;background:rgba(255,255,255,.04)}
 </style>
 </head>
 <body>
@@ -145,6 +163,7 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
     <div class="tab active" onclick="showTab('census')">🏙️ Census</div>
     <div class="tab" onclick="showTab('crime')">🛡️ Crime</div>
     <div class="tab" onclick="showTab('voting')">🗳️ Voting</div>
+    <div class="tab" onclick="showTab('schools')">🏫 Schools</div>
   </div>
   <div class="city-search" style="position:relative;max-width:600px">
     <div style="display:flex;gap:.5rem;align-items:center">
@@ -174,6 +193,9 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 <div id="tabVoting" style="display:none">
   <div id="votingContainer"></div>
 </div>
+<div id="tabSchools" style="display:none">
+  <div id="schoolsContainer"></div>
+</div>
 
 <footer>
   Data: US Census Bureau ACS 2023 5-Year · FBI Crime Data Explorer 2022 · MIT Election Lab / CNN Exit Polls<br>
@@ -193,6 +215,8 @@ let countyVoting = {};
 let cityCountyMap = {};
 let arrestData = {};
 let crimeLoaded = false;
+let schoolsLoaded = false;
+let schoolData = {};
 let currentTab = 'census';
 let currentNationalYear = '2024';
 let cityCountyReady = false;
@@ -208,6 +232,7 @@ function getDataURL(st, type) {
   if (type === 'census') return prefix + '_census.json';
   if (type === 'voting') return prefix + '_voting.json';
   if (type === 'arrest') return prefix + '_arrests.json';
+  if (type === 'schools') return 'schools/' + prefix + '_schools.json';
   return '';
 }
 
@@ -232,6 +257,9 @@ async function loadStateData(st) {
     crimeLoaded = false;
     arrestData = {};
     document.getElementById('crimeContainer').innerHTML = '';
+    schoolsLoaded = false;
+    schoolData = {};
+    document.getElementById('schoolsContainer').innerHTML = '';
     
     try {
       const vr = await fetch(getDataURL(st, 'voting') + '?t=' + Date.now());
@@ -366,19 +394,22 @@ function renderCurrentCity() {
   if (currentTab === 'census') renderCensus();
   else if (currentTab === 'crime') renderCrime();
   else if (currentTab === 'voting') renderVoting(currentNationalYear);
+  else if (currentTab === 'schools') renderSchools();
 }
 
 function showTab(tab) {
   currentTab = tab;
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.tab').forEach(t => {
-    if (t.textContent.includes(tab === 'census' ? 'Census' : tab === 'crime' ? 'Crime' : 'Voting')) t.classList.add('active');
+    if (t.textContent.includes(tab === 'census' ? 'Census' : tab === 'crime' ? 'Crime' : tab === 'voting' ? 'Voting' : 'Schools')) t.classList.add('active');
   });
   document.getElementById('tabCensus').style.display = tab === 'census' ? '' : 'none';
   document.getElementById('tabCrime').style.display = tab === 'crime' ? '' : 'none';
   document.getElementById('tabVoting').style.display = tab === 'voting' ? '' : 'none';
+  document.getElementById('tabSchools').style.display = tab === 'schools' ? '' : 'none';
   if (currentCity && allCityData[currentCity]) renderCurrentCity();
   if (tab === 'crime' && !crimeLoaded) loadCrimeData();
+  if (tab === 'schools' && !schoolsLoaded) loadSchoolData();
 }
 
 function renderCensus() {
@@ -538,6 +569,101 @@ function switchCrimeYear(year) {
     a._selectedYear = year;
     renderCrime();
   }
+}
+
+async function loadSchoolData() {
+  if (schoolsLoaded) return;
+  document.getElementById('schoolsContainer').innerHTML = '<div class="loading-msg">🔄 Loading school data for ' + STATES[currentState] + '…</div>';
+  try {
+    const r = await fetch(getDataURL(currentState, 'schools') + '?t=' + Date.now());
+    const raw = await r.json();
+    schoolData = raw;
+    schoolsLoaded = true;
+    if (currentTab === 'schools') renderSchools();
+  } catch(e) {
+    document.getElementById('schoolsContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🏫 Schools</h2><p style="color:var(--mu)">Could not load school data for ' + STATES[currentState] + '</p><p style="color:var(--mu);font-size:.7rem">' + e.message + '</p></div>';
+  }
+}
+
+function renderSchools() {
+  if (!schoolsLoaded) { loadSchoolData(); return; }
+  
+  // Match current city to school data (normalize key)
+  var cityKey = cleanCityName(currentCity).toLowerCase().replace(/[^a-z0-9\s-]/g, '').trim();
+  var citySchools = schoolData[cityKey];
+  
+  // Try alternative matches
+  if (!citySchools) {
+    var ck2 = currentCity.split(',')[0].toLowerCase().replace(/\s+(city|town|cdp|borough|village|municipality)$/i, '').trim();
+    citySchools = schoolData[ck2];
+  }
+  if (!citySchools) {
+    // Try partial match
+    for (var key in schoolData) {
+      if (key.indexOf(cityKey) === 0 || cityKey.indexOf(key) === 0) {
+        citySchools = schoolData[key];
+        break;
+      }
+    }
+  }
+  
+  if (!citySchools || (citySchools.elem.length === 0 && citySchools.middle.length === 0 && citySchools.high.length === 0)) {
+    document.getElementById('schoolsContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🏫 Schools</h2><p style="color:var(--mu);margin-top:.5rem">No school data for ' + cleanCityName(currentCity) + '</p></div>';
+    return;
+  }
+  
+  var html = '';
+  var sections = [
+    {key:'elem', label:'📚 Elementary Schools', color:'#4fc3f7'},
+    {key:'middle', label:'📚 Middle Schools', color:'#ffab40'},
+    {key:'high', label:'📚 High Schools', color:'#66bb6a'}
+  ];
+  
+  sections.forEach(function(sec) {
+    var schools = citySchools[sec.key] || [];
+    // Sort by enrollment (largest first)
+    schools.sort(function(a,b) { return (b.enrollment||0) - (a.enrollment||0); });
+    
+    if (schools.length === 0) return;
+    
+    html += '<div class="school-section"><h2>' + sec.label + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + schools.length + ')</span></h2>';
+    
+    schools.forEach(function(s) {
+      var lunchClass = (s.lunch_pct||0) < 30 ? 'lunch-low' : (s.lunch_pct||0) < 60 ? 'lunch-mid' : 'lunch-high';
+      var gradeSpan = gradeLabel(s.low_grade, s.high_grade);
+      var ratioStr = s.ratio ? s.ratio + ':1 ratio' : '';
+      
+      html += '<div class="school-card">';
+      html += '<div class="school-info">';
+      html += '<div class="school-name">' + (s.name || 'Unknown School') + '</div>';
+      html += '<div class="school-district">' + (s.district || '') + '</div>';
+      html += '<div class="school-meta">';
+      if (gradeSpan) html += '<span class="school-grades">' + gradeSpan + '</span>';
+      html += '<span>👨‍🏫 ' + (ratioStr || 'N/A') + '</span>';
+      html += '<span class="school-lunch ' + lunchClass + '">🍎 ' + (s.lunch_pct||0) + '% free lunch</span>';
+      if (s.charter) html += '<span class="school-charter">CHTR</span>';
+      html += '</div></div>';
+      html += '<div class="school-badges">';
+      html += '<div class="school-enrollment">' + fmt(s.enrollment||0) + '</div>';
+      html += '<div class="school-ratio">students</div>';
+      html += '</div></div>';
+    });
+    html += '</div>';
+  });
+  
+  document.getElementById('schoolsContainer').innerHTML = html;
+}
+
+function gradeLabel(low, high) {
+  if (low == null && high == null) return '';
+  // Convert numeric grades to labels
+  var labels = {'-1':'PK','0':'K','1':'1','2':'2','3':'3','4':'4','5':'5','6':'6','7':'7','8':'8','9':'9','10':'10','11':'11','12':'12'};
+  var lo = labels[String(low)] || low;
+  var hi = labels[String(high)] || high;
+  if (lo && hi) return lo + '–' + hi;
+  if (lo) return lo;
+  if (hi) return hi;
+  return '';
 }
 
 // 2024 Electoral College votes by state
@@ -841,6 +967,7 @@ function renderCompare() {
   if (currentTab === 'census') renderCompareCensus(d1, d2);
   else if (currentTab === 'crime') { if (crimeLoaded) renderCompareCrime(); else { loadCrimeData().then(function() { renderCompareCrime(); }); } }
   else if (currentTab === 'voting') renderCompareVoting();
+  else if (currentTab === 'schools') { document.getElementById('schoolsContainer').innerHTML = '<div class="card loading-msg">Compare mode not available for Schools tab</div>'; }
 }
 
 function compareHeader() {
