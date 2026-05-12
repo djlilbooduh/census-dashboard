@@ -439,22 +439,31 @@ function renderCrime() {
     });
     a.sex = legacySex;
   }
-  if (a && !a.year) a.year = '2023';
-  if (!a || a.total_arrests === 0 || a.note) {
+  // Resolve year: use switchCrimeYear's _selectedYear, then a.year, then default
+  const hasMultiYear = a && a.years && Object.keys(a.years).length > 1;
+  let selectedYear = (a && a._selectedYear) || (a && a.year) || (hasMultiYear ? Object.keys(a.years).sort().pop() : '2022');
+  selectedYear = String(selectedYear);
+  let yearData = a;
+  if (hasMultiYear) {
+    const years = Object.keys(a.years).sort();
+    if (!years.includes(selectedYear)) selectedYear = years[years.length - 1];
+    yearData = a.years[selectedYear] || a;
+  }
+  // Check for no data after resolving the year
+  if (!a || (!hasMultiYear && a.total_arrests === 0) || a.note) {
     document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🛡️ Crime & Safety</h2><p style="color:var(--mu);margin-top:.5rem">No arrest data for ' + cleanCityName(currentCity) + '</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">Small cities often contract with county sheriffs and do not report independently to the FBI.</p></div>';
     return;
   }
   let html = '';
   
-  // Check for multi-year data
-  const hasMultiYear = a.years && Object.keys(a.years).length > 1;
-  let selectedYear = (a.year || '2022').toString();
-  let yearData = a;
-  
   if (hasMultiYear) {
     const years = Object.keys(a.years).sort();
-    if (!years.includes(selectedYear)) selectedYear = years[years.length - 1];
-    yearData = a.years[selectedYear] || a;
+    // Check if ALL years have 0 arrests — skip the whole section
+    const allZero = years.every(function(y) { return !a.years[y] || a.years[y].total_arrests === 0; });
+    if (allZero && !a.note) {
+      document.getElementById('crimeContainer').innerHTML = '<div class="card" style="text-align:center"><h2>🛡️ Crime & Safety</h2><p style="color:var(--mu);margin-top:.5rem">No arrest data for ' + cleanCityName(currentCity) + '</p><p style="color:var(--mu);font-size:.7rem;margin-top:.5rem">Small cities often contract with county sheriffs and do not report independently to the FBI.</p></div>';
+      return;
+    }
     html += '<div class="year-selector" style="margin-bottom:1.5rem">';
     years.forEach(y => {
       html += '<div class="year-btn' + (y === selectedYear ? ' active' : '') + '" data-year="' + y + '" onclick="switchCrimeYear(\'' + y + '\')">' + y + '</div>';
@@ -492,7 +501,7 @@ function renderCrime() {
   html += '<div class="big-num" style="color:' + rateColor + ';font-size:2.4rem">' + rateVal.toFixed(1) + '</div>';
   html += '<div style="font-size:.75rem;font-weight:600;color:' + rateColor + ';margin-top:.25rem">' + rateLabel + '</div>';
   html += '<div class="stat-sub" style="margin-top:.5rem">' + fmt(total) + ' arrests / ' + fmt(pop) + ' residents</div></div>';
-  html += '<div class="card" style="text-align:center"><div class="big-label">Total Arrests (2022)</div><div class="big-num" style="font-size:1.8rem">' + fmt(total) + '</div><div class="stat-sub">FBI CDE ' + (a.year || '2022') + '</div></div>';
+  html += '<div class="card" style="text-align:center"><div class="big-label">Total Arrests (' + selectedYear + ')</div><div class="big-num" style="font-size:1.8rem">' + fmt(total) + '</div><div class="stat-sub">FBI CDE ' + selectedYear + '</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Male Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#4fc3f7">' + fmt(sex.Male || 0) + '</div><div class="stat-sub">' + malePct.toFixed(1) + '% of arrests</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Female Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#ffab40">' + fmt(sex.Female || 0) + '</div><div class="stat-sub">' + femalePct.toFixed(1) + '% of arrests</div></div></div>';
   const gaugePct = Math.min(100, rateVal / 50 * 100);
@@ -878,6 +887,21 @@ function renderCompareCrime() {
   var a1 = arrestData[currentCity];
   var a2 = arrestData[secondCity];
   if (!a1 && !a2) { document.getElementById('crimeContainer').innerHTML = '<div class="card loading-msg">No arrest data for either city</div>'; return; }
+  
+  // Resolve year for multi-year data (use most recent available)
+  function resolveArrestYear(a) {
+    if (!a) return a;
+    if (a._resolved) return a;
+    if (a.years && Object.keys(a.years).length > 0) {
+      var yr = a._selectedYear || Object.keys(a.years).sort().pop();
+      var d = a.years[yr] || a;
+      d._resolved = true;
+      return d;
+    }
+    return a;
+  }
+  a1 = resolveArrestYear(a1);
+  a2 = resolveArrestYear(a2);
   
   // Normalize legacy format
   [a1, a2].forEach(function(a) {
