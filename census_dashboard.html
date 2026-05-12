@@ -473,16 +473,17 @@ function renderCrime() {
     // Trend bars
     const totals = years.map(y => a.years[y]?.total_arrests || 0);
     const maxTotal = Math.max(...totals, 1);
-    html += '<div class="card" style="max-width:960px;margin:0 auto 1rem;text-align:center"><h2>📈 Arrest Trends · ' + years[0] + '–' + years[years.length-1] + '</h2>';
-    html += '<div style="display:flex;align-items:flex-end;justify-content:center;gap:1.5rem;height:120px;padding:1rem 0">';
+    html += '<div class="card" style="max-width:960px;margin:0 auto 1rem;text-align:center;overflow:hidden"><h2>📈 Arrest Trends · ' + years[0] + '–' + years[years.length-1] + '</h2>';
+    html += '<div style="display:flex;align-items:flex-end;justify-content:center;gap:1.2rem;min-height:160px;padding:0.5rem 0.5rem 0 0.5rem">';
     years.forEach((y, i) => {
-      const h = Math.max(8, (totals[i] / maxTotal) * 100);
-      const color = totals[i] > (totals[i-1] || 0) ? '#ff5252' : '#66bb6a';
-      const delta = i > 0 ? ((totals[i] - totals[i-1]) / Math.max(1, totals[i-1]) * 100).toFixed(1) : '0';
-      const arrow = i > 0 ? (totals[i] > totals[i-1] ? '↑' : '↓') : '';
-      html += '<div style="text-align:center"><div style="font-size:.65rem;color:var(--mu);margin-bottom:.25rem">' + fmt(totals[i]) + '</div>';
-      html += '<div style="width:40px;height:' + h + 'px;background:' + color + ';border-radius:4px 4px 0 0;margin:0 auto;transition:height .5s"></div>';
-      html += '<div style="font-size:.65rem;font-weight:600;margin-top:.25rem;color:' + (i > 0 ? color : 'var(--mu)') + '">' + y + (i>0?' <span style="font-size:.55rem">' + arrow + delta + '%</span>':'') + '</div></div>';
+      var barH = Math.max(8, (totals[i] / maxTotal) * 100);
+      var color = totals[i] > (totals[i-1] || 0) ? '#ff5252' : '#66bb6a';
+      var delta = i > 0 ? ((totals[i] - totals[i-1]) / Math.max(1, totals[i-1]) * 100).toFixed(1) : '0';
+      var arrow = i > 0 ? (totals[i] > totals[i-1] ? '↑' : '↓') : '';
+      html += '<div style="text-align:center;min-width:52px;display:flex;flex-direction:column;align-items:center">';
+      html += '<div style="font-size:.6rem;color:var(--mu);margin-bottom:3px;white-space:nowrap">' + fmt(totals[i]) + '</div>';
+      html += '<div style="width:36px;height:' + barH + 'px;background:' + color + ';border-radius:4px 4px 0 0;transition:height .5s;flex-shrink:0"></div>';
+      html += '<div style="font-size:.55rem;font-weight:600;margin-top:3px;white-space:nowrap;color:' + (i > 0 ? color : 'var(--mu)') + '">' + y + (i>0?' <span style="font-size:.5rem">' + arrow + delta + '%</span>':'') + '</div></div>';
     });
     html += '</div></div>';
   }
