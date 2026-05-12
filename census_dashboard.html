@@ -78,7 +78,11 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 @media(max-width:768px){.race-bar-row{flex-wrap:wrap}.race-label{width:100%;text-align:left;margin-bottom:.1rem}.grid{grid-template-columns:1fr!important;padding:0 .75rem}.tabs{padding:0 .5rem;gap:.1rem}.tab{padding:.35rem .7rem;font-size:.68rem}#stateBar{flex-direction:column;align-items:center}}
 #schoolsContainer{max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .school-section{margin-bottom:2rem}
-.school-section h2{font-size:.9rem;color:var(--ac);margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.5px;padding-bottom:.5rem;border-bottom:1px solid var(--bd)}
+.school-section h2{font-size:.9rem;color:var(--ac);margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.5px;padding-bottom:.5rem;border-bottom:1px solid var(--bd);cursor:pointer;user-select:none;display:flex;align-items:center;gap:.5rem}
+.school-section h2:hover{color:#81d4fa}
+.school-section h2 .toggle-arrow{font-size:.7rem;transition:transform .2s;display:inline-block}
+.school-section.collapsed h2 .toggle-arrow{transform:rotate(-90deg)}
+.school-section.collapsed .school-list{display:none}
 .school-card{background:var(--sf);border:1px solid var(--bd);border-radius:8px;padding:1rem 1.25rem;margin-bottom:.6rem;display:flex;align-items:center;gap:1rem;transition:border-color .15s}
 .school-card:hover{border-color:var(--ac)}
 .school-info{flex:1;min-width:0}
@@ -626,7 +630,7 @@ function renderSchools() {
     
     if (schools.length === 0) return;
     
-    html += '<div class="school-section"><h2>' + sec.label + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + schools.length + ')</span></h2>';
+    html += '<div class="school-section"><h2 onclick="this.parentElement.classList.toggle(\'collapsed\')"><span class="toggle-arrow">▼</span> ' + sec.label + ' <span style="font-size:.7rem;color:var(--mu);font-weight:400">(' + schools.length + ')</span></h2><div class="school-list">';
     
     schools.forEach(function(s) {
       var lunchClass = (s.lunch_pct||0) < 30 ? 'lunch-low' : (s.lunch_pct||0) < 60 ? 'lunch-mid' : 'lunch-high';
@@ -648,7 +652,7 @@ function renderSchools() {
       html += '<div class="school-ratio">students</div>';
       html += '</div></div>';
     });
-    html += '</div>';
+    html += '</div></div>';
   });
   
   document.getElementById('schoolsContainer').innerHTML = html;
