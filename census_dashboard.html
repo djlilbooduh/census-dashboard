@@ -101,9 +101,11 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 .risk-btn{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.5rem 1.2rem;border-radius:6px;font-size:.74rem;cursor:pointer;transition:all .15s}
 .risk-btn:hover{color:var(--tx);border-color:var(--ac)}
 .risk-btn.active{background:var(--ac);color:#000;border-color:var(--ac);font-weight:600}
-.invest-row{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;border-bottom:1px solid rgba(255,255,255,.04);transition:background .15s;gap:1rem}
+.invest-row{display:flex;align-items:flex-start;padding:.75rem 1rem;border-bottom:1px solid rgba(255,255,255,.04);transition:background .15s;gap:.75rem;cursor:pointer}
 .invest-row:hover{background:rgba(79,195,247,.04)}
 .invest-row:last-child{border-bottom:none}
+.invest-score{font-size:1.4rem;font-weight:700;min-width:44px;text-align:center;padding-top:2px}
+.invest-bars{display:flex;gap:3px;align-items:flex-end;height:28px}
 #investContainer{max-width:1200px;margin:0 auto;padding:0 1.5rem}
 </style>
 </head>
@@ -867,17 +869,17 @@ function renderInvestResults() {
     var medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : '';
     var sc = c.score >= 75 ? '#66bb6a' : c.score >= 60 ? '#ffab40' : c.score >= 50 ? '#ff8c00' : '#ff5252';
     
-    html += '<div class="invest-row" onclick="selectCity(\'' + c.city.replace(/'/g, "\\'") + '\');showTab(\'census\')" style="cursor:pointer">';
-    html += '<div style="display:flex;align-items:center;gap:.75rem">';
-    html += '<div style="font-size:1.5rem;font-weight:700;color:' + sc + ';min-width:50px;text-align:center">' + c.score + '</div>';
+    html += '<div class="invest-row" onclick="selectCity(\'' + c.city.replace(/'/g, "\\'") + '\');showTab(\'census\')">';
+    html += '<div class="invest-score" style="color:' + sc + '">' + c.score + '</div>';
     html += '<div style="flex:1;min-width:0">';
     html += '<div style="font-weight:600;color:var(--tx);font-size:.82rem">' + medal + ' ' + cleanCityName(c.city) + ', ' + c.state + '</div>';
-    html += '<div style="font-size:.62rem;color:var(--mu);margin-top:2px">Pop: ' + fmt(c.pop) + ' · Income: $' + fmt(c.income) + ' · Poverty: ' + (c.poverty||0).toFixed(1) + '%</div></div>';
-    html += '<div style="display:flex;gap:4px;flex-shrink:0">';
+    html += '<div style="font-size:.6rem;color:var(--mu);margin-top:2px">' + fmt(c.pop) + ' pop · $' + fmt(c.income) + ' income · ' + (c.poverty||0).toFixed(1) + '% poverty</div>';
+    html += '<div class="invest-bars">';
     [{l:'Crime',v:c.crime,c:'#ff5252'},{l:'Growth',v:c.growth,c:'#66bb6a'},{l:'Income',v:c.incomeScore,c:'#4fc3f7'},{l:'Schools',v:c.schools,c:'#ffab40'},{l:'Edu',v:c.edu,c:'#ce93d8'}].forEach(function(f) {
-      html += '<div title="' + f.l + ': ' + f.v + '" style="width:8px;height:' + Math.max(4,f.v*0.4) + 'px;background:' + f.c + ';border-radius:2px;align-self:flex-end"></div>';
+      var bh = Math.max(4, f.v * 0.3);
+      html += '<div title="' + f.l + ': ' + f.v + '" style="width:10px;height:' + bh + 'px;background:' + f.c + ';border-radius:2px;flex-shrink:0"></div>';
     });
-    html += '</div></div>';
+    html += '</div></div></div>';
   });
   html += '</div>';
   document.getElementById('investResults').innerHTML = html;
