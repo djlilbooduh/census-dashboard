@@ -573,44 +573,6 @@ function renderCrime() {
   html += '<div class="card" style="text-align:center"><div class="big-label">Total Arrests (' + selectedYear + ')</div><div class="big-num" style="font-size:1.8rem">' + fmt(total) + '</div><div class="stat-sub">FBI CDE ' + selectedYear + '</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Male Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#4fc3f7">' + fmt(sex.Male || 0) + '</div><div class="stat-sub">' + malePct.toFixed(1) + '% of arrests</div></div>';
   html += '<div class="card" style="text-align:center"><div class="big-label">Female Arrestees</div><div class="big-num" style="font-size:1.8rem;color:#ffab40">' + fmt(sex.Female || 0) + '</div><div class="stat-sub">' + femalePct.toFixed(1) + '% of arrests</div></div></div>';
-  
-  // Sex Offenses highlight
-  var sexOffenses = yearData.offense_categories ? (yearData.offense_categories['Sex Offenses'] || 0) : (yearData.offenses ? (yearData.offenses['Sex Offenses'] || 0) : 0);
-  var sexRate = (sexOffenses / pop * 1000);
-  var sexPct = total > 0 ? (sexOffenses / total * 100) : 0;
-  if (sexOffenses > 0 || hasMultiYear) {
-    html += '<div class="card" style="max-width:960px;margin:1rem auto;text-align:center;border-color:rgba(206,147,216,.25)"><h2 style="color:#ce93d8">⚠️ Sex Offenses · ' + selectedYear + '</h2>';
-    html += '<div class="grid" style="grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1rem 0">';
-    html += '<div style="text-align:center"><div class="big-num" style="font-size:1.8rem;color:#ce93d8">' + fmt(sexOffenses) + '</div><div class="big-label">Sex Offenses</div></div>';
-    html += '<div style="text-align:center"><div class="big-num" style="font-size:1.8rem;color:#ffab40">' + sexRate.toFixed(1) + '</div><div class="big-label">Rate per 1,000</div></div>';
-    html += '<div style="text-align:center"><div class="big-num" style="font-size:1.8rem;color:' + (sexPct > 5 ? '#ff5252' : 'var(--mu)') + '">' + sexPct.toFixed(1) + '%</div><div class="big-label">of Total Arrests</div></div>';
-    html += '</div>';
-    // Multi-year sex offense trend
-    if (hasMultiYear) {
-      var years = Object.keys(a.years).sort();
-      var sexTotals = years.map(function(y) {
-        var cats = (a.years[y]||{}).offense_categories || (a.years[y]||{}).offenses || {};
-        return cats['Sex Offenses'] || 0;
-      });
-      var sexAny = sexTotals.some(function(v) { return v > 0; });
-      if (sexAny) {
-        html += '<div style="margin-top:.75rem"><div style="font-size:.6rem;color:var(--mu);margin-bottom:.5rem">Sex Offense Trends ' + years[0] + '–' + years[years.length-1] + '</div>';
-        html += '<div style="display:flex;align-items:flex-end;justify-content:center;gap:1.2rem;min-height:80px;padding:0 .5rem">';
-        var maxSex = Math.max.apply(null, sexTotals.concat([1]));
-        years.forEach(function(y, i) {
-          var bH = Math.max(6, (sexTotals[i] / maxSex) * 60);
-          var bColor = sexTotals[i] > (sexTotals[i-1] || 0) ? '#ff5252' : '#66bb6a';
-          html += '<div style="text-align:center;min-width:40px;display:flex;flex-direction:column;align-items:center">';
-          html += '<div style="font-size:.5rem;color:var(--mu);margin-bottom:2px">' + fmt(sexTotals[i]) + '</div>';
-          html += '<div style="width:24px;height:' + bH + 'px;background:' + bColor + ';border-radius:3px 3px 0 0"></div>';
-          html += '<div style="font-size:.45rem;margin-top:2px;color:' + (i>0 ? bColor : 'var(--mu)') + '">' + y + '</div></div>';
-        });
-        html += '</div></div>';
-      }
-    }
-    html += '</div>';
-  }
-  
   const gaugePct = Math.min(100, rateVal / 50 * 100);
   html += '<div class="card" style="max-width:960px;margin:1rem auto;text-align:center"><h2>📊 Arrest Rate Comparison</h2><div style="display:flex;align-items:center;gap:.5rem;margin:1rem 0"><span style="font-size:.65rem;color:#66bb6a;width:40px">Low</span><div style="flex:1;height:16px;background:linear-gradient(to right,#66bb6a,#ffab40,#ff8c00,#ff5252);border-radius:8px;position:relative;overflow:visible"><div style="position:absolute;top:-4px;left:' + gaugePct + '%;width:24px;height:24px;background:#fff;border-radius:50%;border:3px solid ' + rateColor + ';transform:translateX(-50%);box-shadow:0 0 8px ' + rateColor + '"></div></div><span style="font-size:.65rem;color:#ff5252;width:70px;text-align:right">Very High</span></div><div style="display:flex;justify-content:space-between;font-size:.6rem;color:var(--mu);padding:0 44px 0 44px"><span>0</span><span>5</span><span>15</span><span>30</span><span>50+</span></div><p class="stat-sub" style="margin-top:.75rem">' + cleanCityName(currentCity) + ': <strong style="color:' + rateColor + '">' + rateVal.toFixed(1) + ' per 1,000</strong> — ' + rateLabel + '</p></div>';
   const race = yearData.race || {};
