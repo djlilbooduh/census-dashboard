@@ -2,10 +2,452 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="0;url=census_dashboard.html">
-<title>Census Dashboard</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>US Census & Crime Dashboard</title>
+<style>
+:root {
+  --bg: #f5f5f7;
+  --card-bg: #ffffff;
+  --card-shadow: 0 2px 12px rgba(0,0,0,.08);
+  --border: #e5e5ea;
+  --text: #1d1d1f;
+  --muted: #6e6e73;
+  --accent: #0071e3;
+  --accent-light: #e8f0fe;
+  --red: #d32f2f;
+  --green: #2e7d32;
+  --orange: #e65100;
+  --purple: #7b1fa2;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+}
+/* ── Header ── */
+header {
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+header .wrap { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+header h1 { font-size: 1.4rem; font-weight: 700; color: var(--text); }
+header h1 span { color: var(--accent); }
+header .sub { font-size: .78rem; color: var(--muted); }
+/* ── Main layout ── */
+main { max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem; display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem; }
+/* ── Map card ── */
+.map-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  padding: 1rem 1rem .5rem;
+  overflow: hidden;
+}
+.map-card .toolbar {
+  display: flex; align-items: center; gap: .75rem; flex-wrap: wrap;
+  padding: 0 .5rem 1rem; border-bottom: 1px solid var(--border); margin-bottom: .5rem;
+}
+.map-card .toolbar label { font-size: .76rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+.map-card .toolbar select {
+  background: var(--bg); border: 1px solid var(--border); color: var(--text);
+  padding: .4rem .75rem; border-radius: 8px; font-size: .82rem; outline: none; cursor: pointer;
+  font-family: inherit;
+}
+.map-card .toolbar select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
+#map { width: 100%; height: 500px; }
+#map svg { width: 100%; height: 100%; }
+.state-path {
+  stroke: #fff; stroke-width: 1.2px;
+  cursor: pointer; transition: opacity .15s;
+}
+.state-path:hover { opacity: .85; filter: brightness(.9); }
+.state-path.no-data { fill: #e0e0e0 !important; cursor: default; }
+.state-path.no-data:hover { opacity: 1; filter: none; }
+/* ── Legend ── */
+.legend-bar {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .75rem 1rem 0; font-size: .72rem; color: var(--muted);
+}
+.legend-bar .gradient {
+  height: 12px; flex: 1; border-radius: 6px;
+}
+/* ── Sidebar ── */
+.sidebar { display: flex; flex-direction: column; gap: 1rem; }
+.card {
+  background: var(--card-bg); border-radius: 16px;
+  box-shadow: var(--card-shadow); padding: 1.25rem;
+}
+.card h3 { font-size: .72rem; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin-bottom: .75rem; }
+.stat-big { font-size: 2rem; font-weight: 700; color: var(--accent); }
+.stat-label { font-size: .72rem; color: var(--muted); margin-top: .15rem; }
+.stat-row { display: flex; justify-content: space-between; padding: .4rem 0; font-size: .8rem; border-bottom: 1px solid var(--border); }
+.stat-row:last-child { border-bottom: none; }
+.stat-row .key { color: var(--muted); }
+.stat-row .val { font-weight: 600; }
+.stat-na { color: #ccc; font-style: italic; font-size: .8rem; padding: 1rem 0; text-align: center; }
+/* ── Tooltip ── */
+#tooltip {
+  position: absolute; pointer-events: none;
+  background: rgba(0,0,0,.82); color: #fff; padding: .5rem .75rem;
+  border-radius: 8px; font-size: .78rem; opacity: 0; transition: opacity .15s;
+  white-space: nowrap; z-index: 100;
+}
+#tooltip .tt-name { font-weight: 600; font-size: .85rem; }
+#tooltip .tt-val { color: #aaa; font-size: .72rem; margin-top: 2px; }
+/* ── Quick stats ── */
+.quick-stats { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+.quick-stat { text-align: center; padding: .75rem .5rem; background: var(--bg); border-radius: 10px; }
+.quick-stat .num { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
+.quick-stat .lbl { font-size: .64rem; color: var(--muted); margin-top: 2px; text-transform: uppercase; }
+/* ── Footer ── */
+footer { text-align: center; color: var(--muted); padding: 1.5rem; font-size: .7rem; }
+/* ── Responsive ── */
+@media(max-width:768px){
+  main { grid-template-columns: 1fr; }
+  #map { height: 360px; }
+  header .wrap { flex-direction: column; text-align: center; }
+}
+</style>
 </head>
 <body>
-<p>Redirecting to <a href="census_dashboard.html">Census Dashboard</a>...</p>
+
+<header>
+  <div class="wrap">
+    <div>
+      <h1>📊 <span>Census</span> Dashboard</h1>
+      <div class="sub">Interactive data explorer for all 50 states</div>
+    </div>
+    <div class="quick-stats" id="nationalStats">
+      <div class="quick-stat"><div class="num">—</div><div class="lbl">Total Population</div></div>
+      <div class="quick-stat"><div class="num">—</div><div class="lbl">Median Income</div></div>
+      <div class="quick-stat"><div class="num">—</div><div class="lbl">Arrest Rate</div></div>
+      <div class="quick-stat"><div class="num">—</div><div class="lbl">States</div></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="map-card">
+    <div class="toolbar">
+      <label>Metric</label>
+      <select id="metricSelect">
+        <option value="population">Population</option>
+        <option value="median_income">Median Household Income</option>
+        <option value="arrest_rate">Arrest Rate (per 1K)</option>
+        <option value="violent_rate">Violent Crime Rate (per 1K)</option>
+        <option value="property_rate">Property Crime Rate (per 1K)</option>
+        <option value="poverty_pct">Poverty Rate (%)</option>
+        <option value="lean">Political Lean</option>
+      </select>
+    </div>
+    <div id="map"></div>
+    <div class="legend-bar">
+      <span id="legendLow">Low</span>
+      <div class="gradient" id="legendGrad"></div>
+      <span id="legendHigh">High</span>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="card" id="stateCard">
+      <h3>👆 Click a State</h3>
+      <div class="stat-na">Select a state on the map to see details</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.5rem">Data Sources</div>
+      <div style="font-size:.7rem;color:var(--muted);line-height:1.6">
+        US Census ACS 2023<br>
+        FBI CDE Arrest Data 2020–2023<br>
+        Presidential Elections 2016–2024
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>Built with D3.js · Data from US Census Bureau & FBI CDE · <span id="updateDate"></span></footer>
+<div id="tooltip"></div>
+
+<!-- D3 + TopoJSON -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/topojson.v3.min.js"></script>
+<script>
+// ── Load data ──
+const DATA_URL = 'state_aggregates.json';
+const TOPO_URL = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json';
+
+Promise.all([
+  d3.json(DATA_URL),
+  d3.json(TOPO_URL)
+]).then(([stateData, us]) => {
+
+  // ── National stats ──
+  const nat = stateData._national || {};
+  document.getElementById('nationalStats').innerHTML = `
+    <div class="quick-stat"><div class="num">${(nat.total_population/1e6).toFixed(1)}M</div><div class="lbl">Total Population</div></div>
+    <div class="quick-stat"><div class="num">$${fmtK(median(Object.values(stateData).filter(s=>s.population).map(s=>s.median_income).filter(Boolean)))}</div><div class="lbl">Median Income</div></div>
+    <div class="quick-stat"><div class="num">${nat.arrest_rate || '—'}</div><div class="lbl">Nat'l Arrest Rate</div></div>
+    <div class="quick-stat"><div class="num">50</div><div class="lbl">States</div></div>
+  `;
+
+  // ── Map setup ──
+  const states = topojson.feature(us, us.objects.states);
+  const width = document.getElementById('map').clientWidth;
+  const height = 500;
+
+  const svg = d3.select('#map').append('svg')
+    .attr('viewBox', `0 0 ${width} ${height}`)
+    .attr('preserveAspectRatio', 'xMidYMid meet');
+
+  const g = svg.append('g');
+
+  // Albers USA projection
+  const projection = d3.geoAlbersUsa().fitSize([width, height], states);
+  const path = d3.geoPath().projection(projection);
+
+  // State name lookup
+  const fipsToAbbr = {};
+  const abbrToFips = {};
+  // Build lookup from our data
+  const stateLookup = {};
+  for (const [abbr, d] of Object.entries(stateData)) {
+    if (abbr === '_national') continue;
+    stateLookup[abbr] = d;
+  }
+
+  // FIPS → abbreviation map
+  const fipsMap = {
+    '01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT',
+    '10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL',
+    '18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD',
+    '25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE',
+    '32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND',
+    '39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD',
+    '47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV',
+    '55':'WI','56':'WY'
+  };
+  // Reverse
+  for (const [f, a] of Object.entries(fipsMap)) {
+    stateLookup[a] = stateLookup[a] || {};
+    stateLookup[a].fips = f;
+  }
+
+  // ── Color scales ──
+  function getScale(metric) {
+    const vals = Object.values(stateData).filter(s => s.population && s[metric] != null).map(s => s[metric]);
+    // For lean, use categorical
+    if (metric === 'lean') return null;
+
+    // Filter out ridiculous outliers (e.g., HI arrest rate)
+    const sorted = vals.sort((a,b)=>a-b);
+    const q95 = sorted[Math.floor(sorted.length*0.95)];
+    const clean = vals.filter(v => v <= q95 * 3); // Remove 3x outliers
+
+    const min = Math.min(...clean);
+    const max = Math.max(...clean);
+
+    // Choose color scheme
+    let colors;
+    if (metric === 'median_income') {
+      colors = ['#c8e6c9','#2e7d32']; // green
+    } else if (metric.includes('rate') || metric === 'poverty_pct') {
+      colors = ['#ffebee','#c62828']; // red (high = bad)
+    } else if (metric === 'population') {
+      colors = ['#e3f2fd','#1565c0']; // blue
+    } else {
+      colors = ['#f3e5f5','#6a1b9a']; // purple
+    }
+
+    const scale = d3.scaleSequential(d3.interpolateRgb(colors[0], colors[1]))
+      .domain([min, max]);
+
+    return { scale, min, max, colors, domain: [min, max] };
+  }
+
+  let currentMetric = 'population';
+  let currentScale = getScale('population');
+
+  // ── Render states ──
+  function updateMap() {
+    const metric = currentMetric;
+    const sc = getScale(metric);
+
+    // Update paths
+    g.selectAll('path').data(states.features)
+      .join('path')
+      .attr('class', d => {
+        const fips = d.id;
+        const abbr = fipsMap[String(fips).padStart(2,'0')];
+        const sd = abbr ? stateData[abbr] : null;
+        if (!sd || sd[metric] == null || (metric === 'arrest_rate' && sd[metric] === 0 && sd.arrest_cities === 0)) return 'state-path no-data';
+        return 'state-path';
+      })
+      .attr('d', path)
+      .attr('fill', d => {
+        const fips = d.id;
+        const abbr = fipsMap[String(fips).padStart(2,'0')];
+        const sd = abbr ? stateData[abbr] : null;
+        if (!sd) return '#e0e0e0';
+
+        const val = sd[metric];
+
+        if (metric === 'lean') {
+          if (val === 'dem') return '#bbdefb';
+          if (val === 'gop') return '#ffcdd2';
+          return '#e0e0e0';
+        }
+
+        if (val == null) return '#e0e0e0';
+        if (metric === 'arrest_rate' && val === 0 && sd.arrest_cities === 0) return '#e0e0e0';
+
+        // Clamp to domain
+        const domain = sc ? sc.domain : [0, 1];
+        const clamped = Math.max(domain[0], Math.min(domain[1], val));
+        const t = (clamped - domain[0]) / (domain[1] - domain[0]);
+        const interp = d3.interpolateRgb(sc.colors[0], sc.colors[1]);
+        return interp(t);
+      })
+      .on('mouseenter', function(e,d) {
+        const fips = d.id;
+        const abbr = fipsMap[String(fips).padStart(2,'0')];
+        const sd = abbr ? stateData[abbr] : null;
+        if (!sd) return;
+
+        const val = sd[metric];
+        let valStr;
+        if (metric === 'lean') valStr = val === 'dem' ? '🔵 Democrat' : val === 'gop' ? '🔴 Republican' : '—';
+        else if (metric === 'population') valStr = val ? (val/1e6).toFixed(2)+'M' : '—';
+        else if (metric === 'median_income') valStr = val ? '$'+val.toLocaleString() : '—';
+        else if (metric === 'poverty_pct') valStr = val != null ? val+'%' : '—';
+        else valStr = val != null ? val.toFixed(1)+' per 1K' : '—';
+
+        d3.select('#tooltip')
+          .style('opacity', 1)
+          .html(`<div class="tt-name">${sd.name || abbr}</div><div class="tt-val">${valStr}</div>`)
+          .style('left', (e.pageX+12)+'px')
+          .style('top', (e.pageY-40)+'px');
+      })
+      .on('mousemove', function(e) {
+        d3.select('#tooltip')
+          .style('left', (e.pageX+12)+'px')
+          .style('top', (e.pageY-40)+'px');
+      })
+      .on('mouseleave', function() {
+        d3.select('#tooltip').style('opacity', 0);
+      })
+      .on('click', function(e,d) {
+        const fips = d.id;
+        const abbr = fipsMap[String(fips).padStart(2,'0')];
+        if (abbr && stateData[abbr]) {
+          window.location.href = 'census_dashboard.html#' + abbr;
+        }
+      });
+
+    // Update legend
+    updateLegend(sc, metric);
+  }
+
+  function updateLegend(sc, metric) {
+    const grad = document.getElementById('legendGrad');
+    if (metric === 'lean') {
+      grad.style.background = 'linear-gradient(to right, #bbdefb, #e0e0e0, #ffcdd2)';
+      document.getElementById('legendLow').textContent = 'Dem';
+      document.getElementById('legendHigh').textContent = 'GOP';
+    } else if (!sc) {
+      grad.style.background = '#e0e0e0';
+      document.getElementById('legendLow').textContent = 'N/A';
+      document.getElementById('legendHigh').textContent = '';
+    } else {
+      grad.style.background = `linear-gradient(to right, ${sc.colors[0]}, ${sc.colors[1]})`;
+      const [lo, hi] = sc.domain;
+      if (metric === 'population') {
+        document.getElementById('legendLow').textContent = (lo/1e6).toFixed(1)+'M';
+        document.getElementById('legendHigh').textContent = (hi/1e6).toFixed(1)+'M';
+      } else if (metric === 'median_income') {
+        document.getElementById('legendLow').textContent = '$'+fmtK(lo);
+        document.getElementById('legendHigh').textContent = '$'+fmtK(hi);
+      } else if (metric === 'poverty_pct') {
+        document.getElementById('legendLow').textContent = lo+'%';
+        document.getElementById('legendHigh').textContent = hi+'%';
+      } else {
+        document.getElementById('legendLow').textContent = lo.toFixed(1);
+        document.getElementById('legendHigh').textContent = hi.toFixed(1);
+      }
+    }
+  }
+
+  // ── Sidebar click handler ──
+  function selectState(abbr) {
+    const sd = stateData[abbr];
+    if (!sd) return;
+
+    const metric = currentMetric;
+    const val = sd[metric];
+    let valStr;
+    if (metric === 'lean') valStr = val === 'dem' ? '🔵 Democrat' : val === 'gop' ? '🔴 Republican' : '—';
+    else if (metric === 'population') valStr = val ? (val/1e6).toFixed(2)+'M' : '—';
+    else if (metric === 'median_income') valStr = val ? '$'+val.toLocaleString() : '—';
+    else if (metric === 'arrest_rate') valStr = val != null ? val.toFixed(1)+' per 1K' : '—';
+    else if (metric === 'poverty_pct') valStr = val != null ? val+'%' : '—';
+    else valStr = val != null ? val.toFixed(1) : '—';
+
+    document.getElementById('stateCard').innerHTML = `
+      <h3>${sd.name} 📍</h3>
+      <div class="stat-big">${valStr}</div>
+      <div class="stat-label" style="margin-bottom:1rem">${document.getElementById('metricSelect').selectedOptions[0].text}</div>
+      <div class="stat-row"><span class="key">Population</span><span class="val">${sd.population ? sd.population.toLocaleString() : '—'}</span></div>
+      <div class="stat-row"><span class="key">Median Income</span><span class="val">${sd.median_income ? '$'+sd.median_income.toLocaleString() : '—'}</span></div>
+      <div class="stat-row"><span class="key">Poverty Rate</span><span class="val">${sd.poverty_pct != null ? sd.poverty_pct+'%' : '—'}</span></div>
+      <div class="stat-row"><span class="key">Arrest Rate</span><span class="val">${sd.arrest_rate != null ? sd.arrest_rate.toFixed(1)+'/1K' : '—'}</span></div>
+      <div class="stat-row"><span class="key">Political Lean</span><span class="val">${sd.lean === 'dem' ? '🔵 Dem' : sd.lean === 'gop' ? '🔴 GOP' : '—'}</span></div>
+      <button onclick="location.href='census_dashboard.html#${abbr}'" style="
+        margin-top:1rem; width:100%; padding:.55rem; border:none; border-radius:10px;
+        background:var(--accent); color:#fff; font-size:.8rem; font-weight:600;
+        cursor:pointer; font-family:inherit;
+      ">🔍 Explore ${sd.name} →</button>
+    `;
+  }
+
+  // ── Metric change ──
+  document.getElementById('metricSelect').addEventListener('change', function() {
+    currentMetric = this.value;
+    updateMap();
+    document.getElementById('stateCard').innerHTML = '<h3>👆 Click a State</h3><div class="stat-na">Select a state on the map to see details</div>';
+  });
+
+  // Initial render
+  updateMap();
+
+  // ── Handle resize ──
+  window.addEventListener('resize', () => {
+    const w = document.getElementById('map').clientWidth;
+    projection.fitSize([w, height], states);
+    g.selectAll('path').attr('d', path);
+  });
+
+  // Date
+  document.getElementById('updateDate').textContent = 'Updated May 2026';
+
+}).catch(err => {
+  console.error('Load error:', err);
+  document.getElementById('map').innerHTML = '<div style="text-align:center;padding:3rem;color:var(--muted)">⚠️ Could not load map data. Check state_aggregates.json.</div>';
+});
+
+// ── Helpers ──
+function fmtK(n) {
+  if (!n) return '0';
+  if (n >= 1000) return (n/1000).toFixed(0)+'K';
+  return n.toFixed(0);
+}
+function median(arr) {
+  if (!arr.length) return null;
+  const s = arr.slice().sort((a,b)=>a-b);
+  const mid = Math.floor(s.length/2);
+  return s.length%2 ? s[mid] : (s[mid-1]+s[mid])/2;
+}
+</script>
 </body>
 </html>
