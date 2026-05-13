@@ -3,347 +3,368 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>US Census & Crime Dashboard</title>
+<title>Census Dashboard — US Data Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #f5f5f7;
-  --card-bg: #ffffff;
-  --card-shadow: 0 2px 12px rgba(0,0,0,.08);
-  --border: #e5e5ea;
-  --text: #1d1d1f;
-  --muted: #6e6e73;
-  --accent: #0071e3;
-  --accent-light: #e8f0fe;
-  --red: #d32f2f;
-  --green: #2e7d32;
-  --orange: #e65100;
-  --purple: #7b1fa2;
+  --bg: #06060e;
+  --surface: rgba(255,255,255,.04);
+  --surface-hover: rgba(255,255,255,.07);
+  --border: rgba(255,255,255,.08);
+  --border-glow: rgba(99,102,241,.3);
+  --text: #e8e8ed;
+  --text-secondary: #9494a0;
+  --text-muted: #636374;
+  --accent-1: #6366f1;
+  --accent-2: #06b6d4;
+  --accent-3: #a855f7;
+  --accent-4: #f43f5e;
+  --gradient-brand: linear-gradient(135deg, #6366f1, #06b6d4);
+  --gradient-hero: linear-gradient(135deg, #1e1b4b 0%, #0f172a 50%, #1e1b4b 100%);
+  --radius: 16px;
+  --radius-sm: 10px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
+
+/* ── Animated background orbs ── */
+.bg-orbs { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+.bg-orb {
+  position: absolute; border-radius: 50%; filter: blur(120px); opacity: .12;
+  animation: float 20s ease-in-out infinite;
+}
+.bg-orb-1 { width: 600px; height: 600px; background: #6366f1; top: -10%; left: -5%; animation-delay: 0s; }
+.bg-orb-2 { width: 500px; height: 500px; background: #06b6d4; bottom: -10%; right: -5%; animation-delay: -7s; }
+.bg-orb-3 { width: 400px; height: 400px; background: #a855f7; top: 50%; left: 50%; animation-delay: -14s; }
+@keyframes float {
+  0%, 100% { transform: translate(0,0) scale(1); }
+  25% { transform: translate(40px,-30px) scale(1.1); }
+  50% { transform: translate(-20px,20px) scale(.95); }
+  75% { transform: translate(-30px,-10px) scale(1.05); }
+}
+
+.app { position: relative; z-index: 1; }
+
 /* ── Header ── */
 header {
-  background: var(--card-bg);
+  padding: 1.75rem 2rem 1.25rem;
   border-bottom: 1px solid var(--border);
-  padding: 1.5rem 2rem;
-  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  backdrop-filter: blur(20px);
+  background: rgba(6,6,14,.8);
 }
-header .wrap { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
-header h1 { font-size: 1.4rem; font-weight: 700; color: var(--text); }
-header h1 span { color: var(--accent); }
-header .sub { font-size: .78rem; color: var(--muted); }
-/* ── Main layout ── */
-main { max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem; display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem; }
-/* ── Map card ── */
-.map-card {
-  background: var(--card-bg);
-  border-radius: 16px;
-  box-shadow: var(--card-shadow);
-  padding: 1rem 1rem .5rem;
+.header-inner { max-width: 1300px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.25rem; }
+.header-logo { display: flex; align-items: center; gap: .75rem; }
+.header-icon {
+  width: 42px; height: 42px; border-radius: 12px;
+  background: var(--gradient-brand);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem; box-shadow: 0 4px 20px rgba(99,102,241,.3);
+}
+.header-title { font-size: 1.25rem; font-weight: 700; letter-spacing: -.02em; }
+.header-title span { background: var(--gradient-brand); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.header-sub { font-size: .72rem; color: var(--text-muted); margin-top: 1px; }
+.header-stats { display: flex; gap: 1.5rem; }
+.header-stat { text-align: center; }
+.header-stat .num { font-size: 1.4rem; font-weight: 800; letter-spacing: -.02em; background: var(--gradient-brand); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.header-stat .lbl { font-size: .62rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin-top: 2px; }
+
+/* ── Main ── */
+main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; display: grid; grid-template-columns: 1fr 340px; gap: 1.25rem; }
+
+/* ── Map panel ── */
+.map-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   overflow: hidden;
+  backdrop-filter: blur(20px);
 }
-.map-card .toolbar {
-  display: flex; align-items: center; gap: .75rem; flex-wrap: wrap;
-  padding: 0 .5rem 1rem; border-bottom: 1px solid var(--border); margin-bottom: .5rem;
+.map-toolbar {
+  display: flex; align-items: center; gap: .6rem; flex-wrap: wrap;
+  padding: 1rem 1.25rem 0;
 }
-.map-card .toolbar label { font-size: .76rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
-.map-card .toolbar select {
-  background: var(--bg); border: 1px solid var(--border); color: var(--text);
-  padding: .4rem .75rem; border-radius: 8px; font-size: .82rem; outline: none; cursor: pointer;
-  font-family: inherit;
+.map-toolbar .metric-chip {
+  padding: .4rem .85rem; border-radius: 20px; font-size: .74rem; font-weight: 500;
+  border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
+  cursor: pointer; transition: all .2s; font-family: inherit; white-space: nowrap;
 }
-.map-card .toolbar select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
-#map { width: 100%; height: 500px; }
+.map-toolbar .metric-chip:hover { border-color: var(--border-glow); color: var(--text); background: var(--surface-hover); }
+.map-toolbar .metric-chip.active {
+  background: var(--gradient-brand); border-color: transparent; color: #fff; font-weight: 600;
+  box-shadow: 0 2px 12px rgba(99,102,241,.25);
+}
+#map { width: 100%; height: 540px; cursor: pointer; }
 #map svg { width: 100%; height: 100%; }
 .state-path {
-  stroke: #fff; stroke-width: 1.2px;
-  cursor: pointer; transition: opacity .15s;
+  stroke: rgba(6,6,14,.6); stroke-width: 1px;
+  transition: filter .2s, opacity .2s;
+  cursor: pointer;
 }
-.state-path:hover { opacity: .85; filter: brightness(.9); }
-.state-path.no-data { fill: #e0e0e0 !important; cursor: default; }
-.state-path.no-data:hover { opacity: 1; filter: none; }
+.state-path:hover { filter: brightness(1.3) drop-shadow(0 0 6px rgba(99,102,241,.4)); }
+.state-path.no-data { fill: rgba(255,255,255,.03) !important; cursor: default; }
+.state-path.no-data:hover { filter: none; }
 /* ── Legend ── */
-.legend-bar {
-  display: flex; align-items: center; gap: .5rem;
-  padding: .75rem 1rem 0; font-size: .72rem; color: var(--muted);
+.legend-wrap {
+  display: flex; align-items: center; gap: .75rem;
+  padding: .75rem 1.25rem 1.25rem; font-size: .68rem; color: var(--text-muted);
 }
-.legend-bar .gradient {
-  height: 12px; flex: 1; border-radius: 6px;
+.legend-grad {
+  height: 8px; flex: 1; border-radius: 4px; position: relative;
 }
+.legend-grad::after {
+  content: ''; position: absolute; inset: -1px; border-radius: 5px;
+  border: 1px solid rgba(255,255,255,.1); pointer-events: none;
+}
+
 /* ── Sidebar ── */
 .sidebar { display: flex; flex-direction: column; gap: 1rem; }
-.card {
-  background: var(--card-bg); border-radius: 16px;
-  box-shadow: var(--card-shadow); padding: 1.25rem;
+.side-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 1.25rem;
+  backdrop-filter: blur(20px);
+  transition: border-color .3s, box-shadow .3s;
 }
-.card h3 { font-size: .72rem; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin-bottom: .75rem; }
-.stat-big { font-size: 2rem; font-weight: 700; color: var(--accent); }
-.stat-label { font-size: .72rem; color: var(--muted); margin-top: .15rem; }
-.stat-row { display: flex; justify-content: space-between; padding: .4rem 0; font-size: .8rem; border-bottom: 1px solid var(--border); }
-.stat-row:last-child { border-bottom: none; }
-.stat-row .key { color: var(--muted); }
-.stat-row .val { font-weight: 600; }
-.stat-na { color: #ccc; font-style: italic; font-size: .8rem; padding: 1rem 0; text-align: center; }
+.side-card:hover { border-color: var(--border-glow); box-shadow: 0 0 30px rgba(99,102,241,.06); }
+.side-card h3 { font-size: .66rem; text-transform: uppercase; letter-spacing: .06em; color: var(--text-muted); margin-bottom: .75rem; font-weight: 600; }
+.side-card .big-num { font-size: 2.5rem; font-weight: 800; letter-spacing: -.03em; line-height: 1; margin-bottom: .25rem; }
+.side-card .big-num.gradient-text { background: var(--gradient-brand); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.side-card .big-label { font-size: .7rem; color: var(--text-muted); margin-bottom: 1rem; }
+.stat-line { display: flex; justify-content: space-between; align-items: center; padding: .5rem 0; font-size: .8rem; border-bottom: 1px solid rgba(255,255,255,.04); }
+.stat-line:last-child { border-bottom: none; }
+.stat-line .key { color: var(--text-secondary); }
+.stat-line .val { font-weight: 600; color: var(--text); }
+.stat-line .val.dem { color: #818cf8; }
+.stat-line .val.gop { color: #f87171; }
+.placeholder-text { color: var(--text-muted); font-size: .8rem; text-align: center; padding: 1rem 0; }
+.explore-btn {
+  width: 100%; padding: .6rem; border: none; border-radius: var(--radius-sm);
+  background: var(--gradient-brand); color: #fff; font-size: .8rem; font-weight: 600;
+  cursor: pointer; font-family: inherit; margin-top: .75rem;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 2px 12px rgba(99,102,241,.2);
+}
+.explore-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(99,102,241,.35); }
+.explore-btn:active { transform: translateY(0); }
+
+/* ── Detail panel (appears on state click) ── */
+.detail-chips { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: .75rem; }
+.detail-chip {
+  padding: .25rem .6rem; border-radius: 6px; font-size: .66rem; font-weight: 600;
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08);
+  color: var(--text-secondary);
+}
+
 /* ── Tooltip ── */
 #tooltip {
-  position: absolute; pointer-events: none;
-  background: rgba(0,0,0,.82); color: #fff; padding: .5rem .75rem;
-  border-radius: 8px; font-size: .78rem; opacity: 0; transition: opacity .15s;
-  white-space: nowrap; z-index: 100;
+  position: fixed; pointer-events: none;
+  background: rgba(15,15,25,.95); border: 1px solid var(--border-glow);
+  color: #fff; padding: .6rem .85rem;
+  border-radius: 10px; font-size: .76rem; opacity: 0; transition: opacity .15s;
+  white-space: nowrap; z-index: 1000;
+  backdrop-filter: blur(16px); box-shadow: 0 8px 32px rgba(0,0,0,.5);
 }
-#tooltip .tt-name { font-weight: 600; font-size: .85rem; }
-#tooltip .tt-val { color: #aaa; font-size: .72rem; margin-top: 2px; }
-/* ── Quick stats ── */
-.quick-stats { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
-.quick-stat { text-align: center; padding: .75rem .5rem; background: var(--bg); border-radius: 10px; }
-.quick-stat .num { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
-.quick-stat .lbl { font-size: .64rem; color: var(--muted); margin-top: 2px; text-transform: uppercase; }
+#tooltip .tt-name { font-weight: 700; font-size: .85rem; letter-spacing: -.01em; }
+#tooltip .tt-val { color: var(--text-secondary); font-size: .7rem; margin-top: 3px; }
+#tooltip .tt-click { color: var(--text-muted); font-size: .62rem; margin-top: 4px; font-style: italic; }
+
 /* ── Footer ── */
-footer { text-align: center; color: var(--muted); padding: 1.5rem; font-size: .7rem; }
-/* ── Responsive ── */
-@media(max-width:768px){
+footer {
+  text-align: center; color: var(--text-muted); padding: 1.25rem;
+  font-size: .68rem; border-top: 1px solid var(--border);
+}
+
+@media(max-width:900px){
   main { grid-template-columns: 1fr; }
-  #map { height: 360px; }
-  header .wrap { flex-direction: column; text-align: center; }
+  #map { height: 380px; }
+  .header-inner { flex-direction: column; text-align: center; }
+  .header-stats { justify-content: center; width: 100%; }
+  .map-toolbar { overflow-x: auto; flex-wrap: nowrap; padding-bottom: .5rem; }
 }
 </style>
 </head>
 <body>
 
+<div class="bg-orbs">
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+  <div class="bg-orb bg-orb-3"></div>
+</div>
+
+<div class="app">
 <header>
-  <div class="wrap">
-    <div>
-      <h1>📊 <span>Census</span> Dashboard</h1>
-      <div class="sub">Interactive data explorer for all 50 states</div>
+  <div class="header-inner">
+    <div class="header-logo">
+      <div class="header-icon">📊</div>
+      <div>
+        <div class="header-title">US <span>Census</span> Dashboard</div>
+        <div class="header-sub">Interactive data explorer for all 50 states</div>
+      </div>
     </div>
-    <div class="quick-stats" id="nationalStats">
-      <div class="quick-stat"><div class="num">—</div><div class="lbl">Total Population</div></div>
-      <div class="quick-stat"><div class="num">—</div><div class="lbl">Median Income</div></div>
-      <div class="quick-stat"><div class="num">—</div><div class="lbl">Arrest Rate</div></div>
-      <div class="quick-stat"><div class="num">—</div><div class="lbl">States</div></div>
+    <div class="header-stats" id="headerStats">
+      <div class="header-stat"><div class="num">—</div><div class="lbl">Population</div></div>
+      <div class="header-stat"><div class="num">—</div><div class="lbl">Median Income</div></div>
+      <div class="header-stat"><div class="num">—</div><div class="lbl">Crime Rate</div></div>
     </div>
   </div>
 </header>
 
 <main>
-  <div class="map-card">
-    <div class="toolbar">
-      <label>Metric</label>
-      <select id="metricSelect">
-        <option value="population">Population</option>
-        <option value="median_income">Median Household Income</option>
-        <option value="arrest_rate">Arrest Rate (per 1K)</option>
-        <option value="violent_rate">Violent Crime Rate (per 1K)</option>
-        <option value="property_rate">Property Crime Rate (per 1K)</option>
-        <option value="poverty_pct">Poverty Rate (%)</option>
-        <option value="lean">Political Lean</option>
-      </select>
+  <div class="map-panel">
+    <div class="map-toolbar" id="metricChips">
+      <button class="metric-chip active" data-metric="population">Population</button>
+      <button class="metric-chip" data-metric="median_income">Income</button>
+      <button class="metric-chip" data-metric="arrest_rate">Total Crime</button>
+      <button class="metric-chip" data-metric="violent_rate">Violent Crime</button>
+      <button class="metric-chip" data-metric="property_rate">Property Crime</button>
+      <button class="metric-chip" data-metric="poverty_pct">Poverty</button>
+      <button class="metric-chip" data-metric="lean">Politics</button>
     </div>
     <div id="map"></div>
-    <div class="legend-bar">
+    <div class="legend-wrap">
       <span id="legendLow">Low</span>
-      <div class="gradient" id="legendGrad"></div>
+      <div class="legend-grad" id="legendGrad"></div>
       <span id="legendHigh">High</span>
     </div>
   </div>
 
   <div class="sidebar">
-    <div class="card" id="stateCard">
-      <h3>👆 Click a State</h3>
-      <div class="stat-na">Select a state on the map to see details</div>
+    <div class="side-card" id="stateCard">
+      <h3>Select a State</h3>
+      <div class="placeholder-text">Click any state on the map to explore its data</div>
     </div>
-    <div class="card" style="text-align:center">
-      <div style="font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.5rem">Data Sources</div>
-      <div style="font-size:.7rem;color:var(--muted);line-height:1.6">
-        US Census ACS 2023<br>
-        FBI CDE Arrest Data 2020–2023<br>
-        Presidential Elections 2016–2024
-      </div>
+    <div class="side-card" id="quickFacts" style="display:none">
+      <h3>Quick Facts</h3>
+      <div id="quickFactsContent"></div>
     </div>
   </div>
 </main>
 
-<footer>Built with D3.js · Data from US Census Bureau & FBI CDE · <span id="updateDate"></span></footer>
+<footer>
+  US Census ACS 2023 · FBI CDE 2020–2023 · Presidential Elections 2016–2024 · Updated May 2026
+</footer>
+</div>
+
 <div id="tooltip"></div>
 
-<!-- D3 + TopoJSON -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://d3js.org/topojson.v3.min.js"></script>
 <script>
-// ── Load data ──
 const DATA_URL = 'state_aggregates.json';
 const TOPO_URL = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json';
+const METRICS = {
+  population:      { label:'Population', fmt:v=>v?(v/1e6).toFixed(2)+'M':'—', legendFmt:v=>(v/1e6).toFixed(1)+'M' },
+  median_income:   { label:'Median Income', fmt:v=>v?'$'+v.toLocaleString():'—', legendFmt:v=>'$'+(v/1000).toFixed(0)+'K' },
+  arrest_rate:     { label:'Arrest Rate', fmt:v=>v!=null?v.toFixed(1)+'/1K':'—', legendFmt:v=>v.toFixed(1) },
+  violent_rate:    { label:'Violent Crime', fmt:v=>v!=null?v.toFixed(1)+'/1K':'—', legendFmt:v=>v.toFixed(1) },
+  property_rate:   { label:'Property Crime', fmt:v=>v!=null?v.toFixed(1)+'/1K':'—', legendFmt:v=>v.toFixed(1) },
+  poverty_pct:     { label:'Poverty Rate', fmt:v=>v!=null?v+'%':'—', legendFmt:v=>v+'%' },
+  lean:            { label:'Political Lean', fmt:v=>v==='dem'?'🔵 Dem':v==='gop'?'🔴 GOP':'—', legendFmt:v=>v }
+};
 
-Promise.all([
-  d3.json(DATA_URL),
-  d3.json(TOPO_URL)
-]).then(([stateData, us]) => {
+const COLOR_SCHEMES = {
+  population:    ['#312e81','#6366f1','#818cf8','#a5b4fc'],
+  median_income: ['#064e3b','#059669','#34d399','#6ee7b7'],
+  arrest_rate:   ['#450a0a','#dc2626','#f87171','#fecaca'],
+  violent_rate:  ['#4a044e','#a21caf','#d946ef','#f0abfc'],
+  property_rate: ['#431407','#ea580c','#fb923c','#fed7aa'],
+  poverty_pct:   ['#450a0a','#e11d48','#fb7185','#fecdd3'],
+  lean:          ['#312e81','#4f46e5','#dc2626','#991b1b']
+};
 
-  // ── National stats ──
-  const nat = stateData._national || {};
-  document.getElementById('nationalStats').innerHTML = `
-    <div class="quick-stat"><div class="num">${(nat.total_population/1e6).toFixed(1)}M</div><div class="lbl">Total Population</div></div>
-    <div class="quick-stat"><div class="num">$${fmtK(median(Object.values(stateData).filter(s=>s.population).map(s=>s.median_income).filter(Boolean)))}</div><div class="lbl">Median Income</div></div>
-    <div class="quick-stat"><div class="num">${nat.arrest_rate || '—'}</div><div class="lbl">Nat'l Arrest Rate</div></div>
-    <div class="quick-stat"><div class="num">50</div><div class="lbl">States</div></div>
+const FIPS_MAP = {'01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT','10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL','18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD','25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE','32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND','39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD','47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV','55':'WI','56':'WY'};
+
+let stateData, currentMetric='population', selectedAbbr=null;
+
+Promise.all([d3.json(DATA_URL), d3.json(TOPO_URL)]).then(([sd, us]) => {
+  stateData = sd;
+  const nat = sd._national || {};
+
+  // Header stats
+  document.getElementById('headerStats').innerHTML = `
+    <div class="header-stat"><div class="num">${(nat.total_population/1e6).toFixed(1)}M</div><div class="lbl">Population</div></div>
+    <div class="header-stat"><div class="num">$${medVal('median_income')}</div><div class="lbl">Median Income</div></div>
+    <div class="header-stat"><div class="num">${nat.arrest_rate||'—'}</div><div class="lbl">Nat'l Crime Rate</div></div>
   `;
 
-  // ── Map setup ──
+  // Map
   const states = topojson.feature(us, us.objects.states);
-  const width = document.getElementById('map').clientWidth;
-  const height = 500;
-
-  const svg = d3.select('#map').append('svg')
-    .attr('viewBox', `0 0 ${width} ${height}`)
-    .attr('preserveAspectRatio', 'xMidYMid meet');
-
+  const mapEl = document.getElementById('map');
+  const width = mapEl.clientWidth || 900;
+  const height = 540;
+  const svg = d3.select('#map').append('svg').attr('viewBox',`0 0 ${width} ${height}`).attr('preserveAspectRatio','xMidYMid meet');
   const g = svg.append('g');
+  const proj = d3.geoAlbersUsa().fitSize([width, height], states);
+  const path = d3.geoPath().projection(proj);
 
-  // Albers USA projection
-  const projection = d3.geoAlbersUsa().fitSize([width, height], states);
-  const path = d3.geoPath().projection(projection);
-
-  // State name lookup
-  const fipsToAbbr = {};
-  const abbrToFips = {};
-  // Build lookup from our data
-  const stateLookup = {};
-  for (const [abbr, d] of Object.entries(stateData)) {
-    if (abbr === '_national') continue;
-    stateLookup[abbr] = d;
-  }
-
-  // FIPS → abbreviation map
-  const fipsMap = {
-    '01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT',
-    '10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL',
-    '18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD',
-    '25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE',
-    '32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND',
-    '39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD',
-    '47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV',
-    '55':'WI','56':'WY'
-  };
-  // Reverse
-  for (const [f, a] of Object.entries(fipsMap)) {
-    stateLookup[a] = stateLookup[a] || {};
-    stateLookup[a].fips = f;
-  }
-
-  // ── Color scales ──
-  function getScale(metric) {
-    const vals = Object.values(stateData).filter(s => s.population && s[metric] != null).map(s => s[metric]);
-    // For lean, use categorical
+  function buildScale(metric) {
     if (metric === 'lean') return null;
-
-    // Filter out ridiculous outliers (e.g., HI arrest rate)
-    const sorted = vals.sort((a,b)=>a-b);
-    const q95 = sorted[Math.floor(sorted.length*0.95)];
-    const clean = vals.filter(v => v <= q95 * 3); // Remove 3x outliers
-
-    const min = Math.min(...clean);
-    const max = Math.max(...clean);
-
-    // Choose color scheme
-    let colors;
-    if (metric === 'median_income') {
-      colors = ['#c8e6c9','#2e7d32']; // green
-    } else if (metric.includes('rate') || metric === 'poverty_pct') {
-      colors = ['#ffebee','#c62828']; // red (high = bad)
-    } else if (metric === 'population') {
-      colors = ['#e3f2fd','#1565c0']; // blue
-    } else {
-      colors = ['#f3e5f5','#6a1b9a']; // purple
+    const vals = [];
+    for (const [k,v] of Object.entries(sd)) {
+      if (k==='_national'||!v.population) continue;
+      const x = v[metric];
+      if (x!=null && !(metric==='arrest_rate'&&x===0&&v.arrest_cities===0)) vals.push(x);
     }
-
-    const scale = d3.scaleSequential(d3.interpolateRgb(colors[0], colors[1]))
-      .domain([min, max]);
-
-    return { scale, min, max, colors, domain: [min, max] };
+    if (!vals.length) return null;
+    vals.sort((a,b)=>a-b);
+    const lo = vals[0], hi = vals[vals.length-1];
+    // Use p5/p95 for better visual spread
+    const p5 = vals[Math.floor(vals.length*.05)];
+    const p95 = vals[Math.floor(vals.length*.95)];
+    const domain = [lo===hi?lo-1:lo, lo===hi?hi+1:hi];
+    return { domain, clamped: [p5, p95] };
   }
 
-  let currentMetric = 'population';
-  let currentScale = getScale('population');
+  function getColor(metric, val, sdEntry) {
+    if (metric === 'lean') {
+      if (val==='dem') return '#6366f1';
+      if (val==='gop') return '#ef4444';
+      return 'rgba(255,255,255,.04)';
+    }
+    if (val==null || (metric==='arrest_rate'&&val===0&&sdEntry&&sdEntry.arrest_cities===0))
+      return 'rgba(255,255,255,.04)';
+    const sc = buildScale(metric);
+    if (!sc) return 'rgba(255,255,255,.04)';
+    const [lo, hi] = sc.domain;
+    const t = lo===hi ? .5 : Math.max(0, Math.min(1, (val-lo)/(hi-lo)));
+    const colors = COLOR_SCHEMES[metric] || ['#312e81','#a5b4fc'];
+    const stops = colors.length-1;
+    const idx = t*stops;
+    const i0 = Math.min(stops-1, Math.floor(idx));
+    const i1 = Math.min(stops, i0+1);
+    const f = idx-i0;
+    return d3.interpolateRgb(colors[i0], colors[i1])(f);
+  }
 
-  // ── Render states ──
-  function updateMap() {
+  function updateMap(animate=true) {
     const metric = currentMetric;
-    const sc = getScale(metric);
+    const sc = buildScale(metric);
 
-    // Update paths
-    g.selectAll('path').data(states.features)
-      .join('path')
+    const paths = g.selectAll('path').data(states.features, d=>d.id);
+
+    // Enter + update
+    paths.join('path')
       .attr('class', d => {
-        const fips = d.id;
-        const abbr = fipsMap[String(fips).padStart(2,'0')];
-        const sd = abbr ? stateData[abbr] : null;
-        if (!sd || sd[metric] == null || (metric === 'arrest_rate' && sd[metric] === 0 && sd.arrest_cities === 0)) return 'state-path no-data';
+        const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
+        const s = abbr ? sd[abbr] : null;
+        if (!s || s[metric]==null || (metric==='arrest_rate'&&s[metric]===0&&s.arrest_cities===0))
+          return 'state-path no-data';
         return 'state-path';
       })
       .attr('d', path)
+      .transition().duration(animate?600:0)
       .attr('fill', d => {
-        const fips = d.id;
-        const abbr = fipsMap[String(fips).padStart(2,'0')];
-        const sd = abbr ? stateData[abbr] : null;
-        if (!sd) return '#e0e0e0';
-
-        const val = sd[metric];
-
-        if (metric === 'lean') {
-          if (val === 'dem') return '#bbdefb';
-          if (val === 'gop') return '#ffcdd2';
-          return '#e0e0e0';
-        }
-
-        if (val == null) return '#e0e0e0';
-        if (metric === 'arrest_rate' && val === 0 && sd.arrest_cities === 0) return '#e0e0e0';
-
-        // Clamp to domain
-        const domain = sc ? sc.domain : [0, 1];
-        const clamped = Math.max(domain[0], Math.min(domain[1], val));
-        const t = (clamped - domain[0]) / (domain[1] - domain[0]);
-        const interp = d3.interpolateRgb(sc.colors[0], sc.colors[1]);
-        return interp(t);
-      })
-      .on('mouseenter', function(e,d) {
-        const fips = d.id;
-        const abbr = fipsMap[String(fips).padStart(2,'0')];
-        const sd = abbr ? stateData[abbr] : null;
-        if (!sd) return;
-
-        const val = sd[metric];
-        let valStr;
-        if (metric === 'lean') valStr = val === 'dem' ? '🔵 Democrat' : val === 'gop' ? '🔴 Republican' : '—';
-        else if (metric === 'population') valStr = val ? (val/1e6).toFixed(2)+'M' : '—';
-        else if (metric === 'median_income') valStr = val ? '$'+val.toLocaleString() : '—';
-        else if (metric === 'poverty_pct') valStr = val != null ? val+'%' : '—';
-        else valStr = val != null ? val.toFixed(1)+' per 1K' : '—';
-
-        d3.select('#tooltip')
-          .style('opacity', 1)
-          .html(`<div class="tt-name">${sd.name || abbr}</div><div class="tt-val">${valStr}</div>`)
-          .style('left', (e.pageX+12)+'px')
-          .style('top', (e.pageY-40)+'px');
-      })
-      .on('mousemove', function(e) {
-        d3.select('#tooltip')
-          .style('left', (e.pageX+12)+'px')
-          .style('top', (e.pageY-40)+'px');
-      })
-      .on('mouseleave', function() {
-        d3.select('#tooltip').style('opacity', 0);
-      })
-      .on('click', function(e,d) {
-        const fips = d.id;
-        const abbr = fipsMap[String(fips).padStart(2,'0')];
-        if (abbr && stateData[abbr]) {
-          window.location.href = 'census_dashboard.html#' + abbr;
-        }
+        const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
+        const s = abbr ? sd[abbr] : null;
+        return getColor(metric, s?s[metric]:null, s);
       });
 
     // Update legend
@@ -351,102 +372,117 @@ Promise.all([
   }
 
   function updateLegend(sc, metric) {
-    const grad = document.getElementById('legendGrad');
+    const g = document.getElementById('legendGrad');
     if (metric === 'lean') {
-      grad.style.background = 'linear-gradient(to right, #bbdefb, #e0e0e0, #ffcdd2)';
+      g.style.background = 'linear-gradient(to right, #6366f1, rgba(255,255,255,.06), #ef4444)';
       document.getElementById('legendLow').textContent = 'Dem';
       document.getElementById('legendHigh').textContent = 'GOP';
     } else if (!sc) {
-      grad.style.background = '#e0e0e0';
+      g.style.background = 'rgba(255,255,255,.04)';
       document.getElementById('legendLow').textContent = 'N/A';
       document.getElementById('legendHigh').textContent = '';
     } else {
-      grad.style.background = `linear-gradient(to right, ${sc.colors[0]}, ${sc.colors[1]})`;
-      const [lo, hi] = sc.domain;
-      if (metric === 'population') {
-        document.getElementById('legendLow').textContent = (lo/1e6).toFixed(1)+'M';
-        document.getElementById('legendHigh').textContent = (hi/1e6).toFixed(1)+'M';
-      } else if (metric === 'median_income') {
-        document.getElementById('legendLow').textContent = '$'+fmtK(lo);
-        document.getElementById('legendHigh').textContent = '$'+fmtK(hi);
-      } else if (metric === 'poverty_pct') {
-        document.getElementById('legendLow').textContent = lo+'%';
-        document.getElementById('legendHigh').textContent = hi+'%';
-      } else {
-        document.getElementById('legendLow').textContent = lo.toFixed(1);
-        document.getElementById('legendHigh').textContent = hi.toFixed(1);
-      }
+      const colors = COLOR_SCHEMES[metric];
+      g.style.background = `linear-gradient(to right, ${colors[0]}, ${colors[colors.length-1]})`;
+      const mt = METRICS[metric];
+      document.getElementById('legendLow').textContent = mt.legendFmt(sc.domain[0]);
+      document.getElementById('legendHigh').textContent = mt.legendFmt(sc.domain[1]);
     }
   }
 
-  // ── Sidebar click handler ──
-  function selectState(abbr) {
-    const sd = stateData[abbr];
-    if (!sd) return;
+  // ── Interactions ──
+  const tooltip = d3.select('#tooltip');
 
-    const metric = currentMetric;
-    const val = sd[metric];
-    let valStr;
-    if (metric === 'lean') valStr = val === 'dem' ? '🔵 Democrat' : val === 'gop' ? '🔴 Republican' : '—';
-    else if (metric === 'population') valStr = val ? (val/1e6).toFixed(2)+'M' : '—';
-    else if (metric === 'median_income') valStr = val ? '$'+val.toLocaleString() : '—';
-    else if (metric === 'arrest_rate') valStr = val != null ? val.toFixed(1)+' per 1K' : '—';
-    else if (metric === 'poverty_pct') valStr = val != null ? val+'%' : '—';
-    else valStr = val != null ? val.toFixed(1) : '—';
+  g.selectAll('path')
+    .on('mouseenter', function(e,d) {
+      const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
+      const s = abbr ? sd[abbr] : null;
+      if (!s) return;
+      const mt = METRICS[currentMetric];
+      const val = s[currentMetric];
+      const valStr = mt.fmt(val);
+      tooltip.style('opacity',1)
+        .html(`<div class="tt-name">${s.name||abbr}</div><div class="tt-val">${valStr}</div><div class="tt-click">Click to explore →</div>`);
+      d3.select(this).attr('stroke', 'rgba(255,255,255,.3)').attr('stroke-width', 1.5);
+    })
+    .on('mousemove', function(e) {
+      tooltip.style('left',(e.pageX+16)+'px').style('top',(e.pageY-50)+'px');
+    })
+    .on('mouseleave', function() {
+      tooltip.style('opacity',0);
+      d3.select(this).attr('stroke', null).attr('stroke-width', null);
+    })
+    .on('click', function(e,d) {
+      const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
+      if (!abbr || !sd[abbr]) return;
+      selectedAbbr = abbr;
+      showStateDetail(abbr);
+    });
+
+  function showStateDetail(abbr) {
+    const s = sd[abbr];
+    if (!s) return;
+    const mt = METRICS[currentMetric];
+    const val = s[currentMetric];
 
     document.getElementById('stateCard').innerHTML = `
-      <h3>${sd.name} 📍</h3>
-      <div class="stat-big">${valStr}</div>
-      <div class="stat-label" style="margin-bottom:1rem">${document.getElementById('metricSelect').selectedOptions[0].text}</div>
-      <div class="stat-row"><span class="key">Population</span><span class="val">${sd.population ? sd.population.toLocaleString() : '—'}</span></div>
-      <div class="stat-row"><span class="key">Median Income</span><span class="val">${sd.median_income ? '$'+sd.median_income.toLocaleString() : '—'}</span></div>
-      <div class="stat-row"><span class="key">Poverty Rate</span><span class="val">${sd.poverty_pct != null ? sd.poverty_pct+'%' : '—'}</span></div>
-      <div class="stat-row"><span class="key">Arrest Rate</span><span class="val">${sd.arrest_rate != null ? sd.arrest_rate.toFixed(1)+'/1K' : '—'}</span></div>
-      <div class="stat-row"><span class="key">Political Lean</span><span class="val">${sd.lean === 'dem' ? '🔵 Dem' : sd.lean === 'gop' ? '🔴 GOP' : '—'}</span></div>
-      <button onclick="location.href='census_dashboard.html#${abbr}'" style="
-        margin-top:1rem; width:100%; padding:.55rem; border:none; border-radius:10px;
-        background:var(--accent); color:#fff; font-size:.8rem; font-weight:600;
-        cursor:pointer; font-family:inherit;
-      ">🔍 Explore ${sd.name} →</button>
+      <h3>📍 ${s.name || abbr}</h3>
+      <div class="big-num gradient-text">${mt.fmt(val)}</div>
+      <div class="big-label">${mt.label}</div>
+      <div class="detail-chips">
+        <div class="detail-chip">${s.city_count||0} cities</div>
+        ${s.lean ? `<div class="detail-chip">${s.lean==='dem'?'🔵 Dem':'🔴 GOP'}</div>` : ''}
+        ${s.arrest_cities ? `<div class="detail-chip">${s.arrest_cities} police agencies</div>` : ''}
+      </div>
+      <div class="stat-line"><span class="key">Population</span><span class="val">${s.population?s.population.toLocaleString():'—'}</span></div>
+      <div class="stat-line"><span class="key">Median Income</span><span class="val">${s.median_income?'$'+s.median_income.toLocaleString():'—'}</span></div>
+      <div class="stat-line"><span class="key">Poverty Rate</span><span class="val">${s.poverty_pct!=null?s.poverty_pct+'%':'—'}</span></div>
+      <div class="stat-line"><span class="key">Arrest Rate</span><span class="val">${s.arrest_rate!=null?s.arrest_rate.toFixed(1)+'/1K':'—'}</span></div>
+      <div class="stat-line"><span class="key">Violent Crime</span><span class="val">${s.violent_rate!=null?s.violent_rate.toFixed(1)+'/1K':'—'}</span></div>
+      <div class="stat-line"><span class="key">Property Crime</span><span class="val">${s.property_rate!=null?s.property_rate.toFixed(1)+'/1K':'—'}</span></div>
+      <div class="stat-line"><span class="key">Political Lean</span><span class="val ${s.lean==='dem'?'dem':s.lean==='gop'?'gop':''}">${s.lean==='dem'?'Democrat':s.lean==='gop'?'Republican':'—'}</span></div>
+      <button class="explore-btn" onclick="location.href='census_dashboard.html#${abbr}'">Explore ${s.name||abbr} →</button>
     `;
   }
 
-  // ── Metric change ──
-  document.getElementById('metricSelect').addEventListener('change', function() {
-    currentMetric = this.value;
-    updateMap();
-    document.getElementById('stateCard').innerHTML = '<h3>👆 Click a State</h3><div class="stat-na">Select a state on the map to see details</div>';
+  // ── Metric chips ──
+  document.querySelectorAll('.metric-chip').forEach(chip => {
+    chip.addEventListener('click', function() {
+      document.querySelectorAll('.metric-chip').forEach(c=>c.classList.remove('active'));
+      this.classList.add('active');
+      currentMetric = this.dataset.metric;
+      updateMap(true);
+      if (selectedAbbr) showStateDetail(selectedAbbr);
+    });
   });
 
-  // Initial render
-  updateMap();
+  // ── Initial render ──
+  updateMap(false);
 
-  // ── Handle resize ──
+  // Resize
   window.addEventListener('resize', () => {
-    const w = document.getElementById('map').clientWidth;
-    projection.fitSize([w, height], states);
+    const w = mapEl.clientWidth;
+    proj.fitSize([w, height], states);
     g.selectAll('path').attr('d', path);
   });
 
-  // Date
-  document.getElementById('updateDate').textContent = 'Updated May 2026';
-
 }).catch(err => {
   console.error('Load error:', err);
-  document.getElementById('map').innerHTML = '<div style="text-align:center;padding:3rem;color:var(--muted)">⚠️ Could not load map data. Check state_aggregates.json.</div>';
+  document.getElementById('map').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:540px;color:var(--text-muted)">⚠️ Unable to load data. Check console.</div>';
 });
 
-// ── Helpers ──
-function fmtK(n) {
-  if (!n) return '0';
-  if (n >= 1000) return (n/1000).toFixed(0)+'K';
-  return n.toFixed(0);
-}
-function median(arr) {
-  if (!arr.length) return null;
-  const s = arr.slice().sort((a,b)=>a-b);
-  const mid = Math.floor(s.length/2);
-  return s.length%2 ? s[mid] : (s[mid-1]+s[mid])/2;
+function medVal(metric) {
+  const vals = [];
+  for (const [k,v] of Object.entries(stateData||{})) {
+    if (k==='_national') continue;
+    const x = v[metric];
+    if (x!=null&&x>0) vals.push(x);
+  }
+  if (!vals.length) return '—';
+  vals.sort((a,b)=>a-b);
+  const m = vals[Math.floor(vals.length/2)];
+  if (metric==='median_income') return (m/1000).toFixed(0)+'K';
+  return m.toFixed(1);
 }
 </script>
 </body>
