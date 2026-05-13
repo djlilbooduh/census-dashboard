@@ -98,6 +98,13 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 .lunch-high{background:rgba(255,82,82,.15);color:#ff5252}
 .school-charter{font-size:.6rem;padding:2px 6px;border-radius:3px;background:rgba(79,195,247,.12);color:#4fc3f7;font-weight:600}
 .school-grades{font-size:.65rem;color:var(--mu);padding:2px 8px;border-radius:4px;background:rgba(255,255,255,.04)}
+.risk-btn{background:var(--sf);border:1px solid var(--bd);color:var(--mu);padding:.5rem 1.2rem;border-radius:6px;font-size:.74rem;cursor:pointer;transition:all .15s}
+.risk-btn:hover{color:var(--tx);border-color:var(--ac)}
+.risk-btn.active{background:var(--ac);color:#000;border-color:var(--ac);font-weight:600}
+.invest-row{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;border-bottom:1px solid rgba(255,255,255,.04);transition:background .15s;gap:1rem}
+.invest-row:hover{background:rgba(79,195,247,.04)}
+.invest-row:last-child{border-bottom:none}
+#investContainer{max-width:1200px;margin:0 auto;padding:0 1.5rem}
 </style>
 </head>
 <body>
@@ -168,6 +175,7 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
     <div class="tab" onclick="showTab('crime')">🛡️ Crime</div>
     <div class="tab" onclick="showTab('voting')">🗳️ Voting</div>
     <div class="tab" onclick="showTab('schools')">🏫 Schools</div>
+    <div class="tab" onclick="showTab('invest')">💼 Invest</div>
   </div>
   <div class="city-search" style="position:relative;max-width:600px">
     <div style="display:flex;gap:.5rem;align-items:center">
@@ -199,6 +207,9 @@ footer{text-align:center;color:var(--mu);padding:1.5rem;font-size:.68rem;border-
 </div>
 <div id="tabSchools" style="display:none">
   <div id="schoolsContainer"></div>
+</div>
+<div id="tabInvest" style="display:none">
+  <div id="investContainer"></div>
 </div>
 
 <footer>
@@ -308,12 +319,13 @@ async function loadStateData(st) {
     // Restore saved tab visually
     document.querySelectorAll('.tab').forEach(function(t) {
       t.classList.remove('active');
-      if (t.textContent.includes(currentTab === 'census' ? 'Census' : currentTab === 'crime' ? 'Crime' : currentTab === 'voting' ? 'Voting' : 'Schools')) t.classList.add('active');
+      if (t.textContent.includes(currentTab === 'census' ? 'Census' : currentTab === 'crime' ? 'Crime' : currentTab === 'voting' ? 'Voting' : currentTab === 'schools' ? 'Schools' : 'Invest')) t.classList.add('active');
     });
     document.getElementById('tabCensus').style.display = currentTab === 'census' ? '' : 'none';
     document.getElementById('tabCrime').style.display = currentTab === 'crime' ? '' : 'none';
     document.getElementById('tabVoting').style.display = currentTab === 'voting' ? '' : 'none';
     document.getElementById('tabSchools').style.display = currentTab === 'schools' ? '' : 'none';
+    document.getElementById('tabInvest').style.display = currentTab === 'invest' ? '' : 'none';
     saveState();
     window.location.hash = st;
     
@@ -431,6 +443,7 @@ function renderCurrentCity() {
   else if (currentTab === 'crime') renderCrime();
   else if (currentTab === 'voting') renderVoting(currentNationalYear);
   else if (currentTab === 'schools') renderSchools();
+  else if (currentTab === 'invest') renderInvest();
 }
 
 function showTab(tab) {
@@ -438,15 +451,17 @@ function showTab(tab) {
   saveState();
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.tab').forEach(t => {
-    if (t.textContent.includes(tab === 'census' ? 'Census' : tab === 'crime' ? 'Crime' : tab === 'voting' ? 'Voting' : 'Schools')) t.classList.add('active');
+    if (t.textContent.includes(tab === 'census' ? 'Census' : tab === 'crime' ? 'Crime' : tab === 'voting' ? 'Voting' : tab === 'schools' ? 'Schools' : 'Invest')) t.classList.add('active');
   });
   document.getElementById('tabCensus').style.display = tab === 'census' ? '' : 'none';
   document.getElementById('tabCrime').style.display = tab === 'crime' ? '' : 'none';
   document.getElementById('tabVoting').style.display = tab === 'voting' ? '' : 'none';
   document.getElementById('tabSchools').style.display = tab === 'schools' ? '' : 'none';
+  document.getElementById('tabInvest').style.display = tab === 'invest' ? '' : 'none';
   if (currentCity && allCityData[currentCity]) renderCurrentCity();
   if (tab === 'crime' && !crimeLoaded) loadCrimeData();
   if (tab === 'schools' && !schoolsLoaded) loadSchoolData();
+  if (tab === 'invest') renderInvest();
 }
 
 function renderCensus() {
@@ -701,6 +716,171 @@ function gradeLabel(low, high) {
   if (lo) return lo;
   if (hi) return hi;
   return '';
+}
+
+// ============ INVEST TAB — CityScore Engine ============
+
+let investScored = false;
+let investState = 'ALL';
+
+function renderInvest() {
+  var html = '';
+  
+  // Risk tolerance selector
+  html += '<div class="card" style="max-width:700px;margin:1rem auto;text-align:center">';
+  html += '<h2>⚙️ Investment Profile</h2>';
+  html += '<div style="display:flex;justify-content:center;gap:.5rem;margin:1rem 0">';
+  html += '<button class="risk-btn" data-risk="conservative" onclick="setRisk(this)">🛡️ Conservative</button>';
+  html += '<button class="risk-btn active" data-risk="balanced" onclick="setRisk(this)">⚖️ Balanced</button>';
+  html += '<button class="risk-btn" data-risk="aggressive" onclick="setRisk(this)">🚀 Aggressive</button>';
+  html += '</div>';
+  
+  // State filter
+  html += '<div style="margin:1rem 0">';
+  html += '<select id="investState" onchange="investState=this.value;investScored=false" style="background:var(--sf);border:1px solid var(--bd);color:var(--tx);padding:.5rem 1rem;border-radius:6px;font-size:.78rem;max-width:300px">';
+  html += '<option value="ALL">🌎 All 50 States</option>';
+  var stateCodes = Object.keys(STATES).sort();
+  stateCodes.forEach(function(sc) {
+    html += '<option value="' + sc + '"' + (investState === sc ? ' selected' : '') + '>' + STATES[sc] + '</option>';
+  });
+  html += '</select>';
+  html += '<button onclick="scoreCities()" style="margin-left:.5rem;background:var(--ac);color:#000;border:none;padding:.5rem 1.5rem;border-radius:6px;font-size:.78rem;font-weight:600;cursor:pointer">🔍 Score Cities</button>';
+  html += '</div></div>';
+  
+  // Results
+  html += '<div id="investResults"></div>';
+  document.getElementById('investContainer').innerHTML = html;
+  
+  if (investScored) renderInvestResults();
+}
+
+function setRisk(btn) {
+  document.querySelectorAll('.risk-btn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  investScored = false;
+}
+
+function scoreCities() {
+  investScored = true;
+  renderInvestResults();
+}
+
+function renderInvestResults() {
+  var risk = document.querySelector('.risk-btn.active')?.dataset?.risk || 'balanced';
+  var states = investState === 'ALL' ? [currentState] : [investState];
+  if (investState !== 'ALL' && investState !== currentState) {
+    states = [];
+  }
+  
+  // Gather all city data from currently loaded state
+  var cities = [];
+  var cd = allCityData || {};
+  Object.keys(cd).forEach(function(key) {
+    var d = cd[key];
+    if (!d || !d.population || !d.population.total || d.population.total < 5000) return;
+    cities.push({key: key, state: currentState, data: d});
+  });
+  
+  if (cities.length === 0) {
+    document.getElementById('investResults').innerHTML = '<div class="card" style="text-align:center;padding:3rem"><p style="color:var(--mu);margin-bottom:1rem">Select a state from the dropdown above and click Score Cities.</p><p style="color:var(--mu);font-size:.72rem">Load the state first using the main dropdown, then switch to Invest tab.</p></div>';
+    return;
+  }
+  
+  // Compute metrics for each city
+  var scored = cities.map(function(c) {
+    var d = c.data;
+    var pop = d.population?.total || 0;
+    var income = d.economics?.median_household_income || 0;
+    var poverty = d.economics?.poverty_pct || 0;
+    var bachelors = d.education?.bachelors_or_higher || 0;
+    var pop25 = (pop * 0.75) || 1;
+    var eduPct = pop25 > 0 ? (bachelors / pop25 * 100) : 0;
+    
+    // Growth: use population size as proxy (larger cities imply past growth)
+    var growth = Math.min(100, Math.log10(pop) / 6 * 100);
+    
+    // Income score: $0-200K mapped to 0-100
+    var incomeScore = Math.min(100, income / 1000);
+    
+    // Poverty score (inverted): 0% = 100, 40%+ = 0
+    var povertyScore = Math.max(0, 100 - poverty * 2.5);
+    
+    // Education score: 0-50% bachelors mapped to 0-100
+    var eduScore = Math.min(100, eduPct * 2);
+    
+    // Crime score from arrest data
+    var crimeScore = 50;
+    var arrestCity = arrestData && arrestData[c.key];
+    if (arrestCity) {
+      var arrestTotal = 0;
+      if (arrestCity.years) {
+        var years = Object.keys(arrestCity.years).sort();
+        var lastYr = years[years.length - 1];
+        arrestTotal = (arrestCity.years[lastYr] || {}).total_arrests || 0;
+      } else {
+        arrestTotal = arrestCity.total_arrests || 0;
+      }
+      if (arrestTotal > 0) {
+        var crimeRate = arrestTotal / pop * 1000;
+        crimeScore = Math.max(0, 100 - crimeRate * 2);
+      }
+    }
+    
+    // School score from enrollment data
+    var schoolScore = 50;
+    var sk = cleanCityName(c.key).toLowerCase().replace(/[^a-z0-9\s-]/g, '').trim();
+    var citySchools = schoolData[sk];
+    if (citySchools) {
+      var totalEnroll = 0, schoolCount = 0;
+      ['elem','middle','high'].forEach(function(lvl) {
+        (citySchools[lvl] || []).forEach(function(s) {
+          totalEnroll += s.enrollment || 0;
+          schoolCount++;
+        });
+      });
+      if (schoolCount > 0) schoolScore = Math.min(100, totalEnroll / schoolCount / 10 + 30);
+    }
+    
+    // Weights by risk tolerance
+    var w = risk === 'conservative' ? {crime:30, growth:10, income:15, poverty:15, edu:10, schools:20}
+          : risk === 'aggressive' ? {crime:15, growth:30, income:20, poverty:10, edu:10, schools:15}
+          : {crime:25, growth:20, income:20, poverty:10, edu:10, schools:15};
+    
+    var score = crimeScore * w.crime/100 + growth * w.growth/100 + incomeScore * w.income/100
+              + povertyScore * w.poverty/100 + eduScore * w.edu/100 + schoolScore * w.schools/100;
+    
+    return {
+      city: c.key, state: c.state, score: Math.round(score * 10) / 10,
+      pop: pop, income: income, poverty: poverty,
+      crime: Math.round(crimeScore * 10) / 10, growth: Math.round(growth * 10) / 10,
+      edu: Math.round(eduScore * 10) / 10, schools: Math.round(schoolScore * 10) / 10,
+      incomeScore: Math.round(incomeScore * 10) / 10, povertyScore: Math.round(povertyScore * 10) / 10
+    };
+  });
+  
+  scored.sort(function(a, b) { return b.score - a.score; });
+  
+  var html = '<div class="card" style="max-width:960px;margin:1rem auto"><h2>🏆 Top Investment Cities · ' + (risk.charAt(0).toUpperCase() + risk.slice(1)) + '</h2>';
+  html += '<p style="color:var(--mu);font-size:.65rem;margin-bottom:1rem">' + scored.length + ' cities scored in ' + STATES[currentState] + '</p>';
+  
+  scored.slice(0, 25).forEach(function(c, i) {
+    var medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : '';
+    var sc = c.score >= 75 ? '#66bb6a' : c.score >= 60 ? '#ffab40' : c.score >= 50 ? '#ff8c00' : '#ff5252';
+    
+    html += '<div class="invest-row" onclick="selectCity(\'' + c.city.replace(/'/g, "\\'") + '\');showTab(\'census\')" style="cursor:pointer">';
+    html += '<div style="display:flex;align-items:center;gap:.75rem">';
+    html += '<div style="font-size:1.5rem;font-weight:700;color:' + sc + ';min-width:50px;text-align:center">' + c.score + '</div>';
+    html += '<div style="flex:1;min-width:0">';
+    html += '<div style="font-weight:600;color:var(--tx);font-size:.82rem">' + medal + ' ' + cleanCityName(c.city) + ', ' + c.state + '</div>';
+    html += '<div style="font-size:.62rem;color:var(--mu);margin-top:2px">Pop: ' + fmt(c.pop) + ' · Income: $' + fmt(c.income) + ' · Poverty: ' + (c.poverty||0).toFixed(1) + '%</div></div>';
+    html += '<div style="display:flex;gap:4px;flex-shrink:0">';
+    [{l:'Crime',v:c.crime,c:'#ff5252'},{l:'Growth',v:c.growth,c:'#66bb6a'},{l:'Income',v:c.incomeScore,c:'#4fc3f7'},{l:'Schools',v:c.schools,c:'#ffab40'},{l:'Edu',v:c.edu,c:'#ce93d8'}].forEach(function(f) {
+      html += '<div title="' + f.l + ': ' + f.v + '" style="width:8px;height:' + Math.max(4,f.v*0.4) + 'px;background:' + f.c + ';border-radius:2px;align-self:flex-end"></div>';
+    });
+    html += '</div></div>';
+  });
+  html += '</div>';
+  document.getElementById('investResults').innerHTML = html;
 }
 
 // 2024 Electoral College votes by state
@@ -1006,6 +1186,7 @@ function renderCompare() {
   else if (currentTab === 'crime') { if (crimeLoaded) renderCompareCrime(); else { loadCrimeData().then(function() { renderCompareCrime(); }); } }
   else if (currentTab === 'voting') renderCompareVoting();
   else if (currentTab === 'schools') { document.getElementById('schoolsContainer').innerHTML = '<div class="card loading-msg">Compare mode not available for Schools tab</div>'; }
+  else if (currentTab === 'invest') { document.getElementById('investContainer').innerHTML = '<div class="card loading-msg">Compare mode not available for Invest tab</div>'; }
 }
 
 function compareHeader() {
