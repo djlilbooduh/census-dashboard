@@ -350,8 +350,8 @@ Promise.all([d3.json(DATA_URL), d3.json(TOPO_URL)]).then(([sd, us]) => {
 
     const paths = g.selectAll('path').data(states.features, d=>d.id);
 
-    // Enter + update
-    paths.join('path')
+    // Enter + update — bind attrs to merged selection, then transition fill
+    const merged = paths.join('path')
       .attr('class', d => {
         const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
         const s = abbr ? sd[abbr] : null;
@@ -359,12 +359,41 @@ Promise.all([d3.json(DATA_URL), d3.json(TOPO_URL)]).then(([sd, us]) => {
           return 'state-path no-data';
         return 'state-path';
       })
-      .attr('d', path)
-      .transition().duration(animate?600:0)
+      .attr('d', path);
+
+    merged.transition().duration(animate?600:0)
       .attr('fill', d => {
         const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
         const s = abbr ? sd[abbr] : null;
         return getColor(metric, s?s[metric]:null, s);
+      });
+
+    // Bind interactions to merged enter+update selection
+    const tooltip = d3.select('#tooltip');
+    merged
+      .on('mouseenter', function(e,d) {
+        const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
+        const s = abbr ? sd[abbr] : null;
+        if (!s) return;
+        const mt = METRICS[currentMetric];
+        const val = s[currentMetric];
+        const valStr = mt.fmt(val);
+        tooltip.style('opacity',1)
+          .html(`<div class="tt-name">${s.name||abbr}</div><div class="tt-val">${valStr}</div><div class="tt-click">Click to explore →</div>`);
+        d3.select(this).attr('stroke', 'rgba(255,255,255,.3)').attr('stroke-width', 1.5);
+      })
+      .on('mousemove', function(e) {
+        tooltip.style('left',(e.pageX+16)+'px').style('top',(e.pageY-50)+'px');
+      })
+      .on('mouseleave', function() {
+        tooltip.style('opacity',0);
+        d3.select(this).attr('stroke', null).attr('stroke-width', null);
+      })
+      .on('click', function(e,d) {
+        const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
+        if (!abbr || !sd[abbr]) return;
+        selectedAbbr = abbr;
+        showStateDetail(abbr);
       });
 
     // Update legend
@@ -390,34 +419,7 @@ Promise.all([d3.json(DATA_URL), d3.json(TOPO_URL)]).then(([sd, us]) => {
     }
   }
 
-  // ── Interactions ──
-  const tooltip = d3.select('#tooltip');
 
-  g.selectAll('path')
-    .on('mouseenter', function(e,d) {
-      const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
-      const s = abbr ? sd[abbr] : null;
-      if (!s) return;
-      const mt = METRICS[currentMetric];
-      const val = s[currentMetric];
-      const valStr = mt.fmt(val);
-      tooltip.style('opacity',1)
-        .html(`<div class="tt-name">${s.name||abbr}</div><div class="tt-val">${valStr}</div><div class="tt-click">Click to explore →</div>`);
-      d3.select(this).attr('stroke', 'rgba(255,255,255,.3)').attr('stroke-width', 1.5);
-    })
-    .on('mousemove', function(e) {
-      tooltip.style('left',(e.pageX+16)+'px').style('top',(e.pageY-50)+'px');
-    })
-    .on('mouseleave', function() {
-      tooltip.style('opacity',0);
-      d3.select(this).attr('stroke', null).attr('stroke-width', null);
-    })
-    .on('click', function(e,d) {
-      const abbr = FIPS_MAP[String(d.id).padStart(2,'0')];
-      if (!abbr || !sd[abbr]) return;
-      selectedAbbr = abbr;
-      showStateDetail(abbr);
-    });
 
   function showStateDetail(abbr) {
     const s = sd[abbr];
